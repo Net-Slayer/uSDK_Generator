@@ -1,2 +1,3 @@
 # uSDK_Generator
-Parses CheatGear dumps into Unreal C++ Class files
+Parses UE4 Memory dumps into Unreal C++ Class files
+For use in the creation of unofficial SDKs
