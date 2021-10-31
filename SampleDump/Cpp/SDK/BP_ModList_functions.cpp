@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModList.BP_ModList_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ModList_C::Construct()
@@ -37,7 +37,7 @@ void UBP_ModList_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModList.BP_ModList_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ModList_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -55,7 +55,7 @@ void UBP_ModList_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClicke
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModList.BP_ModList_C.ExecuteUbergraph_BP_ModList
 //		Flags  -> (Final)
 // Parameters:

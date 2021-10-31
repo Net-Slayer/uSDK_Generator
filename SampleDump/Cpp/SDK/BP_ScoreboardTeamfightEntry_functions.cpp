@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetText_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_ScoreboardTeamfightEntry_C::GetText_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetColorAndOpacity_3
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FLinearColor UBP_ScoreboardTeamfightEntry_C::GetColorAndOpacity_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetVisibility_4
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ UMG_ESlateVisibility UBP_ScoreboardTeamfightEntry_C::GetVisibility_4()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetColorAndOpacity_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FSlateColor UBP_ScoreboardTeamfightEntry_C::GetColorAndOpacity_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FText UBP_ScoreboardTeamfightEntry_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ UMG_ESlateVisibility UBP_ScoreboardTeamfightEntry_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -173,7 +173,7 @@ UMG_ESlateVisibility UBP_ScoreboardTeamfightEntry_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -195,7 +195,7 @@ UMG_ESlateVisibility UBP_ScoreboardTeamfightEntry_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -217,7 +217,7 @@ struct FSlateColor UBP_ScoreboardTeamfightEntry_C::GetColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetNameColorAndOpacity
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -239,7 +239,7 @@ struct FSlateColor UBP_ScoreboardTeamfightEntry_C::GetNameColorAndOpacity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.GetBackgroundColorAndOpacity
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -261,7 +261,7 @@ struct FLinearColor UBP_ScoreboardTeamfightEntry_C::GetBackgroundColorAndOpacity
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ScoreboardTeamfightEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
@@ -279,7 +279,7 @@ void UBP_ScoreboardTeamfightEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ScoreboardTeamfightEntry_C::Construct()
@@ -297,7 +297,7 @@ void UBP_ScoreboardTeamfightEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.On Refresh
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardTeamfightEntry_C::On_Refresh()
@@ -315,7 +315,7 @@ void UBP_ScoreboardTeamfightEntry_C::On_Refresh()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardTeamfightEntry.BP_ScoreboardTeamfightEntry_C.ExecuteUbergraph_BP_ScoreboardTeamfightEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

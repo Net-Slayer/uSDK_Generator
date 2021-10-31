@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.GiveFists
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_MordhauCharacter_C::GiveFists()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.OnBeforeReceiveWearablePickup
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -59,7 +59,7 @@ void ABP_MordhauCharacter_C::OnBeforeReceiveWearablePickup(class ABP_WearablePic
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.IsAnUpgrade
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void ABP_MordhauCharacter_C::IsAnUpgrade(class ABP_WearablePickup_C* Wearable, b
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.SpawnBloodPoolUnderneath
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void ABP_MordhauCharacter_C::SpawnBloodPoolUnderneath()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.GetOutOfBoundsSubtext
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -126,7 +126,7 @@ void ABP_MordhauCharacter_C::GetOutOfBoundsSubtext(struct FText* Subtext)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.GetOutOfBoundsText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -149,7 +149,7 @@ void ABP_MordhauCharacter_C::GetOutOfBoundsText(struct FText* Header)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.AddRagdollImpulse
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void ABP_MordhauCharacter_C::AddRagdollImpulse(const struct FVector& Impulse, co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.TryClimbing
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -196,7 +196,7 @@ bool ABP_MordhauCharacter_C::TryClimbing()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.CalculateLedgeOffsetAndNormal
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -224,7 +224,7 @@ void ABP_MordhauCharacter_C::CalculateLedgeOffsetAndNormal(class UClimbingMotion
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.AttemptClimb
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -247,7 +247,7 @@ void ABP_MordhauCharacter_C::AttemptClimb(bool* Succeeded)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.FindClimbSpot
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -275,7 +275,7 @@ void ABP_MordhauCharacter_C::FindClimbSpot(float UpwardsCast, bool* Succeeded, s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCharacter_C::UserConstructionScript()
@@ -293,7 +293,7 @@ void ABP_MordhauCharacter_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -314,7 +314,7 @@ void ABP_MordhauCharacter_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_2(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -335,7 +335,7 @@ void ABP_MordhauCharacter_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_1(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauCharacter_C::ReceiveBeginPlay()
@@ -353,7 +353,7 @@ void ABP_MordhauCharacter_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.OnDied
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -386,7 +386,7 @@ void ABP_MordhauCharacter_C::OnDied(float Angle, Mordhau_EMordhauDamageType Type
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.OnCosmeticHit
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -413,7 +413,7 @@ void ABP_MordhauCharacter_C::OnCosmeticHit(Mordhau_EMordhauDamageType DamageType
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.OnPostDismember
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -438,7 +438,7 @@ void ABP_MordhauCharacter_C::OnPostDismember(const struct FName& bone, class ASe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.BndEvt__Thudder_K2Node_ComponentBoundEvent_0_ComponentThudSignature__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void ABP_MordhauCharacter_C::BndEvt__Thudder_K2Node_ComponentBoundEvent_0_ComponentThudSignature__DelegateSignature()
@@ -456,7 +456,7 @@ void ABP_MordhauCharacter_C::BndEvt__Thudder_K2Node_ComponentBoundEvent_0_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.ReplicatedTripWithKnockback
 //		Flags  -> (Net, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCharacter_C::ReplicatedTripWithKnockback()
@@ -474,7 +474,7 @@ void ABP_MordhauCharacter_C::ReplicatedTripWithKnockback()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.OnPostProfileAssigned
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCharacter_C::OnPostProfileAssigned()
@@ -492,7 +492,7 @@ void ABP_MordhauCharacter_C::OnPostProfileAssigned()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.ApplyRagdollForce
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -525,7 +525,7 @@ void ABP_MordhauCharacter_C::ApplyRagdollForce(float Angle, Mordhau_EMordhauDama
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.ServerSetClimbLocation
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -546,7 +546,7 @@ void ABP_MordhauCharacter_C::ServerSetClimbLocation(const struct FVector_NetQuan
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.DebugPossess
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCharacter_C::DebugPossess()
@@ -564,7 +564,7 @@ void ABP_MordhauCharacter_C::DebugPossess()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.SprintingMoveBlockedBy
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -585,7 +585,7 @@ void ABP_MordhauCharacter_C::SprintingMoveBlockedBy(class AActor* BlockedBy)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCharacter.BP_MordhauCharacter_C.ExecuteUbergraph_BP_MordhauCharacter
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

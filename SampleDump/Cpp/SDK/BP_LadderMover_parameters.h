@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -27,19 +27,6 @@ struct ABP_LadderMover_C_OnRep_ReplicatedLadderJump_Params
 // Function BP_LadderMover.BP_LadderMover_C.PerformJumpoff
 struct ABP_LadderMover_C_PerformJumpoff_Params
 {
-};
-
-// Function BP_LadderMover.BP_LadderMover_C.OverrideAttackAngle
-struct ABP_LadderMover_C_OverrideAttackAngle_Params
-{
-	class UAttackMotion*                               Motion;                                                    // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              ReturnValue;                                               // 0x0008(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_LadderMover.BP_LadderMover_C.GetExitTransform
-struct ABP_LadderMover_C_GetExitTransform_Params
-{
-	struct FTransform                                  ReturnValue;                                               // 0x0000(0x0030)  (Parm, OutParm, ReturnParm, IsPlainOldData, NoDestructor)
 };
 
 // Function BP_LadderMover.BP_LadderMover_C.OnRep_Ladder
@@ -293,28 +280,6 @@ struct ABP_LadderMover_C_InpActEvt_Ranged_Cancel_K2Node_InputActionEvent_1_Param
 	struct FKey                                        Key;                                                       // 0x0000(0x0018)  (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
 };
 
-// Function BP_LadderMover.BP_LadderMover_C.OnStoppedDriving
-struct ABP_LadderMover_C_OnStoppedDriving_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_LadderMover.BP_LadderMover_C.UpdateFPCameraFor
-struct ABP_LadderMover_C_UpdateFPCameraFor_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              DeltaSeconds;                                              // 0x0008(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                               bRotationOnly;                                             // 0x000C(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-};
-
-// Function BP_LadderMover.BP_LadderMover_C.UpdateAnimationFor
-struct ABP_LadderMover_C_UpdateAnimationFor_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class UMordhauAnimInstance*                        AnimInst;                                                  // 0x0008(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              DeltaTime;                                                 // 0x0010(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
 // Function BP_LadderMover.BP_LadderMover_C.InpAxisEvt_Look Up_K2Node_InputAxisEvent_23
 struct ABP_LadderMover_C_InpAxisEvt_Look_Up_K2Node_InputAxisEvent_23_Params
 {
@@ -345,11 +310,6 @@ struct ABP_LadderMover_C_ReceiveDestroyed_Params
 
 // Function BP_LadderMover.BP_LadderMover_C.RequestJumpOff
 struct ABP_LadderMover_C_RequestJumpOff_Params
-{
-};
-
-// Function BP_LadderMover.BP_LadderMover_C.OnDriverChanged
-struct ABP_LadderMover_C_OnDriverChanged_Params
 {
 };
 

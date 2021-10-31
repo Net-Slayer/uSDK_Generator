@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0062E970
+//		Offset -> 0x006326D0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.UpdateWorkspaceModifiedPackages
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UMultiUserClientStatics::STATIC_UpdateWorkspaceModifiedPackages()
@@ -38,7 +38,7 @@ void UMultiUserClientStatics::STATIC_UpdateWorkspaceModifiedPackages()
 
 
 // Function:
-//		Offset -> 0x0062E610
+//		Offset -> 0x00632370
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.StartMultiUserDefaultConnection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -61,7 +61,7 @@ bool UMultiUserClientStatics::STATIC_StartMultiUserDefaultConnection()
 
 
 // Function:
-//		Offset -> 0x0062EB40
+//		Offset -> 0x006328A0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.SetMultiUserPresenceVisibilityById
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UMultiUserClientStatics::STATIC_SetMultiUserPresenceVisibilityById(const st
 
 
 // Function:
-//		Offset -> 0x0062EA10
+//		Offset -> 0x00632770
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.SetMultiUserPresenceVisibility
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -113,7 +113,7 @@ void UMultiUserClientStatics::STATIC_SetMultiUserPresenceVisibility(const struct
 
 
 // Function:
-//		Offset -> 0x0062E990
+//		Offset -> 0x006326F0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.SetMultiUserPresenceEnabled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -135,7 +135,7 @@ void UMultiUserClientStatics::STATIC_SetMultiUserPresenceEnabled(bool IsEnabled)
 
 
 // Function:
-//		Offset -> 0x0062E970
+//		Offset -> 0x006326D0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.PersistMultiUserSessionChanges
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UMultiUserClientStatics::STATIC_PersistMultiUserSessionChanges()
@@ -154,7 +154,7 @@ void UMultiUserClientStatics::STATIC_PersistMultiUserSessionChanges()
 
 
 // Function:
-//		Offset -> 0x0062E820
+//		Offset -> 0x00632580
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.JumpToMultiUserPresence
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -178,7 +178,7 @@ void UMultiUserClientStatics::STATIC_JumpToMultiUserPresence(const struct FStrin
 
 
 // Function:
-//		Offset -> 0x0062E740
+//		Offset -> 0x006324A0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetRemoteMultiUserClientInfos
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -205,7 +205,7 @@ bool UMultiUserClientStatics::STATIC_GetRemoteMultiUserClientInfos(TArray<struct
 
 
 // Function:
-//		Offset -> 0x0062E670
+//		Offset -> 0x006323D0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetMultiUserPresenceTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -230,7 +230,7 @@ struct FTransform UMultiUserClientStatics::STATIC_GetMultiUserPresenceTransform(
 
 
 // Function:
-//		Offset -> 0x0062E640
+//		Offset -> 0x006323A0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetMultiUserConnectionStatusDetail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -253,7 +253,7 @@ MultiUserClientLibrary_EMultiUserConnectionStatus UMultiUserClientStatics::STATI
 
 
 // Function:
-//		Offset -> 0x0062E610
+//		Offset -> 0x00632370
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetMultiUserConnectionStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -276,7 +276,7 @@ bool UMultiUserClientStatics::STATIC_GetMultiUserConnectionStatus()
 
 
 // Function:
-//		Offset -> 0x0062E4E0
+//		Offset -> 0x00632240
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetMultiUserClientInfoByName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -305,7 +305,7 @@ bool UMultiUserClientStatics::STATIC_GetMultiUserClientInfoByName(const struct F
 
 
 // Function:
-//		Offset -> 0x0062E3F0
+//		Offset -> 0x00632150
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetLocalMultiUserClientInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -328,7 +328,7 @@ struct FMultiUserClientInfo UMultiUserClientStatics::STATIC_GetLocalMultiUserCli
 
 
 // Function:
-//		Offset -> 0x0062E350
+//		Offset -> 0x006320B0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.GetLastMultiUserConnectionError
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -351,7 +351,7 @@ struct FMultiUserConnectionError UMultiUserClientStatics::STATIC_GetLastMultiUse
 
 
 // Function:
-//		Offset -> 0x0062E280
+//		Offset -> 0x00631FE0
 //		Name   -> Function MultiUserClientLibrary.MultiUserClientStatics.ConfigureMultiUserClient
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

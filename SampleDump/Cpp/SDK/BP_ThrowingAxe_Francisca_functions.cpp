@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ThrowingAxe_Francisca.BP_ThrowingAxe_Francisca_C.ReceiveBeginPlay_2
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ThrowingAxe_Francisca_C::ReceiveBeginPlay_2()
@@ -37,7 +37,7 @@ void UBP_ThrowingAxe_Francisca_C::ReceiveBeginPlay_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ThrowingAxe_Francisca.BP_ThrowingAxe_Francisca_C.ReceiveActorBeginOverlap_2
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ThrowingAxe_Francisca_C::ReceiveActorBeginOverlap_2()
@@ -55,7 +55,7 @@ void UBP_ThrowingAxe_Francisca_C::ReceiveActorBeginOverlap_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ThrowingAxe_Francisca.BP_ThrowingAxe_Francisca_C.ReceiveTick_2
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ThrowingAxe_Francisca_C::ReceiveTick_2()
@@ -73,7 +73,7 @@ void UBP_ThrowingAxe_Francisca_C::ReceiveTick_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ThrowingAxe_Francisca.BP_ThrowingAxe_Francisca_C.ExecuteUbergraph_BP_ThrowingAxe_Francisca
 //		Flags  -> (Final)
 // Parameters:

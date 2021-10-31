@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnRep_PlanterState
 //		Flags  -> (HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_BearTrap_C::OnRep_PlanterState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.CanHeldInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -62,7 +62,7 @@ bool ABP_BearTrap_C::CanHeldInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.ShouldShine
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ bool ABP_BearTrap_C::ShouldShine()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -108,7 +108,7 @@ bool ABP_BearTrap_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.DealDamage
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -129,7 +129,7 @@ void ABP_BearTrap_C::DealDamage(class AAdvancedCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.ValidatePlantSpot
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -165,7 +165,7 @@ void ABP_BearTrap_C::ValidatePlantSpot(const struct FVector& CameraLocation1P, c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnRequestFire
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -189,7 +189,7 @@ bool ABP_BearTrap_C::OnRequestFire(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnLoadedChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_BearTrap_C::OnLoadedChanged()
@@ -207,7 +207,7 @@ void ABP_BearTrap_C::OnLoadedChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.ReceiveActorBeginOverlap
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -228,7 +228,7 @@ void ABP_BearTrap_C::ReceiveActorBeginOverlap(class AActor* OtherActor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.FireProjectile
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -255,7 +255,7 @@ void ABP_BearTrap_C::FireProjectile(const struct FVector& Origin, const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -282,7 +282,7 @@ void ABP_BearTrap_C::ReceiveAnyDamage(float Damage, class UDamageType* DamageTyp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnUsedToKillOther
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -313,7 +313,7 @@ void ABP_BearTrap_C::OnUsedToKillOther(class AAdvancedCharacter* Character, Mord
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnPostDismemberedOther
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -336,7 +336,7 @@ void ABP_BearTrap_C::OnPostDismemberedOther(const struct FName& bone, class ASep
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnAmmoChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_BearTrap_C::OnAmmoChanged()
@@ -354,7 +354,7 @@ void ABP_BearTrap_C::OnAmmoChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.PlanterDied
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -375,7 +375,7 @@ void ABP_BearTrap_C::PlanterDied(class AAdvancedCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.PlanterDestroyed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -396,7 +396,7 @@ void ABP_BearTrap_C::PlanterDestroyed(class AAdvancedCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -417,7 +417,7 @@ void ABP_BearTrap_C::OnInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.OnHeldInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -438,7 +438,7 @@ void ABP_BearTrap_C::OnHeldInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.UpdateEquipmentState
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_BearTrap_C::UpdateEquipmentState()
@@ -456,7 +456,7 @@ void ABP_BearTrap_C::UpdateEquipmentState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.LocalPlayerLateTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -477,7 +477,7 @@ void ABP_BearTrap_C::LocalPlayerLateTick(float DeltaTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BearTrap.BP_BearTrap_C.ExecuteUbergraph_BP_BearTrap
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

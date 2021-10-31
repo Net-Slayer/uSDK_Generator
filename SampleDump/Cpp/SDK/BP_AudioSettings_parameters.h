@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -43,7 +43,7 @@ struct UBP_AudioSettings_C_ApplyVoiceVolume_Params
 struct UBP_AudioSettings_C_IsValueDifferenceValid_Params
 {
 	float                                              NewValue;                                                  // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              PrevValue;                                                 // 0x0004(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                              prevValue;                                                 // 0x0004(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	float                                              minDiff;                                                   // 0x0008(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                               IsValid;                                                   // 0x000C(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };

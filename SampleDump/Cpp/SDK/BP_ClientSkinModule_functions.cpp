@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.LoadBaseWearable
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void ABP_ClientSkinModule_C::LoadBaseWearable(class UMordhauWearable* Original, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.LoadArmorMod
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void ABP_ClientSkinModule_C::LoadArmorMod(class UClass* Original, class UClass* 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.LoadEquipmentMod
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -90,7 +90,7 @@ void ABP_ClientSkinModule_C::LoadEquipmentMod(class UClass* Original, class UCla
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.OnLoaded_7CA5D0824242E059BD51108157053CF2
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -111,7 +111,7 @@ void ABP_ClientSkinModule_C::OnLoaded_7CA5D0824242E059BD51108157053CF2(class UCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.OnLoaded_9D71FB2249394B73E0244BADAB9B1DF0
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -132,7 +132,7 @@ void ABP_ClientSkinModule_C::OnLoaded_9D71FB2249394B73E0244BADAB9B1DF0(class UCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_ClientSkinModule_C::ReceiveBeginPlay()
@@ -150,7 +150,7 @@ void ABP_ClientSkinModule_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientSkinModule.BP_ClientSkinModule_C.ExecuteUbergraph_BP_ClientSkinModule
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

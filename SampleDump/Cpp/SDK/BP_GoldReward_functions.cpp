@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GoldReward.BP_GoldReward_C.Get_EarnedGoldText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_GoldReward_C::Get_EarnedGoldText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GoldReward.BP_GoldReward_C.BeginGoldAnimation
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GoldReward_C::BeginGoldAnimation()
@@ -59,7 +59,7 @@ void UBP_GoldReward_C::BeginGoldAnimation()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GoldReward.BP_GoldReward_C.MergeGold
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GoldReward_C::MergeGold()
@@ -77,7 +77,7 @@ void UBP_GoldReward_C::MergeGold()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GoldReward.BP_GoldReward_C.ExecuteUbergraph_BP_GoldReward
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

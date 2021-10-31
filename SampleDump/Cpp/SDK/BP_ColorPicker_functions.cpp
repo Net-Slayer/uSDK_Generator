@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.CloseColorPicker
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ColorPicker_C::CloseColorPicker()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.SetColorsAndIndex
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_ColorPicker_C::SetColorsAndIndex(TArray<class UClass*>* Colors, int Ind
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.GetSelectedColors
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_ColorPicker_C::GetSelectedColors(TArray<class UClass*>* Colors)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.SetIndex
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_ColorPicker_C::SetIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.GetSelectedIndex
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -130,7 +130,7 @@ void UBP_ColorPicker_C::GetSelectedIndex(int* Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.SetColors
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -153,7 +153,7 @@ void UBP_ColorPicker_C::SetColors(TArray<class UClass*>* Colors)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_ColorPicker_C::OnClicked(int ColorIndex)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.BndEvt__ImageButton_K2Node_ComponentBoundEvent_10201_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ColorPicker_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_10201_OnButtonClickedEvent__DelegateSignature()
@@ -192,7 +192,7 @@ void UBP_ColorPicker_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_10201_OnB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnHovered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -213,7 +213,7 @@ void UBP_ColorPicker_C::OnHovered(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.UpdatePreviewColor
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -234,7 +234,7 @@ void UBP_ColorPicker_C::UpdatePreviewColor(const struct FLinearColor& Color)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnColsed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ColorPicker_C::OnColsed()
@@ -252,7 +252,7 @@ void UBP_ColorPicker_C::OnColsed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.ExecuteUbergraph_BP_ColorPicker
 //		Flags  -> (Final)
 // Parameters:
@@ -273,7 +273,7 @@ void UBP_ColorPicker_C::ExecuteUbergraph_BP_ColorPicker(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnColorPickerClosed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -294,7 +294,7 @@ void UBP_ColorPicker_C::OnColorPickerClosed__DelegateSignature(int LstSelectedCo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnColorHovered__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -315,7 +315,7 @@ void UBP_ColorPicker_C::OnColorHovered__DelegateSignature(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPicker.BP_ColorPicker_C.OnColorClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

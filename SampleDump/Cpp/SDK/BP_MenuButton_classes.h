@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -32,11 +32,11 @@ public:
 	struct FSlateBrush                                 DeselectedStyle;                                           // 0x0268(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FSlateBrush                                 SelectedStyle;                                             // 0x02F0(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               bIsSelected;                                               // 0x0378(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_67VQ[0x7];                                     // 0x0379(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_RWJ3[0x7];                                     // 0x0379(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FSlateBrush                                 Style;                                                     // 0x0380(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FScriptMulticastDelegate                    OnSelected;                                                // 0x0408(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	int                                                Index;                                                     // 0x0418(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_WI7X[0x4];                                     // 0x041C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_XMNG[0x4];                                     // 0x041C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<class UBP_MenuButton_C*>                    OtherButtons;                                              // 0x0420(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference, HasGetValueTypeHash)
 
 

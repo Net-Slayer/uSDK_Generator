@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0309AC30
+//		Offset -> 0x030A5C20
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ResetFieldSystem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UFieldSystemComponent::ResetFieldSystem()
@@ -38,7 +38,7 @@ void UFieldSystemComponent::ResetFieldSystem()
 
 
 // Function:
-//		Offset -> 0x0309AA80
+//		Offset -> 0x030A5A70
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyUniformVectorFalloffForce
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -68,7 +68,7 @@ void UFieldSystemComponent::ApplyUniformVectorFalloffForce(bool Enabled, const s
 
 
 // Function:
-//		Offset -> 0x0309A8D0
+//		Offset -> 0x030A58C0
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyStrainField
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -98,7 +98,7 @@ void UFieldSystemComponent::ApplyStrainField(bool Enabled, const struct FVector&
 
 
 // Function:
-//		Offset -> 0x0309A7B0
+//		Offset -> 0x030A57A0
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyStayDynamicField
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -124,7 +124,7 @@ void UFieldSystemComponent::ApplyStayDynamicField(bool Enabled, const struct FVe
 
 
 // Function:
-//		Offset -> 0x0309A640
+//		Offset -> 0x030A5630
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyRadialVectorFalloffForce
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -152,7 +152,7 @@ void UFieldSystemComponent::ApplyRadialVectorFalloffForce(bool Enabled, const st
 
 
 // Function:
-//		Offset -> 0x0309A520
+//		Offset -> 0x030A5510
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyRadialForce
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -178,7 +178,7 @@ void UFieldSystemComponent::ApplyRadialForce(bool Enabled, const struct FVector&
 
 
 // Function:
-//		Offset -> 0x0309A3D0
+//		Offset -> 0x030A53C0
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyPhysicsField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -206,7 +206,7 @@ void UFieldSystemComponent::ApplyPhysicsField(bool Enabled, TEnumAsByte<FieldSys
 
 
 // Function:
-//		Offset -> 0x0309A2B0
+//		Offset -> 0x030A52A0
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.ApplyLinearForce
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -232,7 +232,7 @@ void UFieldSystemComponent::ApplyLinearForce(bool Enabled, const struct FVector&
 
 
 // Function:
-//		Offset -> 0x0309A160
+//		Offset -> 0x030A5150
 //		Name   -> Function FieldSystemEngine.FieldSystemComponent.AddFieldCommand
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -260,7 +260,7 @@ void UFieldSystemComponent::AddFieldCommand(bool Enabled, TEnumAsByte<FieldSyste
 
 
 // Function:
-//		Offset -> 0x0309AF80
+//		Offset -> 0x030A5F70
 //		Name   -> Function FieldSystemEngine.FieldSystemMetaDataIteration.SetMetaDataIteration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -285,7 +285,7 @@ class UFieldSystemMetaDataIteration* UFieldSystemMetaDataIteration::SetMetaDataI
 
 
 // Function:
-//		Offset -> 0x0309B010
+//		Offset -> 0x030A6000
 //		Name   -> Function FieldSystemEngine.FieldSystemMetaDataProcessingResolution.SetMetaDataaProcessingResolutionType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -310,7 +310,7 @@ class UFieldSystemMetaDataProcessingResolution* UFieldSystemMetaDataProcessingRe
 
 
 // Function:
-//		Offset -> 0x0309AF80
+//		Offset -> 0x030A5F70
 //		Name   -> Function FieldSystemEngine.UniformInteger.SetUniformInteger
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -335,7 +335,7 @@ class UUniformInteger* UUniformInteger::SetUniformInteger(int Magnitude)
 
 
 // Function:
-//		Offset -> 0x0309B810
+//		Offset -> 0x030A6800
 //		Name   -> Function FieldSystemEngine.RadialIntMask.SetRadialIntMask
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -368,7 +368,7 @@ class URadialIntMask* URadialIntMask::SetRadialIntMask(float Radius, const struc
 
 
 // Function:
-//		Offset -> 0x0309BAB0
+//		Offset -> 0x030A6AA0
 //		Name   -> Function FieldSystemEngine.UniformScalar.SetUniformScalar
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -393,7 +393,7 @@ class UUniformScalar* UUniformScalar::SetUniformScalar(float Magnitude)
 
 
 // Function:
-//		Offset -> 0x0309B5F0
+//		Offset -> 0x030A65E0
 //		Name   -> Function FieldSystemEngine.RadialFalloff.SetRadialFalloff
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -430,7 +430,7 @@ class URadialFalloff* URadialFalloff::SetRadialFalloff(float Magnitude, float Mi
 
 
 // Function:
-//		Offset -> 0x0309B370
+//		Offset -> 0x030A6360
 //		Name   -> Function FieldSystemEngine.PlaneFalloff.SetPlaneFalloff
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -469,7 +469,7 @@ class UPlaneFalloff* UPlaneFalloff::SetPlaneFalloff(float Magnitude, float MinRa
 
 
 // Function:
-//		Offset -> 0x0309AC50
+//		Offset -> 0x030A5C40
 //		Name   -> Function FieldSystemEngine.BoxFalloff.SetBoxFalloff
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -504,7 +504,7 @@ class UBoxFalloff* UBoxFalloff::SetBoxFalloff(float Magnitude, float MinRange, f
 
 
 // Function:
-//		Offset -> 0x0309B0A0
+//		Offset -> 0x030A6090
 //		Name   -> Function FieldSystemEngine.NoiseField.SetNoiseField
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -533,7 +533,7 @@ class UNoiseField* UNoiseField::SetNoiseField(float MinRange, float MaxRange, co
 
 
 // Function:
-//		Offset -> 0x0309B9D0
+//		Offset -> 0x030A69C0
 //		Name   -> Function FieldSystemEngine.UniformVector.SetUniformVector
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -560,7 +560,7 @@ class UUniformVector* UUniformVector::SetUniformVector(float Magnitude, const st
 
 
 // Function:
-//		Offset -> 0x0309B9D0
+//		Offset -> 0x030A69C0
 //		Name   -> Function FieldSystemEngine.RadialVector.SetRadialVector
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -587,7 +587,7 @@ class URadialVector* URadialVector::SetRadialVector(float Magnitude, const struc
 
 
 // Function:
-//		Offset -> 0x0309BAB0
+//		Offset -> 0x030A6AA0
 //		Name   -> Function FieldSystemEngine.RandomVector.SetRandomVector
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -612,7 +612,7 @@ class URandomVector* URandomVector::SetRandomVector(float Magnitude)
 
 
 // Function:
-//		Offset -> 0x0309B220
+//		Offset -> 0x030A6210
 //		Name   -> Function FieldSystemEngine.OperatorField.SetOperatorField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -643,7 +643,7 @@ class UOperatorField* UOperatorField::SetOperatorField(float Magnitude, class UF
 
 
 // Function:
-//		Offset -> 0x0309BB70
+//		Offset -> 0x030A6B60
 //		Name   -> Function FieldSystemEngine.ToIntegerField.SetToIntegerField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -668,7 +668,7 @@ class UToIntegerField* UToIntegerField::SetToIntegerField(class UFieldNodeFloat*
 
 
 // Function:
-//		Offset -> 0x0309BB70
+//		Offset -> 0x030A6B60
 //		Name   -> Function FieldSystemEngine.ToFloatField.SetToFloatField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -693,7 +693,7 @@ class UToFloatField* UToFloatField::SetToFloatField(class UFieldNodeInt* Integer
 
 
 // Function:
-//		Offset -> 0x0309AE80
+//		Offset -> 0x030A5E70
 //		Name   -> Function FieldSystemEngine.CullingField.SetCullingField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -722,7 +722,7 @@ class UCullingField* UCullingField::SetCullingField(class UFieldNodeBase* Cullin
 
 
 // Function:
-//		Offset -> 0x0309BB40
+//		Offset -> 0x030A6B30
 //		Name   -> Function FieldSystemEngine.ReturnResultsTerminal.SetReturnResultsTerminal
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:

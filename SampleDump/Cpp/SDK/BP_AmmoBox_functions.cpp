@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,26 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-void ABP_AmmoBox_C::UpdateWidgetVisibilityOverride()
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride");
-
-	ABP_AmmoBox_C_UpdateWidgetVisibilityOverride_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -62,7 +43,26 @@ bool ABP_AmmoBox_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+void ABP_AmmoBox_C::UpdateWidgetVisibilityOverride()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride");
+
+	ABP_AmmoBox_C_UpdateWidgetVisibilityOverride_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.Restock
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -83,7 +83,7 @@ void ABP_AmmoBox_C::Restock(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.AvailableInteractionStart
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -104,7 +104,7 @@ void ABP_AmmoBox_C::AvailableInteractionStart(class AMordhauCharacter* Character
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.Deplete
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -125,7 +125,7 @@ void ABP_AmmoBox_C::Deplete(class APlayerState* PlayerState)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.Refill
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_AmmoBox_C::Refill()
@@ -143,7 +143,7 @@ void ABP_AmmoBox_C::Refill()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AmmoBox.BP_AmmoBox_C.ExecuteUbergraph_BP_AmmoBox
 //		Flags  -> (Final)
 // Parameters:

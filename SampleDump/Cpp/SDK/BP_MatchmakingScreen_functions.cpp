@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.Get_Rules_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_MatchmakingScreen_C::Get_Rules_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.CreatePartyMatch
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -62,7 +62,7 @@ void UBP_MatchmakingScreen_C::CreatePartyMatch(const struct FString& QueueName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetPartyMatchmakingTickts
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -85,7 +85,7 @@ void UBP_MatchmakingScreen_C::GetPartyMatchmakingTickts(TMap<struct FString, str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetQueuesToJoin
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -108,7 +108,7 @@ void UBP_MatchmakingScreen_C::GetQueuesToJoin(TArray<struct FString>* QueueNames
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetBackButtonVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -130,7 +130,7 @@ UMG_ESlateVisibility UBP_MatchmakingScreen_C::GetBackButtonVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetSearchButtonVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -152,7 +152,7 @@ UMG_ESlateVisibility UBP_MatchmakingScreen_C::GetSearchButtonVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.IsMatchLeaderInParty
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -175,7 +175,7 @@ void UBP_MatchmakingScreen_C::IsMatchLeaderInParty(bool* IsInParty)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetGameModeAndSlotCount
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -203,7 +203,7 @@ void UBP_MatchmakingScreen_C::GetGameModeAndSlotCount(const struct FString& Queu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetQueueNames
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -226,7 +226,7 @@ void UBP_MatchmakingScreen_C::GetQueueNames(TArray<struct FString>* _)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetPlayerCounts
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -251,7 +251,7 @@ void UBP_MatchmakingScreen_C::GetPlayerCounts(const struct FString& GameMode, TA
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.SetMatchmakingGameModes
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -274,7 +274,7 @@ void UBP_MatchmakingScreen_C::SetMatchmakingGameModes(TArray<struct FString>* In
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetMatchmakingGameModes
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -297,7 +297,7 @@ void UBP_MatchmakingScreen_C::GetMatchmakingGameModes(TArray<struct FString>* Re
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetDebugTextBoxVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -319,7 +319,7 @@ UMG_ESlateVisibility UBP_MatchmakingScreen_C::GetDebugTextBoxVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.IsPlayerPartyLeader
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -342,7 +342,7 @@ void UBP_MatchmakingScreen_C::IsPlayerPartyLeader(bool* IsLeader)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetSearchFailureReason
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -364,7 +364,7 @@ struct FText UBP_MatchmakingScreen_C::GetSearchFailureReason()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.AddDebugMessage
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -387,7 +387,7 @@ void UBP_MatchmakingScreen_C::AddDebugMessage(const struct FString& Message, boo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.GetSelectedGameModes
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -410,7 +410,7 @@ void UBP_MatchmakingScreen_C::GetSelectedGameModes(TArray<struct FString>* GameM
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.CanPlayerSearch
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -433,7 +433,7 @@ void UBP_MatchmakingScreen_C::CanPlayerSearch(bool* bCanSearch)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_672628444615C28A9006F0ACD500AEE3
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -454,7 +454,7 @@ void UBP_MatchmakingScreen_C::OnFailure_672628444615C28A9006F0ACD500AEE3(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_672628444615C28A9006F0ACD500AEE3
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -475,7 +475,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_672628444615C28A9006F0ACD500AEE3(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_672628444615C28A9006F0AC56DE6ED4
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -496,7 +496,7 @@ void UBP_MatchmakingScreen_C::OnFailure_672628444615C28A9006F0AC56DE6ED4(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_672628444615C28A9006F0AC56DE6ED4
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -517,7 +517,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_672628444615C28A9006F0AC56DE6ED4(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_344C14AC4FC53B61568784B01C6B576E
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -538,7 +538,7 @@ void UBP_MatchmakingScreen_C::OnFailure_344C14AC4FC53B61568784B01C6B576E(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_344C14AC4FC53B61568784B01C6B576E
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -559,7 +559,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_344C14AC4FC53B61568784B01C6B576E(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_60F7531743547A48C86D09A814CDA395
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -580,7 +580,7 @@ void UBP_MatchmakingScreen_C::OnFailure_60F7531743547A48C86D09A814CDA395(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_60F7531743547A48C86D09A814CDA395
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -601,7 +601,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_60F7531743547A48C86D09A814CDA395(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_8E9A20E64A29269662D6C4B29B196A96
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -622,7 +622,7 @@ void UBP_MatchmakingScreen_C::OnFailure_8E9A20E64A29269662D6C4B29B196A96(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_8E9A20E64A29269662D6C4B29B196A96
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -643,7 +643,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_8E9A20E64A29269662D6C4B29B196A96(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_0F9B3B6544DF9CE6B1EFA7B4E638F24A
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -664,7 +664,7 @@ void UBP_MatchmakingScreen_C::OnFailure_0F9B3B6544DF9CE6B1EFA7B4E638F24A(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_0F9B3B6544DF9CE6B1EFA7B4E638F24A
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -685,7 +685,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_0F9B3B6544DF9CE6B1EFA7B4E638F24A(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_672628444615C28A9006F0ACCA1EB912
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -706,7 +706,7 @@ void UBP_MatchmakingScreen_C::OnFailure_672628444615C28A9006F0ACCA1EB912(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_672628444615C28A9006F0ACCA1EB912
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -727,7 +727,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_672628444615C28A9006F0ACCA1EB912(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_672628444615C28A9006F0AC1A1DFF46
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -748,7 +748,7 @@ void UBP_MatchmakingScreen_C::OnFailure_672628444615C28A9006F0AC1A1DFF46(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_672628444615C28A9006F0AC1A1DFF46
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -769,7 +769,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_672628444615C28A9006F0AC1A1DFF46(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_8E9A20E64A29269662D6C4B2D5D232B2
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -790,7 +790,7 @@ void UBP_MatchmakingScreen_C::OnFailure_8E9A20E64A29269662D6C4B2D5D232B2(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_8E9A20E64A29269662D6C4B2D5D232B2
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -811,7 +811,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_8E9A20E64A29269662D6C4B2D5D232B2(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_67F6983E4A4400B48FA2EA924013F6EF
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -832,7 +832,7 @@ void UBP_MatchmakingScreen_C::OnFailure_67F6983E4A4400B48FA2EA924013F6EF(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_67F6983E4A4400B48FA2EA924013F6EF
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -853,7 +853,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_67F6983E4A4400B48FA2EA924013F6EF(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_B0A1AA9741161B5376ACF5B7683DAF0E
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -880,7 +880,7 @@ void UBP_MatchmakingScreen_C::OnFailure_B0A1AA9741161B5376ACF5B7683DAF0E(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_B0A1AA9741161B5376ACF5B7683DAF0E
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -907,7 +907,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_B0A1AA9741161B5376ACF5B7683DAF0E(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_C9398F5545CC7EBA29C50D98595DDA52
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -928,7 +928,7 @@ void UBP_MatchmakingScreen_C::OnFailure_C9398F5545CC7EBA29C50D98595DDA52(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_C9398F5545CC7EBA29C50D98595DDA52
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -949,7 +949,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_C9398F5545CC7EBA29C50D98595DDA52(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_803BB389473F1682ABB0D18EB08C27B6
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnFailure_803BB389473F1682ABB0D18EB08C27B6()
@@ -967,7 +967,7 @@ void UBP_MatchmakingScreen_C::OnFailure_803BB389473F1682ABB0D18EB08C27B6()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_803BB389473F1682ABB0D18EB08C27B6
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnSuccess_803BB389473F1682ABB0D18EB08C27B6()
@@ -985,7 +985,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_803BB389473F1682ABB0D18EB08C27B6()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_EAE6415A4E9D4278139810AFF2CA6E91
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1006,7 +1006,7 @@ void UBP_MatchmakingScreen_C::OnFailure_EAE6415A4E9D4278139810AFF2CA6E91(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_EAE6415A4E9D4278139810AFF2CA6E91
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1027,7 +1027,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_EAE6415A4E9D4278139810AFF2CA6E91(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_769A86204547BF36B6EE2F887D997169
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1056,7 +1056,7 @@ void UBP_MatchmakingScreen_C::OnFailure_769A86204547BF36B6EE2F887D997169(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_769A86204547BF36B6EE2F887D997169
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1085,7 +1085,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_769A86204547BF36B6EE2F887D997169(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_593B3DE445187D64F38A78AC7464E5BF
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1106,7 +1106,7 @@ void UBP_MatchmakingScreen_C::OnFailure_593B3DE445187D64F38A78AC7464E5BF(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_593B3DE445187D64F38A78AC7464E5BF
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1127,7 +1127,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_593B3DE445187D64F38A78AC7464E5BF(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_850913F04E7E28DE6BBF3BB67BE5C4E5
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1148,7 +1148,7 @@ void UBP_MatchmakingScreen_C::OnFailure_850913F04E7E28DE6BBF3BB67BE5C4E5(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_850913F04E7E28DE6BBF3BB67BE5C4E5
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1169,7 +1169,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_850913F04E7E28DE6BBF3BB67BE5C4E5(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_0698FD2E4159E23FE2230DA18E150DBD
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1192,7 +1192,7 @@ void UBP_MatchmakingScreen_C::OnFailure_0698FD2E4159E23FE2230DA18E150DBD(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_0698FD2E4159E23FE2230DA18E150DBD
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1215,7 +1215,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_0698FD2E4159E23FE2230DA18E150DBD(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_E36938C940390430D770FA897A0E77CD
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1236,7 +1236,7 @@ void UBP_MatchmakingScreen_C::OnFailure_E36938C940390430D770FA897A0E77CD(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_E36938C940390430D770FA897A0E77CD
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1257,7 +1257,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_E36938C940390430D770FA897A0E77CD(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_B742674A43952F3CD1897591AB8CAF21
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1280,7 +1280,7 @@ void UBP_MatchmakingScreen_C::OnFailure_B742674A43952F3CD1897591AB8CAF21(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_B742674A43952F3CD1897591AB8CAF21
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1303,7 +1303,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_B742674A43952F3CD1897591AB8CAF21(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_527F32434AB11E7ADC849FB48EB7AE48
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnFailure_527F32434AB11E7ADC849FB48EB7AE48()
@@ -1321,7 +1321,7 @@ void UBP_MatchmakingScreen_C::OnFailure_527F32434AB11E7ADC849FB48EB7AE48()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFull_527F32434AB11E7ADC849FB48EB7AE48
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnFull_527F32434AB11E7ADC849FB48EB7AE48()
@@ -1339,7 +1339,7 @@ void UBP_MatchmakingScreen_C::OnFull_527F32434AB11E7ADC849FB48EB7AE48()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_527F32434AB11E7ADC849FB48EB7AE48
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnSuccess_527F32434AB11E7ADC849FB48EB7AE48()
@@ -1357,7 +1357,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_527F32434AB11E7ADC849FB48EB7AE48()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_F52C3F6641F7B816D62418B84AA964CB
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1378,7 +1378,7 @@ void UBP_MatchmakingScreen_C::OnFailure_F52C3F6641F7B816D62418B84AA964CB(TArray<
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_F52C3F6641F7B816D62418B84AA964CB
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1399,7 +1399,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_F52C3F6641F7B816D62418B84AA964CB(TArray<
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnFailure_A776E9454B061B5288E2CFA61D35F10E
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnFailure_A776E9454B061B5288E2CFA61D35F10E()
@@ -1417,7 +1417,7 @@ void UBP_MatchmakingScreen_C::OnFailure_A776E9454B061B5288E2CFA61D35F10E()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSuccess_A776E9454B061B5288E2CFA61D35F10E
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnSuccess_A776E9454B061B5288E2CFA61D35F10E()
@@ -1435,7 +1435,7 @@ void UBP_MatchmakingScreen_C::OnSuccess_A776E9454B061B5288E2CFA61D35F10E()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__SearchButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__SearchButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -1453,7 +1453,7 @@ void UBP_MatchmakingScreen_C::BndEvt__SearchButton_K2Node_ComponentBoundEvent_0_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.UpdateWidgets
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::UpdateWidgets()
@@ -1471,7 +1471,7 @@ void UBP_MatchmakingScreen_C::UpdateWidgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_MatchmakingScreen_C::Construct()
@@ -1489,7 +1489,7 @@ void UBP_MatchmakingScreen_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.StartSearch
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::StartSearch()
@@ -1507,7 +1507,7 @@ void UBP_MatchmakingScreen_C::StartSearch()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.CancelSearch
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::CancelSearch()
@@ -1525,7 +1525,7 @@ void UBP_MatchmakingScreen_C::CancelSearch()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.StartSearchTimer
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::StartSearchTimer()
@@ -1543,7 +1543,7 @@ void UBP_MatchmakingScreen_C::StartSearchTimer()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.TickSearch
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::TickSearch()
@@ -1561,7 +1561,7 @@ void UBP_MatchmakingScreen_C::TickSearch()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__RegionComboBox_K2Node_ComponentBoundEvent_1_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1584,7 +1584,7 @@ void UBP_MatchmakingScreen_C::BndEvt__RegionComboBox_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.UpdatePartyValues
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::UpdatePartyValues()
@@ -1602,7 +1602,7 @@ void UBP_MatchmakingScreen_C::UpdatePartyValues()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSelectionChanged
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1623,7 +1623,7 @@ void UBP_MatchmakingScreen_C::OnSelectionChanged(bool bIsSelected)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnPartyUpdated
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1644,7 +1644,7 @@ void UBP_MatchmakingScreen_C::OnPartyUpdated(TArray<struct FPlayFabPlayer> Party
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnOkClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnOkClicked()
@@ -1662,7 +1662,7 @@ void UBP_MatchmakingScreen_C::OnOkClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnMatchmakingRegionsDetermined
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1685,7 +1685,7 @@ void UBP_MatchmakingScreen_C::OnMatchmakingRegionsDetermined(MordhauOnlineSubsys
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.OnSearchFailureDialogOkClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::OnSearchFailureDialogOkClicked()
@@ -1703,7 +1703,7 @@ void UBP_MatchmakingScreen_C::OnSearchFailureDialogOkClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__BP_GameModeCategory_K2Node_ComponentBoundEvent_4_Clicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__BP_GameModeCategory_K2Node_ComponentBoundEvent_4_Clicked__DelegateSignature()
@@ -1721,7 +1721,7 @@ void UBP_MatchmakingScreen_C::BndEvt__BP_GameModeCategory_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__BP_GameModeCategory_0_K2Node_ComponentBoundEvent_5_Clicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__BP_GameModeCategory_0_K2Node_ComponentBoundEvent_5_Clicked__DelegateSignature()
@@ -1739,7 +1739,7 @@ void UBP_MatchmakingScreen_C::BndEvt__BP_GameModeCategory_0_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.Switch to ranked tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::Switch_to_ranked_tab()
@@ -1757,7 +1757,7 @@ void UBP_MatchmakingScreen_C::Switch_to_ranked_tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
@@ -1775,7 +1775,7 @@ void UBP_MatchmakingScreen_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_6_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__BP_DuelGameModeEntry_K2Node_ComponentBoundEvent_7_OnHover__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__BP_DuelGameModeEntry_K2Node_ComponentBoundEvent_7_OnHover__DelegateSignature()
@@ -1793,7 +1793,7 @@ void UBP_MatchmakingScreen_C::BndEvt__BP_DuelGameModeEntry_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__BP_TeamFightGameModeEntry_K2Node_ComponentBoundEvent_8_OnHover__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__BP_TeamFightGameModeEntry_K2Node_ComponentBoundEvent_8_OnHover__DelegateSignature()
@@ -1811,7 +1811,7 @@ void UBP_MatchmakingScreen_C::BndEvt__BP_TeamFightGameModeEntry_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.RestartSearch
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingScreen_C::RestartSearch()
@@ -1829,7 +1829,7 @@ void UBP_MatchmakingScreen_C::RestartSearch()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MatchmakingScreen_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -1847,7 +1847,7 @@ void UBP_MatchmakingScreen_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_2_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.BndEvt__RankedRegionComboBox_K2Node_ComponentBoundEvent_3_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1870,7 +1870,7 @@ void UBP_MatchmakingScreen_C::BndEvt__RankedRegionComboBox_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingScreen.BP_MatchmakingScreen_C.ExecuteUbergraph_BP_MatchmakingScreen
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

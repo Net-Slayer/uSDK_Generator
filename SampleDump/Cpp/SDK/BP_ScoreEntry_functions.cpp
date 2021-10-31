@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreEntry.BP_ScoreEntry_C.UpdatePointsText
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ScoreEntry_C::UpdatePointsText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreEntry.BP_ScoreEntry_C.Initialize
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void UBP_ScoreEntry_C::Initialize(float StartingPoints, const struct FString& In
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreEntry.BP_ScoreEntry_C.AddPoints
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_ScoreEntry_C::AddPoints(float InPoints)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreEntry.BP_ScoreEntry_C.WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1
 //		Flags  -> (BlueprintEvent)
 void UBP_ScoreEntry_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1()
@@ -104,7 +104,7 @@ void UBP_ScoreEntry_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreEntry.BP_ScoreEntry_C.ExecuteUbergraph_BP_ScoreEntry
 //		Flags  -> (Final)
 // Parameters:

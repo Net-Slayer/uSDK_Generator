@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_GenericEndScreen_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.GetText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_GenericEndScreen_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.ShowScoreboard
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericEndScreen_C::ShowScoreboard()
@@ -81,7 +81,7 @@ void UBP_GenericEndScreen_C::ShowScoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.HideScoreboard
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericEndScreen_C::HideScoreboard()
@@ -99,7 +99,7 @@ void UBP_GenericEndScreen_C::HideScoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_0_ButtonSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericEndScreen_C::BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_0_ButtonSelected__DelegateSignature()
@@ -117,7 +117,7 @@ void UBP_GenericEndScreen_C::BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_0_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.BndEvt__MapVoteTab_K2Node_ComponentBoundEvent_2_ButtonSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericEndScreen_C::BndEvt__MapVoteTab_K2Node_ComponentBoundEvent_2_ButtonSelected__DelegateSignature()
@@ -135,7 +135,7 @@ void UBP_GenericEndScreen_C::BndEvt__MapVoteTab_K2Node_ComponentBoundEvent_2_But
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_3_ButtonDeselected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericEndScreen_C::BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_3_ButtonDeselected__DelegateSignature()
@@ -153,7 +153,7 @@ void UBP_GenericEndScreen_C::BndEvt__ScoreboardTab_K2Node_ComponentBoundEvent_3_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.ShowEndScreen
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericEndScreen_C::ShowEndScreen()
@@ -171,7 +171,7 @@ void UBP_GenericEndScreen_C::ShowEndScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericEndScreen.BP_GenericEndScreen_C.ExecuteUbergraph_BP_GenericEndScreen
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

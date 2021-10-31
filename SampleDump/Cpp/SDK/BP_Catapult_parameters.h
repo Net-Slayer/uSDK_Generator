@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -59,14 +59,6 @@ struct ABP_Catapult_C_InpActEvt_Raise_Catapult_Arm_K2Node_InputActionEvent_2_Par
 struct ABP_Catapult_C_InpActEvt_Lower_Catapult_Arm_K2Node_InputActionEvent_1_Params
 {
 	struct FKey                                        Key;                                                       // 0x0000(0x0018)  (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
-};
-
-// Function BP_Catapult.BP_Catapult_C.UpdateFPCameraFor
-struct ABP_Catapult_C_UpdateFPCameraFor_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              DeltaSeconds;                                              // 0x0008(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	bool                                               bRotationOnly;                                             // 0x000C(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 
 // Function BP_Catapult.BP_Catapult_C.ReceiveUnpossessed

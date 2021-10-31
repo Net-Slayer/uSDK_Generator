@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -26,7 +26,7 @@ class UMagicLeapLightingTrackingComponent : public UActorComponent
 public:
 	bool                                               UseGlobalAmbience;                                         // 0x00B0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               UseColorTemp;                                              // 0x00B1(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EMH6[0xE];                                     // 0x00B2(0x000E) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_B9RV[0xE];                                     // 0x00B2(0x000E) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

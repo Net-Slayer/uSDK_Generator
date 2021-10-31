@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00A393A0
+//		Offset -> 0x00A3D680
 //		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValueForKey
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -46,7 +46,7 @@ struct FString UDatasmithContentBlueprintLibrary::STATIC_GetDatasmithUserDataVal
 
 
 // Function:
-//		Offset -> 0x00A391E0
+//		Offset -> 0x00A3D4C0
 //		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataKeysAndValuesForValue
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -77,7 +77,7 @@ void UDatasmithContentBlueprintLibrary::STATIC_GetDatasmithUserDataKeysAndValues
 
 
 // Function:
-//		Offset -> 0x00A39160
+//		Offset -> 0x00A3D440
 //		Name   -> Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -102,7 +102,7 @@ class UDatasmithAssetUserData* UDatasmithContentBlueprintLibrary::STATIC_GetData
 
 
 // Function:
-//		Offset -> 0x00A394B0
+//		Offset -> 0x00A3D790
 //		Name   -> Function DatasmithContent.DatasmithImportedSequencesActor.PlayLevelSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

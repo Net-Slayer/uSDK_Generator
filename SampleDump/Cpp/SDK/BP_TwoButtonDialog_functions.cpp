@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.GetRightButtonText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_TwoButtonDialog_C::GetRightButtonText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.Get_LeftButtonText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_TwoButtonDialog_C::Get_LeftButtonText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_TwoButtonDialog_C::Construct()
@@ -81,7 +81,7 @@ void UBP_TwoButtonDialog_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoButtonDialog_C::BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButtonClickedEvent__DelegateSignature()
@@ -99,7 +99,7 @@ void UBP_TwoButtonDialog_C::BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.BndEvt__RightButton_K2Node_ComponentBoundEvent_204_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoButtonDialog_C::BndEvt__RightButton_K2Node_ComponentBoundEvent_204_OnButtonClickedEvent__DelegateSignature()
@@ -117,7 +117,7 @@ void UBP_TwoButtonDialog_C::BndEvt__RightButton_K2Node_ComponentBoundEvent_204_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_TwoButtonDialog_C::Show()
@@ -135,7 +135,7 @@ void UBP_TwoButtonDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_TwoButtonDialog_C::Hide()
@@ -153,7 +153,7 @@ void UBP_TwoButtonDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.ExecuteUbergraph_BP_TwoButtonDialog
 //		Flags  -> (Final)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_TwoButtonDialog_C::ExecuteUbergraph_BP_TwoButtonDialog(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.RightButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_TwoButtonDialog_C::RightButtonClicked__DelegateSignature()
@@ -192,7 +192,7 @@ void UBP_TwoButtonDialog_C::RightButtonClicked__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoButtonDialog.BP_TwoButtonDialog_C.LeftButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_TwoButtonDialog_C::LeftButtonClicked__DelegateSignature()

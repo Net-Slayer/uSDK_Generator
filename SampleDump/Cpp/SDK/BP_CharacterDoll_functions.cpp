@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CharacterDoll.BP_CharacterDoll_C.AssumePreviewPose
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_CharacterDoll_C::AssumePreviewPose(int Random)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CharacterDoll.BP_CharacterDoll_C.GiveFists
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_CharacterDoll_C::GiveFists()
@@ -58,7 +58,7 @@ void ABP_CharacterDoll_C::GiveFists()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CharacterDoll.BP_CharacterDoll_C.ExecuteUbergraph_BP_CharacterDoll
 //		Flags  -> (Final)
 // Parameters:

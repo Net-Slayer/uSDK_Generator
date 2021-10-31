@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TimerOverlay_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_TimerOverlay_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TimerText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_ProfileCustomization_C::Get_TimerText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_AddNewProfileButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_AddNewProfileButton_Visibil
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetProfileModificationButtonsVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::GetProfileModificationButtonsVi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TextBlock_8_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FText UBP_ProfileCustomization_C::Get_TextBlock_8_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_RegularCustomization_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_RegularCustomization_Visibi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.SetArmoryState
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_ProfileCustomization_C::SetArmoryState(TEnumAsByte<E_ArmoryStates_E_Arm
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -196,7 +196,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PointInfoElement_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -218,7 +218,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_PointInfoElement_Visibility
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.RibbonCostVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -240,7 +240,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::RibbonCostVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_NameRibbonSizeBox_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -262,7 +262,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_NameRibbonSizeBox_Visibilit
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_EquipmentSlotButtons_Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -284,7 +284,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_EquipmentSlotButtons_Visibi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_Skills_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -306,7 +306,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_Skills_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_CloneRenameDeleteAvailable
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -328,7 +328,7 @@ bool UBP_ProfileCustomization_C::Get_CloneRenameDeleteAvailable()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.CompareToSavedProfile
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -351,7 +351,7 @@ void UBP_ProfileCustomization_C::CompareToSavedProfile(bool* AreProfilesEqual)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_SpawnButtonOverlay_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -373,7 +373,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_SpawnButtonOverlay_Visibili
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_MenuToggleButtonOverlay_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -395,7 +395,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_MenuToggleButtonOverlay_Vis
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_ArmorProtectionBarStatic_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -417,7 +417,7 @@ float UBP_ProfileCustomization_C::Get_ArmorProtectionBarStatic_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_MovementSpeedBarStatic_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -439,7 +439,7 @@ float UBP_ProfileCustomization_C::Get_MovementSpeedBarStatic_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_AdditionalPointsBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -461,7 +461,7 @@ float UBP_ProfileCustomization_C::Get_AdditionalPointsBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetAllPointCosts
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -505,7 +505,7 @@ void UBP_ProfileCustomization_C::GetAllPointCosts(int* Current_Points, int* Equi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_NotEnoughPointsBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -527,7 +527,7 @@ float UBP_ProfileCustomization_C::Get_NotEnoughPointsBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PointInfoElement_ToolTipText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -549,7 +549,7 @@ struct FText UBP_ProfileCustomization_C::Get_PointInfoElement_ToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_CurrentPoints_ColorAndOpacity_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -571,7 +571,7 @@ struct FSlateColor UBP_ProfileCustomization_C::Get_CurrentPoints_ColorAndOpacity
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_CurrentPoints_Text_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -593,7 +593,7 @@ struct FText UBP_ProfileCustomization_C::Get_CurrentPoints_Text_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_Image_17_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -615,7 +615,7 @@ struct FLinearColor UBP_ProfileCustomization_C::Get_Image_17_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -637,7 +637,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_SaveButtonOverlay_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -659,7 +659,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_SaveButtonOverlay_Visibilit
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.CloseMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -678,7 +678,7 @@ void UBP_ProfileCustomization_C::CloseMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_ArmorAmountBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -700,7 +700,7 @@ float UBP_ProfileCustomization_C::Get_ArmorAmountBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.UpdateArmorBreakdownButtonStyle
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -721,7 +721,7 @@ void UBP_ProfileCustomization_C::UpdateArmorBreakdownButtonStyle(Mordhau_EWearab
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.UpdateGearBreakdownButtonStyle
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -742,7 +742,7 @@ void UBP_ProfileCustomization_C::UpdateGearBreakdownButtonStyle(int Slot)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ResetBreakdownButtonStyles
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -761,7 +761,7 @@ void UBP_ProfileCustomization_C::ResetBreakdownButtonStyles()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_Legs_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -783,7 +783,7 @@ struct FText UBP_ProfileCustomization_C::Get_Legs_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_Torso_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -805,7 +805,7 @@ struct FText UBP_ProfileCustomization_C::Get_Torso_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_Helmet_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -827,7 +827,7 @@ struct FText UBP_ProfileCustomization_C::Get_Helmet_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.DisplayEquipmentSelectionList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -848,7 +848,7 @@ void UBP_ProfileCustomization_C::DisplayEquipmentSelectionList(class UBP_Equipme
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.DisplayWearableSelectionList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -869,7 +869,7 @@ void UBP_ProfileCustomization_C::DisplayWearableSelectionList(Mordhau_EWearableS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_CurrentPoints_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -891,7 +891,7 @@ struct FSlateColor UBP_ProfileCustomization_C::Get_CurrentPoints_ColorAndOpacity
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_MovementSpeedBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -913,7 +913,7 @@ float UBP_ProfileCustomization_C::Get_MovementSpeedBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PointsLeft_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -935,7 +935,7 @@ float UBP_ProfileCustomization_C::Get_PointsLeft_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TertiaryWeaponText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -957,7 +957,7 @@ struct FText UBP_ProfileCustomization_C::Get_TertiaryWeaponText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_SecondaryWeaponText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -979,7 +979,7 @@ struct FText UBP_ProfileCustomization_C::Get_SecondaryWeaponText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PrimaryWeaponText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1001,7 +1001,7 @@ struct FText UBP_ProfileCustomization_C::Get_PrimaryWeaponText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.SetLoadoutRibbonStyle
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1024,7 +1024,7 @@ void UBP_ProfileCustomization_C::SetLoadoutRibbonStyle(bool Active, bool Hover)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Unselect Main Tabs
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1043,7 +1043,7 @@ void UBP_ProfileCustomization_C::Unselect_Main_Tabs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Set Ribbon Text Name to selected profile's name
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::Set_Ribbon_Text_Name_to_selected_profiles_name()
@@ -1061,7 +1061,7 @@ void UBP_ProfileCustomization_C::Set_Ribbon_Text_Name_to_selected_profiles_name(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_RibbonText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1083,7 +1083,7 @@ struct FText UBP_ProfileCustomization_C::Get_RibbonText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.SetPointCostBreakdownEntries
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1102,7 +1102,7 @@ void UBP_ProfileCustomization_C::SetPointCostBreakdownEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TertiaryCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1124,7 +1124,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_TertiaryCost_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_SecondaryCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1146,7 +1146,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_SecondaryCost_Visibility_1(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PrimaryCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1168,7 +1168,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_PrimaryCost_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_LegsCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1190,7 +1190,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_LegsCost_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TorsoCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1212,7 +1212,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_TorsoCost_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_HelmetCost_Visibility_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1234,7 +1234,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::Get_HelmetCost_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TorsoCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1256,7 +1256,7 @@ struct FText UBP_ProfileCustomization_C::Get_TorsoCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_LegsCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1278,7 +1278,7 @@ struct FText UBP_ProfileCustomization_C::Get_LegsCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_SecondaryCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1300,7 +1300,7 @@ struct FText UBP_ProfileCustomization_C::Get_SecondaryCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TertiaryCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1322,7 +1322,7 @@ struct FText UBP_ProfileCustomization_C::Get_TertiaryCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_PrimaryCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1344,7 +1344,7 @@ struct FText UBP_ProfileCustomization_C::Get_PrimaryCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetCostEquipmentSlot
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1372,7 +1372,7 @@ void UBP_ProfileCustomization_C::GetCostEquipmentSlot(int Slot, int* Cost, struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetCostArmorSlot
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1400,7 +1400,7 @@ void UBP_ProfileCustomization_C::GetCostArmorSlot(Mordhau_EWearableSlot Slot, in
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_HelmetCost_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1422,7 +1422,7 @@ struct FText UBP_ProfileCustomization_C::Get_HelmetCost_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_TotalPoints_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1444,7 +1444,7 @@ struct FText UBP_ProfileCustomization_C::Get_TotalPoints_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Get_CurrentPoints_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1466,7 +1466,7 @@ struct FText UBP_ProfileCustomization_C::Get_CurrentPoints_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.SaveFunction
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1487,7 +1487,7 @@ void UBP_ProfileCustomization_C::SaveFunction(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetColorAndOpacity_3
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1509,7 +1509,7 @@ struct FSlateColor UBP_ProfileCustomization_C::GetColorAndOpacity_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetColorAndOpacity_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1531,7 +1531,7 @@ struct FSlateColor UBP_ProfileCustomization_C::GetColorAndOpacity_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1553,7 +1553,7 @@ struct FSlateColor UBP_ProfileCustomization_C::GetColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1575,7 +1575,7 @@ UMG_ESlateVisibility UBP_ProfileCustomization_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.GetText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1597,7 +1597,7 @@ struct FText UBP_ProfileCustomization_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.updateGearTabColors
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1618,7 +1618,7 @@ void UBP_ProfileCustomization_C::updateGearTabColors(class UButton* Selected_But
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.updateMainTabColors
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1641,7 +1641,7 @@ void UBP_ProfileCustomization_C::updateMainTabColors(class UImage* SelectedIcon,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.DestroyCustomizationActors
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::DestroyCustomizationActors()
@@ -1659,7 +1659,7 @@ void UBP_ProfileCustomization_C::DestroyCustomizationActors()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnEquipmentButtonClick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1680,7 +1680,7 @@ void UBP_ProfileCustomization_C::OnEquipmentButtonClick(int Slot)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnEquipment1Click
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::OnEquipment1Click()
@@ -1698,7 +1698,7 @@ void UBP_ProfileCustomization_C::OnEquipment1Click()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnEquipment3Click
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::OnEquipment3Click()
@@ -1716,7 +1716,7 @@ void UBP_ProfileCustomization_C::OnEquipment3Click()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnEquipment2Click
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::OnEquipment2Click()
@@ -1734,7 +1734,7 @@ void UBP_ProfileCustomization_C::OnEquipment2Click()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__AddNewEquipmentPresetButton_K2Node_ComponentBoundEvent_5792_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__AddNewEquipmentPresetButton_K2Node_ComponentBoundEvent_5792_OnButtonClickedEvent__DelegateSignature()
@@ -1752,7 +1752,7 @@ void UBP_ProfileCustomization_C::BndEvt__AddNewEquipmentPresetButton_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__EditEquipmentPresetButton_K2Node_ComponentBoundEvent_5821_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__EditEquipmentPresetButton_K2Node_ComponentBoundEvent_5821_OnButtonClickedEvent__DelegateSignature()
@@ -1770,7 +1770,7 @@ void UBP_ProfileCustomization_C::BndEvt__EditEquipmentPresetButton_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__DeleteEquipmentPresetButton_K2Node_ComponentBoundEvent_5852_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__DeleteEquipmentPresetButton_K2Node_ComponentBoundEvent_5852_OnButtonClickedEvent__DelegateSignature()
@@ -1788,7 +1788,7 @@ void UBP_ProfileCustomization_C::BndEvt__DeleteEquipmentPresetButton_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::OnShown()
@@ -1806,7 +1806,7 @@ void UBP_ProfileCustomization_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.NewProfileNameEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::NewProfileNameEntered()
@@ -1824,7 +1824,7 @@ void UBP_ProfileCustomization_C::NewProfileNameEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.NewProfileNameCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::NewProfileNameCanceled()
@@ -1842,7 +1842,7 @@ void UBP_ProfileCustomization_C::NewProfileNameCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__CloneProfileButton_K2Node_ComponentBoundEvent_413_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__CloneProfileButton_K2Node_ComponentBoundEvent_413_OnButtonClickedEvent__DelegateSignature()
@@ -1860,7 +1860,7 @@ void UBP_ProfileCustomization_C::BndEvt__CloneProfileButton_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.DeleteCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::DeleteCancel()
@@ -1878,7 +1878,7 @@ void UBP_ProfileCustomization_C::DeleteCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.DeleteConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::DeleteConfirm()
@@ -1896,7 +1896,7 @@ void UBP_ProfileCustomization_C::DeleteConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__RenameProfileButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__RenameProfileButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -1914,7 +1914,7 @@ void UBP_ProfileCustomization_C::BndEvt__RenameProfileButton_K2Node_ComponentBou
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.RenameCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::RenameCancel()
@@ -1932,7 +1932,7 @@ void UBP_ProfileCustomization_C::RenameCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.RenameConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::RenameConfirm()
@@ -1950,7 +1950,7 @@ void UBP_ProfileCustomization_C::RenameConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__EquipmentButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__EquipmentButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -1968,7 +1968,7 @@ void UBP_ProfileCustomization_C::BndEvt__EquipmentButton_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__WearablesButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__WearablesButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -1986,7 +1986,7 @@ void UBP_ProfileCustomization_C::BndEvt__WearablesButton_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__SkillsButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__SkillsButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
@@ -2004,7 +2004,7 @@ void UBP_ProfileCustomization_C::BndEvt__SkillsButton_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__FaceButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__FaceButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -2022,7 +2022,7 @@ void UBP_ProfileCustomization_C::BndEvt__FaceButton_K2Node_ComponentBoundEvent_4
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__BodyButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__BodyButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -2040,7 +2040,7 @@ void UBP_ProfileCustomization_C::BndEvt__BodyButton_K2Node_ComponentBoundEvent_5
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__TertiarySlotButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__TertiarySlotButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
@@ -2058,7 +2058,7 @@ void UBP_ProfileCustomization_C::BndEvt__TertiarySlotButton_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__PrimarySlotButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__PrimarySlotButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
@@ -2076,7 +2076,7 @@ void UBP_ProfileCustomization_C::BndEvt__PrimarySlotButton_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__SecondarySlotButton_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__SecondarySlotButton_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
@@ -2094,7 +2094,7 @@ void UBP_ProfileCustomization_C::BndEvt__SecondarySlotButton_K2Node_ComponentBou
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__ControlsButton_K2Node_ComponentBoundEvent_2730_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__ControlsButton_K2Node_ComponentBoundEvent_2730_OnButtonClickedEvent__DelegateSignature()
@@ -2112,7 +2112,7 @@ void UBP_ProfileCustomization_C::BndEvt__ControlsButton_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ShowSkills
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::ShowSkills()
@@ -2130,7 +2130,7 @@ void UBP_ProfileCustomization_C::ShowSkills()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ShowWearables
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::ShowWearables()
@@ -2148,7 +2148,7 @@ void UBP_ProfileCustomization_C::ShowWearables()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ProfileCustomization_C::Construct()
@@ -2166,7 +2166,7 @@ void UBP_ProfileCustomization_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_654_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_654_OnButtonClickedEvent__DelegateSignature()
@@ -2184,7 +2184,7 @@ void UBP_ProfileCustomization_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnProfileChanged
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2205,7 +2205,7 @@ void UBP_ProfileCustomization_C::OnProfileChanged(const struct FCharacterProfile
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ShowLoadoutPicker
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::ShowLoadoutPicker()
@@ -2223,7 +2223,7 @@ void UBP_ProfileCustomization_C::ShowLoadoutPicker()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_3551_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_3551_OnButtonClickedEvent__DelegateSignature()
@@ -2241,7 +2241,7 @@ void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_355
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__Button_249_K2Node_ComponentBoundEvent_4101_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__Button_249_K2Node_ComponentBoundEvent_4101_OnButtonClickedEvent__DelegateSignature()
@@ -2259,7 +2259,7 @@ void UBP_ProfileCustomization_C::BndEvt__Button_249_K2Node_ComponentBoundEvent_4
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__SecondaryRibbonButton_K2Node_ComponentBoundEvent_4243_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__SecondaryRibbonButton_K2Node_ComponentBoundEvent_4243_OnButtonClickedEvent__DelegateSignature()
@@ -2277,7 +2277,7 @@ void UBP_ProfileCustomization_C::BndEvt__SecondaryRibbonButton_K2Node_ComponentB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__TertiaryRibbonButton_K2Node_ComponentBoundEvent_4277_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__TertiaryRibbonButton_K2Node_ComponentBoundEvent_4277_OnButtonClickedEvent__DelegateSignature()
@@ -2295,7 +2295,7 @@ void UBP_ProfileCustomization_C::BndEvt__TertiaryRibbonButton_K2Node_ComponentBo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__LegsRibbonButton_K2Node_ComponentBoundEvent_4464_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__LegsRibbonButton_K2Node_ComponentBoundEvent_4464_OnButtonClickedEvent__DelegateSignature()
@@ -2313,7 +2313,7 @@ void UBP_ProfileCustomization_C::BndEvt__LegsRibbonButton_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__TorsoRibbonButton_K2Node_ComponentBoundEvent_4481_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__TorsoRibbonButton_K2Node_ComponentBoundEvent_4481_OnButtonClickedEvent__DelegateSignature()
@@ -2331,7 +2331,7 @@ void UBP_ProfileCustomization_C::BndEvt__TorsoRibbonButton_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_206_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_206_OnButtonClickedEvent__DelegateSignature()
@@ -2349,7 +2349,7 @@ void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_206
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2372,7 +2372,7 @@ void UBP_ProfileCustomization_C::Tick(const struct FGeometry& MyGeometry, float 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1706_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1706_OnButtonClickedEvent__DelegateSignature()
@@ -2390,7 +2390,7 @@ void UBP_ProfileCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_170
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_3555_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_3555_OnButtonClickedEvent__DelegateSignature()
@@ -2408,7 +2408,7 @@ void UBP_ProfileCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.BndEvt__MenuToggleButton_K2Node_ComponentBoundEvent_4038_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileCustomization_C::BndEvt__MenuToggleButton_K2Node_ComponentBoundEvent_4038_OnButtonClickedEvent__DelegateSignature()
@@ -2426,7 +2426,7 @@ void UBP_ProfileCustomization_C::BndEvt__MenuToggleButton_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.UnsavedChangesPopup
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::UnsavedChangesPopup()
@@ -2444,7 +2444,7 @@ void UBP_ProfileCustomization_C::UnsavedChangesPopup()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ChangesCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::ChangesCancel()
@@ -2462,7 +2462,7 @@ void UBP_ProfileCustomization_C::ChangesCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ChangesConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::ChangesConfirm()
@@ -2480,7 +2480,7 @@ void UBP_ProfileCustomization_C::ChangesConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.OnAnimationFinished
 //		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2501,7 +2501,7 @@ void UBP_ProfileCustomization_C::OnAnimationFinished(class UWidgetAnimation* Ani
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Show Regular Armory
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::Show_Regular_Armory()
@@ -2519,7 +2519,7 @@ void UBP_ProfileCustomization_C::Show_Regular_Armory()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.Show HordeBR Armory
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ProfileCustomization_C::Show_HordeBR_Armory()
@@ -2537,7 +2537,7 @@ void UBP_ProfileCustomization_C::Show_HordeBR_Armory()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileCustomization.BP_ProfileCustomization_C.ExecuteUbergraph_BP_ProfileCustomization
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

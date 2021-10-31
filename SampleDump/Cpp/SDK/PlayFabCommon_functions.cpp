@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x009F6710
+//		Offset -> 0x009FA960
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.SetPlayFabId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UPlayFabAuthenticationContext::SetPlayFabId(const struct FString& InKey)
 
 
 // Function:
-//		Offset -> 0x009F6600
+//		Offset -> 0x009FA850
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.SetEntityToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ void UPlayFabAuthenticationContext::SetEntityToken(const struct FString& InToken
 
 
 // Function:
-//		Offset -> 0x009F64F0
+//		Offset -> 0x009FA740
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.SetDeveloperSecretKey
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -85,7 +85,7 @@ void UPlayFabAuthenticationContext::SetDeveloperSecretKey(const struct FString& 
 
 
 // Function:
-//		Offset -> 0x009F63E0
+//		Offset -> 0x009FA630
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.SetClientSessionTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -107,7 +107,7 @@ void UPlayFabAuthenticationContext::SetClientSessionTicket(const struct FString&
 
 
 // Function:
-//		Offset -> 0x009F63B0
+//		Offset -> 0x009FA600
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.GetPlayFabId
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -130,7 +130,7 @@ struct FString UPlayFabAuthenticationContext::GetPlayFabId()
 
 
 // Function:
-//		Offset -> 0x009F6380
+//		Offset -> 0x009FA5D0
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.GetEntityToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -153,7 +153,7 @@ struct FString UPlayFabAuthenticationContext::GetEntityToken()
 
 
 // Function:
-//		Offset -> 0x009F6350
+//		Offset -> 0x009FA5A0
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.GetDeveloperSecretKey
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -176,7 +176,7 @@ struct FString UPlayFabAuthenticationContext::GetDeveloperSecretKey()
 
 
 // Function:
-//		Offset -> 0x009F6320
+//		Offset -> 0x009FA570
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.GetClientSessionTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -199,7 +199,7 @@ struct FString UPlayFabAuthenticationContext::GetClientSessionTicket()
 
 
 // Function:
-//		Offset -> 0x009F62A0
+//		Offset -> 0x009FA4F0
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.ForgetAllCredentials
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPlayFabAuthenticationContext::ForgetAllCredentials()
@@ -218,7 +218,7 @@ void UPlayFabAuthenticationContext::ForgetAllCredentials()
 
 
 // Function:
-//		Offset -> 0x009F6280
+//		Offset -> 0x009FA4D0
 //		Name   -> Function PlayFabCommon.PlayFabAuthenticationContext.ClientAdminSecurityCheck
 //		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 void UPlayFabAuthenticationContext::ClientAdminSecurityCheck()

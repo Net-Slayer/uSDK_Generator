@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.OnRep_ReplicatedLadderJump
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_LadderMover_C::OnRep_ReplicatedLadderJump()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.PerformJumpoff
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,53 +57,7 @@ void ABP_LadderMover_C::PerformJumpoff()
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.OverrideAttackAngle
-//		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
-// Parameters:
-//		class UAttackMotion*                               Motion                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              ReturnValue                                                (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-float ABP_LadderMover_C::OverrideAttackAngle(class UAttackMotion* Motion)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.OverrideAttackAngle");
-
-	ABP_LadderMover_C_OverrideAttackAngle_Params params;
-	params.Motion = Motion;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-
-	return params.ReturnValue;
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.GetExitTransform
-//		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-//		struct FTransform                                  ReturnValue                                                (Parm, OutParm, ReturnParm, IsPlainOldData, NoDestructor)
-struct FTransform ABP_LadderMover_C::GetExitTransform()
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.GetExitTransform");
-
-	ABP_LadderMover_C_GetExitTransform_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-
-	return params.ReturnValue;
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.OnRep_Ladder
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -122,7 +76,7 @@ void ABP_LadderMover_C::OnRep_Ladder()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_41
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -143,7 +97,7 @@ void ABP_LadderMover_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_41(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_40
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -164,7 +118,7 @@ void ABP_LadderMover_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_40(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Jump_K2Node_InputActionEvent_39
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -185,7 +139,7 @@ void ABP_LadderMover_C::InpActEvt_Jump_K2Node_InputActionEvent_39(const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Feint Or Parry_K2Node_InputActionEvent_38
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -206,7 +160,7 @@ void ABP_LadderMover_C::InpActEvt_Feint_Or_Parry_K2Node_InputActionEvent_38(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Feint Or Parry_K2Node_InputActionEvent_37
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -227,7 +181,7 @@ void ABP_LadderMover_C::InpActEvt_Feint_Or_Parry_K2Node_InputActionEvent_37(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Right Stab_K2Node_InputActionEvent_36
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -248,7 +202,7 @@ void ABP_LadderMover_C::InpActEvt_Right_Stab_K2Node_InputActionEvent_36(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Right Strike_K2Node_InputActionEvent_35
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -269,7 +223,7 @@ void ABP_LadderMover_C::InpActEvt_Right_Strike_K2Node_InputActionEvent_35(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Right Lower Strike_K2Node_InputActionEvent_34
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -290,7 +244,7 @@ void ABP_LadderMover_C::InpActEvt_Right_Lower_Strike_K2Node_InputActionEvent_34(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Right Upper Strike_K2Node_InputActionEvent_33
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -311,7 +265,7 @@ void ABP_LadderMover_C::InpActEvt_Right_Upper_Strike_K2Node_InputActionEvent_33(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Flip Attack Side_K2Node_InputActionEvent_32
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -332,7 +286,7 @@ void ABP_LadderMover_C::InpActEvt_Flip_Attack_Side_K2Node_InputActionEvent_32(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Flip Attack Side_K2Node_InputActionEvent_31
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -353,7 +307,7 @@ void ABP_LadderMover_C::InpActEvt_Flip_Attack_Side_K2Node_InputActionEvent_31(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Left Stab_K2Node_InputActionEvent_30
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -374,7 +328,7 @@ void ABP_LadderMover_C::InpActEvt_Left_Stab_K2Node_InputActionEvent_30(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Left Upper Strike_K2Node_InputActionEvent_29
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -395,7 +349,7 @@ void ABP_LadderMover_C::InpActEvt_Left_Upper_Strike_K2Node_InputActionEvent_29(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Left Strike_K2Node_InputActionEvent_28
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -416,7 +370,7 @@ void ABP_LadderMover_C::InpActEvt_Left_Strike_K2Node_InputActionEvent_28(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Left Lower Strike_K2Node_InputActionEvent_27
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -437,7 +391,7 @@ void ABP_LadderMover_C::InpActEvt_Left_Lower_Strike_K2Node_InputActionEvent_27(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Parry_K2Node_InputActionEvent_26
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -458,7 +412,7 @@ void ABP_LadderMover_C::InpActEvt_Parry_K2Node_InputActionEvent_26(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Parry_K2Node_InputActionEvent_25
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -479,7 +433,7 @@ void ABP_LadderMover_C::InpActEvt_Parry_K2Node_InputActionEvent_25(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Stab_K2Node_InputActionEvent_24
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -500,7 +454,7 @@ void ABP_LadderMover_C::InpActEvt_Stab_K2Node_InputActionEvent_24(const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Stab_K2Node_InputActionEvent_23
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -521,7 +475,7 @@ void ABP_LadderMover_C::InpActEvt_Stab_K2Node_InputActionEvent_23(const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Feint_K2Node_InputActionEvent_22
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -542,7 +496,7 @@ void ABP_LadderMover_C::InpActEvt_Feint_K2Node_InputActionEvent_22(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Strike_K2Node_InputActionEvent_21
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -563,7 +517,7 @@ void ABP_LadderMover_C::InpActEvt_Strike_K2Node_InputActionEvent_21(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Strike_K2Node_InputActionEvent_20
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -584,7 +538,7 @@ void ABP_LadderMover_C::InpActEvt_Strike_K2Node_InputActionEvent_20(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Previous Equipment_K2Node_InputActionEvent_19
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -605,7 +559,7 @@ void ABP_LadderMover_C::InpActEvt_Previous_Equipment_K2Node_InputActionEvent_19(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Previous Equipment_K2Node_InputActionEvent_18
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -626,7 +580,7 @@ void ABP_LadderMover_C::InpActEvt_Previous_Equipment_K2Node_InputActionEvent_18(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Next Equipment_K2Node_InputActionEvent_17
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -647,7 +601,7 @@ void ABP_LadderMover_C::InpActEvt_Next_Equipment_K2Node_InputActionEvent_17(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Next Equipment_K2Node_InputActionEvent_16
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -668,7 +622,7 @@ void ABP_LadderMover_C::InpActEvt_Next_Equipment_K2Node_InputActionEvent_16(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 9_K2Node_InputActionEvent_15
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -689,7 +643,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_9_K2Node_InputActionEvent_15(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 8_K2Node_InputActionEvent_14
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -710,7 +664,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_8_K2Node_InputActionEvent_14(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 7_K2Node_InputActionEvent_13
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -731,7 +685,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_7_K2Node_InputActionEvent_13(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 6_K2Node_InputActionEvent_12
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -752,7 +706,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_6_K2Node_InputActionEvent_12(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 5_K2Node_InputActionEvent_11
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -773,7 +727,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_5_K2Node_InputActionEvent_11(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 4_K2Node_InputActionEvent_10
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -794,7 +748,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_4_K2Node_InputActionEvent_10(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 3_K2Node_InputActionEvent_9
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -815,7 +769,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_3_K2Node_InputActionEvent_9(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 2_K2Node_InputActionEvent_8
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -836,7 +790,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_2_K2Node_InputActionEvent_8(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Equip Slot 1_K2Node_InputActionEvent_7
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -857,7 +811,7 @@ void ABP_LadderMover_C::InpActEvt_Equip_Slot_1_K2Node_InputActionEvent_7(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Drop_K2Node_InputActionEvent_6
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -878,7 +832,7 @@ void ABP_LadderMover_C::InpActEvt_Drop_K2Node_InputActionEvent_6(const struct FK
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Holster_K2Node_InputActionEvent_5
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -899,7 +853,7 @@ void ABP_LadderMover_C::InpActEvt_Holster_K2Node_InputActionEvent_5(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C. Reload_K2Node_InputActionEvent_4
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -920,7 +874,7 @@ void ABP_LadderMover_C::_Reload_K2Node_InputActionEvent_4(const struct FKey& Key
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Fire_K2Node_InputActionEvent_3
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -941,7 +895,7 @@ void ABP_LadderMover_C::InpActEvt_Fire_K2Node_InputActionEvent_3(const struct FK
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Fire_K2Node_InputActionEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -962,7 +916,7 @@ void ABP_LadderMover_C::InpActEvt_Fire_K2Node_InputActionEvent_2(const struct FK
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpActEvt_Ranged Cancel_K2Node_InputActionEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -983,78 +937,7 @@ void ABP_LadderMover_C::InpActEvt_Ranged_Cancel_K2Node_InputActionEvent_1(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.OnStoppedDriving
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void ABP_LadderMover_C::OnStoppedDriving(class AMordhauCharacter* Character)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.OnStoppedDriving");
-
-	ABP_LadderMover_C_OnStoppedDriving_Params params;
-	params.Character = Character;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.UpdateFPCameraFor
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              DeltaSeconds                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		bool                                               bRotationOnly                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-void ABP_LadderMover_C::UpdateFPCameraFor(class AMordhauCharacter* Character, float DeltaSeconds, bool bRotationOnly)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.UpdateFPCameraFor");
-
-	ABP_LadderMover_C_UpdateFPCameraFor_Params params;
-	params.Character = Character;
-	params.DeltaSeconds = DeltaSeconds;
-	params.bRotationOnly = bRotationOnly;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.UpdateAnimationFor
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		class UMordhauAnimInstance*                        AnimInst                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              DeltaTime                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void ABP_LadderMover_C::UpdateAnimationFor(class AMordhauCharacter* Character, class UMordhauAnimInstance* AnimInst, float DeltaTime)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.UpdateAnimationFor");
-
-	ABP_LadderMover_C_UpdateAnimationFor_Params params;
-	params.Character = Character;
-	params.AnimInst = AnimInst;
-	params.DeltaTime = DeltaTime;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpAxisEvt_Look Up_K2Node_InputAxisEvent_23
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1075,7 +958,7 @@ void ABP_LadderMover_C::InpAxisEvt_Look_Up_K2Node_InputAxisEvent_23(float AxisVa
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.InpAxisEvt_Turn Right_K2Node_InputAxisEvent_10
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1096,7 +979,7 @@ void ABP_LadderMover_C::InpAxisEvt_Turn_Right_K2Node_InputAxisEvent_10(float Axi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.OnStepChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_LadderMover_C::OnStepChanged()
@@ -1114,7 +997,7 @@ void ABP_LadderMover_C::OnStepChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.KnockOffDriver
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1135,7 +1018,7 @@ void ABP_LadderMover_C::KnockOffDriver(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.ReceiveDestroyed
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_LadderMover_C::ReceiveDestroyed()
@@ -1153,7 +1036,7 @@ void ABP_LadderMover_C::ReceiveDestroyed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.RequestJumpOff
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_LadderMover_C::RequestJumpOff()
@@ -1171,25 +1054,7 @@ void ABP_LadderMover_C::RequestJumpOff()
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LadderMover.BP_LadderMover_C.OnDriverChanged
-//		Flags  -> (Event, Public, BlueprintEvent)
-void ABP_LadderMover_C::OnDriverChanged()
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LadderMover.BP_LadderMover_C.OnDriverChanged");
-
-	ABP_LadderMover_C_OnDriverChanged_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LadderMover.BP_LadderMover_C.ExecuteUbergraph_BP_LadderMover
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

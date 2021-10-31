@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.OnRep_Value
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_SwitchInteractable_C::OnRep_Value()
@@ -37,7 +37,7 @@ void ABP_SwitchInteractable_C::OnRep_Value()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_SwitchInteractable_C::ReceiveBeginPlay()
@@ -55,7 +55,7 @@ void ABP_SwitchInteractable_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -76,7 +76,7 @@ void ABP_SwitchInteractable_C::OnInteractionStart(class AMordhauCharacter* Chara
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.PreventInteraction
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_SwitchInteractable_C::PreventInteraction()
@@ -94,7 +94,7 @@ void ABP_SwitchInteractable_C::PreventInteraction()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.OnValueToggled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_SwitchInteractable_C::OnValueToggled()
@@ -112,7 +112,7 @@ void ABP_SwitchInteractable_C::OnValueToggled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.ToggleValue
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_SwitchInteractable_C::ToggleValue()
@@ -130,7 +130,7 @@ void ABP_SwitchInteractable_C::ToggleValue()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SwitchInteractable.BP_SwitchInteractable_C.ExecuteUbergraph_BP_SwitchInteractable
 //		Flags  -> (Final)
 // Parameters:

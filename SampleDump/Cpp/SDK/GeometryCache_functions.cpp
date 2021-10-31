@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00A5A590
+//		Offset -> 0x00A5E870
 //		Name   -> Function GeometryCache.GeometryCacheActor.GetGeometryCacheComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -42,7 +42,7 @@ class UGeometryCacheComponent* AGeometryCacheActor::GetGeometryCacheComponent()
 
 
 // Function:
-//		Offset -> 0x00A5AC00
+//		Offset -> 0x00A5EEE0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.TickAtThisTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -70,7 +70,7 @@ void UGeometryCacheComponent::TickAtThisTime(float Time, bool bInIsRunning, bool
 
 
 // Function:
-//		Offset -> 0x00A5ABE0
+//		Offset -> 0x00A5EEC0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.Stop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::Stop()
@@ -89,7 +89,7 @@ void UGeometryCacheComponent::Stop()
 
 
 // Function:
-//		Offset -> 0x00A5AB60
+//		Offset -> 0x00A5EE40
 //		Name   -> Function GeometryCache.GeometryCacheComponent.SetStartTimeOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -111,7 +111,7 @@ void UGeometryCacheComponent::SetStartTimeOffset(float NewStartTimeOffset)
 
 
 // Function:
-//		Offset -> 0x00A5AAE0
+//		Offset -> 0x00A5EDC0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.SetPlaybackSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -133,7 +133,7 @@ void UGeometryCacheComponent::SetPlaybackSpeed(float NewPlaybackSpeed)
 
 
 // Function:
-//		Offset -> 0x00A5A840
+//		Offset -> 0x00A5EB20
 //		Name   -> Function GeometryCache.GeometryCacheComponent.SetLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -155,7 +155,7 @@ void UGeometryCacheComponent::SetLooping(bool bNewLooping)
 
 
 // Function:
-//		Offset -> 0x00A5A7B0
+//		Offset -> 0x00A5EA90
 //		Name   -> Function GeometryCache.GeometryCacheComponent.SetGeometryCache
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -180,7 +180,7 @@ bool UGeometryCacheComponent::SetGeometryCache(class UGeometryCache* NewGeomCach
 
 
 // Function:
-//		Offset -> 0x00A5A790
+//		Offset -> 0x00A5EA70
 //		Name   -> Function GeometryCache.GeometryCacheComponent.PlayReversedFromEnd
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::PlayReversedFromEnd()
@@ -199,7 +199,7 @@ void UGeometryCacheComponent::PlayReversedFromEnd()
 
 
 // Function:
-//		Offset -> 0x00A5A770
+//		Offset -> 0x00A5EA50
 //		Name   -> Function GeometryCache.GeometryCacheComponent.PlayReversed
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::PlayReversed()
@@ -218,7 +218,7 @@ void UGeometryCacheComponent::PlayReversed()
 
 
 // Function:
-//		Offset -> 0x00A5A750
+//		Offset -> 0x00A5EA30
 //		Name   -> Function GeometryCache.GeometryCacheComponent.PlayFromStart
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::PlayFromStart()
@@ -237,7 +237,7 @@ void UGeometryCacheComponent::PlayFromStart()
 
 
 // Function:
-//		Offset -> 0x00A5A730
+//		Offset -> 0x00A5EA10
 //		Name   -> Function GeometryCache.GeometryCacheComponent.Play
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::Play()
@@ -256,7 +256,7 @@ void UGeometryCacheComponent::Play()
 
 
 // Function:
-//		Offset -> 0x00A5A710
+//		Offset -> 0x00A5E9F0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.Pause
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGeometryCacheComponent::Pause()
@@ -275,7 +275,7 @@ void UGeometryCacheComponent::Pause()
 
 
 // Function:
-//		Offset -> 0x00A5A6E0
+//		Offset -> 0x00A5E9C0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.IsPlayingReversed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -298,7 +298,7 @@ bool UGeometryCacheComponent::IsPlayingReversed()
 
 
 // Function:
-//		Offset -> 0x00A5A6B0
+//		Offset -> 0x00A5E990
 //		Name   -> Function GeometryCache.GeometryCacheComponent.IsPlaying
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -321,7 +321,7 @@ bool UGeometryCacheComponent::IsPlaying()
 
 
 // Function:
-//		Offset -> 0x00A5A680
+//		Offset -> 0x00A5E960
 //		Name   -> Function GeometryCache.GeometryCacheComponent.IsLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -344,7 +344,7 @@ bool UGeometryCacheComponent::IsLooping()
 
 
 // Function:
-//		Offset -> 0x00A5A650
+//		Offset -> 0x00A5E930
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetStartTimeOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -367,7 +367,7 @@ float UGeometryCacheComponent::GetStartTimeOffset()
 
 
 // Function:
-//		Offset -> 0x00A5A620
+//		Offset -> 0x00A5E900
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetPlaybackSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -390,7 +390,7 @@ float UGeometryCacheComponent::GetPlaybackSpeed()
 
 
 // Function:
-//		Offset -> 0x00A5A5F0
+//		Offset -> 0x00A5E8D0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetPlaybackDirection
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -413,7 +413,7 @@ float UGeometryCacheComponent::GetPlaybackDirection()
 
 
 // Function:
-//		Offset -> 0x00A5A5C0
+//		Offset -> 0x00A5E8A0
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetNumberOfFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -436,7 +436,7 @@ int UGeometryCacheComponent::GetNumberOfFrames()
 
 
 // Function:
-//		Offset -> 0x00A5A560
+//		Offset -> 0x00A5E840
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -459,7 +459,7 @@ float UGeometryCacheComponent::GetDuration()
 
 
 // Function:
-//		Offset -> 0x00A5A530
+//		Offset -> 0x00A5E810
 //		Name   -> Function GeometryCache.GeometryCacheComponent.GetAnimationTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -482,7 +482,7 @@ float UGeometryCacheComponent::GetAnimationTime()
 
 
 // Function:
-//		Offset -> 0x00A5A2D0
+//		Offset -> 0x00A5E5B0
 //		Name   -> Function GeometryCache.GeometryCacheTrack_FlipbookAnimation.AddMeshSample
 //		Flags  -> (Final, Native, Public, HasOutParms)
 // Parameters:
@@ -506,7 +506,7 @@ void UGeometryCacheTrack_FlipbookAnimation::AddMeshSample(const struct FGeometry
 
 
 // Function:
-//		Offset -> 0x00A5A8D0
+//		Offset -> 0x00A5EBB0
 //		Name   -> Function GeometryCache.GeometryCacheTrack_TransformAnimation.SetMesh
 //		Flags  -> (Final, Native, Public, HasOutParms)
 // Parameters:
@@ -528,7 +528,7 @@ void UGeometryCacheTrack_TransformAnimation::SetMesh(const struct FGeometryCache
 
 
 // Function:
-//		Offset -> 0x00A5A8D0
+//		Offset -> 0x00A5EBB0
 //		Name   -> Function GeometryCache.GeometryCacheTrack_TransformGroupAnimation.SetMesh
 //		Flags  -> (Final, Native, Public, HasOutParms)
 // Parameters:

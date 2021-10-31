@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,9 +19,9 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.PostProcessCameraPOV
-//		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 //		struct FPOV                                        InPOV                                                      (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, NoDestructor)
 //		struct FPOV                                        ReturnValue                                                (Parm, OutParm, ReturnParm, NoDestructor)
@@ -43,7 +43,7 @@ struct FPOV ABP_Catapult_C::PostProcessCameraPOV(const struct FPOV& InPOV)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.UserConstructionScript
 //		Flags  -> (Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -62,7 +62,7 @@ void ABP_Catapult_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_5
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -83,7 +83,7 @@ void ABP_Catapult_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_5(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_4
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -104,7 +104,7 @@ void ABP_Catapult_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_4(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpActEvt_Fire_K2Node_InputActionEvent_3
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -125,7 +125,7 @@ void ABP_Catapult_C::InpActEvt_Fire_K2Node_InputActionEvent_3(const struct FKey&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpActEvt_Raise Catapult Arm_K2Node_InputActionEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -146,7 +146,7 @@ void ABP_Catapult_C::InpActEvt_Raise_Catapult_Arm_K2Node_InputActionEvent_2(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpActEvt_Lower Catapult Arm_K2Node_InputActionEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -167,32 +167,7 @@ void ABP_Catapult_C::InpActEvt_Lower_Catapult_Arm_K2Node_InputActionEvent_1(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_Catapult.BP_Catapult_C.UpdateFPCameraFor
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              DeltaSeconds                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		bool                                               bRotationOnly                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-void ABP_Catapult_C::UpdateFPCameraFor(class AMordhauCharacter* Character, float DeltaSeconds, bool bRotationOnly)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_Catapult.BP_Catapult_C.UpdateFPCameraFor");
-
-	ABP_Catapult_C_UpdateFPCameraFor_Params params;
-	params.Character = Character;
-	params.DeltaSeconds = DeltaSeconds;
-	params.bRotationOnly = bRotationOnly;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.ReceiveUnpossessed
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -213,7 +188,7 @@ void ABP_Catapult_C::ReceiveUnpossessed(class AController* OldController)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.OnDied
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -246,7 +221,7 @@ void ABP_Catapult_C::OnDied(float Angle, Mordhau_EMordhauDamageType Type, unsign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.OnCosmeticHit
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -273,7 +248,7 @@ void ABP_Catapult_C::OnCosmeticHit(Mordhau_EMordhauDamageType DamageType, unsign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpAxisEvt_Move Right_K2Node_InputAxisEvent_21
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -294,7 +269,7 @@ void ABP_Catapult_C::InpAxisEvt_Move_Right_K2Node_InputAxisEvent_21(float AxisVa
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpAxisEvt_Look Up_K2Node_InputAxisEvent_36
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -315,7 +290,7 @@ void ABP_Catapult_C::InpAxisEvt_Look_Up_K2Node_InputAxisEvent_36(float AxisValue
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.InpAxisEvt_Turn Right_K2Node_InputAxisEvent_7
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -336,7 +311,7 @@ void ABP_Catapult_C::InpAxisEvt_Turn_Right_K2Node_InputAxisEvent_7(float AxisVal
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_Catapult_C::ReceiveBeginPlay()
@@ -354,7 +329,7 @@ void ABP_Catapult_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Catapult.BP_Catapult_C.ExecuteUbergraph_BP_Catapult
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

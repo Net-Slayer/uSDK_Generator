@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x025193E0
+//		Offset -> 0x02524780
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.RemoveGameplayTag
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -48,7 +48,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_RemoveGameplayTag(struct FGameplayTagC
 
 
 // Function:
-//		Offset -> 0x025192B0
+//		Offset -> 0x02524650
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_TagTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -75,7 +75,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_NotEqual_TagTag(const struct FGameplay
 
 
 // Function:
-//		Offset -> 0x02519140
+//		Offset -> 0x025244E0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_TagContainerTagContainer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -102,7 +102,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_NotEqual_TagContainerTagContainer(cons
 
 
 // Function:
-//		Offset -> 0x02518FF0
+//		Offset -> 0x02524390
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_GameplayTagContainer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_NotEqual_GameplayTagContainer(const st
 
 
 // Function:
-//		Offset -> 0x02518F30
+//		Offset -> 0x025242D0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.NotEqual_GameplayTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -156,7 +156,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_NotEqual_GameplayTag(const struct FGam
 
 
 // Function:
-//		Offset -> 0x02518E40
+//		Offset -> 0x025241E0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MatchesTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -185,7 +185,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_MatchesTag(const struct FGameplayTag& 
 
 
 // Function:
-//		Offset -> 0x02518D00
+//		Offset -> 0x025240A0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MatchesAnyTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -214,7 +214,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_MatchesAnyTags(const struct FGameplayT
 
 
 // Function:
-//		Offset -> 0x02518BF0
+//		Offset -> 0x02523F90
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -239,7 +239,7 @@ struct FGameplayTagContainer UBlueprintGameplayTagLibrary::STATIC_MakeLiteralGam
 
 
 // Function:
-//		Offset -> 0x02518B60
+//		Offset -> 0x02523F00
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeLiteralGameplayTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -264,7 +264,7 @@ struct FGameplayTag UBlueprintGameplayTagLibrary::STATIC_MakeLiteralGameplayTag(
 
 
 // Function:
-//		Offset -> 0x02518A30
+//		Offset -> 0x02523DD0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagQuery
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -289,7 +289,7 @@ struct FGameplayTagQuery UBlueprintGameplayTagLibrary::STATIC_MakeGameplayTagQue
 
 
 // Function:
-//		Offset -> 0x02518980
+//		Offset -> 0x02523D20
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagContainerFromTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -314,7 +314,7 @@ struct FGameplayTagContainer UBlueprintGameplayTagLibrary::STATIC_MakeGameplayTa
 
 
 // Function:
-//		Offset -> 0x025188A0
+//		Offset -> 0x02523C40
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.MakeGameplayTagContainerFromArray
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -339,7 +339,7 @@ struct FGameplayTagContainer UBlueprintGameplayTagLibrary::STATIC_MakeGameplayTa
 
 
 // Function:
-//		Offset -> 0x025187C0
+//		Offset -> 0x02523B60
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.IsTagQueryEmpty
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -364,7 +364,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_IsTagQueryEmpty(const struct FGameplay
 
 
 // Function:
-//		Offset -> 0x02518740
+//		Offset -> 0x02523AE0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.IsGameplayTagValid
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -389,7 +389,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_IsGameplayTagValid(const struct FGamep
 
 
 // Function:
-//		Offset -> 0x02518600
+//		Offset -> 0x025239A0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasTag
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -418,7 +418,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_HasTag(const struct FGameplayTagContai
 
 
 // Function:
-//		Offset -> 0x025183D0
+//		Offset -> 0x02523770
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAnyTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -447,7 +447,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_HasAnyTags(const struct FGameplayTagCo
 
 
 // Function:
-//		Offset -> 0x02518170
+//		Offset -> 0x02523510
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAllTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -476,7 +476,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_HasAllTags(const struct FGameplayTagCo
 
 
 // Function:
-//		Offset -> 0x02518050
+//		Offset -> 0x025233F0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.HasAllMatchingGameplayTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -501,7 +501,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_HasAllMatchingGameplayTags(const struc
 
 
 // Function:
-//		Offset -> 0x02517EE0
+//		Offset -> 0x02523280
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetTagName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -526,7 +526,7 @@ struct FName UBlueprintGameplayTagLibrary::STATIC_GetTagName(const struct FGamep
 
 
 // Function:
-//		Offset -> 0x02517D60
+//		Offset -> 0x02523100
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetNumGameplayTagsInContainer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -551,7 +551,7 @@ int UBlueprintGameplayTagLibrary::STATIC_GetNumGameplayTagsInContainer(const str
 
 
 // Function:
-//		Offset -> 0x02517C60
+//		Offset -> 0x02523000
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetDebugStringFromGameplayTagContainer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -576,7 +576,7 @@ struct FString UBlueprintGameplayTagLibrary::STATIC_GetDebugStringFromGameplayTa
 
 
 // Function:
-//		Offset -> 0x02517B90
+//		Offset -> 0x02522F30
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetDebugStringFromGameplayTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -601,7 +601,7 @@ struct FString UBlueprintGameplayTagLibrary::STATIC_GetDebugStringFromGameplayTa
 
 
 // Function:
-//		Offset -> 0x025179C0
+//		Offset -> 0x02522D60
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.GetAllActorsOfClassMatchingTagQuery
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -631,7 +631,7 @@ void UBlueprintGameplayTagLibrary::STATIC_GetAllActorsOfClassMatchingTagQuery(cl
 
 
 // Function:
-//		Offset -> 0x02517870
+//		Offset -> 0x02522C10
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.EqualEqual_GameplayTagContainer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -658,7 +658,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_EqualEqual_GameplayTagContainer(const 
 
 
 // Function:
-//		Offset -> 0x025177B0
+//		Offset -> 0x02522B50
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.EqualEqual_GameplayTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -685,7 +685,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_EqualEqual_GameplayTag(const struct FG
 
 
 // Function:
-//		Offset -> 0x025176D0
+//		Offset -> 0x02522A70
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.DoesTagAssetInterfaceHaveTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -710,7 +710,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_DoesTagAssetInterfaceHaveTag(const str
 
 
 // Function:
-//		Offset -> 0x02517560
+//		Offset -> 0x02522900
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.DoesContainerMatchTagQuery
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -737,7 +737,7 @@ bool UBlueprintGameplayTagLibrary::STATIC_DoesContainerMatchTagQuery(const struc
 
 
 // Function:
-//		Offset -> 0x02517440
+//		Offset -> 0x025227E0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.BreakGameplayTagContainer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -763,7 +763,7 @@ void UBlueprintGameplayTagLibrary::STATIC_BreakGameplayTagContainer(const struct
 
 
 // Function:
-//		Offset -> 0x02517300
+//		Offset -> 0x025226A0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.AppendGameplayTagContainers
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -789,7 +789,7 @@ void UBlueprintGameplayTagLibrary::STATIC_AppendGameplayTagContainers(struct FGa
 
 
 // Function:
-//		Offset -> 0x02517200
+//		Offset -> 0x025225A0
 //		Name   -> Function GameplayTags.BlueprintGameplayTagLibrary.AddGameplayTag
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -815,7 +815,7 @@ void UBlueprintGameplayTagLibrary::STATIC_AddGameplayTag(struct FGameplayTagCont
 
 
 // Function:
-//		Offset -> 0x02518560
+//		Offset -> 0x02523900
 //		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasMatchingGameplayTag
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -840,7 +840,7 @@ bool UGameplayTagAssetInterface::HasMatchingGameplayTag(const struct FGameplayTa
 
 
 // Function:
-//		Offset -> 0x02518300
+//		Offset -> 0x025236A0
 //		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasAnyMatchingGameplayTags
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -865,7 +865,7 @@ bool UGameplayTagAssetInterface::HasAnyMatchingGameplayTags(const struct FGamepl
 
 
 // Function:
-//		Offset -> 0x02517F80
+//		Offset -> 0x02523320
 //		Name   -> Function GameplayTags.GameplayTagAssetInterface.HasAllMatchingGameplayTags
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -890,7 +890,7 @@ bool UGameplayTagAssetInterface::HasAllMatchingGameplayTags(const struct FGamepl
 
 
 // Function:
-//		Offset -> 0x02517E20
+//		Offset -> 0x025231C0
 //		Name   -> Function GameplayTags.GameplayTagAssetInterface.GetOwnedGameplayTags
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_QuitMenu.BP_QuitMenu_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_QuitMenu_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_QuitMenu.BP_QuitMenu_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_QuitMenu_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -59,7 +59,7 @@ void UBP_QuitMenu_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClick
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_QuitMenu.BP_QuitMenu_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_QuitMenu_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -77,7 +77,7 @@ void UBP_QuitMenu_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_1_OnButtonClick
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_QuitMenu.BP_QuitMenu_C.ExecuteUbergraph_BP_QuitMenu
 //		Flags  -> (Final)
 // Parameters:

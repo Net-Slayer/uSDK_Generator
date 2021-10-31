@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class UMobileInstalledContent : public UObject
 {
 public:
-	unsigned char                                      UnknownData_05AH[0x20];                                    // 0x0028(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_RW1X[0x20];                                    // 0x0028(0x0020) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -45,7 +45,7 @@ public:
 class UMobilePendingContent : public UMobileInstalledContent
 {
 public:
-	unsigned char                                      UnknownData_ENH1[0x40];                                    // 0x0048(0x0040) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_YPOE[0x40];                                    // 0x0048(0x0040) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

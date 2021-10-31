@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -384,8 +384,9 @@ enum class Mordhau_EClientRequestState : uint8_t
 	EClientRequestState__SessionTicket = 0,
 	EClientRequestState__Stats     = 1,
 	EClientRequestState__Inventory = 2,
-	EClientRequestState__Done      = 3,
-	EClientRequestState__EClientRequestState_MAX = 4,
+	EClientRequestState__Authenticating = 3,
+	EClientRequestState__Done      = 4,
+	EClientRequestState__EClientRequestState_MAX = 5,
 
 };
 
@@ -489,7 +490,8 @@ enum class Mordhau_EScoreFeedReason : uint8_t
 	EScoreFeedReason__Repair       = 15,
 	EScoreFeedReason__VehicleDamage = 16,
 	EScoreFeedReason__VehicleTeamDamage = 17,
-	EScoreFeedReason__EScoreFeedReason_MAX = 18,
+	EScoreFeedReason__Spawn        = 18,
+	EScoreFeedReason__EScoreFeedReason_MAX = 19,
 
 };
 
@@ -683,6 +685,15 @@ enum class Mordhau_EWeaponState : uint8_t
 
 };
 
+// Enum Mordhau.EVehicleFlags
+enum class Mordhau_EVehicleFlags : uint8_t
+{
+	EVehicleFlags__None            = 0,
+	EVehicleFlags__Burning         = 1,
+	EVehicleFlags__EVehicleFlags_MAX = 2,
+
+};
+
 //---------------------------------------------------------------------------
 // Script Structs
 //---------------------------------------------------------------------------
@@ -695,7 +706,7 @@ struct FRconParameter
 	struct FString                                     ParameterDescription;                                      // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bRequiredParameter;                                        // 0x0020(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<PlayFab_EPFJson>                       ExpectedJsonType;                                          // 0x0021(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9RK9[0x6];                                     // 0x0022(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_U3ZQ[0x6];                                     // 0x0022(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -715,7 +726,7 @@ struct FRconCommandInfo
 // 0x0008 (0x0030 - 0x0028)
 struct FPrePhysTickFunction : public FTickFunction
 {
-	unsigned char                                      UnknownData_ZN32[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9EYW[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -732,247 +743,19 @@ struct FSphericalLimbBounds
 
 };
 
-// ScriptStruct Mordhau.AnimNodePackedDismemberment
-// 0x0010
-struct FAnimNodePackedDismemberment
+// ScriptStruct Mordhau.NetDamage
+// 0x0024
+struct FNetDamage
 {
-	TArray<int>                                        DismemberedBonesIndices;                                   // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.DamageRecord
-// 0x0010
-struct FDamageRecord
-{
-	TWeakObjectPtr<class AController>                  Source;                                                    // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Time;                                                      // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Damage;                                                    // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.NetBlock
-// 0x0010
-struct FNetBlock
-{
-	unsigned char                                      BlockedReason;                                             // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Flags;                                                     // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      BlockedMove;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Surface;                                                   // 0x0003(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class AActor>                       BlockingActor;                                             // 0x0004(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Version;                                                   // 0x000C(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_V9T5[0x3];                                     // 0x000D(0x0003) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.NetMotion
-// 0x0006
-struct FNetMotion
-{
-	unsigned char                                      ID;                                                        // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MotionType;                                                // 0x0001(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MotionParam0;                                              // 0x0002(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MotionParam1;                                              // 0x0003(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MotionParam2;                                              // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MotionDynamicParam;                                        // 0x0005(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GroupSoundEntry
-// 0x0010
-struct FGroupSoundEntry
-{
-	struct FVector                                     Location;                                                  // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Time;                                                      // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GroupSoundPlayer
-// 0x0018
-struct FGroupSoundPlayer
-{
-	TWeakObjectPtr<class UAudioComponent>              CurrentlyPlayingSound;                                     // 0x0000(0x0008) (ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Location;                                                  // 0x0008(0x000C) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Entries;                                                   // 0x0014(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GroupSoundGroup
-// 0x0080
-struct FGroupSoundGroup
-{
-	TArray<struct FGroupSoundPlayer>                   GroupSoundPlayers;                                         // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TMap<class AActor*, struct FGroupSoundEntry>       SoundEntries;                                              // 0x0010(0x0050) (NativeAccessSpecifierPublic)
-	int                                                SoundGroupsNum;                                            // 0x0060(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              EntryMaxAge;                                               // 0x0064(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MinEntriesToPlaySound;                                     // 0x0068(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_PFMA[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	class USoundCue*                                   SoundCue;                                                  // 0x0070(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              FadeOutDuration;                                           // 0x0078(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SoundGroupMergeDistance;                                   // 0x007C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.ServerStats
-// 0x0018
-struct FServerStats
-{
-	unsigned char                                      TargetTickRate;                                            // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MinTickRate;                                               // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      MaxTickRate;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      AvgTickRate;                                               // 0x0003(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           InBytesPerSecond;                                          // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           OutBytesPerSecond;                                         // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           ConfiguredInternetSpeed;                                   // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           NumPlayers;                                                // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           MaxPlayers;                                                // 0x0014(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.PlayerCommand
-// 0x0030
-struct FPlayerCommand
-{
-	Mordhau_ECommandType                               Type;                                                      // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0AHT[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FString                                     UniquePlayerID;                                            // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                IntParam;                                                  // 0x0018(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ICR0[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FString                                     StringParam;                                               // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.ReplicatedProjectileInfo
-// 0x0034
-struct FReplicatedProjectileInfo
-{
-	struct FVector_NetQuantize100                      Location;                                                  // 0x0000(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector_NetQuantize100                      Orientation;                                               // 0x000C(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector_NetQuantizeNormal                   HitNormal;                                                 // 0x0018(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              BounceForce;                                               // 0x0024(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class AActor>                       Creator;                                                   // 0x0028(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      HitSurface;                                                // 0x0030(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bHasStopped;                                               // 0x0031(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bHasHitWorld;                                              // 0x0032(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      HitCounter;                                                // 0x0033(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.FindServerSessionsFilter
-// 0x0048
-struct FFindServerSessionsFilter
-{
-	bool                                               bIsNotFull;                                                // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bHasPlayers;                                               // 0x0001(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsEmpty;                                                  // 0x0002(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsNotPasswordProtected;                                   // 0x0003(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsDevBuild;                                               // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsOfficial;                                               // 0x0005(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsMatchmaking;                                            // 0x0006(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsModded;                                                 // 0x0007(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EAntiCheat                                 AntiCheat;                                                 // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ISXU[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	int                                                MinOpenSlots;                                              // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MinSlots;                                                  // 0x0010(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MaxSlots;                                                  // 0x0014(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MaxPing;                                                   // 0x0018(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0H9B[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FString                                     ServerName;                                                // 0x0020(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     GameMode;                                                  // 0x0030(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0040(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TU6A[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.ServerAddress
-// 0x0008
-struct FServerAddress
-{
-	uint32_t                                           IP;                                                        // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint16_t                                           Port;                                                      // 0x0004(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_RRP0[0x2];                                     // 0x0006(0x0002) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.MordhauColorItemTable
-// 0x0028
-struct FMordhauColorItemTable
-{
-	struct FText                                       TableName;                                                 // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	TArray<class UClass*>                              Entries;                                                   // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.Achievement
-// 0x0008
-struct FAchievement
-{
-	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.SpineSpaceAdditive
-// 0x0084
-struct FSpineSpaceAdditive
-{
-	struct FRotator                                    head;                                                      // 0x0000(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    Neck;                                                      // 0x000C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    Spine1;                                                    // 0x0018(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    LeftShoulder;                                              // 0x0024(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    LeftArm;                                                   // 0x0030(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    LeftForearm;                                               // 0x003C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    LeftHand;                                                  // 0x0048(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    RightShoulder;                                             // 0x0054(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    RightArm;                                                  // 0x0060(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    RightForearm;                                              // 0x006C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    RightHand;                                                 // 0x0078(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.HighMidLowSpineSpaceAdditive
-// 0x018C
-struct FHighMidLowSpineSpaceAdditive
-{
-	struct FSpineSpaceAdditive                         High;                                                      // 0x0000(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FSpineSpaceAdditive                         Mid;                                                       // 0x0084(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FSpineSpaceAdditive                         Low;                                                       // 0x0108(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnglingSpineSpaceAdditive
-// 0x0318
-struct FAnglingSpineSpaceAdditive
-{
-	struct FHighMidLowSpineSpaceAdditive               Right;                                                     // 0x0000(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FHighMidLowSpineSpaceAdditive               Left;                                                      // 0x018C(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.PerspectiveBlendSpaceBase
-// 0x0010
-struct FPerspectiveBlendSpaceBase
-{
-	class UBlendSpaceBase*                             ThirdPerson;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UBlendSpaceBase*                             FirstPerson;                                               // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GameplayTagCondition
-// 0x0040
-struct FGameplayTagCondition
-{
-	struct FGameplayTagContainer                       RequiredTags;                                              // 0x0000(0x0020) (BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FGameplayTagContainer                       BlockedTags;                                               // 0x0020(0x0020) (BlueprintVisible, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GameplayTagConditionDelegate
-// 0x0058
-struct FGameplayTagConditionDelegate
-{
-	struct FGameplayTagCondition                       Condition;                                                 // 0x0000(0x0040) (BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    Delegate;                                                  // 0x0040(0x0010) (BlueprintVisible, ZeroConstructor, InstancedReference, NativeAccessSpecifierPublic)
-	bool                                               bIsConditionSatisfied;                                     // 0x0050(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FO74[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      PackedType;                                                // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bone;                                                      // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      PackedFlags;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_B7XM[0x1];                                     // 0x0003(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FVector_NetQuantize                         Point;                                                     // 0x0004(0x000C) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class AActor>                       DamageSource;                                              // 0x0010(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class AActor>                       DamageAgent;                                               // 0x0018(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Version;                                                   // 0x0020(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_CD7Z[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -985,22 +768,6 @@ struct FFloatAndVector
 
 };
 
-// ScriptStruct Mordhau.NetDamage
-// 0x0024
-struct FNetDamage
-{
-	unsigned char                                      PackedType;                                                // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bone;                                                      // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      PackedFlags;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0DI7[0x1];                                     // 0x0003(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FVector_NetQuantize                         Point;                                                     // 0x0004(0x000C) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class AActor>                       DamageSource;                                              // 0x0010(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class AActor>                       DamageAgent;                                               // 0x0018(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Version;                                                   // 0x0020(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_WT15[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (PADDING)
-
-};
-
 // ScriptStruct Mordhau.DismemberedBoneData
 // 0x0020
 struct FDismemberedBoneData
@@ -1008,7 +775,7 @@ struct FDismemberedBoneData
 	struct FName                                       BoneName;                                                  // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsPartial;                                                // 0x0008(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsBluntForce;                                             // 0x0009(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_B80K[0x2];                                     // 0x000A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_GX8U[0x2];                                     // 0x000A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FVector                                     ForceDir;                                                  // 0x000C(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TWeakObjectPtr<class AActor>                       Agent;                                                     // 0x0018(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
@@ -1031,7 +798,7 @@ struct FPatternInfo
 	bool                                               bHasColor1;                                                // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bHasColor2;                                                // 0x0009(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bHasColor3;                                                // 0x000A(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_M7MQ[0x5];                                     // 0x000B(0x0005) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_R972[0x5];                                     // 0x000B(0x0005) MISSED OFFSET (PADDING)
 
 };
 
@@ -1089,264 +856,6 @@ struct FPerspectiveAnimMontage
 
 };
 
-// ScriptStruct Mordhau.MordhauDamageInfo
-// 0x00A8
-struct FMordhauDamageInfo
-{
-	struct FHitResult                                  Hit;                                                       // 0x0000(0x0088) (Edit, BlueprintVisible, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0088(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SubType;                                                   // 0x0089(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_KH9S[0x6];                                     // 0x008A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	class AActor*                                      DamageSource;                                              // 0x0090(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageAgent;                                               // 0x0098(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bWantsFlinchAnimation;                                     // 0x00A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_WGIF[0x7];                                     // 0x00A1(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.SteamPlayFabConversionResult
-// 0x0050
-struct FSteamPlayFabConversionResult
-{
-	TMap<struct FString, struct FString>               SteamIDPlayFabIDMap;                                       // 0x0000(0x0050) (BlueprintVisible, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.ServerRestrictionInfo
-// 0x0010
-struct FServerRestrictionInfo
-{
-	bool                                               bIsBanned;                                                 // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_D6ZO[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	int                                                BanDuration;                                               // 0x0004(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsMuted;                                                  // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8VXR[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	int                                                MuteDuration;                                              // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_AttackAngling
-// 0x0138 (0x0200 - 0x00C8)
-struct FAnimNode_AttackAngling : public FAnimNode_SkeletalControlBase
-{
-	struct FSpineSpaceAdditive                         SpineSpaceAdditivePose;                                    // 0x00C8(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              head;                                                      // 0x014C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Neck;                                                      // 0x015C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Spine;                                                     // 0x016C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftShoulder;                                              // 0x017C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftArm;                                                   // 0x018C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftForearm;                                               // 0x019C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftHand;                                                  // 0x01AC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightShoulder;                                             // 0x01BC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightArm;                                                  // 0x01CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightForearm;                                              // 0x01DC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightHand;                                                 // 0x01EC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_CUXK[0x4];                                     // 0x01FC(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_BlendBetweenBones
-// 0x0048 (0x0110 - 0x00C8)
-struct FAnimNode_BlendBetweenBones : public FAnimNode_SkeletalControlBase
-{
-	struct FBoneReference                              BoneToModify;                                              // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              BlendBoneA;                                                // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              BlendBoneB;                                                // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              ReferenceBlendBone;                                        // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	float                                              BlendBetweenAlpha;                                         // 0x0108(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AEYO[0x4];                                     // 0x010C(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_Dismemberment
-// 0x0010 (0x00D8 - 0x00C8)
-struct FAnimNode_Dismemberment : public FAnimNode_SkeletalControlBase
-{
-	struct FAnimNodePackedDismemberment                Dismemberment;                                             // 0x00C8(0x0010) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.FacialBoneSetup
-// 0x0088
-struct FFacialBoneSetup
-{
-	struct FName                                       BoneName;                                                  // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       SelectionBoneOverride;                                     // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsSymmetrical;                                            // 0x0010(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1BSH[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	float                                              SelectionBiasFactor;                                       // 0x0014(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FName>                               ChildBones;                                                // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Level;                                                     // 0x0028(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                SymmetryTwinBoneIndex;                                     // 0x002C(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       SymmetryTwinBoneName;                                      // 0x0030(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                BoneIndex;                                                 // 0x0038(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   TranslateXRange;                                           // 0x003C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   TranslateYRange;                                           // 0x0044(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   TranslateZRange;                                           // 0x004C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   ScaleXRange;                                               // 0x0054(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   ScaleYRange;                                               // 0x005C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   ScaleZRange;                                               // 0x0064(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   RotateXRange;                                              // 0x006C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   RotateYRange;                                              // 0x0074(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   RotateZRange;                                              // 0x007C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VD2N[0x4];                                     // 0x0084(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNodePackedFaceCustomization
-// 0x0020
-struct FAnimNodePackedFaceCustomization
-{
-	TArray<struct FFacialBoneSetup>                    FaceCustomizationSetup;                                    // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FTransform>                          FaceCustomizationBonesTransforms;                          // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_FaceCustomization
-// 0x0020 (0x00E8 - 0x00C8)
-struct FAnimNode_FaceCustomization : public FAnimNode_SkeletalControlBase
-{
-	struct FAnimNodePackedFaceCustomization            FaceCustomization;                                         // 0x00C8(0x0020) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_MordhauSpringBone
-// 0x0080 (0x0148 - 0x00C8)
-struct FAnimNode_MordhauSpringBone : public FAnimNode_SkeletalControlBase
-{
-	struct FBoneReference                              bone;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                               bIsRotationSpring;                                         // 0x00D8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsRotationFlipped;                                        // 0x00D9(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_OP9Z[0x2];                                     // 0x00DA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FVector                                     BoneOffset;                                                // 0x00DC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsBoneOffsetInComponentSpace;                             // 0x00E8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VPXB[0x3];                                     // 0x00E9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	float                                              BoneOffsetRotationProjection;                              // 0x00EC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SpringStiffness;                                           // 0x00F0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SpringDamping;                                             // 0x00F4(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SpringMass;                                                // 0x00F8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MaxDisplacement;                                           // 0x00FC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bUseDisplacementLimits;                                    // 0x0100(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TE0U[0x3];                                     // 0x0101(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FVector                                     DisplacementLimitsMin;                                     // 0x0104(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     DisplacementLimitsMax;                                     // 0x0110(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              TeleportThreshold;                                         // 0x011C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     BoneLocation;                                              // 0x0120(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVectorSpringState                          SpringState;                                               // 0x012C(0x0018) (NoDestructor, NativeAccessSpecifierPublic)
-	float                                              DeltaTime;                                                 // 0x0144(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.PerspectiveHighMidLowSpineSpaceAdditive
-// 0x0318
-struct FPerspectiveHighMidLowSpineSpaceAdditive
-{
-	struct FHighMidLowSpineSpaceAdditive               ThirdPerson;                                               // 0x0000(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FHighMidLowSpineSpaceAdditive               FirstPerson;                                               // 0x018C(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.SessionSearchResult
-// 0x0108
-struct FSessionSearchResult
-{
-	unsigned char                                      UnknownData_NXQI[0x108];                                   // 0x0000(0x0108) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.ServerSearchResult
-// 0x0008 (0x0110 - 0x0108)
-struct FServerSearchResult : public FSessionSearchResult
-{
-	Mordhau_EServerList                                ServerList;                                                // 0x0108(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_OHHZ[0x7];                                     // 0x0109(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.BasicServerInfo
-// 0x0018
-struct FBasicServerInfo
-{
-	struct FString                                     ServerName;                                                // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MaxPlayers;                                                // 0x0010(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_QHLC[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.PlayerMessageStruct
-// 0x0028
-struct FPlayerMessageStruct
-{
-	struct FString                                     MessageBody;                                               // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     MessagePrefix;                                             // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                PlayerTeam;                                                // 0x0020(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_RR4L[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.RconEventStruct
-// 0x0020
-struct FRconEventStruct
-{
-	struct FString                                     EventName;                                                 // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0FG3[0x10];                                    // 0x0010(0x0010) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.ChatCommandStruct
-// 0x0020
-struct FChatCommandStruct
-{
-	struct FString                                     Name;                                                      // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       Type;                                                      // 0x0010(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bRequiresAdmin;                                            // 0x0018(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bBroadcastCommand;                                         // 0x0019(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_XBER[0x6];                                     // 0x001A(0x0006) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.RconFlag
-// 0x0040
-struct FRconFlag
-{
-	unsigned char                                      UnknownData_45OJ[0x30];                                    // 0x0000(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<class URconCommand*>                        CommandObjects;                                            // 0x0030(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GameStateLastDemotableTickFunction
-// 0x0008 (0x0030 - 0x0028)
-struct FGameStateLastDemotableTickFunction : public FTickFunction
-{
-	unsigned char                                      UnknownData_WHAJ[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.GameStatePostPhysicsTickFunction
-// 0x0008 (0x0030 - 0x0028)
-struct FGameStatePostPhysicsTickFunction : public FTickFunction
-{
-	unsigned char                                      UnknownData_64Z9[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.CapturePointGroup
-// 0x0010
-struct FCapturePointGroup
-{
-	TArray<class AControlPoint*>                       CapturePoints;                                             // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.PerspectiveVector2D
-// 0x0010
-struct FPerspectiveVector2D
-{
-	struct FVector2D                                   ThirdPerson;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   FirstPerson;                                               // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
 // ScriptStruct Mordhau.WoundInfo
 // 0x0014
 struct FWoundInfo
@@ -1365,7 +874,7 @@ struct FAttackInfo
 	bool                                               bForcesRearingFromFront;                                   // 0x0002(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bNoFlinch;                                                 // 0x0003(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bNoReleaseFlinch;                                          // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GW25[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_45V0[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              FlinchSpeedModifier;                                       // 0x0008(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              FlinchDurationModifier;                                    // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              Windup;                                                    // 0x0010(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1378,7 +887,7 @@ struct FAttackInfo
 	int                                                ChamberCost;                                               // 0x002C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                MorphCost;                                                 // 0x0030(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector2D                                   TurnCaps;                                                  // 0x0034(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_Y8QV[0x4];                                     // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_KUT2[0x4];                                     // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UCurveFloat*                                 TurnCapCurve;                                              // 0x0040(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UCurveFloat*                                 HitEffectIKWeightCurve;                                    // 0x0048(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              HitEffectSpeedUpExponent;                                  // 0x0050(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1393,7 +902,7 @@ struct FAttackInfo
 	bool                                               bStopOnHit;                                                // 0x0098(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bDrainAllStamOnBlock;                                      // 0x0099(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bRagdollOnBlock;                                           // 0x009A(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_YGOH[0x1];                                     // 0x009B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_XTS9[0x1];                                     // 0x009B(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              ChipDamagePercentageOnBlock;                               // 0x009C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bWillClashWhenParried;                                     // 0x00A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bRagdollOnHit;                                             // 0x00A1(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1408,6 +917,14 @@ struct FAttackInfo
 	class UClass*                                      HitShake;                                                  // 0x00C8(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UClass*                                      HitStopShake;                                              // 0x00D0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      IgnoreBones[0x50];                                         // 0x00D8(0x0050) UNKNOWN PROPERTY: SetProperty
+
+};
+
+// ScriptStruct Mordhau.PerspectiveAnimSequenceBaseArray
+// 0x0010
+struct FPerspectiveAnimSequenceBaseArray
+{
+	TArray<struct FPerspectiveAnimSequenceBase>        Array;                                                     // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
 
@@ -1426,35 +943,17 @@ struct FBlockResult
 
 };
 
-// ScriptStruct Mordhau.DecalInfo
-// 0x0018
-struct FDecalInfo
-{
-	class UMaterialInterface*                          Material;                                                  // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Size;                                                      // 0x0008(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VHBZ[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.PerspectiveAnimSequenceBaseArray
-// 0x0010
-struct FPerspectiveAnimSequenceBaseArray
-{
-	TArray<struct FPerspectiveAnimSequenceBase>        Array;                                                     // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
 // ScriptStruct Mordhau.WearableCustomization
 // 0x0040
 struct FWearableCustomization
 {
 	int                                                ID;                                                        // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_QDAY[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_5S5F[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<unsigned char>                              Colors;                                                    // 0x0008(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<unsigned char>                              Team1Colors;                                               // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<unsigned char>                              Team2Colors;                                               // 0x0028(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      Pattern;                                                   // 0x0038(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_20ZI[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WB33[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -1463,12 +962,12 @@ struct FWearableCustomization
 struct FEquipmentCustomization
 {
 	int                                                ID;                                                        // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_KPSI[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VE0D[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<unsigned char>                              Colors;                                                    // 0x0008(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<unsigned char>                              Parts;                                                     // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      Pattern;                                                   // 0x0028(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      Skin;                                                      // 0x0029(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EF1E[0x6];                                     // 0x002A(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_HPED[0x6];                                     // 0x002A(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -1477,7 +976,7 @@ struct FEquipmentCustomization
 struct FAppearanceCustomization
 {
 	int                                                Emblem;                                                    // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VI6U[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_BIMS[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<unsigned char>                              EmblemColors;                                              // 0x0008(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      MetalRoughnessScale;                                       // 0x0018(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      MetalTint;                                                 // 0x0019(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1516,30 +1015,6 @@ struct FSkillsCustomization
 
 };
 
-// ScriptStruct Mordhau.CharacterGearCustomization
-// 0x0020
-struct FCharacterGearCustomization
-{
-	TArray<struct FWearableCustomization>              Wearables;                                                 // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FEquipmentCustomization>             Equipment;                                                 // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.CharacterProfile
-// 0x00B8
-struct FCharacterProfile
-{
-	struct FText                                       Name;                                                      // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FCharacterGearCustomization                 GearCustomization;                                         // 0x0018(0x0020) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FAppearanceCustomization                    AppearanceCustomization;                                   // 0x0038(0x0028) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FFaceCustomization                          FaceCustomization;                                         // 0x0060(0x0030) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	struct FSkillsCustomization                        SkillsCustomization;                                       // 0x0090(0x0004) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_S1XC[0x4];                                     // 0x0094(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FString                                     Category;                                                  // 0x0098(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     PlayFabId;                                                 // 0x00A8(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
 // ScriptStruct Mordhau.SpawnablePlaneInfo
 // 0x0018
 struct FSpawnablePlaneInfo
@@ -1560,7 +1035,7 @@ struct FSpawnableObjectInfo
 	class UStaticMesh*                                 Preview;                                                   // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class USkeletalMesh*                               PreviewSkeletal;                                           // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      Cost;                                                      // 0x0010(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_JXR9[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_D5TY[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FRotator                                    RotationOffset;                                            // 0x0014(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FRotator                                    RotationOffsetPreview;                                     // 0x0020(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FRotator                                    NotHitRotationPreviewOffset;                               // 0x002C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
@@ -1572,105 +1047,25 @@ struct FSpawnableObjectInfo
 	int                                                PlaceableLimitMax;                                         // 0x0068(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     SpawnActorOffset;                                          // 0x006C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bDoNotAttach;                                              // 0x0078(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_U59W[0x3];                                     // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_HOTA[0x3];                                     // 0x0079(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FVector                                     BoxCheckExtents;                                           // 0x007C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     BoxCheckOffset;                                            // 0x0088(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_QTZV[0x4];                                     // 0x0094(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ZLS9[0x4];                                     // 0x0094(0x0004) MISSED OFFSET (PADDING)
 
 };
 
 // ScriptStruct Mordhau.NetState
-// 0x0020
+// 0x0028
 struct FNetState
 {
 	float                                              Timestamp;                                                 // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              LocalTimestamp;                                            // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Position;                                                  // 0x0008(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    Rotation;                                                  // 0x0014(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.RepFaceArrayShortWithVersion
-// 0x0018
-struct FRepFaceArrayShortWithVersion
-{
-	TArray<uint16_t>                                   Array;                                                     // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Version;                                                   // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_U4PD[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.RepArraySkillsWithVersion
-// 0x0008
-struct FRepArraySkillsWithVersion
-{
-	struct FSkillsCustomization                        Skills;                                                    // 0x0000(0x0004) (NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      Version;                                                   // 0x0004(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_MMNR[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.RepArrayByteWithVersion
-// 0x0018
-struct FRepArrayByteWithVersion
-{
-	TArray<unsigned char>                              Array;                                                     // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Version;                                                   // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_LAKI[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.ECSDuringPhysicsTickFunction
-// 0x0008 (0x0030 - 0x0028)
-struct FECSDuringPhysicsTickFunction : public FTickFunction
-{
-	unsigned char                                      UnknownData_R78N[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.ECSPostPhysicsTickFunction
-// 0x0008 (0x0030 - 0x0028)
-struct FECSPostPhysicsTickFunction : public FTickFunction
-{
-	unsigned char                                      UnknownData_F15F[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.Stat
-// 0x000C
-struct FStat
-{
-	struct FName                                       Name;                                                      // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EStatSetBy                                 SetBy;                                                     // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AREM[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_TwoHandedIK
-// 0x0138 (0x0200 - 0x00C8)
-struct FAnimNode_TwoHandedIK : public FAnimNode_SkeletalControlBase
-{
-	struct FBoneReference                              IKBone;                                                    // 0x00C8(0x0010) (Edit, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      bAllowStretching : 1;                                      // 0x00D8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8D79[0x3];                                     // 0x00D9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	float                                              StartStretchRatio;                                         // 0x00DC(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MaxStretchScale;                                           // 0x00E0(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_Z0M5[0xC];                                     // 0x00E4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FBoneSocketTarget                           JointTarget;                                               // 0x00F0(0x0060) (Edit, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector                                     JointTargetLocation;                                       // 0x0150(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TEnumAsByte<Engine_EBoneControlSpace>              JointTargetLocationSpace;                                  // 0x015C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bMaintainEffectorRelRot : 1;                               // 0x015D(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsUsingFixedTarget;                                       // 0x015E(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZSSO[0x1];                                     // 0x015F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FTransform                                  SlidingTransform;                                          // 0x0160(0x0030) (Edit, BlueprintVisible, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector2D                                   SlidingStretchBlendLimits;                                 // 0x0190(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     FixedTarget;                                               // 0x0198(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FBoneReference                              MainHandWeaponBone;                                        // 0x01A4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              MainHandBone;                                              // 0x01B4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              OffhandThumbFingerBone;                                    // 0x01C4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              OffhandIndexFingerBone;                                    // 0x01D4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              MainHandMiddleFingerBone;                                  // 0x01E4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AG8E[0xC];                                     // 0x01F4(0x000C) MISSED OFFSET (PADDING)
+	struct FVector_NetQuantize100                      Position;                                                  // 0x0008(0x000C) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    Rotation;                                                  // 0x0014(0x000C) (ZeroConstructor, IsPlainOldData, RepSkip, NoDestructor, NativeAccessSpecifierPublic)
+	uint16_t                                           Pitch;                                                     // 0x0020(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint16_t                                           Yaw;                                                       // 0x0022(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Roll;                                                      // 0x0024(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_8RL3[0x3];                                     // 0x0025(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -1683,12 +1078,42 @@ struct FFootGroundingLimb
 	float                                              TraceDistance;                                             // 0x0010(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector2D                                   UpValueLimits;                                             // 0x0014(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FHitResult                                  TraceResult;                                               // 0x001C(0x0088) (BlueprintVisible, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_X2JG[0x118];                                   // 0x00A4(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_9R8W[0x118];                                   // 0x00A4(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              RootSpaceImpactZ;                                          // 0x01BC(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FRotator                                    RotationOffset;                                            // 0x01C0(0x000C) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FVector                                     InternalTranslationOffset;                                 // 0x01CC(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     TranslationOffset;                                         // 0x01D8(0x000C) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AQPA[0x4];                                     // 0x01E4(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_2ZU1[0x4];                                     // 0x01E4(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.RepFaceArrayShortWithVersion
+// 0x0018
+struct FRepFaceArrayShortWithVersion
+{
+	TArray<uint16_t>                                   Array;                                                     // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Version;                                                   // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_KAYB[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.RepArrayByteWithVersion
+// 0x0018
+struct FRepArrayByteWithVersion
+{
+	TArray<unsigned char>                              Array;                                                     // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Version;                                                   // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_44OG[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.RepArraySkillsWithVersion
+// 0x0008
+struct FRepArraySkillsWithVersion
+{
+	struct FSkillsCustomization                        Skills;                                                    // 0x0000(0x0004) (NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      Version;                                                   // 0x0004(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_BWD9[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -1698,7 +1123,470 @@ struct FRepArrayAppearanceWithVersion
 {
 	struct FAppearanceCustomization                    Appearance;                                                // 0x0000(0x0028) (NativeAccessSpecifierPublic)
 	unsigned char                                      Version;                                                   // 0x0028(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_22E6[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_IQV3[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.ECSDuringPhysicsTickFunction
+// 0x0008 (0x0030 - 0x0028)
+struct FECSDuringPhysicsTickFunction : public FTickFunction
+{
+	unsigned char                                      UnknownData_55NW[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.ECSPostPhysicsTickFunction
+// 0x0008 (0x0030 - 0x0028)
+struct FECSPostPhysicsTickFunction : public FTickFunction
+{
+	unsigned char                                      UnknownData_C0KY[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.Stat
+// 0x000C
+struct FStat
+{
+	struct FName                                       Name;                                                      // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EStatSetBy                                 SetBy;                                                     // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_X3C8[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.EquipmentPartEntry
+// 0x0028
+struct FEquipmentPartEntry
+{
+	struct FText                                       PartName;                                                  // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	TArray<class UClass*>                              Parts;                                                     // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.EmoteEntry
+// 0x0008
+struct FEmoteEntry
+{
+	class UClass*                                      EmoteMotion;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.ActorSetAndArray
+// 0x0060
+struct FActorSetAndArray
+{
+	unsigned char                                      Set[0x50];                                                 // 0x0000(0x0050) UNKNOWN PROPERTY: SetProperty
+	TArray<class AActor*>                              Array;                                                     // 0x0050(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+
+};
+
+// ScriptStruct Mordhau.ActorTraceEntry
+// 0x0058
+struct FActorTraceEntry
+{
+	class AActor*                                      Actor;                                                     // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      BonesHit[0x50];                                            // 0x0008(0x0050) UNKNOWN PROPERTY: SetProperty
+
+};
+
+// ScriptStruct Mordhau.PlayerCountArray
+// 0x0010
+struct FPlayerCountArray
+{
+	TArray<int>                                        Values;                                                    // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.HorseGearInfo
+// 0x0018
+struct FHorseGearInfo
+{
+	float                                              MaxSpeed;                                                  // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MaxAcceleration;                                           // 0x0004(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bAllowJump;                                                // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bCanRiderRegenHealth;                                      // 0x0009(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bCanRiderRegenStamina;                                     // 0x000A(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bCanHorseRegen;                                            // 0x000B(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_S0OR[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class UClass*                                      HeadBobShake;                                              // 0x0010(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GameServerFilter
+// 0x0048
+struct FGameServerFilter
+{
+	bool                                               bIsNotFull;                                                // 0x0000(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bHasPlayers;                                               // 0x0001(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsEmpty;                                                  // 0x0002(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsNotPasswordProtected;                                   // 0x0003(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsOfficial;                                               // 0x0004(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsModded;                                                 // 0x0005(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_S1D8[0x2];                                     // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	int                                                MinOpenSlots;                                              // 0x0008(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_76QS[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FString                                     QueueName;                                                 // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     ServerName;                                                // 0x0020(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     GameMode;                                                  // 0x0030(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0040(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_HIEU[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNodePackedDismemberment
+// 0x0010
+struct FAnimNodePackedDismemberment
+{
+	TArray<int>                                        DismemberedBonesIndices;                                   // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.DamageRecord
+// 0x0010
+struct FDamageRecord
+{
+	TWeakObjectPtr<class AController>                  Source;                                                    // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Time;                                                      // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Damage;                                                    // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.NetBlock
+// 0x0010
+struct FNetBlock
+{
+	unsigned char                                      BlockedReason;                                             // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Flags;                                                     // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      BlockedMove;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Surface;                                                   // 0x0003(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class AActor>                       BlockingActor;                                             // 0x0004(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Version;                                                   // 0x000C(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_F52V[0x3];                                     // 0x000D(0x0003) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.NetMotion
+// 0x0006
+struct FNetMotion
+{
+	unsigned char                                      ID;                                                        // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MotionType;                                                // 0x0001(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MotionParam0;                                              // 0x0002(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MotionParam1;                                              // 0x0003(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MotionParam2;                                              // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MotionDynamicParam;                                        // 0x0005(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.SessionSearchResult
+// 0x0108
+struct FSessionSearchResult
+{
+	unsigned char                                      UnknownData_U4XZ[0x108];                                   // 0x0000(0x0108) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.ServerSearchResult
+// 0x0008 (0x0110 - 0x0108)
+struct FServerSearchResult : public FSessionSearchResult
+{
+	Mordhau_EServerList                                ServerList;                                                // 0x0108(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_GWB0[0x7];                                     // 0x0109(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.BasicServerInfo
+// 0x0018
+struct FBasicServerInfo
+{
+	struct FString                                     ServerName;                                                // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MaxPlayers;                                                // 0x0010(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_X0O6[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.PlayerMessageStruct
+// 0x0028
+struct FPlayerMessageStruct
+{
+	struct FString                                     MessageBody;                                               // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     MessagePrefix;                                             // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                PlayerTeam;                                                // 0x0020(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_NYLA[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.RconEventStruct
+// 0x0020
+struct FRconEventStruct
+{
+	struct FString                                     EventName;                                                 // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_4HZ6[0x10];                                    // 0x0010(0x0010) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.ChatCommandStruct
+// 0x0020
+struct FChatCommandStruct
+{
+	struct FString                                     Name;                                                      // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       Type;                                                      // 0x0010(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bRequiresAdmin;                                            // 0x0018(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bBroadcastCommand;                                         // 0x0019(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_VHY1[0x6];                                     // 0x001A(0x0006) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.RconFlag
+// 0x0040
+struct FRconFlag
+{
+	unsigned char                                      UnknownData_97IL[0x30];                                    // 0x0000(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<class URconCommand*>                        CommandObjects;                                            // 0x0030(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GameStateLastDemotableTickFunction
+// 0x0008 (0x0030 - 0x0028)
+struct FGameStateLastDemotableTickFunction : public FTickFunction
+{
+	unsigned char                                      UnknownData_9GUO[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.GameStatePostPhysicsTickFunction
+// 0x0008 (0x0030 - 0x0028)
+struct FGameStatePostPhysicsTickFunction : public FTickFunction
+{
+	unsigned char                                      UnknownData_QBF8[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.CapturePointGroup
+// 0x0010
+struct FCapturePointGroup
+{
+	TArray<class AControlPoint*>                       CapturePoints;                                             // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GroupSoundPlayer
+// 0x0018
+struct FGroupSoundPlayer
+{
+	TWeakObjectPtr<class UAudioComponent>              CurrentlyPlayingSound;                                     // 0x0000(0x0008) (ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Location;                                                  // 0x0008(0x000C) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Entries;                                                   // 0x0014(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GroupSoundEntry
+// 0x0010
+struct FGroupSoundEntry
+{
+	struct FVector                                     Location;                                                  // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Time;                                                      // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GroupSoundGroup
+// 0x0080
+struct FGroupSoundGroup
+{
+	TArray<struct FGroupSoundPlayer>                   GroupSoundPlayers;                                         // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TMap<class AActor*, struct FGroupSoundEntry>       SoundEntries;                                              // 0x0010(0x0050) (NativeAccessSpecifierPublic)
+	int                                                SoundGroupsNum;                                            // 0x0060(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              EntryMaxAge;                                               // 0x0064(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MinEntriesToPlaySound;                                     // 0x0068(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_RFWK[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class USoundCue*                                   SoundCue;                                                  // 0x0070(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              FadeOutDuration;                                           // 0x0078(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SoundGroupMergeDistance;                                   // 0x007C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.ServerStats
+// 0x0018
+struct FServerStats
+{
+	unsigned char                                      TargetTickRate;                                            // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MinTickRate;                                               // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      MaxTickRate;                                               // 0x0002(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      AvgTickRate;                                               // 0x0003(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           InBytesPerSecond;                                          // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           OutBytesPerSecond;                                         // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           ConfiguredInternetSpeed;                                   // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           NumPlayers;                                                // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           MaxPlayers;                                                // 0x0014(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.PlayerCommand
+// 0x0030
+struct FPlayerCommand
+{
+	Mordhau_ECommandType                               Type;                                                      // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_4ZXG[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FString                                     UniquePlayerID;                                            // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                IntParam;                                                  // 0x0018(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_F3WQ[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FString                                     StringParam;                                               // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.ReplicatedProjectileInfo
+// 0x0034
+struct FReplicatedProjectileInfo
+{
+	struct FVector_NetQuantize100                      Location;                                                  // 0x0000(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector_NetQuantize100                      Orientation;                                               // 0x000C(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector_NetQuantizeNormal                   HitNormal;                                                 // 0x0018(0x000C) (Edit, BlueprintVisible, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              BounceForce;                                               // 0x0024(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class AActor>                       Creator;                                                   // 0x0028(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      HitSurface;                                                // 0x0030(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bHasStopped;                                               // 0x0031(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bHasHitWorld;                                              // 0x0032(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      HitCounter;                                                // 0x0033(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.FindServerSessionsFilter
+// 0x0048
+struct FFindServerSessionsFilter
+{
+	bool                                               bIsNotFull;                                                // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bHasPlayers;                                               // 0x0001(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsEmpty;                                                  // 0x0002(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsNotPasswordProtected;                                   // 0x0003(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsDevBuild;                                               // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsOfficial;                                               // 0x0005(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsMatchmaking;                                            // 0x0006(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsModded;                                                 // 0x0007(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EAntiCheat                                 AntiCheat;                                                 // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_TD4K[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	int                                                MinOpenSlots;                                              // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MinSlots;                                                  // 0x0010(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MaxSlots;                                                  // 0x0014(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MaxPing;                                                   // 0x0018(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_MICE[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FString                                     ServerName;                                                // 0x0020(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     GameMode;                                                  // 0x0030(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0040(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_BL2Q[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.SpineSpaceAdditive
+// 0x0084
+struct FSpineSpaceAdditive
+{
+	struct FRotator                                    head;                                                      // 0x0000(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    Neck;                                                      // 0x000C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    Spine1;                                                    // 0x0018(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    LeftShoulder;                                              // 0x0024(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    LeftArm;                                                   // 0x0030(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    LeftForearm;                                               // 0x003C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    LeftHand;                                                  // 0x0048(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    RightShoulder;                                             // 0x0054(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    RightArm;                                                  // 0x0060(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    RightForearm;                                              // 0x006C(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    RightHand;                                                 // 0x0078(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.HighMidLowSpineSpaceAdditive
+// 0x018C
+struct FHighMidLowSpineSpaceAdditive
+{
+	struct FSpineSpaceAdditive                         High;                                                      // 0x0000(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FSpineSpaceAdditive                         Mid;                                                       // 0x0084(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FSpineSpaceAdditive                         Low;                                                       // 0x0108(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.PerspectiveHighMidLowSpineSpaceAdditive
+// 0x0318
+struct FPerspectiveHighMidLowSpineSpaceAdditive
+{
+	struct FHighMidLowSpineSpaceAdditive               ThirdPerson;                                               // 0x0000(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FHighMidLowSpineSpaceAdditive               FirstPerson;                                               // 0x018C(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.FacialBoneSetup
+// 0x0088
+struct FFacialBoneSetup
+{
+	struct FName                                       BoneName;                                                  // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       SelectionBoneOverride;                                     // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsSymmetrical;                                            // 0x0010(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_QNHQ[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	float                                              SelectionBiasFactor;                                       // 0x0014(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FName>                               ChildBones;                                                // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Level;                                                     // 0x0028(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                SymmetryTwinBoneIndex;                                     // 0x002C(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       SymmetryTwinBoneName;                                      // 0x0030(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                BoneIndex;                                                 // 0x0038(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   TranslateXRange;                                           // 0x003C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   TranslateYRange;                                           // 0x0044(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   TranslateZRange;                                           // 0x004C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   ScaleXRange;                                               // 0x0054(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   ScaleYRange;                                               // 0x005C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   ScaleZRange;                                               // 0x0064(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   RotateXRange;                                              // 0x006C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   RotateYRange;                                              // 0x0074(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   RotateZRange;                                              // 0x007C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_758W[0x4];                                     // 0x0084(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNodePackedFaceCustomization
+// 0x0020
+struct FAnimNodePackedFaceCustomization
+{
+	TArray<struct FFacialBoneSetup>                    FaceCustomizationSetup;                                    // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FTransform>                          FaceCustomizationBonesTransforms;                          // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.PerspectiveVector2D
+// 0x0010
+struct FPerspectiveVector2D
+{
+	struct FVector2D                                   ThirdPerson;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   FirstPerson;                                               // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.CharacterGearCustomization
+// 0x0020
+struct FCharacterGearCustomization
+{
+	TArray<struct FWearableCustomization>              Wearables;                                                 // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FEquipmentCustomization>             Equipment;                                                 // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnglingSpineSpaceAdditive
+// 0x0318
+struct FAnglingSpineSpaceAdditive
+{
+	struct FHighMidLowSpineSpaceAdditive               Right;                                                     // 0x0000(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FHighMidLowSpineSpaceAdditive               Left;                                                      // 0x018C(0x018C) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.CharacterProfile
+// 0x00B8
+struct FCharacterProfile
+{
+	struct FText                                       Name;                                                      // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FCharacterGearCustomization                 GearCustomization;                                         // 0x0018(0x0020) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FAppearanceCustomization                    AppearanceCustomization;                                   // 0x0038(0x0028) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FFaceCustomization                          FaceCustomization;                                         // 0x0060(0x0030) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FSkillsCustomization                        SkillsCustomization;                                       // 0x0090(0x0004) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_4717[0x4];                                     // 0x0094(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FString                                     Category;                                                  // 0x0098(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     PlayFabId;                                                 // 0x00A8(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
 
@@ -1720,23 +1608,27 @@ struct FCharPhysics
 
 };
 
-// ScriptStruct Mordhau.EquipmentPartEntry
-// 0x0028
-struct FEquipmentPartEntry
+// ScriptStruct Mordhau.ActorTraceData
+// 0x0068
+struct FActorTraceData
 {
-	struct FText                                       PartName;                                                  // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	TArray<class UClass*>                              Parts;                                                     // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIgnoreFurtherTraces;                                      // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	bool                                               bIsAllowedToAddForce;                                      // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData_A5GB[0x6];                                     // 0x0002(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      Set[0x50];                                                 // 0x0002(0x0050) UNKNOWN PROPERTY: SetProperty
+	TArray<struct FActorTraceEntry>                    ActorTraceEntryArray;                                      // 0x0058(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 
 };
 
 // ScriptStruct Mordhau.EquipmentSkinEntry
-// 0x0048
+// 0x0050
 struct FEquipmentSkinEntry
 {
 	struct FText                                       SkinName;                                                  // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
 	TArray<struct FEquipmentPartEntry>                 PartTypes;                                                 // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<unsigned char>                              ColorTables;                                               // 0x0028(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FPatternInfo>                        Patterns;                                                  // 0x0038(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UPhysicsAsset*                               ShadowPhAt;                                                // 0x0048(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
 
@@ -1747,12 +1639,339 @@ struct FEquipmentHolsterInfo
 	struct FName                                       HolsterSocket;                                             // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bHidden;                                                   // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bHiddenIn1P;                                               // 0x0009(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E26G[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_C8ZI[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UAnimMontage*                                DrawAnimation;                                             // 0x0010(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimMontage*                                DrawAnimation1P;                                           // 0x0018(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UAnimMontage*                                AltModeDrawAnimation1P;                                    // 0x0020(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_O2ND[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VJCP[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FTransform                                  Offset;                                                    // 0x0030(0x0030) (Edit, BlueprintVisible, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.PlayerChatMessagesContainer
+// 0x0018
+struct FPlayerChatMessagesContainer
+{
+	TArray<struct FPlayerMessageStruct>                Messages;                                                  // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_O69D[0x8];                                     // 0x0010(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.GameplayTagCondition
+// 0x0040
+struct FGameplayTagCondition
+{
+	struct FGameplayTagContainer                       RequiredTags;                                              // 0x0000(0x0020) (BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FGameplayTagContainer                       BlockedTags;                                               // 0x0020(0x0020) (BlueprintVisible, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.GameplayTagConditionDelegate
+// 0x0058
+struct FGameplayTagConditionDelegate
+{
+	struct FGameplayTagCondition                       Condition;                                                 // 0x0000(0x0040) (BlueprintVisible, NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Delegate;                                                  // 0x0040(0x0010) (BlueprintVisible, ZeroConstructor, InstancedReference, NativeAccessSpecifierPublic)
+	bool                                               bIsConditionSatisfied;                                     // 0x0050(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_SBHD[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.MordhauDamageInfo
+// 0x00A8
+struct FMordhauDamageInfo
+{
+	struct FHitResult                                  Hit;                                                       // 0x0000(0x0088) (Edit, BlueprintVisible, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0088(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0089(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_0RHZ[0x6];                                     // 0x008A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class AActor*                                      DamageSource;                                              // 0x0090(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageAgent;                                               // 0x0098(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bWantsFlinchAnimation;                                     // 0x00A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_3IPI[0x7];                                     // 0x00A1(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.SteamPlayFabConversionResult
+// 0x0050
+struct FSteamPlayFabConversionResult
+{
+	TMap<struct FString, struct FString>               SteamIDPlayFabIDMap;                                       // 0x0000(0x0050) (BlueprintVisible, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.ServerRestrictionInfo
+// 0x0010
+struct FServerRestrictionInfo
+{
+	bool                                               bIsBanned;                                                 // 0x0000(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_RAB8[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	int                                                BanDuration;                                               // 0x0004(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsMuted;                                                  // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_6OZ0[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	int                                                MuteDuration;                                              // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_AttackAngling
+// 0x0138 (0x0200 - 0x00C8)
+struct FAnimNode_AttackAngling : public FAnimNode_SkeletalControlBase
+{
+	struct FSpineSpaceAdditive                         SpineSpaceAdditivePose;                                    // 0x00C8(0x0084) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              head;                                                      // 0x014C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Neck;                                                      // 0x015C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Spine;                                                     // 0x016C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftShoulder;                                              // 0x017C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftArm;                                                   // 0x018C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftForearm;                                               // 0x019C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftHand;                                                  // 0x01AC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightShoulder;                                             // 0x01BC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightArm;                                                  // 0x01CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightForearm;                                              // 0x01DC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightHand;                                                 // 0x01EC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_N7Y9[0x4];                                     // 0x01FC(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_BlendBetweenBones
+// 0x0048 (0x0110 - 0x00C8)
+struct FAnimNode_BlendBetweenBones : public FAnimNode_SkeletalControlBase
+{
+	struct FBoneReference                              BoneToModify;                                              // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              BlendBoneA;                                                // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              BlendBoneB;                                                // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              ReferenceBlendBone;                                        // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	float                                              BlendBetweenAlpha;                                         // 0x0108(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_D6PC[0x4];                                     // 0x010C(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_Dismemberment
+// 0x0010 (0x00D8 - 0x00C8)
+struct FAnimNode_Dismemberment : public FAnimNode_SkeletalControlBase
+{
+	struct FAnimNodePackedDismemberment                Dismemberment;                                             // 0x00C8(0x0010) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_FaceCustomization
+// 0x0020 (0x00E8 - 0x00C8)
+struct FAnimNode_FaceCustomization : public FAnimNode_SkeletalControlBase
+{
+	struct FAnimNodePackedFaceCustomization            FaceCustomization;                                         // 0x00C8(0x0020) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.LineTraceMemoryEntry
+// 0x0024
+struct FLineTraceMemoryEntry
+{
+	struct FVector                                     TraceStart;                                                // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DestroyTime;                                               // 0x0018(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class AActor>                       Owner;                                                     // 0x001C(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.DecalInfo
+// 0x0018
+struct FDecalInfo
+{
+	class UMaterialInterface*                          Material;                                                  // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Size;                                                      // 0x0008(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_Q9SG[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.ServerAddress
+// 0x0008
+struct FServerAddress
+{
+	uint32_t                                           IP;                                                        // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint16_t                                           Port;                                                      // 0x0004(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_TQOD[0x2];                                     // 0x0006(0x0002) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.MordhauColorItemTable
+// 0x0028
+struct FMordhauColorItemTable
+{
+	struct FText                                       TableName;                                                 // 0x0000(0x0018) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	TArray<class UClass*>                              Entries;                                                   // 0x0018(0x0010) (Edit, BlueprintVisible, ZeroConstructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.Achievement
+// 0x0008
+struct FAchievement
+{
+	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.PerspectiveBlendSpaceBase
+// 0x0010
+struct FPerspectiveBlendSpaceBase
+{
+	class UBlendSpaceBase*                             ThirdPerson;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UBlendSpaceBase*                             FirstPerson;                                               // 0x0008(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_MordhauSpringBone
+// 0x0080 (0x0148 - 0x00C8)
+struct FAnimNode_MordhauSpringBone : public FAnimNode_SkeletalControlBase
+{
+	struct FBoneReference                              bone;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                               bIsRotationSpring;                                         // 0x00D8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsRotationFlipped;                                        // 0x00D9(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_B55F[0x2];                                     // 0x00DA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FVector                                     BoneOffset;                                                // 0x00DC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsBoneOffsetInComponentSpace;                             // 0x00E8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_77K3[0x3];                                     // 0x00E9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	float                                              BoneOffsetRotationProjection;                              // 0x00EC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SpringStiffness;                                           // 0x00F0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SpringDamping;                                             // 0x00F4(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SpringMass;                                                // 0x00F8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MaxDisplacement;                                           // 0x00FC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bUseDisplacementLimits;                                    // 0x0100(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_VHF1[0x3];                                     // 0x0101(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FVector                                     DisplacementLimitsMin;                                     // 0x0104(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     DisplacementLimitsMax;                                     // 0x0110(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              TeleportThreshold;                                         // 0x011C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     BoneLocation;                                              // 0x0120(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVectorSpringState                          SpringState;                                               // 0x012C(0x0018) (NoDestructor, NativeAccessSpecifierPublic)
+	float                                              DeltaTime;                                                 // 0x0144(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_RotateAroundPivot
+// 0x0030 (0x00F8 - 0x00C8)
+struct FAnimNode_RotateAroundPivot : public FAnimNode_SkeletalControlBase
+{
+	TEnumAsByte<Engine_EBoneControlSpace>              Space;                                                     // 0x00C8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_GD59[0x3];                                     // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FBoneReference                              BoneToModify;                                              // 0x00CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FRotator                                    Rotation;                                                  // 0x00DC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector                                     Pivot;                                                     // 0x00E8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_1FN2[0x4];                                     // 0x00F4(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_SpeedWarping
+// 0x00B8 (0x0180 - 0x00C8)
+struct FAnimNode_SpeedWarping : public FAnimNode_SkeletalControlBase
+{
+	struct FBoneReference                              Hips;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftLegTarget;                                             // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftUpLeg;                                                 // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftFoot;                                                  // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightLegTarget;                                            // 0x0108(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightUpLeg;                                                // 0x0118(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightFoot;                                                 // 0x0128(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	float                                              Speed;                                                     // 0x0138(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              TotalLegLength;                                            // 0x013C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Axis;                                                      // 0x0140(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FFloatSpringState                           SpringState;                                               // 0x014C(0x0008) (NoDestructor, NativeAccessSpecifierPublic)
+	float                                              SpringStiffness;                                           // 0x0154(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SpringDamping;                                             // 0x0158(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              SpringMass;                                                // 0x015C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   HipsOffsetRemapIn;                                         // 0x0160(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   HipsOffsetRemapOut;                                        // 0x0168(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector2D                                   HipsOffsetClamp;                                           // 0x0170(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              HipsZOffset;                                               // 0x0178(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DeltaTime;                                                 // 0x017C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_SpineSpreader
+// 0x0058 (0x0120 - 0x00C8)
+struct FAnimNode_SpineSpreader : public FAnimNode_SkeletalControlBase
+{
+	float                                              SpreadPercentage;                                          // 0x00C8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Spine1;                                                    // 0x00CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightShoulder;                                             // 0x00DC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightArm;                                                  // 0x00EC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightForearm;                                              // 0x00FC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightHand;                                                 // 0x010C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_0Q0O[0x4];                                     // 0x011C(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_StopBounces
+// 0x0150 (0x0218 - 0x00C8)
+struct FAnimNode_StopBounces : public FAnimNode_SkeletalControlBase
+{
+	struct FBoneReference                              Hips;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftUpLeg;                                                 // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftLeg;                                                   // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftFoot;                                                  // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightUpLeg;                                                // 0x0108(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightLeg;                                                  // 0x0118(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightFoot;                                                 // 0x0128(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LowerBack;                                                 // 0x0138(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Spine;                                                     // 0x0148(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Spine1;                                                    // 0x0158(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              Neck;                                                      // 0x0168(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              head;                                                      // 0x0178(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftShoulder;                                              // 0x0188(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightShoulder;                                             // 0x0198(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              LeftArm;                                                   // 0x01A8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              RightArm;                                                  // 0x01B8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector                                     BounceDuckWithBounceWeight;                                // 0x01C8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    StopBounce;                                                // 0x01D4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	float                                              NotFirstPersonWithAtmosphericsAndAnimLOD1;                 // 0x01E0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     RotateAroundHipsPivot;                                     // 0x01E4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     LeftFootTranslation;                                       // 0x01F0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     RightFootTranslation;                                      // 0x01FC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              StopBounceMediumWeight;                                    // 0x0208(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              StopBounceLightWeight;                                     // 0x020C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              InverseHeadWeight;                                         // 0x0210(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_XSHX[0x4];                                     // 0x0214(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_TwoBoneIKOffset
+// 0x0038 (0x0210 - 0x01D8)
+struct FAnimNode_TwoBoneIKOffset : public FAnimNode_TwoBoneIK
+{
+	struct FVector                                     OffsetVector;                                              // 0x01D8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     RotateEndBonePivot;                                        // 0x01E4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    RotateEndBoneOffset;                                       // 0x01F0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                               bUseParentZLimit;                                          // 0x01FC(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_FBIP[0x3];                                     // 0x01FD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	float                                              ParentZLimitOffset;                                        // 0x0200(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bEffectorLocationIsOffset;                                 // 0x0204(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_BTSN[0xB];                                     // 0x0205(0x000B) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Mordhau.AnimNode_TwoHandedIK
+// 0x0138 (0x0200 - 0x00C8)
+struct FAnimNode_TwoHandedIK : public FAnimNode_SkeletalControlBase
+{
+	struct FBoneReference                              IKBone;                                                    // 0x00C8(0x0010) (Edit, NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      bAllowStretching : 1;                                      // 0x00D8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_BB9F[0x3];                                     // 0x00D9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	float                                              StartStretchRatio;                                         // 0x00DC(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MaxStretchScale;                                           // 0x00E0(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_CROB[0xC];                                     // 0x00E4(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FBoneSocketTarget                           JointTarget;                                               // 0x00F0(0x0060) (Edit, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector                                     JointTargetLocation;                                       // 0x0150(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TEnumAsByte<Engine_EBoneControlSpace>              JointTargetLocationSpace;                                  // 0x015C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bMaintainEffectorRelRot : 1;                               // 0x015D(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsUsingFixedTarget;                                       // 0x015E(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_XL7U[0x1];                                     // 0x015F(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FTransform                                  SlidingTransform;                                          // 0x0160(0x0030) (Edit, BlueprintVisible, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector2D                                   SlidingStretchBlendLimits;                                 // 0x0190(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     FixedTarget;                                               // 0x0198(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FBoneReference                              MainHandWeaponBone;                                        // 0x01A4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              MainHandBone;                                              // 0x01B4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              OffhandThumbFingerBone;                                    // 0x01C4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              OffhandIndexFingerBone;                                    // 0x01D4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	struct FBoneReference                              MainHandMiddleFingerBone;                                  // 0x01E4(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_KHU0[0xC];                                     // 0x01F4(0x000C) MISSED OFFSET (PADDING)
 
 };
 
@@ -1761,13 +1980,13 @@ struct FEquipmentHolsterInfo
 struct FAnimNode_WeightShift : public FAnimNode_SkeletalControlBase
 {
 	TEnumAsByte<Engine_EBoneControlSpace>              Space;                                                     // 0x00C8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_BX54[0x3];                                     // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_C8U5[0x3];                                     // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FBoneReference                              BoneToModify;                                              // 0x00CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
 	struct FBoneReference                              Bone1ToMaintain;                                           // 0x00DC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
 	struct FBoneReference                              Bone2ToMaintain;                                           // 0x00EC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
 	struct FRotator                                    Rotation;                                                  // 0x00FC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FVector                                     Pivot;                                                     // 0x0108(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_NCCT[0x4];                                     // 0x0114(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_JEXN[0x4];                                     // 0x0114(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -1775,7 +1994,7 @@ struct FAnimNode_WeightShift : public FAnimNode_SkeletalControlBase
 // 0x0270
 struct FSpawnablePlaneTraceResult
 {
-	unsigned char                                      UnknownData_M6EM[0x270];                                   // 0x0000(0x0270) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_TVSN[0x270];                                   // 0x0000(0x0270) MISSED OFFSET (PADDING)
 
 };
 
@@ -1792,7 +2011,7 @@ struct FSpawnablePlaneTraceSettings
 	float                                              RightForwardPercentage;                                    // 0x0030(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              LeftForwardPercentage;                                     // 0x0034(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     TraceAmount;                                               // 0x0038(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_90CO[0x4];                                     // 0x0044(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_46ZV[0x4];                                     // 0x0044(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -1809,7 +2028,7 @@ struct FCharState
 struct FCharLook
 {
 	unsigned char                                      FacingMode;                                                // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_K8EL[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_5Y9L[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FVector2D                                   Offset2D;                                                  // 0x0004(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -1852,9 +2071,9 @@ struct FPlayerProfile
 {
 	int                                                Rank;                                                      // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      RankDisplayType;                                           // 0x0004(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VRT1[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_7IDP[0x3];                                     // 0x0005(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                Banner;                                                    // 0x0008(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9TCV[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_EXFY[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FCharacterProfile                           Character;                                                 // 0x0010(0x00B8) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
 
 };
@@ -1873,7 +2092,7 @@ struct FMatchmakingTicket
 struct FRichPresence
 {
 	Mordhau_ERichPresenceStatus                        Status;                                                    // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_73BH[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_85XZ[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     GameMode;                                                  // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     MapName;                                                   // 0x0018(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
@@ -1906,7 +2125,7 @@ struct FUnlockRecipe
 struct FCondensedUserLagReport
 {
 	int                                                GroupCount;                                                // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8SHM[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_IYFL[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int64_t                                            GroupTimestamp;                                            // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint64_t                                           CombinedInBytesPerSec;                                     // 0x0010(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint64_t                                           CombinedOutBytesPerSec;                                    // 0x0018(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -1925,7 +2144,7 @@ struct FUserLagReport
 	uint32_t                                           OutBytesPerSecond;                                         // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      AvgTickRate;                                               // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      PlayerCount;                                               // 0x0011(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_S9HL[0x6];                                     // 0x0012(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ZDYH[0x6];                                     // 0x0012(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -1963,7 +2182,7 @@ struct FLobbySearchResult : public FSessionSearchResult
 // 0x0058
 struct FVisibilityMap
 {
-	unsigned char                                      UnknownData_U3Z6[0x58];                                    // 0x0000(0x0058) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_2CJ4[0x58];                                    // 0x0000(0x0058) MISSED OFFSET (PADDING)
 
 };
 
@@ -1971,7 +2190,7 @@ struct FVisibilityMap
 // 0x0050
 struct FVisibilityList
 {
-	unsigned char                                      UnknownData_4I6B[0x50];                                    // 0x0000(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BEX6[0x50];                                    // 0x0000(0x0050) MISSED OFFSET (PADDING)
 
 };
 
@@ -2040,11 +2259,11 @@ struct FMordhauDamageEvent : public FPointDamageEvent
 {
 	Mordhau_EMordhauDamageType                         Type;                                                      // 0x00A8(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      SubType;                                                   // 0x00A9(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_65CU[0x2];                                     // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_PZRO[0x2];                                     // 0x00AA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TWeakObjectPtr<class AActor>                       DamageSource;                                              // 0x00AC(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TWeakObjectPtr<class AActor>                       DamageAgent;                                               // 0x00B4(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bWantsFlinchAnimation;                                     // 0x00BC(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_WKYZ[0x3];                                     // 0x00BD(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_R1E0[0x3];                                     // 0x00BD(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -2083,7 +2302,7 @@ struct FRconResponseStruct
 	struct FString                                     CommandName;                                               // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Type;                                                      // 0x0020(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bSuccess;                                                  // 0x0030(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_5GFD[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1T5Z[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     FailureReason;                                             // 0x0038(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -2094,11 +2313,11 @@ struct FPlayerlistPlayer
 {
 	struct FString                                     Name;                                                      // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Team;                                                      // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DW8Z[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_03TO[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     PlayFabId;                                                 // 0x0018(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Platform;                                                  // 0x0028(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsABot;                                                   // 0x0038(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_6MEC[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CXSN[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -2112,7 +2331,7 @@ struct FPlayerlistResponse
 	int                                                BotCount;                                                  // 0x005C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bVerbose;                                                  // 0x0060(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIncludeBots;                                              // 0x0061(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_6PIC[0x6];                                     // 0x0062(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_Y25B[0x6];                                     // 0x0062(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -2122,7 +2341,7 @@ struct FRconRequestInfoResponse
 {
 	struct FRconCommandInfo                            CommandInfo;                                               // 0x0000(0x0050) (Edit, BlueprintVisible, NativeAccessSpecifierPublic)
 	bool                                               bSuccess;                                                  // 0x0050(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VZBU[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WT7M[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -2149,7 +2368,7 @@ struct FEmbedFieldField
 	struct FString                                     Name;                                                      // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Value;                                                     // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bInline;                                                   // 0x0020(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_6FN1[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BVCD[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -2184,7 +2403,7 @@ struct FReportMessage
 	struct FString                                     Body;                                                      // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Prefix;                                                    // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Team;                                                      // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FIZ0[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_M89T[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -2201,209 +2420,6 @@ struct FPlayerReport
 	struct FString                                     ScreenshotFilename;                                        // 0x0060(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<float>                                      KillsDeathsTksTD;                                          // 0x0070(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FReportMessage>                      Messages;                                                  // 0x0080(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.EmoteEntry
-// 0x0008
-struct FEmoteEntry
-{
-	class UClass*                                      EmoteMotion;                                               // 0x0000(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.ActorSetAndArray
-// 0x0060
-struct FActorSetAndArray
-{
-	unsigned char                                      Set[0x50];                                                 // 0x0000(0x0050) UNKNOWN PROPERTY: SetProperty
-	TArray<class AActor*>                              Array;                                                     // 0x0050(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-
-};
-
-// ScriptStruct Mordhau.ActorTraceEntry
-// 0x0058
-struct FActorTraceEntry
-{
-	class AActor*                                      Actor;                                                     // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      BonesHit[0x50];                                            // 0x0008(0x0050) UNKNOWN PROPERTY: SetProperty
-
-};
-
-// ScriptStruct Mordhau.PlayerCountArray
-// 0x0010
-struct FPlayerCountArray
-{
-	TArray<int>                                        Values;                                                    // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.ActorTraceData
-// 0x0068
-struct FActorTraceData
-{
-	bool                                               bIgnoreFurtherTraces;                                      // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	bool                                               bIsAllowedToAddForce;                                      // 0x0001(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_COD5[0x6];                                     // 0x0002(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	unsigned char                                      Set[0x50];                                                 // 0x0002(0x0050) UNKNOWN PROPERTY: SetProperty
-	TArray<struct FActorTraceEntry>                    ActorTraceEntryArray;                                      // 0x0058(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-
-};
-
-// ScriptStruct Mordhau.HorseGearInfo
-// 0x0018
-struct FHorseGearInfo
-{
-	float                                              MaxSpeed;                                                  // 0x0000(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MaxAcceleration;                                           // 0x0004(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bAllowJump;                                                // 0x0008(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bCanRiderRegenHealth;                                      // 0x0009(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bCanRiderRegenStamina;                                     // 0x000A(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bCanHorseRegen;                                            // 0x000B(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_SL2L[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	class UClass*                                      HeadBobShake;                                              // 0x0010(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.GameServerFilter
-// 0x0048
-struct FGameServerFilter
-{
-	bool                                               bIsNotFull;                                                // 0x0000(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bHasPlayers;                                               // 0x0001(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsEmpty;                                                  // 0x0002(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsNotPasswordProtected;                                   // 0x0003(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsOfficial;                                               // 0x0004(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsModded;                                                 // 0x0005(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_SNXZ[0x2];                                     // 0x0006(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	int                                                MinOpenSlots;                                              // 0x0008(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_T3EA[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FString                                     QueueName;                                                 // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     ServerName;                                                // 0x0020(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     GameMode;                                                  // 0x0030(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0040(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_7RS0[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.PlayerChatMessagesContainer
-// 0x0018
-struct FPlayerChatMessagesContainer
-{
-	TArray<struct FPlayerMessageStruct>                Messages;                                                  // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E9F6[0x8];                                     // 0x0010(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.LineTraceMemoryEntry
-// 0x0024
-struct FLineTraceMemoryEntry
-{
-	struct FVector                                     TraceStart;                                                // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DestroyTime;                                               // 0x0018(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class AActor>                       Owner;                                                     // 0x001C(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_RotateAroundPivot
-// 0x0030 (0x00F8 - 0x00C8)
-struct FAnimNode_RotateAroundPivot : public FAnimNode_SkeletalControlBase
-{
-	TEnumAsByte<Engine_EBoneControlSpace>              Space;                                                     // 0x00C8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_LVE4[0x3];                                     // 0x00C9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FBoneReference                              BoneToModify;                                              // 0x00CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FRotator                                    Rotation;                                                  // 0x00DC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector                                     Pivot;                                                     // 0x00E8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ED44[0x4];                                     // 0x00F4(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_SpeedWarping
-// 0x00B8 (0x0180 - 0x00C8)
-struct FAnimNode_SpeedWarping : public FAnimNode_SkeletalControlBase
-{
-	struct FBoneReference                              Hips;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftLegTarget;                                             // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftUpLeg;                                                 // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftFoot;                                                  // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightLegTarget;                                            // 0x0108(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightUpLeg;                                                // 0x0118(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightFoot;                                                 // 0x0128(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	float                                              Speed;                                                     // 0x0138(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              TotalLegLength;                                            // 0x013C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Axis;                                                      // 0x0140(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FFloatSpringState                           SpringState;                                               // 0x014C(0x0008) (NoDestructor, NativeAccessSpecifierPublic)
-	float                                              SpringStiffness;                                           // 0x0154(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SpringDamping;                                             // 0x0158(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              SpringMass;                                                // 0x015C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   HipsOffsetRemapIn;                                         // 0x0160(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   HipsOffsetRemapOut;                                        // 0x0168(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector2D                                   HipsOffsetClamp;                                           // 0x0170(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              HipsZOffset;                                               // 0x0178(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DeltaTime;                                                 // 0x017C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_SpineSpreader
-// 0x0058 (0x0120 - 0x00C8)
-struct FAnimNode_SpineSpreader : public FAnimNode_SkeletalControlBase
-{
-	float                                              SpreadPercentage;                                          // 0x00C8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Spine1;                                                    // 0x00CC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightShoulder;                                             // 0x00DC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightArm;                                                  // 0x00EC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightForearm;                                              // 0x00FC(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightHand;                                                 // 0x010C(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_C1PA[0x4];                                     // 0x011C(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_StopBounces
-// 0x0150 (0x0218 - 0x00C8)
-struct FAnimNode_StopBounces : public FAnimNode_SkeletalControlBase
-{
-	struct FBoneReference                              Hips;                                                      // 0x00C8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftUpLeg;                                                 // 0x00D8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftLeg;                                                   // 0x00E8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftFoot;                                                  // 0x00F8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightUpLeg;                                                // 0x0108(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightLeg;                                                  // 0x0118(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightFoot;                                                 // 0x0128(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LowerBack;                                                 // 0x0138(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Spine;                                                     // 0x0148(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Spine1;                                                    // 0x0158(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              Neck;                                                      // 0x0168(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              head;                                                      // 0x0178(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftShoulder;                                              // 0x0188(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightShoulder;                                             // 0x0198(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              LeftArm;                                                   // 0x01A8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FBoneReference                              RightArm;                                                  // 0x01B8(0x0010) (Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector                                     BounceDuckWithBounceWeight;                                // 0x01C8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    StopBounce;                                                // 0x01D4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	float                                              NotFirstPersonWithAtmosphericsAndAnimLOD1;                 // 0x01E0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     RotateAroundHipsPivot;                                     // 0x01E4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     LeftFootTranslation;                                       // 0x01F0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     RightFootTranslation;                                      // 0x01FC(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              StopBounceMediumWeight;                                    // 0x0208(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              StopBounceLightWeight;                                     // 0x020C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              InverseHeadWeight;                                         // 0x0210(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_7OY4[0x4];                                     // 0x0214(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Mordhau.AnimNode_TwoBoneIKOffset
-// 0x0038 (0x0210 - 0x01D8)
-struct FAnimNode_TwoBoneIKOffset : public FAnimNode_TwoBoneIK
-{
-	struct FVector                                     OffsetVector;                                              // 0x01D8(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     RotateEndBonePivot;                                        // 0x01E4(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    RotateEndBoneOffset;                                       // 0x01F0(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                               bUseParentZLimit;                                          // 0x01FC(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_D701[0x3];                                     // 0x01FD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	float                                              ParentZLimitOffset;                                        // 0x0200(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bEffectorLocationIsOffset;                                 // 0x0204(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EXS2[0xB];                                     // 0x0205(0x000B) MISSED OFFSET (PADDING)
 
 };
 

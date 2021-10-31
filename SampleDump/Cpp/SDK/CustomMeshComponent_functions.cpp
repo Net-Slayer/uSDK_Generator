@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E21490
+//		Offset -> 0x00E2B2A0
 //		Name   -> Function CustomMeshComponent.CustomMeshComponent.SetCustomMeshTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ bool UCustomMeshComponent::SetCustomMeshTriangles(TArray<struct FCustomMeshTrian
 
 
 // Function:
-//		Offset -> 0x00E21470
+//		Offset -> 0x00E2B280
 //		Name   -> Function CustomMeshComponent.CustomMeshComponent.ClearCustomMeshTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UCustomMeshComponent::ClearCustomMeshTriangles()
@@ -63,7 +63,7 @@ void UCustomMeshComponent::ClearCustomMeshTriangles()
 
 
 // Function:
-//		Offset -> 0x00E213C0
+//		Offset -> 0x00E2B1D0
 //		Name   -> Function CustomMeshComponent.CustomMeshComponent.AddCustomMeshTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:

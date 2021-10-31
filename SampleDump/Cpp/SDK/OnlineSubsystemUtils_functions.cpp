@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E0B780
+//		Offset -> 0x00E15590
 //		Name   -> Function OnlineSubsystemUtils.AchievementBlueprintLibrary.GetCachedAchievementProgress
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -52,7 +52,7 @@ void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementProgress(class UOb
 
 
 // Function:
-//		Offset -> 0x00E0B430
+//		Offset -> 0x00E15240
 //		Name   -> Function OnlineSubsystemUtils.AchievementBlueprintLibrary.GetCachedAchievementDescription
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -94,7 +94,7 @@ void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementDescription(class 
 
 
 // Function:
-//		Offset -> 0x00E0A270
+//		Offset -> 0x00E14080
 //		Name   -> Function OnlineSubsystemUtils.AchievementQueryCallbackProxy.CacheAchievements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -121,7 +121,7 @@ class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_Cac
 
 
 // Function:
-//		Offset -> 0x00E0A1B0
+//		Offset -> 0x00E13FC0
 //		Name   -> Function OnlineSubsystemUtils.AchievementQueryCallbackProxy.CacheAchievementDescriptions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -148,7 +148,7 @@ class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_Cac
 
 
 // Function:
-//		Offset -> 0x00E0C0A0
+//		Offset -> 0x00E15EB0
 //		Name   -> Function OnlineSubsystemUtils.AchievementWriteCallbackProxy.WriteAchievementProgress
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -181,7 +181,7 @@ class UAchievementWriteCallbackProxy* UAchievementWriteCallbackProxy::STATIC_Wri
 
 
 // Function:
-//		Offset -> 0x00E0A330
+//		Offset -> 0x00E14140
 //		Name   -> Function OnlineSubsystemUtils.ConnectionCallbackProxy.ConnectToService
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -208,7 +208,7 @@ class UConnectionCallbackProxy* UConnectionCallbackProxy::STATIC_ConnectToServic
 
 
 // Function:
-//		Offset -> 0x00E0AB30
+//		Offset -> 0x00E14940
 //		Name   -> Function OnlineSubsystemUtils.CreateSessionCallbackProxy.CreateSession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -239,7 +239,7 @@ class UCreateSessionCallbackProxy* UCreateSessionCallbackProxy::STATIC_CreateSes
 
 
 // Function:
-//		Offset -> 0x00E0AC60
+//		Offset -> 0x00E14A70
 //		Name   -> Function OnlineSubsystemUtils.DestroySessionCallbackProxy.DestroySession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -266,7 +266,7 @@ class UDestroySessionCallbackProxy* UDestroySessionCallbackProxy::STATIC_Destroy
 
 
 // Function:
-//		Offset -> 0x00E0AD20
+//		Offset -> 0x00E14B30
 //		Name   -> Function OnlineSubsystemUtils.EndMatchCallbackProxy.EndMatch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -299,7 +299,7 @@ class UEndMatchCallbackProxy* UEndMatchCallbackProxy::STATIC_EndMatch(class UObj
 
 
 // Function:
-//		Offset -> 0x00E0AF50
+//		Offset -> 0x00E14D60
 //		Name   -> Function OnlineSubsystemUtils.EndTurnCallbackProxy.EndTurn
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -328,7 +328,7 @@ class UEndTurnCallbackProxy* UEndTurnCallbackProxy::STATIC_EndTurn(class UObject
 
 
 // Function:
-//		Offset -> 0x00E0BE90
+//		Offset -> 0x00E15CA0
 //		Name   -> Function OnlineSubsystemUtils.FindSessionsCallbackProxy.GetServerName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -353,7 +353,7 @@ struct FString UFindSessionsCallbackProxy::STATIC_GetServerName(const struct FBl
 
 
 // Function:
-//		Offset -> 0x00E0BCC0
+//		Offset -> 0x00E15AD0
 //		Name   -> Function OnlineSubsystemUtils.FindSessionsCallbackProxy.GetPingInMs
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -378,7 +378,7 @@ int UFindSessionsCallbackProxy::STATIC_GetPingInMs(const struct FBlueprintSessio
 
 
 // Function:
-//		Offset -> 0x00E0BAF0
+//		Offset -> 0x00E15900
 //		Name   -> Function OnlineSubsystemUtils.FindSessionsCallbackProxy.GetMaxPlayers
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -403,7 +403,7 @@ int UFindSessionsCallbackProxy::STATIC_GetMaxPlayers(const struct FBlueprintSess
 
 
 // Function:
-//		Offset -> 0x00E0B920
+//		Offset -> 0x00E15730
 //		Name   -> Function OnlineSubsystemUtils.FindSessionsCallbackProxy.GetCurrentPlayers
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -428,7 +428,7 @@ int UFindSessionsCallbackProxy::STATIC_GetCurrentPlayers(const struct FBlueprint
 
 
 // Function:
-//		Offset -> 0x00E0B0F0
+//		Offset -> 0x00E14F00
 //		Name   -> Function OnlineSubsystemUtils.FindSessionsCallbackProxy.FindSessions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -459,7 +459,7 @@ class UFindSessionsCallbackProxy* UFindSessionsCallbackProxy::STATIC_FindSession
 
 
 // Function:
-//		Offset -> 0x00E0B220
+//		Offset -> 0x00E15030
 //		Name   -> Function OnlineSubsystemUtils.FindTurnBasedMatchCallbackProxy.FindTurnBasedMatch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -494,7 +494,7 @@ class UFindTurnBasedMatchCallbackProxy* UFindTurnBasedMatchCallbackProxy::STATIC
 
 
 // Function:
-//		Offset -> 0x00E0A4E0
+//		Offset -> 0x00E142F0
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseCallbackProxy.CreateProxyObjectForInAppPurchase
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -521,7 +521,7 @@ class UInAppPurchaseCallbackProxy* UInAppPurchaseCallbackProxy::STATIC_CreatePro
 
 
 // Function:
-//		Offset -> 0x00E0AAB0
+//		Offset -> 0x00E148C0
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseCallbackProxy2.CreateProxyObjectForInAppPurchaseUnprocessedPurchases
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -546,7 +546,7 @@ class UInAppPurchaseCallbackProxy2* UInAppPurchaseCallbackProxy2::STATIC_CreateP
 
 
 // Function:
-//		Offset -> 0x00E0A7F0
+//		Offset -> 0x00E14600
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseCallbackProxy2.CreateProxyObjectForInAppPurchaseQueryOwned
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -571,7 +571,7 @@ class UInAppPurchaseCallbackProxy2* UInAppPurchaseCallbackProxy2::STATIC_CreateP
 
 
 // Function:
-//		Offset -> 0x00E0A3F0
+//		Offset -> 0x00E14200
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseCallbackProxy2.CreateProxyObjectForInAppPurchase
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -598,7 +598,7 @@ class UInAppPurchaseCallbackProxy2* UInAppPurchaseCallbackProxy2::STATIC_CreateP
 
 
 // Function:
-//		Offset -> 0x00E0A6E0
+//		Offset -> 0x00E144F0
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy.CreateProxyObjectForInAppPurchaseQuery
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -625,7 +625,7 @@ class UInAppPurchaseQueryCallbackProxy* UInAppPurchaseQueryCallbackProxy::STATIC
 
 
 // Function:
-//		Offset -> 0x00E0A5D0
+//		Offset -> 0x00E143E0
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy2.CreateProxyObjectForInAppPurchaseQuery
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -652,7 +652,7 @@ class UInAppPurchaseQueryCallbackProxy2* UInAppPurchaseQueryCallbackProxy2::STAT
 
 
 // Function:
-//		Offset -> 0x00E0A990
+//		Offset -> 0x00E147A0
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy.CreateProxyObjectForInAppPurchaseRestore
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -679,7 +679,7 @@ class UInAppPurchaseRestoreCallbackProxy* UInAppPurchaseRestoreCallbackProxy::ST
 
 
 // Function:
-//		Offset -> 0x00E0A870
+//		Offset -> 0x00E14680
 //		Name   -> Function OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy2.CreateProxyObjectForInAppPurchaseRestore
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -706,7 +706,7 @@ class UInAppPurchaseRestoreCallbackProxy2* UInAppPurchaseRestoreCallbackProxy2::
 
 
 // Function:
-//		Offset -> 0x00E10070
+//		Offset -> 0x00E19E80
 //		Name   -> Function OnlineSubsystemUtils.JoinSessionCallbackProxy.JoinSession
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -735,7 +735,7 @@ class UJoinSessionCallbackProxy* UJoinSessionCallbackProxy::STATIC_JoinSession(c
 
 
 // Function:
-//		Offset -> 0x00E11000
+//		Offset -> 0x00E1AE10
 //		Name   -> Function OnlineSubsystemUtils.LeaderboardBlueprintLibrary.WriteLeaderboardInteger
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -764,7 +764,7 @@ bool ULeaderboardBlueprintLibrary::STATIC_WriteLeaderboardInteger(class APlayerC
 
 
 // Function:
-//		Offset -> 0x00E0FEF0
+//		Offset -> 0x00E19D00
 //		Name   -> Function OnlineSubsystemUtils.LeaderboardFlushCallbackProxy.CreateProxyObjectForFlush
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -791,7 +791,7 @@ class ULeaderboardFlushCallbackProxy* ULeaderboardFlushCallbackProxy::STATIC_Cre
 
 
 // Function:
-//		Offset -> 0x00E0FFB0
+//		Offset -> 0x00E19DC0
 //		Name   -> Function OnlineSubsystemUtils.LeaderboardQueryCallbackProxy.CreateProxyObjectForIntQuery
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -818,7 +818,7 @@ class ULeaderboardQueryCallbackProxy* ULeaderboardQueryCallbackProxy::STATIC_Cre
 
 
 // Function:
-//		Offset -> 0x00E101C0
+//		Offset -> 0x00E19FD0
 //		Name   -> Function OnlineSubsystemUtils.LogoutCallbackProxy.Logout
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -845,7 +845,7 @@ class ULogoutCallbackProxy* ULogoutCallbackProxy::STATIC_Logout(class UObject* W
 
 
 // Function:
-//		Offset -> 0x00E0FC70
+//		Offset -> 0x00E19A80
 //		Name   -> Function OnlineSubsystemUtils.OnlineBeaconClient.ClientOnConnected
 //		Flags  -> (Final, Net, NetReliable, Native, Event, Private, NetClient)
 void AOnlineBeaconClient::ClientOnConnected()
@@ -864,7 +864,7 @@ void AOnlineBeaconClient::ClientOnConnected()
 
 
 // Function:
-//		Offset -> 0x00E10CA0
+//		Offset -> 0x00E1AAB0
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ServerUpdateReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -888,7 +888,7 @@ void APartyBeaconClient::ServerUpdateReservationRequest(const struct FString& Se
 
 
 // Function:
-//		Offset -> 0x00E10800
+//		Offset -> 0x00E1A610
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ServerReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -912,7 +912,7 @@ void APartyBeaconClient::ServerReservationRequest(const struct FString& SessionI
 
 
 // Function:
-//		Offset -> 0x00E10560
+//		Offset -> 0x00E1A370
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ServerRemoveMemberFromReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -936,7 +936,7 @@ void APartyBeaconClient::ServerRemoveMemberFromReservationRequest(const struct F
 
 
 // Function:
-//		Offset -> 0x00E10450
+//		Offset -> 0x00E1A260
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ServerCancelReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -958,7 +958,7 @@ void APartyBeaconClient::ServerCancelReservationRequest(const struct FUniqueNetI
 
 
 // Function:
-//		Offset -> 0x00E0FDD0
+//		Offset -> 0x00E19BE0
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ClientSendReservationUpdates
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -980,7 +980,7 @@ void APartyBeaconClient::ClientSendReservationUpdates(int NumRemainingReservatio
 
 
 // Function:
-//		Offset -> 0x00E0FD90
+//		Offset -> 0x00E19BA0
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ClientSendReservationFull
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 void APartyBeaconClient::ClientSendReservationFull()
@@ -999,7 +999,7 @@ void APartyBeaconClient::ClientSendReservationFull()
 
 
 // Function:
-//		Offset -> 0x00E0FC90
+//		Offset -> 0x00E19AA0
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ClientReservationResponse
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -1021,7 +1021,7 @@ void APartyBeaconClient::ClientReservationResponse(TEnumAsByte<OnlineSubsystemUt
 
 
 // Function:
-//		Offset -> 0x00E0FB70
+//		Offset -> 0x00E19980
 //		Name   -> Function OnlineSubsystemUtils.PartyBeaconClient.ClientCancelReservationResponse
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -1043,7 +1043,7 @@ void APartyBeaconClient::ClientCancelReservationResponse(TEnumAsByte<OnlineSubsy
 
 
 // Function:
-//		Offset -> 0x00E10280
+//		Offset -> 0x00E1A090
 //		Name   -> Function OnlineSubsystemUtils.QuitMatchCallbackProxy.QuitMatch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1076,7 +1076,7 @@ class UQuitMatchCallbackProxy* UQuitMatchCallbackProxy::STATIC_QuitMatch(class U
 
 
 // Function:
-//		Offset -> 0x00E10F40
+//		Offset -> 0x00E1AD50
 //		Name   -> Function OnlineSubsystemUtils.ShowLoginUICallbackProxy.ShowExternalLoginUI
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1103,7 +1103,7 @@ class UShowLoginUICallbackProxy* UShowLoginUICallbackProxy::STATIC_ShowExternalL
 
 
 // Function:
-//		Offset -> 0x00E10AA0
+//		Offset -> 0x00E1A8B0
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ServerReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -1127,7 +1127,7 @@ void ASpectatorBeaconClient::ServerReservationRequest(const struct FString& Sess
 
 
 // Function:
-//		Offset -> 0x00E10450
+//		Offset -> 0x00E1A260
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ServerCancelReservationRequest
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -1149,7 +1149,7 @@ void ASpectatorBeaconClient::ServerCancelReservationRequest(const struct FUnique
 
 
 // Function:
-//		Offset -> 0x00E0FE60
+//		Offset -> 0x00E19C70
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ClientSendReservationUpdates
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -1171,7 +1171,7 @@ void ASpectatorBeaconClient::ClientSendReservationUpdates(int NumRemainingReserv
 
 
 // Function:
-//		Offset -> 0x00E0FDB0
+//		Offset -> 0x00E19BC0
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ClientSendReservationFull
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 void ASpectatorBeaconClient::ClientSendReservationFull()
@@ -1190,7 +1190,7 @@ void ASpectatorBeaconClient::ClientSendReservationFull()
 
 
 // Function:
-//		Offset -> 0x00E0FD10
+//		Offset -> 0x00E19B20
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ClientReservationResponse
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -1212,7 +1212,7 @@ void ASpectatorBeaconClient::ClientReservationResponse(TEnumAsByte<OnlineSubsyst
 
 
 // Function:
-//		Offset -> 0x00E0FBF0
+//		Offset -> 0x00E19A00
 //		Name   -> Function OnlineSubsystemUtils.SpectatorBeaconClient.ClientCancelReservationResponse
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 // Parameters:
@@ -1234,7 +1234,7 @@ void ASpectatorBeaconClient::ClientCancelReservationResponse(TEnumAsByte<OnlineS
 
 
 // Function:
-//		Offset -> 0x00E11EC0
+//		Offset -> 0x00E1BCD0
 //		Name   -> Function OnlineSubsystemUtils.TestBeaconClient.ServerPong
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 void ATestBeaconClient::ServerPong()
@@ -1253,7 +1253,7 @@ void ATestBeaconClient::ServerPong()
 
 
 // Function:
-//		Offset -> 0x00E11820
+//		Offset -> 0x00E1B630
 //		Name   -> Function OnlineSubsystemUtils.TestBeaconClient.ClientPing
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 void ATestBeaconClient::ClientPing()
@@ -1272,7 +1272,7 @@ void ATestBeaconClient::ClientPing()
 
 
 // Function:
-//		Offset -> 0x00E11DD0
+//		Offset -> 0x00E1BBE0
 //		Name   -> Function OnlineSubsystemUtils.TurnBasedBlueprintLibrary.RegisterTurnBasedMatchInterfaceObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1298,7 +1298,7 @@ void UTurnBasedBlueprintLibrary::STATIC_RegisterTurnBasedMatchInterfaceObject(cl
 
 
 // Function:
-//		Offset -> 0x00E11BA0
+//		Offset -> 0x00E1B9B0
 //		Name   -> Function OnlineSubsystemUtils.TurnBasedBlueprintLibrary.GetPlayerDisplayName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1330,7 +1330,7 @@ void UTurnBasedBlueprintLibrary::STATIC_GetPlayerDisplayName(class UObject* Worl
 
 
 // Function:
-//		Offset -> 0x00E119F0
+//		Offset -> 0x00E1B800
 //		Name   -> Function OnlineSubsystemUtils.TurnBasedBlueprintLibrary.GetMyPlayerIndex
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1360,7 +1360,7 @@ void UTurnBasedBlueprintLibrary::STATIC_GetMyPlayerIndex(class UObject* WorldCon
 
 
 // Function:
-//		Offset -> 0x00E11840
+//		Offset -> 0x00E1B650
 //		Name   -> Function OnlineSubsystemUtils.TurnBasedBlueprintLibrary.GetIsMyTurn
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1390,7 +1390,7 @@ void UTurnBasedBlueprintLibrary::STATIC_GetIsMyTurn(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x00E11DA0
+//		Offset -> 0x00E1BBB0
 //		Name   -> Function OnlineSubsystemUtils.VoipListenerSynthComponent.IsIdling
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

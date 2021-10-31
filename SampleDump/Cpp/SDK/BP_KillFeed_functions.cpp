@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.AddEntry
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void UBP_KillFeed_C::AddEntry(class APlayerState* Killer, const struct FText& Ki
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.OnMessageReceived
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -69,7 +69,7 @@ void UBP_KillFeed_C::OnMessageReceived(class APlayerState* Killer, const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_KillFeed_C::Construct()
@@ -87,7 +87,7 @@ void UBP_KillFeed_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.HideAfterSomeTime
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KillFeed_C::HideAfterSomeTime()
@@ -105,7 +105,7 @@ void UBP_KillFeed_C::HideAfterSomeTime()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.HideCallback
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KillFeed_C::HideCallback()
@@ -123,7 +123,7 @@ void UBP_KillFeed_C::HideCallback()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KillFeed.BP_KillFeed_C.ExecuteUbergraph_BP_KillFeed
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

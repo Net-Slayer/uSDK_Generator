@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -29,13 +29,13 @@ public:
 	float                                              LongerDimension;                                           // 0x0208(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsStationary;                                             // 0x020C(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bUseUnreliablePose;                                        // 0x020D(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_B9CE[0x2];                                     // 0x020E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WNO8[0x2];                                     // 0x020E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FScriptMulticastDelegate                    OnSetImageTargetSucceeded;                                 // 0x0210(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnSetImageTargetFailed;                                    // 0x0220(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnImageTargetFound;                                        // 0x0230(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnImageTargetLost;                                         // 0x0240(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnImageTargetUnreliableTracking;                           // 0x0250(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AJI5[0x10];                                    // 0x0260(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_TQN2[0x10];                                    // 0x0260(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

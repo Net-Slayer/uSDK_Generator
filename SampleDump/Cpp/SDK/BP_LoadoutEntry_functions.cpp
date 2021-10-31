@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.UpdateBannedIndicators
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_LoadoutEntry_C::UpdateBannedIndicators()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -60,7 +60,7 @@ UMG_ESlateVisibility UBP_LoadoutEntry_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_NameText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -82,7 +82,7 @@ struct FSlateColor UBP_LoadoutEntry_C::Get_NameText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_MenuToggleButtonOverlay_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -104,7 +104,7 @@ UMG_ESlateVisibility UBP_LoadoutEntry_C::Get_MenuToggleButtonOverlay_Visibility_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_EquipmentPoints_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -126,7 +126,7 @@ UMG_ESlateVisibility UBP_LoadoutEntry_C::Get_EquipmentPoints_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_TotalPoints_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -148,7 +148,7 @@ struct FText UBP_LoadoutEntry_C::Get_TotalPoints_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_DownButton_ToolTipText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -170,7 +170,7 @@ struct FText UBP_LoadoutEntry_C::Get_DownButton_ToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_UpButton_ToolTipText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -192,7 +192,7 @@ struct FText UBP_LoadoutEntry_C::Get_UpButton_ToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_AvailablePointsText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -214,7 +214,7 @@ struct FText UBP_LoadoutEntry_C::Get_AvailablePointsText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_Index_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -236,7 +236,7 @@ struct FText UBP_LoadoutEntry_C::Get_Index_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Get_CostText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -258,7 +258,7 @@ struct FSlateColor UBP_LoadoutEntry_C::Get_CostText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -276,7 +276,7 @@ void UBP_LoadoutEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnButtonC
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Refresh Widget
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_LoadoutEntry_C::Refresh_Widget()
@@ -294,7 +294,7 @@ void UBP_LoadoutEntry_C::Refresh_Widget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__UpButton_K2Node_ComponentBoundEvent_128_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__UpButton_K2Node_ComponentBoundEvent_128_OnButtonClickedEvent__DelegateSignature()
@@ -312,7 +312,7 @@ void UBP_LoadoutEntry_C::BndEvt__UpButton_K2Node_ComponentBoundEvent_128_OnButto
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__DownButton_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__DownButton_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature()
@@ -330,7 +330,7 @@ void UBP_LoadoutEntry_C::BndEvt__DownButton_K2Node_ComponentBoundEvent_13_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__MenuToggleButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__MenuToggleButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
@@ -348,7 +348,7 @@ void UBP_LoadoutEntry_C::BndEvt__MenuToggleButton_K2Node_ComponentBoundEvent_2_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__ButtonEntry_K2Node_ComponentBoundEvent_85_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__ButtonEntry_K2Node_ComponentBoundEvent_85_OnButtonHoverEvent__DelegateSignature()
@@ -366,7 +366,7 @@ void UBP_LoadoutEntry_C::BndEvt__ButtonEntry_K2Node_ComponentBoundEvent_85_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature()
@@ -384,7 +384,7 @@ void UBP_LoadoutEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButton
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.Initialize
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_LoadoutEntry_C::Initialize()
@@ -402,7 +402,7 @@ void UBP_LoadoutEntry_C::Initialize()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutEntry.BP_LoadoutEntry_C.ExecuteUbergraph_BP_LoadoutEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

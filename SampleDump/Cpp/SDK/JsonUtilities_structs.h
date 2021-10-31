@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 struct FJsonObjectWrapper
 {
 	struct FString                                     JsonString;                                                // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_7BX1[0x10];                                    // 0x0010(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_DMTX[0x10];                                    // 0x0010(0x0010) MISSED OFFSET (PADDING)
 
 };
 

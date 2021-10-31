@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_SubNavButton_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.Update
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -60,7 +60,7 @@ void UBP_SubNavButton_C::Update()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_SubNavButton_C::Construct()
@@ -78,7 +78,7 @@ void UBP_SubNavButton_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.BndEvt__NavButton_K2Node_ComponentBoundEvent_43_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_SubNavButton_C::BndEvt__NavButton_K2Node_ComponentBoundEvent_43_OnButtonClickedEvent__DelegateSignature()
@@ -96,7 +96,7 @@ void UBP_SubNavButton_C::BndEvt__NavButton_K2Node_ComponentBoundEvent_43_OnButto
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.Select SubNavButton
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_SubNavButton_C::Select_SubNavButton()
@@ -114,7 +114,7 @@ void UBP_SubNavButton_C::Select_SubNavButton()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.ExecuteUbergraph_BP_SubNavButton
 //		Flags  -> (Final)
 // Parameters:
@@ -135,7 +135,7 @@ void UBP_SubNavButton_C::ExecuteUbergraph_BP_SubNavButton(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubNavButton.BP_SubNavButton_C.OnClick__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_SubNavButton_C::OnClick__DelegateSignature()

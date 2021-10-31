@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_KilledByPanel_C::Hide()
@@ -37,7 +37,7 @@ void UBP_KilledByPanel_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -58,7 +58,7 @@ void UBP_KilledByPanel_C::Show(class AMordhauPlayerState* Killer)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.Get_HealthProgressBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -80,7 +80,7 @@ float UBP_KilledByPanel_C::Get_HealthProgressBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.Get_StamProgressBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -102,7 +102,7 @@ float UBP_KilledByPanel_C::Get_StamProgressBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.GetText_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -124,7 +124,7 @@ struct FText UBP_KilledByPanel_C::GetText_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.GetText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -146,7 +146,7 @@ struct FText UBP_KilledByPanel_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.TakeFromKiller
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -167,7 +167,7 @@ void UBP_KilledByPanel_C::TakeFromKiller(class AMordhauPlayerState* KilledBy)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -190,7 +190,7 @@ void UBP_KilledByPanel_C::Tick(const struct FGeometry& MyGeometry, float InDelta
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.OnAnimationFinished
 //		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 // Parameters:
@@ -211,7 +211,7 @@ void UBP_KilledByPanel_C::OnAnimationFinished(class UWidgetAnimation* Animation)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanel.BP_KilledByPanel_C.ExecuteUbergraph_BP_KilledByPanel
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

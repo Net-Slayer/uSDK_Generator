@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.Get_ObjectiveBorder_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_Objectives_C::Get_ObjectiveBorder_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.Update Team Image
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -60,7 +60,7 @@ void UBP_Objectives_C::Update_Team_Image()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.Hide
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Objectives_C::Hide()
@@ -78,7 +78,7 @@ void UBP_Objectives_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void UBP_Objectives_C::Show(const struct FText& Description, const struct FText&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.FadeOutDone
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Objectives_C::FadeOutDone()
@@ -121,7 +121,7 @@ void UBP_Objectives_C::FadeOutDone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Objectives.BP_Objectives_C.ExecuteUbergraph_BP_Objectives
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

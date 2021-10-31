@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.AnimGraph
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UAB_SeparatedBodyPartAnimation_C::AnimGraph(struct FPoseLink* AnimGraph)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_97B9A53A40B24B1A5BD9BCA78752A1FF
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_97B9A53A40B24B1A5BD9BCA78752A1FF()
@@ -60,7 +60,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_E4E2620A4C7E5FB60956C8898B81C841
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_E4E2620A4C7E5FB60956C8898B81C841()
@@ -78,7 +78,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_4874E7A04D0B5B6F896B7B824E392529
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_4874E7A04D0B5B6F896B7B824E392529()
@@ -96,7 +96,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_5A6D6B314896FA9A711CECBD5BDF9710
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_5A6D6B314896FA9A711CECBD5BDF9710()
@@ -114,7 +114,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_DCC4E1234B517907BB2B628F69A4F982
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_DCC4E1234B517907BB2B628F69A4F982()
@@ -132,7 +132,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_B6B5F82E413CCFBEF987DABC3F4BD389
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_B6B5F82E413CCFBEF987DABC3F4BD389()
@@ -150,7 +150,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_03225C0A4496309F454D7D874B04B2B7
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_03225C0A4496309F454D7D874B04B2B7()
@@ -168,7 +168,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_69B7BD1C47756C7972809DA58246A1DE
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_69B7BD1C47756C7972809DA58246A1DE()
@@ -186,7 +186,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_9D602F84464C3C2480868286C1D1A17C
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_9D602F84464C3C2480868286C1D1A17C()
@@ -204,7 +204,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_2FE1030745A992B635EB97B22A759148
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_2FE1030745A992B635EB97B22A759148()
@@ -222,7 +222,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_1874784A4B48E2EEE4D6179488FAFC2A
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_1874784A4B48E2EEE4D6179488FAFC2A()
@@ -240,7 +240,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_036A97B549840FAEB44CBA811F253241
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_036A97B549840FAEB44CBA811F253241()
@@ -258,7 +258,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_822820C944C991A7D0BA3790042313F0
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_822820C944C991A7D0BA3790042313F0()
@@ -276,7 +276,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_25E663404C43DF66B5083A84D5181AFF
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_25E663404C43DF66B5083A84D5181AFF()
@@ -294,7 +294,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_6BF708FA4D891639A51EA99A7967F8E8
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_6BF708FA4D891639A51EA99A7967F8E8()
@@ -312,7 +312,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_930C3B6441A6A7ECA383F18CBD6E4537
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_930C3B6441A6A7ECA383F18CBD6E4537()
@@ -330,7 +330,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_60A469C64C8D0B97675B22B6FA7A305F
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_60A469C64C8D0B97675B22B6FA7A305F()
@@ -348,7 +348,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_57F8EEB4490129965E95BFB605EBD796
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_57F8EEB4490129965E95BFB605EBD796()
@@ -366,7 +366,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_19AC3A2D472A063391936984092453E6
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_19AC3A2D472A063391936984092453E6()
@@ -384,7 +384,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_CC7342EE4E85EF327E83B28DFF90547D
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_CC7342EE4E85EF327E83B28DFF90547D()
@@ -402,7 +402,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_B63440E24C48A2A1E9444A8B022A39F0
 //		Flags  -> (BlueprintEvent)
 void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_SeparatedBodyPartAnimation_AnimGraphNode_ModifyBone_B63440E24C48A2A1E9444A8B022A39F0()
@@ -420,7 +420,7 @@ void UAB_SeparatedBodyPartAnimation_C::EvaluateGraphExposedInputs_ExecuteUbergra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_SeparatedBodyPartAnimation.AB_SeparatedBodyPartAnimation_C.ExecuteUbergraph_AB_SeparatedBodyPartAnimation
 //		Flags  -> (Final)
 // Parameters:

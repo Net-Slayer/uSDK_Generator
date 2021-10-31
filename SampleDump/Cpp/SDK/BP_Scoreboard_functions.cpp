@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Open Menu Scoreboard
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_Scoreboard_C::Open_Menu_Scoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Get Team Color
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -66,7 +66,7 @@ void UBP_Scoreboard_C::Get_Team_Color(int Team, struct FLinearColor* Output__Lin
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -85,7 +85,7 @@ void UBP_Scoreboard_C::Update()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Refresh
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -106,7 +106,7 @@ void UBP_Scoreboard_C::Refresh(class AMordhauPlayerState* PlayerState)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetMaxPlayers
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -131,7 +131,7 @@ void UBP_Scoreboard_C::GetMaxPlayers(int DivideBy, int* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetServerName
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -154,7 +154,7 @@ void UBP_Scoreboard_C::GetServerName(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetMapName
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -177,7 +177,7 @@ void UBP_Scoreboard_C::GetMapName(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeamObjectiveValue
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -202,7 +202,7 @@ void UBP_Scoreboard_C::GetTeamObjectiveValue(int Team, struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam2ObjectiveValue
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -225,7 +225,7 @@ void UBP_Scoreboard_C::GetTeam2ObjectiveValue(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam1ObjectiveValue
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -248,7 +248,7 @@ void UBP_Scoreboard_C::GetTeam1ObjectiveValue(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetObjectiveName
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -271,7 +271,7 @@ void UBP_Scoreboard_C::GetObjectiveName(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetGameModeName
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -294,7 +294,7 @@ void UBP_Scoreboard_C::GetGameModeName(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam2Players
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -317,7 +317,7 @@ void UBP_Scoreboard_C::GetTeam2Players(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam1Players
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -340,7 +340,7 @@ void UBP_Scoreboard_C::GetTeam1Players(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeamPlayers
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -365,7 +365,7 @@ void UBP_Scoreboard_C::GetTeamPlayers(int Team, struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam2Name
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -388,7 +388,7 @@ void UBP_Scoreboard_C::GetTeam2Name(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeamName
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -413,7 +413,7 @@ void UBP_Scoreboard_C::GetTeamName(int Team, struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetTeam1Name
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -436,7 +436,7 @@ void UBP_Scoreboard_C::GetTeam1Name(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.GetScoreboardTime
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -459,7 +459,7 @@ void UBP_Scoreboard_C::GetScoreboardTime(struct FText* Time)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_Scoreboard_C::Hide()
@@ -477,7 +477,7 @@ void UBP_Scoreboard_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_Scoreboard_C::Show()
@@ -495,7 +495,7 @@ void UBP_Scoreboard_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Refresh Players Array
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -514,7 +514,7 @@ void UBP_Scoreboard_C::Refresh_Players_Array()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_Scoreboard_C::Construct()
@@ -532,7 +532,7 @@ void UBP_Scoreboard_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Scoreboard.BP_Scoreboard_C.ExecuteUbergraph_BP_Scoreboard
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

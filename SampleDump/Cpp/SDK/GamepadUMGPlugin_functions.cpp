@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x005F5670
+//		Offset -> 0x005F93B0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.IsHoveringNewWidget
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -42,7 +42,7 @@ bool UVirtualCursorFunctionLibrary::STATIC_IsHoveringNewWidget()
 
 
 // Function:
-//		Offset -> 0x005F5640
+//		Offset -> 0x005F9380
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.IsCursorOverInteractableWidget
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -65,7 +65,7 @@ bool UVirtualCursorFunctionLibrary::STATIC_IsCursorOverInteractableWidget()
 
 
 // Function:
-//		Offset -> 0x005F5580
+//		Offset -> 0x005F92C0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.GetLastKeyPressed
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -88,7 +88,7 @@ struct FKey UVirtualCursorFunctionLibrary::STATIC_GetLastKeyPressed()
 
 
 // Function:
-//		Offset -> 0x005F5550
+//		Offset -> 0x005F9290
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.GetLastCustomInputMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -111,7 +111,7 @@ TEnumAsByte<Mordhau_EInputMode> UVirtualCursorFunctionLibrary::STATIC_GetLastCus
 
 
 // Function:
-//		Offset -> 0x005F54C0
+//		Offset -> 0x005F9200
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.GetHoveredWidgetPosition
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -138,7 +138,7 @@ bool UVirtualCursorFunctionLibrary::STATIC_GetHoveredWidgetPosition(struct FVect
 
 
 // Function:
-//		Offset -> 0x005F5480
+//		Offset -> 0x005F91C0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.GetHoveredWidgetName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -161,7 +161,7 @@ struct FName UVirtualCursorFunctionLibrary::STATIC_GetHoveredWidgetName()
 
 
 // Function:
-//		Offset -> 0x005F5460
+//		Offset -> 0x005F91A0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.FlushLastKeyPressed
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UVirtualCursorFunctionLibrary::STATIC_FlushLastKeyPressed()
@@ -180,7 +180,7 @@ void UVirtualCursorFunctionLibrary::STATIC_FlushLastKeyPressed()
 
 
 // Function:
-//		Offset -> 0x005F53F0
+//		Offset -> 0x005F9130
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.EnableVirtualCursor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -202,7 +202,7 @@ void UVirtualCursorFunctionLibrary::STATIC_EnableVirtualCursor(class APlayerCont
 
 
 // Function:
-//		Offset -> 0x005F5380
+//		Offset -> 0x005F90C0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.DisableVirtualCursor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -224,7 +224,7 @@ void UVirtualCursorFunctionLibrary::STATIC_DisableVirtualCursor(class APlayerCon
 
 
 // Function:
-//		Offset -> 0x005F5290
+//		Offset -> 0x005F8FD0
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.CustomSetInputModeUIOnly
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -250,7 +250,7 @@ void UVirtualCursorFunctionLibrary::STATIC_CustomSetInputModeUIOnly(class APlaye
 
 
 // Function:
-//		Offset -> 0x005F5220
+//		Offset -> 0x005F8F60
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.CustomSetInputModeGameOnly
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -272,7 +272,7 @@ void UVirtualCursorFunctionLibrary::STATIC_CustomSetInputModeGameOnly(class APla
 
 
 // Function:
-//		Offset -> 0x005F50E0
+//		Offset -> 0x005F8E20
 //		Name   -> Function GamepadUMGPlugin.VirtualCursorFunctionLibrary.CustomSetInputModeGameAndUI
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -82,6 +82,12 @@ struct UOnlineUtilities_IsPrivateIPAddress_Params
 
 // Function MordhauOnlineSubsystem.OnlineUtilities.IsOfficialServer
 struct UOnlineUtilities_IsOfficialServer_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function MordhauOnlineSubsystem.OnlineUtilities.IsDevelopmentEnvironment
+struct UOnlineUtilities_IsDevelopmentEnvironment_Params
 {
 	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };

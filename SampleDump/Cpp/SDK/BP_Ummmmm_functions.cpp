@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ummmmm.BP_Ummmmm_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_Ummmmm_C::UserConstructionScript()
@@ -37,7 +37,7 @@ void ABP_Ummmmm_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ummmmm.BP_Ummmmm_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_Ummmmm_C::ReceiveBeginPlay()
@@ -55,7 +55,7 @@ void ABP_Ummmmm_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ummmmm.BP_Ummmmm_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -76,7 +76,7 @@ void ABP_Ummmmm_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ummmmm.BP_Ummmmm_C.ExecuteUbergraph_BP_Ummmmm
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

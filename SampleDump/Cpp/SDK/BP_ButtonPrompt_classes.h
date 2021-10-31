@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass BP_ButtonPrompt.BP_ButtonPrompt_C
-// 0x0171 (FullSize[0x03A1] - InheritedSize[0x0230])
+// 0x0172 (FullSize[0x03A2] - InheritedSize[0x0230])
 class UBP_ButtonPrompt_C : public UUserWidget
 {
 public:
@@ -42,10 +42,11 @@ public:
 	struct FText                                       Prompt_Icon_Text;                                          // 0x0348(0x0018) (Edit, BlueprintVisible)
 	struct FVector2D                                   Icon_Size;                                                 // 0x0360(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                               Use_Forced_Key_;                                           // 0x0368(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_MJOH[0x7];                                     // 0x0369(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T2A1[0x7];                                     // 0x0369(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FKey                                        Forced_Key;                                                // 0x0370(0x0018) (Edit, BlueprintVisible, HasGetValueTypeHash)
 	struct FKey                                        Forced_Key_Gamepad;                                        // 0x0388(0x0018) (Edit, BlueprintVisible, HasGetValueTypeHash)
-	bool                                               Constantly_Update;                                         // 0x03A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                               Use_Secondary_If_Using_Controller;                         // 0x03A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)
+	bool                                               Using_Controller;                                          // 0x03A1(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 
 
 	static UClass* StaticClass()
@@ -56,11 +57,13 @@ public:
 
 
 
+	void Initialize(const struct FName& Action_Name, const struct FText& Displayed_Text);
+	void Update_from_Action_bind();
+	void Update_from_forced_key();
 	void RefreshIcon();
-	void Update(const struct FName& ActionName, const struct FText& DisplayedText);
+	void Update();
 	void Construct();
 	void PreConstruct(bool IsDesignTime);
-	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
 	void ExecuteUbergraph_BP_ButtonPrompt(int EntryPoint);
 };
 

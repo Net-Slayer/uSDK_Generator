@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.RefreshAvatar
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_LeaderboardEntry_C::RefreshAvatar()
@@ -37,7 +37,7 @@ void UBP_LeaderboardEntry_C::RefreshAvatar()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.Get_MMRText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -59,7 +59,7 @@ struct FSlateColor UBP_LeaderboardEntry_C::Get_MMRText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.GetToolTipText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -81,7 +81,7 @@ struct FText UBP_LeaderboardEntry_C::GetToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -102,7 +102,7 @@ void UBP_LeaderboardEntry_C::Update(const struct FLeaderboardEntry& Entry)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.Get_MMR_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -124,7 +124,7 @@ struct FText UBP_LeaderboardEntry_C::Get_MMR_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.Get_Rank_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -146,7 +146,7 @@ struct FText UBP_LeaderboardEntry_C::Get_Rank_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LeaderboardEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
@@ -164,7 +164,7 @@ void UBP_LeaderboardEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.ContextButtonClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -185,7 +185,7 @@ void UBP_LeaderboardEntry_C::ContextButtonClicked(int Button_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LeaderboardEntry.BP_LeaderboardEntry_C.ExecuteUbergraph_BP_LeaderboardEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

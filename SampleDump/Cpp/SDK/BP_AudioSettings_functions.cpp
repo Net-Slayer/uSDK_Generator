@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyInstrumentsVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,9 +38,9 @@ void UBP_AudioSettings_C::ApplyInstrumentsVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateInstrumentVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateInstrumentVolumeSlider()
 {
@@ -57,9 +57,9 @@ void UBP_AudioSettings_C::UpdateInstrumentVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateVoiceVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateVoiceVolumeSlider()
 {
@@ -76,7 +76,7 @@ void UBP_AudioSettings_C::UpdateVoiceVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyVoiceVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -95,21 +95,21 @@ void UBP_AudioSettings_C::ApplyVoiceVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.IsValueDifferenceValid
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
 //		float                                              NewValue                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              PrevValue                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		float                                              prevValue                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		float                                              minDiff                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		bool                                               IsValid                                                    (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-void UBP_AudioSettings_C::IsValueDifferenceValid(float NewValue, float PrevValue, float minDiff, bool* IsValid)
+void UBP_AudioSettings_C::IsValueDifferenceValid(float NewValue, float prevValue, float minDiff, bool* IsValid)
 {
 	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_AudioSettings.BP_AudioSettings_C.IsValueDifferenceValid");
 
 	UBP_AudioSettings_C_IsValueDifferenceValid_Params params;
 	params.NewValue = NewValue;
-	params.PrevValue = PrevValue;
+	params.prevValue = prevValue;
 	params.minDiff = minDiff;
 
 	auto flags = fn->FunctionFlags;
@@ -124,7 +124,7 @@ void UBP_AudioSettings_C::IsValueDifferenceValid(float NewValue, float PrevValue
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyVideoVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -143,9 +143,9 @@ void UBP_AudioSettings_C::ApplyVideoVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateVideoVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateVideoVolumeSlider()
 {
@@ -162,7 +162,7 @@ void UBP_AudioSettings_C::UpdateVideoVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyMusicVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -181,7 +181,7 @@ void UBP_AudioSettings_C::ApplyMusicVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyEffectsVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -200,7 +200,7 @@ void UBP_AudioSettings_C::ApplyEffectsVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyMasterVolume
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -219,9 +219,9 @@ void UBP_AudioSettings_C::ApplyMasterVolume()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateMusicVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateMusicVolumeSlider()
 {
@@ -238,9 +238,9 @@ void UBP_AudioSettings_C::UpdateMusicVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateEffectsVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateEffectsVolumeSlider()
 {
@@ -257,9 +257,9 @@ void UBP_AudioSettings_C::UpdateEffectsVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateMasterVolumeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_AudioSettings_C::UpdateMasterVolumeSlider()
 {
@@ -276,7 +276,7 @@ void UBP_AudioSettings_C::UpdateMasterVolumeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ApplyAudioQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -295,7 +295,7 @@ void UBP_AudioSettings_C::ApplyAudioQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.UpdateAudioQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -314,7 +314,7 @@ void UBP_AudioSettings_C::UpdateAudioQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature()
@@ -332,7 +332,7 @@ void UBP_AudioSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature()
@@ -350,7 +350,7 @@ void UBP_AudioSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.Update Widgets
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_AudioSettings_C::Update_Widgets()
@@ -368,7 +368,7 @@ void UBP_AudioSettings_C::Update_Widgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__MasterVolumeSlider_K2Node_ComponentBoundEvent_161_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__MasterVolumeSlider_K2Node_ComponentBoundEvent_161_OnHovered__DelegateSignature()
@@ -386,7 +386,7 @@ void UBP_AudioSettings_C::BndEvt__MasterVolumeSlider_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__EffectsVolumeSlider_K2Node_ComponentBoundEvent_166_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__EffectsVolumeSlider_K2Node_ComponentBoundEvent_166_OnHovered__DelegateSignature()
@@ -404,7 +404,7 @@ void UBP_AudioSettings_C::BndEvt__EffectsVolumeSlider_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__MusicVolumeSlider_K2Node_ComponentBoundEvent_175_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__MusicVolumeSlider_K2Node_ComponentBoundEvent_175_OnHovered__DelegateSignature()
@@ -422,7 +422,7 @@ void UBP_AudioSettings_C::BndEvt__MusicVolumeSlider_K2Node_ComponentBoundEvent_1
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__VideoVolumeSlider_K2Node_ComponentBoundEvent_28_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__VideoVolumeSlider_K2Node_ComponentBoundEvent_28_OnHovered__DelegateSignature()
@@ -440,7 +440,7 @@ void UBP_AudioSettings_C::BndEvt__VideoVolumeSlider_K2Node_ComponentBoundEvent_2
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__MusicVolumeSlider_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -461,7 +461,7 @@ void UBP_AudioSettings_C::BndEvt__MusicVolumeSlider_K2Node_ComponentBoundEvent_0
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__MasterVolumeSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -482,7 +482,7 @@ void UBP_AudioSettings_C::BndEvt__MasterVolumeSlider_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__EffectsVolumeSlider_K2Node_ComponentBoundEvent_3_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -503,7 +503,7 @@ void UBP_AudioSettings_C::BndEvt__EffectsVolumeSlider_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_AudioSettings_C::OnShown()
@@ -521,7 +521,7 @@ void UBP_AudioSettings_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ResetConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_AudioSettings_C::ResetConfirm()
@@ -539,7 +539,7 @@ void UBP_AudioSettings_C::ResetConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ResetCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_AudioSettings_C::ResetCancel()
@@ -557,7 +557,7 @@ void UBP_AudioSettings_C::ResetCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__VoiceVolumeSlider_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__VoiceVolumeSlider_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature()
@@ -575,7 +575,7 @@ void UBP_AudioSettings_C::BndEvt__VoiceVolumeSlider_K2Node_ComponentBoundEvent_7
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__VoiceVolumeSlider_K2Node_ComponentBoundEvent_8_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -596,7 +596,7 @@ void UBP_AudioSettings_C::BndEvt__VoiceVolumeSlider_K2Node_ComponentBoundEvent_8
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__InstrumentVolumeSlider_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_AudioSettings_C::BndEvt__InstrumentVolumeSlider_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature()
@@ -614,7 +614,7 @@ void UBP_AudioSettings_C::BndEvt__InstrumentVolumeSlider_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.BndEvt__InstrumentVolumeSlider_K2Node_ComponentBoundEvent_3_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -635,7 +635,7 @@ void UBP_AudioSettings_C::BndEvt__InstrumentVolumeSlider_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_AudioSettings.BP_AudioSettings_C.ExecuteUbergraph_BP_AudioSettings
 //		Flags  -> (Final)
 // Parameters:

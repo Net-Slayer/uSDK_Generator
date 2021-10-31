@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E1F5E0
+//		Offset -> 0x00E293F0
 //		Name   -> Function CableComponent.CableComponent.SetAttachEndToComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -43,7 +43,7 @@ void UCableComponent::SetAttachEndToComponent(class USceneComponent* Component, 
 
 
 // Function:
-//		Offset -> 0x00E1F4E0
+//		Offset -> 0x00E292F0
 //		Name   -> Function CableComponent.CableComponent.SetAttachEndTo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ void UCableComponent::SetAttachEndTo(class AActor* Actor, const struct FName& Co
 
 
 // Function:
-//		Offset -> 0x00E1F430
+//		Offset -> 0x00E29240
 //		Name   -> Function CableComponent.CableComponent.GetCableParticleLocations
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -93,7 +93,7 @@ void UCableComponent::GetCableParticleLocations(TArray<struct FVector>* Location
 
 
 // Function:
-//		Offset -> 0x00E1F400
+//		Offset -> 0x00E29210
 //		Name   -> Function CableComponent.CableComponent.GetAttachedComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -116,7 +116,7 @@ class USceneComponent* UCableComponent::GetAttachedComponent()
 
 
 // Function:
-//		Offset -> 0x00E1F3D0
+//		Offset -> 0x00E291E0
 //		Name   -> Function CableComponent.CableComponent.GetAttachedActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

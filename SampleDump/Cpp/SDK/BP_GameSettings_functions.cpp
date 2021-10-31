@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyForceFeedback
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_GameSettings_C::ApplyForceFeedback()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateForceFeedbackCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +57,7 @@ void UBP_GameSettings_C::UpdateForceFeedbackCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.CollapseVisibilityIfConsole
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -79,7 +79,7 @@ UMG_ESlateVisibility UBP_GameSettings_C::CollapseVisibilityIfConsole()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyCombatHints
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -98,7 +98,7 @@ void UBP_GameSettings_C::ApplyCombatHints()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateCombatHintsCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -117,7 +117,7 @@ void UBP_GameSettings_C::UpdateCombatHintsCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyObjectiveHint
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -136,7 +136,7 @@ void UBP_GameSettings_C::ApplyObjectiveHint()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateObjectiveHintCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -155,7 +155,7 @@ void UBP_GameSettings_C::UpdateObjectiveHintCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyCrosshairType
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_GameSettings_C::ApplyCrosshairType()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateCrosshairDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -193,7 +193,7 @@ void UBP_GameSettings_C::UpdateCrosshairDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyShowServerInScoreboard
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -212,7 +212,7 @@ void UBP_GameSettings_C::ApplyShowServerInScoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateShowServerInScoreboardCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -231,7 +231,7 @@ void UBP_GameSettings_C::UpdateShowServerInScoreboardCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateThirdPersonDeathCameraCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -250,7 +250,7 @@ void UBP_GameSettings_C::UpdateThirdPersonDeathCameraCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyThirdPersonDeathCamera
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -269,7 +269,7 @@ void UBP_GameSettings_C::ApplyThirdPersonDeathCamera()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyKilledBy
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -288,7 +288,7 @@ void UBP_GameSettings_C::ApplyKilledBy()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateKilledByCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -307,7 +307,7 @@ void UBP_GameSettings_C::UpdateKilledByCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyNoTeamColorsOnGear
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -326,7 +326,7 @@ void UBP_GameSettings_C::ApplyNoTeamColorsOnGear()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateNoTeamColorsOnGearCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -345,7 +345,7 @@ void UBP_GameSettings_C::UpdateNoTeamColorsOnGearCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyFriendlyMarkers
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -364,7 +364,7 @@ void UBP_GameSettings_C::ApplyFriendlyMarkers()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyKillFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -383,7 +383,7 @@ void UBP_GameSettings_C::ApplyKillFeed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyScoreFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -402,7 +402,7 @@ void UBP_GameSettings_C::ApplyScoreFeed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyTips
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -421,7 +421,7 @@ void UBP_GameSettings_C::ApplyTips()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyAnnouncements
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -440,7 +440,7 @@ void UBP_GameSettings_C::ApplyAnnouncements()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyAmmo
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -459,7 +459,7 @@ void UBP_GameSettings_C::ApplyAmmo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyEquipment
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -478,7 +478,7 @@ void UBP_GameSettings_C::ApplyEquipment()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyEmotesMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -497,7 +497,7 @@ void UBP_GameSettings_C::ApplyEmotesMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyChatBox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -516,7 +516,7 @@ void UBP_GameSettings_C::ApplyChatBox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplySpawnInfo
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -535,7 +535,7 @@ void UBP_GameSettings_C::ApplySpawnInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyTargetInfo
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -554,7 +554,7 @@ void UBP_GameSettings_C::ApplyTargetInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyStatusBar
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -573,7 +573,7 @@ void UBP_GameSettings_C::ApplyStatusBar()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyHitmarker
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -592,7 +592,7 @@ void UBP_GameSettings_C::ApplyHitmarker()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateFriendlyMarkersDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -611,7 +611,7 @@ void UBP_GameSettings_C::UpdateFriendlyMarkersDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateKillFeedCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -630,7 +630,7 @@ void UBP_GameSettings_C::UpdateKillFeedCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateScoreFeedCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -649,7 +649,7 @@ void UBP_GameSettings_C::UpdateScoreFeedCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateTipsCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -668,7 +668,7 @@ void UBP_GameSettings_C::UpdateTipsCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateAnnouncementsCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -687,7 +687,7 @@ void UBP_GameSettings_C::UpdateAnnouncementsCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateAmmoCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -706,7 +706,7 @@ void UBP_GameSettings_C::UpdateAmmoCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateEquipmentCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -725,7 +725,7 @@ void UBP_GameSettings_C::UpdateEquipmentCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateEmotesMenuCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -744,7 +744,7 @@ void UBP_GameSettings_C::UpdateEmotesMenuCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateChatBoxCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -763,7 +763,7 @@ void UBP_GameSettings_C::UpdateChatBoxCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateSpawnInfoCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -782,7 +782,7 @@ void UBP_GameSettings_C::UpdateSpawnInfoCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateTargetInfoCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -801,7 +801,7 @@ void UBP_GameSettings_C::UpdateTargetInfoCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateStatusBarCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -820,7 +820,7 @@ void UBP_GameSettings_C::UpdateStatusBarCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateHitmarkerCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -839,7 +839,7 @@ void UBP_GameSettings_C::UpdateHitmarkerCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyHeadbob
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -858,9 +858,9 @@ void UBP_GameSettings_C::ApplyHeadbob()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateHeadbobSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_GameSettings_C::UpdateHeadbobSlider()
 {
@@ -877,7 +877,7 @@ void UBP_GameSettings_C::UpdateHeadbobSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyLanguage
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -896,7 +896,7 @@ void UBP_GameSettings_C::ApplyLanguage()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateLanguageDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -915,7 +915,7 @@ void UBP_GameSettings_C::UpdateLanguageDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyHideWatermark
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -934,7 +934,7 @@ void UBP_GameSettings_C::ApplyHideWatermark()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateHideWatermarkCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -953,7 +953,7 @@ void UBP_GameSettings_C::UpdateHideWatermarkCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyShowObservedDelay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -972,7 +972,7 @@ void UBP_GameSettings_C::ApplyShowObservedDelay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateShowObservedDelayCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -991,7 +991,7 @@ void UBP_GameSettings_C::UpdateShowObservedDelayCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyMouseSmoothing
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1010,9 +1010,9 @@ void UBP_GameSettings_C::ApplyMouseSmoothing()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateMouseSmoothingSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_GameSettings_C::UpdateMouseSmoothingSlider()
 {
@@ -1029,7 +1029,7 @@ void UBP_GameSettings_C::UpdateMouseSmoothingSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyTracersStayTime
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1048,15 +1048,15 @@ void UBP_GameSettings_C::ApplyTracersStayTime()
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateTracersStayTimeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_GameSettings.BP_GameSettings_C.Update Tracers Stay Time Slider
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-void UBP_GameSettings_C::UpdateTracersStayTimeSlider()
+void UBP_GameSettings_C::Update_Tracers_Stay_Time_Slider()
 {
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_GameSettings.BP_GameSettings_C.UpdateTracersStayTimeSlider");
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_GameSettings.BP_GameSettings_C.Update Tracers Stay Time Slider");
 
-	UBP_GameSettings_C_UpdateTracersStayTimeSlider_Params params;
+	UBP_GameSettings_C_Update_Tracers_Stay_Time_Slider_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -1067,7 +1067,7 @@ void UBP_GameSettings_C::UpdateTracersStayTimeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyDrawTracers
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1086,7 +1086,7 @@ void UBP_GameSettings_C::ApplyDrawTracers()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateDrawTracersCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1105,7 +1105,7 @@ void UBP_GameSettings_C::UpdateDrawTracersCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.GetDevSettingsVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1127,7 +1127,7 @@ UMG_ESlateVisibility UBP_GameSettings_C::GetDevSettingsVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyRagdollStayTime
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1146,7 +1146,7 @@ void UBP_GameSettings_C::ApplyRagdollStayTime()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyRagdollLimit
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1165,7 +1165,7 @@ void UBP_GameSettings_C::ApplyRagdollLimit()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyGore
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1184,7 +1184,7 @@ void UBP_GameSettings_C::ApplyGore()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyHideHud
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1203,7 +1203,7 @@ void UBP_GameSettings_C::ApplyHideHud()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ApplyQuickSpawn
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1222,7 +1222,7 @@ void UBP_GameSettings_C::ApplyQuickSpawn()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateQuickSpawnCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1241,9 +1241,9 @@ void UBP_GameSettings_C::UpdateQuickSpawnCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateRagdollStayTimeSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_GameSettings_C::UpdateRagdollStayTimeSlider()
 {
@@ -1260,9 +1260,9 @@ void UBP_GameSettings_C::UpdateRagdollStayTimeSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateRagdollLimitSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_GameSettings_C::UpdateRagdollLimitSlider()
 {
@@ -1279,7 +1279,7 @@ void UBP_GameSettings_C::UpdateRagdollLimitSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateGoreDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1298,7 +1298,7 @@ void UBP_GameSettings_C::UpdateGoreDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.UpdateHideHudCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1317,7 +1317,7 @@ void UBP_GameSettings_C::UpdateHideHudCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.Update Widgets
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GameSettings_C::Update_Widgets()
@@ -1335,7 +1335,7 @@ void UBP_GameSettings_C::Update_Widgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_GameSettings_C::OnShown()
@@ -1353,7 +1353,7 @@ void UBP_GameSettings_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature()
@@ -1371,7 +1371,7 @@ void UBP_GameSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__HideHudCheckbox_K2Node_ComponentBoundEvent_26_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__HideHudCheckbox_K2Node_ComponentBoundEvent_26_OnHovered__DelegateSignature()
@@ -1389,7 +1389,7 @@ void UBP_GameSettings_C::BndEvt__HideHudCheckbox_K2Node_ComponentBoundEvent_26_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__GoreDropdown_K2Node_ComponentBoundEvent_30_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__GoreDropdown_K2Node_ComponentBoundEvent_30_OnHovered__DelegateSignature()
@@ -1407,7 +1407,7 @@ void UBP_GameSettings_C::BndEvt__GoreDropdown_K2Node_ComponentBoundEvent_30_OnHo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__RagdollLimitSlider_K2Node_ComponentBoundEvent_37_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__RagdollLimitSlider_K2Node_ComponentBoundEvent_37_OnHovered__DelegateSignature()
@@ -1425,7 +1425,7 @@ void UBP_GameSettings_C::BndEvt__RagdollLimitSlider_K2Node_ComponentBoundEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__RagdollStayTimeSlider_K2Node_ComponentBoundEvent_27_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__RagdollStayTimeSlider_K2Node_ComponentBoundEvent_27_OnHovered__DelegateSignature()
@@ -1443,7 +1443,7 @@ void UBP_GameSettings_C::BndEvt__RagdollStayTimeSlider_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__QuickSpawnCheckbox_K2Node_ComponentBoundEvent_31_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__QuickSpawnCheckbox_K2Node_ComponentBoundEvent_31_OnHovered__DelegateSignature()
@@ -1461,7 +1461,7 @@ void UBP_GameSettings_C::BndEvt__QuickSpawnCheckbox_K2Node_ComponentBoundEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__MouseSmoothingSlider_K2Node_ComponentBoundEvent_63_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__MouseSmoothingSlider_K2Node_ComponentBoundEvent_63_OnHovered__DelegateSignature()
@@ -1479,7 +1479,7 @@ void UBP_GameSettings_C::BndEvt__MouseSmoothingSlider_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__DrawTracersCheckbox_K2Node_ComponentBoundEvent_67_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__DrawTracersCheckbox_K2Node_ComponentBoundEvent_67_OnHovered__DelegateSignature()
@@ -1497,7 +1497,7 @@ void UBP_GameSettings_C::BndEvt__DrawTracersCheckbox_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__TracersStayTimeSlider_K2Node_ComponentBoundEvent_79_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__TracersStayTimeSlider_K2Node_ComponentBoundEvent_79_OnHovered__DelegateSignature()
@@ -1515,7 +1515,7 @@ void UBP_GameSettings_C::BndEvt__TracersStayTimeSlider_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ShowObservedDelayCheckbox_K2Node_ComponentBoundEvent_56_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ShowObservedDelayCheckbox_K2Node_ComponentBoundEvent_56_OnHovered__DelegateSignature()
@@ -1533,7 +1533,7 @@ void UBP_GameSettings_C::BndEvt__ShowObservedDelayCheckbox_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__HideWatermarkCheckbox_K2Node_ComponentBoundEvent_79_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__HideWatermarkCheckbox_K2Node_ComponentBoundEvent_79_OnHovered__DelegateSignature()
@@ -1551,7 +1551,7 @@ void UBP_GameSettings_C::BndEvt__HideWatermarkCheckbox_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__LanguageDropdown_K2Node_ComponentBoundEvent_115_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__LanguageDropdown_K2Node_ComponentBoundEvent_115_OnHovered__DelegateSignature()
@@ -1569,7 +1569,7 @@ void UBP_GameSettings_C::BndEvt__LanguageDropdown_K2Node_ComponentBoundEvent_115
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ShowCrosshairCheckbox_K2Node_ComponentBoundEvent_6_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ShowCrosshairCheckbox_K2Node_ComponentBoundEvent_6_OnHovered__DelegateSignature()
@@ -1587,7 +1587,7 @@ void UBP_GameSettings_C::BndEvt__ShowCrosshairCheckbox_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__HeadbobSlider_K2Node_ComponentBoundEvent_15_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__HeadbobSlider_K2Node_ComponentBoundEvent_15_OnHovered__DelegateSignature()
@@ -1605,7 +1605,7 @@ void UBP_GameSettings_C::BndEvt__HeadbobSlider_K2Node_ComponentBoundEvent_15_OnH
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__HitMarkerCheckbox_K2Node_ComponentBoundEvent_137_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__HitMarkerCheckbox_K2Node_ComponentBoundEvent_137_OnHovered__DelegateSignature()
@@ -1623,7 +1623,7 @@ void UBP_GameSettings_C::BndEvt__HitMarkerCheckbox_K2Node_ComponentBoundEvent_13
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__StatusBarCheckbox_K2Node_ComponentBoundEvent_213_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__StatusBarCheckbox_K2Node_ComponentBoundEvent_213_OnHovered__DelegateSignature()
@@ -1641,7 +1641,7 @@ void UBP_GameSettings_C::BndEvt__StatusBarCheckbox_K2Node_ComponentBoundEvent_21
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__TargetInfoCheckbox_K2Node_ComponentBoundEvent_329_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__TargetInfoCheckbox_K2Node_ComponentBoundEvent_329_OnHovered__DelegateSignature()
@@ -1659,7 +1659,7 @@ void UBP_GameSettings_C::BndEvt__TargetInfoCheckbox_K2Node_ComponentBoundEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__SpawnInfoCheckbox_K2Node_ComponentBoundEvent_414_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__SpawnInfoCheckbox_K2Node_ComponentBoundEvent_414_OnHovered__DelegateSignature()
@@ -1677,7 +1677,7 @@ void UBP_GameSettings_C::BndEvt__SpawnInfoCheckbox_K2Node_ComponentBoundEvent_41
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ChatBoxCheckbox_K2Node_ComponentBoundEvent_500_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ChatBoxCheckbox_K2Node_ComponentBoundEvent_500_OnHovered__DelegateSignature()
@@ -1695,7 +1695,7 @@ void UBP_GameSettings_C::BndEvt__ChatBoxCheckbox_K2Node_ComponentBoundEvent_500_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__EmotesMenuCheckbox_K2Node_ComponentBoundEvent_590_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__EmotesMenuCheckbox_K2Node_ComponentBoundEvent_590_OnHovered__DelegateSignature()
@@ -1713,7 +1713,7 @@ void UBP_GameSettings_C::BndEvt__EmotesMenuCheckbox_K2Node_ComponentBoundEvent_5
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__EquipmentCheckbox_K2Node_ComponentBoundEvent_684_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__EquipmentCheckbox_K2Node_ComponentBoundEvent_684_OnHovered__DelegateSignature()
@@ -1731,7 +1731,7 @@ void UBP_GameSettings_C::BndEvt__EquipmentCheckbox_K2Node_ComponentBoundEvent_68
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__AmmoCheckbox_K2Node_ComponentBoundEvent_782_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__AmmoCheckbox_K2Node_ComponentBoundEvent_782_OnHovered__DelegateSignature()
@@ -1749,7 +1749,7 @@ void UBP_GameSettings_C::BndEvt__AmmoCheckbox_K2Node_ComponentBoundEvent_782_OnH
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature()
@@ -1767,7 +1767,7 @@ void UBP_GameSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__AnnouncementsCheckbox_K2Node_ComponentBoundEvent_1001_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__AnnouncementsCheckbox_K2Node_ComponentBoundEvent_1001_OnHovered__DelegateSignature()
@@ -1785,7 +1785,7 @@ void UBP_GameSettings_C::BndEvt__AnnouncementsCheckbox_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__TipsCheckbox_K2Node_ComponentBoundEvent_1133_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__TipsCheckbox_K2Node_ComponentBoundEvent_1133_OnHovered__DelegateSignature()
@@ -1803,7 +1803,7 @@ void UBP_GameSettings_C::BndEvt__TipsCheckbox_K2Node_ComponentBoundEvent_1133_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ScoreFeedCheckbox_K2Node_ComponentBoundEvent_1243_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ScoreFeedCheckbox_K2Node_ComponentBoundEvent_1243_OnHovered__DelegateSignature()
@@ -1821,7 +1821,7 @@ void UBP_GameSettings_C::BndEvt__ScoreFeedCheckbox_K2Node_ComponentBoundEvent_12
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__KillFeedCheckbox_K2Node_ComponentBoundEvent_1357_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__KillFeedCheckbox_K2Node_ComponentBoundEvent_1357_OnHovered__DelegateSignature()
@@ -1839,7 +1839,7 @@ void UBP_GameSettings_C::BndEvt__KillFeedCheckbox_K2Node_ComponentBoundEvent_135
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__NoTeamColorsOnGear_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__NoTeamColorsOnGear_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature()
@@ -1857,7 +1857,7 @@ void UBP_GameSettings_C::BndEvt__NoTeamColorsOnGear_K2Node_ComponentBoundEvent_0
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__KilledByCheckbox_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__KilledByCheckbox_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature()
@@ -1875,7 +1875,7 @@ void UBP_GameSettings_C::BndEvt__KilledByCheckbox_K2Node_ComponentBoundEvent_1_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ThirdPersonDeathCameraCheckbox_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ThirdPersonDeathCameraCheckbox_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature()
@@ -1893,7 +1893,7 @@ void UBP_GameSettings_C::BndEvt__ThirdPersonDeathCameraCheckbox_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ShowServerOnScoreboard_K2Node_ComponentBoundEvent_3_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ShowServerOnScoreboard_K2Node_ComponentBoundEvent_3_OnHovered__DelegateSignature()
@@ -1911,7 +1911,7 @@ void UBP_GameSettings_C::BndEvt__ShowServerOnScoreboard_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ShowObjectivesCheckbox_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ShowObjectivesCheckbox_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature()
@@ -1929,7 +1929,7 @@ void UBP_GameSettings_C::BndEvt__ShowObjectivesCheckbox_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__CombatHintsEntry_K2Node_ComponentBoundEvent_5_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__CombatHintsEntry_K2Node_ComponentBoundEvent_5_OnHovered__DelegateSignature()
@@ -1947,7 +1947,7 @@ void UBP_GameSettings_C::BndEvt__CombatHintsEntry_K2Node_ComponentBoundEvent_5_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ResetConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GameSettings_C::ResetConfirm()
@@ -1965,7 +1965,7 @@ void UBP_GameSettings_C::ResetConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ResetCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GameSettings_C::ResetCancel()
@@ -1983,7 +1983,7 @@ void UBP_GameSettings_C::ResetCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.BndEvt__ForceFeedbackCheckbox_K2Node_ComponentBoundEvent_8_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameSettings_C::BndEvt__ForceFeedbackCheckbox_K2Node_ComponentBoundEvent_8_OnHovered__DelegateSignature()
@@ -2001,7 +2001,7 @@ void UBP_GameSettings_C::BndEvt__ForceFeedbackCheckbox_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameSettings.BP_GameSettings_C.ExecuteUbergraph_BP_GameSettings
 //		Flags  -> (Final)
 // Parameters:

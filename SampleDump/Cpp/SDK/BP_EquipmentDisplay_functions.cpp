@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_EquipmentDisplay_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.Find Shield
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +67,7 @@ void UBP_EquipmentDisplay_C::Find_Shield(TArray<class AMordhauEquipment*>* Equip
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentDisplay_C::Show()
@@ -85,7 +85,7 @@ void UBP_EquipmentDisplay_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.Hide
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentDisplay_C::Hide()
@@ -103,7 +103,7 @@ void UBP_EquipmentDisplay_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -126,7 +126,7 @@ void UBP_EquipmentDisplay_C::Tick(const struct FGeometry& MyGeometry, float InDe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplay.BP_EquipmentDisplay_C.ExecuteUbergraph_BP_EquipmentDisplay
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

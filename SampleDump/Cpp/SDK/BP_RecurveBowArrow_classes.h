@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_RecurveBowArrow.BP_RecurveBowArrow_C
-// 0x0000 (FullSize[0x07C4] - InheritedSize[0x07C4])
+// 0x0000 (FullSize[0x07D4] - InheritedSize[0x07D4])
 class ABP_RecurveBowArrow_C : public ABP_ArrowProjectile_C
 {
 public:

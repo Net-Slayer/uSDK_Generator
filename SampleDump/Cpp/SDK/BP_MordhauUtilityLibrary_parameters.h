@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,26 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Secondary
+struct UBP_MordhauUtilityLibrary_C_Get_Key_Info_from_Action_Name_Secondary_Params
+{
+	struct FName                                       ActionName;                                                // 0x0000(0x0008)  (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UObject*                                     __WorldContext;                                            // 0x0008(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UTexture2D*                                  Icon;                                                      // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FKey                                        Secondary_Key;                                             // 0x0018(0x0018)  (Parm, OutParm, HasGetValueTypeHash)
+	struct FText                                       Secondary_Key_Display_Name;                                // 0x0030(0x0018)  (Parm, OutParm)
+};
+
+// Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Primary
+struct UBP_MordhauUtilityLibrary_C_Get_Key_Info_from_Action_Name_Primary_Params
+{
+	struct FName                                       ActionName;                                                // 0x0000(0x0008)  (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UObject*                                     __WorldContext;                                            // 0x0008(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UTexture2D*                                  Icon;                                                      // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FKey                                        Key;                                                       // 0x0018(0x0018)  (Parm, OutParm, HasGetValueTypeHash)
+	struct FText                                       Key_Display_Name;                                          // 0x0030(0x0018)  (Parm, OutParm)
+};
 
 // Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateContextPopup_Interface
 struct UBP_MordhauUtilityLibrary_C_CreateContextPopup_Interface_Params
@@ -82,16 +102,6 @@ struct UBP_MordhauUtilityLibrary_C_GetKeyInfoFromKey_Params
 	class UTexture2D*                                  Icon;                                                      // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FKey                                        Key;                                                       // 0x0028(0x0018)  (Parm, OutParm, HasGetValueTypeHash)
 	struct FText                                       Key_Display_Name;                                          // 0x0040(0x0018)  (Parm, OutParm)
-};
-
-// Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetKeyInfoFromActionName
-struct UBP_MordhauUtilityLibrary_C_GetKeyInfoFromActionName_Params
-{
-	struct FName                                       Action_Name;                                               // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class UObject*                                     __WorldContext;                                            // 0x0008(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class UTexture2D*                                  Icon;                                                      // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FKey                                        Key;                                                       // 0x0018(0x0018)  (Parm, OutParm, HasGetValueTypeHash)
-	struct FText                                       Key_Display_Name;                                          // 0x0030(0x0018)  (Parm, OutParm)
 };
 
 // Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetRank

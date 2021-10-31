@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00CEDD00
+//		Offset -> 0x00CF74A0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.UnPin
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMagicLeapARPinComponent::UnPin()
@@ -38,7 +38,7 @@ void UMagicLeapARPinComponent::UnPin()
 
 
 // Function:
-//		Offset -> 0x00CEDBD0
+//		Offset -> 0x00CF7370
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.PinSceneComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ bool UMagicLeapARPinComponent::PinSceneComponent(class USceneComponent* Componen
 
 
 // Function:
-//		Offset -> 0x00CEDBA0
+//		Offset -> 0x00CF7340
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.PinRestoredOrSynced
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -86,7 +86,7 @@ bool UMagicLeapARPinComponent::PinRestoredOrSynced()
 
 
 // Function:
-//		Offset -> 0x00CEDB10
+//		Offset -> 0x00CF72B0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.PinActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -111,7 +111,7 @@ bool UMagicLeapARPinComponent::PinActor(class AActor* ActorToPin)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinned__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -132,7 +132,7 @@ void UMagicLeapARPinComponent::PersistentEntityPinned__DelegateSignature(bool bR
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinLost__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UMagicLeapARPinComponent::PersistentEntityPinLost__DelegateSignature()
@@ -150,7 +150,7 @@ void UMagicLeapARPinComponent::PersistentEntityPinLost__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x00CEDAB0
+//		Offset -> 0x00CF7250
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.IsPinned
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -173,7 +173,7 @@ bool UMagicLeapARPinComponent::IsPinned()
 
 
 // Function:
-//		Offset -> 0x00CED950
+//		Offset -> 0x00CF70F0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.GetPinState
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -200,7 +200,7 @@ bool UMagicLeapARPinComponent::GetPinState(struct FMagicLeapARPinState* State)
 
 
 // Function:
-//		Offset -> 0x00CEDA00
+//		Offset -> 0x00CF71A0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.GetPinnedPinID
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -227,7 +227,7 @@ bool UMagicLeapARPinComponent::GetPinnedPinID(struct FGuid* PinID)
 
 
 // Function:
-//		Offset -> 0x00CED8C0
+//		Offset -> 0x00CF7060
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinComponent.GetPinData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -252,7 +252,7 @@ class UMagicLeapARPinSaveGame* UMagicLeapARPinComponent::GetPinData(class UClass
 
 
 // Function:
-//		Offset -> 0x00CEDC60
+//		Offset -> 0x00CF7400
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.UnBindToOnMagicLeapARPinUpdatedDelegate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -274,7 +274,7 @@ void UMagicLeapARPinFunctionLibrary::STATIC_UnBindToOnMagicLeapARPinUpdatedDeleg
 
 
 // Function:
-//		Offset -> 0x00CEDAE0
+//		Offset -> 0x00CF7280
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.IsTrackerValid
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -297,7 +297,7 @@ bool UMagicLeapARPinFunctionLibrary::STATIC_IsTrackerValid()
 
 
 // Function:
-//		Offset -> 0x00CED830
+//		Offset -> 0x00CF6FD0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetNumAvailableARPins
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -324,7 +324,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED740
+//		Offset -> 0x00CF6EE0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetClosestARPin
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -353,7 +353,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED650
+//		Offset -> 0x00CF6DF0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetAvailableARPins
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -382,7 +382,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED570
+//		Offset -> 0x00CF6D10
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinStateToString
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -407,7 +407,7 @@ struct FString UMagicLeapARPinFunctionLibrary::STATIC_GetARPinStateToString(cons
 
 
 // Function:
-//		Offset -> 0x00CED470
+//		Offset -> 0x00CF6C10
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -436,7 +436,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED2E0
+//		Offset -> 0x00CF6A80
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation_TrackingSpace
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -471,7 +471,7 @@ bool UMagicLeapARPinFunctionLibrary::STATIC_GetARPinPositionAndOrientation_Track
 
 
 // Function:
-//		Offset -> 0x00CED150
+//		Offset -> 0x00CF68F0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -506,7 +506,7 @@ bool UMagicLeapARPinFunctionLibrary::STATIC_GetARPinPositionAndOrientation(const
 
 
 // Function:
-//		Offset -> 0x00CED120
+//		Offset -> 0x00CF68C0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.DestroyTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -529,7 +529,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED0F0
+//		Offset -> 0x00CF6890
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.CreateTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -552,7 +552,7 @@ MagicLeapARPin_EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::STAT
 
 
 // Function:
-//		Offset -> 0x00CED050
+//		Offset -> 0x00CF67F0
 //		Name   -> Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.BindToOnMagicLeapARPinUpdatedDelegate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

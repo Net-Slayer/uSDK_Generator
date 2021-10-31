@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapList.BP_MapList_C.GetSelectedEntry
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_MapList_C::GetSelectedEntry(class UBP_MapEntryLocalPlay_C** SelectedEnt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapList.BP_MapList_C.SelectFirstEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_MapList_C::SelectFirstEntry()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapList.BP_MapList_C.OnEntrySelected
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void UBP_MapList_C::OnEntrySelected(class UBP_MapEntryLocalPlay_C* Entry)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapList.BP_MapList_C.AddEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_MapList_C::AddEntry(const struct FString& GameModeMapName, class UGameM
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapList.BP_MapList_C.ClearEntries
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MapList_C::ClearEntries()

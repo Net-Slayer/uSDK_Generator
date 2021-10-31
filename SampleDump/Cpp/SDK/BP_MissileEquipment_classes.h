@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class ABP_MissileEquipment_C : public AMordhauEquipment
 {
 public:
-	unsigned char                                      UnknownData_WFK6[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_706X[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
 	class USkeletalMeshComponent*                      Missile;                                                   // 0x0CD0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -43,6 +43,7 @@ public:
 	bool STATIC_IsPublicIPAddress(const struct FString& IPAddress);
 	bool STATIC_IsPrivateIPAddress(const struct FString& IPAddress);
 	bool STATIC_IsOfficialServer();
+	bool STATIC_IsDevelopmentEnvironment();
 	bool STATIC_IsDevelopmentBuild();
 	bool STATIC_IsDevelopmentBranch();
 	bool STATIC_IsDedicatedServer();
@@ -75,9 +76,9 @@ public:
 class UPlayFabAPI : public UObject
 {
 public:
-	unsigned char                                      UnknownData_BORQ[0x430];                                   // 0x0028(0x0430) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_YZSP[0x430];                                   // 0x0028(0x0430) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FScriptMulticastDelegate                    OnGetLeaderboardComplete;                                  // 0x0458(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_NBDK[0x328];                                   // 0x0468(0x0328) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_5LJX[0x328];                                   // 0x0468(0x0328) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateContextPopupWrapper_Interface
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_MordhauHUD_C::CreateContextPopupWrapper_Interface()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateHUDButtonPrompts
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +57,7 @@ void ABP_MordhauHUD_C::CreateHUDButtonPrompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowMOTD
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowMOTD()
@@ -75,7 +75,7 @@ void ABP_MordhauHUD_C::ShowMOTD()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateMOTD
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -94,7 +94,7 @@ void ABP_MordhauHUD_C::CreateMOTD()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateContextPopupWrapper
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -113,7 +113,7 @@ void ABP_MordhauHUD_C::CreateContextPopupWrapper()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.HideVoteKickMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::HideVoteKickMenu()
@@ -131,7 +131,7 @@ void ABP_MordhauHUD_C::HideVoteKickMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowVoteKickMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowVoteKickMenu()
@@ -149,7 +149,7 @@ void ABP_MordhauHUD_C::ShowVoteKickMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateVoteKickMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -168,7 +168,7 @@ void ABP_MordhauHUD_C::CreateVoteKickMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowMatchResult
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -193,7 +193,7 @@ void ABP_MordhauHUD_C::ShowMatchResult(bool IsVictory, const struct FText& MainT
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowEndScreen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowEndScreen()
@@ -211,7 +211,7 @@ void ABP_MordhauHUD_C::ShowEndScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateEndScreen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -230,7 +230,7 @@ void ABP_MordhauHUD_C::CreateEndScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowKilledBy
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -251,7 +251,7 @@ void ABP_MordhauHUD_C::ShowKilledBy(class AMordhauPlayerState* Killer)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateKilledByPanelWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -270,7 +270,7 @@ void ABP_MordhauHUD_C::CreateKilledByPanelWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowObjectiveWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -295,7 +295,7 @@ void ABP_MordhauHUD_C::ShowObjectiveWidget(const struct FText& Description, cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateObjectiveWidget
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -318,7 +318,7 @@ void ABP_MordhauHUD_C::CreateObjectiveWidget(class UBP_Objectives_C** Widget)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.HideSpawnScreen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -337,7 +337,7 @@ void ABP_MordhauHUD_C::HideSpawnScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowSpawnScreen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -356,7 +356,7 @@ void ABP_MordhauHUD_C::ShowSpawnScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateSpawnScreen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -375,7 +375,7 @@ void ABP_MordhauHUD_C::CreateSpawnScreen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowVoiceMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowVoiceMenu()
@@ -393,7 +393,7 @@ void ABP_MordhauHUD_C::ShowVoiceMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateVoiceMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -412,7 +412,7 @@ void ABP_MordhauHUD_C::CreateVoiceMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateEquipmentInfoDisplay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -431,7 +431,7 @@ void ABP_MordhauHUD_C::CreateEquipmentInfoDisplay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateScoreFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -450,7 +450,7 @@ void ABP_MordhauHUD_C::CreateScoreFeed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowTips
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowTips()
@@ -468,7 +468,7 @@ void ABP_MordhauHUD_C::ShowTips()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateTips
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -487,7 +487,7 @@ void ABP_MordhauHUD_C::CreateTips()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowEquipment
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowEquipment()
@@ -505,7 +505,7 @@ void ABP_MordhauHUD_C::ShowEquipment()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateEquipmentDisplay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -524,7 +524,7 @@ void ABP_MordhauHUD_C::CreateEquipmentDisplay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateNetIndicator
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -543,7 +543,7 @@ void ABP_MordhauHUD_C::CreateNetIndicator()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateMainMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -562,7 +562,7 @@ void ABP_MordhauHUD_C::CreateMainMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.IsMainMenuVisible
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -585,7 +585,7 @@ void ABP_MordhauHUD_C::IsMainMenuVisible(bool* bIsVisible)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.HideMainMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -604,7 +604,7 @@ void ABP_MordhauHUD_C::HideMainMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ProcessQueuedDialogs
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -623,7 +623,7 @@ void ABP_MordhauHUD_C::ProcessQueuedDialogs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.EnqueueDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -644,7 +644,7 @@ void ABP_MordhauHUD_C::EnqueueDialog(class UMordhauDialog* Dialog)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateWatermark
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -663,7 +663,7 @@ void ABP_MordhauHUD_C::CreateWatermark()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowAnnouncement
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -690,7 +690,7 @@ void ABP_MordhauHUD_C::ShowAnnouncement(const struct FText& Text, const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateAnnouncement
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -709,7 +709,7 @@ void ABP_MordhauHUD_C::CreateAnnouncement()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowEmoteMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowEmoteMenu()
@@ -727,7 +727,7 @@ void ABP_MordhauHUD_C::ShowEmoteMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateEmoteMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -746,7 +746,7 @@ void ABP_MordhauHUD_C::CreateEmoteMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowTeamSelect
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -765,7 +765,7 @@ void ABP_MordhauHUD_C::ShowTeamSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateTeamSelect
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -784,7 +784,7 @@ void ABP_MordhauHUD_C::CreateTeamSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowProfileSelect
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::ShowProfileSelect()
@@ -802,7 +802,7 @@ void ABP_MordhauHUD_C::ShowProfileSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateProfileSelect
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -821,7 +821,7 @@ void ABP_MordhauHUD_C::CreateProfileSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateChatBox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -840,7 +840,7 @@ void ABP_MordhauHUD_C::CreateChatBox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateStatusBar
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -859,7 +859,7 @@ void ABP_MordhauHUD_C::CreateStatusBar()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateCrosshair
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -878,7 +878,7 @@ void ABP_MordhauHUD_C::CreateCrosshair()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateKillFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -897,7 +897,7 @@ void ABP_MordhauHUD_C::CreateKillFeed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.CreateTargetInfo
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -916,7 +916,7 @@ void ABP_MordhauHUD_C::CreateTargetInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.UseFullHUD
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::UseFullHUD()
@@ -934,7 +934,7 @@ void ABP_MordhauHUD_C::UseFullHUD()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.UseMinimalHUD
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::UseMinimalHUD()
@@ -952,7 +952,7 @@ void ABP_MordhauHUD_C::UseMinimalHUD()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowMainMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -973,7 +973,7 @@ void ABP_MordhauHUD_C::ShowMainMenu(TEnumAsByte<E_ArmoryStates_E_ArmoryStates> A
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.SendMessageToKillFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -998,7 +998,7 @@ void ABP_MordhauHUD_C::SendMessageToKillFeed(class APlayerState* Killer, const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.SendMessageToChatbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1021,7 +1021,7 @@ void ABP_MordhauHUD_C::SendMessageToChatbox(const struct FText& CharacterName, c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowChatBox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1042,7 +1042,7 @@ void ABP_MordhauHUD_C::ShowChatBox(bool Team)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.HideScoreboard
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauHUD_C::HideScoreboard()
@@ -1060,7 +1060,7 @@ void ABP_MordhauHUD_C::HideScoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ShowScoreboard
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1079,7 +1079,7 @@ void ABP_MordhauHUD_C::ShowScoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauHUD_C::ReceiveBeginPlay()
@@ -1097,7 +1097,7 @@ void ABP_MordhauHUD_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1118,7 +1118,7 @@ void ABP_MordhauHUD_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.EnqueueMordhauDialog
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1139,7 +1139,7 @@ void ABP_MordhauHUD_C::EnqueueMordhauDialog(class UMordhauDialog* Dialog)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.On Player Killed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1160,7 +1160,7 @@ void ABP_MordhauHUD_C::On_Player_Killed(class APlayerState* Victim)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.ExecuteUbergraph_BP_MordhauHUD
 //		Flags  -> (Final)
 // Parameters:
@@ -1181,7 +1181,7 @@ void ABP_MordhauHUD_C::ExecuteUbergraph_BP_MordhauHUD(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauHUD.BP_MordhauHUD_C.On Player Killed Event__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0182E9D0
+//		Offset -> 0x0183E9F0
 //		Name   -> Function ImageWriteQueue.ImageWriteBlueprintLibrary.ExportToDisk
 //		Flags  -> (Final, RequiredAPI, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

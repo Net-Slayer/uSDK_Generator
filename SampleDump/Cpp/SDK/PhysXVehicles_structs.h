@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -46,32 +46,6 @@ enum class PhysXVehicles_EVehicleDifferential4W : uint8_t
 // Script Structs
 //---------------------------------------------------------------------------
 
-// ScriptStruct PhysXVehicles.WheelSetup
-// 0x0020
-struct FWheelSetup
-{
-	class UClass*                                      WheelClass;                                                // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       BoneName;                                                  // 0x0008(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     AdditionalOffset;                                          // 0x0010(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bDisableSteering;                                          // 0x001C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0L01[0x3];                                     // 0x001D(0x0003) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct PhysXVehicles.VehicleEngineData
-// 0x00A0
-struct FVehicleEngineData
-{
-	struct FRuntimeFloatCurve                          TorqueCurve;                                               // 0x0000(0x0088) (Edit, NativeAccessSpecifierPublic)
-	float                                              MaxRPM;                                                    // 0x0088(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MOI;                                                       // 0x008C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DampingRateFullThrottle;                                   // 0x0090(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DampingRateZeroThrottleClutchEngaged;                      // 0x0094(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DampingRateZeroThrottleClutchDisengaged;                   // 0x0098(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_SM1I[0x4];                                     // 0x009C(0x0004) MISSED OFFSET (PADDING)
-
-};
-
 // ScriptStruct PhysXVehicles.ReplicatedVehicleState
 // 0x0014
 struct FReplicatedVehicleState
@@ -93,13 +67,25 @@ struct FVehicleInputRate
 
 };
 
+// ScriptStruct PhysXVehicles.WheelSetup
+// 0x0020
+struct FWheelSetup
+{
+	class UClass*                                      WheelClass;                                                // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       BoneName;                                                  // 0x0008(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     AdditionalOffset;                                          // 0x0010(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bDisableSteering;                                          // 0x001C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_4087[0x3];                                     // 0x001D(0x0003) MISSED OFFSET (PADDING)
+
+};
+
 // ScriptStruct PhysXVehicles.TireConfigMaterialFriction
 // 0x0010
 struct FTireConfigMaterialFriction
 {
 	class UPhysicalMaterial*                           PhysicalMaterial;                                          // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              FrictionScale;                                             // 0x0008(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AVZ6[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_U2BP[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -108,7 +94,7 @@ struct FTireConfigMaterialFriction
 struct FVehicleDifferential4WData
 {
 	TEnumAsByte<PhysXVehicles_EVehicleDifferential4W>  DifferentialType;                                          // 0x0000(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1VOS[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_CS8U[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              FrontRearSplit;                                            // 0x0004(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              FrontLeftRightSplit;                                       // 0x0008(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              RearLeftRightSplit;                                        // 0x000C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -133,7 +119,7 @@ struct FVehicleGearData
 struct FVehicleTransmissionData
 {
 	bool                                               bUseGearAutoBox;                                           // 0x0000(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_BSKC[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_H9XS[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              GearSwitchTime;                                            // 0x0004(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              GearAutoBoxLatency;                                        // 0x0008(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              FinalRatio;                                                // 0x000C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -141,7 +127,21 @@ struct FVehicleTransmissionData
 	float                                              ReverseGearRatio;                                          // 0x0020(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              NeutralGearUpRatio;                                        // 0x0024(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              ClutchStrength;                                            // 0x0028(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_IXY8[0x4];                                     // 0x002C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_D8WU[0x4];                                     // 0x002C(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct PhysXVehicles.VehicleEngineData
+// 0x00A0
+struct FVehicleEngineData
+{
+	struct FRuntimeFloatCurve                          TorqueCurve;                                               // 0x0000(0x0088) (Edit, NativeAccessSpecifierPublic)
+	float                                              MaxRPM;                                                    // 0x0088(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MOI;                                                       // 0x008C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DampingRateFullThrottle;                                   // 0x0090(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DampingRateZeroThrottleClutchEngaged;                      // 0x0094(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DampingRateZeroThrottleClutchDisengaged;                   // 0x0098(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_1BL1[0x4];                                     // 0x009C(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -149,7 +149,7 @@ struct FVehicleTransmissionData
 // 0x0018 (0x00E0 - 0x00C8)
 struct FAnimNode_WheelHandler : public FAnimNode_SkeletalControlBase
 {
-	unsigned char                                      UnknownData_Y3TT[0x18];                                    // 0x00C8(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_G0X1[0x18];                                    // 0x00C8(0x0018) MISSED OFFSET (PADDING)
 
 };
 
@@ -157,7 +157,7 @@ struct FAnimNode_WheelHandler : public FAnimNode_SkeletalControlBase
 // 0x0010 (0x06F0 - 0x06E0)
 struct FVehicleAnimInstanceProxy : public FAnimInstanceProxy
 {
-	unsigned char                                      UnknownData_OJ97[0x10];                                    // 0x06E0(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_PBDR[0x10];                                    // 0x06E0(0x0010) MISSED OFFSET (PADDING)
 
 };
 

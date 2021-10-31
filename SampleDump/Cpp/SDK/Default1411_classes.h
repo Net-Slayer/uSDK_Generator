@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Default1411.Default1411_C
-// 0x0000 (FullSize[0x0078] - InheritedSize[0x0078])
+// 0x0000 (FullSize[0x0080] - InheritedSize[0x0080])
 class UDefault1411_C : public UBP_MordhauEquipmentPart_C
 {
 public:

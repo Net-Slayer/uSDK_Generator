@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,10 +20,11 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_MordhauVehicle.BP_MordhauVehicle_C
-// 0x0000 (FullSize[0x0C30] - InheritedSize[0x0C30])
+// 0x0008 (FullSize[0x0B70] - InheritedSize[0x0B68])
 class ABP_MordhauVehicle_C : public AMordhauVehicle
 {
 public:
+	unsigned char                                      UnknownData_MGNE[0x8];                                     // 0x0B68(0x0008) Fix Super Size
 
 
 	static UClass* StaticClass()

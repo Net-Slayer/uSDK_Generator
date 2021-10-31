@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0245A590
+//		Offset -> 0x02465BA0
 //		Name   -> Function CinematicCamera.CameraRig_Rail.GetRailSplineComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -42,7 +42,7 @@ class USplineComponent* ACameraRig_Rail::GetRailSplineComponent()
 
 
 // Function:
-//		Offset -> 0x0245A290
+//		Offset -> 0x024658A0
 //		Name   -> Function CinematicCamera.CineCameraActor.GetCineCameraComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -65,7 +65,7 @@ class UCineCameraComponent* ACineCameraActor::GetCineCameraComponent()
 
 
 // Function:
-//		Offset -> 0x0245A720
+//		Offset -> 0x02465D30
 //		Name   -> Function CinematicCamera.CineCameraComponent.SetLensPresetByName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UCineCameraComponent::SetLensPresetByName(const struct FString& InPresetNam
 
 
 // Function:
-//		Offset -> 0x0245A680
+//		Offset -> 0x02465C90
 //		Name   -> Function CinematicCamera.CineCameraComponent.SetFilmbackPresetByName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -109,7 +109,7 @@ void UCineCameraComponent::SetFilmbackPresetByName(const struct FString& InPrese
 
 
 // Function:
-//		Offset -> 0x0245A5E0
+//		Offset -> 0x02465BF0
 //		Name   -> Function CinematicCamera.CineCameraComponent.SetCurrentFocalLength
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -131,7 +131,7 @@ void UCineCameraComponent::SetCurrentFocalLength(float InFocalLength)
 
 
 // Function:
-//		Offset -> 0x0245A5B0
+//		Offset -> 0x02465BC0
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetVerticalFieldOfView
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -154,7 +154,7 @@ float UCineCameraComponent::GetVerticalFieldOfView()
 
 
 // Function:
-//		Offset -> 0x0245A4B0
+//		Offset -> 0x02465AC0
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetLensPresetsCopy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -177,7 +177,7 @@ TArray<struct FNamedLensPreset> UCineCameraComponent::STATIC_GetLensPresetsCopy(
 
 
 // Function:
-//		Offset -> 0x0245A430
+//		Offset -> 0x02465A40
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetLensPresetName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -200,7 +200,7 @@ struct FString UCineCameraComponent::GetLensPresetName()
 
 
 // Function:
-//		Offset -> 0x0245A400
+//		Offset -> 0x02465A10
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetHorizontalFieldOfView
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -223,7 +223,7 @@ float UCineCameraComponent::GetHorizontalFieldOfView()
 
 
 // Function:
-//		Offset -> 0x0245A380
+//		Offset -> 0x02465990
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetFilmbackPresetName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -246,7 +246,7 @@ struct FString UCineCameraComponent::GetFilmbackPresetName()
 
 
 // Function:
-//		Offset -> 0x0245A2B0
+//		Offset -> 0x024658C0
 //		Name   -> Function CinematicCamera.CineCameraComponent.GetDefaultFilmbackPresetName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

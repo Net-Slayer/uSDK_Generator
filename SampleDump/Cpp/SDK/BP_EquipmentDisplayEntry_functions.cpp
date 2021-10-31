@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.Get_SlotNumber_Text
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_EquipmentDisplayEntry_C::Get_SlotNumber_Text()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.GetColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FSlateColor UBP_EquipmentDisplayEntry_C::GetColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.GetEntryTypeAndName
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -89,7 +89,7 @@ void UBP_EquipmentDisplayEntry_C::GetEntryTypeAndName(int* Type, struct FText* N
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.Get_EquipmentName_Text
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -111,7 +111,7 @@ struct FText UBP_EquipmentDisplayEntry_C::Get_EquipmentName_Text()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -134,7 +134,7 @@ void UBP_EquipmentDisplayEntry_C::Tick(const struct FGeometry& MyGeometry, float
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_EquipmentDisplayEntry_C::Construct()
@@ -152,7 +152,7 @@ void UBP_EquipmentDisplayEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.Update Prompt
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentDisplayEntry_C::Update_Prompt()
@@ -170,7 +170,7 @@ void UBP_EquipmentDisplayEntry_C::Update_Prompt()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentDisplayEntry.BP_EquipmentDisplayEntry_C.ExecuteUbergraph_BP_EquipmentDisplayEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

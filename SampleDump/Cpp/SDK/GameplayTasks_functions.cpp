@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02F49110
+//		Offset -> 0x02F53DD0
 //		Name   -> Function GameplayTasks.GameplayTask.ReadyForActivation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGameplayTask::ReadyForActivation()
@@ -38,7 +38,7 @@ void UGameplayTask::ReadyForActivation()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction GameplayTasks.GameplayTask.GenericGameplayTaskDelegate__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UGameplayTask::GenericGameplayTaskDelegate__DelegateSignature()
@@ -56,7 +56,7 @@ void UGameplayTask::GenericGameplayTaskDelegate__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x02F48DC0
+//		Offset -> 0x02F53A80
 //		Name   -> Function GameplayTasks.GameplayTask.EndTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UGameplayTask::EndTask()
@@ -75,7 +75,7 @@ void UGameplayTask::EndTask()
 
 
 // Function:
-//		Offset -> 0x02F48C20
+//		Offset -> 0x02F538E0
 //		Name   -> Function GameplayTasks.GameplayTask_ClaimResource.ClaimResources
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -104,7 +104,7 @@ class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimReso
 
 
 // Function:
-//		Offset -> 0x02F48AD0
+//		Offset -> 0x02F53790
 //		Name   -> Function GameplayTasks.GameplayTask_ClaimResource.ClaimResource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -133,7 +133,7 @@ class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimReso
 
 
 // Function:
-//		Offset -> 0x02F49130
+//		Offset -> 0x02F53DF0
 //		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.SpawnActor
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -164,7 +164,7 @@ class UGameplayTask_SpawnActor* UGameplayTask_SpawnActor::STATIC_SpawnActor(cons
 
 
 // Function:
-//		Offset -> 0x02F48DE0
+//		Offset -> 0x02F53AA0
 //		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.FinishSpawningActor
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -188,7 +188,7 @@ void UGameplayTask_SpawnActor::FinishSpawningActor(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x02F489F0
+//		Offset -> 0x02F536B0
 //		Name   -> Function GameplayTasks.GameplayTask_SpawnActor.BeginSpawningActor
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -217,7 +217,7 @@ bool UGameplayTask_SpawnActor::BeginSpawningActor(class UObject* WorldContextObj
 
 
 // Function:
-//		Offset -> 0x02F492E0
+//		Offset -> 0x02F53FA0
 //		Name   -> Function GameplayTasks.GameplayTask_WaitDelay.TaskWaitDelay
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -244,7 +244,7 @@ class UGameplayTask_WaitDelay* UGameplayTask_WaitDelay::STATIC_TaskWaitDelay(flo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction GameplayTasks.GameplayTask_WaitDelay.TaskDelayDelegate__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UGameplayTask_WaitDelay::TaskDelayDelegate__DelegateSignature()
@@ -262,7 +262,7 @@ void UGameplayTask_WaitDelay::TaskDelayDelegate__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x02F490F0
+//		Offset -> 0x02F53DB0
 //		Name   -> Function GameplayTasks.GameplayTasksComponent.OnRep_SimulatedTasks
 //		Flags  -> (Final, Native, Public)
 void UGameplayTasksComponent::OnRep_SimulatedTasks()
@@ -281,7 +281,7 @@ void UGameplayTasksComponent::OnRep_SimulatedTasks()
 
 
 // Function:
-//		Offset -> 0x02F48EB0
+//		Offset -> 0x02F53B70
 //		Name   -> Function GameplayTasks.GameplayTasksComponent.K2_RunGameplayTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

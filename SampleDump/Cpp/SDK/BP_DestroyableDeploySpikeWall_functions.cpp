@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.HandleCollision
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void ABP_DestroyableDeploySpikeWall_C::HandleCollision(class AAdvancedCharacter*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.Impale
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void ABP_DestroyableDeploySpikeWall_C::Impale(class AAdvancedCharacter* Characte
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.OnUsedToKillOther
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -96,7 +96,7 @@ void ABP_DestroyableDeploySpikeWall_C::OnUsedToKillOther(class AAdvancedCharacte
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -125,7 +125,7 @@ void ABP_DestroyableDeploySpikeWall_C::BndEvt__Box_K2Node_ComponentBoundEvent_0_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.OnReplicatedHealthChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableDeploySpikeWall_C::OnReplicatedHealthChanged()
@@ -143,7 +143,7 @@ void ABP_DestroyableDeploySpikeWall_C::OnReplicatedHealthChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableDeploySpikeWall.BP_DestroyableDeploySpikeWall_C.ExecuteUbergraph_BP_DestroyableDeploySpikeWall
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

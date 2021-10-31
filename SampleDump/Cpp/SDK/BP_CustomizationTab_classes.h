@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -26,7 +26,7 @@ class UBP_CustomizationTab_C : public UUserWidget
 public:
 	TArray<class UBP_CustomizationItemEntry_C*>        CustomizationItemEntries;                                  // 0x0230(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference, HasGetValueTypeHash)
 	int                                                ItemChoosingOriginalId;                                    // 0x0240(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_DEP1[0x4];                                     // 0x0244(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_5WJV[0x4];                                     // 0x0244(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FCharacterProfile                           ItemChoosingOriginalProfile;                               // 0x0248(0x00B8) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FText                                       SelectionEntriesTitle;                                     // 0x0300(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	class UCharacterProfileBPWrapper*                  ProfileWrapper;                                            // 0x0318(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

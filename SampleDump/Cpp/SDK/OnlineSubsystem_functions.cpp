@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function OnlineSubsystem.TurnBasedMatchInterface.OnMatchReceivedTurn
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UTurnBasedMatchInterface::OnMatchReceivedTurn(const struct FString& Match, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function OnlineSubsystem.TurnBasedMatchInterface.OnMatchEnded
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:

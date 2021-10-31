@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -39,7 +39,7 @@ public:
 	class UBP_SliderEntry_C*                           VideoVolumeSlider;                                         // 0x0298(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	class UBP_SliderEntry_C*                           VoiceVolumeSlider;                                         // 0x02A0(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 	bool                                               MusicAudioVolume;                                          // 0x02A8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_4KS3[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VBPC[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              MasterAudioVolume;                                         // 0x02AC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	float                                              EffectAudioVolume;                                         // 0x02B0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
@@ -56,7 +56,7 @@ public:
 	void UpdateInstrumentVolumeSlider();
 	void UpdateVoiceVolumeSlider();
 	void ApplyVoiceVolume();
-	void IsValueDifferenceValid(float NewValue, float PrevValue, float minDiff, bool* IsValid);
+	void IsValueDifferenceValid(float NewValue, float prevValue, float minDiff, bool* IsValid);
 	void ApplyVideoVolume();
 	void UpdateVideoVolumeSlider();
 	void ApplyMusicVolume();

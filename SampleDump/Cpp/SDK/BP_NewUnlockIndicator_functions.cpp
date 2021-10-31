@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NewUnlockIndicator.BP_NewUnlockIndicator_C.Show Indicator
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_NewUnlockIndicator_C::Show_Indicator()
@@ -37,7 +37,7 @@ void UBP_NewUnlockIndicator_C::Show_Indicator()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NewUnlockIndicator.BP_NewUnlockIndicator_C.Hide Indicator
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_NewUnlockIndicator_C::Hide_Indicator()
@@ -55,7 +55,7 @@ void UBP_NewUnlockIndicator_C::Hide_Indicator()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NewUnlockIndicator.BP_NewUnlockIndicator_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_NewUnlockIndicator_C::Construct()
@@ -73,7 +73,7 @@ void UBP_NewUnlockIndicator_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NewUnlockIndicator.BP_NewUnlockIndicator_C.ExecuteUbergraph_BP_NewUnlockIndicator
 //		Flags  -> (Final)
 // Parameters:

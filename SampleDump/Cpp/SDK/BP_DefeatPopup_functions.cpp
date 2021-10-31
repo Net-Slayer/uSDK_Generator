@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DefeatPopup.BP_DefeatPopup_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_DefeatPopup_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DefeatPopup.BP_DefeatPopup_C.Timer Done
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_DefeatPopup_C::Timer_Done()
@@ -59,7 +59,7 @@ void UBP_DefeatPopup_C::Timer_Done()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DefeatPopup.BP_DefeatPopup_C.On Animation Finished
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_DefeatPopup_C::On_Animation_Finished()
@@ -77,7 +77,7 @@ void UBP_DefeatPopup_C::On_Animation_Finished()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DefeatPopup.BP_DefeatPopup_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -102,7 +102,7 @@ void UBP_DefeatPopup_C::Show(const struct FText& Main_Text, const struct FText& 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DefeatPopup.BP_DefeatPopup_C.ExecuteUbergraph_BP_DefeatPopup
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

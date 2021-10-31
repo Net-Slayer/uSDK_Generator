@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x025D8030
+//		Offset -> 0x025E3550
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureProtocolBase.IsCapturing
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -42,7 +42,7 @@ bool UMovieSceneCaptureProtocolBase::IsCapturing()
 
 
 // Function:
-//		Offset -> 0x01FCE850
+//		Offset -> 0x01FD7E00
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureProtocolBase.GetState
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -65,7 +65,7 @@ MovieSceneCapture_EMovieSceneCaptureProtocolState UMovieSceneCaptureProtocolBase
 
 
 // Function:
-//		Offset -> 0x025D8320
+//		Offset -> 0x025E3840
 //		Name   -> Function MovieSceneCapture.MovieSceneCapture.SetImageCaptureProtocolType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UMovieSceneCapture::SetImageCaptureProtocolType(class UClass* ProtocolType)
 
 
 // Function:
-//		Offset -> 0x025D82A0
+//		Offset -> 0x025E37C0
 //		Name   -> Function MovieSceneCapture.MovieSceneCapture.SetAudioCaptureProtocolType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -109,7 +109,7 @@ void UMovieSceneCapture::SetAudioCaptureProtocolType(class UClass* ProtocolType)
 
 
 // Function:
-//		Offset -> 0x025D7FE0
+//		Offset -> 0x025E3500
 //		Name   -> Function MovieSceneCapture.MovieSceneCapture.GetImageCaptureProtocol
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -132,7 +132,7 @@ class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetImageCaptureProtoco
 
 
 // Function:
-//		Offset -> 0x025D7F40
+//		Offset -> 0x025E3460
 //		Name   -> Function MovieSceneCapture.MovieSceneCapture.GetAudioCaptureProtocol
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -155,7 +155,7 @@ class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetAudioCaptureProtoco
 
 
 // Function:
-//		Offset -> 0x025D8000
+//		Offset -> 0x025E3520
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureEnvironment.IsCaptureInProgress
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -178,7 +178,7 @@ bool UMovieSceneCaptureEnvironment::STATIC_IsCaptureInProgress()
 
 
 // Function:
-//		Offset -> 0x025D7F90
+//		Offset -> 0x025E34B0
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureFrameNumber
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -201,7 +201,7 @@ int UMovieSceneCaptureEnvironment::STATIC_GetCaptureFrameNumber()
 
 
 // Function:
-//		Offset -> 0x025D7F60
+//		Offset -> 0x025E3480
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureElapsedTime
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -224,7 +224,7 @@ float UMovieSceneCaptureEnvironment::STATIC_GetCaptureElapsedTime()
 
 
 // Function:
-//		Offset -> 0x025D7B90
+//		Offset -> 0x025E30B0
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindImageCaptureProtocol
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -247,7 +247,7 @@ class UMovieSceneImageCaptureProtocolBase* UMovieSceneCaptureEnvironment::STATIC
 
 
 // Function:
-//		Offset -> 0x025D7B60
+//		Offset -> 0x025E3080
 //		Name   -> Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindAudioCaptureProtocol
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -270,7 +270,7 @@ class UMovieSceneAudioCaptureProtocolBase* UMovieSceneCaptureEnvironment::STATIC
 
 
 // Function:
-//		Offset -> 0x025D8530
+//		Offset -> 0x025E3A50
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.StopCapturingFinalPixels
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UUserDefinedCaptureProtocol::StopCapturingFinalPixels()
@@ -289,7 +289,7 @@ void UUserDefinedCaptureProtocol::StopCapturingFinalPixels()
 
 
 // Function:
-//		Offset -> 0x025D83A0
+//		Offset -> 0x025E38C0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.StartCapturingFinalPixels
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -311,7 +311,7 @@ void UUserDefinedCaptureProtocol::StartCapturingFinalPixels(const struct FCaptur
 
 
 // Function:
-//		Offset -> 0x025D80D0
+//		Offset -> 0x025E35F0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.ResolveBuffer
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -335,7 +335,7 @@ void UUserDefinedCaptureProtocol::ResolveBuffer(class UTexture* Buffer, const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnWarmUp
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnWarmUp()
@@ -353,7 +353,7 @@ void UUserDefinedCaptureProtocol::OnWarmUp()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnTick
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnTick()
@@ -371,7 +371,7 @@ void UUserDefinedCaptureProtocol::OnTick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnStartCapture
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnStartCapture()
@@ -389,7 +389,7 @@ void UUserDefinedCaptureProtocol::OnStartCapture()
 
 
 // Function:
-//		Offset -> 0x025D80A0
+//		Offset -> 0x025E35C0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnSetup
 //		Flags  -> (Native, Event, Protected, BlueprintEvent)
 // Parameters:
@@ -412,7 +412,7 @@ bool UUserDefinedCaptureProtocol::OnSetup()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPreTick
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnPreTick()
@@ -430,7 +430,7 @@ void UUserDefinedCaptureProtocol::OnPreTick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPixelsReceived
 //		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -455,7 +455,7 @@ void UUserDefinedCaptureProtocol::OnPixelsReceived(const struct FCapturedPixels&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPauseCapture
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnPauseCapture()
@@ -473,7 +473,7 @@ void UUserDefinedCaptureProtocol::OnPauseCapture()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnFinalize
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnFinalize()
@@ -491,7 +491,7 @@ void UUserDefinedCaptureProtocol::OnFinalize()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCaptureFrame
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnCaptureFrame()
@@ -509,7 +509,7 @@ void UUserDefinedCaptureProtocol::OnCaptureFrame()
 
 
 // Function:
-//		Offset -> 0x025D8070
+//		Offset -> 0x025E3590
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCanFinalize
 //		Flags  -> (Native, Event, Protected, BlueprintEvent, Const)
 // Parameters:
@@ -532,7 +532,7 @@ bool UUserDefinedCaptureProtocol::OnCanFinalize()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.OnBeginFinalize
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserDefinedCaptureProtocol::OnBeginFinalize()
@@ -550,7 +550,7 @@ void UUserDefinedCaptureProtocol::OnBeginFinalize()
 
 
 // Function:
-//		Offset -> 0x025D7FC0
+//		Offset -> 0x025E34E0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.GetCurrentFrameMetrics
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -573,7 +573,7 @@ struct FFrameMetrics UUserDefinedCaptureProtocol::GetCurrentFrameMetrics()
 
 
 // Function:
-//		Offset -> 0x025D7BC0
+//		Offset -> 0x025E30E0
 //		Name   -> Function MovieSceneCapture.UserDefinedCaptureProtocol.GenerateFilename
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -598,7 +598,7 @@ struct FString UUserDefinedCaptureProtocol::GenerateFilename(const struct FFrame
 
 
 // Function:
-//		Offset -> 0x025D8550
+//		Offset -> 0x025E3A70
 //		Name   -> Function MovieSceneCapture.UserDefinedImageCaptureProtocol.WriteImageToDisk
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -626,7 +626,7 @@ void UUserDefinedImageCaptureProtocol::WriteImageToDisk(const struct FCapturedPi
 
 
 // Function:
-//		Offset -> 0x025D7EC0
+//		Offset -> 0x025E33E0
 //		Name   -> Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForCurrentFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -649,7 +649,7 @@ struct FString UUserDefinedImageCaptureProtocol::GenerateFilenameForCurrentFrame
 
 
 // Function:
-//		Offset -> 0x025D7CB0
+//		Offset -> 0x025E31D0
 //		Name   -> Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForBuffer
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,26 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.Update button prompts 
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+void ABP_MordhauPlayerController_C::Update_button_prompts_()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.Update button prompts ");
+
+	ABP_MordhauPlayerController_C_Update_button_prompts__Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.NewFunction_1
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::NewFunction_1()
@@ -37,7 +56,7 @@ void ABP_MordhauPlayerController_C::NewFunction_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnWipePlaceablesClient
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::OnWipePlaceablesClient()
@@ -55,7 +74,7 @@ void ABP_MordhauPlayerController_C::OnWipePlaceablesClient()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnUpdatePlaceablesClient
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -78,7 +97,7 @@ void ABP_MordhauPlayerController_C::OnUpdatePlaceablesClient(const struct FName&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.UpdateBloodOverlayPostProcess
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -101,7 +120,7 @@ void ABP_MordhauPlayerController_C::UpdateBloodOverlayPostProcess(float DeltaTim
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.Get Blood Overlay Sine Value
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -126,7 +145,7 @@ void ABP_MordhauPlayerController_C::Get_Blood_Overlay_Sine_Value(float BloodOver
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.UpdateBloodOverlaySineTime
 //		Flags  -> (Private, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -149,7 +168,7 @@ void ABP_MordhauPlayerController_C::UpdateBloodOverlaySineTime(float DeltaTime, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnCommandFailedReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +193,7 @@ void ABP_MordhauPlayerController_C::OnCommandFailedReceived(class UBP_ChatBox_C*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnHelpMessageReceived
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -197,7 +216,7 @@ void ABP_MordhauPlayerController_C::OnHelpMessageReceived(class UBP_ChatBox_C* C
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAdminChatReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -222,7 +241,7 @@ void ABP_MordhauPlayerController_C::OnAdminChatReceived(class UBP_ChatBox_C* Cha
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAdminAnnouncementReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -247,7 +266,7 @@ void ABP_MordhauPlayerController_C::OnAdminAnnouncementReceived(class UBP_ChatBo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAdminSayReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -272,7 +291,7 @@ void ABP_MordhauPlayerController_C::OnAdminSayReceived(class UBP_ChatBox_C* Chat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAdminPopupReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -297,7 +316,7 @@ void ABP_MordhauPlayerController_C::OnAdminPopupReceived(class UBP_ChatBox_C* Ch
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAdminWhisperReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -322,7 +341,7 @@ void ABP_MordhauPlayerController_C::OnAdminWhisperReceived(class UBP_ChatBox_C* 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnWhisperReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -347,7 +366,7 @@ void ABP_MordhauPlayerController_C::OnWhisperReceived(class UBP_ChatBox_C* ChatB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnBuilt
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -368,7 +387,7 @@ void ABP_MordhauPlayerController_C::OnBuilt(class AActor* Structure)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.HandleTeamKill
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -393,7 +412,7 @@ void ABP_MordhauPlayerController_C::HandleTeamKill(class AMordhauPlayerState* Ki
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnRep_ReplicatedAmmoBoxCooldown
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -412,7 +431,7 @@ void ABP_MordhauPlayerController_C::OnRep_ReplicatedAmmoBoxCooldown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.WipePlaceables
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -433,7 +452,7 @@ void ABP_MordhauPlayerController_C::WipePlaceables(const struct FName& Key)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.RemoveFromPlaceableArray
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -456,7 +475,7 @@ void ABP_MordhauPlayerController_C::RemoveFromPlaceableArray(const struct FName&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.PlaceInPlaceableArray
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -485,7 +504,7 @@ void ABP_MordhauPlayerController_C::PlaceInPlaceableArray(const struct FName& Na
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ChangeFireOverlay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -508,7 +527,7 @@ void ABP_MordhauPlayerController_C::ChangeFireOverlay(float NewOnFireValue, floa
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ChangeSmokeOverlay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -529,7 +548,7 @@ void ABP_MordhauPlayerController_C::ChangeSmokeOverlay(float NewValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.UpdateViewTargetEffects
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -548,7 +567,7 @@ void ABP_MordhauPlayerController_C::UpdateViewTargetEffects()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ChangeFadeToBlackCounter
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -569,7 +588,7 @@ void ABP_MordhauPlayerController_C::ChangeFadeToBlackCounter(float NewValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Main Menu_K2Node_InputActionEvent_17
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -590,7 +609,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Main_Menu_K2Node_InputActionE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Chat_K2Node_InputActionEvent_16
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -611,7 +630,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Chat_K2Node_InputActionEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Scoreboard_K2Node_InputActionEvent_15
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -632,7 +651,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Scoreboard_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Scoreboard_K2Node_InputActionEvent_14
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -653,7 +672,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Scoreboard_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Profile Select_K2Node_InputActionEvent_13
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -674,7 +693,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Profile_Select_K2Node_InputAc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Team Select_K2Node_InputActionEvent_12
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -695,7 +714,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Team_Select_K2Node_InputActio
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Emote Menu_K2Node_InputActionEvent_11
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -716,7 +735,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Emote_Menu_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Emote Menu_K2Node_InputActionEvent_10
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -737,7 +756,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Emote_Menu_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Team Chat_K2Node_InputActionEvent_9
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -758,7 +777,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Team_Chat_K2Node_InputActionE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Voice Menu_K2Node_InputActionEvent_8
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -779,7 +798,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Voice_Menu_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Show Voice Menu_K2Node_InputActionEvent_7
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -800,7 +819,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Show_Voice_Menu_K2Node_InputAction
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Battlecry_K2Node_InputActionEvent_6
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -821,7 +840,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Battlecry_K2Node_InputActionEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Battlecry_K2Node_InputActionEvent_5
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -842,7 +861,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Battlecry_K2Node_InputActionEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Mute Target_K2Node_InputActionEvent_4
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -863,7 +882,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Mute_Target_K2Node_InputActionEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Vote Yes_K2Node_InputActionEvent_3
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -884,7 +903,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Vote_Yes_K2Node_InputActionEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Vote No_K2Node_InputActionEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -905,7 +924,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Vote_No_K2Node_InputActionEvent_2(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.InpActEvt_Toggle UI Markers_K2Node_InputActionEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -926,7 +945,7 @@ void ABP_MordhauPlayerController_C::InpActEvt_Toggle_UI_Markers_K2Node_InputActi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ReceiveBeginPlay()
@@ -944,7 +963,7 @@ void ABP_MordhauPlayerController_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -965,7 +984,7 @@ void ABP_MordhauPlayerController_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.RequestChatMessage
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -988,7 +1007,7 @@ void ABP_MordhauPlayerController_C::RequestChatMessage(const struct FString& Mes
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnHighlightStart
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1009,7 +1028,7 @@ void ABP_MordhauPlayerController_C::OnHighlightStart(class AActor* Actor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnHighlightEnd
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1030,7 +1049,7 @@ void ABP_MordhauPlayerController_C::OnHighlightEnd(class AActor* Actor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnSpectatorAction
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1051,7 +1070,7 @@ void ABP_MordhauPlayerController_C::OnSpectatorAction(unsigned char Action)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.DisplayMessage
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1078,7 +1097,7 @@ void ABP_MordhauPlayerController_C::DisplayMessage(class APlayerState* SenderPla
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ShowEquipment
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ShowEquipment()
@@ -1096,7 +1115,7 @@ void ABP_MordhauPlayerController_C::ShowEquipment()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ShowTips
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ShowTips()
@@ -1114,7 +1133,7 @@ void ABP_MordhauPlayerController_C::ShowTips()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ChoiceMenuOptionSelected
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1135,7 +1154,7 @@ void ABP_MordhauPlayerController_C::ChoiceMenuOptionSelected(int Choice)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ClientReceiveScoreBP
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1162,7 +1181,7 @@ void ABP_MordhauPlayerController_C::ClientReceiveScoreBP(Mordhau_EScoreFeedReaso
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAfterPossess
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1183,7 +1202,7 @@ void ABP_MordhauPlayerController_C::OnAfterPossess(class APawn* APawn)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnActionFailed
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1204,7 +1223,7 @@ void ABP_MordhauPlayerController_C::OnActionFailed(const struct FName& Reason)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ReceiveDestroyed
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ReceiveDestroyed()
@@ -1222,7 +1241,7 @@ void ABP_MordhauPlayerController_C::ReceiveDestroyed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnMordhauCharacterSpawned
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1243,7 +1262,7 @@ void ABP_MordhauPlayerController_C::OnMordhauCharacterSpawned(class AMordhauChar
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnSpectatorCmd
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1266,7 +1285,7 @@ void ABP_MordhauPlayerController_C::OnSpectatorCmd(const struct FString& Cmd, co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnIsAnythingRestockableChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_MordhauPlayerController_C::OnIsAnythingRestockableChanged()
@@ -1284,7 +1303,7 @@ void ABP_MordhauPlayerController_C::OnIsAnythingRestockableChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAFKTimeExceededMaximum
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_MordhauPlayerController_C::OnAFKTimeExceededMaximum()
@@ -1302,7 +1321,7 @@ void ABP_MordhauPlayerController_C::OnAFKTimeExceededMaximum()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.PerformAFKKick
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::PerformAFKKick()
@@ -1320,7 +1339,7 @@ void ABP_MordhauPlayerController_C::PerformAFKKick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnAmmoChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1343,7 +1362,7 @@ void ABP_MordhauPlayerController_C::OnAmmoChanged(class AMordhauEquipment* Equip
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnRequestVoteKick
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1364,7 +1383,7 @@ void ABP_MordhauPlayerController_C::OnRequestVoteKick(class AMordhauPlayerState*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ServerRequestVoteKick
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1385,7 +1404,7 @@ void ABP_MordhauPlayerController_C::ServerRequestVoteKick(class AMordhauPlayerSt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.OnRequestCancelVoteKick
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::OnRequestCancelVoteKick()
@@ -1403,7 +1422,7 @@ void ABP_MordhauPlayerController_C::OnRequestCancelVoteKick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ServerRequestCancelVoteKick
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ServerRequestCancelVoteKick()
@@ -1421,7 +1440,7 @@ void ABP_MordhauPlayerController_C::ServerRequestCancelVoteKick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ServerVoteKickVote
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1442,7 +1461,7 @@ void ABP_MordhauPlayerController_C::ServerVoteKickVote(bool VotedYes)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.HandleTeamSelect
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::HandleTeamSelect()
@@ -1460,7 +1479,7 @@ void ABP_MordhauPlayerController_C::HandleTeamSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ForgivePlayer
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ForgivePlayer()
@@ -1478,7 +1497,7 @@ void ABP_MordhauPlayerController_C::ForgivePlayer()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ReceiveOfferToForgive
 //		Flags  -> (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1499,7 +1518,7 @@ void ABP_MordhauPlayerController_C::ReceiveOfferToForgive(class AMordhauPlayerSt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.DoBattlecry
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::DoBattlecry()
@@ -1517,7 +1536,7 @@ void ABP_MordhauPlayerController_C::DoBattlecry()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ParryThis
 //		Flags  -> (Exec, Event, Public, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ParryThis()
@@ -1535,7 +1554,7 @@ void ABP_MordhauPlayerController_C::ParryThis()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ServerGiveGuns
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::ServerGiveGuns()
@@ -1553,7 +1572,7 @@ void ABP_MordhauPlayerController_C::ServerGiveGuns()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.HandleShowProfileSelect
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::HandleShowProfileSelect()
@@ -1571,7 +1590,7 @@ void ABP_MordhauPlayerController_C::HandleShowProfileSelect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.DisplayAnnouncement
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1596,7 +1615,7 @@ void ABP_MordhauPlayerController_C::DisplayAnnouncement(const struct FString& Te
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.UpdatePlaceablesOnClient
 //		Flags  -> (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1619,7 +1638,7 @@ void ABP_MordhauPlayerController_C::UpdatePlaceablesOnClient(const struct FName&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.WipePlaceablesOnClient
 //		Flags  -> (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::WipePlaceablesOnClient()
@@ -1637,7 +1656,7 @@ void ABP_MordhauPlayerController_C::WipePlaceablesOnClient()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.ExecuteUbergraph_BP_MordhauPlayerController
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -1658,7 +1677,7 @@ void ABP_MordhauPlayerController_C::ExecuteUbergraph_BP_MordhauPlayerController(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.EventOnPlaceablesUpdate__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauPlayerController_C::EventOnPlaceablesUpdate__DelegateSignature()

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.FinishVoteKick
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_MordhauGameState_C::FinishVoteKick(TEnumAsByte<E_VoteKickResult_E_VoteK
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.OnRep_VoteKickInfo
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -59,7 +59,7 @@ void ABP_MordhauGameState_C::OnRep_VoteKickInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ShouldHideSpawnInfoText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void ABP_MordhauGameState_C::ShouldHideSpawnInfoText(bool* Hide)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ReceiveKillNotify
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -109,7 +109,7 @@ void ABP_MordhauGameState_C::ReceiveKillNotify(class APlayerState* Killer, class
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.AddKillNotify
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -136,7 +136,7 @@ void ABP_MordhauGameState_C::AddKillNotify(class APlayerState* Killer, class APl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetChatColor
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -161,7 +161,7 @@ void ABP_MordhauGameState_C::GetChatColor(class APlayerState* PlayerState, struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetKillfeedColor
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -186,7 +186,7 @@ void ABP_MordhauGameState_C::GetKillfeedColor(class APlayerState* PlayerState, s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.HandleMatchEndInfo
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -205,7 +205,7 @@ void ABP_MordhauGameState_C::HandleMatchEndInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.OnRep_MatchEndInfo
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauGameState_C::OnRep_MatchEndInfo()
@@ -223,7 +223,7 @@ void ABP_MordhauGameState_C::OnRep_MatchEndInfo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetScoreboardTeamObjectiveValue
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -248,7 +248,7 @@ void ABP_MordhauGameState_C::GetScoreboardTeamObjectiveValue(int Team, struct FS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetScoreboardObjectiveName
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -271,7 +271,7 @@ void ABP_MordhauGameState_C::GetScoreboardObjectiveName(struct FText* NewParam)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetScoreboardTimeInProgress
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -294,7 +294,7 @@ void ABP_MordhauGameState_C::GetScoreboardTimeInProgress(struct FTimespan* Time)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.GetScoreboardTime
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -317,7 +317,7 @@ void ABP_MordhauGameState_C::GetScoreboardTime(struct FTimespan* Time)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -338,7 +338,7 @@ void ABP_MordhauGameState_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ReplicatedKillNotify
 //		Flags  -> (Net, NetReliable, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -365,7 +365,7 @@ void ABP_MordhauGameState_C::ReplicatedKillNotify(class APlayerState* Killer, cl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ShowScoreboardDelayed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauGameState_C::ShowScoreboardDelayed()
@@ -383,7 +383,7 @@ void ABP_MordhauGameState_C::ShowScoreboardDelayed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.OnRequestedVoteKick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -406,7 +406,7 @@ void ABP_MordhauGameState_C::OnRequestedVoteKick(class AMordhauPlayerState* Init
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.TallyVoteKickVotes
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_MordhauGameState_C::TallyVoteKickVotes()
@@ -424,7 +424,7 @@ void ABP_MordhauGameState_C::TallyVoteKickVotes()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.OnRequestedVoteCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -445,7 +445,7 @@ void ABP_MordhauGameState_C::OnRequestedVoteCancel(class AMordhauPlayerState* In
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.OnVoteKickVote
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -468,7 +468,7 @@ void ABP_MordhauGameState_C::OnVoteKickVote(class APlayerController* Controller,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameState.BP_MordhauGameState_C.ExecuteUbergraph_BP_MordhauGameState
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

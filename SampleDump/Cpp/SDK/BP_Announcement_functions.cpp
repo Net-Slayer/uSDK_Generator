@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_Announcement_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.GetAnnouncementBoxVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_Announcement_C::GetAnnouncementBoxVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_Announcement_C::Tick(const struct FGeometry& MyGeometry, float InDeltaT
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.TimerEvent
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Announcement_C::TimerEvent()
@@ -104,7 +104,7 @@ void UBP_Announcement_C::TimerEvent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -131,7 +131,7 @@ void UBP_Announcement_C::Show(const struct FText& Text, const struct FText& Subt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_Announcement_C::Construct()
@@ -149,7 +149,7 @@ void UBP_Announcement_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.OnExitAnimFinish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Announcement_C::OnExitAnimFinish()
@@ -167,7 +167,7 @@ void UBP_Announcement_C::OnExitAnimFinish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Announcement.BP_Announcement_C.ExecuteUbergraph_BP_Announcement
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.TriggerDamageIndicator
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_Crosshair_C::TriggerDamageIndicator(float Render_Angle)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.UpdateCrosshair
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -59,7 +59,7 @@ void UBP_Crosshair_C::UpdateCrosshair()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.PlayHitmarkerAnimation
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_Crosshair_C::PlayHitmarkerAnimation(class UWidgetAnimation* Anim, float
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.ClampAngleToSide
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -111,7 +111,7 @@ void UBP_Crosshair_C::ClampAngleToSide(float Angle, bool isSideLeft, float* Clam
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.ShowHitMarker
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -132,7 +132,7 @@ void UBP_Crosshair_C::ShowHitMarker(int HitZoneParam)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.ClampAngleToDirectionalZone
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -157,7 +157,7 @@ void UBP_Crosshair_C::ClampAngleToDirectionalZone(float Angle, float* ClampedAng
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.Get_Crosshair_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -179,7 +179,7 @@ UMG_ESlateVisibility UBP_Crosshair_C::Get_Crosshair_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -202,7 +202,7 @@ void UBP_Crosshair_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.On Hitmarker Animation Finish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Crosshair_C::On_Hitmarker_Animation_Finish()
@@ -220,7 +220,7 @@ void UBP_Crosshair_C::On_Hitmarker_Animation_Finish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Crosshair.BP_Crosshair_C.ExecuteUbergraph_BP_Crosshair
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

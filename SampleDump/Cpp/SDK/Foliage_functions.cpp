@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x022062A0
+//		Offset -> 0x0220FB70
 //		Name   -> Function Foliage.FoliageStatistics.FoliageOverlappingSphereCount
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -50,7 +50,7 @@ int UFoliageStatistics::STATIC_FoliageOverlappingSphereCount(class UObject* Worl
 
 
 // Function:
-//		Offset -> 0x02206180
+//		Offset -> 0x0220FA50
 //		Name   -> Function Foliage.FoliageStatistics.FoliageOverlappingBoxCount
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -79,7 +79,7 @@ int UFoliageStatistics::STATIC_FoliageOverlappingBoxCount(class UObject* WorldCo
 
 
 // Function:
-//		Offset -> 0x02205F70
+//		Offset -> 0x0220F840
 //		Name   -> Function Foliage.InteractiveFoliageActor.CapsuleTouched
 //		Flags  -> (Final, Native, Protected, HasOutParms)
 // Parameters:
@@ -111,7 +111,7 @@ void AInteractiveFoliageActor::CapsuleTouched(class UPrimitiveComponent* Overlap
 
 
 // Function:
-//		Offset -> 0x022063F0
+//		Offset -> 0x0220FCC0
 //		Name   -> Function Foliage.ProceduralFoliageSpawner.Simulate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

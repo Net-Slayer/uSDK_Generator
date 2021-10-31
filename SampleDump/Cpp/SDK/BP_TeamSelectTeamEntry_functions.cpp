@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Get_Role_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_TeamSelectTeamEntry_C::Get_Role_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Get_TeamButton_bIsEnabled_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ bool UBP_TeamSelectTeamEntry_C::Get_TeamButton_bIsEnabled_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.GetMaxPlayersText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_TeamSelectTeamEntry_C::GetMaxPlayersText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Get_Players_Text
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FText UBP_TeamSelectTeamEntry_C::Get_Players_Text()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Refresh
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -126,7 +126,7 @@ void UBP_TeamSelectTeamEntry_C::Refresh()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Get_Team_Text
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -148,7 +148,7 @@ struct FText UBP_TeamSelectTeamEntry_C::Get_Team_Text()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.BndEvt__Team1Button_K2Node_ComponentBoundEvent_144_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TeamSelectTeamEntry_C::BndEvt__Team1Button_K2Node_ComponentBoundEvent_144_OnButtonClickedEvent__DelegateSignature()
@@ -166,7 +166,7 @@ void UBP_TeamSelectTeamEntry_C::BndEvt__Team1Button_K2Node_ComponentBoundEvent_1
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_TeamSelectTeamEntry_C::Construct()
@@ -184,7 +184,7 @@ void UBP_TeamSelectTeamEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.BndEvt__TeamButton_K2Node_ComponentBoundEvent_256_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TeamSelectTeamEntry_C::BndEvt__TeamButton_K2Node_ComponentBoundEvent_256_OnButtonHoverEvent__DelegateSignature()
@@ -202,7 +202,7 @@ void UBP_TeamSelectTeamEntry_C::BndEvt__TeamButton_K2Node_ComponentBoundEvent_25
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.BndEvt__TeamButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TeamSelectTeamEntry_C::BndEvt__TeamButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
@@ -220,7 +220,7 @@ void UBP_TeamSelectTeamEntry_C::BndEvt__TeamButton_K2Node_ComponentBoundEvent_0_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TeamSelectTeamEntry.BP_TeamSelectTeamEntry_C.ExecuteUbergraph_BP_TeamSelectTeamEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E1AD40
+//		Offset -> 0x00E24B50
 //		Name   -> Function AudioCapture.AudioCapture.StopCapturingAudio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAudioCapture::StopCapturingAudio()
@@ -38,7 +38,7 @@ void UAudioCapture::StopCapturingAudio()
 
 
 // Function:
-//		Offset -> 0x00E1AD20
+//		Offset -> 0x00E24B30
 //		Name   -> Function AudioCapture.AudioCapture.StartCapturingAudio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAudioCapture::StartCapturingAudio()
@@ -57,7 +57,7 @@ void UAudioCapture::StartCapturingAudio()
 
 
 // Function:
-//		Offset -> 0x00E1ACF0
+//		Offset -> 0x00E24B00
 //		Name   -> Function AudioCapture.AudioCapture.IsCapturingAudio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -80,7 +80,7 @@ bool UAudioCapture::IsCapturingAudio()
 
 
 // Function:
-//		Offset -> 0x00E1AC50
+//		Offset -> 0x00E24A60
 //		Name   -> Function AudioCapture.AudioCapture.GetAudioCaptureDeviceInfo
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -107,7 +107,7 @@ bool UAudioCapture::GetAudioCaptureDeviceInfo(struct FAudioCaptureDeviceInfo* Ou
 
 
 // Function:
-//		Offset -> 0x00E1AC20
+//		Offset -> 0x00E24A30
 //		Name   -> Function AudioCapture.AudioCaptureFunctionLibrary.CreateAudioCapture
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

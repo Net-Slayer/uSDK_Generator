@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.OnRep_InitialRegeneration
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_DeployableBallista_C::OnRep_InitialRegeneration()
@@ -37,9 +37,9 @@ void ABP_DeployableBallista_C::OnRep_InitialRegeneration()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.CanDrive
-//		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
+//		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 // Parameters:
 //		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		bool                                               ReturnValue                                                (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor)
@@ -61,9 +61,9 @@ bool ABP_DeployableBallista_C::CanDrive(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.PostProcessCameraPOV
-//		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 //		struct FPOV                                        InPOV                                                      (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, NoDestructor)
 //		struct FPOV                                        ReturnValue                                                (Parm, OutParm, ReturnParm, NoDestructor)
@@ -85,7 +85,7 @@ struct FPOV ABP_DeployableBallista_C::PostProcessCameraPOV(const struct FPOV& In
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_DeployableBallista_C::UserConstructionScript()
@@ -103,7 +103,7 @@ void ABP_DeployableBallista_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.InpActEvt_Fire_K2Node_InputActionEvent_3
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -124,7 +124,7 @@ void ABP_DeployableBallista_C::InpActEvt_Fire_K2Node_InputActionEvent_3(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -145,7 +145,7 @@ void ABP_DeployableBallista_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_2(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.InpActEvt_Cycle Camera_K2Node_InputActionEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -166,7 +166,7 @@ void ABP_DeployableBallista_C::InpActEvt_Cycle_Camera_K2Node_InputActionEvent_1(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_DeployableBallista_C::ReceiveBeginPlay()
@@ -184,57 +184,7 @@ void ABP_DeployableBallista_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.UpdateAnimationFor
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		class UMordhauAnimInstance*                        AnimInst                                                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              DeltaTime                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void ABP_DeployableBallista_C::UpdateAnimationFor(class AMordhauCharacter* Character, class UMordhauAnimInstance* AnimInst, float DeltaTime)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_DeployableBallista.BP_DeployableBallista_C.UpdateAnimationFor");
-
-	ABP_DeployableBallista_C_UpdateAnimationFor_Params params;
-	params.Character = Character;
-	params.AnimInst = AnimInst;
-	params.DeltaTime = DeltaTime;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.UpdateFPCameraFor
-//		Flags  -> (Event, Public, BlueprintEvent)
-// Parameters:
-//		class AMordhauCharacter*                           Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		float                                              DeltaSeconds                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		bool                                               bRotationOnly                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-void ABP_DeployableBallista_C::UpdateFPCameraFor(class AMordhauCharacter* Character, float DeltaSeconds, bool bRotationOnly)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_DeployableBallista.BP_DeployableBallista_C.UpdateFPCameraFor");
-
-	ABP_DeployableBallista_C_UpdateFPCameraFor_Params params;
-	params.Character = Character;
-	params.DeltaSeconds = DeltaSeconds;
-	params.bRotationOnly = bRotationOnly;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.OnDied
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -267,7 +217,7 @@ void ABP_DeployableBallista_C::OnDied(float Angle, Mordhau_EMordhauDamageType Ty
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.OnCosmeticHit
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -294,7 +244,7 @@ void ABP_DeployableBallista_C::OnCosmeticHit(Mordhau_EMordhauDamageType DamageTy
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.InpAxisEvt_Look Up_K2Node_InputAxisEvent_19
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -315,7 +265,7 @@ void ABP_DeployableBallista_C::InpAxisEvt_Look_Up_K2Node_InputAxisEvent_19(float
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.InpAxisEvt_Turn Right_K2Node_InputAxisEvent_5
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -336,7 +286,7 @@ void ABP_DeployableBallista_C::InpAxisEvt_Turn_Right_K2Node_InputAxisEvent_5(flo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -363,7 +313,7 @@ void ABP_DeployableBallista_C::ReceiveAnyDamage(float Damage, class UDamageType*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DeployableBallista.BP_DeployableBallista_C.ExecuteUbergraph_BP_DeployableBallista
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

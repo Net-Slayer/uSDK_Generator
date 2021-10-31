@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class ABP_MordhauActor_C : public AMordhauActor
 {
 public:
-	unsigned char                                      UnknownData_GOWQ[0x8];                                     // 0x0378(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_C8CW[0x8];                                     // 0x0378(0x0008) Fix Super Size
 
 
 	static UClass* StaticClass()

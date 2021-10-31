@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x030DC4C0
+//		Offset -> 0x030E7120
 //		Name   -> Function InteractiveToolsFramework.GizmoBaseComponent.UpdateWorldLocalState
 //		Flags  -> (Final, Native, Public)
 // Parameters:
@@ -41,7 +41,7 @@ void UGizmoBaseComponent::UpdateWorldLocalState(bool bWorldIn)
 
 
 // Function:
-//		Offset -> 0x030DC430
+//		Offset -> 0x030E7090
 //		Name   -> Function InteractiveToolsFramework.GizmoBaseComponent.UpdateHoverState
 //		Flags  -> (Final, Native, Public)
 // Parameters:
@@ -63,7 +63,7 @@ void UGizmoBaseComponent::UpdateHoverState(bool bHoveringIn)
 
 
 // Function:
-//		Offset -> 0x030DC2C0
+//		Offset -> 0x030E6F20
 //		Name   -> Function InteractiveToolsFramework.GizmoTransformSource.SetTransform
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -85,7 +85,7 @@ void UGizmoTransformSource::SetTransform(const struct FTransform& NewTransform)
 
 
 // Function:
-//		Offset -> 0x030DC110
+//		Offset -> 0x030E6DA0
 //		Name   -> Function InteractiveToolsFramework.GizmoTransformSource.GetTransform
 //		Flags  -> (Native, Public, HasDefaults, Const)
 // Parameters:
@@ -108,7 +108,7 @@ struct FTransform UGizmoTransformSource::GetTransform()
 
 
 // Function:
-//		Offset -> 0x030DC180
+//		Offset -> 0x01097240
 //		Name   -> Function InteractiveToolsFramework.GizmoAxisSource.HasTangentVectors
 //		Flags  -> (Native, Public, Const)
 // Parameters:
@@ -131,7 +131,7 @@ bool UGizmoAxisSource::HasTangentVectors()
 
 
 // Function:
-//		Offset -> 0x030DC020
+//		Offset -> 0x030E6CB0
 //		Name   -> Function InteractiveToolsFramework.GizmoAxisSource.GetTangentVectors
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults, Const)
 // Parameters:
@@ -158,7 +158,7 @@ void UGizmoAxisSource::GetTangentVectors(struct FVector* TangentXOut, struct FVe
 
 
 // Function:
-//		Offset -> 0x030DBF70
+//		Offset -> 0x030E6C00
 //		Name   -> Function InteractiveToolsFramework.GizmoAxisSource.GetOrigin
 //		Flags  -> (Native, Public, HasDefaults, Const)
 // Parameters:
@@ -181,7 +181,7 @@ struct FVector UGizmoAxisSource::GetOrigin()
 
 
 // Function:
-//		Offset -> 0x030DBF30
+//		Offset -> 0x030E6BC0
 //		Name   -> Function InteractiveToolsFramework.GizmoAxisSource.GetDirection
 //		Flags  -> (Native, Public, HasDefaults, Const)
 // Parameters:
@@ -204,7 +204,7 @@ struct FVector UGizmoAxisSource::GetDirection()
 
 
 // Function:
-//		Offset -> 0x030DC3A0
+//		Offset -> 0x030E7000
 //		Name   -> Function InteractiveToolsFramework.GizmoClickTarget.UpdateHoverState
 //		Flags  -> (Native, Public, Const)
 // Parameters:
@@ -226,7 +226,7 @@ void UGizmoClickTarget::UpdateHoverState(bool bHovering)
 
 
 // Function:
-//		Offset -> 0x030DBED0
+//		Offset -> 0x01097270
 //		Name   -> Function InteractiveToolsFramework.GizmoStateTarget.EndUpdate
 //		Flags  -> (Native, Public)
 void UGizmoStateTarget::EndUpdate()
@@ -245,7 +245,7 @@ void UGizmoStateTarget::EndUpdate()
 
 
 // Function:
-//		Offset -> 0x030DBEF0
+//		Offset -> 0x030E6BA0
 //		Name   -> Function InteractiveToolsFramework.GizmoStateTarget.BeginUpdate
 //		Flags  -> (Native, Public)
 void UGizmoStateTarget::BeginUpdate()
@@ -264,7 +264,7 @@ void UGizmoStateTarget::BeginUpdate()
 
 
 // Function:
-//		Offset -> 0x030DC1B0
+//		Offset -> 0x030E6E10
 //		Name   -> Function InteractiveToolsFramework.GizmoFloatParameterSource.SetParameter
 //		Flags  -> (Native, Public)
 // Parameters:
@@ -286,7 +286,7 @@ void UGizmoFloatParameterSource::SetParameter(float NewValue)
 
 
 // Function:
-//		Offset -> 0x030DBFB0
+//		Offset -> 0x030E6C40
 //		Name   -> Function InteractiveToolsFramework.GizmoFloatParameterSource.GetParameter
 //		Flags  -> (Native, Public, Const)
 // Parameters:
@@ -309,7 +309,7 @@ float UGizmoFloatParameterSource::GetParameter()
 
 
 // Function:
-//		Offset -> 0x030DBF10
+//		Offset -> 0x010A5D40
 //		Name   -> Function InteractiveToolsFramework.GizmoFloatParameterSource.EndModify
 //		Flags  -> (Native, Public)
 void UGizmoFloatParameterSource::EndModify()
@@ -328,7 +328,7 @@ void UGizmoFloatParameterSource::EndModify()
 
 
 // Function:
-//		Offset -> 0x030DBED0
+//		Offset -> 0x01097270
 //		Name   -> Function InteractiveToolsFramework.GizmoFloatParameterSource.BeginModify
 //		Flags  -> (Native, Public)
 void UGizmoFloatParameterSource::BeginModify()
@@ -347,7 +347,7 @@ void UGizmoFloatParameterSource::BeginModify()
 
 
 // Function:
-//		Offset -> 0x030DC230
+//		Offset -> 0x030E6E90
 //		Name   -> Function InteractiveToolsFramework.GizmoVec2ParameterSource.SetParameter
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -369,7 +369,7 @@ void UGizmoVec2ParameterSource::SetParameter(const struct FVector2D& NewValue)
 
 
 // Function:
-//		Offset -> 0x030DBFE0
+//		Offset -> 0x030E6C70
 //		Name   -> Function InteractiveToolsFramework.GizmoVec2ParameterSource.GetParameter
 //		Flags  -> (Native, Public, HasDefaults, Const)
 // Parameters:
@@ -392,7 +392,7 @@ struct FVector2D UGizmoVec2ParameterSource::GetParameter()
 
 
 // Function:
-//		Offset -> 0x030DBF10
+//		Offset -> 0x010A5D40
 //		Name   -> Function InteractiveToolsFramework.GizmoVec2ParameterSource.EndModify
 //		Flags  -> (Native, Public)
 void UGizmoVec2ParameterSource::EndModify()
@@ -411,7 +411,7 @@ void UGizmoVec2ParameterSource::EndModify()
 
 
 // Function:
-//		Offset -> 0x030DBED0
+//		Offset -> 0x01097270
 //		Name   -> Function InteractiveToolsFramework.GizmoVec2ParameterSource.BeginModify
 //		Flags  -> (Native, Public)
 void UGizmoVec2ParameterSource::BeginModify()

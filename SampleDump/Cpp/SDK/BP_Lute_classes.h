@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Lute.BP_Lute_C
-// 0x0000 (FullSize[0x1CC0] - InheritedSize[0x1CC0])
+// 0x0000 (FullSize[0x1CC1] - InheritedSize[0x1CC1])
 class ABP_Lute_C : public ABP_Instrument_C
 {
 public:

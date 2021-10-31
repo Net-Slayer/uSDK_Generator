@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x011913E0
+//		Offset -> 0x011A17C0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.UnmountPak
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -44,7 +44,7 @@ bool UOnlineUtilities::STATIC_UnmountPak(const struct FString& PakPath)
 
 
 // Function:
-//		Offset -> 0x011912A0
+//		Offset -> 0x011A1680
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.SanitizePlayerName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -71,7 +71,7 @@ struct FString UOnlineUtilities::STATIC_SanitizePlayerName(const struct FString&
 
 
 // Function:
-//		Offset -> 0x011911B0
+//		Offset -> 0x011A1590
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.RandomRangeExclude
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -100,7 +100,7 @@ int UOnlineUtilities::STATIC_RandomRangeExclude(int Min, int Max, int Exclude)
 
 
 // Function:
-//		Offset -> 0x011910C0
+//		Offset -> 0x011A14A0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.MountPak
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -125,7 +125,7 @@ bool UOnlineUtilities::STATIC_MountPak(const struct FString& PakPath)
 
 
 // Function:
-//		Offset -> 0x01190FD0
+//		Offset -> 0x011A13B0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsWindowsVersionOrGreater
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -154,7 +154,7 @@ bool UOnlineUtilities::STATIC_IsWindowsVersionOrGreater(int MajorVersion, int Mi
 
 
 // Function:
-//		Offset -> 0x01190F30
+//		Offset -> 0x011A1310
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsValidIPAddress
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -179,7 +179,7 @@ bool UOnlineUtilities::STATIC_IsValidIPAddress(const struct FString& IPAddress)
 
 
 // Function:
-//		Offset -> 0x01190E90
+//		Offset -> 0x011A1270
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsPublicIPAddress
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -204,7 +204,7 @@ bool UOnlineUtilities::STATIC_IsPublicIPAddress(const struct FString& IPAddress)
 
 
 // Function:
-//		Offset -> 0x01190DF0
+//		Offset -> 0x011A11D0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsPrivateIPAddress
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -229,7 +229,7 @@ bool UOnlineUtilities::STATIC_IsPrivateIPAddress(const struct FString& IPAddress
 
 
 // Function:
-//		Offset -> 0x00CC2F10
+//		Offset -> 0x00CCC680
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsOfficialServer
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -252,7 +252,30 @@ bool UOnlineUtilities::STATIC_IsOfficialServer()
 
 
 // Function:
-//		Offset -> 0x00CC2F10
+//		Offset -> 0x011A1170
+//		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsDevelopmentEnvironment
+//		Flags  -> (Final, Native, Static, Public)
+// Parameters:
+//		bool                                               ReturnValue                                                (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+bool UOnlineUtilities::STATIC_IsDevelopmentEnvironment()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function MordhauOnlineSubsystem.OnlineUtilities.IsDevelopmentEnvironment");
+
+	UOnlineUtilities_IsDevelopmentEnvironment_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x00000400;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+
+	return params.ReturnValue;
+}
+
+
+// Function:
+//		Offset -> 0x00CCC680
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsDevelopmentBuild
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -275,7 +298,7 @@ bool UOnlineUtilities::STATIC_IsDevelopmentBuild()
 
 
 // Function:
-//		Offset -> 0x01190D90
+//		Offset -> 0x011A1140
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsDevelopmentBranch
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -298,7 +321,7 @@ bool UOnlineUtilities::STATIC_IsDevelopmentBranch()
 
 
 // Function:
-//		Offset -> 0x00CC2F10
+//		Offset -> 0x00CCC680
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.IsDedicatedServer
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -321,7 +344,7 @@ bool UOnlineUtilities::STATIC_IsDedicatedServer()
 
 
 // Function:
-//		Offset -> 0x01190D60
+//		Offset -> 0x011A1110
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetUseLegacyPakMounting
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -344,7 +367,7 @@ bool UOnlineUtilities::STATIC_GetUseLegacyPakMounting()
 
 
 // Function:
-//		Offset -> 0x01190D30
+//		Offset -> 0x011A10E0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetReleaseVersion
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -367,7 +390,7 @@ int UOnlineUtilities::STATIC_GetReleaseVersion()
 
 
 // Function:
-//		Offset -> 0x01190C70
+//		Offset -> 0x011A1020
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetRegionName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -392,7 +415,7 @@ struct FString UOnlineUtilities::STATIC_GetRegionName(MordhauOnlineSubsystem_ESe
 
 
 // Function:
-//		Offset -> 0x01190B90
+//		Offset -> 0x011A0F40
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetRegionDisplayName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -417,7 +440,7 @@ struct FText UOnlineUtilities::STATIC_GetRegionDisplayName(MordhauOnlineSubsyste
 
 
 // Function:
-//		Offset -> 0x01190AF0
+//		Offset -> 0x011A0EA0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetRegion
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -442,7 +465,7 @@ MordhauOnlineSubsystem_EServerRegion UOnlineUtilities::STATIC_GetRegion(const st
 
 
 // Function:
-//		Offset -> 0x01190A30
+//		Offset -> 0x011A0DE0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlayFabServer
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -465,7 +488,7 @@ struct FPlayFabServer UOnlineUtilities::STATIC_GetPlayFabServer()
 
 
 // Function:
-//		Offset -> 0x01190920
+//		Offset -> 0x011A0CD0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlayFabPlayer
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -488,7 +511,7 @@ struct FPlayFabPlayer UOnlineUtilities::STATIC_GetPlayFabPlayer()
 
 
 // Function:
-//		Offset -> 0x011908F0
+//		Offset -> 0x011A0CA0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlayFabAPI
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -511,7 +534,7 @@ class UPlayFabAPI* UOnlineUtilities::STATIC_GetPlayFabAPI()
 
 
 // Function:
-//		Offset -> 0x01190830
+//		Offset -> 0x011A0BE0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlatformName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -536,7 +559,7 @@ struct FString UOnlineUtilities::STATIC_GetPlatformName(MordhauOnlineSubsystem_E
 
 
 // Function:
-//		Offset -> 0x01190790
+//		Offset -> 0x011A0B40
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlatformByName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -561,7 +584,7 @@ MordhauOnlineSubsystem_EPlatform UOnlineUtilities::STATIC_GetPlatformByName(cons
 
 
 // Function:
-//		Offset -> 0x01190770
+//		Offset -> 0x011A0B20
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPlatform
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -584,7 +607,7 @@ MordhauOnlineSubsystem_EPlatform UOnlineUtilities::STATIC_GetPlatform()
 
 
 // Function:
-//		Offset -> 0x01190740
+//		Offset -> 0x011A0AF0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetPerforceRevision
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -607,7 +630,7 @@ int UOnlineUtilities::STATIC_GetPerforceRevision()
 
 
 // Function:
-//		Offset -> 0x011906C0
+//		Offset -> 0x011A0A70
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetOSVersion
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -630,7 +653,7 @@ struct FString UOnlineUtilities::STATIC_GetOSVersion()
 
 
 // Function:
-//		Offset -> 0x01190600
+//		Offset -> 0x011A09B0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetLocationName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -655,7 +678,7 @@ struct FString UOnlineUtilities::STATIC_GetLocationName(MordhauOnlineSubsystem_E
 
 
 // Function:
-//		Offset -> 0x01190520
+//		Offset -> 0x011A08D0
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetLocationDisplayName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -680,7 +703,7 @@ struct FText UOnlineUtilities::STATIC_GetLocationDisplayName(MordhauOnlineSubsys
 
 
 // Function:
-//		Offset -> 0x01190480
+//		Offset -> 0x011A0830
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetLocation
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -705,7 +728,7 @@ MordhauOnlineSubsystem_EServerLocation UOnlineUtilities::STATIC_GetLocation(cons
 
 
 // Function:
-//		Offset -> 0x01190450
+//		Offset -> 0x011A0800
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetLocalNetworkVersion
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -728,7 +751,7 @@ uint32_t UOnlineUtilities::STATIC_GetLocalNetworkVersion()
 
 
 // Function:
-//		Offset -> 0x01190380
+//		Offset -> 0x011A0730
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetGameServerGamePort
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -751,7 +774,7 @@ int UOnlineUtilities::STATIC_GetGameServerGamePort()
 
 
 // Function:
-//		Offset -> 0x01190280
+//		Offset -> 0x011A0630
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetEnumValue
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -778,7 +801,7 @@ int UOnlineUtilities::STATIC_GetEnumValue(const struct FString& EnumName, const 
 
 
 // Function:
-//		Offset -> 0x01190160
+//		Offset -> 0x011A0510
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetEnumKey
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -805,7 +828,7 @@ struct FString UOnlineUtilities::STATIC_GetEnumKey(const struct FString& EnumNam
 
 
 // Function:
-//		Offset -> 0x011900E0
+//		Offset -> 0x011A0490
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetCurrentPlatformName
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -828,7 +851,7 @@ struct FString UOnlineUtilities::STATIC_GetCurrentPlatformName()
 
 
 // Function:
-//		Offset -> 0x011900B0
+//		Offset -> 0x011A0460
 //		Name   -> Function MordhauOnlineSubsystem.OnlineUtilities.GetBuildVersion
 //		Flags  -> (Final, Native, Static, Public)
 // Parameters:
@@ -851,7 +874,7 @@ int UOnlineUtilities::STATIC_GetBuildVersion()
 
 
 // Function:
-//		Offset -> 0x01190DC0
+//		Offset -> 0x011A11A0
 //		Name   -> Function MordhauOnlineSubsystem.PlayFabAPI.IsPlayerLoggedIn
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -874,7 +897,7 @@ bool UPlayFabAPI::IsPlayerLoggedIn()
 
 
 // Function:
-//		Offset -> 0x011903B0
+//		Offset -> 0x011A0760
 //		Name   -> Function MordhauOnlineSubsystem.PlayFabAPI.GetLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

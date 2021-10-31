@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NetIndicator.BP_NetIndicator_C.Refresh
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_NetIndicator_C::Refresh()
@@ -37,7 +37,7 @@ void UBP_NetIndicator_C::Refresh()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NetIndicator.BP_NetIndicator_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_NetIndicator_C::Construct()
@@ -55,7 +55,7 @@ void UBP_NetIndicator_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_NetIndicator.BP_NetIndicator_C.ExecuteUbergraph_BP_NetIndicator
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x006286D0
+//		Offset -> 0x0062C410
 //		Name   -> Function Int64.Int64FunctionLibrary.MakeInt64
 //		Flags  -> (Final, Native, Static, Private, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -44,7 +44,7 @@ struct FInt64 UInt64FunctionLibrary::STATIC_MakeInt64(const struct FString& Int6
 
 
 // Function:
-//		Offset -> 0x00627FD0
+//		Offset -> 0x0062BD10
 //		Name   -> Function Int64.Int64FunctionLibrary.Conv_Int64ToString
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -69,7 +69,7 @@ struct FString UInt64FunctionLibrary::STATIC_Conv_Int64ToString(const struct FIn
 
 
 // Function:
-//		Offset -> 0x00627F40
+//		Offset -> 0x0062BC80
 //		Name   -> Function Int64.Int64FunctionLibrary.Conv_Int64ToInt32
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -94,7 +94,7 @@ int UInt64FunctionLibrary::STATIC_Conv_Int64ToInt32(const struct FInt64& Int64)
 
 
 // Function:
-//		Offset -> 0x00627EB0
+//		Offset -> 0x0062BBF0
 //		Name   -> Function Int64.Int64FunctionLibrary.Conv_Int64ToFloat
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -119,7 +119,7 @@ float UInt64FunctionLibrary::STATIC_Conv_Int64ToFloat(const struct FInt64& Int64
 
 
 // Function:
-//		Offset -> 0x00627E20
+//		Offset -> 0x0062BB60
 //		Name   -> Function Int64.Int64FunctionLibrary.Conv_Int32ToInt64
 //		Flags  -> (Final, Native, Static, Private, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -144,7 +144,7 @@ struct FInt64 UInt64FunctionLibrary::STATIC_Conv_Int32ToInt64(int Int32)
 
 
 // Function:
-//		Offset -> 0x00627D90
+//		Offset -> 0x0062BAD0
 //		Name   -> Function Int64.Int64FunctionLibrary.Conv_FloatToInt64
 //		Flags  -> (Final, Native, Static, Private, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -169,7 +169,7 @@ struct FInt64 UInt64FunctionLibrary::STATIC_Conv_FloatToInt64(float Float)
 
 
 // Function:
-//		Offset -> 0x00628DA0
+//		Offset -> 0x0062CAE0
 //		Name   -> Function Int64.Int64MathLibrary.Subtract_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -196,7 +196,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Subtract_Int64Int64(const struct FInt64&
 
 
 // Function:
-//		Offset -> 0x00628CC0
+//		Offset -> 0x0062CA00
 //		Name   -> Function Int64.Int64MathLibrary.Subtract_Int64Float
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -223,7 +223,7 @@ float UInt64MathLibrary::STATIC_Subtract_Int64Float(const struct FInt64& A, floa
 
 
 // Function:
-//		Offset -> 0x00628BE0
+//		Offset -> 0x0062C920
 //		Name   -> Function Int64.Int64MathLibrary.Percent_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -250,7 +250,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Percent_Int64Int64(const struct FInt64& 
 
 
 // Function:
-//		Offset -> 0x00628B00
+//		Offset -> 0x0062C840
 //		Name   -> Function Int64.Int64MathLibrary.NotEqual_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -277,7 +277,7 @@ bool UInt64MathLibrary::STATIC_NotEqual_Int64Int64(const struct FInt64& A, const
 
 
 // Function:
-//		Offset -> 0x00628A20
+//		Offset -> 0x0062C760
 //		Name   -> Function Int64.Int64MathLibrary.Multiply_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -304,7 +304,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Multiply_Int64Int64(const struct FInt64&
 
 
 // Function:
-//		Offset -> 0x00628940
+//		Offset -> 0x0062C680
 //		Name   -> Function Int64.Int64MathLibrary.Multiply_Int64Float
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -331,7 +331,7 @@ float UInt64MathLibrary::STATIC_Multiply_Int64Float(const struct FInt64& A, floa
 
 
 // Function:
-//		Offset -> 0x00628880
+//		Offset -> 0x0062C5C0
 //		Name   -> Function Int64.Int64MathLibrary.Min
 //		Flags  -> (Final, Native, Static, Private, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -358,7 +358,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Min(const struct FInt64& A, const struct
 
 
 // Function:
-//		Offset -> 0x006287C0
+//		Offset -> 0x0062C500
 //		Name   -> Function Int64.Int64MathLibrary.Max
 //		Flags  -> (Final, Native, Static, Private, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -385,7 +385,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Max(const struct FInt64& A, const struct
 
 
 // Function:
-//		Offset -> 0x00628510
+//		Offset -> 0x0062C250
 //		Name   -> Function Int64.Int64MathLibrary.LessEqual_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -412,7 +412,7 @@ bool UInt64MathLibrary::STATIC_LessEqual_Int64Int64(const struct FInt64& A, cons
 
 
 // Function:
-//		Offset -> 0x006285F0
+//		Offset -> 0x0062C330
 //		Name   -> Function Int64.Int64MathLibrary.Less_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -439,7 +439,7 @@ bool UInt64MathLibrary::STATIC_Less_Int64Int64(const struct FInt64& A, const str
 
 
 // Function:
-//		Offset -> 0x00628350
+//		Offset -> 0x0062C090
 //		Name   -> Function Int64.Int64MathLibrary.GreaterEqual_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -466,7 +466,7 @@ bool UInt64MathLibrary::STATIC_GreaterEqual_Int64Int64(const struct FInt64& A, c
 
 
 // Function:
-//		Offset -> 0x00628430
+//		Offset -> 0x0062C170
 //		Name   -> Function Int64.Int64MathLibrary.Greater_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -493,7 +493,7 @@ bool UInt64MathLibrary::STATIC_Greater_Int64Int64(const struct FInt64& A, const 
 
 
 // Function:
-//		Offset -> 0x00628270
+//		Offset -> 0x0062BFB0
 //		Name   -> Function Int64.Int64MathLibrary.EqualEqual_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -520,7 +520,7 @@ bool UInt64MathLibrary::STATIC_EqualEqual_Int64Int64(const struct FInt64& A, con
 
 
 // Function:
-//		Offset -> 0x00628190
+//		Offset -> 0x0062BED0
 //		Name   -> Function Int64.Int64MathLibrary.Divide_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -547,7 +547,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Divide_Int64Int64(const struct FInt64& A
 
 
 // Function:
-//		Offset -> 0x006280B0
+//		Offset -> 0x0062BDF0
 //		Name   -> Function Int64.Int64MathLibrary.Divide_Int64Float
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -574,7 +574,7 @@ float UInt64MathLibrary::STATIC_Divide_Int64Float(const struct FInt64& A, float 
 
 
 // Function:
-//		Offset -> 0x00627CB0
+//		Offset -> 0x0062B9F0
 //		Name   -> Function Int64.Int64MathLibrary.Add_Int64Int64
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -601,7 +601,7 @@ struct FInt64 UInt64MathLibrary::STATIC_Add_Int64Int64(const struct FInt64& A, c
 
 
 // Function:
-//		Offset -> 0x00627BD0
+//		Offset -> 0x0062B910
 //		Name   -> Function Int64.Int64MathLibrary.Add_Int64Float
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -628,7 +628,7 @@ float UInt64MathLibrary::STATIC_Add_Int64Float(const struct FInt64& A, float B)
 
 
 // Function:
-//		Offset -> 0x00627B30
+//		Offset -> 0x0062B870
 //		Name   -> Function Int64.Int64MathLibrary.Abs_Int
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:

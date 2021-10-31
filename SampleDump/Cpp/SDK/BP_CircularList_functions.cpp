@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircularList.BP_CircularList_C.Initialize
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_CircularList_C::Initialize(int StartValue, int MaxValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircularList.BP_CircularList_C.BndEvt__Next_K2Node_ComponentBoundEvent_125_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_CircularList_C::BndEvt__Next_K2Node_ComponentBoundEvent_125_OnButtonClickedEvent__DelegateSignature()
@@ -60,7 +60,7 @@ void UBP_CircularList_C::BndEvt__Next_K2Node_ComponentBoundEvent_125_OnButtonCli
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircularList.BP_CircularList_C.BndEvt__Prev_K2Node_ComponentBoundEvent_142_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_CircularList_C::BndEvt__Prev_K2Node_ComponentBoundEvent_142_OnButtonClickedEvent__DelegateSignature()
@@ -78,7 +78,7 @@ void UBP_CircularList_C::BndEvt__Prev_K2Node_ComponentBoundEvent_142_OnButtonCli
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircularList.BP_CircularList_C.ExecuteUbergraph_BP_CircularList
 //		Flags  -> (Final)
 // Parameters:
@@ -99,7 +99,7 @@ void UBP_CircularList_C::ExecuteUbergraph_BP_CircularList(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircularList.BP_CircularList_C.OnValueChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

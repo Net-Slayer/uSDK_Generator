@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.ColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void UBP_WearableSlotCustomization_C::ColorHovered(int Idx, int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.Get_TextBlock_26_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -86,7 +86,7 @@ struct FText UBP_WearableSlotCustomization_C::Get_TextBlock_26_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.Get_armorTier_ToolTipText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -108,7 +108,7 @@ struct FText UBP_WearableSlotCustomization_C::Get_armorTier_ToolTipText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetTierIconVisibility
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -127,7 +127,7 @@ void UBP_WearableSlotCustomization_C::GetTierIconVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.Get_SubSlotText_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -149,7 +149,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::Get_SubSlotText_Visibility
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.Get_MainSlotText_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -171,7 +171,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::Get_MainSlotText_Visibilit
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetColor2Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -193,7 +193,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::GetColor2Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetColor1Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -215,7 +215,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::GetColor1Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetPatternVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -237,7 +237,7 @@ UMG_ESlateVisibility UBP_WearableSlotCustomization_C::GetPatternVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.RebuildWidget
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -256,7 +256,7 @@ void UBP_WearableSlotCustomization_C::RebuildWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.GetValues
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -315,7 +315,7 @@ void UBP_WearableSlotCustomization_C::GetValues(struct FText* WearableName, unsi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.UpdateWearableColor
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -338,7 +338,7 @@ void UBP_WearableSlotCustomization_C::UpdateWearableColor(int ColorIndex, int Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.UpdateWearablePattern
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -359,7 +359,7 @@ void UBP_WearableSlotCustomization_C::UpdateWearablePattern(int Pattern)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.UpdateWearable
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -382,7 +382,7 @@ void UBP_WearableSlotCustomization_C::UpdateWearable(int NewId, bool DoNotUpdate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColors1_K2Node_ComponentBoundEvent_229_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -403,7 +403,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColors1_K2Node_Compone
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColorPicker2_K2Node_ComponentBoundEvent_3539_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -424,7 +424,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColorPicker2_K2Node_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColorPicker1_K2Node_ComponentBoundEvent_2683_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -445,7 +445,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColorPicker1_K2Node_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColorPicker2_K2Node_ComponentBoundEvent_2717_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -466,7 +466,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColorPicker2_K2Node_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColorPicker1_K2Node_ComponentBoundEvent_4518_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -487,7 +487,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColorPicker1_K2Node_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__HeadWearableColorPicker2_K2Node_ComponentBoundEvent_4554_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -508,7 +508,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__HeadWearableColorPicker2_K2Node_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__Pattern_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -529,7 +529,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__Pattern_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.BndEvt__PickWearableButton_K2Node_ComponentBoundEvent_606_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_WearableSlotCustomization_C::BndEvt__PickWearableButton_K2Node_ComponentBoundEvent_606_OnButtonClickedEvent__DelegateSignature()
@@ -547,7 +547,7 @@ void UBP_WearableSlotCustomization_C::BndEvt__PickWearableButton_K2Node_Componen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_WearableSlotCustomization_C::Construct()
@@ -565,7 +565,7 @@ void UBP_WearableSlotCustomization_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.OnItemsUnlocked
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -588,7 +588,7 @@ void UBP_WearableSlotCustomization_C::OnItemsUnlocked(bool bWasSuccessful, TArra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearableSlotCustomization.BP_WearableSlotCustomization_C.ExecuteUbergraph_BP_WearableSlotCustomization
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -23,12 +23,6 @@ namespace CG
 struct UBP_LocalPlay_C_Get_BotSettings_Visibility_1_Params
 {
 	UMG_ESlateVisibility                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_LocalPlay.BP_LocalPlay_C.GetPlayerCountText
-struct UBP_LocalPlay_C_GetPlayerCountText_Params
-{
-	struct FText                                       ReturnValue;                                               // 0x0000(0x0018)  (Parm, OutParm, ReturnParm)
 };
 
 // Function BP_LocalPlay.BP_LocalPlay_C.Construct

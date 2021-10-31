@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubField.BP_SubField_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_SubField_C::UserConstructionScript()
@@ -37,7 +37,7 @@ void ABP_SubField_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubField.BP_SubField_C.BeginSubFieldDeactivation
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_SubField_C::BeginSubFieldDeactivation()
@@ -55,7 +55,7 @@ void ABP_SubField_C::BeginSubFieldDeactivation()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubField.BP_SubField_C.SetSubFieldHidden
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -76,7 +76,7 @@ void ABP_SubField_C::SetSubFieldHidden(bool bValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubField.BP_SubField_C.DeactivateSubField
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_SubField_C::DeactivateSubField()
@@ -94,7 +94,7 @@ void ABP_SubField_C::DeactivateSubField()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SubField.BP_SubField_C.ExecuteUbergraph_BP_SubField
 //		Flags  -> (Final)
 // Parameters:

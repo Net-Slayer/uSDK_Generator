@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -187,7 +187,7 @@ class USlateSettings : public UObject
 {
 public:
 	bool                                               bExplicitCanvasChildZOrder;                                // 0x0028(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AMS5[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_XGB8[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

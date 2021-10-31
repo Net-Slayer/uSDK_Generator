@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -303,12 +303,6 @@ struct UBP_FaceCustomization_C_OnKeyPressed_Params
 	struct FKey                                        KeyName;                                                   // 0x0000(0x0018)  (BlueprintVisible, BlueprintReadOnly, Parm, HasGetValueTypeHash)
 };
 
-// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature
-struct UBP_FaceCustomization_C_BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
 // Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_105_OnButtonClickedEvent__DelegateSignature
 struct UBP_FaceCustomization_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_105_OnButtonClickedEvent__DelegateSignature_Params
 {
@@ -366,17 +360,6 @@ struct UBP_FaceCustomization_C_OnCharacterDollUpdated_Params
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
-// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature
-struct UBP_FaceCustomization_C_BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature
-struct UBP_FaceCustomization_C_BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature_Params
-{
-};
-
 // Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoiceSlider_K2Node_ComponentBoundEvent_15_OnStartedTouching__DelegateSignature
 struct UBP_FaceCustomization_C_BndEvt__VoiceSlider_K2Node_ComponentBoundEvent_15_OnStartedTouching__DelegateSignature_Params
 {
@@ -421,6 +404,23 @@ struct UBP_FaceCustomization_C_BndEvt__FacialHairButton_K2Node_ComponentBoundEve
 // Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyebrowsButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 struct UBP_FaceCustomization_C_BndEvt__EyebrowsButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature_Params
 {
+};
+
+// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature
+struct UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature
+struct UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature_Params
+{
+};
+
+// Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature
+struct UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_FaceCustomization.BP_FaceCustomization_C.ExecuteUbergraph_BP_FaceCustomization

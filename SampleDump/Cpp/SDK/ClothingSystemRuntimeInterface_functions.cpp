@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x010D7130
+//		Offset -> 0x010E77E0
 //		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetAnimDriveSpringStiffness
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UClothingSimulationInteractor::SetAnimDriveSpringStiffness(float InStiffnes
 
 
 // Function:
-//		Offset -> 0x01FB91F0
+//		Offset -> 0x01FC27A0
 //		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.PhysicsAssetUpdated
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UClothingSimulationInteractor::PhysicsAssetUpdated()
@@ -60,7 +60,7 @@ void UClothingSimulationInteractor::PhysicsAssetUpdated()
 
 
 // Function:
-//		Offset -> 0x025945C0
+//		Offset -> 0x0259FB70
 //		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.EnableGravityOverride
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -82,7 +82,7 @@ void UClothingSimulationInteractor::EnableGravityOverride(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x010B9060
+//		Offset -> 0x010C93D0
 //		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.DisableGravityOverride
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UClothingSimulationInteractor::DisableGravityOverride()
@@ -101,7 +101,7 @@ void UClothingSimulationInteractor::DisableGravityOverride()
 
 
 // Function:
-//		Offset -> 0x01FB9210
+//		Offset -> 0x01FC27C0
 //		Name   -> Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.ClothConfigUpdated
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UClothingSimulationInteractor::ClothConfigUpdated()

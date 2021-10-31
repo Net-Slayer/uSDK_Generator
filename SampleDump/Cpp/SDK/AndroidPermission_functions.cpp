@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E12E20
+//		Offset -> 0x00E1CC30
 //		Name   -> Function AndroidPermission.AndroidPermissionFunctionLibrary.CheckPermission
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ bool UAndroidPermissionFunctionLibrary::STATIC_CheckPermission(const struct FStr
 
 
 // Function:
-//		Offset -> 0x00E12D50
+//		Offset -> 0x00E1CB60
 //		Name   -> Function AndroidPermission.AndroidPermissionFunctionLibrary.AcquirePermissions
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

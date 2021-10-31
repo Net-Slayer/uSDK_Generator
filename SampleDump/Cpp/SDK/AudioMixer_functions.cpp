@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x024BCED0
+//		Offset -> 0x024C84D0
 //		Name   -> Function AudioMixer.SynthComponent.Stop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USynthComponent::Stop()
@@ -38,7 +38,7 @@ void USynthComponent::Stop()
 
 
 // Function:
-//		Offset -> 0x024BCBF0
+//		Offset -> 0x024C81F0
 //		Name   -> Function AudioMixer.SynthComponent.Start
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USynthComponent::Start()
@@ -57,7 +57,7 @@ void USynthComponent::Start()
 
 
 // Function:
-//		Offset -> 0x024BCB70
+//		Offset -> 0x024C8170
 //		Name   -> Function AudioMixer.SynthComponent.SetVolumeMultiplier
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -79,7 +79,7 @@ void USynthComponent::SetVolumeMultiplier(float VolumeMultiplier)
 
 
 // Function:
-//		Offset -> 0x024BCAA0
+//		Offset -> 0x024C80A0
 //		Name   -> Function AudioMixer.SynthComponent.SetSubmixSend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -103,7 +103,7 @@ void USynthComponent::SetSubmixSend(class USoundSubmixBase* Submix, float SendLe
 
 
 // Function:
-//		Offset -> 0x024BBCE0
+//		Offset -> 0x024C72E0
 //		Name   -> Function AudioMixer.SynthComponent.IsPlaying
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -126,7 +126,7 @@ bool USynthComponent::IsPlaying()
 
 
 // Function:
-//		Offset -> 0x024BD1D0
+//		Offset -> 0x024C87D0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.TrimAudioCache
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -151,7 +151,7 @@ float UAudioMixerBlueprintLibrary::STATIC_TrimAudioCache(float InMegabytesToFree
 
 
 // Function:
-//		Offset -> 0x024BCFA0
+//		Offset -> 0x024C85A0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StopRecordingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -186,7 +186,7 @@ class USoundWave* UAudioMixerBlueprintLibrary::STATIC_StopRecordingOutput(class 
 
 
 // Function:
-//		Offset -> 0x024BCEF0
+//		Offset -> 0x024C84F0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StopAnalyzingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -210,7 +210,7 @@ void UAudioMixerBlueprintLibrary::STATIC_StopAnalyzingOutput(class UObject* Worl
 
 
 // Function:
-//		Offset -> 0x024BCDD0
+//		Offset -> 0x024C83D0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StartRecordingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -236,7 +236,7 @@ void UAudioMixerBlueprintLibrary::STATIC_StartRecordingOutput(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x024BCC10
+//		Offset -> 0x024C8210
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.StartAnalyzingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -268,7 +268,7 @@ void UAudioMixerBlueprintLibrary::STATIC_StartAnalyzingOutput(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x024BC460
+//		Offset -> 0x024C7A60
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.SetBypassSourceEffectChainEntry
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -296,7 +296,7 @@ void UAudioMixerBlueprintLibrary::STATIC_SetBypassSourceEffectChainEntry(class U
 
 
 // Function:
-//		Offset -> 0x024BC3B0
+//		Offset -> 0x024C79B0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ResumeRecordingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -320,7 +320,7 @@ void UAudioMixerBlueprintLibrary::STATIC_ResumeRecordingOutput(class UObject* Wo
 
 
 // Function:
-//		Offset -> 0x024BC280
+//		Offset -> 0x024C7880
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ReplaceSoundEffectSubmix
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -348,7 +348,7 @@ void UAudioMixerBlueprintLibrary::STATIC_ReplaceSoundEffectSubmix(class UObject*
 
 
 // Function:
-//		Offset -> 0x024BC190
+//		Offset -> 0x024C7790
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffectPresetAtIndex
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -374,7 +374,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveSubmixEffectPresetAtIndex(class U
 
 
 // Function:
-//		Offset -> 0x024BC0A0
+//		Offset -> 0x024C76A0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSubmixEffectPreset
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -400,7 +400,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveSubmixEffectPreset(class UObject*
 
 
 // Function:
-//		Offset -> 0x024BBFB0
+//		Offset -> 0x024C75B0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveSourceEffectFromPresetChain
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -426,7 +426,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveSourceEffectFromPresetChain(class
 
 
 // Function:
-//		Offset -> 0x024BBF00
+//		Offset -> 0x024C7500
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.RemoveMasterSubmixEffect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -450,7 +450,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveMasterSubmixEffect(class UObject*
 
 
 // Function:
-//		Offset -> 0x024BBE30
+//		Offset -> 0x024C7430
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PrimeSoundForPlayback
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -474,7 +474,7 @@ void UAudioMixerBlueprintLibrary::STATIC_PrimeSoundForPlayback(class USoundWave*
 
 
 // Function:
-//		Offset -> 0x024BBDC0
+//		Offset -> 0x024C73C0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PrimeSoundCueForPlayback
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -496,7 +496,7 @@ void UAudioMixerBlueprintLibrary::STATIC_PrimeSoundCueForPlayback(class USoundCu
 
 
 // Function:
-//		Offset -> 0x024BBD10
+//		Offset -> 0x024C7310
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.PauseRecordingOutput
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -520,7 +520,7 @@ void UAudioMixerBlueprintLibrary::STATIC_PauseRecordingOutput(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x024BBB50
+//		Offset -> 0x024C7150
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetPhaseForFrequencies
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -550,7 +550,7 @@ void UAudioMixerBlueprintLibrary::STATIC_GetPhaseForFrequencies(class UObject* W
 
 
 // Function:
-//		Offset -> 0x024BBA90
+//		Offset -> 0x024C7090
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetNumberOfEntriesInSourceEffectChain
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -577,7 +577,7 @@ int UAudioMixerBlueprintLibrary::STATIC_GetNumberOfEntriesInSourceEffectChain(cl
 
 
 // Function:
-//		Offset -> 0x024BB900
+//		Offset -> 0x024C6F00
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.GetMagnitudeForFrequencies
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -607,7 +607,7 @@ void UAudioMixerBlueprintLibrary::STATIC_GetMagnitudeForFrequencies(class UObjec
 
 
 // Function:
-//		Offset -> 0x024BB850
+//		Offset -> 0x024C6E50
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ClearSubmixEffects
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -631,7 +631,7 @@ void UAudioMixerBlueprintLibrary::STATIC_ClearSubmixEffects(class UObject* World
 
 
 // Function:
-//		Offset -> 0x024BB7E0
+//		Offset -> 0x024C6DE0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.ClearMasterSubmixEffects
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -653,7 +653,7 @@ void UAudioMixerBlueprintLibrary::STATIC_ClearMasterSubmixEffects(class UObject*
 
 
 // Function:
-//		Offset -> 0x024BB6F0
+//		Offset -> 0x024C6CF0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddSubmixEffect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -682,7 +682,7 @@ int UAudioMixerBlueprintLibrary::STATIC_AddSubmixEffect(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x024BB5F0
+//		Offset -> 0x024C6BF0
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddSourceEffectToPresetChain
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -708,7 +708,7 @@ void UAudioMixerBlueprintLibrary::STATIC_AddSourceEffectToPresetChain(class UObj
 
 
 // Function:
-//		Offset -> 0x024BB540
+//		Offset -> 0x024C6B40
 //		Name   -> Function AudioMixer.AudioMixerBlueprintLibrary.AddMasterSubmixEffect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -732,7 +732,7 @@ void UAudioMixerBlueprintLibrary::STATIC_AddMasterSubmixEffect(class UObject* Wo
 
 
 // Function:
-//		Offset -> 0x024BC610
+//		Offset -> 0x024C7C10
 //		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -754,7 +754,7 @@ void USubmixEffectDynamicsProcessorPreset::SetSettings(const struct FSubmixEffec
 
 
 // Function:
-//		Offset -> 0x024BC590
+//		Offset -> 0x024C7B90
 //		Name   -> Function AudioMixer.SubmixEffectDynamicsProcessorPreset.SetExternalSubmix
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -776,7 +776,7 @@ void USubmixEffectDynamicsProcessorPreset::SetExternalSubmix(class USoundSubmix*
 
 
 // Function:
-//		Offset -> 0x00E6D740
+//		Offset -> 0x00E77AB0
 //		Name   -> Function AudioMixer.SubmixEffectSubmixEQPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -798,7 +798,7 @@ void USubmixEffectSubmixEQPreset::SetSettings(const struct FSubmixEffectSubmixEQ
 
 
 // Function:
-//		Offset -> 0x024BC9A0
+//		Offset -> 0x024C7FA0
 //		Name   -> Function AudioMixer.SubmixEffectReverbPreset.SetSettingsWithReverbEffect
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -824,7 +824,7 @@ void USubmixEffectReverbPreset::SetSettingsWithReverbEffect(class UReverbEffect*
 
 
 // Function:
-//		Offset -> 0x024BC7E0
+//		Offset -> 0x024C7DE0
 //		Name   -> Function AudioMixer.SubmixEffectReverbPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -846,7 +846,7 @@ void USubmixEffectReverbPreset::SetSettings(const struct FSubmixEffectReverbSett
 
 
 // Function:
-//		Offset -> 0x024BC8A0
+//		Offset -> 0x024C7EA0
 //		Name   -> Function AudioMixer.SubmixEffectReverbFastPreset.SetSettingsWithReverbEffect
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -872,7 +872,7 @@ void USubmixEffectReverbFastPreset::SetSettingsWithReverbEffect(class UReverbEff
 
 
 // Function:
-//		Offset -> 0x024BC720
+//		Offset -> 0x024C7D20
 //		Name   -> Function AudioMixer.SubmixEffectReverbFastPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:

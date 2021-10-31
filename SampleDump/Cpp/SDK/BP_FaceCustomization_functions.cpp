@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.HairColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_FaceCustomization_C::HairColorHovered(int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.EyeColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_FaceCustomization_C::EyeColorHovered(int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ShowEyebrowList
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void UBP_FaceCustomization_C::ShowEyebrowList(int CurrentEyebrow)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ShowFacialHairList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -105,7 +105,7 @@ void UBP_FaceCustomization_C::ShowFacialHairList(int CurrentFace, int CurrentFac
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ShowHairList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_FaceCustomization_C::ShowHairList(int CurrentFace, int CurrentHair)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.EyebrowSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -149,7 +149,7 @@ void UBP_FaceCustomization_C::EyebrowSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.EyebrowSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -170,7 +170,7 @@ void UBP_FaceCustomization_C::EyebrowSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.FacialHairSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -191,7 +191,7 @@ void UBP_FaceCustomization_C::FacialHairSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.FacialHairSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -212,7 +212,7 @@ void UBP_FaceCustomization_C::FacialHairSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.HairSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -233,7 +233,7 @@ void UBP_FaceCustomization_C::HairSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.HairSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -254,7 +254,7 @@ void UBP_FaceCustomization_C::HairSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.FaceSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -275,7 +275,7 @@ void UBP_FaceCustomization_C::FaceSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.FaceSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -296,7 +296,7 @@ void UBP_FaceCustomization_C::FaceSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ShowFaceList
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -317,7 +317,7 @@ void UBP_FaceCustomization_C::ShowFaceList(int CurrentFace)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.SelectionCanceled
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -336,7 +336,7 @@ void UBP_FaceCustomization_C::SelectionCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.VoiceSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -357,7 +357,7 @@ void UBP_FaceCustomization_C::VoiceSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.VoiceSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -378,7 +378,7 @@ void UBP_FaceCustomization_C::VoiceSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ShowVoiceList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -399,7 +399,7 @@ void UBP_FaceCustomization_C::ShowVoiceList(int CurrentVoice)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.UpdateDoll
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -420,7 +420,7 @@ void UBP_FaceCustomization_C::UpdateDoll(bool OnlyMaterials)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.AddCurrentWrapperToHistory
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -439,7 +439,7 @@ void UBP_FaceCustomization_C::AddCurrentWrapperToHistory()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.SaveCurrentToWrapperProfile
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -458,7 +458,7 @@ void UBP_FaceCustomization_C::SaveCurrentToWrapperProfile()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ApplyFaceTransformDelta
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -487,7 +487,7 @@ void UBP_FaceCustomization_C::ApplyFaceTransformDelta(const struct FVector& Delt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.UpdateWidget
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -506,7 +506,7 @@ void UBP_FaceCustomization_C::UpdateWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.GetValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -553,7 +553,7 @@ void UBP_FaceCustomization_C::GetValues(int* Voice, int* VoicePitch, int* Face, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__HairSlider_K2Node_ComponentBoundEvent_470_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -574,7 +574,7 @@ void UBP_FaceCustomization_C::BndEvt__HairSlider_K2Node_ComponentBoundEvent_470_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__FacialHairSlider_K2Node_ComponentBoundEvent_480_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -595,7 +595,7 @@ void UBP_FaceCustomization_C::BndEvt__FacialHairSlider_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyebrowsSlider_K2Node_ComponentBoundEvent_491_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -616,7 +616,7 @@ void UBP_FaceCustomization_C::BndEvt__EyebrowsSlider_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.RegisterPreviewEvents
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::RegisterPreviewEvents()
@@ -634,7 +634,7 @@ void UBP_FaceCustomization_C::RegisterPreviewEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnDrag
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -655,7 +655,7 @@ void UBP_FaceCustomization_C::OnDrag(float DeltaDistance)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnScroll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -676,7 +676,7 @@ void UBP_FaceCustomization_C::OnScroll(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -699,7 +699,7 @@ void UBP_FaceCustomization_C::Tick(const struct FGeometry& MyGeometry, float InD
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.RMBPress
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::RMBPress()
@@ -717,7 +717,7 @@ void UBP_FaceCustomization_C::RMBPress()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.RMBRelease
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::RMBRelease()
@@ -735,7 +735,7 @@ void UBP_FaceCustomization_C::RMBRelease()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.LMBPress
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::LMBPress()
@@ -753,7 +753,7 @@ void UBP_FaceCustomization_C::LMBPress()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.LMBRelease
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::LMBRelease()
@@ -771,7 +771,7 @@ void UBP_FaceCustomization_C::LMBRelease()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.MMBPress
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::MMBPress()
@@ -789,7 +789,7 @@ void UBP_FaceCustomization_C::MMBPress()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.MMBRelease
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::MMBRelease()
@@ -807,7 +807,7 @@ void UBP_FaceCustomization_C::MMBRelease()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.Undo
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::Undo()
@@ -825,7 +825,7 @@ void UBP_FaceCustomization_C::Undo()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.WheelUp
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::WheelUp()
@@ -843,7 +843,7 @@ void UBP_FaceCustomization_C::WheelUp()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.WheelDown
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::WheelDown()
@@ -861,7 +861,7 @@ void UBP_FaceCustomization_C::WheelDown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ToggleSymmetry
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::ToggleSymmetry()
@@ -879,7 +879,7 @@ void UBP_FaceCustomization_C::ToggleSymmetry()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.TranslateMode
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::TranslateMode()
@@ -897,7 +897,7 @@ void UBP_FaceCustomization_C::TranslateMode()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.RotateMode
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::RotateMode()
@@ -915,7 +915,7 @@ void UBP_FaceCustomization_C::RotateMode()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ScaleMode
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::ScaleMode()
@@ -933,7 +933,7 @@ void UBP_FaceCustomization_C::ScaleMode()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.MouseX
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -954,7 +954,7 @@ void UBP_FaceCustomization_C::MouseX(float AxisValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.MouseY
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -975,7 +975,7 @@ void UBP_FaceCustomization_C::MouseY(float AxisValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnMouseAxis
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -996,7 +996,7 @@ void UBP_FaceCustomization_C::OnMouseAxis(const struct FVector2D& Movement)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnKeyPressed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1017,28 +1017,7 @@ void UBP_FaceCustomization_C::OnKeyPressed(const struct FKey& KeyName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature
-//		Flags  -> (BlueprintEvent)
-// Parameters:
-//		int                                                Index                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void UBP_FaceCustomization_C::BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature(int Index)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature");
-
-	UBP_FaceCustomization_C_BndEvt__AgeSlider_K2Node_ComponentBoundEvent_60_OnValueChanged__DelegateSignature_Params params;
-	params.Index = Index;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_105_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_105_OnButtonClickedEvent__DelegateSignature()
@@ -1056,7 +1035,7 @@ void UBP_FaceCustomization_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_105_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_113_OnColorClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1077,7 +1056,7 @@ void UBP_FaceCustomization_C::BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_120_OnColorHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1098,7 +1077,7 @@ void UBP_FaceCustomization_C::BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_134_OnColorPickerClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1119,7 +1098,7 @@ void UBP_FaceCustomization_C::BndEvt__EyeColorPicker_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__HairColorPicker_K2Node_ComponentBoundEvent_146_OnColorClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1140,7 +1119,7 @@ void UBP_FaceCustomization_C::BndEvt__HairColorPicker_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__HairColorPicker_K2Node_ComponentBoundEvent_165_OnColorHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1161,7 +1140,7 @@ void UBP_FaceCustomization_C::BndEvt__HairColorPicker_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__HairColorPicker_K2Node_ComponentBoundEvent_182_OnColorPickerClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1182,7 +1161,7 @@ void UBP_FaceCustomization_C::BndEvt__HairColorPicker_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::SetActive()
@@ -1200,7 +1179,7 @@ void UBP_FaceCustomization_C::SetActive()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnProfileChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_FaceCustomization_C::OnProfileChanged()
@@ -1218,7 +1197,7 @@ void UBP_FaceCustomization_C::OnProfileChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.OnCharacterDollUpdated
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1239,46 +1218,7 @@ void UBP_FaceCustomization_C::OnCharacterDollUpdated(class AMordhauCharacter* Ch
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature
-//		Flags  -> (BlueprintEvent)
-// Parameters:
-//		int                                                Index                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void UBP_FaceCustomization_C::BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature(int Index)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature");
-
-	UBP_FaceCustomization_C_BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_81_OnValueChanged__DelegateSignature_Params params;
-	params.Index = Index;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature
-//		Flags  -> (BlueprintEvent)
-void UBP_FaceCustomization_C::BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature()
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature");
-
-	UBP_FaceCustomization_C_BndEvt__VoicePitchSlider_K2Node_ComponentBoundEvent_14_OnStartedTouching__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoiceSlider_K2Node_ComponentBoundEvent_15_OnStartedTouching__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__VoiceSlider_K2Node_ComponentBoundEvent_15_OnStartedTouching__DelegateSignature()
@@ -1296,7 +1236,7 @@ void UBP_FaceCustomization_C::BndEvt__VoiceSlider_K2Node_ComponentBoundEvent_15_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__RandomizeFaceButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__RandomizeFaceButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -1314,7 +1254,7 @@ void UBP_FaceCustomization_C::BndEvt__RandomizeFaceButton_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -1332,7 +1272,7 @@ void UBP_FaceCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_1_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ChangeVoice
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1353,7 +1293,7 @@ void UBP_FaceCustomization_C::ChangeVoice(int NewId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__VoiceButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__VoiceButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -1371,7 +1311,7 @@ void UBP_FaceCustomization_C::BndEvt__VoiceButton_K2Node_ComponentBoundEvent_2_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__FaceButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__FaceButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
@@ -1389,7 +1329,7 @@ void UBP_FaceCustomization_C::BndEvt__FaceButton_K2Node_ComponentBoundEvent_3_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__HairButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__HairButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -1407,7 +1347,7 @@ void UBP_FaceCustomization_C::BndEvt__HairButton_K2Node_ComponentBoundEvent_4_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__FacialHairButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__FacialHairButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -1425,7 +1365,7 @@ void UBP_FaceCustomization_C::BndEvt__FacialHairButton_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__EyebrowsButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_FaceCustomization_C::BndEvt__EyebrowsButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
@@ -1443,7 +1383,67 @@ void UBP_FaceCustomization_C::BndEvt__EyebrowsButton_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature
+//		Flags  -> (BlueprintEvent)
+// Parameters:
+//		float                                              Value                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void UBP_FaceCustomization_C::BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature(float Value)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature");
+
+	UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_7_OnValueChanged__DelegateSignature_Params params;
+	params.Value = Value;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature
+//		Flags  -> (BlueprintEvent)
+void UBP_FaceCustomization_C::BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature");
+
+	UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_9_OnMouseCapture__DelegateSignature_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature
+//		Flags  -> (BlueprintEvent)
+// Parameters:
+//		float                                              Value                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void UBP_FaceCustomization_C::BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature(float Value)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_FaceCustomization.BP_FaceCustomization_C.BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature");
+
+	UBP_FaceCustomization_C_BndEvt__BP_MordhauSlider_Voice_K2Node_ComponentBoundEvent_10_OnValueChanged__DelegateSignature_Params params;
+	params.Value = Value;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FaceCustomization.BP_FaceCustomization_C.ExecuteUbergraph_BP_FaceCustomization
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

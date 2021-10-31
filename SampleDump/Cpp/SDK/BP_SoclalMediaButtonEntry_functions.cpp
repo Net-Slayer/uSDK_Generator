@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SoclalMediaButtonEntry.BP_SoclalMediaButtonEntry_C.BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
@@ -37,7 +37,7 @@ void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SoclalMediaButtonEntry.BP_SoclalMediaButtonEntry_C.BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -55,7 +55,7 @@ void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SoclalMediaButtonEntry.BP_SoclalMediaButtonEntry_C.BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
@@ -73,7 +73,7 @@ void UBP_SoclalMediaButtonEntry_C::BndEvt__WebsiteButton_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SoclalMediaButtonEntry.BP_SoclalMediaButtonEntry_C.ExecuteUbergraph_BP_SoclalMediaButtonEntry
 //		Flags  -> (Final)
 // Parameters:

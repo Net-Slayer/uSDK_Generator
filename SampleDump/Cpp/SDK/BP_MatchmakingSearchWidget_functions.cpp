@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingSearchWidget.BP_MatchmakingSearchWidget_C.Get_TextBlock_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_MatchmakingSearchWidget_C::Get_TextBlock_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingSearchWidget.BP_MatchmakingSearchWidget_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_MatchmakingSearchWidget_C::Construct()
@@ -59,7 +59,7 @@ void UBP_MatchmakingSearchWidget_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingSearchWidget.BP_MatchmakingSearchWidget_C.Activate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingSearchWidget_C::Activate()
@@ -77,7 +77,7 @@ void UBP_MatchmakingSearchWidget_C::Activate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingSearchWidget.BP_MatchmakingSearchWidget_C.Deactivate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MatchmakingSearchWidget_C::Deactivate()
@@ -95,7 +95,7 @@ void UBP_MatchmakingSearchWidget_C::Deactivate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MatchmakingSearchWidget.BP_MatchmakingSearchWidget_C.ExecuteUbergraph_BP_MatchmakingSearchWidget
 //		Flags  -> (Final)
 // Parameters:

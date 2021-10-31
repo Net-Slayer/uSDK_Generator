@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class ABP_Bandage_C : public AMordhauEquipment
 {
 public:
-	unsigned char                                      UnknownData_EJAN[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_1JPZ[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0CD0(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 	int                                                HealAmount;                                                // 0x0CD8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 

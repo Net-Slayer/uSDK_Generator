@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -43,7 +43,7 @@ class UShaderPlatformQualitySettings : public UObject
 {
 public:
 	struct FMaterialQualityOverrides                   QualityOverrides[0x3];                                     // 0x0028(0x001B) (Edit, Config, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_349H[0x15];                                    // 0x0043(0x0015) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_F9XG[0x15];                                    // 0x0043(0x0015) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

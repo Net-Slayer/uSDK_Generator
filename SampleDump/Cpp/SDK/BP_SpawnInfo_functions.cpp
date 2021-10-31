@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.Get_SpawnInfoText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_SpawnInfo_C::Get_SpawnInfoText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_SpawnInfo_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ UMG_ESlateVisibility UBP_SpawnInfo_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.GetSpawnCharacterName
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -108,7 +108,7 @@ void UBP_SpawnInfo_C::GetSpawnCharacterName(struct FText* Name)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -131,7 +131,7 @@ void UBP_SpawnInfo_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SpawnInfo.BP_SpawnInfo_C.ExecuteUbergraph_BP_SpawnInfo
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -60,7 +60,7 @@ public:
 	struct FSlateBrush                                 Crosshair_Dot;                                             // 0x0338(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FSlateBrush                                 Crosshair_Dot_Outline;                                     // 0x03C0(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	TEnumAsByte<E_CrosshairMode_E_CrosshairMode>       CrosshairMode;                                             // 0x0448(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_TMA3[0x7];                                     // 0x0449(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_DY31[0x7];                                     // 0x0449(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UBP_TargetInfo_C*                            TargetInfo;                                                // 0x0450(0x0008) (Edit, BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	int                                                LastCrosshairTypeSettings;                                 // 0x0458(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	UMG_ESlateVisibility                               ShieldContainerVisible;                                    // 0x045C(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

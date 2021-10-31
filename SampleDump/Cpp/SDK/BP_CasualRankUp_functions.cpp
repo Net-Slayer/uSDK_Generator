@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankUp.BP_CasualRankUp_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_CasualRankUp_C::Update(int Rank)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankUp.BP_CasualRankUp_C.Get_RankText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -62,7 +62,7 @@ struct FText UBP_CasualRankUp_C::Get_RankText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankUp.BP_CasualRankUp_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_CasualRankUp_C::Construct()
@@ -80,7 +80,7 @@ void UBP_CasualRankUp_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankUp.BP_CasualRankUp_C.Exit
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_CasualRankUp_C::Exit()
@@ -98,7 +98,7 @@ void UBP_CasualRankUp_C::Exit()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankUp.BP_CasualRankUp_C.ExecuteUbergraph_BP_CasualRankUp
 //		Flags  -> (Final)
 // Parameters:

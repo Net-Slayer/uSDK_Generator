@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -37,7 +37,7 @@ enum class MRMesh_EMeshTrackerVertexColorMode : uint8_t
 // 0x0001
 struct FMRMeshConfiguration
 {
-	unsigned char                                      UnknownData_U2YV[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_D09Z[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
 
 };
 

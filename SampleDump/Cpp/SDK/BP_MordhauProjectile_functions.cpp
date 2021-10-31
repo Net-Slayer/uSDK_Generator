@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,20 +19,20 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedCharacter
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedDamagable
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
-//		class AAdvancedCharacter*                          Character                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		class UDamageableComponent*                        DamagableComp                                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		bool                                               bWillKill                                                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 //		struct FVector                                     WorldLocation                                              (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		struct FName                                       bone                                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void ABP_MordhauProjectile_C::OnProjectileDamagedCharacter(class AAdvancedCharacter* Character, bool bWillKill, const struct FVector& WorldLocation, const struct FName& bone)
+void ABP_MordhauProjectile_C::OnProjectileDamagedDamagable(class UDamageableComponent* DamagableComp, bool bWillKill, const struct FVector& WorldLocation, const struct FName& bone)
 {
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedCharacter");
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedDamagable");
 
-	ABP_MordhauProjectile_C_OnProjectileDamagedCharacter_Params params;
-	params.Character = Character;
+	ABP_MordhauProjectile_C_OnProjectileDamagedDamagable_Params params;
+	params.DamagableComp = DamagableComp;
 	params.bWillKill = bWillKill;
 	params.WorldLocation = WorldLocation;
 	params.bone = bone;
@@ -46,7 +46,7 @@ void ABP_MordhauProjectile_C::OnProjectileDamagedCharacter(class AAdvancedCharac
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauProjectile.BP_MordhauProjectile_C.ExecuteUbergraph_BP_MordhauProjectile
 //		Flags  -> (Final)
 // Parameters:

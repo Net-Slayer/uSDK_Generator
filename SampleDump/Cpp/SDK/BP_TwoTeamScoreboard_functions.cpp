@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_TwoTeamScoreboard_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_teamOneBanner_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FLinearColor UBP_TwoTeamScoreboard_C::Get_teamOneBanner_ColorAndOpacity_1
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextTeamTwo_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FSlateColor UBP_TwoTeamScoreboard_C::Get_TextTeamTwo_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_teamTwoBanner_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FLinearColor UBP_TwoTeamScoreboard_C::Get_teamTwoBanner_ColorAndOpacity_1
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.GetColorAndOpacity_Team1Text
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FSlateColor UBP_TwoTeamScoreboard_C::GetColorAndOpacity_Team1Text()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_LevelText_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ UMG_ESlateVisibility UBP_TwoTeamScoreboard_C::Get_LevelText_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_Score_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -173,7 +173,7 @@ UMG_ESlateVisibility UBP_TwoTeamScoreboard_C::Get_Score_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.GetText_servername
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -195,7 +195,7 @@ struct FText UBP_TwoTeamScoreboard_C::GetText_servername()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.GetMaxPlayersDiv2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -217,7 +217,7 @@ struct FText UBP_TwoTeamScoreboard_C::GetMaxPlayersDiv2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_mapName_Text_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -239,7 +239,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_mapName_Text_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_Team1Players_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -261,7 +261,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_Team1Players_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextBlock_1_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -283,7 +283,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_TextBlock_1_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextBlock_5_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -305,7 +305,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_TextBlock_5_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextBlock_13_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -327,7 +327,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_TextBlock_13_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_gameMode_Text_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -349,7 +349,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_gameMode_Text_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextBlock_12_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -371,7 +371,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_TextBlock_12_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_Team2Players_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -393,7 +393,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_Team2Players_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_timer_Text_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -415,7 +415,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_timer_Text_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Get_TextTeamTwo_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -437,7 +437,7 @@ struct FText UBP_TwoTeamScoreboard_C::Get_TextTeamTwo_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.GetText_Team1Name
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -459,7 +459,7 @@ struct FText UBP_TwoTeamScoreboard_C::GetText_Team1Name()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_TwoTeamScoreboard_C::Construct()
@@ -477,7 +477,7 @@ void UBP_TwoTeamScoreboard_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_TwoTeamScoreboard_C::Show()
@@ -495,7 +495,7 @@ void UBP_TwoTeamScoreboard_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_TwoTeamScoreboard_C::Hide()
@@ -513,7 +513,7 @@ void UBP_TwoTeamScoreboard_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoTeamScoreboard_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1()
@@ -531,7 +531,7 @@ void UBP_TwoTeamScoreboard_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamScoreboard.BP_TwoTeamScoreboard_C.ExecuteUbergraph_BP_TwoTeamScoreboard
 //		Flags  -> (Final)
 // Parameters:

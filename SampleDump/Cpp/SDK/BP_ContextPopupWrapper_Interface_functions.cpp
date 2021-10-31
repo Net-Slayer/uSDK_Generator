@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.CloseMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ContextPopupWrapper_Interface_C::CloseMenu()
@@ -37,7 +37,7 @@ void UBP_ContextPopupWrapper_Interface_C::CloseMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -59,7 +59,7 @@ UMG_ESlateVisibility UBP_ContextPopupWrapper_Interface_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.ConstructContextMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -80,7 +80,7 @@ void UBP_ContextPopupWrapper_Interface_C::ConstructContextMenu(TMap<struct FStri
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.OpenMenu
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -101,7 +101,7 @@ void UBP_ContextPopupWrapper_Interface_C::OpenMenu(TMap<struct FString, struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.OnGetMenuContent_1
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -123,7 +123,7 @@ class UWidget* UBP_ContextPopupWrapper_Interface_C::OnGetMenuContent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ContextPopupWrapper_Interface_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
@@ -141,7 +141,7 @@ void UBP_ContextPopupWrapper_Interface_C::BndEvt__Button_0_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopupWrapper_Interface.BP_ContextPopupWrapper_Interface_C.ExecuteUbergraph_BP_ContextPopupWrapper_Interface
 //		Flags  -> (Final)
 // Parameters:

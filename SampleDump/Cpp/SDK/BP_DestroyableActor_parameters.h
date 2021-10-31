@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,22 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function BP_DestroyableActor.BP_DestroyableActor_C.OnPlayedParticle
+struct ABP_DestroyableActor_C_OnPlayedParticle_Params
+{
+	class UParticleSystemComponent*                    ParticleSystem;                                            // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function BP_DestroyableActor.BP_DestroyableActor_C.OnMeshChanged
+struct ABP_DestroyableActor_C_OnMeshChanged_Params
+{
+};
+
+// Function BP_DestroyableActor.BP_DestroyableActor_C.OnStoppedRegenerating
+struct ABP_DestroyableActor_C_OnStoppedRegenerating_Params
+{
+};
 
 // Function BP_DestroyableActor.BP_DestroyableActor_C.DetachAttachedProjectiles
 struct ABP_DestroyableActor_C_DetachAttachedProjectiles_Params

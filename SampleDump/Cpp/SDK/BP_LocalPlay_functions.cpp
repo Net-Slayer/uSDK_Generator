@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.Get_BotSettings_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,29 +41,7 @@ UMG_ESlateVisibility UBP_LocalPlay_C::Get_BotSettings_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.GetPlayerCountText
-//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
-// Parameters:
-//		struct FText                                       ReturnValue                                                (Parm, OutParm, ReturnParm)
-struct FText UBP_LocalPlay_C::GetPlayerCountText()
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_LocalPlay.BP_LocalPlay_C.GetPlayerCountText");
-
-	UBP_LocalPlay_C_GetPlayerCountText_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-
-	return params.ReturnValue;
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_LocalPlay_C::Construct()
@@ -81,7 +59,7 @@ void UBP_LocalPlay_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.BndEvt__GameModeComboBox_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -104,7 +82,7 @@ void UBP_LocalPlay_C::BndEvt__GameModeComboBox_K2Node_ComponentBoundEvent_0_OnSe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.BndEvt__StartButton_K2Node_ComponentBoundEvent_173_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LocalPlay_C::BndEvt__StartButton_K2Node_ComponentBoundEvent_173_OnButtonClickedEvent__DelegateSignature()
@@ -122,7 +100,7 @@ void UBP_LocalPlay_C::BndEvt__StartButton_K2Node_ComponentBoundEvent_173_OnButto
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalPlay.BP_LocalPlay_C.ExecuteUbergraph_BP_LocalPlay
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

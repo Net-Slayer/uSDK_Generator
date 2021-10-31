@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PostMatchScreen.BP_PostMatchScreen_C.OnPreviewKeyDown
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -45,7 +45,7 @@ struct FEventReply UBP_PostMatchScreen_C::OnPreviewKeyDown(const struct FGeometr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PostMatchScreen.BP_PostMatchScreen_C.Select Tab
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -66,7 +66,7 @@ void UBP_PostMatchScreen_C::Select_Tab(class UBP_ReusableNavTabButton_C* Button)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PostMatchScreen.BP_PostMatchScreen_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_PostMatchScreen_C::Show()
@@ -84,7 +84,7 @@ void UBP_PostMatchScreen_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PostMatchScreen.BP_PostMatchScreen_C.ExecuteUbergraph_BP_PostMatchScreen
 //		Flags  -> (Final)
 // Parameters:

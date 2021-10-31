@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.GetVisibility_5
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::GetVisibility_5()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.GetVisibility_4
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::GetVisibility_4()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Get_BP_ButtonPrompt_PrimarySpecAction_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::Get_BP_ButtonPrompt_PrimarySpecActi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Clear Vehicle Prompts
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Clear_Vehicle_Prompts()
@@ -125,7 +125,7 @@ void UBP_HUDButtonPrompts_C::Clear_Vehicle_Prompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Add Vehicle Prompt
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -148,7 +148,7 @@ void UBP_HUDButtonPrompts_C::Add_Vehicle_Prompt(const struct FName& ActionName, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Get_Overlay_SpectatorActionPrompts_Visibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -170,7 +170,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::Get_Overlay_SpectatorActionPrompts_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Get_Overlay_VehiclePrompts_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -192,7 +192,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::Get_Overlay_VehiclePrompts_Visibili
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -214,7 +214,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Update Spectator Prompts
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -235,7 +235,7 @@ void UBP_HUDButtonPrompts_C::Update_Spectator_Prompts(class AMordhauSpectator* M
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Get_Overlay_SpectatorActionPrompts_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -257,7 +257,7 @@ UMG_ESlateVisibility UBP_HUDButtonPrompts_C::Get_Overlay_SpectatorActionPrompts_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Update Action Prompts
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -276,7 +276,7 @@ void UBP_HUDButtonPrompts_C::Update_Action_Prompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Clear Equipment Prompts
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Clear_Equipment_Prompts()
@@ -294,7 +294,7 @@ void UBP_HUDButtonPrompts_C::Clear_Equipment_Prompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Add Prompt
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -317,7 +317,7 @@ void UBP_HUDButtonPrompts_C::Add_Prompt(const struct FName& ActionName, const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Construct()
@@ -335,7 +335,7 @@ void UBP_HUDButtonPrompts_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Hide Equipment Prompts
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Hide_Equipment_Prompts()
@@ -353,7 +353,7 @@ void UBP_HUDButtonPrompts_C::Hide_Equipment_Prompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Show Equipment Prompts
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Show_Equipment_Prompts()
@@ -371,7 +371,7 @@ void UBP_HUDButtonPrompts_C::Show_Equipment_Prompts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Play Vanish Anim
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Play_Vanish_Anim()
@@ -389,7 +389,7 @@ void UBP_HUDButtonPrompts_C::Play_Vanish_Anim()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.Vanish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HUDButtonPrompts_C::Vanish()
@@ -407,7 +407,7 @@ void UBP_HUDButtonPrompts_C::Vanish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HUDButtonPrompts.BP_HUDButtonPrompts_C.ExecuteUbergraph_BP_HUDButtonPrompts
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

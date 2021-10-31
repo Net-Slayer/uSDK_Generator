@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.Refresh User Icon
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ScoreboardEntry_C::Refresh_User_Icon()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetVisibility_5
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -60,7 +60,7 @@ UMG_ESlateVisibility UBP_ScoreboardEntry_C::GetVisibility_5()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetColorAndOpacity_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -82,7 +82,7 @@ struct FLinearColor UBP_ScoreboardEntry_C::GetColorAndOpacity_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetVisibility_4
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -104,7 +104,7 @@ UMG_ESlateVisibility UBP_ScoreboardEntry_C::GetVisibility_4()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.SetDisplayedRank
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -123,7 +123,7 @@ void UBP_ScoreboardEntry_C::SetDisplayedRank()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.RefreshRank
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -142,7 +142,7 @@ void UBP_ScoreboardEntry_C::RefreshRank()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -164,7 +164,7 @@ UMG_ESlateVisibility UBP_ScoreboardEntry_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -186,7 +186,7 @@ UMG_ESlateVisibility UBP_ScoreboardEntry_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -208,7 +208,7 @@ UMG_ESlateVisibility UBP_ScoreboardEntry_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -230,7 +230,7 @@ struct FSlateColor UBP_ScoreboardEntry_C::GetColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetNameColorAndOpacity
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -252,7 +252,7 @@ struct FSlateColor UBP_ScoreboardEntry_C::GetNameColorAndOpacity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.GetBackgroundColorAndOpacity
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -274,7 +274,7 @@ struct FLinearColor UBP_ScoreboardEntry_C::GetBackgroundColorAndOpacity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ScoreboardEntry_C::Construct()
@@ -292,7 +292,7 @@ void UBP_ScoreboardEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.On Parent Refreshed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntry_C::On_Parent_Refreshed()
@@ -310,7 +310,7 @@ void UBP_ScoreboardEntry_C::On_Parent_Refreshed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ScoreboardEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -328,7 +328,7 @@ void UBP_ScoreboardEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntry.BP_ScoreboardEntry_C.ExecuteUbergraph_BP_ScoreboardEntry
 //		Flags  -> (Final)
 // Parameters:

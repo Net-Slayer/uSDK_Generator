@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CatapultProjectile.BP_CatapultProjectile_C.SetProjectileInitialSpeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_CatapultProjectile_C::SetProjectileInitialSpeed(unsigned char InByte)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CatapultProjectile.BP_CatapultProjectile_C.OnProjectileHit
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -71,7 +71,7 @@ void ABP_CatapultProjectile_C::OnProjectileHit(const struct FVector& HitLocation
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CatapultProjectile.BP_CatapultProjectile_C.Fire
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_CatapultProjectile_C::Fire()
@@ -89,7 +89,7 @@ void ABP_CatapultProjectile_C::Fire()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CatapultProjectile.BP_CatapultProjectile_C.ExecuteUbergraph_BP_CatapultProjectile
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

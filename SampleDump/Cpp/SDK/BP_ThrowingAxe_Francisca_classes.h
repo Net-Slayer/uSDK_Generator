@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,11 +20,11 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_ThrowingAxe_Francisca.BP_ThrowingAxe_Francisca_C
-// 0x0008 (FullSize[0x0080] - InheritedSize[0x0078])
+// 0x0008 (FullSize[0x0088] - InheritedSize[0x0080])
 class UBP_ThrowingAxe_Francisca_C : public UBP_MordhauEquipmentPart_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0078(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0080(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 
 
 	static UClass* StaticClass()

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -515,7 +515,7 @@ struct FNiagaraTypeDefinition
 {
 	class UObject*                                     ClassStructOrEnum;                                         // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	uint16_t                                           UnderlyingType;                                            // 0x0008(0x0002) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZGX3[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_GMM6[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -541,7 +541,7 @@ struct FNiagaraVariable : public FNiagaraVariableBase
 struct FNiagaraVariableWithOffset : public FNiagaraVariableBase
 {
 	int                                                Offset;                                                    // 0x0018(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_HJA0[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_87DV[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -549,13 +549,13 @@ struct FNiagaraVariableWithOffset : public FNiagaraVariableBase
 // 0x00B8
 struct FNiagaraParameterStore
 {
-	unsigned char                                      UnknownData_PRPU[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_P6QZ[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UObject*                                     Owner;                                                     // 0x0008(0x0008) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<struct FNiagaraVariableWithOffset>          SortedParameterOffsets;                                    // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<unsigned char>                              ParameterData;                                             // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<class UNiagaraDataInterface*>               DataInterfaces;                                            // 0x0030(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<class UObject*>                             UObjects;                                                  // 0x0040(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_C0EW[0x68];                                    // 0x0050(0x0068) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_FOJI[0x68];                                    // 0x0050(0x0068) MISSED OFFSET (PADDING)
 
 };
 
@@ -572,7 +572,7 @@ struct FNiagaraUserRedirectionParameterStore : public FNiagaraParameterStore
 struct FNCPoolElement
 {
 	class UNiagaraComponent*                           Component;                                                 // 0x0000(0x0008) (ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_Y51F[0x8];                                     // 0x0008(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_4RR6[0x8];                                     // 0x0008(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -583,7 +583,7 @@ struct FNCPool
 	TArray<struct FNCPoolElement>                      FreeElements;                                              // 0x0000(0x0010) (ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<class UNiagaraComponent*>                   InUseComponents_Auto;                                      // 0x0010(0x0010) (ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<class UNiagaraComponent*>                   InUseComponents_Manual;                                    // 0x0020(0x0010) (ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZAJE[0x8];                                     // 0x0030(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_5LHZ[0x8];                                     // 0x0030(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -618,9 +618,32 @@ struct FNiagaraDeviceProfileStateEntry
 struct FNiagaraPlatformSet
 {
 	int                                                QualityLevelMask;                                          // 0x0000(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DFFT[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_3YJW[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FNiagaraDeviceProfileStateEntry>     DeviceProfileStates;                                       // 0x0008(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_USGX[0x8];                                     // 0x0018(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_XH61[0x8];                                     // 0x0018(0x0008) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraSystemScalabilitySettings
+// 0x0030
+struct FNiagaraSystemScalabilitySettings
+{
+	struct FNiagaraPlatformSet                         Platforms;                                                 // 0x0000(0x0020) (Edit, NativeAccessSpecifierPublic)
+	unsigned char                                      bCullByDistance : 1;                                       // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bCullMaxInstanceCount : 1;                                 // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bCullByMaxTimeWithoutRender : 1;                           // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_72LW[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	float                                              MaxDistance;                                               // 0x0024(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MaxInstances;                                              // 0x0028(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              MaxTimeWithoutRender;                                      // 0x002C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraSystemScalabilitySettingsArray
+// 0x0010
+struct FNiagaraSystemScalabilitySettingsArray
+{
+	TArray<struct FNiagaraSystemScalabilitySettings>   Settings;                                                  // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
 
@@ -630,7 +653,7 @@ struct FNiagaraEmitterScalabilitySettings
 {
 	struct FNiagaraPlatformSet                         Platforms;                                                 // 0x0000(0x0020) (Edit, NativeAccessSpecifierPublic)
 	unsigned char                                      bScaleSpawnCount : 1;                                      // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_XFTB[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_7DRL[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              SpawnCountScale;                                           // 0x0024(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -670,7 +693,33 @@ struct FNiagaraDataSetID
 {
 	struct FName                                       Name;                                                      // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	Niagara_ENiagaraDataSetType                        Type;                                                      // 0x0008(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_CPGO[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_Y30T[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraVariableLayoutInfo
+// 0x0048
+struct FNiagaraVariableLayoutInfo
+{
+	uint32_t                                           FloatComponentStart;                                       // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           Int32ComponentStart;                                       // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraTypeLayoutInfo                      LayoutInfo;                                                // 0x0008(0x0040) (NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraDataSetCompiledData
+// 0x0040
+struct FNiagaraDataSetCompiledData
+{
+	TArray<struct FNiagaraVariable>                    Variables;                                                 // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraVariableLayoutInfo>          VariableLayouts;                                           // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           TotalFloatComponents;                                      // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           TotalInt32Components;                                      // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bRequiresPersistentIDs : 1;                                // 0x0028(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_KRFQ[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FNiagaraDataSetID                           ID;                                                        // 0x002C(0x000C) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Niagara_ENiagaraSimTarget                          SimTarget;                                                 // 0x0038(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_N8OQ[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -691,7 +740,195 @@ struct FNiagaraDetailsLevelScaleOverrides
 struct FNiagaraEmitterScalabilityOverride : public FNiagaraEmitterScalabilitySettings
 {
 	unsigned char                                      bOverrideSpawnCountScale : 1;                              // 0x0028(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_421V[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_JUIB[0x7];                                     // 0x0029(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraEventGeneratorProperties
+// 0x0050
+struct FNiagaraEventGeneratorProperties
+{
+	int                                                MaxEventsPerFrame;                                         // 0x0000(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       ID;                                                        // 0x0004(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_VVAM[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FNiagaraDataSetCompiledData                 DataSetCompiledData;                                       // 0x0010(0x0040) (NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraEmitterScriptProperties
+// 0x0028
+struct FNiagaraEmitterScriptProperties
+{
+	class UNiagaraScript*                              Script;                                                    // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraEventReceiverProperties>     EventReceivers;                                            // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraEventGeneratorProperties>    EventGenerators;                                           // 0x0018(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraEventScriptProperties
+// 0x0030 (0x0058 - 0x0028)
+struct FNiagaraEventScriptProperties : public FNiagaraEmitterScriptProperties
+{
+	Niagara_EScriptExecutionMode                       ExecutionMode;                                             // 0x0028(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_WFR4[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	uint32_t                                           SpawnNumber;                                               // 0x002C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint32_t                                           MaxEventsPerFrame;                                         // 0x0030(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FGuid                                       SourceEmitterID;                                           // 0x0034(0x0010) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       SourceEventName;                                           // 0x0044(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bRandomSpawnNumber;                                        // 0x004C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_01T3[0x3];                                     // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	uint32_t                                           MinSpawnNumber;                                            // 0x0050(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_5VME[0x4];                                     // 0x0054(0x0004) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraVariableAttributeBinding
+// 0x0078
+struct FNiagaraVariableAttributeBinding
+{
+	struct FNiagaraVariable                            BoundVariable;                                             // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraVariable                            DataSetVariable;                                           // 0x0028(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraVariable                            DefaultValueIfNonExistent;                                 // 0x0050(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraScriptExecutionPaddingInfo
+// 0x0008
+struct FNiagaraScriptExecutionPaddingInfo
+{
+	uint16_t                                           SrcOffset;                                                 // 0x0000(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint16_t                                           DestOffset;                                                // 0x0002(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint16_t                                           SrcSize;                                                   // 0x0004(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint16_t                                           DestSize;                                                  // 0x0006(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraBoundParameter
+// 0x0030
+struct FNiagaraBoundParameter
+{
+	struct FNiagaraVariable                            Parameter;                                                 // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                SrcOffset;                                                 // 0x0028(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                DestOffset;                                                // 0x002C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraParameters
+// 0x0010
+struct FNiagaraParameters
+{
+	TArray<struct FNiagaraVariable>                    Parameters;                                                // 0x0000(0x0010) (Edit, EditFixedSize, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraScriptDataUsageInfo
+// 0x0001
+struct FNiagaraScriptDataUsageInfo
+{
+	bool                                               bReadsAttributeData;                                       // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraScriptDataInterfaceCompileInfo
+// 0x0038
+struct FNiagaraScriptDataInterfaceCompileInfo
+{
+	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                UserPtrIdx;                                                // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_KUJU[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FNiagaraTypeDefinition                      Type;                                                      // 0x0010(0x0010) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       RegisteredParameterMapRead;                                // 0x0020(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       RegisteredParameterMapWrite;                               // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsPlaceholder;                                            // 0x0030(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_0C7P[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.VMFunctionSpecifier
+// 0x0010
+struct FVMFunctionSpecifier
+{
+	struct FName                                       Key;                                                       // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       Value;                                                     // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraStatScope
+// 0x0010
+struct FNiagaraStatScope
+{
+	struct FName                                       FullName;                                                  // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       FriendlyName;                                              // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.SimulationStageMetaData
+// 0x0028
+struct FSimulationStageMetaData
+{
+	struct FName                                       IterationSource;                                           // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bSpawnOnly : 1;                                            // 0x0008(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bWritesParticles : 1;                                      // 0x0008(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_DIAE[0x7];                                     // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<struct FName>                               OutputDestinations;                                        // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MinStage;                                                  // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MaxStage;                                                  // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraScriptDataInterfaceInfo
+// 0x0038
+struct FNiagaraScriptDataInterfaceInfo
+{
+	class UNiagaraDataInterface*                       DataInterface;                                             // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       Name;                                                      // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                UserPtrIdx;                                                // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_51E4[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FNiagaraTypeDefinition                      Type;                                                      // 0x0018(0x0010) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       RegisteredParameterMapRead;                                // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       RegisteredParameterMapWrite;                               // 0x0030(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraVariableDataInterfaceBinding
+// 0x0028
+struct FNiagaraVariableDataInterfaceBinding
+{
+	struct FNiagaraVariable                            BoundVariable;                                             // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraSystemScalabilityOverride
+// 0x0008 (0x0038 - 0x0030)
+struct FNiagaraSystemScalabilityOverride : public FNiagaraSystemScalabilitySettings
+{
+	unsigned char                                      bOverrideDistanceSettings : 1;                             // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bOverrideInstanceCountSettings : 1;                        // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bOverrideTimeSinceRendererSettings : 1;                    // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_87N7[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraEmitterHandle
+// 0x0030
+struct FNiagaraEmitterHandle
+{
+	struct FGuid                                       ID;                                                        // 0x0000(0x0010) (Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	struct FName                                       IdName;                                                    // 0x0010(0x0008) (Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	bool                                               bIsEnabled;                                                // 0x0018(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData_759Z[0x3];                                     // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FName                                       Name;                                                      // 0x001C(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData_0IVZ[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class UNiagaraEmitter*                             Instance;                                                  // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+
+};
+
+// ScriptStruct Niagara.NiagaraParameterDataSetBinding
+// 0x0008
+struct FNiagaraParameterDataSetBinding
+{
+	int                                                ParameterOffset;                                           // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                DataSetComponentOffset;                                    // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
 
@@ -745,13 +982,13 @@ struct FMovieSceneNiagaraSystemTrackImplementation : public FMovieSceneTrackImpl
 	struct FFrameNumber                                SpawnSectionStartFrame;                                    // 0x0010(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	struct FFrameNumber                                SpawnSectionEndFrame;                                      // 0x0014(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	Niagara_ENiagaraSystemSpawnSectionStartBehavior    SpawnSectionStartBehavior;                                 // 0x0018(0x0001) ELEMENT_SIZE_MISMATCH (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_C31G[0x3];                                     // 0x0018(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_ESY3[0x3];                                     // 0x0018(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	Niagara_ENiagaraSystemSpawnSectionEvaluateBehavior SpawnSectionEvaluateBehavior;                              // 0x001C(0x0001) ELEMENT_SIZE_MISMATCH (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_YH0Y[0x3];                                     // 0x001C(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_68H2[0x3];                                     // 0x001C(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	Niagara_ENiagaraSystemSpawnSectionEndBehavior      SpawnSectionEndBehavior;                                   // 0x0020(0x0001) ELEMENT_SIZE_MISMATCH (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_XZM2[0x3];                                     // 0x0020(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_TBRI[0x3];                                     // 0x0020(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	Niagara_ENiagaraAgeUpdateMode                      AgeUpdateMode;                                             // 0x0024(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_0FE8[0x3];                                     // 0x0025(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_RYTI[0x3];                                     // 0x0025(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -768,7 +1005,7 @@ struct FMovieSceneNiagaraVectorParameterSectionTemplate : public FMovieSceneNiag
 {
 	struct FMovieSceneFloatChannel                     VectorChannels[0x4];                                       // 0x0048(0x0280) (NativeAccessSpecifierPrivate)
 	int                                                ChannelsUsed;                                              // 0x02C8(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_V4OZ[0x4];                                     // 0x02CC(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9SV2[0x4];                                     // 0x02CC(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -807,7 +1044,7 @@ struct FNiagaraSystemUpdateContext
 	TArray<class UNiagaraComponent*>                   ComponentsToReset;                                         // 0x0000(0x0010) (ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<class UNiagaraComponent*>                   ComponentsToReInit;                                        // 0x0010(0x0010) (ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<class UNiagaraSystem*>                      SystemSimsToDestroy;                                       // 0x0020(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_N5O3[0x8];                                     // 0x0030(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9P0E[0x8];                                     // 0x0030(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -825,7 +1062,7 @@ struct FNiagaraFunctionSignature
 	unsigned char                                      bSupportsCPU : 1;                                          // 0x0030(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bSupportsGPU : 1;                                          // 0x0030(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bWriteFunction : 1;                                        // 0x0030(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_Q7QI[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_45N5[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TMap<struct FName, struct FName>                   FunctionSpecifiers;                                        // 0x0038(0x0050) (NativeAccessSpecifierPublic)
 
 };
@@ -856,7 +1093,7 @@ struct FNiagaraGraphViewSettings
 	struct FVector2D                                   Location;                                                  // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	float                                              Zoom;                                                      // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bIsValid;                                                  // 0x000C(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_TEEY[0x3];                                     // 0x000D(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BPZR[0x3];                                     // 0x000D(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -881,6 +1118,137 @@ struct FNiagaraPlatformSetConflictEntry
 
 };
 
+// ScriptStruct Niagara.NiagaraMeshMaterialOverride
+// 0x0030
+struct FNiagaraMeshMaterialOverride
+{
+	class UMaterialInterface*                          ExplicitMat;                                               // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraUserParameterBinding                UserParamBinding;                                          // 0x0008(0x0028) (Edit, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.VMExternalFunctionBindingInfo
+// 0x0038
+struct FVMExternalFunctionBindingInfo
+{
+	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       OwnerName;                                                 // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<bool>                                       InputParamLocations;                                       // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                NumOutputs;                                                // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_4VVM[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<struct FVMFunctionSpecifier>                FunctionSpecifiers;                                        // 0x0028(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraDataSetProperties
+// 0x0020
+struct FNiagaraDataSetProperties
+{
+	struct FNiagaraDataSetID                           ID;                                                        // 0x0000(0x000C) (Edit, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_6HUY[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<struct FNiagaraVariable>                    Variables;                                                 // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraVMExecutableData
+// 0x0128
+struct FNiagaraVMExecutableData
+{
+	TArray<unsigned char>                              ByteCode;                                                  // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<unsigned char>                              OptimizedByteCode;                                         // 0x0010(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                NumTempRegisters;                                          // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                NumUserPtrs;                                               // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraParameters                          Parameters;                                                // 0x0028(0x0010) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameters                          InternalParameters;                                        // 0x0038(0x0010) (NativeAccessSpecifierPublic)
+	TMap<struct FName, struct FNiagaraParameters>      DataSetToParameters;                                       // 0x0048(0x0050) (NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraVariable>                    Attributes;                                                // 0x0098(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraScriptDataUsageInfo                 DataUsage;                                                 // 0x00A8(0x0001) (NoDestructor, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_8HBT[0x7];                                     // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<struct FNiagaraScriptDataInterfaceCompileInfo> DataInterfaceInfo;                                         // 0x00B0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FVMExternalFunctionBindingInfo>      CalledVMExternalFunctions;                                 // 0x00C0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraDataSetID>                   ReadDataSets;                                              // 0x00D0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraDataSetProperties>           WriteDataSets;                                             // 0x00E0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraStatScope>                   StatScopes;                                                // 0x00F0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraDataInterfaceGPUParamInfo>   DIParamInfo;                                               // 0x0100(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Niagara_ENiagaraScriptCompileStatus                LastCompileStatus;                                         // 0x0110(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_T027[0x7];                                     // 0x0111(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TArray<struct FSimulationStageMetaData>            SimulationStageMetaData;                                   // 0x0118(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraEmitterScalabilityOverrides
+// 0x0010
+struct FNiagaraEmitterScalabilityOverrides
+{
+	TArray<struct FNiagaraEmitterScalabilityOverride>  Overrides;                                                 // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraVMExecutableDataId
+// 0x0048
+struct FNiagaraVMExecutableDataId
+{
+	struct FGuid                                       CompilerVersionID;                                         // 0x0000(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Niagara_ENiagaraScriptUsage                        ScriptUsageType;                                           // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_FPTI[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FGuid                                       ScriptUsageTypeID;                                         // 0x0014(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bUsesRapidIterationParams : 1;                             // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bInterpolatedSpawn : 1;                                    // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      bRequiresPersistentIDs : 1;                                // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_0PT0[0x3];                                     // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FGuid                                       BaseScriptID;                                              // 0x0028(0x0010) (ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraCompileHash                         BaseScriptCompileHash;                                     // 0x0038(0x0010) (NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraScriptExecutionParameterStore
+// 0x0020 (0x00D8 - 0x00B8)
+struct FNiagaraScriptExecutionParameterStore : public FNiagaraParameterStore
+{
+	int                                                ParameterSize;                                             // 0x00B8(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	uint32_t                                           PaddedParameterSize;                                       // 0x00BC(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	TArray<struct FNiagaraScriptExecutionPaddingInfo>  PaddingInfo;                                               // 0x00C0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      bInitialized : 1;                                          // 0x00D0(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData_QVAF[0x7];                                     // 0x00D1(0x0007) MISSED OFFSET (PADDING)
+
+};
+
+// ScriptStruct Niagara.NiagaraSystemScalabilityOverrides
+// 0x0010
+struct FNiagaraSystemScalabilityOverrides
+{
+	TArray<struct FNiagaraSystemScalabilityOverride>   Overrides;                                                 // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraParameterDataSetBindingCollection
+// 0x0020
+struct FNiagaraParameterDataSetBindingCollection
+{
+	TArray<struct FNiagaraParameterDataSetBinding>     FloatOffsets;                                              // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraParameterDataSetBinding>     Int32Offsets;                                              // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
+// ScriptStruct Niagara.NiagaraSystemCompiledData
+// 0x0258
+struct FNiagaraSystemCompiledData
+{
+	struct FNiagaraParameterStore                      InstanceParamStore;                                        // 0x0000(0x00B8) (NativeAccessSpecifierPublic)
+	struct FNiagaraDataSetCompiledData                 DataSetCompiledData;                                       // 0x00B8(0x0040) (NativeAccessSpecifierPublic)
+	struct FNiagaraDataSetCompiledData                 SpawnInstanceParamsDataSetCompiledData;                    // 0x00F8(0x0040) (NativeAccessSpecifierPublic)
+	struct FNiagaraDataSetCompiledData                 UpdateInstanceParamsDataSetCompiledData;                   // 0x0138(0x0040) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceGlobalBinding;                                // 0x0178(0x0020) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceSystemBinding;                                // 0x0198(0x0020) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceOwnerBinding;                                 // 0x01B8(0x0020) (NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraParameterDataSetBindingCollection> SpawnInstanceEmitterBindings;                              // 0x01D8(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceGlobalBinding;                               // 0x01E8(0x0020) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceSystemBinding;                               // 0x0208(0x0020) (NativeAccessSpecifierPublic)
+	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceOwnerBinding;                                // 0x0228(0x0020) (NativeAccessSpecifierPublic)
+	TArray<struct FNiagaraParameterDataSetBindingCollection> UpdateInstanceEmitterBindings;                             // 0x0248(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
 // ScriptStruct Niagara.NiagaraPlatformSetConflictInfo
 // 0x0018
 struct FNiagaraPlatformSetConflictInfo
@@ -897,7 +1265,7 @@ struct FNiagaraScalabilityManager
 {
 	class UNiagaraEffectType*                          EffectType;                                                // 0x0000(0x0008) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<class UNiagaraComponent*>                   ManagedComponents;                                         // 0x0008(0x0010) (ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_98JG[0x28];                                    // 0x0018(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_Q6IF[0x28];                                    // 0x0018(0x0028) MISSED OFFSET (PADDING)
 
 };
 
@@ -908,7 +1276,7 @@ struct FNiagaraModuleDependency
 	struct FName                                       ID;                                                        // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	Niagara_ENiagaraModuleDependencyType               Type;                                                      // 0x0008(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	Niagara_ENiagaraModuleDependencyScriptConstraint   ScriptConstraint;                                          // 0x0009(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AssetRegistrySearchable, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_BRO2[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_C9WC[0x6];                                     // 0x000A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FText                                       Description;                                               // 0x0010(0x0018) (Edit, AssetRegistrySearchable, NativeAccessSpecifierPublic)
 
 };
@@ -926,9 +1294,9 @@ struct FNiagaraScriptHighlight
 // 0x0080
 struct FNiagaraSystemCompileRequest
 {
-	unsigned char                                      UnknownData_S0ZX[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WI62[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<class UObject*>                             RootObjects;                                               // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_M01F[0x68];                                    // 0x0018(0x0068) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_4QN6[0x68];                                    // 0x0018(0x0068) MISSED OFFSET (PADDING)
 
 };
 
@@ -936,33 +1304,7 @@ struct FNiagaraSystemCompileRequest
 // 0x0078
 struct FEmitterCompiledScriptPair
 {
-	unsigned char                                      UnknownData_E9TA[0x78];                                    // 0x0000(0x0078) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraVariableLayoutInfo
-// 0x0048
-struct FNiagaraVariableLayoutInfo
-{
-	uint32_t                                           FloatComponentStart;                                       // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           Int32ComponentStart;                                       // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraTypeLayoutInfo                      LayoutInfo;                                                // 0x0008(0x0040) (NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraDataSetCompiledData
-// 0x0040
-struct FNiagaraDataSetCompiledData
-{
-	TArray<struct FNiagaraVariable>                    Variables;                                                 // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraVariableLayoutInfo>          VariableLayouts;                                           // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           TotalFloatComponents;                                      // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           TotalInt32Components;                                      // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bRequiresPersistentIDs : 1;                                // 0x0028(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_HLSL[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FNiagaraDataSetID                           ID;                                                        // 0x002C(0x000C) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Niagara_ENiagaraSimTarget                          SimTarget;                                                 // 0x0038(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_QO1I[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_3R38[0x78];                                    // 0x0000(0x0078) MISSED OFFSET (PADDING)
 
 };
 
@@ -997,26 +1339,26 @@ struct FNiagaraVariableMetaData
 	struct FText                                       Description;                                               // 0x0000(0x0018) (Edit, NativeAccessSpecifierPublic)
 	struct FText                                       CategoryName;                                              // 0x0018(0x0018) (Edit, NativeAccessSpecifierPublic)
 	bool                                               bAdvancedDisplay;                                          // 0x0030(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_5B0I[0x3];                                     // 0x0031(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_FKND[0x3];                                     // 0x0031(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                EditorSortPriority;                                        // 0x0034(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bInlineEditConditionToggle;                                // 0x0038(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EWAO[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_FPUM[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FNiagaraInputConditionMetadata              EditCondition;                                             // 0x0040(0x0018) (Edit, NativeAccessSpecifierPublic)
 	struct FNiagaraInputConditionMetadata              VisibleCondition;                                          // 0x0058(0x0018) (Edit, NativeAccessSpecifierPublic)
 	TMap<struct FName, struct FString>                 PropertyMetaData;                                          // 0x0070(0x0050) (Edit, NativeAccessSpecifierPublic)
 	struct FName                                       ScopeName;                                                 // 0x00C0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	Niagara_ENiagaraScriptParameterUsage               Usage;                                                     // 0x00C8(0x0001) ELEMENT_SIZE_MISMATCH (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_V92R[0x3];                                     // 0x00C8(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_OJQT[0x3];                                     // 0x00C8(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               bIsStaticSwitch;                                           // 0x00CC(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_3WYU[0x3];                                     // 0x00CD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WCNL[0x3];                                     // 0x00CD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                StaticSwitchDefaultValue;                                  // 0x00D0(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bAddedToNodeGraphDeepCopy;                                 // 0x00D4(0x0001) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bOutputIsPersistent;                                       // 0x00D5(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_L87K[0x2];                                     // 0x00D6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_8DRU[0x2];                                     // 0x00D6(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FName                                       CachedNamespacelessVariableName;                           // 0x00D8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bCreatedInSystemEditor;                                    // 0x00E0(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bUseLegacyNameString;                                      // 0x00E1(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_SHNY[0x6];                                     // 0x00E2(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_D1L2[0x6];                                     // 0x00E2(0x0006) MISSED OFFSET (PADDING)
 
 };
 
@@ -1025,8 +1367,8 @@ struct FNiagaraVariableMetaData
 struct FNiagaraParameterScopeInfo
 {
 	Niagara_ENiagaraParameterScope                     Scope;                                                     // 0x0000(0x0001) ELEMENT_SIZE_MISMATCH (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_501A[0x3];                                     // 0x0000(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-	unsigned char                                      UnknownData_0ECJ[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_2FXL[0x3];                                     // 0x0000(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_GL1N[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     NamespaceString;                                           // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 
 };
@@ -1096,7 +1438,7 @@ struct FNiagaraTestStruct
 // 0x0001
 struct FNiagaraParameterMap
 {
-	unsigned char                                      UnknownData_H1PH[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_41V8[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
 
 };
 
@@ -1104,7 +1446,7 @@ struct FNiagaraParameterMap
 // 0x0001
 struct FNiagaraNumeric
 {
-	unsigned char                                      UnknownData_W1VG[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_TRNN[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
 
 };
 
@@ -1140,8 +1482,8 @@ struct FNiagaraVariant
 	class UNiagaraDataInterface*                       DataInterface;                                             // 0x0008(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<unsigned char>                              Bytes;                                                     // 0x0010(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	Niagara_ENiagaraVariantMode                        CurrentMode;                                               // 0x0020(0x0001) ELEMENT_SIZE_MISMATCH (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_1GQH[0x3];                                     // 0x0020(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-	unsigned char                                      UnknownData_2TJ7[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_PF3D[0x3];                                     // 0x0020(0x0003) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData_96DR[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -1149,349 +1491,7 @@ struct FNiagaraVariant
 // 0x0008 (0x0030 - 0x0028)
 struct FNiagaraWorldManagerTickFunction : public FTickFunction
 {
-	unsigned char                                      UnknownData_OJU6[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraSystemScalabilitySettings
-// 0x0030
-struct FNiagaraSystemScalabilitySettings
-{
-	struct FNiagaraPlatformSet                         Platforms;                                                 // 0x0000(0x0020) (Edit, NativeAccessSpecifierPublic)
-	unsigned char                                      bCullByDistance : 1;                                       // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bCullMaxInstanceCount : 1;                                 // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bCullByMaxTimeWithoutRender : 1;                           // 0x0020(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VIJB[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	float                                              MaxDistance;                                               // 0x0024(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MaxInstances;                                              // 0x0028(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              MaxTimeWithoutRender;                                      // 0x002C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraEmitterHandle
-// 0x0030
-struct FNiagaraEmitterHandle
-{
-	struct FGuid                                       ID;                                                        // 0x0000(0x0010) (Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	struct FName                                       IdName;                                                    // 0x0010(0x0008) (Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	bool                                               bIsEnabled;                                                // 0x0018(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_BSVV[0x3];                                     // 0x0019(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FName                                       Name;                                                      // 0x001C(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_0K1B[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	class UNiagaraEmitter*                             Instance;                                                  // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-
-};
-
-// ScriptStruct Niagara.NiagaraSystemScalabilitySettingsArray
-// 0x0010
-struct FNiagaraSystemScalabilitySettingsArray
-{
-	TArray<struct FNiagaraSystemScalabilitySettings>   Settings;                                                  // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraEmitterScalabilityOverrides
-// 0x0010
-struct FNiagaraEmitterScalabilityOverrides
-{
-	TArray<struct FNiagaraEmitterScalabilityOverride>  Overrides;                                                 // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraEventGeneratorProperties
-// 0x0050
-struct FNiagaraEventGeneratorProperties
-{
-	int                                                MaxEventsPerFrame;                                         // 0x0000(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       ID;                                                        // 0x0004(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FTJJ[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FNiagaraDataSetCompiledData                 DataSetCompiledData;                                       // 0x0010(0x0040) (NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraEmitterScriptProperties
-// 0x0028
-struct FNiagaraEmitterScriptProperties
-{
-	class UNiagaraScript*                              Script;                                                    // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraEventReceiverProperties>     EventReceivers;                                            // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraEventGeneratorProperties>    EventGenerators;                                           // 0x0018(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraScriptDataInterfaceCompileInfo
-// 0x0038
-struct FNiagaraScriptDataInterfaceCompileInfo
-{
-	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                UserPtrIdx;                                                // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_UF2O[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FNiagaraTypeDefinition                      Type;                                                      // 0x0010(0x0010) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       RegisteredParameterMapRead;                                // 0x0020(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       RegisteredParameterMapWrite;                               // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsPlaceholder;                                            // 0x0030(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GE6T[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraEventScriptProperties
-// 0x0030 (0x0058 - 0x0028)
-struct FNiagaraEventScriptProperties : public FNiagaraEmitterScriptProperties
-{
-	Niagara_EScriptExecutionMode                       ExecutionMode;                                             // 0x0028(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FJSS[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	uint32_t                                           SpawnNumber;                                               // 0x002C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint32_t                                           MaxEventsPerFrame;                                         // 0x0030(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FGuid                                       SourceEmitterID;                                           // 0x0034(0x0010) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       SourceEventName;                                           // 0x0044(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bRandomSpawnNumber;                                        // 0x004C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_97SH[0x3];                                     // 0x004D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	uint32_t                                           MinSpawnNumber;                                            // 0x0050(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_P3VN[0x4];                                     // 0x0054(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraVariableAttributeBinding
-// 0x0078
-struct FNiagaraVariableAttributeBinding
-{
-	struct FNiagaraVariable                            BoundVariable;                                             // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraVariable                            DataSetVariable;                                           // 0x0028(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraVariable                            DefaultValueIfNonExistent;                                 // 0x0050(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraScriptExecutionPaddingInfo
-// 0x0008
-struct FNiagaraScriptExecutionPaddingInfo
-{
-	uint16_t                                           SrcOffset;                                                 // 0x0000(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint16_t                                           DestOffset;                                                // 0x0002(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint16_t                                           SrcSize;                                                   // 0x0004(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint16_t                                           DestSize;                                                  // 0x0006(0x0002) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraScriptDataUsageInfo
-// 0x0001
-struct FNiagaraScriptDataUsageInfo
-{
-	bool                                               bReadsAttributeData;                                       // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.VMFunctionSpecifier
-// 0x0010
-struct FVMFunctionSpecifier
-{
-	struct FName                                       Key;                                                       // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       Value;                                                     // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraStatScope
-// 0x0010
-struct FNiagaraStatScope
-{
-	struct FName                                       FullName;                                                  // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       FriendlyName;                                              // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.SimulationStageMetaData
-// 0x0028
-struct FSimulationStageMetaData
-{
-	struct FName                                       IterationSource;                                           // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bSpawnOnly : 1;                                            // 0x0008(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bWritesParticles : 1;                                      // 0x0008(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_F2VN[0x7];                                     // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FName>                               OutputDestinations;                                        // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MinStage;                                                  // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MaxStage;                                                  // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraScriptDataInterfaceInfo
-// 0x0038
-struct FNiagaraScriptDataInterfaceInfo
-{
-	class UNiagaraDataInterface*                       DataInterface;                                             // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       Name;                                                      // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                UserPtrIdx;                                                // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GD9M[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FNiagaraTypeDefinition                      Type;                                                      // 0x0018(0x0010) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       RegisteredParameterMapRead;                                // 0x0028(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       RegisteredParameterMapWrite;                               // 0x0030(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraMeshMaterialOverride
-// 0x0030
-struct FNiagaraMeshMaterialOverride
-{
-	class UMaterialInterface*                          ExplicitMat;                                               // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraUserParameterBinding                UserParamBinding;                                          // 0x0008(0x0028) (Edit, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraBoundParameter
-// 0x0030
-struct FNiagaraBoundParameter
-{
-	struct FNiagaraVariable                            Parameter;                                                 // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                SrcOffset;                                                 // 0x0028(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                DestOffset;                                                // 0x002C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraDataSetProperties
-// 0x0020
-struct FNiagaraDataSetProperties
-{
-	struct FNiagaraDataSetID                           ID;                                                        // 0x0000(0x000C) (Edit, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_RB68[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FNiagaraVariable>                    Variables;                                                 // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraScriptExecutionParameterStore
-// 0x0020 (0x00D8 - 0x00B8)
-struct FNiagaraScriptExecutionParameterStore : public FNiagaraParameterStore
-{
-	int                                                ParameterSize;                                             // 0x00B8(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	uint32_t                                           PaddedParameterSize;                                       // 0x00BC(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	TArray<struct FNiagaraScriptExecutionPaddingInfo>  PaddingInfo;                                               // 0x00C0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      bInitialized : 1;                                          // 0x00D0(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_QOHF[0x7];                                     // 0x00D1(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraVMExecutableDataId
-// 0x0048
-struct FNiagaraVMExecutableDataId
-{
-	struct FGuid                                       CompilerVersionID;                                         // 0x0000(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Niagara_ENiagaraScriptUsage                        ScriptUsageType;                                           // 0x0010(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_J642[0x3];                                     // 0x0011(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FGuid                                       ScriptUsageTypeID;                                         // 0x0014(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bUsesRapidIterationParams : 1;                             // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bInterpolatedSpawn : 1;                                    // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bRequiresPersistentIDs : 1;                                // 0x0024(0x0001) BIT_FIELD (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_COD7[0x3];                                     // 0x0025(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FGuid                                       BaseScriptID;                                              // 0x0028(0x0010) (ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraCompileHash                         BaseScriptCompileHash;                                     // 0x0038(0x0010) (NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraParameters
-// 0x0010
-struct FNiagaraParameters
-{
-	TArray<struct FNiagaraVariable>                    Parameters;                                                // 0x0000(0x0010) (Edit, EditFixedSize, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.VMExternalFunctionBindingInfo
-// 0x0038
-struct FVMExternalFunctionBindingInfo
-{
-	struct FName                                       Name;                                                      // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       OwnerName;                                                 // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<bool>                                       InputParamLocations;                                       // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                NumOutputs;                                                // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_5RK3[0x4];                                     // 0x0024(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FVMFunctionSpecifier>                FunctionSpecifiers;                                        // 0x0028(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraVMExecutableData
-// 0x0128
-struct FNiagaraVMExecutableData
-{
-	TArray<unsigned char>                              ByteCode;                                                  // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<unsigned char>                              OptimizedByteCode;                                         // 0x0010(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                NumTempRegisters;                                          // 0x0020(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                NumUserPtrs;                                               // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraParameters                          Parameters;                                                // 0x0028(0x0010) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameters                          InternalParameters;                                        // 0x0038(0x0010) (NativeAccessSpecifierPublic)
-	TMap<struct FName, struct FNiagaraParameters>      DataSetToParameters;                                       // 0x0048(0x0050) (NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraVariable>                    Attributes;                                                // 0x0098(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraScriptDataUsageInfo                 DataUsage;                                                 // 0x00A8(0x0001) (NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_77O6[0x7];                                     // 0x00A9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FNiagaraScriptDataInterfaceCompileInfo> DataInterfaceInfo;                                         // 0x00B0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FVMExternalFunctionBindingInfo>      CalledVMExternalFunctions;                                 // 0x00C0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraDataSetID>                   ReadDataSets;                                              // 0x00D0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraDataSetProperties>           WriteDataSets;                                             // 0x00E0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraStatScope>                   StatScopes;                                                // 0x00F0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraDataInterfaceGPUParamInfo>   DIParamInfo;                                               // 0x0100(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Niagara_ENiagaraScriptCompileStatus                LastCompileStatus;                                         // 0x0110(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8231[0x7];                                     // 0x0111(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FSimulationStageMetaData>            SimulationStageMetaData;                                   // 0x0118(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraVariableDataInterfaceBinding
-// 0x0028
-struct FNiagaraVariableDataInterfaceBinding
-{
-	struct FNiagaraVariable                            BoundVariable;                                             // 0x0000(0x0028) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraSystemScalabilityOverride
-// 0x0008 (0x0038 - 0x0030)
-struct FNiagaraSystemScalabilityOverride : public FNiagaraSystemScalabilitySettings
-{
-	unsigned char                                      bOverrideDistanceSettings : 1;                             // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bOverrideInstanceCountSettings : 1;                        // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      bOverrideTimeSinceRendererSettings : 1;                    // 0x0030(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_BC6S[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct Niagara.NiagaraParameterDataSetBinding
-// 0x0008
-struct FNiagaraParameterDataSetBinding
-{
-	int                                                ParameterOffset;                                           // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                DataSetComponentOffset;                                    // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraParameterDataSetBindingCollection
-// 0x0020
-struct FNiagaraParameterDataSetBindingCollection
-{
-	TArray<struct FNiagaraParameterDataSetBinding>     FloatOffsets;                                              // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraParameterDataSetBinding>     Int32Offsets;                                              // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraSystemCompiledData
-// 0x0258
-struct FNiagaraSystemCompiledData
-{
-	struct FNiagaraParameterStore                      InstanceParamStore;                                        // 0x0000(0x00B8) (NativeAccessSpecifierPublic)
-	struct FNiagaraDataSetCompiledData                 DataSetCompiledData;                                       // 0x00B8(0x0040) (NativeAccessSpecifierPublic)
-	struct FNiagaraDataSetCompiledData                 SpawnInstanceParamsDataSetCompiledData;                    // 0x00F8(0x0040) (NativeAccessSpecifierPublic)
-	struct FNiagaraDataSetCompiledData                 UpdateInstanceParamsDataSetCompiledData;                   // 0x0138(0x0040) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceGlobalBinding;                                // 0x0178(0x0020) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceSystemBinding;                                // 0x0198(0x0020) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   SpawnInstanceOwnerBinding;                                 // 0x01B8(0x0020) (NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraParameterDataSetBindingCollection> SpawnInstanceEmitterBindings;                              // 0x01D8(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceGlobalBinding;                               // 0x01E8(0x0020) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceSystemBinding;                               // 0x0208(0x0020) (NativeAccessSpecifierPublic)
-	struct FNiagaraParameterDataSetBindingCollection   UpdateInstanceOwnerBinding;                                // 0x0228(0x0020) (NativeAccessSpecifierPublic)
-	TArray<struct FNiagaraParameterDataSetBindingCollection> UpdateInstanceEmitterBindings;                             // 0x0248(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
-// ScriptStruct Niagara.NiagaraSystemScalabilityOverrides
-// 0x0010
-struct FNiagaraSystemScalabilityOverrides
-{
-	TArray<struct FNiagaraSystemScalabilityOverride>   Overrides;                                                 // 0x0000(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_CME2[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 };
 

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void UBP_EquipmentSlotCustomization_C::ColorHovered(int Idx, int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.PartSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -85,7 +85,7 @@ void UBP_EquipmentSlotCustomization_C::PartSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.PartSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -106,7 +106,7 @@ void UBP_EquipmentSlotCustomization_C::PartSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ShowPartChoiceList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -133,7 +133,7 @@ void UBP_EquipmentSlotCustomization_C::ShowPartChoiceList(int CurrentEquipmentId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.SkinSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -154,7 +154,7 @@ void UBP_EquipmentSlotCustomization_C::SkinSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.SkinSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -175,7 +175,7 @@ void UBP_EquipmentSlotCustomization_C::SkinSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ShowSkinChoiceList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -198,7 +198,7 @@ void UBP_EquipmentSlotCustomization_C::ShowSkinChoiceList(int CurrentEquipmentId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetEquipmentPart
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -226,7 +226,7 @@ void UBP_EquipmentSlotCustomization_C::GetEquipmentPart(TArray<class UClass*>* P
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.IsAnySkinAvailable
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -252,7 +252,7 @@ void UBP_EquipmentSlotCustomization_C::IsAnySkinAvailable(TArray<struct FEquipme
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_LengthText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -274,7 +274,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_LengthText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_AdvancedButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -296,7 +296,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_AdvancedButton_Visibi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_BackButton2_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -318,7 +318,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_BackButton2_Visibilit
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_StatsPanel_Visibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -340,7 +340,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_StatsPanel_Visibility
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -362,7 +362,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_GravityScaleText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -384,7 +384,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_GravityScaleText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_ProjectileSpeedText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -406,7 +406,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_ProjectileSpeedText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_TextBlock_7_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -428,7 +428,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_TextBlock_7_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_DamageBar_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -450,7 +450,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_DamageBar_Visibility_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_DamageBarText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -472,7 +472,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_DamageBarText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_StatsPanel_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -494,7 +494,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_StatsPanel_Visibility
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_ReachBarText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -516,7 +516,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_ReachBarText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_AttackTypeButtons_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -538,7 +538,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_AttackTypeButtons_Vis
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetRangedWeaponValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -617,7 +617,7 @@ void UBP_EquipmentSlotCustomization_C::GetRangedWeaponValues(class AMordhauEquip
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_SpeedBarText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -639,7 +639,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_SpeedBarText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_StatsHeaderText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -661,7 +661,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_StatsHeaderText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -683,7 +683,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_AltModeCheckboxVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -705,7 +705,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::Get_AltModeCheckboxVisibi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.EquipmentSelectionCanceled
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -724,7 +724,7 @@ void UBP_EquipmentSlotCustomization_C::EquipmentSelectionCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_CostText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -746,7 +746,7 @@ struct FSlateColor UBP_EquipmentSlotCustomization_C::Get_CostText_ColorAndOpacit
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_ReachBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -768,7 +768,7 @@ float UBP_EquipmentSlotCustomization_C::Get_ReachBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_SpeedBar_Percent
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -790,7 +790,7 @@ float UBP_EquipmentSlotCustomization_C::Get_SpeedBar_Percent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_DamageBar_Percent
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -812,7 +812,7 @@ float UBP_EquipmentSlotCustomization_C::Get_DamageBar_Percent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetHitKnockbackText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -834,7 +834,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetHitKnockbackText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetMorphCostText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -856,7 +856,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetMorphCostText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetShouldFlinchText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -878,7 +878,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetShouldFlinchText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetProjectileValues
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -945,7 +945,7 @@ void UBP_EquipmentSlotCustomization_C::GetProjectileValues(class UClass* Project
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetRangedDrawText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -967,7 +967,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetRangedDrawText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetMaxAmmoText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -989,7 +989,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetMaxAmmoText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ShowElements
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::ShowElements()
@@ -1007,7 +1007,7 @@ void UBP_EquipmentSlotCustomization_C::ShowElements()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetEquipmentValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1080,7 +1080,7 @@ void UBP_EquipmentSlotCustomization_C::GetEquipmentValues(class AMordhauEquipmen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetParryViewToleranceYMaxText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1102,7 +1102,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetParryViewToleranceYMaxText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetParryViewToleranceYMinText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1124,7 +1124,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetParryViewToleranceYMinText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetParryViewToleranceXMaxText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1146,7 +1146,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetParryViewToleranceXMaxText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetParryViewToleranceXMinText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1168,7 +1168,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetParryViewToleranceXMinText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetBlockMovementRestrictionText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1190,7 +1190,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetBlockMovementRestrictionText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetIsParryHeldText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1212,7 +1212,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetIsParryHeldText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetShieldValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1261,7 +1261,7 @@ void UBP_EquipmentSlotCustomization_C::GetShieldValues(class AMordhauEquipment* 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetWeaponValues
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1390,7 +1390,7 @@ void UBP_EquipmentSlotCustomization_C::GetWeaponValues(Mordhau_EAttackMove Attac
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetParryNegationText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1412,7 +1412,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetParryNegationText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetStoneDamageText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1434,7 +1434,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetStoneDamageText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetWoodDamageText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1456,7 +1456,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetWoodDamageText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetCanComboText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1478,7 +1478,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetCanComboText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetHitStopText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1500,7 +1500,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetHitStopText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetStaminaDrainText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1522,7 +1522,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetStaminaDrainText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetFeintCostText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1544,7 +1544,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetFeintCostText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetMissStaminaText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1566,7 +1566,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetMissStaminaText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetYTurnCapText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1588,7 +1588,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetYTurnCapText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetXTurnCapText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1610,7 +1610,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetXTurnCapText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetMissRecoveryText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1632,7 +1632,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetMissRecoveryText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetReleaseText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1654,7 +1654,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetReleaseText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetComboText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1676,7 +1676,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetComboText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetWindupText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1698,7 +1698,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetWindupText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r2c3_text_T3Legs
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1720,7 +1720,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r2c3_text_T3Legs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r1c3_text_T3Torso
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1742,7 +1742,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r1c3_text_T3Torso()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r2c2_text_T2Legs
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1764,7 +1764,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r2c2_text_T2Legs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r1c2_text_T2Torso
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1786,7 +1786,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r1c2_text_T2Torso()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r0c2_text_T2Head
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1808,7 +1808,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r0c2_text_T2Head()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r2c1_text_T1Legs
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1830,7 +1830,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r2c1_text_T1Legs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r1c1_text_T1Torso
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1852,7 +1852,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r1c1_text_T1Torso()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r0c1_text_T1Head
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1874,7 +1874,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r0c1_text_T1Head()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r2c0_text_T0Legs
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1896,7 +1896,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r2c0_text_T0Legs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r1c0_text_T0Torso
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1918,7 +1918,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r1c0_text_T0Torso()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r0c0_text_T0Head
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -1940,7 +1940,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r0c0_text_T0Head()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.SetDamageTableColors
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1965,7 +1965,7 @@ void UBP_EquipmentSlotCustomization_C::SetDamageTableColors(float Damage_Value, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetCurrentValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2106,7 +2106,7 @@ void UBP_EquipmentSlotCustomization_C::GetCurrentValues(class AMordhauEquipment*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.UpdateStrikeStabButtonColors
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2129,7 +2129,7 @@ void UBP_EquipmentSlotCustomization_C::UpdateStrikeStabButtonColors(class UImage
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Get_cell_r0c3_text_T3Head
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2151,7 +2151,7 @@ struct FText UBP_EquipmentSlotCustomization_C::Get_cell_r0c3_text_T3Head()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetCurrentEquipment
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2177,7 +2177,7 @@ void UBP_EquipmentSlotCustomization_C::GetCurrentEquipment(class AMordhauEquipme
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetToolTipText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2199,7 +2199,7 @@ struct FText UBP_EquipmentSlotCustomization_C::GetToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.EquipmentSelectionHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2220,7 +2220,7 @@ void UBP_EquipmentSlotCustomization_C::EquipmentSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.EquipmentSelectionClicked
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2241,7 +2241,7 @@ void UBP_EquipmentSlotCustomization_C::EquipmentSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ShowEquipmentChoiceList
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2262,7 +2262,7 @@ void UBP_EquipmentSlotCustomization_C::ShowEquipmentChoiceList(int CurrentId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetPatternsVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2284,7 +2284,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetPatternsVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetColor3Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2306,7 +2306,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetColor3Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetColor2Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2328,7 +2328,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetColor2Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetColor1Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2350,7 +2350,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetColor1Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetPart3Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2372,7 +2372,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetPart3Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetPart2Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2394,7 +2394,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetPart2Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetPart1Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2416,7 +2416,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetPart1Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetSkinsVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -2438,7 +2438,7 @@ UMG_ESlateVisibility UBP_EquipmentSlotCustomization_C::GetSkinsVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.GetValues
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2539,7 +2539,7 @@ void UBP_EquipmentSlotCustomization_C::GetValues(struct FText* EquipmentWearable
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.UpdateWidgets
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2558,7 +2558,7 @@ void UBP_EquipmentSlotCustomization_C::UpdateWidgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.OnDrag
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2579,7 +2579,7 @@ void UBP_EquipmentSlotCustomization_C::OnDrag(float DeltaDistance)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.RegisterPreviewEvents
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::RegisterPreviewEvents()
@@ -2597,7 +2597,7 @@ void UBP_EquipmentSlotCustomization_C::RegisterPreviewEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.OnScroll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2618,7 +2618,7 @@ void UBP_EquipmentSlotCustomization_C::OnScroll(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.UpdateEquipmentColor
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2641,7 +2641,7 @@ void UBP_EquipmentSlotCustomization_C::UpdateEquipmentColor(int ColorIndex, int 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.UpdateEquipmentPattern
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2662,7 +2662,7 @@ void UBP_EquipmentSlotCustomization_C::UpdateEquipmentPattern(int Pattern)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker1_K2Node_ComponentBoundEvent_3591_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2683,7 +2683,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker1_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker2_K2Node_ComponentBoundEvent_4489_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2704,7 +2704,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker2_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker3_K2Node_ComponentBoundEvent_4500_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2725,7 +2725,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker3_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker1_K2Node_ComponentBoundEvent_10561_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2746,7 +2746,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker1_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker2_K2Node_ComponentBoundEvent_10574_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2767,7 +2767,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker2_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker3_K2Node_ComponentBoundEvent_10588_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2788,7 +2788,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker3_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker1_K2Node_ComponentBoundEvent_10725_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2809,7 +2809,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker1_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker2_K2Node_ComponentBoundEvent_10762_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2830,7 +2830,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker2_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__EquipmentColorPicker3_K2Node_ComponentBoundEvent_10776_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2851,7 +2851,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__EquipmentColorPicker3_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Refresh
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2872,7 +2872,7 @@ void UBP_EquipmentSlotCustomization_C::Refresh(bool UpdateWidgets)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__Pattern_K2Node_ComponentBoundEvent_5_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -2893,7 +2893,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__Pattern_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::SetActive()
@@ -2911,7 +2911,7 @@ void UBP_EquipmentSlotCustomization_C::SetActive()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_1690_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_1690_OnButtonClickedEvent__DelegateSignature()
@@ -2929,7 +2929,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__PickEquipmentButton_K2Node_ComponentBoundEvent_1744_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__PickEquipmentButton_K2Node_ComponentBoundEvent_1744_OnButtonClickedEvent__DelegateSignature()
@@ -2947,7 +2947,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__PickEquipmentButton_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.OnProfileChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::OnProfileChanged()
@@ -2965,7 +2965,7 @@ void UBP_EquipmentSlotCustomization_C::OnProfileChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__StrikeButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__StrikeButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
@@ -2983,7 +2983,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__StrikeButton_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__ThrustButton_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__ThrustButton_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
@@ -3001,7 +3001,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__ThrustButton_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::Construct()
@@ -3019,7 +3019,7 @@ void UBP_EquipmentSlotCustomization_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__BP_AltModeCheckbox_K2Node_ComponentBoundEvent_1809_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -3040,7 +3040,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__BP_AltModeCheckbox_K2Node_Compone
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__Button_8_K2Node_ComponentBoundEvent_64_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__Button_8_K2Node_ComponentBoundEvent_64_OnButtonClickedEvent__DelegateSignature()
@@ -3058,7 +3058,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__Button_8_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__AdvancedButton_K2Node_ComponentBoundEvent_984_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__AdvancedButton_K2Node_ComponentBoundEvent_984_OnButtonClickedEvent__DelegateSignature()
@@ -3076,7 +3076,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__AdvancedButton_K2Node_ComponentBo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__SkinButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__SkinButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
@@ -3094,7 +3094,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__SkinButton_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__Part1Button_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__Part1Button_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -3112,7 +3112,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__Part1Button_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__Part2Button_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__Part2Button_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
@@ -3130,7 +3130,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__Part2Button_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.BndEvt__Part3Button_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_EquipmentSlotCustomization_C::BndEvt__Part3Button_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature()
@@ -3148,7 +3148,7 @@ void UBP_EquipmentSlotCustomization_C::BndEvt__Part3Button_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentSlotCustomization.BP_EquipmentSlotCustomization_C.ExecuteUbergraph_BP_EquipmentSlotCustomization
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

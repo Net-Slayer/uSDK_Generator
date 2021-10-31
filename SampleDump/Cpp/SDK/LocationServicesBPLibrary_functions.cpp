@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E22EA0
+//		Offset -> 0x00E2CCB0
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.StopLocationServices
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42,7 +42,7 @@ bool ULocationServices::STATIC_StopLocationServices()
 
 
 // Function:
-//		Offset -> 0x00E22E70
+//		Offset -> 0x00E2CC80
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.StartLocationServices
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -65,7 +65,7 @@ bool ULocationServices::STATIC_StartLocationServices()
 
 
 // Function:
-//		Offset -> 0x00E22DF0
+//		Offset -> 0x00E2CC00
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.IsLocationAccuracyAvailable
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -90,7 +90,7 @@ bool ULocationServices::STATIC_IsLocationAccuracyAvailable(LocationServicesBPLib
 
 
 // Function:
-//		Offset -> 0x00E22CF0
+//		Offset -> 0x00E2CB00
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.InitLocationServices
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -119,7 +119,7 @@ bool ULocationServices::STATIC_InitLocationServices(LocationServicesBPLibrary_EL
 
 
 // Function:
-//		Offset -> 0x00E22CD0
+//		Offset -> 0x00E2CAE0
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.GetLocationServicesImpl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -142,7 +142,7 @@ class ULocationServicesImpl* ULocationServices::STATIC_GetLocationServicesImpl()
 
 
 // Function:
-//		Offset -> 0x00E22C90
+//		Offset -> 0x00E2CAA0
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.GetLastKnownLocation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -165,7 +165,7 @@ struct FLocationServicesData ULocationServices::STATIC_GetLastKnownLocation()
 
 
 // Function:
-//		Offset -> 0x00E22C60
+//		Offset -> 0x00E2CA70
 //		Name   -> Function LocationServicesBPLibrary.LocationServices.AreLocationServicesEnabled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

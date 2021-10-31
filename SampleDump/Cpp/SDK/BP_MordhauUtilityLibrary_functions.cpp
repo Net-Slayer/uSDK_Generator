@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,73 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Secondary
+//		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		struct FName                                       ActionName                                                 (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		class UObject*                                     __WorldContext                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		class UTexture2D*                                  Icon                                                       (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		struct FKey                                        Secondary_Key                                              (Parm, OutParm, HasGetValueTypeHash)
+//		struct FText                                       Secondary_Key_Display_Name                                 (Parm, OutParm)
+void UBP_MordhauUtilityLibrary_C::STATIC_Get_Key_Info_from_Action_Name_Secondary(const struct FName& ActionName, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Secondary_Key, struct FText* Secondary_Key_Display_Name)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Secondary");
+
+	UBP_MordhauUtilityLibrary_C_Get_Key_Info_from_Action_Name_Secondary_Params params;
+	params.ActionName = ActionName;
+	params.__WorldContext = __WorldContext;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+	if (Icon != nullptr)
+		*Icon = params.Icon;
+	if (Secondary_Key != nullptr)
+		*Secondary_Key = params.Secondary_Key;
+	if (Secondary_Key_Display_Name != nullptr)
+		*Secondary_Key_Display_Name = params.Secondary_Key_Display_Name;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Primary
+//		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		struct FName                                       ActionName                                                 (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		class UObject*                                     __WorldContext                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		class UTexture2D*                                  Icon                                                       (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		struct FKey                                        Key                                                        (Parm, OutParm, HasGetValueTypeHash)
+//		struct FText                                       Key_Display_Name                                           (Parm, OutParm)
+void UBP_MordhauUtilityLibrary_C::STATIC_Get_Key_Info_from_Action_Name_Primary(const struct FName& ActionName, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Key, struct FText* Key_Display_Name)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get Key Info from Action Name_Primary");
+
+	UBP_MordhauUtilityLibrary_C_Get_Key_Info_from_Action_Name_Primary_Params params;
+	params.ActionName = ActionName;
+	params.__WorldContext = __WorldContext;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+	if (Icon != nullptr)
+		*Icon = params.Icon;
+	if (Key != nullptr)
+		*Key = params.Key;
+	if (Key_Display_Name != nullptr)
+		*Key_Display_Name = params.Key_Display_Name;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateContextPopup_Interface
 //		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +108,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_CreateContextPopup_Interface(TMap<struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Set Spawn Loadout
 //		Flags  -> (Static, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +133,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_Set_Spawn_Loadout(class APlayerControll
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetLoadoutFromSingleton
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -97,7 +163,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetLoadoutFromSingleton(int ID, class U
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetTeamColor
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -127,7 +193,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetTeamColor(int Team, class UObject* _
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get3v3MMRFromStats
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -152,7 +218,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_Get3v3MMRFromStats(class UObject* __Wor
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.OpenSteamProfile
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -175,7 +241,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_OpenSteamProfile(const struct FString& 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetPlayerStateFromActor
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -202,7 +268,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetPlayerStateFromActor(class AActor* A
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetKeyInfoFromKey
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -235,40 +301,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetKeyInfoFromKey(const struct FKey& Ke
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetKeyInfoFromActionName
-//		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-//		struct FName                                       Action_Name                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		class UObject*                                     __WorldContext                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		class UTexture2D*                                  Icon                                                       (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		struct FKey                                        Key                                                        (Parm, OutParm, HasGetValueTypeHash)
-//		struct FText                                       Key_Display_Name                                           (Parm, OutParm)
-void UBP_MordhauUtilityLibrary_C::STATIC_GetKeyInfoFromActionName(const struct FName& Action_Name, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Key, struct FText* Key_Display_Name)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetKeyInfoFromActionName");
-
-	UBP_MordhauUtilityLibrary_C_GetKeyInfoFromActionName_Params params;
-	params.Action_Name = Action_Name;
-	params.__WorldContext = __WorldContext;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-	if (Icon != nullptr)
-		*Icon = params.Icon;
-	if (Key != nullptr)
-		*Key = params.Key;
-	if (Key_Display_Name != nullptr)
-		*Key_Display_Name = params.Key_Display_Name;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetRank
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -293,7 +326,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetRank(class UObject* __WorldContext, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.Get1v1MMRFromStats
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -318,7 +351,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_Get1v1MMRFromStats(class UObject* __Wor
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateContextPopup
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -345,7 +378,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_CreateContextPopup(TMap<struct FString,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetGoldAndRankUnlockRequirement
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -376,7 +409,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetGoldAndRankUnlockRequirement(TArray<
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetUnlockTooltipText
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -404,7 +437,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetUnlockTooltipText(TArray<int>* ItemD
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateInformationDialog
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -437,7 +470,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_CreateInformationDialog(class APlayerCo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateChoiceDialog
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -472,7 +505,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_CreateChoiceDialog(class APlayerControl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.CreateTextInputDialog
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -509,7 +542,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_CreateTextInputDialog(class APlayerCont
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.ComputeRagdollForce
 //		Flags  -> (Static, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -544,7 +577,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_ComputeRagdollForce(class AActor* Agent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetSelectedIndex
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -571,7 +604,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_GetSelectedIndex(class UComboBoxText* C
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.SelectFirstComboBoxOption
 //		Flags  -> (Static, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -594,7 +627,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_SelectFirstComboBoxOption(class UComboB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.IsProfileNameValid
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -621,7 +654,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_IsProfileNameValid(const struct FText& 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.IsFirstOptionSelected
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -647,7 +680,7 @@ bool UBP_MordhauUtilityLibrary_C::STATIC_IsFirstOptionSelected(class UComboBoxTe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.SelectLastComboBoxOption
 //		Flags  -> (Static, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -670,7 +703,7 @@ void UBP_MordhauUtilityLibrary_C::STATIC_SelectLastComboBoxOption(class UComboBo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauUtilityLibrary.BP_MordhauUtilityLibrary_C.GetLastComboBoxOption
 //		Flags  -> (Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:

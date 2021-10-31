@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02537D60
+//		Offset -> 0x02543100
 //		Name   -> Function MeshDescription.MeshDescriptionBase.SetVertexPosition
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -43,7 +43,7 @@ void UMeshDescriptionBase::SetVertexPosition(const struct FVertexID& VertexID, c
 
 
 // Function:
-//		Offset -> 0x02537C50
+//		Offset -> 0x02542FF0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.SetPolygonVertexInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ void UMeshDescriptionBase::SetPolygonVertexInstance(const struct FPolygonID& Pol
 
 
 // Function:
-//		Offset -> 0x02537B90
+//		Offset -> 0x02542F30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.SetPolygonPolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -93,7 +93,7 @@ void UMeshDescriptionBase::SetPolygonPolygonGroup(const struct FPolygonID& Polyg
 
 
 // Function:
-//		Offset -> 0x02537B10
+//		Offset -> 0x02542EB0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReversePolygonFacing
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -115,7 +115,7 @@ void UMeshDescriptionBase::ReversePolygonFacing(const struct FPolygonID& Polygon
 
 
 // Function:
-//		Offset -> 0x02537A90
+//		Offset -> 0x02542E30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewVertices
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -137,7 +137,7 @@ void UMeshDescriptionBase::ReserveNewVertices(int NumberOfNewVertices)
 
 
 // Function:
-//		Offset -> 0x02537890
+//		Offset -> 0x02542C30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewVertexInstances
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -159,7 +159,7 @@ void UMeshDescriptionBase::ReserveNewVertexInstances(int NumberOfNewVertexInstan
 
 
 // Function:
-//		Offset -> 0x02537A10
+//		Offset -> 0x02542DB0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -181,7 +181,7 @@ void UMeshDescriptionBase::ReserveNewTriangles(int NumberOfNewTriangles)
 
 
 // Function:
-//		Offset -> 0x02537990
+//		Offset -> 0x02542D30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -203,7 +203,7 @@ void UMeshDescriptionBase::ReserveNewPolygons(int NumberOfNewPolygons)
 
 
 // Function:
-//		Offset -> 0x02537910
+//		Offset -> 0x02542CB0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewPolygonGroups
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -225,7 +225,7 @@ void UMeshDescriptionBase::ReserveNewPolygonGroups(int NumberOfNewPolygonGroups)
 
 
 // Function:
-//		Offset -> 0x02537890
+//		Offset -> 0x02542C30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ReserveNewEdges
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -247,7 +247,7 @@ void UMeshDescriptionBase::ReserveNewEdges(int NumberOfNewEdges)
 
 
 // Function:
-//		Offset -> 0x02537800
+//		Offset -> 0x02542BA0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -272,7 +272,7 @@ bool UMeshDescriptionBase::IsVertexValid(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x02537770
+//		Offset -> 0x02542B10
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexOrphaned
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -297,7 +297,7 @@ bool UMeshDescriptionBase::IsVertexOrphaned(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x025376E0
+//		Offset -> 0x02542A80
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsVertexInstanceValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -322,7 +322,7 @@ bool UMeshDescriptionBase::IsVertexInstanceValid(const struct FVertexInstanceID&
 
 
 // Function:
-//		Offset -> 0x02537650
+//		Offset -> 0x025429F0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsTriangleValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -347,7 +347,7 @@ bool UMeshDescriptionBase::IsTriangleValid(const struct FTriangleID& TriangleID)
 
 
 // Function:
-//		Offset -> 0x025375C0
+//		Offset -> 0x02542960
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsTrianglePartOfNgon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -372,7 +372,7 @@ bool UMeshDescriptionBase::IsTrianglePartOfNgon(const struct FTriangleID& Triang
 
 
 // Function:
-//		Offset -> 0x02537530
+//		Offset -> 0x025428D0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsPolygonValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -397,7 +397,7 @@ bool UMeshDescriptionBase::IsPolygonValid(const struct FPolygonID& PolygonID)
 
 
 // Function:
-//		Offset -> 0x025374A0
+//		Offset -> 0x02542840
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsPolygonGroupValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -422,7 +422,7 @@ bool UMeshDescriptionBase::IsPolygonGroupValid(const struct FPolygonGroupID& Pol
 
 
 // Function:
-//		Offset -> 0x02537470
+//		Offset -> 0x02542810
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsEmpty
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -445,7 +445,7 @@ bool UMeshDescriptionBase::IsEmpty()
 
 
 // Function:
-//		Offset -> 0x025373E0
+//		Offset -> 0x02542780
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -470,7 +470,7 @@ bool UMeshDescriptionBase::IsEdgeValid(const struct FEdgeID& EdgeID)
 
 
 // Function:
-//		Offset -> 0x02537310
+//		Offset -> 0x025426B0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeInternalToPolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -497,7 +497,7 @@ bool UMeshDescriptionBase::IsEdgeInternalToPolygon(const struct FEdgeID& EdgeID,
 
 
 // Function:
-//		Offset -> 0x02537280
+//		Offset -> 0x02542620
 //		Name   -> Function MeshDescription.MeshDescriptionBase.IsEdgeInternal
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -522,7 +522,7 @@ bool UMeshDescriptionBase::IsEdgeInternal(const struct FEdgeID& EdgeID)
 
 
 // Function:
-//		Offset -> 0x02537190
+//		Offset -> 0x02542530
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -548,7 +548,7 @@ void UMeshDescriptionBase::GetVertexVertexInstances(const struct FVertexID& Vert
 
 
 // Function:
-//		Offset -> 0x025370F0
+//		Offset -> 0x02542490
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -573,7 +573,7 @@ struct FVector UMeshDescriptionBase::GetVertexPosition(const struct FVertexID& V
 
 
 // Function:
-//		Offset -> 0x02537020
+//		Offset -> 0x025423C0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexPairEdge
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -600,7 +600,7 @@ struct FEdgeID UMeshDescriptionBase::GetVertexPairEdge(const struct FVertexID& V
 
 
 // Function:
-//		Offset -> 0x02536F80
+//		Offset -> 0x02542320
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -625,7 +625,7 @@ struct FVertexID UMeshDescriptionBase::GetVertexInstanceVertex(const struct FVer
 
 
 // Function:
-//		Offset -> 0x02536EB0
+//		Offset -> 0x02542250
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstancePairEdge
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -652,7 +652,7 @@ struct FEdgeID UMeshDescriptionBase::GetVertexInstancePairEdge(const struct FVer
 
 
 // Function:
-//		Offset -> 0x02536DE0
+//		Offset -> 0x02542180
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForTriangleVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -679,7 +679,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForTriangleVerte
 
 
 // Function:
-//		Offset -> 0x02536D10
+//		Offset -> 0x025420B0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForPolygonVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -706,7 +706,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForPolygonVertex
 
 
 // Function:
-//		Offset -> 0x02536C20
+//		Offset -> 0x02541FC0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -732,7 +732,7 @@ void UMeshDescriptionBase::GetVertexInstanceConnectedTriangles(const struct FVer
 
 
 // Function:
-//		Offset -> 0x02536B30
+//		Offset -> 0x02541ED0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -758,7 +758,7 @@ void UMeshDescriptionBase::GetVertexInstanceConnectedPolygons(const struct FVert
 
 
 // Function:
-//		Offset -> 0x02536A40
+//		Offset -> 0x02541DE0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -784,7 +784,7 @@ void UMeshDescriptionBase::GetVertexConnectedTriangles(const struct FVertexID& V
 
 
 // Function:
-//		Offset -> 0x02536950
+//		Offset -> 0x02541CF0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -810,7 +810,7 @@ void UMeshDescriptionBase::GetVertexConnectedPolygons(const struct FVertexID& Ve
 
 
 // Function:
-//		Offset -> 0x02536860
+//		Offset -> 0x02541C00
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexConnectedEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -836,7 +836,7 @@ void UMeshDescriptionBase::GetVertexConnectedEdges(const struct FVertexID& Verte
 
 
 // Function:
-//		Offset -> 0x02536770
+//		Offset -> 0x02541B10
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetVertexAdjacentVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -862,7 +862,7 @@ void UMeshDescriptionBase::GetVertexAdjacentVertices(const struct FVertexID& Ver
 
 
 // Function:
-//		Offset -> 0x02536680
+//		Offset -> 0x02541A20
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -888,7 +888,7 @@ void UMeshDescriptionBase::GetTriangleVertices(const struct FTriangleID& Triangl
 
 
 // Function:
-//		Offset -> 0x02536590
+//		Offset -> 0x02541930
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -914,7 +914,7 @@ void UMeshDescriptionBase::GetTriangleVertexInstances(const struct FTriangleID& 
 
 
 // Function:
-//		Offset -> 0x025364C0
+//		Offset -> 0x02541860
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -941,7 +941,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetTriangleVertexInstance(const s
 
 
 // Function:
-//		Offset -> 0x02536420
+//		Offset -> 0x025417C0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTrianglePolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -966,7 +966,7 @@ struct FPolygonGroupID UMeshDescriptionBase::GetTrianglePolygonGroup(const struc
 
 
 // Function:
-//		Offset -> 0x02536380
+//		Offset -> 0x02541720
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTrianglePolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -991,7 +991,7 @@ struct FPolygonID UMeshDescriptionBase::GetTrianglePolygon(const struct FTriangl
 
 
 // Function:
-//		Offset -> 0x02536290
+//		Offset -> 0x02541630
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1017,7 +1017,7 @@ void UMeshDescriptionBase::GetTriangleEdges(const struct FTriangleID& TriangleID
 
 
 // Function:
-//		Offset -> 0x025361A0
+//		Offset -> 0x02541540
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetTriangleAdjacentTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1043,7 +1043,7 @@ void UMeshDescriptionBase::GetTriangleAdjacentTriangles(const struct FTriangleID
 
 
 // Function:
-//		Offset -> 0x025360B0
+//		Offset -> 0x02541450
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1069,7 +1069,7 @@ void UMeshDescriptionBase::GetPolygonVertices(const struct FPolygonID& PolygonID
 
 
 // Function:
-//		Offset -> 0x02535FC0
+//		Offset -> 0x02541360
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1095,7 +1095,7 @@ void UMeshDescriptionBase::GetPolygonVertexInstances(const struct FPolygonID& Po
 
 
 // Function:
-//		Offset -> 0x02535ED0
+//		Offset -> 0x02541270
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1121,7 +1121,7 @@ void UMeshDescriptionBase::GetPolygonTriangles(const struct FPolygonID& PolygonI
 
 
 // Function:
-//		Offset -> 0x02535E30
+//		Offset -> 0x025411D0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonPolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1146,7 +1146,7 @@ struct FPolygonGroupID UMeshDescriptionBase::GetPolygonPolygonGroup(const struct
 
 
 // Function:
-//		Offset -> 0x02535D40
+//		Offset -> 0x025410E0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonPerimeterEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1172,7 +1172,7 @@ void UMeshDescriptionBase::GetPolygonPerimeterEdges(const struct FPolygonID& Pol
 
 
 // Function:
-//		Offset -> 0x02535C50
+//		Offset -> 0x02540FF0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonInternalEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1198,7 +1198,7 @@ void UMeshDescriptionBase::GetPolygonInternalEdges(const struct FPolygonID& Poly
 
 
 // Function:
-//		Offset -> 0x02535B60
+//		Offset -> 0x02540F00
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonGroupPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1224,7 +1224,7 @@ void UMeshDescriptionBase::GetPolygonGroupPolygons(const struct FPolygonGroupID&
 
 
 // Function:
-//		Offset -> 0x02535A70
+//		Offset -> 0x02540E10
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetPolygonAdjacentPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1250,7 +1250,7 @@ void UMeshDescriptionBase::GetPolygonAdjacentPolygons(const struct FPolygonID& P
 
 
 // Function:
-//		Offset -> 0x025359E0
+//		Offset -> 0x02540D80
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexVertexInstances
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1275,7 +1275,7 @@ int UMeshDescriptionBase::GetNumVertexVertexInstances(const struct FVertexID& Ve
 
 
 // Function:
-//		Offset -> 0x02535950
+//		Offset -> 0x02540CF0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1300,7 +1300,7 @@ int UMeshDescriptionBase::GetNumVertexInstanceConnectedTriangles(const struct FV
 
 
 // Function:
-//		Offset -> 0x025358C0
+//		Offset -> 0x02540C60
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1325,7 +1325,7 @@ int UMeshDescriptionBase::GetNumVertexInstanceConnectedPolygons(const struct FVe
 
 
 // Function:
-//		Offset -> 0x02535830
+//		Offset -> 0x02540BD0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1350,7 +1350,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedTriangles(const struct FVertexID&
 
 
 // Function:
-//		Offset -> 0x025357A0
+//		Offset -> 0x02540B40
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1375,7 +1375,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedPolygons(const struct FVertexID& 
 
 
 // Function:
-//		Offset -> 0x02535710
+//		Offset -> 0x02540AB0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedEdges
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1400,7 +1400,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedEdges(const struct FVertexID& Ver
 
 
 // Function:
-//		Offset -> 0x02535680
+//		Offset -> 0x02540A20
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonVertices
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1425,7 +1425,7 @@ int UMeshDescriptionBase::GetNumPolygonVertices(const struct FPolygonID& Polygon
 
 
 // Function:
-//		Offset -> 0x025355F0
+//		Offset -> 0x02540990
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1450,7 +1450,7 @@ int UMeshDescriptionBase::GetNumPolygonTriangles(const struct FPolygonID& Polygo
 
 
 // Function:
-//		Offset -> 0x02535560
+//		Offset -> 0x02540900
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonInternalEdges
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1475,7 +1475,7 @@ int UMeshDescriptionBase::GetNumPolygonInternalEdges(const struct FPolygonID& Po
 
 
 // Function:
-//		Offset -> 0x025354D0
+//		Offset -> 0x02540870
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumPolygonGroupPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1500,7 +1500,7 @@ int UMeshDescriptionBase::GetNumPolygonGroupPolygons(const struct FPolygonGroupI
 
 
 // Function:
-//		Offset -> 0x02535440
+//		Offset -> 0x025407E0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedTriangles
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1525,7 +1525,7 @@ int UMeshDescriptionBase::GetNumEdgeConnectedTriangles(const struct FEdgeID& Edg
 
 
 // Function:
-//		Offset -> 0x025353B0
+//		Offset -> 0x02540750
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1550,7 +1550,7 @@ int UMeshDescriptionBase::GetNumEdgeConnectedPolygons(const struct FEdgeID& Edge
 
 
 // Function:
-//		Offset -> 0x025352C0
+//		Offset -> 0x02540660
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1576,7 +1576,7 @@ void UMeshDescriptionBase::GetEdgeVertices(const struct FEdgeID& EdgeID, TArray<
 
 
 // Function:
-//		Offset -> 0x025351F0
+//		Offset -> 0x02540590
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1603,7 +1603,7 @@ struct FVertexID UMeshDescriptionBase::GetEdgeVertex(const struct FEdgeID& EdgeI
 
 
 // Function:
-//		Offset -> 0x02535100
+//		Offset -> 0x025404A0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedTriangles
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1629,7 +1629,7 @@ void UMeshDescriptionBase::GetEdgeConnectedTriangles(const struct FEdgeID& EdgeI
 
 
 // Function:
-//		Offset -> 0x02535010
+//		Offset -> 0x025403B0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1655,7 +1655,7 @@ void UMeshDescriptionBase::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID
 
 
 // Function:
-//		Offset -> 0x02534FF0
+//		Offset -> 0x02540390
 //		Name   -> Function MeshDescription.MeshDescriptionBase.Empty
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMeshDescriptionBase::Empty()
@@ -1674,7 +1674,7 @@ void UMeshDescriptionBase::Empty()
 
 
 // Function:
-//		Offset -> 0x02534F00
+//		Offset -> 0x025402A0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteVertexInstance
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1700,7 +1700,7 @@ void UMeshDescriptionBase::DeleteVertexInstance(const struct FVertexInstanceID& 
 
 
 // Function:
-//		Offset -> 0x02534E80
+//		Offset -> 0x02540220
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1722,7 +1722,7 @@ void UMeshDescriptionBase::DeleteVertex(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x02534CC0
+//		Offset -> 0x02540060
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteTriangle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1754,7 +1754,7 @@ void UMeshDescriptionBase::DeleteTriangle(const struct FTriangleID& TriangleID, 
 
 
 // Function:
-//		Offset -> 0x02534C40
+//		Offset -> 0x0253FFE0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeletePolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1776,7 +1776,7 @@ void UMeshDescriptionBase::DeletePolygonGroup(const struct FPolygonGroupID& Poly
 
 
 // Function:
-//		Offset -> 0x02534A80
+//		Offset -> 0x0253FE20
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeletePolygon
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1808,7 +1808,7 @@ void UMeshDescriptionBase::DeletePolygon(const struct FPolygonID& PolygonID, TAr
 
 
 // Function:
-//		Offset -> 0x02534990
+//		Offset -> 0x0253FD30
 //		Name   -> Function MeshDescription.MeshDescriptionBase.DeleteEdge
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1834,7 +1834,7 @@ void UMeshDescriptionBase::DeleteEdge(const struct FEdgeID& EdgeID, TArray<struc
 
 
 // Function:
-//		Offset -> 0x02534910
+//		Offset -> 0x0253FCB0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexWithID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1856,7 +1856,7 @@ void UMeshDescriptionBase::CreateVertexWithID(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x02534850
+//		Offset -> 0x0253FBF0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexInstanceWithID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1880,7 +1880,7 @@ void UMeshDescriptionBase::CreateVertexInstanceWithID(const struct FVertexInstan
 
 
 // Function:
-//		Offset -> 0x025347B0
+//		Offset -> 0x0253FB50
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertexInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1905,7 +1905,7 @@ struct FVertexInstanceID UMeshDescriptionBase::CreateVertexInstance(const struct
 
 
 // Function:
-//		Offset -> 0x02534770
+//		Offset -> 0x0253FB10
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1928,7 +1928,7 @@ struct FVertexID UMeshDescriptionBase::CreateVertex()
 
 
 // Function:
-//		Offset -> 0x025345D0
+//		Offset -> 0x0253F970
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateTriangleWithID
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1958,7 +1958,7 @@ void UMeshDescriptionBase::CreateTriangleWithID(const struct FTriangleID& Triang
 
 
 // Function:
-//		Offset -> 0x02534460
+//		Offset -> 0x0253F800
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateTriangle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1989,7 +1989,7 @@ struct FTriangleID UMeshDescriptionBase::CreateTriangle(const struct FPolygonGro
 
 
 // Function:
-//		Offset -> 0x025342C0
+//		Offset -> 0x0253F660
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonWithID
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2020,7 +2020,7 @@ void UMeshDescriptionBase::CreatePolygonWithID(const struct FPolygonID& PolygonI
 
 
 // Function:
-//		Offset -> 0x02534240
+//		Offset -> 0x0253F5E0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonGroupWithID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2042,7 +2042,7 @@ void UMeshDescriptionBase::CreatePolygonGroupWithID(const struct FPolygonGroupID
 
 
 // Function:
-//		Offset -> 0x02534200
+//		Offset -> 0x0253F5A0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2065,7 +2065,7 @@ struct FPolygonGroupID UMeshDescriptionBase::CreatePolygonGroup()
 
 
 // Function:
-//		Offset -> 0x02534090
+//		Offset -> 0x0253F430
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreatePolygon
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2097,7 +2097,7 @@ struct FPolygonID UMeshDescriptionBase::CreatePolygon(const struct FPolygonGroup
 
 
 // Function:
-//		Offset -> 0x02533F80
+//		Offset -> 0x0253F320
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateEdgeWithID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2123,7 +2123,7 @@ void UMeshDescriptionBase::CreateEdgeWithID(const struct FEdgeID& EdgeID, const 
 
 
 // Function:
-//		Offset -> 0x02533EB0
+//		Offset -> 0x0253F250
 //		Name   -> Function MeshDescription.MeshDescriptionBase.CreateEdge
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2150,7 +2150,7 @@ struct FEdgeID UMeshDescriptionBase::CreateEdge(const struct FVertexID& VertexID
 
 
 // Function:
-//		Offset -> 0x02533E30
+//		Offset -> 0x0253F1D0
 //		Name   -> Function MeshDescription.MeshDescriptionBase.ComputePolygonTriangulation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

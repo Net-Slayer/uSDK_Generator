@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.AnimGraph
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UAB_DeployableBallista_C::AnimGraph(struct FPoseLink* AnimGraph)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.CovertWeaponStateToDeployableBallistaState
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +67,7 @@ void UAB_DeployableBallista_C::CovertWeaponStateToDeployableBallistaState(unsign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_C83393044E04E2A35725CEB1DDFA6DE2
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_C83393044E04E2A35725CEB1DDFA6DE2()
@@ -85,7 +85,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_552B54FC4BC1B95C9D965D87C54EE0A7
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_552B54FC4BC1B95C9D965D87C54EE0A7()
@@ -103,7 +103,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_52BE36854EF87D1CD3A735846FBB2A1A
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_52BE36854EF87D1CD3A735846FBB2A1A()
@@ -121,7 +121,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_A3BE9F424378D3E6FBC1AC9CC07ED668
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_A3BE9F424378D3E6FBC1AC9CC07ED668()
@@ -139,7 +139,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_21CA53CB456341CCC7BD78AE0BE969A6
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_21CA53CB456341CCC7BD78AE0BE969A6()
@@ -157,7 +157,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_SequencePlayer_6B0C0AF64AD59F37C07E89A9A170B98F
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_SequencePlayer_6B0C0AF64AD59F37C07E89A9A170B98F()
@@ -175,7 +175,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_8EA24580488520CBB422EDBE3A398502
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_8EA24580488520CBB422EDBE3A398502()
@@ -193,7 +193,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_C9E6681A49176647A00FCBB075B7E964
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_C9E6681A49176647A00FCBB075B7E964()
@@ -211,7 +211,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_79668771469D6679C325ACA4FAF0ACA7
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_79668771469D6679C325ACA4FAF0ACA7()
@@ -229,7 +229,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_6B45609945BD6DCDFE02E59283A9A956
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_ModifyBone_6B45609945BD6DCDFE02E59283A9A956()
@@ -247,7 +247,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_FEBC7B2A464D1EAC733E9F9E13D536B4
 //		Flags  -> (BlueprintEvent)
 void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_DeployableBallista_AnimGraphNode_TransitionResult_FEBC7B2A464D1EAC733E9F9E13D536B4()
@@ -265,7 +265,7 @@ void UAB_DeployableBallista_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.BlueprintUpdateAnimation
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -286,7 +286,7 @@ void UAB_DeployableBallista_C::BlueprintUpdateAnimation(float DeltaTimeX)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.BlueprintBeginPlay
 //		Flags  -> (Event, Public, BlueprintEvent)
 void UAB_DeployableBallista_C::BlueprintBeginPlay()
@@ -304,7 +304,7 @@ void UAB_DeployableBallista_C::BlueprintBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_DeployableBallista.AB_DeployableBallista_C.ExecuteUbergraph_AB_DeployableBallista
 //		Flags  -> (Final)
 // Parameters:

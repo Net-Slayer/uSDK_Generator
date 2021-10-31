@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00A446E0
+//		Offset -> 0x00A489C0
 //		Name   -> Function VariantManagerContent.LevelVariantSets.GetVariantSetByName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -44,7 +44,7 @@ class UVariantSet* ULevelVariantSets::GetVariantSetByName(const struct FString& 
 
 
 // Function:
-//		Offset -> 0x00A44650
+//		Offset -> 0x00A48930
 //		Name   -> Function VariantManagerContent.LevelVariantSets.GetVariantSet
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -69,7 +69,7 @@ class UVariantSet* ULevelVariantSets::GetVariantSet(int VariantSetIndex)
 
 
 // Function:
-//		Offset -> 0x00A442E0
+//		Offset -> 0x00A485C0
 //		Name   -> Function VariantManagerContent.LevelVariantSets.GetNumVariantSets
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -92,7 +92,7 @@ int ULevelVariantSets::GetNumVariantSets()
 
 
 // Function:
-//		Offset -> 0x00A44AF0
+//		Offset -> 0x00A48DD0
 //		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -119,7 +119,7 @@ bool ALevelVariantSetsActor::SwitchOnVariantByName(const struct FString& Variant
 
 
 // Function:
-//		Offset -> 0x00A44A30
+//		Offset -> 0x00A48D10
 //		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -146,7 +146,7 @@ bool ALevelVariantSetsActor::SwitchOnVariantByIndex(int VariantSetIndex, int Var
 
 
 // Function:
-//		Offset -> 0x00A44990
+//		Offset -> 0x00A48C70
 //		Name   -> Function VariantManagerContent.LevelVariantSetsActor.SetLevelVariantSets
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -168,7 +168,7 @@ void ALevelVariantSetsActor::SetLevelVariantSets(class ULevelVariantSets* InVari
 
 
 // Function:
-//		Offset -> 0x00A44210
+//		Offset -> 0x00A484F0
 //		Name   -> Function VariantManagerContent.LevelVariantSetsActor.GetLevelVariantSets
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -193,7 +193,7 @@ class ULevelVariantSets* ALevelVariantSetsActor::GetLevelVariantSets(bool bLoad)
 
 
 // Function:
-//		Offset -> 0x00A447E0
+//		Offset -> 0x00A48AC0
 //		Name   -> Function VariantManagerContent.PropertyValue.HasRecordedData
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -216,7 +216,7 @@ bool UPropertyValue::HasRecordedData()
 
 
 // Function:
-//		Offset -> 0x00A443C0
+//		Offset -> 0x00A486A0
 //		Name   -> Function VariantManagerContent.PropertyValue.GetPropertyTooltip
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -239,7 +239,7 @@ struct FText UPropertyValue::GetPropertyTooltip()
 
 
 // Function:
-//		Offset -> 0x00A441D0
+//		Offset -> 0x00A484B0
 //		Name   -> Function VariantManagerContent.PropertyValue.GetFullDisplayString
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -262,7 +262,7 @@ struct FString UPropertyValue::GetFullDisplayString()
 
 
 // Function:
-//		Offset -> 0x00A44840
+//		Offset -> 0x00A48B20
 //		Name   -> Function VariantManagerContent.SwitchActor.SelectOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -284,7 +284,7 @@ void ASwitchActor::SelectOption(int OptionIndex)
 
 
 // Function:
-//		Offset -> 0x00A44460
+//		Offset -> 0x00A48740
 //		Name   -> Function VariantManagerContent.SwitchActor.GetSelectedOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -307,7 +307,7 @@ int ASwitchActor::GetSelectedOption()
 
 
 // Function:
-//		Offset -> 0x00A44340
+//		Offset -> 0x00A48620
 //		Name   -> Function VariantManagerContent.SwitchActor.GetOptions
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -330,7 +330,7 @@ TArray<class AActor*> ASwitchActor::GetOptions()
 
 
 // Function:
-//		Offset -> 0x00A44A10
+//		Offset -> 0x00A48CF0
 //		Name   -> Function VariantManagerContent.Variant.SwitchOn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UVariant::SwitchOn()
@@ -349,7 +349,7 @@ void UVariant::SwitchOn()
 
 
 // Function:
-//		Offset -> 0x00A448C0
+//		Offset -> 0x00A48BA0
 //		Name   -> Function VariantManagerContent.Variant.SetDisplayText
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -371,7 +371,7 @@ void UVariant::SetDisplayText(const struct FText& NewDisplayText)
 
 
 // Function:
-//		Offset -> 0x00A44810
+//		Offset -> 0x00A48AF0
 //		Name   -> Function VariantManagerContent.Variant.IsActive
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -394,7 +394,7 @@ bool UVariant::IsActive()
 
 
 // Function:
-//		Offset -> 0x00A44490
+//		Offset -> 0x00A48770
 //		Name   -> Function VariantManagerContent.Variant.GetThumbnail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -417,7 +417,7 @@ class UTexture2D* UVariant::GetThumbnail()
 
 
 // Function:
-//		Offset -> 0x00A442B0
+//		Offset -> 0x00A48590
 //		Name   -> Function VariantManagerContent.Variant.GetNumActors
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -440,7 +440,7 @@ int UVariant::GetNumActors()
 
 
 // Function:
-//		Offset -> 0x00A44130
+//		Offset -> 0x00A48410
 //		Name   -> Function VariantManagerContent.Variant.GetDisplayText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -463,7 +463,7 @@ struct FText UVariant::GetDisplayText()
 
 
 // Function:
-//		Offset -> 0x00A440A0
+//		Offset -> 0x00A48380
 //		Name   -> Function VariantManagerContent.Variant.GetActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -488,7 +488,7 @@ class AActor* UVariant::GetActor(int ActorIndex)
 
 
 // Function:
-//		Offset -> 0x00A448C0
+//		Offset -> 0x00A48BA0
 //		Name   -> Function VariantManagerContent.VariantSet.SetDisplayText
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -510,7 +510,7 @@ void UVariantSet::SetDisplayText(const struct FText& NewDisplayText)
 
 
 // Function:
-//		Offset -> 0x00A44550
+//		Offset -> 0x00A48830
 //		Name   -> Function VariantManagerContent.VariantSet.GetVariantByName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -535,7 +535,7 @@ class UVariant* UVariantSet::GetVariantByName(const struct FString& VariantName)
 
 
 // Function:
-//		Offset -> 0x00A444C0
+//		Offset -> 0x00A487A0
 //		Name   -> Function VariantManagerContent.VariantSet.GetVariant
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -560,7 +560,7 @@ class UVariant* UVariantSet::GetVariant(int VariantIndex)
 
 
 // Function:
-//		Offset -> 0x00A44310
+//		Offset -> 0x00A485F0
 //		Name   -> Function VariantManagerContent.VariantSet.GetNumVariants
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -583,7 +583,7 @@ int UVariantSet::GetNumVariants()
 
 
 // Function:
-//		Offset -> 0x00A44130
+//		Offset -> 0x00A48410
 //		Name   -> Function VariantManagerContent.VariantSet.GetDisplayText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

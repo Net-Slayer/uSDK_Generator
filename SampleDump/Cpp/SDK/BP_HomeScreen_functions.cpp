@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.Get_ToggleNewsButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_HomeScreen_C::Get_ToggleNewsButton_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.Get_CloseMenuButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_HomeScreen_C::Get_CloseMenuButton_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ UMG_ESlateVisibility UBP_HomeScreen_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.Get_TextBlock_14_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FText UBP_HomeScreen_C::Get_TextBlock_14_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.GetCurrentVersionText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FText UBP_HomeScreen_C::GetCurrentVersionText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.BndEvt__Button_33_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_HomeScreen_C::BndEvt__Button_33_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -147,7 +147,7 @@ void UBP_HomeScreen_C::BndEvt__Button_33_K2Node_ComponentBoundEvent_5_OnButtonCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.BndEvt__leaveButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_HomeScreen_C::BndEvt__leaveButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -165,7 +165,7 @@ void UBP_HomeScreen_C::BndEvt__leaveButton_K2Node_ComponentBoundEvent_0_OnButton
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.BndEvt__Button_64_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_HomeScreen_C::BndEvt__Button_64_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -183,7 +183,7 @@ void UBP_HomeScreen_C::BndEvt__Button_64_K2Node_ComponentBoundEvent_1_OnButtonCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.BndEvt__HideNewsButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_HomeScreen_C::BndEvt__HideNewsButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -201,7 +201,7 @@ void UBP_HomeScreen_C::BndEvt__HideNewsButton_K2Node_ComponentBoundEvent_2_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_HomeScreen_C::Construct()
@@ -219,7 +219,7 @@ void UBP_HomeScreen_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.OnItemsRefreshed
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -242,7 +242,7 @@ void UBP_HomeScreen_C::OnItemsRefreshed(bool bWasSuccessful, TArray<struct FItem
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.OnPartyUpdated
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -263,7 +263,7 @@ void UBP_HomeScreen_C::OnPartyUpdated(TArray<struct FPlayFabPlayer> PartyMembers
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.UpdatePartyList
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HomeScreen_C::UpdatePartyList()
@@ -281,7 +281,7 @@ void UBP_HomeScreen_C::UpdatePartyList()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.ToggleNews
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_HomeScreen_C::ToggleNews()
@@ -299,7 +299,7 @@ void UBP_HomeScreen_C::ToggleNews()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_HomeScreen_C::OnShown()
@@ -317,7 +317,7 @@ void UBP_HomeScreen_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScreen.BP_HomeScreen_C.ExecuteUbergraph_BP_HomeScreen
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

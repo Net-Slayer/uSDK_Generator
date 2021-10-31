@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00B01F80
+//		Offset -> 0x00B062A0
 //		Name   -> Function EditableMesh.EditableMesh.WeldVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -45,7 +45,7 @@ void UEditableMesh::WeldVertices(TArray<struct FVertexID> VertexIDs, struct FVer
 
 
 // Function:
-//		Offset -> 0x00B01E50
+//		Offset -> 0x00B06170
 //		Name   -> Function EditableMesh.EditableMesh.TryToRemoveVertex
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -74,7 +74,7 @@ void UEditableMesh::TryToRemoveVertex(const struct FVertexID& VertexID, bool* bO
 
 
 // Function:
-//		Offset -> 0x00B01D20
+//		Offset -> 0x00B06040
 //		Name   -> Function EditableMesh.EditableMesh.TryToRemovePolygonEdge
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -103,7 +103,7 @@ void UEditableMesh::TryToRemovePolygonEdge(const struct FEdgeID& EdgeID, bool* b
 
 
 // Function:
-//		Offset -> 0x00B01C00
+//		Offset -> 0x00B05F20
 //		Name   -> Function EditableMesh.EditableMesh.TriangulatePolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -129,7 +129,7 @@ void UEditableMesh::TriangulatePolygons(TArray<struct FPolygonID> PolygonIDs, TA
 
 
 // Function:
-//		Offset -> 0x00B01AA0
+//		Offset -> 0x00B05DC0
 //		Name   -> Function EditableMesh.EditableMesh.TessellatePolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -157,7 +157,7 @@ void UEditableMesh::TessellatePolygons(TArray<struct FPolygonID> PolygonIDs, Edi
 
 
 // Function:
-//		Offset -> 0x00B019E0
+//		Offset -> 0x00B05D00
 //		Name   -> Function EditableMesh.EditableMesh.StartModification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -181,7 +181,7 @@ void UEditableMesh::StartModification(EditableMesh_EMeshModificationType MeshMod
 
 
 // Function:
-//		Offset -> 0x00B018A0
+//		Offset -> 0x00B05BC0
 //		Name   -> Function EditableMesh.EditableMesh.SplitPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -207,7 +207,7 @@ void UEditableMesh::SplitPolygons(TArray<struct FPolygonToSplit> PolygonsToSplit
 
 
 // Function:
-//		Offset -> 0x00B016D0
+//		Offset -> 0x00B059F0
 //		Name   -> Function EditableMesh.EditableMesh.SplitPolygonalMesh
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -239,7 +239,7 @@ void UEditableMesh::SplitPolygonalMesh(const struct FPlane& InPlane, TArray<stru
 
 
 // Function:
-//		Offset -> 0x00B01570
+//		Offset -> 0x00B05890
 //		Name   -> Function EditableMesh.EditableMesh.SplitEdge
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -267,7 +267,7 @@ void UEditableMesh::SplitEdge(const struct FEdgeID& EdgeID, TArray<float> Splits
 
 
 // Function:
-//		Offset -> 0x00B01450
+//		Offset -> 0x00B05770
 //		Name   -> Function EditableMesh.EditableMesh.SetVerticesCornerSharpness
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -291,7 +291,7 @@ void UEditableMesh::SetVerticesCornerSharpness(TArray<struct FVertexID> VertexID
 
 
 // Function:
-//		Offset -> 0x00B01380
+//		Offset -> 0x00B056A0
 //		Name   -> Function EditableMesh.EditableMesh.SetVerticesAttributes
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -313,7 +313,7 @@ void UEditableMesh::SetVerticesAttributes(TArray<struct FAttributesForVertex> At
 
 
 // Function:
-//		Offset -> 0x00B012B0
+//		Offset -> 0x00B055D0
 //		Name   -> Function EditableMesh.EditableMesh.SetVertexInstancesAttributes
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -335,7 +335,7 @@ void UEditableMesh::SetVertexInstancesAttributes(TArray<struct FAttributesForVer
 
 
 // Function:
-//		Offset -> 0x00B01230
+//		Offset -> 0x00B05550
 //		Name   -> Function EditableMesh.EditableMesh.SetTextureCoordinateCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -357,7 +357,7 @@ void UEditableMesh::SetTextureCoordinateCount(int NumTexCoords)
 
 
 // Function:
-//		Offset -> 0x00B011B0
+//		Offset -> 0x00B054D0
 //		Name   -> Function EditableMesh.EditableMesh.SetSubdivisionCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -379,7 +379,7 @@ void UEditableMesh::SetSubdivisionCount(int NewSubdivisionCount)
 
 
 // Function:
-//		Offset -> 0x00B01040
+//		Offset -> 0x00B05360
 //		Name   -> Function EditableMesh.EditableMesh.SetPolygonsVertexAttributes
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -401,7 +401,7 @@ void UEditableMesh::SetPolygonsVertexAttributes(TArray<struct FVertexAttributesF
 
 
 // Function:
-//		Offset -> 0x00B00F40
+//		Offset -> 0x00B05260
 //		Name   -> Function EditableMesh.EditableMesh.SetEdgesHardnessAutomatically
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -425,7 +425,7 @@ void UEditableMesh::SetEdgesHardnessAutomatically(TArray<struct FEdgeID> EdgeIDs
 
 
 // Function:
-//		Offset -> 0x00B00E20
+//		Offset -> 0x00B05140
 //		Name   -> Function EditableMesh.EditableMesh.SetEdgesHardness
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -449,7 +449,7 @@ void UEditableMesh::SetEdgesHardness(TArray<struct FEdgeID> EdgeIDs, TArray<bool
 
 
 // Function:
-//		Offset -> 0x00B00D00
+//		Offset -> 0x00B05020
 //		Name   -> Function EditableMesh.EditableMesh.SetEdgesCreaseSharpness
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -473,7 +473,7 @@ void UEditableMesh::SetEdgesCreaseSharpness(TArray<struct FEdgeID> EdgeIDs, TArr
 
 
 // Function:
-//		Offset -> 0x00B00C30
+//		Offset -> 0x00B04F50
 //		Name   -> Function EditableMesh.EditableMesh.SetEdgesAttributes
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -495,7 +495,7 @@ void UEditableMesh::SetEdgesAttributes(TArray<struct FAttributesForEdge> Attribu
 
 
 // Function:
-//		Offset -> 0x00B00BB0
+//		Offset -> 0x00B04ED0
 //		Name   -> Function EditableMesh.EditableMesh.SetAllowUndo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -517,7 +517,7 @@ void UEditableMesh::SetAllowUndo(bool bInAllowUndo)
 
 
 // Function:
-//		Offset -> 0x00B00B20
+//		Offset -> 0x00B04E40
 //		Name   -> Function EditableMesh.EditableMesh.SetAllowSpatialDatabase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -539,7 +539,7 @@ void UEditableMesh::SetAllowSpatialDatabase(bool bInAllowSpatialDatabase)
 
 
 // Function:
-//		Offset -> 0x00B00AA0
+//		Offset -> 0x00B04DC0
 //		Name   -> Function EditableMesh.EditableMesh.SetAllowCompact
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -561,7 +561,7 @@ void UEditableMesh::SetAllowCompact(bool bInAllowCompact)
 
 
 // Function:
-//		Offset -> 0x00B009A0
+//		Offset -> 0x00B04CC0
 //		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -587,7 +587,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane
 
 
 // Function:
-//		Offset -> 0x00B00850
+//		Offset -> 0x00B04B70
 //		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineSegment
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -615,7 +615,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineS
 
 
 // Function:
-//		Offset -> 0x00B00730
+//		Offset -> 0x00B04A50
 //		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsInVolume
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -641,7 +641,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsInVolume(TArray<struct FPlan
 
 
 // Function:
-//		Offset -> 0x00B00700
+//		Offset -> 0x00B04A20
 //		Name   -> Function EditableMesh.EditableMesh.RevertInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -664,7 +664,7 @@ class UEditableMesh* UEditableMesh::RevertInstance()
 
 
 // Function:
-//		Offset -> 0x00B00610
+//		Offset -> 0x00B04930
 //		Name   -> Function EditableMesh.EditableMesh.Revert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableMesh::Revert()
@@ -683,7 +683,7 @@ void UEditableMesh::Revert()
 
 
 // Function:
-//		Offset -> 0x00B006E0
+//		Offset -> 0x00B04A00
 //		Name   -> Function EditableMesh.EditableMesh.RebuildRenderMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableMesh::RebuildRenderMesh()
@@ -702,7 +702,7 @@ void UEditableMesh::RebuildRenderMesh()
 
 
 // Function:
-//		Offset -> 0x00B00630
+//		Offset -> 0x00B04950
 //		Name   -> Function EditableMesh.EditableMesh.QuadrangulateMesh
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -726,7 +726,7 @@ void UEditableMesh::QuadrangulateMesh(TArray<struct FPolygonID>* OutNewPolygonID
 
 
 // Function:
-//		Offset -> 0x00B00610
+//		Offset -> 0x00B04930
 //		Name   -> Function EditableMesh.EditableMesh.PropagateInstanceChanges
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableMesh::PropagateInstanceChanges()
@@ -745,7 +745,7 @@ void UEditableMesh::PropagateInstanceChanges()
 
 
 // Function:
-//		Offset -> 0x00B00560
+//		Offset -> 0x00B04880
 //		Name   -> Function EditableMesh.EditableMesh.MoveVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -767,7 +767,7 @@ void UEditableMesh::MoveVertices(TArray<struct FVertexToMove> VerticesToMove)
 
 
 // Function:
-//		Offset -> 0x00B004E0
+//		Offset -> 0x00B04800
 //		Name   -> Function EditableMesh.EditableMesh.MakeVertexID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -792,7 +792,7 @@ struct FVertexID UEditableMesh::STATIC_MakeVertexID(int VertexIndex)
 
 
 // Function:
-//		Offset -> 0x00B004E0
+//		Offset -> 0x00B04800
 //		Name   -> Function EditableMesh.EditableMesh.MakePolygonID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -817,7 +817,7 @@ struct FPolygonID UEditableMesh::STATIC_MakePolygonID(int PolygonIndex)
 
 
 // Function:
-//		Offset -> 0x00B004E0
+//		Offset -> 0x00B04800
 //		Name   -> Function EditableMesh.EditableMesh.MakePolygonGroupID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -842,7 +842,7 @@ struct FPolygonGroupID UEditableMesh::STATIC_MakePolygonGroupID(int PolygonGroup
 
 
 // Function:
-//		Offset -> 0x00B004E0
+//		Offset -> 0x00B04800
 //		Name   -> Function EditableMesh.EditableMesh.MakeEdgeID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -867,7 +867,7 @@ struct FEdgeID UEditableMesh::STATIC_MakeEdgeID(int EdgeIndex)
 
 
 // Function:
-//		Offset -> 0x00B00450
+//		Offset -> 0x00B04770
 //		Name   -> Function EditableMesh.EditableMesh.IsValidVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -892,7 +892,7 @@ bool UEditableMesh::IsValidVertex(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x00B003C0
+//		Offset -> 0x00B046E0
 //		Name   -> Function EditableMesh.EditableMesh.IsValidPolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -917,7 +917,7 @@ bool UEditableMesh::IsValidPolygonGroup(const struct FPolygonGroupID& PolygonGro
 
 
 // Function:
-//		Offset -> 0x00B00330
+//		Offset -> 0x00B04650
 //		Name   -> Function EditableMesh.EditableMesh.IsValidPolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -942,7 +942,7 @@ bool UEditableMesh::IsValidPolygon(const struct FPolygonID& PolygonID)
 
 
 // Function:
-//		Offset -> 0x00B002A0
+//		Offset -> 0x00B045C0
 //		Name   -> Function EditableMesh.EditableMesh.IsValidEdge
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -967,7 +967,7 @@ bool UEditableMesh::IsValidEdge(const struct FEdgeID& EdgeID)
 
 
 // Function:
-//		Offset -> 0x00B00280
+//		Offset -> 0x00B045A0
 //		Name   -> Function EditableMesh.EditableMesh.IsUndoAllowed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -990,7 +990,7 @@ bool UEditableMesh::IsUndoAllowed()
 
 
 // Function:
-//		Offset -> 0x00B00260
+//		Offset -> 0x00B04580
 //		Name   -> Function EditableMesh.EditableMesh.IsSpatialDatabaseAllowed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1013,7 +1013,7 @@ bool UEditableMesh::IsSpatialDatabaseAllowed()
 
 
 // Function:
-//		Offset -> 0x00B00230
+//		Offset -> 0x00B04550
 //		Name   -> Function EditableMesh.EditableMesh.IsPreviewingSubdivisions
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1036,7 +1036,7 @@ bool UEditableMesh::IsPreviewingSubdivisions()
 
 
 // Function:
-//		Offset -> 0x00B001A0
+//		Offset -> 0x00B044C0
 //		Name   -> Function EditableMesh.EditableMesh.IsOrphanedVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1061,7 +1061,7 @@ bool UEditableMesh::IsOrphanedVertex(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x00B00180
+//		Offset -> 0x00B044A0
 //		Name   -> Function EditableMesh.EditableMesh.IsCompactAllowed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1084,7 +1084,7 @@ bool UEditableMesh::IsCompactAllowed()
 
 
 // Function:
-//		Offset -> 0x00B00150
+//		Offset -> 0x00B04470
 //		Name   -> Function EditableMesh.EditableMesh.IsCommittedAsInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1107,7 +1107,7 @@ bool UEditableMesh::IsCommittedAsInstance()
 
 
 // Function:
-//		Offset -> 0x00B00120
+//		Offset -> 0x00B04440
 //		Name   -> Function EditableMesh.EditableMesh.IsCommitted
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1130,7 +1130,7 @@ bool UEditableMesh::IsCommitted()
 
 
 // Function:
-//		Offset -> 0x00B000F0
+//		Offset -> 0x00B04410
 //		Name   -> Function EditableMesh.EditableMesh.IsBeingModified
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1153,7 +1153,7 @@ bool UEditableMesh::IsBeingModified()
 
 
 // Function:
-//		Offset -> 0x00B000D0
+//		Offset -> 0x00B043F0
 //		Name   -> Function EditableMesh.EditableMesh.InvalidVertexID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1176,7 +1176,7 @@ struct FVertexID UEditableMesh::STATIC_InvalidVertexID()
 
 
 // Function:
-//		Offset -> 0x00B000B0
+//		Offset -> 0x00B043D0
 //		Name   -> Function EditableMesh.EditableMesh.InvalidPolygonID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1199,7 +1199,7 @@ struct FPolygonID UEditableMesh::STATIC_InvalidPolygonID()
 
 
 // Function:
-//		Offset -> 0x00B00090
+//		Offset -> 0x00B043B0
 //		Name   -> Function EditableMesh.EditableMesh.InvalidPolygonGroupID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1222,7 +1222,7 @@ struct FPolygonGroupID UEditableMesh::STATIC_InvalidPolygonGroupID()
 
 
 // Function:
-//		Offset -> 0x00B00070
+//		Offset -> 0x00B04390
 //		Name   -> Function EditableMesh.EditableMesh.InvalidEdgeID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1245,7 +1245,7 @@ struct FEdgeID UEditableMesh::STATIC_InvalidEdgeID()
 
 
 // Function:
-//		Offset -> 0x00AFFE30
+//		Offset -> 0x00B04150
 //		Name   -> Function EditableMesh.EditableMesh.InsetPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1280,7 +1280,7 @@ void UEditableMesh::InsetPolygons(TArray<struct FPolygonID> PolygonIDs, float In
 
 
 // Function:
-//		Offset -> 0x00AFFCD0
+//		Offset -> 0x00B03FF0
 //		Name   -> Function EditableMesh.EditableMesh.InsertEdgeLoop
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1308,7 +1308,7 @@ void UEditableMesh::InsertEdgeLoop(const struct FEdgeID& EdgeID, TArray<float> S
 
 
 // Function:
-//		Offset -> 0x00AFFCB0
+//		Offset -> 0x00B03FD0
 //		Name   -> Function EditableMesh.EditableMesh.InitializeAdapters
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableMesh::InitializeAdapters()
@@ -1327,7 +1327,7 @@ void UEditableMesh::InitializeAdapters()
 
 
 // Function:
-//		Offset -> 0x00AFFB80
+//		Offset -> 0x00B03EA0
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexPairEdge
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1358,7 +1358,7 @@ struct FEdgeID UEditableMesh::GetVertexPairEdge(const struct FVertexID& VertexID
 
 
 // Function:
-//		Offset -> 0x00AFFAE0
+//		Offset -> 0x00B03E00
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1383,7 +1383,7 @@ struct FVertexID UEditableMesh::GetVertexInstanceVertex(const struct FVertexInst
 
 
 // Function:
-//		Offset -> 0x00AFFAB0
+//		Offset -> 0x00B03DD0
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1406,7 +1406,7 @@ int UEditableMesh::GetVertexInstanceCount()
 
 
 // Function:
-//		Offset -> 0x00AFF9C0
+//		Offset -> 0x00B03CE0
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1432,7 +1432,7 @@ void UEditableMesh::GetVertexInstanceConnectedPolygons(const struct FVertexInsta
 
 
 // Function:
-//		Offset -> 0x00AFF930
+//		Offset -> 0x00B03C50
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygonCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1457,7 +1457,7 @@ int UEditableMesh::GetVertexInstanceConnectedPolygonCount(const struct FVertexIn
 
 
 // Function:
-//		Offset -> 0x00AFF860
+//		Offset -> 0x00B03B80
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1484,7 +1484,7 @@ struct FPolygonID UEditableMesh::GetVertexInstanceConnectedPolygon(const struct 
 
 
 // Function:
-//		Offset -> 0x00AFF830
+//		Offset -> 0x00B03B50
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1507,7 +1507,7 @@ int UEditableMesh::GetVertexCount()
 
 
 // Function:
-//		Offset -> 0x00AFF740
+//		Offset -> 0x00B03A60
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1533,7 +1533,7 @@ void UEditableMesh::GetVertexConnectedPolygons(const struct FVertexID& VertexID,
 
 
 // Function:
-//		Offset -> 0x00AFF650
+//		Offset -> 0x00B03970
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1559,7 +1559,7 @@ void UEditableMesh::GetVertexConnectedEdges(const struct FVertexID& VertexID, TA
 
 
 // Function:
-//		Offset -> 0x00AFF5C0
+//		Offset -> 0x00B038E0
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdgeCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1584,7 +1584,7 @@ int UEditableMesh::GetVertexConnectedEdgeCount(const struct FVertexID& VertexID)
 
 
 // Function:
-//		Offset -> 0x00AFF4F0
+//		Offset -> 0x00B03810
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdge
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1611,7 +1611,7 @@ struct FEdgeID UEditableMesh::GetVertexConnectedEdge(const struct FVertexID& Ver
 
 
 // Function:
-//		Offset -> 0x00AFF400
+//		Offset -> 0x00B03720
 //		Name   -> Function EditableMesh.EditableMesh.GetVertexAdjacentVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1637,7 +1637,7 @@ void UEditableMesh::GetVertexAdjacentVertices(const struct FVertexID& VertexID, 
 
 
 // Function:
-//		Offset -> 0x00AFF3D0
+//		Offset -> 0x00B036F0
 //		Name   -> Function EditableMesh.EditableMesh.GetTextureCoordinateCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1660,7 +1660,7 @@ int UEditableMesh::GetTextureCoordinateCount()
 
 
 // Function:
-//		Offset -> 0x00AFF390
+//		Offset -> 0x00B036B0
 //		Name   -> Function EditableMesh.EditableMesh.GetSubdivisionLimitData
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1683,7 +1683,7 @@ struct FSubdivisionLimitData UEditableMesh::GetSubdivisionLimitData()
 
 
 // Function:
-//		Offset -> 0x00AFF360
+//		Offset -> 0x00B03680
 //		Name   -> Function EditableMesh.EditableMesh.GetSubdivisionCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1706,7 +1706,7 @@ int UEditableMesh::GetSubdivisionCount()
 
 
 // Function:
-//		Offset -> 0x00AFF2D0
+//		Offset -> 0x00B035F0
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangleCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1731,7 +1731,7 @@ int UEditableMesh::GetPolygonTriangulatedTriangleCount(const struct FPolygonID& 
 
 
 // Function:
-//		Offset -> 0x00AFF200
+//		Offset -> 0x00B03520
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1758,7 +1758,7 @@ struct FTriangleID UEditableMesh::GetPolygonTriangulatedTriangle(const struct FP
 
 
 // Function:
-//		Offset -> 0x00AFF110
+//		Offset -> 0x00B03430
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1784,7 +1784,7 @@ void UEditableMesh::GetPolygonPerimeterVertices(const struct FPolygonID& Polygon
 
 
 // Function:
-//		Offset -> 0x00AFF020
+//		Offset -> 0x00B03340
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1810,7 +1810,7 @@ void UEditableMesh::GetPolygonPerimeterVertexInstances(const struct FPolygonID& 
 
 
 // Function:
-//		Offset -> 0x00AFEF50
+//		Offset -> 0x00B03270
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1837,7 +1837,7 @@ struct FVertexInstanceID UEditableMesh::GetPolygonPerimeterVertexInstance(const 
 
 
 // Function:
-//		Offset -> 0x00AFED00
+//		Offset -> 0x00B03020
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1862,7 +1862,7 @@ int UEditableMesh::GetPolygonPerimeterVertexCount(const struct FPolygonID& Polyg
 
 
 // Function:
-//		Offset -> 0x00AFEE80
+//		Offset -> 0x00B031A0
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1889,7 +1889,7 @@ struct FVertexID UEditableMesh::GetPolygonPerimeterVertex(const struct FPolygonI
 
 
 // Function:
-//		Offset -> 0x00AFED90
+//		Offset -> 0x00B030B0
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1915,7 +1915,7 @@ void UEditableMesh::GetPolygonPerimeterEdges(const struct FPolygonID& PolygonID,
 
 
 // Function:
-//		Offset -> 0x00AFED00
+//		Offset -> 0x00B03020
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdgeCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1940,7 +1940,7 @@ int UEditableMesh::GetPolygonPerimeterEdgeCount(const struct FPolygonID& Polygon
 
 
 // Function:
-//		Offset -> 0x00AFEBE0
+//		Offset -> 0x00B02F00
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdge
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1971,7 +1971,7 @@ struct FEdgeID UEditableMesh::GetPolygonPerimeterEdge(const struct FPolygonID& P
 
 
 // Function:
-//		Offset -> 0x00AFEB10
+//		Offset -> 0x00B02E30
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonInGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1998,7 +1998,7 @@ struct FPolygonID UEditableMesh::GetPolygonInGroup(const struct FPolygonGroupID&
 
 
 // Function:
-//		Offset -> 0x00AFEAE0
+//		Offset -> 0x00B02E00
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonGroupCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2021,7 +2021,7 @@ int UEditableMesh::GetPolygonGroupCount()
 
 
 // Function:
-//		Offset -> 0x00AFEA50
+//		Offset -> 0x00B02D70
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonCountInGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2046,7 +2046,7 @@ int UEditableMesh::GetPolygonCountInGroup(const struct FPolygonGroupID& PolygonG
 
 
 // Function:
-//		Offset -> 0x00AFEA20
+//		Offset -> 0x00B02D40
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2069,7 +2069,7 @@ int UEditableMesh::GetPolygonCount()
 
 
 // Function:
-//		Offset -> 0x00AFE930
+//		Offset -> 0x00B02C50
 //		Name   -> Function EditableMesh.EditableMesh.GetPolygonAdjacentPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2095,7 +2095,7 @@ void UEditableMesh::GetPolygonAdjacentPolygons(const struct FPolygonID& PolygonI
 
 
 // Function:
-//		Offset -> 0x00AFE890
+//		Offset -> 0x00B02BB0
 //		Name   -> Function EditableMesh.EditableMesh.GetGroupForPolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2120,7 +2120,7 @@ struct FPolygonGroupID UEditableMesh::GetGroupForPolygon(const struct FPolygonID
 
 
 // Function:
-//		Offset -> 0x00AFE850
+//		Offset -> 0x00B02B70
 //		Name   -> Function EditableMesh.EditableMesh.GetFirstValidPolygonGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2143,7 +2143,7 @@ struct FPolygonGroupID UEditableMesh::GetFirstValidPolygonGroup()
 
 
 // Function:
-//		Offset -> 0x00AFE720
+//		Offset -> 0x00B02A40
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2172,7 +2172,7 @@ void UEditableMesh::GetEdgeVertices(const struct FEdgeID& EdgeID, struct FVertex
 
 
 // Function:
-//		Offset -> 0x00AFE650
+//		Offset -> 0x00B02970
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2199,7 +2199,7 @@ struct FVertexID UEditableMesh::GetEdgeVertex(const struct FEdgeID& EdgeID, int 
 
 
 // Function:
-//		Offset -> 0x00AFE580
+//		Offset -> 0x00B028A0
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeThatConnectsVertices
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2226,7 +2226,7 @@ struct FEdgeID UEditableMesh::GetEdgeThatConnectsVertices(const struct FVertexID
 
 
 // Function:
-//		Offset -> 0x00AFE490
+//		Offset -> 0x00B027B0
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeLoopElements
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2252,7 +2252,7 @@ void UEditableMesh::GetEdgeLoopElements(const struct FEdgeID& EdgeID, TArray<str
 
 
 // Function:
-//		Offset -> 0x00AFE460
+//		Offset -> 0x00B02780
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2275,7 +2275,7 @@ int UEditableMesh::GetEdgeCount()
 
 
 // Function:
-//		Offset -> 0x00AFE370
+//		Offset -> 0x00B02690
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2301,7 +2301,7 @@ void UEditableMesh::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID, TArra
 
 
 // Function:
-//		Offset -> 0x00AFE2E0
+//		Offset -> 0x00B02600
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygonCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2326,7 +2326,7 @@ int UEditableMesh::GetEdgeConnectedPolygonCount(const struct FEdgeID& EdgeID)
 
 
 // Function:
-//		Offset -> 0x00AFE210
+//		Offset -> 0x00B02530
 //		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygon
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2353,7 +2353,7 @@ struct FPolygonID UEditableMesh::GetEdgeConnectedPolygon(const struct FEdgeID& E
 
 
 // Function:
-//		Offset -> 0x00AFE160
+//		Offset -> 0x00B02480
 //		Name   -> Function EditableMesh.EditableMesh.GeneratePolygonTangentsAndNormals
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2375,7 +2375,7 @@ void UEditableMesh::GeneratePolygonTangentsAndNormals(TArray<struct FPolygonID> 
 
 
 // Function:
-//		Offset -> 0x00AFE0B0
+//		Offset -> 0x00B023D0
 //		Name   -> Function EditableMesh.EditableMesh.FlipPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2397,7 +2397,7 @@ void UEditableMesh::FlipPolygons(TArray<struct FPolygonID> PolygonIDs)
 
 
 // Function:
-//		Offset -> 0x00AFDFE0
+//		Offset -> 0x00B02300
 //		Name   -> Function EditableMesh.EditableMesh.FindPolygonPerimeterVertexNumberForVertex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2424,7 +2424,7 @@ int UEditableMesh::FindPolygonPerimeterVertexNumberForVertex(const struct FPolyg
 
 
 // Function:
-//		Offset -> 0x00AFDED0
+//		Offset -> 0x00B021F0
 //		Name   -> Function EditableMesh.EditableMesh.FindPolygonPerimeterEdgeNumberForVertices
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2453,7 +2453,7 @@ int UEditableMesh::FindPolygonPerimeterEdgeNumberForVertices(const struct FPolyg
 
 
 // Function:
-//		Offset -> 0x00AFDCB0
+//		Offset -> 0x00B01FD0
 //		Name   -> Function EditableMesh.EditableMesh.FindPolygonLoop
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2488,7 +2488,7 @@ void UEditableMesh::FindPolygonLoop(const struct FEdgeID& EdgeID, TArray<struct 
 
 
 // Function:
-//		Offset -> 0x00AFDAF0
+//		Offset -> 0x00B01E10
 //		Name   -> Function EditableMesh.EditableMesh.ExtrudePolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2518,7 +2518,7 @@ void UEditableMesh::ExtrudePolygons(TArray<struct FPolygonID> Polygons, float Ex
 
 
 // Function:
-//		Offset -> 0x00AFD940
+//		Offset -> 0x00B01C60
 //		Name   -> Function EditableMesh.EditableMesh.ExtendVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2548,7 +2548,7 @@ void UEditableMesh::ExtendVertices(TArray<struct FVertexID> VertexIDs, bool bOnl
 
 
 // Function:
-//		Offset -> 0x00AFD7E0
+//		Offset -> 0x00B01B00
 //		Name   -> Function EditableMesh.EditableMesh.ExtendEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2576,7 +2576,7 @@ void UEditableMesh::ExtendEdges(TArray<struct FEdgeID> EdgeIDs, bool bWeldNeighb
 
 
 // Function:
-//		Offset -> 0x00AFD750
+//		Offset -> 0x00B01A70
 //		Name   -> Function EditableMesh.EditableMesh.EndModification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2598,7 +2598,7 @@ void UEditableMesh::EndModification(bool bFromUndo)
 
 
 // Function:
-//		Offset -> 0x00AFD650
+//		Offset -> 0x00B01970
 //		Name   -> Function EditableMesh.EditableMesh.DeleteVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2622,7 +2622,7 @@ void UEditableMesh::DeleteVertexInstances(TArray<struct FVertexInstanceID> Verte
 
 
 // Function:
-//		Offset -> 0x00AFD4A0
+//		Offset -> 0x00B017C0
 //		Name   -> Function EditableMesh.EditableMesh.DeleteVertexAndConnectedEdgesAndPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2652,7 +2652,7 @@ void UEditableMesh::DeleteVertexAndConnectedEdgesAndPolygons(const struct FVerte
 
 
 // Function:
-//		Offset -> 0x00AFD2B0
+//		Offset -> 0x00B015D0
 //		Name   -> Function EditableMesh.EditableMesh.DeletePolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2682,7 +2682,7 @@ void UEditableMesh::DeletePolygons(TArray<struct FPolygonID> PolygonIDsToDelete,
 
 
 // Function:
-//		Offset -> 0x00AFD200
+//		Offset -> 0x00B01520
 //		Name   -> Function EditableMesh.EditableMesh.DeletePolygonGroups
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2704,7 +2704,7 @@ void UEditableMesh::DeletePolygonGroups(TArray<struct FPolygonGroupID> PolygonGr
 
 
 // Function:
-//		Offset -> 0x00AFD150
+//		Offset -> 0x00B01470
 //		Name   -> Function EditableMesh.EditableMesh.DeleteOrphanVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2726,7 +2726,7 @@ void UEditableMesh::DeleteOrphanVertices(TArray<struct FVertexID> VertexIDsToDel
 
 
 // Function:
-//		Offset -> 0x00AFD050
+//		Offset -> 0x00B01370
 //		Name   -> Function EditableMesh.EditableMesh.DeleteEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2750,7 +2750,7 @@ void UEditableMesh::DeleteEdges(TArray<struct FEdgeID> EdgeIDsToDelete, bool bDe
 
 
 // Function:
-//		Offset -> 0x00AFCEA0
+//		Offset -> 0x00B011C0
 //		Name   -> Function EditableMesh.EditableMesh.DeleteEdgeAndConnectedPolygons
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2780,7 +2780,7 @@ void UEditableMesh::DeleteEdgeAndConnectedPolygons(const struct FEdgeID& EdgeID,
 
 
 // Function:
-//		Offset -> 0x00AFCD60
+//		Offset -> 0x00B01080
 //		Name   -> Function EditableMesh.EditableMesh.CreateVertices
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2806,7 +2806,7 @@ void UEditableMesh::CreateVertices(TArray<struct FVertexToCreate> VerticesToCrea
 
 
 // Function:
-//		Offset -> 0x00AFCC20
+//		Offset -> 0x00B00F40
 //		Name   -> Function EditableMesh.EditableMesh.CreateVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2832,7 +2832,7 @@ void UEditableMesh::CreateVertexInstances(TArray<struct FVertexInstanceToCreate>
 
 
 // Function:
-//		Offset -> 0x00AFCA40
+//		Offset -> 0x00B00D60
 //		Name   -> Function EditableMesh.EditableMesh.CreatePolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2861,7 +2861,7 @@ void UEditableMesh::CreatePolygons(TArray<struct FPolygonToCreate> PolygonsToCre
 
 
 // Function:
-//		Offset -> 0x00AFC900
+//		Offset -> 0x00B00C20
 //		Name   -> Function EditableMesh.EditableMesh.CreatePolygonGroups
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2887,7 +2887,7 @@ void UEditableMesh::CreatePolygonGroups(TArray<struct FPolygonGroupToCreate> Pol
 
 
 // Function:
-//		Offset -> 0x00AFC810
+//		Offset -> 0x00B00B30
 //		Name   -> Function EditableMesh.EditableMesh.CreateMissingPolygonPerimeterEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2913,7 +2913,7 @@ void UEditableMesh::CreateMissingPolygonPerimeterEdges(const struct FPolygonID& 
 
 
 // Function:
-//		Offset -> 0x00AFC720
+//		Offset -> 0x00B00A40
 //		Name   -> Function EditableMesh.EditableMesh.CreateEmptyVertexRange
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2939,7 +2939,7 @@ void UEditableMesh::CreateEmptyVertexRange(int NumVerticesToCreate, TArray<struc
 
 
 // Function:
-//		Offset -> 0x00AFC5E0
+//		Offset -> 0x00B00900
 //		Name   -> Function EditableMesh.EditableMesh.CreateEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2965,7 +2965,7 @@ void UEditableMesh::CreateEdges(TArray<struct FEdgeToCreate> EdgesToCreate, TArr
 
 
 // Function:
-//		Offset -> 0x00AFC4C0
+//		Offset -> 0x00B007E0
 //		Name   -> Function EditableMesh.EditableMesh.ComputePolygonsSharedEdges
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2991,7 +2991,7 @@ void UEditableMesh::ComputePolygonsSharedEdges(TArray<struct FPolygonID> Polygon
 
 
 // Function:
-//		Offset -> 0x00AFC420
+//		Offset -> 0x00B00740
 //		Name   -> Function EditableMesh.EditableMesh.ComputePolygonPlane
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3016,7 +3016,7 @@ struct FPlane UEditableMesh::ComputePolygonPlane(const struct FPolygonID& Polygo
 
 
 // Function:
-//		Offset -> 0x00AFC380
+//		Offset -> 0x00B006A0
 //		Name   -> Function EditableMesh.EditableMesh.ComputePolygonNormal
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3041,7 +3041,7 @@ struct FVector UEditableMesh::ComputePolygonNormal(const struct FPolygonID& Poly
 
 
 // Function:
-//		Offset -> 0x00AFC2E0
+//		Offset -> 0x00B00600
 //		Name   -> Function EditableMesh.EditableMesh.ComputePolygonCenter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3066,7 +3066,7 @@ struct FVector UEditableMesh::ComputePolygonCenter(const struct FPolygonID& Poly
 
 
 // Function:
-//		Offset -> 0x00AFC290
+//		Offset -> 0x00B005B0
 //		Name   -> Function EditableMesh.EditableMesh.ComputeBoundingBoxAndSphere
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3089,7 +3089,7 @@ struct FBoxSphereBounds UEditableMesh::ComputeBoundingBoxAndSphere()
 
 
 // Function:
-//		Offset -> 0x00AFC240
+//		Offset -> 0x00B00560
 //		Name   -> Function EditableMesh.EditableMesh.ComputeBoundingBox
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3112,7 +3112,7 @@ struct FBox UEditableMesh::ComputeBoundingBox()
 
 
 // Function:
-//		Offset -> 0x00AFC1B0
+//		Offset -> 0x00B004D0
 //		Name   -> Function EditableMesh.EditableMesh.CommitInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3137,7 +3137,7 @@ class UEditableMesh* UEditableMesh::CommitInstance(class UPrimitiveComponent* Co
 
 
 // Function:
-//		Offset -> 0x00AFC190
+//		Offset -> 0x00B004B0
 //		Name   -> Function EditableMesh.EditableMesh.Commit
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableMesh::Commit()
@@ -3156,7 +3156,7 @@ void UEditableMesh::Commit()
 
 
 // Function:
-//		Offset -> 0x00AFC070
+//		Offset -> 0x00B00390
 //		Name   -> Function EditableMesh.EditableMesh.ChangePolygonsVertexInstances
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3178,7 +3178,7 @@ void UEditableMesh::ChangePolygonsVertexInstances(TArray<struct FChangeVertexIns
 
 
 // Function:
-//		Offset -> 0x00AFBE80
+//		Offset -> 0x00B001A0
 //		Name   -> Function EditableMesh.EditableMesh.BevelPolygons
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3211,7 +3211,7 @@ void UEditableMesh::BevelPolygons(TArray<struct FPolygonID> PolygonIDs, float Be
 
 
 // Function:
-//		Offset -> 0x00AFBD80
+//		Offset -> 0x00B000A0
 //		Name   -> Function EditableMesh.EditableMesh.AssignPolygonsToPolygonGroups
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3235,7 +3235,7 @@ void UEditableMesh::AssignPolygonsToPolygonGroups(TArray<struct FPolygonGroupFor
 
 
 // Function:
-//		Offset -> 0x00AFBD50
+//		Offset -> 0x00B00070
 //		Name   -> Function EditableMesh.EditableMesh.AnyChangesToUndo
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3258,7 +3258,7 @@ bool UEditableMesh::AnyChangesToUndo()
 
 
 // Function:
-//		Offset -> 0x00B05410
+//		Offset -> 0x00B09730
 //		Name   -> Function EditableMesh.EditableMeshFactory.MakeEditableMesh
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

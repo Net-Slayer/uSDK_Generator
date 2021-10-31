@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -41,7 +41,7 @@ public:
 class UMeshDescriptionBase : public UObject
 {
 public:
-	unsigned char                                      UnknownData_O9DZ[0x368];                                   // 0x0028(0x0368) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_JTNU[0x368];                                   // 0x0028(0x0368) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

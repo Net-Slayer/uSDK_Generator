@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.SetOriginCorner
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_ColorPickerContainer_C::SetOriginCorner(int Corner)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.GetColorPickerApproximateWidth
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_ColorPickerContainer_C::GetColorPickerApproximateWidth(float* Width)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.GetColorPickerApproximateHeight
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_ColorPickerContainer_C::GetColorPickerApproximateHeight(float* Height)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.SetColors
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -109,7 +109,7 @@ void UBP_ColorPickerContainer_C::SetColors(TArray<class UClass*>* Colors)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ColorPickerContainer_C::Show()
@@ -127,7 +127,7 @@ void UBP_ColorPickerContainer_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerContainer.BP_ColorPickerContainer_C.ExecuteUbergraph_BP_ColorPickerContainer
 //		Flags  -> (Final)
 // Parameters:

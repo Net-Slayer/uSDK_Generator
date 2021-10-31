@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -52,7 +52,7 @@ public:
 	struct FSlateBrush                                 DeselectedStyle;                                           // 0x0378(0x0088) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FScriptMulticastDelegate                    SelectionChanged;                                          // 0x0400(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                               bIsSelected;                                               // 0x0410(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_RVS3[0x7];                                     // 0x0411(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_G84D[0x7];                                     // 0x0411(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FText                                       GameModeName;                                              // 0x0418(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	class UTexture2D*                                  ThumbImage;                                                // 0x0430(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FText                                       InfoText;                                                  // 0x0438(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)

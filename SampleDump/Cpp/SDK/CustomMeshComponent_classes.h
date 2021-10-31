@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,8 +24,8 @@ namespace CG
 class UCustomMeshComponent : public UMeshComponent
 {
 public:
-	unsigned char                                      UnknownData_EPIT[0x8];                                     // 0x0418(0x0008) Fix Super Size
-	unsigned char                                      UnknownData_ZKS4[0x10];                                    // 0x0420(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WZ72[0x8];                                     // 0x0418(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_8UAU[0x10];                                    // 0x0420(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

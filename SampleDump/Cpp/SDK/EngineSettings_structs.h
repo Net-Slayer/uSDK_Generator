@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -68,7 +68,7 @@ struct FAutoCompleteCommand
 {
 	struct FString                                     Command;                                                   // 0x0000(0x0010) (Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Desc;                                                      // 0x0010(0x0010) (Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_I6BJ[0x8];                                     // 0x0020(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_NV4U[0x8];                                     // 0x0020(0x0008) MISSED OFFSET (PADDING)
 
 };
 

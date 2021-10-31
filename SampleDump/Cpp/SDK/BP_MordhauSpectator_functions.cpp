@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_MouseScrollUp_K2Node_InputKeyEvent_9
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_MordhauSpectator_C::InpActEvt_MouseScrollUp_K2Node_InputKeyEvent_9(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_MouseScrollDown_K2Node_InputKeyEvent_8
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void ABP_MordhauSpectator_C::InpActEvt_MouseScrollDown_K2Node_InputKeyEvent_8(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_F_K2Node_InputKeyEvent_7
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void ABP_MordhauSpectator_C::InpActEvt_F_K2Node_InputKeyEvent_7(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_I_K2Node_InputKeyEvent_6
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void ABP_MordhauSpectator_C::InpActEvt_I_K2Node_InputKeyEvent_6(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_G_K2Node_InputKeyEvent_5
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -124,7 +124,7 @@ void ABP_MordhauSpectator_C::InpActEvt_G_K2Node_InputKeyEvent_5(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_H_K2Node_InputKeyEvent_4
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -145,7 +145,7 @@ void ABP_MordhauSpectator_C::InpActEvt_H_K2Node_InputKeyEvent_4(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_T_K2Node_InputKeyEvent_3
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -166,7 +166,7 @@ void ABP_MordhauSpectator_C::InpActEvt_T_K2Node_InputKeyEvent_3(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_R_K2Node_InputKeyEvent_2
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -187,7 +187,7 @@ void ABP_MordhauSpectator_C::InpActEvt_R_K2Node_InputKeyEvent_2(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.InpActEvt_O_K2Node_InputKeyEvent_1
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -208,7 +208,7 @@ void ABP_MordhauSpectator_C::InpActEvt_O_K2Node_InputKeyEvent_1(const struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauSpectator.BP_MordhauSpectator_C.ExecuteUbergraph_BP_MordhauSpectator
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

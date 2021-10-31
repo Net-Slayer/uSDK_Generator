@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.Update
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -54,7 +54,7 @@ void UBP_PartyMembersEntry_C::Update(const struct FPlayFabPlayer& Player, int Ra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.OnFailure_10991A754B7F75B1C3A772A4D170C5CE
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -75,7 +75,7 @@ void UBP_PartyMembersEntry_C::OnFailure_10991A754B7F75B1C3A772A4D170C5CE(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.OnSuccess_10991A754B7F75B1C3A772A4D170C5CE
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -96,7 +96,7 @@ void UBP_PartyMembersEntry_C::OnSuccess_10991A754B7F75B1C3A772A4D170C5CE(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_PartyMembersEntry_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -114,7 +114,7 @@ void UBP_PartyMembersEntry_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_0_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.BndEvt__PromoteButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_PartyMembersEntry_C::BndEvt__PromoteButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -132,7 +132,7 @@ void UBP_PartyMembersEntry_C::BndEvt__PromoteButton_K2Node_ComponentBoundEvent_1
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.BndEvt__JoinButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_PartyMembersEntry_C::BndEvt__JoinButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -150,7 +150,7 @@ void UBP_PartyMembersEntry_C::BndEvt__JoinButton_K2Node_ComponentBoundEvent_2_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PartyMembersEntry.BP_PartyMembersEntry_C.ExecuteUbergraph_BP_PartyMembersEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

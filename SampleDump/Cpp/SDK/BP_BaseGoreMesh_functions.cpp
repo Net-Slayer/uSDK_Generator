@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseGoreMesh.BP_BaseGoreMesh_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_BaseGoreMesh_C::UserConstructionScript()
@@ -37,7 +37,7 @@ void ABP_BaseGoreMesh_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseGoreMesh.BP_BaseGoreMesh_C.BndEvt__Particle_K2Node_ComponentBoundEvent_1_OnSystemFinished__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -58,7 +58,7 @@ void ABP_BaseGoreMesh_C::BndEvt__Particle_K2Node_ComponentBoundEvent_1_OnSystemF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseGoreMesh.BP_BaseGoreMesh_C.ExecuteUbergraph_BP_BaseGoreMesh
 //		Flags  -> (Final)
 // Parameters:

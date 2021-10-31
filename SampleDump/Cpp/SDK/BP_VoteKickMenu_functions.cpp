@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.Get_TextBlock_3_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_VoteKickMenu_C::Get_TextBlock_3_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.Get_TextBlock_0_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_VoteKickMenu_C::Get_TextBlock_0_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_VoteKickMenu_C::Hide()
@@ -81,7 +81,7 @@ void UBP_VoteKickMenu_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.Show
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -100,7 +100,7 @@ void UBP_VoteKickMenu_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_VoteKickMenu_C::Construct()
@@ -118,7 +118,7 @@ void UBP_VoteKickMenu_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VoteKickMenu.BP_VoteKickMenu_C.ExecuteUbergraph_BP_VoteKickMenu
 //		Flags  -> (Final)
 // Parameters:

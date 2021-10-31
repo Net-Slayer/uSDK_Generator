@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FireArrowPit.BP_FireArrowPit_C.SetOnFire
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void ABP_FireArrowPit_C::SetOnFire(class UProjectileArmShooterComponent* Project
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FireArrowPit.BP_FireArrowPit_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_FireArrowPit_C::ReceiveBeginPlay()
@@ -60,7 +60,7 @@ void ABP_FireArrowPit_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FireArrowPit.BP_FireArrowPit_C.GiveBuffs
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_FireArrowPit_C::GiveBuffs()
@@ -78,7 +78,7 @@ void ABP_FireArrowPit_C::GiveBuffs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_FireArrowPit.BP_FireArrowPit_C.ExecuteUbergraph_BP_FireArrowPit
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

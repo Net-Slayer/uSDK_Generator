@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class UAudioCapture : public UAudioGenerator
 {
 public:
-	unsigned char                                      UnknownData_5FC8[0x8];                                     // 0x00A8(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_7CFW[0x8];                                     // 0x00A8(0x0008) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -65,7 +65,7 @@ class UAudioCaptureComponent : public USynthComponent
 {
 public:
 	int                                                JitterLatencyFrames;                                       // 0x06D0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TOIZ[0xBC];                                    // 0x06D4(0x00BC) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9QQ7[0xBC];                                    // 0x06D4(0x00BC) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

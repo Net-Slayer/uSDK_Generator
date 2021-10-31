@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.Deselect
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 void UBP_ReusableNavTabButton_C::Deselect()
@@ -37,7 +37,7 @@ void UBP_ReusableNavTabButton_C::Deselect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.Select
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 void UBP_ReusableNavTabButton_C::Select()
@@ -55,7 +55,7 @@ void UBP_ReusableNavTabButton_C::Select()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ReusableNavTabButton_C::Construct()
@@ -73,7 +73,7 @@ void UBP_ReusableNavTabButton_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ReusableNavTabButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -91,7 +91,7 @@ void UBP_ReusableNavTabButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -112,7 +112,7 @@ void UBP_ReusableNavTabButton_C::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.ExecuteUbergraph_BP_ReusableNavTabButton
 //		Flags  -> (Final)
 // Parameters:
@@ -133,7 +133,7 @@ void UBP_ReusableNavTabButton_C::ExecuteUbergraph_BP_ReusableNavTabButton(int En
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.ButtonDeselected__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ReusableNavTabButton_C::ButtonDeselected__DelegateSignature()
@@ -151,7 +151,7 @@ void UBP_ReusableNavTabButton_C::ButtonDeselected__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ReusableNavTabButton.BP_ReusableNavTabButton_C.ButtonSelected__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ReusableNavTabButton_C::ButtonSelected__DelegateSignature()

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -27,7 +27,7 @@ public:
 	TArray<struct FNavigationFilterArea>               Areas;                                                     // 0x0028(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FNavigationFilterFlags                      IncludeFlags;                                              // 0x0038(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FNavigationFilterFlags                      ExcludeFlags;                                              // 0x003C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1G5U[0x8];                                     // 0x0040(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BBLM[0x8];                                     // 0x0040(0x0008) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -45,7 +45,7 @@ public:
 class ANavigationData : public AActor
 {
 public:
-	unsigned char                                      UnknownData_GLFF[0x8];                                     // 0x0220(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T5M5[0x8];                                     // 0x0220(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPrimitiveComponent*                         RenderingComp;                                             // 0x0228(0x0008) (ExportObject, ZeroConstructor, Transient, InstancedReference, DuplicateTransient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FNavDataConfig                              NavDataConfig;                                             // 0x0230(0x0078) (Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bEnableDrawing : 1;                                        // 0x02A8(0x0001) BIT_FIELD (Edit, Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54,14 +54,14 @@ public:
 	unsigned char                                      bCanBeMainNavData : 1;                                     // 0x02A8(0x0001) BIT_FIELD (Edit, Config, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bCanSpawnOnRebuild : 1;                                    // 0x02A8(0x0001) BIT_FIELD (Edit, Config, EditConst, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bRebuildAtRuntime : 1;                                     // 0x02A8(0x0001) BIT_FIELD (Config, Deprecated, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_0EH6[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_S3FF[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	NavigationSystem_ERuntimeGenerationType            RuntimeGeneration;                                         // 0x02AC(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_XPDM[0x3];                                     // 0x02AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_0H3Y[0x3];                                     // 0x02AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              ObservedPathsTickInterval;                                 // 0x02B0(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	uint32_t                                           DataVersion;                                               // 0x02B4(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_GBQS[0xE0];                                    // 0x02B8(0x00E0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_LQSY[0xE0];                                    // 0x02B8(0x00E0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FSupportedAreaData>                  SupportedAreas;                                            // 0x0398(0x0010) (ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_MZLK[0x58];                                    // 0x03A8(0x0058) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_H684[0x58];                                    // 0x03A8(0x0058) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -133,7 +133,7 @@ public:
 	unsigned char                                      bSupportsAgent13 : 1;                                      // 0x0041(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bSupportsAgent14 : 1;                                      // 0x0041(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bSupportsAgent15 : 1;                                      // 0x0041(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FIU0[0x6];                                     // 0x0042(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CDI8[0x6];                                     // 0x0042(0x0006) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -269,13 +269,13 @@ public:
 class UNavCollision : public UNavCollisionBase
 {
 public:
-	unsigned char                                      UnknownData_QGDM[0x10];                                    // 0x0070(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_L1XR[0x10];                                    // 0x0070(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FNavCollisionCylinder>               CylinderCollision;                                         // 0x0080(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FNavCollisionBox>                    BoxCollision;                                              // 0x0090(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UClass*                                      AreaClass;                                                 // 0x00A0(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bGatherConvexGeometry : 1;                                 // 0x00A8(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bCreateOnClient : 1;                                       // 0x00A8(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_4H6X[0x2F];                                    // 0x00A9(0x002F) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_3DNR[0x2F];                                    // 0x00A9(0x002F) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -330,7 +330,7 @@ public:
 	struct FNavGraphNode                               Node;                                                      // 0x01F0(0x0018) (NativeAccessSpecifierPublic)
 	class UNavigationGraphNodeComponent*               NextNodeComponent;                                         // 0x0208(0x0008) (ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UNavigationGraphNodeComponent*               PrevNodeComponent;                                         // 0x0210(0x0008) (ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_W71E[0x8];                                     // 0x0218(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_86TZ[0x8];                                     // 0x0218(0x0008) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -370,7 +370,7 @@ public:
 	struct FScriptMulticastDelegate                    PathUpdatedNotifier;                                       // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	TArray<struct FVector>                             PathPoints;                                                // 0x0038(0x0010) (BlueprintVisible, BlueprintReadOnly, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<Engine_ENavigationOptionFlag>          RecalculateOnInvalidation;                                 // 0x0048(0x0001) (BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_XPCQ[0x3F];                                    // 0x0049(0x003F) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_YSAV[0x3F];                                    // 0x0049(0x003F) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -424,27 +424,27 @@ public:
 	unsigned char                                      bTickWhilePaused : 1;                                      // 0x0068(0x0001) BIT_FIELD (Edit, Config, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bSupportRebuilding : 1;                                    // 0x0068(0x0001) BIT_FIELD (NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bInitialBuildingLocked : 1;                                // 0x0068(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_JXZJ : 1;                                      // 0x0068(0x0001) BIT_FIELD (PADDING)
+	unsigned char                                      UnknownData_798W : 1;                                      // 0x0068(0x0001) BIT_FIELD (PADDING)
 	unsigned char                                      bSkipAgentHeightCheckWhenPickingNavData : 1;               // 0x0069(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3J73[0x2];                                     // 0x006A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_XH20[0x2];                                     // 0x006A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	Engine_ENavDataGatheringModeConfig                 DataGatheringMode;                                         // 0x006C(0x0001) (Edit, ZeroConstructor, Config, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_2UOR[0x3];                                     // 0x006D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_N4ZE[0x3];                                     // 0x006D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	unsigned char                                      bGenerateNavigationOnlyAroundNavigationInvokers : 1;       // 0x0070(0x0001) BIT_FIELD (Edit, Config, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_OZLB[0x3];                                     // 0x0071(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_H12X[0x3];                                     // 0x0071(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              ActiveTilesUpdateInterval;                                 // 0x0074(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	TArray<struct FNavDataConfig>                      SupportedAgents;                                           // 0x0078(0x0010) (Edit, ZeroConstructor, Config, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FNavAgentSelector                           SupportedAgentsMask;                                       // 0x0088(0x0004) (Edit, Config, NoDestructor, Protected, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_LJMK[0x4];                                     // 0x008C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1RZZ[0x4];                                     // 0x008C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<class ANavigationData*>                     NavDataSet;                                                // 0x0090(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<class ANavigationData*>                     NavDataRegistrationQueue;                                  // 0x00A0(0x0010) (ZeroConstructor, Transient, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_PQCT[0x10];                                    // 0x00B0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_HWW6[0x10];                                    // 0x00B0(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FScriptMulticastDelegate                    OnNavDataRegisteredEvent;                                  // 0x00C0(0x0010) (ZeroConstructor, Transient, InstancedReference, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnNavigationGenerationFinishedDelegate;                    // 0x00D0(0x0010) (ZeroConstructor, Transient, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_2YBG[0xDC];                                    // 0x00E0(0x00DC) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_EBBS[0xDC];                                    // 0x00E0(0x00DC) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	Engine_EFNavigationSystemRunMode                   OperationMode;                                             // 0x01BC(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_94WD[0x357];                                   // 0x01BD(0x0357) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_M6MI[0x357];                                   // 0x01BD(0x0357) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              DirtyAreasUpdateFreq;                                      // 0x0514(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_BMWE[0x20];                                    // 0x0518(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CCLX[0x20];                                    // 0x0518(0x0020) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -490,7 +490,7 @@ public:
 	unsigned char                                      bCreateOnClient : 1;                                       // 0x0050(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bAutoSpawnMissingNavData : 1;                              // 0x0050(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bSpawnNavDataInNavBoundsLevel : 1;                         // 0x0050(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_36B2[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_UZ6X[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -508,19 +508,19 @@ public:
 class ANavigationTestingActor : public AActor
 {
 public:
-	unsigned char                                      UnknownData_LYPJ[0x10];                                    // 0x0220(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1NW5[0x10];                                    // 0x0220(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UCapsuleComponent*                           CapsuleComponent;                                          // 0x0230(0x0008) (ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UNavigationInvokerComponent*                 InvokerComponent;                                          // 0x0238(0x0008) (Edit, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	unsigned char                                      bActAsNavigationInvoker : 1;                               // 0x0240(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_SBT4[0x7];                                     // 0x0241(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_H2W0[0x7];                                     // 0x0241(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FNavAgentProperties                         NavAgentProps;                                             // 0x0248(0x0030) (Edit, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     QueryingExtent;                                            // 0x0278(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1IMD[0x4];                                     // 0x0284(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_CUSL[0x4];                                     // 0x0284(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class ANavigationData*                             MyNavData;                                                 // 0x0288(0x0008) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     ProjectedLocation;                                         // 0x0290(0x000C) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bProjectedLocationValid : 1;                               // 0x029C(0x0001) BIT_FIELD (Edit, BlueprintVisible, BlueprintReadOnly, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bSearchStart : 1;                                          // 0x029C(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G1LU[0x3];                                     // 0x029D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_YTYH[0x3];                                     // 0x029D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              CostLimitFactor;                                           // 0x02A0(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              MinimumCostLimit;                                          // 0x02A4(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bBacktracking : 1;                                         // 0x02A8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -531,14 +531,14 @@ public:
 	unsigned char                                      bShowBestPath : 1;                                         // 0x02A8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bShowDiffWithPreviousStep : 1;                             // 0x02A8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bShouldBeVisibleInGame : 1;                                // 0x02A8(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_WN7J[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1G2R[0x3];                                     // 0x02A9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TEnumAsByte<NavigationSystem_ENavCostDisplay>      CostDisplayMode;                                           // 0x02AC(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9ZOY[0x3];                                     // 0x02AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_4FLK[0x3];                                     // 0x02AD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FVector2D                                   TextCanvasOffset;                                          // 0x02B0(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bPathExist : 1;                                            // 0x02B8(0x0001) BIT_FIELD (Edit, BlueprintVisible, BlueprintReadOnly, Transient, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bPathIsPartial : 1;                                        // 0x02B8(0x0001) BIT_FIELD (Edit, BlueprintVisible, BlueprintReadOnly, Transient, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bPathSearchOutOfNodes : 1;                                 // 0x02B8(0x0001) BIT_FIELD (Edit, BlueprintVisible, BlueprintReadOnly, Transient, EditConst, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ONEG[0x3];                                     // 0x02B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_2B7C[0x3];                                     // 0x02B9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              PathfindingTime;                                           // 0x02BC(0x0004) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              PathCost;                                                  // 0x02C0(0x0004) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                PathfindingSteps;                                          // 0x02C4(0x0004) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -546,7 +546,7 @@ public:
 	class UClass*                                      FilterClass;                                               // 0x02D0(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                ShowStepIndex;                                             // 0x02D8(0x0004) (Edit, ZeroConstructor, DisableEditOnTemplate, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              OffsetFromCornersDistance;                                 // 0x02DC(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8N88[0x30];                                    // 0x02E0(0x0030) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_A7GD[0x30];                                    // 0x02E0(0x0030) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -564,9 +564,9 @@ public:
 class UNavLinkComponent : public UPrimitiveComponent
 {
 public:
-	unsigned char                                      UnknownData_JG1B[0x8];                                     // 0x03F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_ADSD[0x8];                                     // 0x03F0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FNavigationLink>                     Links;                                                     // 0x03F8(0x0010) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GEZH[0x8];                                     // 0x0408(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_QOTW[0x8];                                     // 0x0408(0x0008) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -584,9 +584,9 @@ public:
 class UNavRelevantComponent : public UActorComponent
 {
 public:
-	unsigned char                                      UnknownData_XD7U[0x24];                                    // 0x00B0(0x0024) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_PYQ3[0x24];                                    // 0x00B0(0x0024) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	unsigned char                                      bAttachToOwnersRoot : 1;                                   // 0x00D4(0x0001) BIT_FIELD (NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_N7W0[0x3];                                     // 0x00D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1M1G[0x3];                                     // 0x00D5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UObject*                                     CachedNavParent;                                           // 0x00D8(0x0008) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 
 
@@ -606,29 +606,29 @@ public:
 class UNavLinkCustomComponent : public UNavRelevantComponent
 {
 public:
-	unsigned char                                      UnknownData_AVLM[0x8];                                     // 0x00E0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_DL2Q[0x8];                                     // 0x00E0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	uint32_t                                           NavLinkUserId;                                             // 0x00E8(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_2D4A[0x4];                                     // 0x00EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WDEJ[0x4];                                     // 0x00EC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UClass*                                      EnabledAreaClass;                                          // 0x00F0(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UClass*                                      DisabledAreaClass;                                         // 0x00F8(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FNavAgentSelector                           SupportedAgents;                                           // 0x0100(0x0004) (Edit, NoDestructor, Protected, NativeAccessSpecifierProtected)
 	struct FVector                                     LinkRelativeStart;                                         // 0x0104(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FVector                                     LinkRelativeEnd;                                           // 0x0110(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	TEnumAsByte<Engine_ENavLinkDirection>              LinkDirection;                                             // 0x011C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_N6IY[0x3];                                     // 0x011D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_EPUT[0x3];                                     // 0x011D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	unsigned char                                      bLinkEnabled : 1;                                          // 0x0120(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bNotifyWhenEnabled : 1;                                    // 0x0120(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bNotifyWhenDisabled : 1;                                   // 0x0120(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bCreateBoxObstacle : 1;                                    // 0x0120(0x0001) BIT_FIELD (Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_BQ8U[0x3];                                     // 0x0121(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_7184[0x3];                                     // 0x0121(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FVector                                     ObstacleOffset;                                            // 0x0124(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FVector                                     ObstacleExtent;                                            // 0x0130(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_T8FT[0x4];                                     // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_TSE8[0x4];                                     // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UClass*                                      ObstacleAreaClass;                                         // 0x0140(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	float                                              BroadcastRadius;                                           // 0x0148(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	float                                              BroadcastInterval;                                         // 0x014C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	TEnumAsByte<Engine_ECollisionChannel>              BroadcastChannel;                                          // 0x0150(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_SV7D[0x3F];                                    // 0x0151(0x003F) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_D5YV[0x3F];                                    // 0x0151(0x003F) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -715,7 +715,7 @@ class ANavMeshBoundsVolume : public AVolume
 {
 public:
 	struct FNavAgentSelector                           SupportedAgents;                                           // 0x0258(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_6LZ1[0x4];                                     // 0x025C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WQUD[0x4];                                     // 0x025C(0x0004) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -733,7 +733,7 @@ public:
 class UNavMeshRenderingComponent : public UPrimitiveComponent
 {
 public:
-	unsigned char                                      UnknownData_IBAU[0x10];                                    // 0x03F0(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_NJLV[0x10];                                    // 0x03F0(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -754,7 +754,7 @@ public:
 	class UClass*                                      AreaClass;                                                 // 0x00E0(0x0008) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     FailsafeExtent;                                            // 0x00E8(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bIncludeAgentHeight : 1;                                   // 0x00F4(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_4T0E[0x4B];                                    // 0x00F5(0x004B) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_QSVK[0x4B];                                    // 0x00F5(0x004B) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -773,7 +773,7 @@ public:
 class ANavModifierVolume : public AVolume
 {
 public:
-	unsigned char                                      UnknownData_NSFT[0x8];                                     // 0x0258(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_5QNJ[0x8];                                     // 0x0258(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UClass*                                      AreaClass;                                                 // 0x0260(0x0008) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 
 
@@ -813,7 +813,7 @@ public:
 	class UNavigationSystemConfig*                     NavigationSystemConfig;                                    // 0x0220(0x0008) (Edit, BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	NavigationSystem_ENavSystemOverridePolicy          OverridePolicy;                                            // 0x0228(0x0001) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	unsigned char                                      bLoadOnClient : 1;                                         // 0x0229(0x0001) BIT_FIELD (Edit, BlueprintVisible, NoDestructor, AdvancedDisplay, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_W7SC[0x6];                                     // 0x022A(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_VZME[0x6];                                     // 0x022A(0x0006) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -883,10 +883,10 @@ public:
 	unsigned char                                      bDrawMarkedForbiddenPolys : 1;                             // 0x0401(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bDistinctlyDrawTilesBeingBuilt : 1;                        // 0x0402(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bDrawNavMesh : 1;                                          // 0x0402(0x0001) BIT_FIELD (Edit, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_4HGV[0x1];                                     // 0x0403(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_Y4QY[0x1];                                     // 0x0403(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              DrawOffset;                                                // 0x0404(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bFixedTilePoolSize : 1;                                    // 0x0408(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_Y6JN[0x3];                                     // 0x0409(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_U161[0x3];                                     // 0x0409(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                TilePoolSize;                                              // 0x040C(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              TileSizeUU;                                                // 0x0410(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              CellSize;                                                  // 0x0414(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -910,7 +910,7 @@ public:
 	float                                              DefaultMaxHierarchicalSearchNodes;                         // 0x0464(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<NavigationSystem_ERecastPartitioning>  RegionPartitioning;                                        // 0x0468(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<NavigationSystem_ERecastPartitioning>  LayerPartitioning;                                         // 0x0469(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_IOEL[0x2];                                     // 0x046A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_QTET[0x2];                                     // 0x046A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                RegionChunkSplits;                                         // 0x046C(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                LayerChunkSplits;                                          // 0x0470(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bSortNavigationAreasByCost : 1;                            // 0x0474(0x0001) BIT_FIELD (Edit, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -924,11 +924,11 @@ public:
 	unsigned char                                      bUseVirtualFilters : 1;                                    // 0x0475(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bAllowNavLinkAsPathEnd : 1;                                // 0x0475(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      bUseVoxelCache : 1;                                        // 0x0475(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_DM68[0x2];                                     // 0x0476(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1ODW[0x2];                                     // 0x0476(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              TileSetUpdateInterval;                                     // 0x0478(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	float                                              HeuristicScale;                                            // 0x047C(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              VerticalDeviationFromGroundCompensation;                   // 0x0480(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZCHE[0x34];                                    // 0x0484(0x0034) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EBJM[0x34];                                    // 0x0484(0x0034) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -947,7 +947,7 @@ public:
 class URecastNavMeshDataChunk : public UNavigationDataChunk
 {
 public:
-	unsigned char                                      UnknownData_KCIC[0x10];                                    // 0x0030(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_NDTC[0x10];                                    // 0x0030(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

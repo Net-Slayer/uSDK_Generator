@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BloodSplash.BP_BloodSplash_C.BndEvt__ParticleSystem_K2Node_ComponentBoundEvent_0_ParticleCollisionSignature__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -56,7 +56,7 @@ void ABP_BloodSplash_C::BndEvt__ParticleSystem_K2Node_ComponentBoundEvent_0_Part
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BloodSplash.BP_BloodSplash_C.BndEvt__ParticleSystem_K2Node_ComponentBoundEvent_3_OnSystemFinished__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -77,7 +77,7 @@ void ABP_BloodSplash_C::BndEvt__ParticleSystem_K2Node_ComponentBoundEvent_3_OnSy
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BloodSplash.BP_BloodSplash_C.ExecuteUbergraph_BP_BloodSplash
 //		Flags  -> (Final)
 // Parameters:

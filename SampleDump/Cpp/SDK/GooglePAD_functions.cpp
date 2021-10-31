@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E225B0
+//		Offset -> 0x00E2C3C0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.ShowCellularDataConfirmation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42,7 +42,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_ShowCellularData
 
 
 // Function:
-//		Offset -> 0x00E22510
+//		Offset -> 0x00E2C320
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.RequestRemoval
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -67,7 +67,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_RequestRemoval(c
 
 
 // Function:
-//		Offset -> 0x00E21F80
+//		Offset -> 0x00E2BD90
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.RequestInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -92,7 +92,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_RequestInfo(TArr
 
 
 // Function:
-//		Offset -> 0x00E21F80
+//		Offset -> 0x00E2BD90
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.RequestDownload
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -117,7 +117,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_RequestDownload(
 
 
 // Function:
-//		Offset -> 0x00E224A0
+//		Offset -> 0x00E2C2B0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.ReleaseDownloadState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -139,7 +139,7 @@ void UGooglePADFunctionLibrary::STATIC_ReleaseDownloadState(int State)
 
 
 // Function:
-//		Offset -> 0x00E224A0
+//		Offset -> 0x00E2C2B0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.ReleaseAssetPackLocation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -161,7 +161,7 @@ void UGooglePADFunctionLibrary::STATIC_ReleaseAssetPackLocation(int Location)
 
 
 // Function:
-//		Offset -> 0x00E22290
+//		Offset -> 0x00E2C0A0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetTotalBytesToDownload
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -186,7 +186,7 @@ int UGooglePADFunctionLibrary::STATIC_GetTotalBytesToDownload(int State)
 
 
 // Function:
-//		Offset -> 0x00E22420
+//		Offset -> 0x00E2C230
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetStorageMethod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -211,7 +211,7 @@ GooglePAD_EGooglePADStorageMethod UGooglePADFunctionLibrary::STATIC_GetStorageMe
 
 
 // Function:
-//		Offset -> 0x00E22390
+//		Offset -> 0x00E2C1A0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetShowCellularDataConfirmationStatus
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -238,7 +238,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_GetShowCellularD
 
 
 // Function:
-//		Offset -> 0x00E22310
+//		Offset -> 0x00E2C120
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetDownloadStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -263,7 +263,7 @@ GooglePAD_EGooglePADDownloadStatus UGooglePADFunctionLibrary::STATIC_GetDownload
 
 
 // Function:
-//		Offset -> 0x00E220E0
+//		Offset -> 0x00E2BEF0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetDownloadState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -292,7 +292,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_GetDownloadState
 
 
 // Function:
-//		Offset -> 0x00E22290
+//		Offset -> 0x00E2C0A0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetBytesDownloaded
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -317,7 +317,7 @@ int UGooglePADFunctionLibrary::STATIC_GetBytesDownloaded(int State)
 
 
 // Function:
-//		Offset -> 0x00E221D0
+//		Offset -> 0x00E2BFE0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetAssetsPath
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -342,7 +342,7 @@ struct FString UGooglePADFunctionLibrary::STATIC_GetAssetsPath(int Location)
 
 
 // Function:
-//		Offset -> 0x00E220E0
+//		Offset -> 0x00E2BEF0
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.GetAssetPackLocation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -371,7 +371,7 @@ GooglePAD_EGooglePADErrorCode UGooglePADFunctionLibrary::STATIC_GetAssetPackLoca
 
 
 // Function:
-//		Offset -> 0x00E21F80
+//		Offset -> 0x00E2BD90
 //		Name   -> Function GooglePAD.GooglePADFunctionLibrary.CancelDownload
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

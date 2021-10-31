@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,68 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Initialize
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		struct FName                                       Action_Name                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+//		struct FText                                       Displayed_Text                                             (BlueprintVisible, BlueprintReadOnly, Parm)
+void UBP_ButtonPrompt_C::Initialize(const struct FName& Action_Name, const struct FText& Displayed_Text)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ButtonPrompt.BP_ButtonPrompt_C.Initialize");
+
+	UBP_ButtonPrompt_C_Initialize_Params params;
+	params.Action_Name = Action_Name;
+	params.Displayed_Text = Displayed_Text;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update from Action bind
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+void UBP_ButtonPrompt_C::Update_from_Action_bind()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update from Action bind");
+
+	UBP_ButtonPrompt_C_Update_from_Action_bind_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update from forced key
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+void UBP_ButtonPrompt_C::Update_from_forced_key()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update from forced key");
+
+	UBP_ButtonPrompt_C_Update_from_forced_key_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.RefreshIcon
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,19 +99,14 @@ void UBP_ButtonPrompt_C::RefreshIcon()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update
-//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-//		struct FName                                       ActionName                                                 (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		struct FText                                       DisplayedText                                              (BlueprintVisible, BlueprintReadOnly, Parm)
-void UBP_ButtonPrompt_C::Update(const struct FName& ActionName, const struct FText& DisplayedText)
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+void UBP_ButtonPrompt_C::Update()
 {
 	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ButtonPrompt.BP_ButtonPrompt_C.Update");
 
 	UBP_ButtonPrompt_C_Update_Params params;
-	params.ActionName = ActionName;
-	params.DisplayedText = DisplayedText;
 
 	auto flags = fn->FunctionFlags;
 
@@ -61,7 +117,7 @@ void UBP_ButtonPrompt_C::Update(const struct FName& ActionName, const struct FTe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ButtonPrompt_C::Construct()
@@ -79,7 +135,7 @@ void UBP_ButtonPrompt_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -100,32 +156,9 @@ void UBP_ButtonPrompt_C::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.Tick
-//		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-//		struct FGeometry                                   MyGeometry                                                 (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData, NoDestructor)
-//		float                                              InDeltaTime                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void UBP_ButtonPrompt_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ButtonPrompt.BP_ButtonPrompt_C.Tick");
-
-	UBP_ButtonPrompt_C_Tick_Params params;
-	params.MyGeometry = MyGeometry;
-	params.InDeltaTime = InDeltaTime;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ButtonPrompt.BP_ButtonPrompt_C.ExecuteUbergraph_BP_ButtonPrompt
-//		Flags  -> (Final, HasDefaults)
+//		Flags  -> (Final)
 // Parameters:
 //		int                                                EntryPoint                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 void UBP_ButtonPrompt_C::ExecuteUbergraph_BP_ButtonPrompt(int EntryPoint)

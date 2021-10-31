@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -34,6 +34,19 @@ enum class GeometryCollectionCore_EGeometryCollectionCacheType : uint8_t
 // Script Structs
 //---------------------------------------------------------------------------
 
+// ScriptStruct GeometryCollectionCore.SolverBreakingData
+// 0x0030
+struct FSolverBreakingData
+{
+	struct FVector                                     Location;                                                  // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Velocity;                                                  // 0x000C(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     AngularVelocity;                                           // 0x0018(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Mass;                                                      // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ParticleIndex;                                             // 0x0028(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ParticleIndexMesh;                                         // 0x002C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+};
+
 // ScriptStruct GeometryCollectionCore.SolverCollisionData
 // 0x006C
 struct FSolverCollisionData
@@ -54,19 +67,6 @@ struct FSolverCollisionData
 
 };
 
-// ScriptStruct GeometryCollectionCore.SolverBreakingData
-// 0x0030
-struct FSolverBreakingData
-{
-	struct FVector                                     Location;                                                  // 0x0000(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Velocity;                                                  // 0x000C(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     AngularVelocity;                                           // 0x0018(0x000C) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Mass;                                                      // 0x0024(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ParticleIndex;                                             // 0x0028(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ParticleIndexMesh;                                         // 0x002C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-};
-
 // ScriptStruct GeometryCollectionCore.RecordedFrame
 // 0x00B8
 struct FRecordedFrame
@@ -79,7 +79,7 @@ struct FRecordedFrame
 	TArray<struct FSolverBreakingData>                 Breakings;                                                 // 0x0050(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      Trailings[0x50];                                           // 0x0060(0x0050) UNKNOWN PROPERTY: SetProperty
 	float                                              Timestamp;                                                 // 0x00B0(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_XM4M[0x4];                                     // 0x00B4(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ENMV[0x4];                                     // 0x00B4(0x0004) MISSED OFFSET (PADDING)
 
 };
 

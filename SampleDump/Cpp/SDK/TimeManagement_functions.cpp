@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02244890
+//		Offset -> 0x0224E1B0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.TransformTime
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -48,7 +48,7 @@ struct FFrameTime UTimeManagementBlueprintLibrary::STATIC_TransformTime(const st
 
 
 // Function:
-//		Offset -> 0x022447D0
+//		Offset -> 0x0224E0F0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Subtract_FrameNumberInteger
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -75,7 +75,7 @@ struct FFrameNumber UTimeManagementBlueprintLibrary::STATIC_Subtract_FrameNumber
 
 
 // Function:
-//		Offset -> 0x022447D0
+//		Offset -> 0x0224E0F0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Subtract_FrameNumberFrameNumber
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -102,7 +102,7 @@ struct FFrameNumber UTimeManagementBlueprintLibrary::STATIC_Subtract_FrameNumber
 
 
 // Function:
-//		Offset -> 0x02244680
+//		Offset -> 0x0224DFA0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.SnapFrameTimeToRate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -131,7 +131,7 @@ struct FFrameTime UTimeManagementBlueprintLibrary::STATIC_SnapFrameTimeToRate(co
 
 
 // Function:
-//		Offset -> 0x022445A0
+//		Offset -> 0x0224DEC0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Multiply_SecondsFrameRate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -158,7 +158,7 @@ struct FFrameTime UTimeManagementBlueprintLibrary::STATIC_Multiply_SecondsFrameR
 
 
 // Function:
-//		Offset -> 0x022444E0
+//		Offset -> 0x0224DE00
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Multiply_FrameNumberInteger
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -185,7 +185,7 @@ struct FFrameNumber UTimeManagementBlueprintLibrary::STATIC_Multiply_FrameNumber
 
 
 // Function:
-//		Offset -> 0x022443E0
+//		Offset -> 0x0224DD00
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.IsValid_MultipleOf
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -212,7 +212,7 @@ bool UTimeManagementBlueprintLibrary::STATIC_IsValid_MultipleOf(const struct FFr
 
 
 // Function:
-//		Offset -> 0x02244340
+//		Offset -> 0x0224DC60
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.IsValid_Framerate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -237,7 +237,7 @@ bool UTimeManagementBlueprintLibrary::STATIC_IsValid_Framerate(const struct FFra
 
 
 // Function:
-//		Offset -> 0x02244300
+//		Offset -> 0x0224DC20
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.GetTimecodeFrameRate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -260,7 +260,7 @@ struct FFrameRate UTimeManagementBlueprintLibrary::STATIC_GetTimecodeFrameRate()
 
 
 // Function:
-//		Offset -> 0x022442C0
+//		Offset -> 0x0224DBE0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.GetTimecode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -283,7 +283,7 @@ struct FTimecode UTimeManagementBlueprintLibrary::STATIC_GetTimecode()
 
 
 // Function:
-//		Offset -> 0x02244200
+//		Offset -> 0x0224DB20
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Divide_FrameNumberInteger
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -310,7 +310,7 @@ struct FFrameNumber UTimeManagementBlueprintLibrary::STATIC_Divide_FrameNumberIn
 
 
 // Function:
-//		Offset -> 0x022440D0
+//		Offset -> 0x0224D9F0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Conv_TimecodeToString
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -337,7 +337,7 @@ struct FString UTimeManagementBlueprintLibrary::STATIC_Conv_TimecodeToString(con
 
 
 // Function:
-//		Offset -> 0x02244020
+//		Offset -> 0x0224D940
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Conv_QualifiedFrameTimeToSeconds
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -362,7 +362,7 @@ float UTimeManagementBlueprintLibrary::STATIC_Conv_QualifiedFrameTimeToSeconds(c
 
 
 // Function:
-//		Offset -> 0x02243F80
+//		Offset -> 0x0224D8A0
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Conv_FrameRateToSeconds
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -387,7 +387,7 @@ float UTimeManagementBlueprintLibrary::STATIC_Conv_FrameRateToSeconds(const stru
 
 
 // Function:
-//		Offset -> 0x02243EF0
+//		Offset -> 0x0224D810
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Conv_FrameNumberToInteger
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -412,7 +412,7 @@ int UTimeManagementBlueprintLibrary::STATIC_Conv_FrameNumberToInteger(const stru
 
 
 // Function:
-//		Offset -> 0x02243E30
+//		Offset -> 0x0224D750
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Add_FrameNumberInteger
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -439,7 +439,7 @@ struct FFrameNumber UTimeManagementBlueprintLibrary::STATIC_Add_FrameNumberInteg
 
 
 // Function:
-//		Offset -> 0x02243E30
+//		Offset -> 0x0224D750
 //		Name   -> Function TimeManagement.TimeManagementBlueprintLibrary.Add_FrameNumberFrameNumber
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:

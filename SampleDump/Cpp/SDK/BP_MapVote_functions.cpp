@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.UpdateVoteCount
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_MapVote_C::UpdateVoteCount(unsigned char Count, int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.OnEntrySelected
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_MapVote_C::OnEntrySelected(class UBP_MapEntry_C* Entry)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.AddEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -88,7 +88,7 @@ void UBP_MapVote_C::AddEntry(const struct FString& GameModeMapName, class UGameM
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.ClearEntries
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MapVote_C::ClearEntries()
@@ -106,7 +106,7 @@ void UBP_MapVote_C::ClearEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.Init
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MapVote_C::Init()
@@ -124,7 +124,7 @@ void UBP_MapVote_C::Init()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.UpdateVotes
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MapVote_C::UpdateVotes()
@@ -142,7 +142,7 @@ void UBP_MapVote_C::UpdateVotes()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.ExecuteUbergraph_BP_MapVote
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -163,7 +163,7 @@ void UBP_MapVote_C::ExecuteUbergraph_BP_MapVote(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapVote.BP_MapVote_C.Voted__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_MapVote_C::Voted__DelegateSignature()

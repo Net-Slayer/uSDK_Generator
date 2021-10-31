@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x01FDFDD0
+//		Offset -> 0x01FE9380
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.UpdateExternalTrackingHMDPosition
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_UpdateExternalTrackingHMDPositio
 
 
 // Function:
-//		Offset -> 0x01FDFCF0
+//		Offset -> 0x01FE92A0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetWorldToMetersScale
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -65,7 +65,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetWorldToMetersScale(class UObj
 
 
 // Function:
-//		Offset -> 0x01FDFC00
+//		Offset -> 0x01FE91B0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetTrackingOrigin
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetTrackingOrigin(TEnumAsByte<He
 
 
 // Function:
-//		Offset -> 0x01FDFB10
+//		Offset -> 0x01FE90C0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenTexture
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -109,7 +109,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetSpectatorScreenTexture(class 
 
 
 // Function:
-//		Offset -> 0x01FDF920
+//		Offset -> 0x01FE8ED0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenModeTexturePlusEyeLayout
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -143,7 +143,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetSpectatorScreenModeTexturePlu
 
 
 // Function:
-//		Offset -> 0x01FDF8B0
+//		Offset -> 0x01FE8E60
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetSpectatorScreenMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -165,7 +165,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetSpectatorScreenMode(HeadMount
 
 
 // Function:
-//		Offset -> 0x01FDF450
+//		Offset -> 0x01FE8A00
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.SetClippingPlanes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -189,7 +189,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_SetClippingPlanes(float Near, fl
 
 
 // Function:
-//		Offset -> 0x01FDF320
+//		Offset -> 0x01FE88D0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.ResetOrientationAndPosition
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -213,7 +213,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_ResetOrientationAndPosition(floa
 
 
 // Function:
-//		Offset -> 0x01FDF2D0
+//		Offset -> 0x01FE8880
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsSpectatorScreenModeControllable
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -236,7 +236,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_IsSpectatorScreenModeControllabl
 
 
 // Function:
-//		Offset -> 0x00CC2F10
+//		Offset -> 0x00CCC680
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsInLowPersistenceMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -259,7 +259,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_IsInLowPersistenceMode()
 
 
 // Function:
-//		Offset -> 0x01FDEFB0
+//		Offset -> 0x01FE8560
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsHeadMountedDisplayEnabled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -282,7 +282,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_IsHeadMountedDisplayEnabled()
 
 
 // Function:
-//		Offset -> 0x01FDEF80
+//		Offset -> 0x01FE8530
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsHeadMountedDisplayConnected
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -305,7 +305,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_IsHeadMountedDisplayConnected()
 
 
 // Function:
-//		Offset -> 0x01FDEEE0
+//		Offset -> 0x01FE8490
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.IsDeviceTracking
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -330,7 +330,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_IsDeviceTracking(const struct FX
 
 
 // Function:
-//		Offset -> 0x01FDEE90
+//		Offset -> 0x01FE8440
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.HasValidTrackingPosition
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -353,7 +353,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_HasValidTrackingPosition()
 
 
 // Function:
-//		Offset -> 0x01FDEE00
+//		Offset -> 0x01FE83B0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetWorldToMetersScale
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -378,7 +378,7 @@ float UHeadMountedDisplayFunctionLibrary::STATIC_GetWorldToMetersScale(class UOb
 
 
 // Function:
-//		Offset -> 0x01FDED20
+//		Offset -> 0x01FE82D0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetVRFocusState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -405,7 +405,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetVRFocusState(bool* bUseFocus,
 
 
 // Function:
-//		Offset -> 0x01FDEC60
+//		Offset -> 0x01FE8210
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingToWorldTransform
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -430,7 +430,7 @@ struct FTransform UHeadMountedDisplayFunctionLibrary::STATIC_GetTrackingToWorldT
 
 
 // Function:
-//		Offset -> 0x01FDE880
+//		Offset -> 0x01FE7E30
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingSensorParameters
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -483,7 +483,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetTrackingSensorParameters(stru
 
 
 // Function:
-//		Offset -> 0x01FDE840
+//		Offset -> 0x01FE7DF0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetTrackingOrigin
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -506,7 +506,7 @@ TEnumAsByte<HeadMountedDisplay_EHMDTrackingOrigin> UHeadMountedDisplayFunctionLi
 
 
 // Function:
-//		Offset -> 0x01FDE810
+//		Offset -> 0x01FE7DC0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetScreenPercentage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -529,7 +529,7 @@ float UHeadMountedDisplayFunctionLibrary::STATIC_GetScreenPercentage()
 
 
 // Function:
-//		Offset -> 0x01FDE5A0
+//		Offset -> 0x01FE7B50
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPositionalTrackingCameraParameters
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -571,7 +571,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetPositionalTrackingCameraParam
 
 
 // Function:
-//		Offset -> 0x01FDE570
+//		Offset -> 0x01FE7B20
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetPixelDensity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -594,7 +594,7 @@ float UHeadMountedDisplayFunctionLibrary::STATIC_GetPixelDensity()
 
 
 // Function:
-//		Offset -> 0x01FDE3D0
+//		Offset -> 0x01FE7980
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetOrientationAndPosition
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -621,7 +621,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetOrientationAndPosition(struct
 
 
 // Function:
-//		Offset -> 0x01FDE3A0
+//		Offset -> 0x01FE7950
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetNumOfTrackingSensors
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -644,7 +644,7 @@ int UHeadMountedDisplayFunctionLibrary::STATIC_GetNumOfTrackingSensors()
 
 
 // Function:
-//		Offset -> 0x01FDE230
+//		Offset -> 0x01FE77E0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetHMDWornState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -667,7 +667,7 @@ TEnumAsByte<HeadMountedDisplay_EHMDWornState> UHeadMountedDisplayFunctionLibrary
 
 
 // Function:
-//		Offset -> 0x01FDE1F0
+//		Offset -> 0x01FE77A0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetHMDDeviceName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -690,7 +690,7 @@ struct FName UHeadMountedDisplayFunctionLibrary::STATIC_GetHMDDeviceName()
 
 
 // Function:
-//		Offset -> 0x01FDDFC0
+//		Offset -> 0x01FE7570
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetDeviceWorldPose
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -727,7 +727,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetDeviceWorldPose(class UObject
 
 
 // Function:
-//		Offset -> 0x01FDDDD0
+//		Offset -> 0x01FE7380
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.GetDevicePose
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -762,7 +762,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_GetDevicePose(const struct FXRDe
 
 
 // Function:
-//		Offset -> 0x01FDDC80
+//		Offset -> 0x01FE7230
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnumerateTrackedDevices
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -789,7 +789,7 @@ TArray<struct FXRDeviceId> UHeadMountedDisplayFunctionLibrary::STATIC_EnumerateT
 
 
 // Function:
-//		Offset -> 0x01FDD990
+//		Offset -> 0x01FE6F40
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnableLowPersistenceMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -811,7 +811,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_EnableLowPersistenceMode(bool bE
 
 
 // Function:
-//		Offset -> 0x01FDD910
+//		Offset -> 0x01FE6EC0
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.EnableHMD
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -836,7 +836,7 @@ bool UHeadMountedDisplayFunctionLibrary::STATIC_EnableHMD(bool bEnable)
 
 
 // Function:
-//		Offset -> 0x01FDD5C0
+//		Offset -> 0x01FE6B70
 //		Name   -> Function HeadMountedDisplay.HeadMountedDisplayFunctionLibrary.CalibrateExternalTrackingToHMD
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -858,7 +858,7 @@ void UHeadMountedDisplayFunctionLibrary::STATIC_CalibrateExternalTrackingToHMD(c
 
 
 // Function:
-//		Offset -> 0x01FDFC70
+//		Offset -> 0x01FE9220
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetTrackingSource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -880,7 +880,7 @@ void UMotionControllerComponent::SetTrackingSource(InputCore_EControllerHand New
 
 
 // Function:
-//		Offset -> 0x01FDFB80
+//		Offset -> 0x01FE9130
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetTrackingMotionSource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -902,7 +902,7 @@ void UMotionControllerComponent::SetTrackingMotionSource(const struct FName& New
 
 
 // Function:
-//		Offset -> 0x01FDF820
+//		Offset -> 0x01FE8DD0
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetShowDeviceModel
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -924,7 +924,7 @@ void UMotionControllerComponent::SetShowDeviceModel(bool bShowControllerModel)
 
 
 // Function:
-//		Offset -> 0x01FDF580
+//		Offset -> 0x01FE8B30
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetDisplayModelSource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -946,7 +946,7 @@ void UMotionControllerComponent::SetDisplayModelSource(const struct FName& NewDi
 
 
 // Function:
-//		Offset -> 0x01FDF500
+//		Offset -> 0x01FE8AB0
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetCustomDisplayMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -968,7 +968,7 @@ void UMotionControllerComponent::SetCustomDisplayMesh(class UStaticMesh* NewDisp
 
 
 // Function:
-//		Offset -> 0x01FDF3D0
+//		Offset -> 0x01FE8980
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.SetAssociatedPlayerIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -990,7 +990,7 @@ void UMotionControllerComponent::SetAssociatedPlayerIndex(int NewPlayer)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.OnMotionControllerUpdated
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UMotionControllerComponent::OnMotionControllerUpdated()
@@ -1008,7 +1008,7 @@ void UMotionControllerComponent::OnMotionControllerUpdated()
 
 
 // Function:
-//		Offset -> 0x01FDF300
+//		Offset -> 0x01FE88B0
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.IsTracked
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1031,7 +1031,7 @@ bool UMotionControllerComponent::IsTracked()
 
 
 // Function:
-//		Offset -> 0x01FDEC30
+//		Offset -> 0x01FE81E0
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetTrackingSource
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1054,7 +1054,7 @@ InputCore_EControllerHand UMotionControllerComponent::GetTrackingSource()
 
 
 // Function:
-//		Offset -> 0x01FDE4A0
+//		Offset -> 0x01FE7A50
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetParameterValue
 //		Flags  -> (Final, Native, Protected, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1083,7 +1083,7 @@ float UMotionControllerComponent::GetParameterValue(const struct FName& InName, 
 
 
 // Function:
-//		Offset -> 0x01FDE260
+//		Offset -> 0x01FE7810
 //		Name   -> Function HeadMountedDisplay.MotionControllerComponent.GetHandJointPosition
 //		Flags  -> (Final, Native, Protected, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1112,7 +1112,7 @@ struct FVector UMotionControllerComponent::GetHandJointPosition(int jointIndex, 
 
 
 // Function:
-//		Offset -> 0x01FDF600
+//		Offset -> 0x01FE8BB0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.SetIsControllerMotionTrackingEnabledByDefault
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1134,7 +1134,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_SetIsControllerMotionTrackingEn
 
 
 // Function:
-//		Offset -> 0x01FDF210
+//		Offset -> 0x01FE87C0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForSource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1161,7 +1161,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForSourc
 
 
 // Function:
-//		Offset -> 0x01FDF150
+//		Offset -> 0x01FE8700
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForDevice
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1188,7 +1188,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForDevic
 
 
 // Function:
-//		Offset -> 0x01FDF0D0
+//		Offset -> 0x01FE8680
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackingEnabledForComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1213,7 +1213,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForCompo
 
 
 // Function:
-//		Offset -> 0x01FDF0A0
+//		Offset -> 0x01FE8650
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionTrackedDeviceCountManagementNecessary
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1236,7 +1236,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackedDeviceCountManag
 
 
 // Function:
-//		Offset -> 0x01FDEFE0
+//		Offset -> 0x01FE8590
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.IsMotionSourceTracking
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1263,7 +1263,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionSourceTracking(int Play
 
 
 // Function:
-//		Offset -> 0x01FDE370
+//		Offset -> 0x01FE7920
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetMotionTrackingEnabledControllerCount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1286,7 +1286,7 @@ int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMotionTrackingEnabledControll
 
 
 // Function:
-//		Offset -> 0x01FDE340
+//		Offset -> 0x01FE78F0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetMaximumMotionTrackedControllerCount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1309,7 +1309,7 @@ int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMaximumMotionTrackedControlle
 
 
 // Function:
-//		Offset -> 0x01FDDD90
+//		Offset -> 0x01FE7340
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.GetActiveTrackingSystemName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1332,7 +1332,7 @@ struct FName UMotionTrackedDeviceFunctionLibrary::STATIC_GetActiveTrackingSystem
 
 
 // Function:
-//		Offset -> 0x01FDDC00
+//		Offset -> 0x01FE71B0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnumerateMotionSources
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1355,7 +1355,7 @@ TArray<struct FName> UMotionTrackedDeviceFunctionLibrary::STATIC_EnumerateMotion
 
 
 // Function:
-//		Offset -> 0x01FDDB40
+//		Offset -> 0x01FE70F0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingOfSource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1382,7 +1382,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingOfSource(in
 
 
 // Function:
-//		Offset -> 0x01FDDA80
+//		Offset -> 0x01FE7030
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingOfDevice
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1409,7 +1409,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingOfDevice(in
 
 
 // Function:
-//		Offset -> 0x01FDDA00
+//		Offset -> 0x01FE6FB0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.EnableMotionTrackingForComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1434,7 +1434,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingForComponen
 
 
 // Function:
-//		Offset -> 0x01FDD860
+//		Offset -> 0x01FE6E10
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfSource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1458,7 +1458,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfSource(i
 
 
 // Function:
-//		Offset -> 0x01FDD7B0
+//		Offset -> 0x01FE6D60
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfDevice
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1482,7 +1482,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfDevice(i
 
 
 // Function:
-//		Offset -> 0x01FDD740
+//		Offset -> 0x01FE6CF0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfControllersForPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1504,7 +1504,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfControll
 
 
 // Function:
-//		Offset -> 0x01FDD720
+//		Offset -> 0x01FE6CD0
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingOfAllControllers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfAllControllers()
@@ -1523,7 +1523,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfAllContr
 
 
 // Function:
-//		Offset -> 0x01FDD6B0
+//		Offset -> 0x01FE6C60
 //		Name   -> Function HeadMountedDisplay.MotionTrackedDeviceFunctionLibrary.DisableMotionTrackingForComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1545,7 +1545,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingForCompone
 
 
 // Function:
-//		Offset -> 0x01FDD390
+//		Offset -> 0x01FE6940
 //		Name   -> Function HeadMountedDisplay.XRAssetFunctionLibrary.AddNamedDeviceVisualizationComponentBlocking
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1582,7 +1582,7 @@ class UPrimitiveComponent* UXRAssetFunctionLibrary::STATIC_AddNamedDeviceVisuali
 
 
 // Function:
-//		Offset -> 0x01FDCD60
+//		Offset -> 0x01FE6310
 //		Name   -> Function HeadMountedDisplay.XRAssetFunctionLibrary.AddDeviceVisualizationComponentBlocking
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1613,7 +1613,7 @@ class UPrimitiveComponent* UXRAssetFunctionLibrary::STATIC_AddDeviceVisualizatio
 
 
 // Function:
-//		Offset -> 0x01FDD100
+//		Offset -> 0x01FE66B0
 //		Name   -> Function HeadMountedDisplay.AsyncTask_LoadXRDeviceVisComponent.AddNamedDeviceVisualizationComponentAsync
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1653,7 +1653,7 @@ class UAsyncTask_LoadXRDeviceVisComponent* UAsyncTask_LoadXRDeviceVisComponent::
 
 
 // Function:
-//		Offset -> 0x01FDCB40
+//		Offset -> 0x01FE60F0
 //		Name   -> Function HeadMountedDisplay.AsyncTask_LoadXRDeviceVisComponent.AddDeviceVisualizationComponentAsync
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1688,7 +1688,7 @@ class UAsyncTask_LoadXRDeviceVisComponent* UAsyncTask_LoadXRDeviceVisComponent::
 
 
 // Function:
-//		Offset -> 0x01FDFDB0
+//		Offset -> 0x01FE9360
 //		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.ShowLoadingScreen
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UXRLoadingScreenFunctionLibrary::STATIC_ShowLoadingScreen()
@@ -1707,7 +1707,7 @@ void UXRLoadingScreenFunctionLibrary::STATIC_ShowLoadingScreen()
 
 
 // Function:
-//		Offset -> 0x01FDF680
+//		Offset -> 0x01FE8C30
 //		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.SetLoadingScreen
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1737,7 +1737,7 @@ void UXRLoadingScreenFunctionLibrary::STATIC_SetLoadingScreen(class UTexture* Te
 
 
 // Function:
-//		Offset -> 0x01FDEEC0
+//		Offset -> 0x01FE8470
 //		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.HideLoadingScreen
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UXRLoadingScreenFunctionLibrary::STATIC_HideLoadingScreen()
@@ -1756,7 +1756,7 @@ void UXRLoadingScreenFunctionLibrary::STATIC_HideLoadingScreen()
 
 
 // Function:
-//		Offset -> 0x01FDD690
+//		Offset -> 0x01FE6C40
 //		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.ClearLoadingScreenSplashes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UXRLoadingScreenFunctionLibrary::STATIC_ClearLoadingScreenSplashes()
@@ -1775,7 +1775,7 @@ void UXRLoadingScreenFunctionLibrary::STATIC_ClearLoadingScreenSplashes()
 
 
 // Function:
-//		Offset -> 0x01FDCF20
+//		Offset -> 0x01FE64D0
 //		Name   -> Function HeadMountedDisplay.XRLoadingScreenFunctionLibrary.AddLoadingScreenSplash
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:

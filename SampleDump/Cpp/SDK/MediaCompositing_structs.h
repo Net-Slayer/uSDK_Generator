@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -26,7 +26,7 @@ struct FMovieSceneMediaPlayerPropertySectionTemplate : public FMovieScenePropert
 	class UMediaSource*                                MediaSource;                                               // 0x0048(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	struct FFrameNumber                                SectionStartFrame;                                         // 0x0050(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bLoop;                                                     // 0x0054(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_VANJ[0x3];                                     // 0x0055(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ZQ6E[0x3];                                     // 0x0055(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -41,7 +41,7 @@ struct FMovieSceneMediaSectionParams
 	struct FFrameNumber                                SectionStartFrame;                                         // 0x0020(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FFrameNumber                                SectionEndFrame;                                           // 0x0024(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bLooping;                                                  // 0x0028(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DSO3[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_R8LV[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FFrameNumber                                StartFrameOffset;                                          // 0x002C(0x0004) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };

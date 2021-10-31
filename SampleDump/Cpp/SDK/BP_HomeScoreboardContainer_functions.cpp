@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScoreboardContainer.BP_HomeScoreboardContainer_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_HomeScoreboardContainer_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScoreboardContainer.BP_HomeScoreboardContainer_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_HomeScoreboardContainer_C::Construct()
@@ -59,7 +59,7 @@ void UBP_HomeScoreboardContainer_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScoreboardContainer.BP_HomeScoreboardContainer_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_HomeScoreboardContainer_C::OnShown()
@@ -77,7 +77,7 @@ void UBP_HomeScoreboardContainer_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScoreboardContainer.BP_HomeScoreboardContainer_C.OnHidden
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_HomeScoreboardContainer_C::OnHidden()
@@ -95,7 +95,7 @@ void UBP_HomeScoreboardContainer_C::OnHidden()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HomeScoreboardContainer.BP_HomeScoreboardContainer_C.ExecuteUbergraph_BP_HomeScoreboardContainer
 //		Flags  -> (Final)
 // Parameters:

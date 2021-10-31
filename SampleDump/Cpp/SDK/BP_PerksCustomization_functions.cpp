@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.UpdateWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_PerksCustomization_C::UpdateWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.RegisterPreviewEvents
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_PerksCustomization_C::RegisterPreviewEvents()
@@ -56,7 +56,7 @@ void UBP_PerksCustomization_C::RegisterPreviewEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.OnDrag
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -77,7 +77,7 @@ void UBP_PerksCustomization_C::OnDrag(float DeltaDistance)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.OnScroll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -98,7 +98,7 @@ void UBP_PerksCustomization_C::OnScroll(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.UpdateProfileAndPreview
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_PerksCustomization_C::UpdateProfileAndPreview()
@@ -116,7 +116,7 @@ void UBP_PerksCustomization_C::UpdateProfileAndPreview()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_PerksCustomization_C::Construct()
@@ -134,7 +134,7 @@ void UBP_PerksCustomization_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.PerkClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -155,7 +155,7 @@ void UBP_PerksCustomization_C::PerkClicked(unsigned char NewId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_PerksCustomization_C::SetActive()
@@ -173,7 +173,7 @@ void UBP_PerksCustomization_C::SetActive()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.OnProfileChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_PerksCustomization_C::OnProfileChanged()
@@ -191,7 +191,7 @@ void UBP_PerksCustomization_C::OnProfileChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.PerkHovered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -214,7 +214,7 @@ void UBP_PerksCustomization_C::PerkHovered(int Cost, bool Selected)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PerksCustomization.BP_PerksCustomization_C.ExecuteUbergraph_BP_PerksCustomization
 //		Flags  -> (Final)
 // Parameters:

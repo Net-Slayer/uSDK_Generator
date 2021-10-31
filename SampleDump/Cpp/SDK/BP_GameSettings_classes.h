@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -131,7 +131,7 @@ public:
 	void ApplyMouseSmoothing();
 	void UpdateMouseSmoothingSlider();
 	void ApplyTracersStayTime();
-	void UpdateTracersStayTimeSlider();
+	void Update_Tracers_Stay_Time_Slider();
 	void ApplyDrawTracers();
 	void UpdateDrawTracersCheckbox();
 	UMG_ESlateVisibility GetDevSettingsVisibility();

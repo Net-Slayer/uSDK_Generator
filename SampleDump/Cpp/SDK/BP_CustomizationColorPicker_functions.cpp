@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.SetColorsAndIndex
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void UBP_CustomizationColorPicker_C::SetColorsAndIndex(TArray<class UClass*>* Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.BndEvt__BP_MordhauColorPicker_K2Node_ComponentBoundEvent_2611_OnColorHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void UBP_CustomizationColorPicker_C::BndEvt__BP_MordhauColorPicker_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.BndEvt__BP_MordhauColorPicker_K2Node_ComponentBoundEvent_4366_OnColorClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_CustomizationColorPicker_C::BndEvt__BP_MordhauColorPicker_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.BndEvt__BP_MordhauColorPicker_K2Node_ComponentBoundEvent_4374_OnColorPickerClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_CustomizationColorPicker_C::BndEvt__BP_MordhauColorPicker_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.ExecuteUbergraph_BP_CustomizationColorPicker
 //		Flags  -> (Final)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_CustomizationColorPicker_C::ExecuteUbergraph_BP_CustomizationColorPicke
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.OnClosed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -149,7 +149,7 @@ void UBP_CustomizationColorPicker_C::OnClosed__DelegateSignature(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.OnHovered__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -170,7 +170,7 @@ void UBP_CustomizationColorPicker_C::OnHovered__DelegateSignature(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationColorPicker.BP_CustomizationColorPicker_C.OnClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

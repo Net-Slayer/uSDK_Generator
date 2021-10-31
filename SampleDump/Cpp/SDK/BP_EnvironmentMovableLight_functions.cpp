@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EnvironmentMovableLight.BP_EnvironmentMovableLight_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_EnvironmentMovableLight_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EnvironmentMovableLight.BP_EnvironmentMovableLight_C.ExecuteUbergraph_BP_EnvironmentMovableLight
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

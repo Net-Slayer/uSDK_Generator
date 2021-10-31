@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.GetProfileWrapper
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void ABP_MordhauCustomizationPlatform_C::GetProfileWrapper(class UCharacterProfi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.UpdateEquipmentDollRotation
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void ABP_MordhauCustomizationPlatform_C::UpdateEquipmentDollRotation(float Delta
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.UpdateCharacterDollRotation
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void ABP_MordhauCustomizationPlatform_C::UpdateCharacterDollRotation(float Delta
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.TryUpdateCharacterDollInternal
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void ABP_MordhauCustomizationPlatform_C::TryUpdateCharacterDollInternal()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.UpdateCharacterDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -132,7 +132,7 @@ void ABP_MordhauCustomizationPlatform_C::UpdateCharacterDoll(const struct FChara
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.UpdateCamera
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -153,7 +153,7 @@ void ABP_MordhauCustomizationPlatform_C::UpdateCamera(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.ZoomCharacterDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void ABP_MordhauCustomizationPlatform_C::ZoomCharacterDoll(float Delta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.ZoomEquipmentDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -195,7 +195,7 @@ void ABP_MordhauCustomizationPlatform_C::ZoomEquipmentDoll(float Delta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.RotateCharacterDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -218,7 +218,7 @@ void ABP_MordhauCustomizationPlatform_C::RotateCharacterDoll(float Delta, bool S
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.DestroyCharacterDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCustomizationPlatform_C::DestroyCharacterDoll()
@@ -236,7 +236,7 @@ void ABP_MordhauCustomizationPlatform_C::DestroyCharacterDoll()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.DestroyEquipmentDoll
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCustomizationPlatform_C::DestroyEquipmentDoll()
@@ -254,7 +254,7 @@ void ABP_MordhauCustomizationPlatform_C::DestroyEquipmentDoll()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.RotateEquipmentDoll
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -277,7 +277,7 @@ void ABP_MordhauCustomizationPlatform_C::RotateEquipmentDoll(float Delta, bool S
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.SpawnCharacterDollIfNone
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -296,7 +296,7 @@ void ABP_MordhauCustomizationPlatform_C::SpawnCharacterDollIfNone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.DestroyDolls
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_MordhauCustomizationPlatform_C::DestroyDolls()
@@ -314,7 +314,7 @@ void ABP_MordhauCustomizationPlatform_C::DestroyDolls()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.SpawnEquipment
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -339,7 +339,7 @@ void ABP_MordhauCustomizationPlatform_C::SpawnEquipment(int EquipmentIndex, clas
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.Init
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -358,7 +358,7 @@ void ABP_MordhauCustomizationPlatform_C::Init()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauCustomizationPlatform_C::ReceiveBeginPlay()
@@ -376,7 +376,7 @@ void ABP_MordhauCustomizationPlatform_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -397,7 +397,7 @@ void ABP_MordhauCustomizationPlatform_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauCustomizationPlatform.BP_MordhauCustomizationPlatform_C.ExecuteUbergraph_BP_MordhauCustomizationPlatform
 //		Flags  -> (Final)
 // Parameters:

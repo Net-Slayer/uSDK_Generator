@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.SetVoteCount
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_MapEntry_C::SetVoteCount(const struct FText& VoteCount)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void UBP_MapEntry_C::Update(const struct FString& GameModeMapName, class UGameMo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.SetGameModeName
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_MapEntry_C::SetGameModeName(const struct FText& GameModeName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.SetThumbnail
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_MapEntry_C::SetThumbnail(class UTexture2D* Thumbnail)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.SetMapName
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_MapEntry_C::SetMapName(const struct FText& MapName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.Deselect
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -147,7 +147,7 @@ void UBP_MapEntry_C::Deselect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.Select
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -166,7 +166,7 @@ void UBP_MapEntry_C::Select()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_MapEntry_C::Construct()
@@ -184,7 +184,7 @@ void UBP_MapEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MapEntry_C::BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonClickedEvent__DelegateSignature()
@@ -202,7 +202,7 @@ void UBP_MapEntry_C::BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonClickedE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MapEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
@@ -220,7 +220,7 @@ void UBP_MapEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnButtonHo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MapEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
@@ -238,7 +238,7 @@ void UBP_MapEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnButtonHo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.ExecuteUbergraph_BP_MapEntry
 //		Flags  -> (Final)
 // Parameters:
@@ -259,7 +259,7 @@ void UBP_MapEntry_C::ExecuteUbergraph_BP_MapEntry(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MapEntry.BP_MapEntry_C.Selected__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

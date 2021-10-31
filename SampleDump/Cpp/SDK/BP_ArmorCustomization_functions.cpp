@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.SetEditingDefaultTier
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_ArmorCustomization_C::SetEditingDefaultTier(int NewTier)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.UpdateCharacterDollWrapped
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_ArmorCustomization_C::UpdateCharacterDollWrapped(bool OnlyUpdateMateria
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.MetalTintColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_ArmorCustomization_C::MetalTintColorHovered(int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.EmblemColorHovered
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_ArmorCustomization_C::EmblemColorHovered(int Idx, int ColorId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.EmblemSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_ArmorCustomization_C::EmblemSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.EmblemSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -149,7 +149,7 @@ void UBP_ArmorCustomization_C::EmblemSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.ShowEmblemChoiceList
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -170,7 +170,7 @@ void UBP_ArmorCustomization_C::ShowEmblemChoiceList(int CurrentId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.ResetWrapperToTierDefault
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -189,7 +189,7 @@ void UBP_ArmorCustomization_C::ResetWrapperToTierDefault()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -211,7 +211,7 @@ UMG_ESlateVisibility UBP_ArmorCustomization_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.Get_MovementSpeedBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -233,7 +233,7 @@ float UBP_ArmorCustomization_C::Get_MovementSpeedBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.WearableSelectionCanceled
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -252,7 +252,7 @@ void UBP_ArmorCustomization_C::WearableSelectionCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.WearableSelectionHovered
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -273,7 +273,7 @@ void UBP_ArmorCustomization_C::WearableSelectionHovered(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.WearableSelectionClicked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -294,7 +294,7 @@ void UBP_ArmorCustomization_C::WearableSelectionClicked(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.ShowWearableChoiceList
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -321,7 +321,7 @@ void UBP_ArmorCustomization_C::ShowWearableChoiceList(TArray<class UClass*>* Wea
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.GetValues
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -365,7 +365,7 @@ void UBP_ArmorCustomization_C::GetValues(int* Emblem, int* EmblemColor1, int* Em
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.UpdateWidgets
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -384,7 +384,7 @@ void UBP_ArmorCustomization_C::UpdateWidgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.OnDrag
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -405,7 +405,7 @@ void UBP_ArmorCustomization_C::OnDrag(float DeltaDistance)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.RegisterPreviewEvents
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ArmorCustomization_C::RegisterPreviewEvents()
@@ -423,7 +423,7 @@ void UBP_ArmorCustomization_C::RegisterPreviewEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.OnScroll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -444,7 +444,7 @@ void UBP_ArmorCustomization_C::OnScroll(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker1_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -465,7 +465,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker1_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker1_K2Node_ComponentBoundEvent_12_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -486,7 +486,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker1_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker1_K2Node_ComponentBoundEvent_19_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -507,7 +507,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker1_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker2_K2Node_ComponentBoundEvent_68_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -528,7 +528,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker2_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker2_K2Node_ComponentBoundEvent_80_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -549,7 +549,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker2_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemColorPicker2_K2Node_ComponentBoundEvent_90_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -570,28 +570,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemColorPicker2_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature
-//		Flags  -> (BlueprintEvent)
-// Parameters:
-//		int                                                Index                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void UBP_ArmorCustomization_C::BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature(int Index)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature");
-
-	UBP_ArmorCustomization_C_BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature_Params params;
-	params.Index = Index;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalTintColorPicker_K2Node_ComponentBoundEvent_107_OnClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -612,7 +591,7 @@ void UBP_ArmorCustomization_C::BndEvt__MetalTintColorPicker_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalTintColorPicker_K2Node_ComponentBoundEvent_123_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -633,7 +612,7 @@ void UBP_ArmorCustomization_C::BndEvt__MetalTintColorPicker_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalTintColorPicker_K2Node_ComponentBoundEvent_137_OnClosed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -654,7 +633,7 @@ void UBP_ArmorCustomization_C::BndEvt__MetalTintColorPicker_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_180_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_180_OnButtonClickedEvent__DelegateSignature()
@@ -672,7 +651,7 @@ void UBP_ArmorCustomization_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_180
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ArmorCustomization_C::SetActive()
@@ -690,7 +669,7 @@ void UBP_ArmorCustomization_C::SetActive()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.OnProfileChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ArmorCustomization_C::OnProfileChanged()
@@ -708,7 +687,7 @@ void UBP_ArmorCustomization_C::OnProfileChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ArmorCustomization_C::Construct()
@@ -726,7 +705,7 @@ void UBP_ArmorCustomization_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__Tier0Button_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__Tier0Button_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
@@ -744,7 +723,7 @@ void UBP_ArmorCustomization_C::BndEvt__Tier0Button_K2Node_ComponentBoundEvent_2_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__Tier1Button_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__Tier1Button_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -762,7 +741,7 @@ void UBP_ArmorCustomization_C::BndEvt__Tier1Button_K2Node_ComponentBoundEvent_4_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__Tier2Button_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__Tier2Button_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -780,7 +759,7 @@ void UBP_ArmorCustomization_C::BndEvt__Tier2Button_K2Node_ComponentBoundEvent_5_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__Tier3Button_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__Tier3Button_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
@@ -798,7 +777,7 @@ void UBP_ArmorCustomization_C::BndEvt__Tier3Button_K2Node_ComponentBoundEvent_6_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__EmblemButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ArmorCustomization_C::BndEvt__EmblemButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
@@ -816,7 +795,7 @@ void UBP_ArmorCustomization_C::BndEvt__EmblemButton_K2Node_ComponentBoundEvent_7
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__Dropdown_K2Node_ComponentBoundEvent_0_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -839,7 +818,7 @@ void UBP_ArmorCustomization_C::BndEvt__Dropdown_K2Node_ComponentBoundEvent_0_OnS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.UpdateTeamColorsPreview
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ArmorCustomization_C::UpdateTeamColorsPreview()
@@ -857,7 +836,28 @@ void UBP_ArmorCustomization_C::UpdateTeamColorsPreview()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature
+//		Flags  -> (BlueprintEvent)
+// Parameters:
+//		float                                              Value                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void UBP_ArmorCustomization_C::BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature(float Value)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature");
+
+	UBP_ArmorCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature_Params params;
+	params.Value = Value;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmorCustomization.BP_ArmorCustomization_C.ExecuteUbergraph_BP_ArmorCustomization
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

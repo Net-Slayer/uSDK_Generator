@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.UpdateFromSuppliedXP
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_CasualRankWidget_C::UpdateFromSuppliedXP(int SuppliedXP)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.GetToolTipText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -62,7 +62,7 @@ struct FText UBP_CasualRankWidget_C::GetToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.UpdateRankProgress
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -83,7 +83,7 @@ void UBP_CasualRankWidget_C::UpdateRankProgress(int XP)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.Get_RemainingXPText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -105,7 +105,7 @@ struct FText UBP_CasualRankWidget_C::Get_RemainingXPText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.Get_XPProgressBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -127,7 +127,7 @@ float UBP_CasualRankWidget_C::Get_XPProgressBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CasualRankWidget.BP_CasualRankWidget_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:

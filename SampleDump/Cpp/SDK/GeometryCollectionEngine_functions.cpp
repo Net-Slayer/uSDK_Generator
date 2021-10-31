@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x030B7900
+//		Offset -> 0x030C2630
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortTrailingEvents
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -45,7 +45,7 @@ void UChaosDestructionListener::SortTrailingEvents(TArray<struct FChaosTrailingE
 
 
 // Function:
-//		Offset -> 0x030B7800
+//		Offset -> 0x030C2530
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortCollisionEvents
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -71,7 +71,7 @@ void UChaosDestructionListener::SortCollisionEvents(TArray<struct FChaosCollisio
 
 
 // Function:
-//		Offset -> 0x030B7700
+//		Offset -> 0x030C2430
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SortBreakingEvents
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -97,7 +97,7 @@ void UChaosDestructionListener::SortBreakingEvents(TArray<struct FChaosBreakingE
 
 
 // Function:
-//		Offset -> 0x030B7660
+//		Offset -> 0x030C2390
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventRequestSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -119,7 +119,7 @@ void UChaosDestructionListener::SetTrailingEventRequestSettings(const struct FCh
 
 
 // Function:
-//		Offset -> 0x030B75D0
+//		Offset -> 0x030C2300
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -141,7 +141,7 @@ void UChaosDestructionListener::SetTrailingEventEnabled(bool bIsEnabled)
 
 
 // Function:
-//		Offset -> 0x030B74A0
+//		Offset -> 0x030C21D0
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventRequestSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -163,7 +163,7 @@ void UChaosDestructionListener::SetCollisionEventRequestSettings(const struct FC
 
 
 // Function:
-//		Offset -> 0x030B7410
+//		Offset -> 0x030C2140
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -185,7 +185,7 @@ void UChaosDestructionListener::SetCollisionEventEnabled(bool bIsEnabled)
 
 
 // Function:
-//		Offset -> 0x030B7370
+//		Offset -> 0x030C20A0
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventRequestSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -207,7 +207,7 @@ void UChaosDestructionListener::SetBreakingEventRequestSettings(const struct FCh
 
 
 // Function:
-//		Offset -> 0x030B72E0
+//		Offset -> 0x030C2010
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -229,7 +229,7 @@ void UChaosDestructionListener::SetBreakingEventEnabled(bool bIsEnabled)
 
 
 // Function:
-//		Offset -> 0x030B7260
+//		Offset -> 0x030C1F90
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.RemoveGeometryCollectionActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -251,7 +251,7 @@ void UChaosDestructionListener::RemoveGeometryCollectionActor(class AGeometryCol
 
 
 // Function:
-//		Offset -> 0x010BCBA0
+//		Offset -> 0x010CD040
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.RemoveChaosSolverActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -273,7 +273,7 @@ void UChaosDestructionListener::RemoveChaosSolverActor(class AChaosSolverActor* 
 
 
 // Function:
-//		Offset -> 0x030B70B0
+//		Offset -> 0x030C1DE0
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.IsEventListening
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -296,7 +296,7 @@ bool UChaosDestructionListener::IsEventListening()
 
 
 // Function:
-//		Offset -> 0x030B6DF0
+//		Offset -> 0x030C1B20
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.AddGeometryCollectionActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -318,7 +318,7 @@ void UChaosDestructionListener::AddGeometryCollectionActor(class AGeometryCollec
 
 
 // Function:
-//		Offset -> 0x010BCBA0
+//		Offset -> 0x010CD040
 //		Name   -> Function GeometryCollectionEngine.ChaosDestructionListener.AddChaosSolverActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -340,7 +340,7 @@ void UChaosDestructionListener::AddChaosSolverActor(class AChaosSolverActor* Cha
 
 
 // Function:
-//		Offset -> 0x030B70E0
+//		Offset -> 0x030C1E10
 //		Name   -> Function GeometryCollectionEngine.GeometryCollectionActor.RaycastSingle
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -371,7 +371,7 @@ bool AGeometryCollectionActor::RaycastSingle(const struct FVector& Start, const 
 
 
 // Function:
-//		Offset -> 0x030B7540
+//		Offset -> 0x030C2270
 //		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyBreaks
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -393,7 +393,7 @@ void UGeometryCollectionComponent::SetNotifyBreaks(bool bNewNotifyBreaks)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ReceivePhysicsCollision
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -414,7 +414,7 @@ void UGeometryCollectionComponent::ReceivePhysicsCollision(const struct FChaosPh
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsStateChange__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -435,7 +435,7 @@ void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsStateChange__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsLoadingStateChange__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -456,7 +456,7 @@ void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsLoadingStateCh
 
 
 // Function:
-//		Offset -> 0x030B6F40
+//		Offset -> 0x030C1C70
 //		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyPhysicsField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -484,7 +484,7 @@ void UGeometryCollectionComponent::ApplyPhysicsField(bool Enabled, GeometryColle
 
 
 // Function:
-//		Offset -> 0x030B6E70
+//		Offset -> 0x030C1BA0
 //		Name   -> Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyKinematicField
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -508,7 +508,7 @@ void UGeometryCollectionComponent::ApplyKinematicField(float Radius, const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function GeometryCollectionEngine.SkeletalMeshSimulationComponent.ReceivePhysicsCollision
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -529,7 +529,7 @@ void USkeletalMeshSimulationComponent::ReceivePhysicsCollision(const struct FCha
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function GeometryCollectionEngine.StaticMeshSimulationComponent.ReceivePhysicsCollision
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -550,7 +550,7 @@ void UStaticMeshSimulationComponent::ReceivePhysicsCollision(const struct FChaos
 
 
 // Function:
-//		Offset -> 0x030B7090
+//		Offset -> 0x030C1DC0
 //		Name   -> Function GeometryCollectionEngine.StaticMeshSimulationComponent.ForceRecreatePhysicsState
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UStaticMeshSimulationComponent::ForceRecreatePhysicsState()

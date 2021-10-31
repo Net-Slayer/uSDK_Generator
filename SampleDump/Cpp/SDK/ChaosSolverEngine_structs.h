@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -40,7 +40,7 @@ enum class ChaosSolverEngine_EClusterConnectionTypeEnum : uint8_t
 // 0x0058
 struct FChaosHandlerSet
 {
-	unsigned char                                      UnknownData_P5LO[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_UODP[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	unsigned char                                      ChaosHandlers[0x50];                                       // 0x0000(0x0050) UNKNOWN PROPERTY: SetProperty
 
 };
@@ -49,7 +49,7 @@ struct FChaosHandlerSet
 // 0x0040
 struct FBreakEventCallbackWrapper
 {
-	unsigned char                                      UnknownData_WUPS[0x40];                                    // 0x0000(0x0040) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_LBY9[0x40];                                    // 0x0000(0x0040) MISSED OFFSET (PADDING)
 
 };
 
@@ -78,7 +78,7 @@ struct FChaosPhysicsCollisionInfo
 	struct FVector                                     OtherAngularVelocity;                                      // 0x0058(0x000C) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              Mass;                                                      // 0x0064(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              OtherMass;                                                 // 0x0068(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_OKI6[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_1CNJ[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (PADDING)
 
 };
 

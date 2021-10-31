@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E19A70
+//		Offset -> 0x00E23880
 //		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetPtr
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetPtr(class
 
 
 // Function:
-//		Offset -> 0x00E19920
+//		Offset -> 0x00E23730
 //		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetData
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetData(cons
 
 
 // Function:
-//		Offset -> 0x00E19840
+//		Offset -> 0x00E23650
 //		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAsset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -94,7 +94,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAsset(const st
 
 
 // Function:
-//		Offset -> 0x00E197C0
+//		Offset -> 0x00E235D0
 //		Name   -> Function AssetTags.AssetTagsSubsystem.GetCollections
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -117,7 +117,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollections()
 
 
 // Function:
-//		Offset -> 0x00E19630
+//		Offset -> 0x00E23440
 //		Name   -> Function AssetTags.AssetTagsSubsystem.GetAssetsInCollection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -142,7 +142,7 @@ TArray<struct FAssetData> UAssetTagsSubsystem::GetAssetsInCollection(const struc
 
 
 // Function:
-//		Offset -> 0x00E195A0
+//		Offset -> 0x00E233B0
 //		Name   -> Function AssetTags.AssetTagsSubsystem.CollectionExists
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

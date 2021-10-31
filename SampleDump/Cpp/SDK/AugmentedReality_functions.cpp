@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x01FC9B70
+//		Offset -> 0x01FD3120
 //		Name   -> Function AugmentedReality.ARSessionConfig.ShouldResetTrackedObjects
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -42,7 +42,7 @@ bool UARSessionConfig::ShouldResetTrackedObjects()
 
 
 // Function:
-//		Offset -> 0x01FC9B40
+//		Offset -> 0x01FD30F0
 //		Name   -> Function AugmentedReality.ARSessionConfig.ShouldResetCameraTracking
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -65,7 +65,7 @@ bool UARSessionConfig::ShouldResetCameraTracking()
 
 
 // Function:
-//		Offset -> 0x01FC9B10
+//		Offset -> 0x01FD30C0
 //		Name   -> Function AugmentedReality.ARSessionConfig.ShouldRenderCameraOverlay
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -88,7 +88,7 @@ bool UARSessionConfig::ShouldRenderCameraOverlay()
 
 
 // Function:
-//		Offset -> 0x01FC9AE0
+//		Offset -> 0x01FD3090
 //		Name   -> Function AugmentedReality.ARSessionConfig.ShouldEnableCameraTracking
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -111,7 +111,7 @@ bool UARSessionConfig::ShouldEnableCameraTracking()
 
 
 // Function:
-//		Offset -> 0x01FC9AB0
+//		Offset -> 0x01FD3060
 //		Name   -> Function AugmentedReality.ARSessionConfig.ShouldEnableAutoFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -134,7 +134,7 @@ bool UARSessionConfig::ShouldEnableAutoFocus()
 
 
 // Function:
-//		Offset -> 0x01FC99C0
+//		Offset -> 0x01FD2F70
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetWorldMapData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -156,7 +156,7 @@ void UARSessionConfig::SetWorldMapData(TArray<unsigned char> WorldMapData)
 
 
 // Function:
-//		Offset -> 0x01FC9940
+//		Offset -> 0x01FD2EF0
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetSessionTrackingFeatureToEnable
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -178,7 +178,7 @@ void UARSessionConfig::SetSessionTrackingFeatureToEnable(AugmentedReality_EARSes
 
 
 // Function:
-//		Offset -> 0x01FC98B0
+//		Offset -> 0x01FD2E60
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetResetTrackedObjects
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -200,7 +200,7 @@ void UARSessionConfig::SetResetTrackedObjects(bool bNewValue)
 
 
 // Function:
-//		Offset -> 0x01FC9820
+//		Offset -> 0x01FD2DD0
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetResetCameraTracking
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -222,7 +222,7 @@ void UARSessionConfig::SetResetCameraTracking(bool bNewValue)
 
 
 // Function:
-//		Offset -> 0x01FC97A0
+//		Offset -> 0x01FD2D50
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetFaceTrackingUpdate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -244,7 +244,7 @@ void UARSessionConfig::SetFaceTrackingUpdate(AugmentedReality_EARFaceTrackingUpd
 
 
 // Function:
-//		Offset -> 0x01FC9720
+//		Offset -> 0x01FD2CD0
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetFaceTrackingDirection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -266,7 +266,7 @@ void UARSessionConfig::SetFaceTrackingDirection(AugmentedReality_EARFaceTracking
 
 
 // Function:
-//		Offset -> 0x01FC9690
+//		Offset -> 0x01FD2C40
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetEnableAutoFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -288,7 +288,7 @@ void UARSessionConfig::SetEnableAutoFocus(bool bNewValue)
 
 
 // Function:
-//		Offset -> 0x01FC95F0
+//		Offset -> 0x01FD2BA0
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetDesiredVideoFormat
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -310,7 +310,7 @@ void UARSessionConfig::SetDesiredVideoFormat(const struct FARVideoFormat& NewFor
 
 
 // Function:
-//		Offset -> 0x01FC9540
+//		Offset -> 0x01FD2AF0
 //		Name   -> Function AugmentedReality.ARSessionConfig.SetCandidateObjectList
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -332,7 +332,7 @@ void UARSessionConfig::SetCandidateObjectList(TArray<class UARCandidateObject*> 
 
 
 // Function:
-//		Offset -> 0x01FC8A70
+//		Offset -> 0x01FD2020
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetWorldMapData
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -355,7 +355,7 @@ TArray<unsigned char> UARSessionConfig::GetWorldMapData()
 
 
 // Function:
-//		Offset -> 0x01FC8A40
+//		Offset -> 0x01FD1FF0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetWorldAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -378,7 +378,7 @@ AugmentedReality_EARWorldAlignment UARSessionConfig::GetWorldAlignment()
 
 
 // Function:
-//		Offset -> 0x01FC86F0
+//		Offset -> 0x01FD1CA0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetSessionType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -401,7 +401,7 @@ AugmentedReality_EARSessionType UARSessionConfig::GetSessionType()
 
 
 // Function:
-//		Offset -> 0x01FC8610
+//		Offset -> 0x01FD1BC0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetPlaneDetectionMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -424,7 +424,7 @@ AugmentedReality_EARPlaneDetectionMode UARSessionConfig::GetPlaneDetectionMode()
 
 
 // Function:
-//		Offset -> 0x01FC8550
+//		Offset -> 0x01FD1B00
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetMaxNumSimultaneousImagesTracked
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -447,7 +447,7 @@ int UARSessionConfig::GetMaxNumSimultaneousImagesTracked()
 
 
 // Function:
-//		Offset -> 0x01FC8220
+//		Offset -> 0x01FD17D0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetLightEstimationMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -470,7 +470,7 @@ AugmentedReality_EARLightEstimationMode UARSessionConfig::GetLightEstimationMode
 
 
 // Function:
-//		Offset -> 0x01FC81F0
+//		Offset -> 0x01FD17A0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetFrameSyncMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -493,7 +493,7 @@ AugmentedReality_EARFrameSyncMode UARSessionConfig::GetFrameSyncMode()
 
 
 // Function:
-//		Offset -> 0x01FC81C0
+//		Offset -> 0x01FD1770
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetFaceTrackingUpdate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -516,7 +516,7 @@ AugmentedReality_EARFaceTrackingUpdate UARSessionConfig::GetFaceTrackingUpdate()
 
 
 // Function:
-//		Offset -> 0x01FC8190
+//		Offset -> 0x01FD1740
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetFaceTrackingDirection
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -539,7 +539,7 @@ AugmentedReality_EARFaceTrackingDirection UARSessionConfig::GetFaceTrackingDirec
 
 
 // Function:
-//		Offset -> 0x01FC8160
+//		Offset -> 0x01FD1710
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetEnvironmentCaptureProbeType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -562,7 +562,7 @@ AugmentedReality_EAREnvironmentCaptureProbeType UARSessionConfig::GetEnvironment
 
 
 // Function:
-//		Offset -> 0x01FC8130
+//		Offset -> 0x01FD16E0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetEnabledSessionTrackingFeature
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -585,7 +585,7 @@ AugmentedReality_EARSessionTrackingFeature UARSessionConfig::GetEnabledSessionTr
 
 
 // Function:
-//		Offset -> 0x01FC7FF0
+//		Offset -> 0x01FD15A0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetDesiredVideoFormat
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -608,7 +608,7 @@ struct FARVideoFormat UARSessionConfig::GetDesiredVideoFormat()
 
 
 // Function:
-//		Offset -> 0x01FC7EF0
+//		Offset -> 0x01FD14A0
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetCandidateObjectList
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -631,7 +631,7 @@ TArray<class UARCandidateObject*> UARSessionConfig::GetCandidateObjectList()
 
 
 // Function:
-//		Offset -> 0x01FC7E60
+//		Offset -> 0x01FD1410
 //		Name   -> Function AugmentedReality.ARSessionConfig.GetCandidateImageList
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -654,7 +654,7 @@ TArray<class UARCandidateImage*> UARSessionConfig::GetCandidateImageList()
 
 
 // Function:
-//		Offset -> 0x01FC70B0
+//		Offset -> 0x01FD0660
 //		Name   -> Function AugmentedReality.ARSessionConfig.AddCandidateObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -676,7 +676,7 @@ void UARSessionConfig::AddCandidateObject(class UARCandidateObject* CandidateObj
 
 
 // Function:
-//		Offset -> 0x01FC7030
+//		Offset -> 0x01FD05E0
 //		Name   -> Function AugmentedReality.ARSessionConfig.AddCandidateImage
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -698,7 +698,7 @@ void UARSessionConfig::AddCandidateImage(class UARCandidateImage* NewCandidateIm
 
 
 // Function:
-//		Offset -> 0x01FC7DD0
+//		Offset -> 0x01FD1380
 //		Name   -> Function AugmentedReality.ARBasicLightEstimate.GetAmbientIntensityLumens
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -721,7 +721,7 @@ float UARBasicLightEstimate::GetAmbientIntensityLumens()
 
 
 // Function:
-//		Offset -> 0x01FC7DA0
+//		Offset -> 0x01FD1350
 //		Name   -> Function AugmentedReality.ARBasicLightEstimate.GetAmbientColorTemperatureKelvin
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -744,7 +744,7 @@ float UARBasicLightEstimate::GetAmbientColorTemperatureKelvin()
 
 
 // Function:
-//		Offset -> 0x01FC7D60
+//		Offset -> 0x01FD1310
 //		Name   -> Function AugmentedReality.ARBasicLightEstimate.GetAmbientColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -767,7 +767,7 @@ struct FLinearColor UARBasicLightEstimate::GetAmbientColor()
 
 
 // Function:
-//		Offset -> 0x01FCE8B0
+//		Offset -> 0x01FD7E60
 //		Name   -> Function AugmentedReality.ARCandidateImage.GetPhysicalWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -790,7 +790,7 @@ float UARCandidateImage::GetPhysicalWidth()
 
 
 // Function:
-//		Offset -> 0x01FCE890
+//		Offset -> 0x01FD7E40
 //		Name   -> Function AugmentedReality.ARCandidateImage.GetPhysicalHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -813,7 +813,7 @@ float UARCandidateImage::GetPhysicalHeight()
 
 
 // Function:
-//		Offset -> 0x01FCE850
+//		Offset -> 0x01FD7E00
 //		Name   -> Function AugmentedReality.ARCandidateImage.GetOrientation
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -836,7 +836,7 @@ AugmentedReality_EARCandidateImageOrientation UARCandidateImage::GetOrientation(
 
 
 // Function:
-//		Offset -> 0x009F6380
+//		Offset -> 0x009FA5D0
 //		Name   -> Function AugmentedReality.ARCandidateImage.GetFriendlyName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -859,7 +859,7 @@ struct FString UARCandidateImage::GetFriendlyName()
 
 
 // Function:
-//		Offset -> 0x01FCE510
+//		Offset -> 0x01FD7AC0
 //		Name   -> Function AugmentedReality.ARCandidateImage.GetCandidateTexture
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -882,7 +882,7 @@ class UTexture2D* UARCandidateImage::GetCandidateTexture()
 
 
 // Function:
-//		Offset -> 0x01FC9C30
+//		Offset -> 0x01FD31E0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.UnpinComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -904,7 +904,7 @@ void UARBlueprintLibrary::STATIC_UnpinComponent(class USceneComponent* Component
 
 
 // Function:
-//		Offset -> 0x01FC9C10
+//		Offset -> 0x01FD31C0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.StopARSession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UARBlueprintLibrary::STATIC_StopARSession()
@@ -923,7 +923,7 @@ void UARBlueprintLibrary::STATIC_StopARSession()
 
 
 // Function:
-//		Offset -> 0x01FC9BA0
+//		Offset -> 0x01FD3150
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.StartARSession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -945,7 +945,7 @@ void UARBlueprintLibrary::STATIC_StartARSession(class UARSessionConfig* SessionC
 
 
 // Function:
-//		Offset -> 0x01FC9470
+//		Offset -> 0x01FD2A20
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.SetAlignmentTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -967,7 +967,7 @@ void UARBlueprintLibrary::STATIC_SetAlignmentTransform(const struct FTransform& 
 
 
 // Function:
-//		Offset -> 0x01FC9400
+//		Offset -> 0x01FD29B0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.RemovePin
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -989,7 +989,7 @@ void UARBlueprintLibrary::STATIC_RemovePin(class UARPin* PinToRemove)
 
 
 // Function:
-//		Offset -> 0x01FC9280
+//		Offset -> 0x01FD2830
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.PinComponentToTraceResult
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1018,7 +1018,7 @@ class UARPin* UARBlueprintLibrary::STATIC_PinComponentToTraceResult(class UScene
 
 
 // Function:
-//		Offset -> 0x01FC90E0
+//		Offset -> 0x01FD2690
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.PinComponent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1049,7 +1049,7 @@ class UARPin* UARBlueprintLibrary::STATIC_PinComponent(class USceneComponent* Co
 
 
 // Function:
-//		Offset -> 0x01FC90C0
+//		Offset -> 0x01FD2670
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.PauseARSession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UARBlueprintLibrary::STATIC_PauseARSession()
@@ -1068,7 +1068,7 @@ void UARBlueprintLibrary::STATIC_PauseARSession()
 
 
 // Function:
-//		Offset -> 0x01FC8C20
+//		Offset -> 0x01FD21D0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects3D
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1103,7 +1103,7 @@ TArray<struct FARTraceResult> UARBlueprintLibrary::STATIC_LineTraceTrackedObject
 
 
 // Function:
-//		Offset -> 0x01FC8E90
+//		Offset -> 0x01FD2440
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1136,7 +1136,7 @@ TArray<struct FARTraceResult> UARBlueprintLibrary::STATIC_LineTraceTrackedObject
 
 
 // Function:
-//		Offset -> 0x01FC8BA0
+//		Offset -> 0x01FD2150
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.IsSessionTypeSupported
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1161,7 +1161,7 @@ bool UARBlueprintLibrary::STATIC_IsSessionTypeSupported(AugmentedReality_EARSess
 
 
 // Function:
-//		Offset -> 0x01FC8AE0
+//		Offset -> 0x01FD2090
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.IsSessionTrackingFeatureSupported
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1188,7 +1188,7 @@ bool UARBlueprintLibrary::STATIC_IsSessionTrackingFeatureSupported(AugmentedReal
 
 
 // Function:
-//		Offset -> 0x00CFB5C0
+//		Offset -> 0x00D04DF0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.IsARSupported
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1211,7 +1211,7 @@ bool UARBlueprintLibrary::STATIC_IsARSupported()
 
 
 // Function:
-//		Offset -> 0x01FC8AB0
+//		Offset -> 0x01FD2060
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetWorldMappingStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1234,7 +1234,7 @@ AugmentedReality_EARWorldMappingState UARBlueprintLibrary::STATIC_GetWorldMappin
 
 
 // Function:
-//		Offset -> 0x0062E610
+//		Offset -> 0x00632370
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetTrackingQualityReason
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1257,7 +1257,7 @@ AugmentedReality_EARTrackingQualityReason UARBlueprintLibrary::STATIC_GetTrackin
 
 
 // Function:
-//		Offset -> 0x01FC8A10
+//		Offset -> 0x01FD1FC0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetTrackingQuality
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1280,7 +1280,7 @@ AugmentedReality_EARTrackingQuality UARBlueprintLibrary::STATIC_GetTrackingQuali
 
 
 // Function:
-//		Offset -> 0x01FC8720
+//		Offset -> 0x01FD1CD0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetSupportedVideoFormats
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1305,7 +1305,7 @@ TArray<struct FARVideoFormat> UARBlueprintLibrary::STATIC_GetSupportedVideoForma
 
 
 // Function:
-//		Offset -> 0x01FC86C0
+//		Offset -> 0x01FD1C70
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetSessionConfig
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1328,7 +1328,7 @@ class UARSessionConfig* UARBlueprintLibrary::STATIC_GetSessionConfig()
 
 
 // Function:
-//		Offset -> 0x01FC8640
+//		Offset -> 0x01FD1BF0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetPointCloud
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1351,7 +1351,7 @@ TArray<struct FVector> UARBlueprintLibrary::STATIC_GetPointCloud()
 
 
 // Function:
-//		Offset -> 0x01FC85B0
+//		Offset -> 0x01FD1B60
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1374,7 +1374,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::STATIC_GetPersonSegmentationIm
 
 
 // Function:
-//		Offset -> 0x01FC8580
+//		Offset -> 0x01FD1B30
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationDepthImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1397,7 +1397,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::STATIC_GetPersonSegmentationDe
 
 
 // Function:
-//		Offset -> 0x01FC7F80
+//		Offset -> 0x01FD1530
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetCurrentLightEstimate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1420,7 +1420,7 @@ class UARLightEstimate* UARBlueprintLibrary::STATIC_GetCurrentLightEstimate()
 
 
 // Function:
-//		Offset -> 0x01FC7E30
+//		Offset -> 0x01FD13E0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetCameraImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1443,7 +1443,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::STATIC_GetCameraImage()
 
 
 // Function:
-//		Offset -> 0x01FC7E00
+//		Offset -> 0x01FD13B0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetCameraDepth
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1466,7 +1466,7 @@ class UARTextureCameraDepth* UARBlueprintLibrary::STATIC_GetCameraDepth()
 
 
 // Function:
-//		Offset -> 0x01FC7810
+//		Offset -> 0x01FD0DC0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetARSessionStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1489,7 +1489,7 @@ struct FARSessionStatus UARBlueprintLibrary::STATIC_GetARSessionStatus()
 
 
 // Function:
-//		Offset -> 0x01FC7CE0
+//		Offset -> 0x01FD1290
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoses
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1512,7 +1512,7 @@ TArray<class UARTrackedPose*> UARBlueprintLibrary::STATIC_GetAllTrackedPoses()
 
 
 // Function:
-//		Offset -> 0x01FC7C60
+//		Offset -> 0x01FD1210
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoints
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1535,7 +1535,7 @@ TArray<class UARTrackedPoint*> UARBlueprintLibrary::STATIC_GetAllTrackedPoints()
 
 
 // Function:
-//		Offset -> 0x01FC7BE0
+//		Offset -> 0x01FD1190
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPlanes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1558,7 +1558,7 @@ TArray<class UARPlaneGeometry*> UARBlueprintLibrary::STATIC_GetAllTrackedPlanes(
 
 
 // Function:
-//		Offset -> 0x01FC7B60
+//		Offset -> 0x01FD1110
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedImages
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1581,7 +1581,7 @@ TArray<class UARTrackedImage*> UARBlueprintLibrary::STATIC_GetAllTrackedImages()
 
 
 // Function:
-//		Offset -> 0x01FC7AE0
+//		Offset -> 0x01FD1090
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedEnvironmentCaptureProbes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1604,7 +1604,7 @@ TArray<class UAREnvironmentCaptureProbe*> UARBlueprintLibrary::STATIC_GetAllTrac
 
 
 // Function:
-//		Offset -> 0x01FC79A0
+//		Offset -> 0x01FD0F50
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllTracked2DPoses
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1627,7 +1627,7 @@ TArray<struct FARPose2D> UARBlueprintLibrary::STATIC_GetAllTracked2DPoses()
 
 
 // Function:
-//		Offset -> 0x01FC7920
+//		Offset -> 0x01FD0ED0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllPins
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1650,7 +1650,7 @@ TArray<class UARPin*> UARBlueprintLibrary::STATIC_GetAllPins()
 
 
 // Function:
-//		Offset -> 0x01FC78A0
+//		Offset -> 0x01FD0E50
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.GetAllGeometries
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1673,7 +1673,7 @@ TArray<class UARTrackedGeometry*> UARBlueprintLibrary::STATIC_GetAllGeometries()
 
 
 // Function:
-//		Offset -> 0x01FC7680
+//		Offset -> 0x01FD0C30
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.DebugDrawTrackedGeometry
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1703,7 +1703,7 @@ void UARBlueprintLibrary::STATIC_DebugDrawTrackedGeometry(class UARTrackedGeomet
 
 
 // Function:
-//		Offset -> 0x01FC74F0
+//		Offset -> 0x01FD0AA0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.DebugDrawPin
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1733,7 +1733,7 @@ void UARBlueprintLibrary::STATIC_DebugDrawPin(class UARPin* ARPin, class UObject
 
 
 // Function:
-//		Offset -> 0x01FC7210
+//		Offset -> 0x01FD07C0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.AddRuntimeCandidateImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1764,7 +1764,7 @@ class UARCandidateImage* UARBlueprintLibrary::STATIC_AddRuntimeCandidateImage(cl
 
 
 // Function:
-//		Offset -> 0x01FC7130
+//		Offset -> 0x01FD06E0
 //		Name   -> Function AugmentedReality.ARBlueprintLibrary.AddManualEnvironmentCaptureProbe
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1791,7 +1791,7 @@ bool UARBlueprintLibrary::STATIC_AddManualEnvironmentCaptureProbe(const struct F
 
 
 // Function:
-//		Offset -> 0x01FC8910
+//		Offset -> 0x01FD1EC0
 //		Name   -> Function AugmentedReality.ARTraceResultLibrary.GetTrackedGeometry
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1816,7 +1816,7 @@ class UARTrackedGeometry* UARTraceResultLibrary::STATIC_GetTrackedGeometry(const
 
 
 // Function:
-//		Offset -> 0x01FC87E0
+//		Offset -> 0x01FD1D90
 //		Name   -> Function AugmentedReality.ARTraceResultLibrary.GetTraceChannel
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1841,7 +1841,7 @@ AugmentedReality_EARLineTraceChannels UARTraceResultLibrary::STATIC_GetTraceChan
 
 
 // Function:
-//		Offset -> 0x01FC8430
+//		Offset -> 0x01FD19E0
 //		Name   -> Function AugmentedReality.ARTraceResultLibrary.GetLocalToWorldTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1866,7 +1866,7 @@ struct FTransform UARTraceResultLibrary::STATIC_GetLocalToWorldTransform(const s
 
 
 // Function:
-//		Offset -> 0x01FC82B0
+//		Offset -> 0x01FD1860
 //		Name   -> Function AugmentedReality.ARTraceResultLibrary.GetLocalToTrackingTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1891,7 +1891,7 @@ struct FTransform UARTraceResultLibrary::STATIC_GetLocalToTrackingTransform(cons
 
 
 // Function:
-//		Offset -> 0x01FC8030
+//		Offset -> 0x01FD15E0
 //		Name   -> Function AugmentedReality.ARTraceResultLibrary.GetDistanceFromCamera
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1916,7 +1916,7 @@ float UARTraceResultLibrary::STATIC_GetDistanceFromCamera(const struct FARTraceR
 
 
 // Function:
-//		Offset -> 0x01FC6FB0
+//		Offset -> 0x01FD0560
 //		Name   -> Function AugmentedReality.ARSaveWorldAsyncTaskBlueprintProxy.ARSaveWorld
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1941,7 +1941,7 @@ class UARSaveWorldAsyncTaskBlueprintProxy* UARSaveWorldAsyncTaskBlueprintProxy::
 
 
 // Function:
-//		Offset -> 0x01FC6E90
+//		Offset -> 0x01FD0440
 //		Name   -> Function AugmentedReality.ARGetCandidateObjectAsyncTaskBlueprintProxy.ARGetCandidateObject
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1970,7 +1970,7 @@ class UARGetCandidateObjectAsyncTaskBlueprintProxy* UARGetCandidateObjectAsyncTa
 
 
 // Function:
-//		Offset -> 0x01FC8130
+//		Offset -> 0x01FD16E0
 //		Name   -> Function AugmentedReality.ARPin.GetTrackingState
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1993,7 +1993,7 @@ AugmentedReality_EARTrackingState UARPin::GetTrackingState()
 
 
 // Function:
-//		Offset -> 0x01FC88E0
+//		Offset -> 0x01FD1E90
 //		Name   -> Function AugmentedReality.ARPin.GetTrackedGeometry
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2016,7 +2016,7 @@ class UARTrackedGeometry* UARPin::GetTrackedGeometry()
 
 
 // Function:
-//		Offset -> 0x01FC85E0
+//		Offset -> 0x01FD1B90
 //		Name   -> Function AugmentedReality.ARPin.GetPinnedComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2039,7 +2039,7 @@ class USceneComponent* UARPin::GetPinnedComponent()
 
 
 // Function:
-//		Offset -> 0x01FC83D0
+//		Offset -> 0x01FD1980
 //		Name   -> Function AugmentedReality.ARPin.GetLocalToWorldTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2062,7 +2062,7 @@ struct FTransform UARPin::GetLocalToWorldTransform()
 
 
 // Function:
-//		Offset -> 0x01FC8250
+//		Offset -> 0x01FD1800
 //		Name   -> Function AugmentedReality.ARPin.GetLocalToTrackingTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2085,7 +2085,7 @@ struct FTransform UARPin::GetLocalToTrackingTransform()
 
 
 // Function:
-//		Offset -> 0x01FC7FB0
+//		Offset -> 0x01FD1560
 //		Name   -> Function AugmentedReality.ARPin.GetDebugName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2108,7 +2108,7 @@ struct FName UARPin::GetDebugName()
 
 
 // Function:
-//		Offset -> 0x01FC73A0
+//		Offset -> 0x01FD0950
 //		Name   -> Function AugmentedReality.ARPin.DebugDraw
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults, Const)
 // Parameters:
@@ -2136,7 +2136,7 @@ void UARPin::DebugDraw(class UWorld* World, const struct FLinearColor& Color, fl
 
 
 // Function:
-//		Offset -> 0x01FCEE50
+//		Offset -> 0x01FD8400
 //		Name   -> Function AugmentedReality.ARSharedWorldGameMode.SetPreviewImageData
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2158,7 +2158,7 @@ void AARSharedWorldGameMode::SetPreviewImageData(TArray<unsigned char> ImageData
 
 
 // Function:
-//		Offset -> 0x01FCEB70
+//		Offset -> 0x01FD8120
 //		Name   -> Function AugmentedReality.ARSharedWorldGameMode.SetARWorldSharingIsReady
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 void AARSharedWorldGameMode::SetARWorldSharingIsReady()
@@ -2177,7 +2177,7 @@ void AARSharedWorldGameMode::SetARWorldSharingIsReady()
 
 
 // Function:
-//		Offset -> 0x01FCEA80
+//		Offset -> 0x01FD8030
 //		Name   -> Function AugmentedReality.ARSharedWorldGameMode.SetARSharedWorldData
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2199,7 +2199,7 @@ void AARSharedWorldGameMode::SetARSharedWorldData(TArray<unsigned char> ARWorldD
 
 
 // Function:
-//		Offset -> 0x01FCE140
+//		Offset -> 0x01FD76F0
 //		Name   -> Function AugmentedReality.ARSharedWorldGameMode.GetARSharedWorldGameState
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2222,7 +2222,7 @@ class AARSharedWorldGameState* AARSharedWorldGameMode::GetARSharedWorldGameState
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AugmentedReality.ARSharedWorldGameState.K2_OnARWorldMapIsReady
 //		Flags  -> (Event, Public, BlueprintEvent)
 void AARSharedWorldGameState::K2_OnARWorldMapIsReady()
@@ -2240,7 +2240,7 @@ void AARSharedWorldGameState::K2_OnARWorldMapIsReady()
 
 
 // Function:
-//		Offset -> 0x01FCEA30
+//		Offset -> 0x01FD7FE0
 //		Name   -> Function AugmentedReality.ARSharedWorldPlayerController.ServerMarkReadyForReceiving
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 void AARSharedWorldPlayerController::ServerMarkReadyForReceiving()
@@ -2259,7 +2259,7 @@ void AARSharedWorldPlayerController::ServerMarkReadyForReceiving()
 
 
 // Function:
-//		Offset -> 0x01FCE040
+//		Offset -> 0x01FD75F0
 //		Name   -> Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdatePreviewImageData
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient, NetValidate)
 // Parameters:
@@ -2283,7 +2283,7 @@ void AARSharedWorldPlayerController::ClientUpdatePreviewImageData(int Offset, TA
 
 
 // Function:
-//		Offset -> 0x01FCDF40
+//		Offset -> 0x01FD74F0
 //		Name   -> Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdateARWorldData
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient, NetValidate)
 // Parameters:
@@ -2307,7 +2307,7 @@ void AARSharedWorldPlayerController::ClientUpdateARWorldData(int Offset, TArray<
 
 
 // Function:
-//		Offset -> 0x01FCDE40
+//		Offset -> 0x01FD73F0
 //		Name   -> Function AugmentedReality.ARSharedWorldPlayerController.ClientInitSharedWorld
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient, NetValidate)
 // Parameters:
@@ -2331,7 +2331,7 @@ void AARSharedWorldPlayerController::ClientInitSharedWorld(int PreviewImageSize,
 
 
 // Function:
-//		Offset -> 0x01FCECE0
+//		Offset -> 0x01FD8290
 //		Name   -> Function AugmentedReality.ARSkyLight.SetEnvironmentCaptureProbe
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2353,7 +2353,7 @@ void AARSkyLight::SetEnvironmentCaptureProbe(class UAREnvironmentCaptureProbe* I
 
 
 // Function:
-//		Offset -> 0x01FCEA00
+//		Offset -> 0x01FD7FB0
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.IsTracked
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2376,7 +2376,7 @@ bool UARTrackedGeometry::IsTracked()
 
 
 // Function:
-//		Offset -> 0x01FCE920
+//		Offset -> 0x01FD7ED0
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetUnderlyingMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -2399,7 +2399,7 @@ class UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 
 
 // Function:
-//		Offset -> 0x01FC8130
+//		Offset -> 0x01FD16E0
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetTrackingState
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2422,7 +2422,7 @@ AugmentedReality_EARTrackingState UARTrackedGeometry::GetTrackingState()
 
 
 // Function:
-//		Offset -> 0x01FCE830
+//		Offset -> 0x01FD7DE0
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetObjectClassification
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2445,7 +2445,7 @@ AugmentedReality_EARObjectClassification UARTrackedGeometry::GetObjectClassifica
 
 
 // Function:
-//		Offset -> 0x01FCE7D0
+//		Offset -> 0x01FD7D80
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetLocalToWorldTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2468,7 +2468,7 @@ struct FTransform UARTrackedGeometry::GetLocalToWorldTransform()
 
 
 // Function:
-//		Offset -> 0x01FC8250
+//		Offset -> 0x01FD1800
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetLocalToTrackingTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2491,7 +2491,7 @@ struct FTransform UARTrackedGeometry::GetLocalToTrackingTransform()
 
 
 // Function:
-//		Offset -> 0x01FCE700
+//		Offset -> 0x01FD7CB0
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetLastUpdateTimestamp
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2514,7 +2514,7 @@ float UARTrackedGeometry::GetLastUpdateTimestamp()
 
 
 // Function:
-//		Offset -> 0x01FCE6D0
+//		Offset -> 0x01FD7C80
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetLastUpdateFrameNumber
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2537,7 +2537,7 @@ int UARTrackedGeometry::GetLastUpdateFrameNumber()
 
 
 // Function:
-//		Offset -> 0x01FCE560
+//		Offset -> 0x01FD7B10
 //		Name   -> Function AugmentedReality.ARTrackedGeometry.GetDebugName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2560,7 +2560,7 @@ struct FName UARTrackedGeometry::GetDebugName()
 
 
 // Function:
-//		Offset -> 0x01FCE8D0
+//		Offset -> 0x01FD7E80
 //		Name   -> Function AugmentedReality.ARPlaneGeometry.GetSubsumedBy
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2583,7 +2583,7 @@ class UARPlaneGeometry* UARPlaneGeometry::GetSubsumedBy()
 
 
 // Function:
-//		Offset -> 0x01FCE870
+//		Offset -> 0x01FD7E20
 //		Name   -> Function AugmentedReality.ARPlaneGeometry.GetOrientation
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2606,7 +2606,7 @@ AugmentedReality_EARPlaneOrientation UARPlaneGeometry::GetOrientation()
 
 
 // Function:
-//		Offset -> 0x01FCE670
+//		Offset -> 0x01FD7C20
 //		Name   -> Function AugmentedReality.ARPlaneGeometry.GetExtent
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2629,7 +2629,7 @@ struct FVector UARPlaneGeometry::GetExtent()
 
 
 // Function:
-//		Offset -> 0x01FCE530
+//		Offset -> 0x01FD7AE0
 //		Name   -> Function AugmentedReality.ARPlaneGeometry.GetCenter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2652,7 +2652,7 @@ struct FVector UARPlaneGeometry::GetCenter()
 
 
 // Function:
-//		Offset -> 0x01FCE3E0
+//		Offset -> 0x01FD7990
 //		Name   -> Function AugmentedReality.ARPlaneGeometry.GetBoundaryPolygonInLocalSpace
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2675,7 +2675,7 @@ TArray<struct FVector> UARPlaneGeometry::GetBoundaryPolygonInLocalSpace()
 
 
 // Function:
-//		Offset -> 0x01FCE5F0
+//		Offset -> 0x01FD7BA0
 //		Name   -> Function AugmentedReality.ARTrackedImage.GetEstimateSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -2698,7 +2698,7 @@ struct FVector2D UARTrackedImage::GetEstimateSize()
 
 
 // Function:
-//		Offset -> 0x01FCE5A0
+//		Offset -> 0x01FD7B50
 //		Name   -> Function AugmentedReality.ARTrackedImage.GetDetectedImage
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2721,7 +2721,7 @@ class UARCandidateImage* UARTrackedImage::GetDetectedImage()
 
 
 // Function:
-//		Offset -> 0x01FCE950
+//		Offset -> 0x01FD7F00
 //		Name   -> Function AugmentedReality.ARFaceGeometry.GetWorldSpaceEyeTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2746,7 +2746,7 @@ struct FTransform UARFaceGeometry::GetWorldSpaceEyeTransform(AugmentedReality_EA
 
 
 // Function:
-//		Offset -> 0x01FCE730
+//		Offset -> 0x01FD7CE0
 //		Name   -> Function AugmentedReality.ARFaceGeometry.GetLocalSpaceEyeTransform
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2771,7 +2771,7 @@ struct FTransform UARFaceGeometry::GetLocalSpaceEyeTransform(AugmentedReality_EA
 
 
 // Function:
-//		Offset -> 0x01FCE170
+//		Offset -> 0x01FD7720
 //		Name   -> Function AugmentedReality.ARFaceGeometry.GetBlendShapeValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2796,7 +2796,7 @@ float UARFaceGeometry::GetBlendShapeValue(AugmentedReality_EARFaceBlendShape Ble
 
 
 // Function:
-//		Offset -> 0x01FCE200
+//		Offset -> 0x01FD77B0
 //		Name   -> Function AugmentedReality.ARFaceGeometry.GetBlendShapes
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2819,7 +2819,7 @@ TMap<AugmentedReality_EARFaceBlendShape, float> UARFaceGeometry::GetBlendShapes(
 
 
 // Function:
-//		Offset -> 0x01FCE630
+//		Offset -> 0x01FD7BE0
 //		Name   -> Function AugmentedReality.AREnvironmentCaptureProbe.GetExtent
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2842,7 +2842,7 @@ struct FVector UAREnvironmentCaptureProbe::GetExtent()
 
 
 // Function:
-//		Offset -> 0x01FCE5C0
+//		Offset -> 0x01FD7B70
 //		Name   -> Function AugmentedReality.AREnvironmentCaptureProbe.GetEnvironmentCaptureTexture
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -2865,7 +2865,7 @@ class UAREnvironmentCaptureProbeTexture* UAREnvironmentCaptureProbe::GetEnvironm
 
 
 // Function:
-//		Offset -> 0x01FCE5A0
+//		Offset -> 0x01FD7B50
 //		Name   -> Function AugmentedReality.ARTrackedObject.GetDetectedObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2888,7 +2888,7 @@ class UARCandidateObject* UARTrackedObject::GetDetectedObject()
 
 
 // Function:
-//		Offset -> 0x01FCE8F0
+//		Offset -> 0x01FD7EA0
 //		Name   -> Function AugmentedReality.ARTrackedPose.GetTrackedPoseData
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2911,7 +2911,7 @@ struct FARPose3D UARTrackedPose::GetTrackedPoseData()
 
 
 // Function:
-//		Offset -> 0x01FCED60
+//		Offset -> 0x01FD8310
 //		Name   -> Function AugmentedReality.ARCandidateObject.SetFriendlyName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2933,7 +2933,7 @@ void UARCandidateObject::SetFriendlyName(const struct FString& NewName)
 
 
 // Function:
-//		Offset -> 0x01FCEC30
+//		Offset -> 0x01FD81E0
 //		Name   -> Function AugmentedReality.ARCandidateObject.SetCandidateObjectData
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2955,7 +2955,7 @@ void UARCandidateObject::SetCandidateObjectData(TArray<unsigned char> InCandidat
 
 
 // Function:
-//		Offset -> 0x01FCEB90
+//		Offset -> 0x01FD8140
 //		Name   -> Function AugmentedReality.ARCandidateObject.SetBoundingBox
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2977,7 +2977,7 @@ void UARCandidateObject::SetBoundingBox(const struct FBox& InBoundingBox)
 
 
 // Function:
-//		Offset -> 0x01FCE6A0
+//		Offset -> 0x01FD7C50
 //		Name   -> Function AugmentedReality.ARCandidateObject.GetFriendlyName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3000,7 +3000,7 @@ struct FString UARCandidateObject::GetFriendlyName()
 
 
 // Function:
-//		Offset -> 0x01FCE4E0
+//		Offset -> 0x01FD7A90
 //		Name   -> Function AugmentedReality.ARCandidateObject.GetCandidateObjectData
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3023,7 +3023,7 @@ TArray<unsigned char> UARCandidateObject::GetCandidateObjectData()
 
 
 // Function:
-//		Offset -> 0x01FCE4B0
+//		Offset -> 0x01FD7A60
 //		Name   -> Function AugmentedReality.ARCandidateObject.GetBoundingBox
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

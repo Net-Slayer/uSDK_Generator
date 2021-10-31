@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -186,7 +186,7 @@ enum class InteractiveToolsFramework_ESceneSnapQueryType : uint8_t
 // 0x00A8
 struct FBrushStampData
 {
-	unsigned char                                      UnknownData_7E91[0xA8];                                    // 0x0000(0x00A8) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_YJJV[0xA8];                                    // 0x0000(0x00A8) MISSED OFFSET (PADDING)
 
 };
 
@@ -195,7 +195,7 @@ struct FBrushStampData
 struct FBehaviorInfo
 {
 	class UInputBehavior*                              Behavior;                                                  // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_OD5M[0x18];                                    // 0x0008(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_FQQM[0x18];                                    // 0x0008(0x0018) MISSED OFFSET (PADDING)
 
 };
 
@@ -203,7 +203,7 @@ struct FBehaviorInfo
 // 0x0030
 struct FActiveGizmo
 {
-	unsigned char                                      UnknownData_6B6V[0x30];                                    // 0x0000(0x0030) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_P42C[0x30];                                    // 0x0000(0x0030) MISSED OFFSET (PADDING)
 
 };
 
@@ -229,7 +229,7 @@ struct FGizmoVec2ParameterChange
 // 0x0028
 struct FInputRayHit
 {
-	unsigned char                                      UnknownData_E6AE[0x28];                                    // 0x0000(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_L4IZ[0x28];                                    // 0x0000(0x0028) MISSED OFFSET (PADDING)
 
 };
 

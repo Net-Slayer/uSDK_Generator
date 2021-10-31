@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,30 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ToolBox.BP_ToolBox_C.ValidateDeployableSpawnConditions
+//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		int                                                Result                                                     (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void ABP_ToolBox_C::ValidateDeployableSpawnConditions(int* Result)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ToolBox.BP_ToolBox_C.ValidateDeployableSpawnConditions");
+
+	ABP_ToolBox_C_ValidateDeployableSpawnConditions_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+	if (Result != nullptr)
+		*Result = params.Result;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.Update Trace Text
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +67,7 @@ void ABP_ToolBox_C::Update_Trace_Text(const struct FText& Trace_Placement_Text, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnHideWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::OnHideWidget()
@@ -62,7 +85,7 @@ void ABP_ToolBox_C::OnHideWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnShowWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::OnShowWidget()
@@ -80,7 +103,7 @@ void ABP_ToolBox_C::OnShowWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.UpdateEquipmentUI
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -99,7 +122,7 @@ void ABP_ToolBox_C::UpdateEquipmentUI()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.GetAmountOfPlacedEquipment
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -124,9 +147,9 @@ void ABP_ToolBox_C::GetAmountOfPlacedEquipment(const struct FName& PlaceableEqui
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.ValidateSpotWithBuildingSystem
-//		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 //		struct FVector                                     Offset                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		bool                                               DisplayObjectPreview                                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
@@ -160,7 +183,7 @@ void ABP_ToolBox_C::ValidateSpotWithBuildingSystem(const struct FVector& Offset,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.CycleObjectType
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -179,7 +202,7 @@ void ABP_ToolBox_C::CycleObjectType()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.SetupMeshPreview
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -198,7 +221,7 @@ void ABP_ToolBox_C::SetupMeshPreview()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.DestroyMeshPreview
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -217,7 +240,7 @@ void ABP_ToolBox_C::DestroyMeshPreview()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.AddStaticMeshPreviewIfNone
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -238,7 +261,7 @@ void ABP_ToolBox_C::AddStaticMeshPreviewIfNone(class UStaticMesh* StaticMesh)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.AddSkeletalMeshPreviewIfNone
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -259,7 +282,7 @@ void ABP_ToolBox_C::AddSkeletalMeshPreviewIfNone(class USkeletalMesh* SkeletalMe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.RequestPlant
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -286,45 +309,7 @@ void ABP_ToolBox_C::RequestPlant(const struct FVector& Location, const struct FR
 
 
 // Function:
-//		Offset -> 0x014E30D0
-//		Name   -> Function BP_ToolBox.BP_ToolBox_C.ValidateSpot
-//		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
-// Parameters:
-//		struct FVector                                     PlanterLocation                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		struct FRotator                                    CameraRotation1P                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-//		struct FVector                                     Offset                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		bool                                               Succeeded                                                  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-//		struct FVector                                     Location                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-//		struct FRotator                                    Rotation                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-//		class USceneComponent*                             AttachToComponent                                          (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-void ABP_ToolBox_C::ValidateSpot(const struct FVector& PlanterLocation, const struct FRotator& CameraRotation1P, const struct FVector& Offset, bool* Succeeded, struct FVector* Location, struct FRotator* Rotation, class USceneComponent** AttachToComponent)
-{
-	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ToolBox.BP_ToolBox_C.ValidateSpot");
-
-	ABP_ToolBox_C_ValidateSpot_Params params;
-	params.PlanterLocation = PlanterLocation;
-	params.CameraRotation1P = CameraRotation1P;
-	params.Offset = Offset;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-	fn->FunctionFlags = flags;
-
-	if (Succeeded != nullptr)
-		*Succeeded = params.Succeeded;
-	if (Location != nullptr)
-		*Location = params.Location;
-	if (Rotation != nullptr)
-		*Rotation = params.Rotation;
-	if (AttachToComponent != nullptr)
-		*AttachToComponent = params.AttachToComponent;
-
-}
-
-
-// Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnRequestModeSwitch
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -348,7 +333,7 @@ bool ABP_ToolBox_C::OnRequestModeSwitch(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnRequestFire
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -372,7 +357,7 @@ bool ABP_ToolBox_C::OnRequestFire(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.UpdateEquipmentState
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::UpdateEquipmentState()
@@ -390,7 +375,7 @@ void ABP_ToolBox_C::UpdateEquipmentState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.LocalPlayerLateTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -411,7 +396,7 @@ void ABP_ToolBox_C::LocalPlayerLateTick(float DeltaTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.ServerRequestPlant
 //		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -438,7 +423,7 @@ void ABP_ToolBox_C::ServerRequestPlant(const struct FVector& Location, const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_0_OnMeshPreviewCreated__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void ABP_ToolBox_C::BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_0_OnMeshPreviewCreated__DelegateSignature()
@@ -456,7 +441,7 @@ void ABP_ToolBox_C::BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_0_OnMeshPr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_1_OnMeshPreviewDestroyed__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void ABP_ToolBox_C::BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_1_OnMeshPreviewDestroyed__DelegateSignature()
@@ -474,7 +459,7 @@ void ABP_ToolBox_C::BndEvt__BuildingSystem_K2Node_ComponentBoundEvent_1_OnMeshPr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.K2_OnBecomeViewTarget
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -495,7 +480,7 @@ void ABP_ToolBox_C::K2_OnBecomeViewTarget(class APlayerController* PC)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnBindEventToPlaceablesUpdate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::OnBindEventToPlaceablesUpdate()
@@ -513,7 +498,7 @@ void ABP_ToolBox_C::OnBindEventToPlaceablesUpdate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.EventOnPlaceablesUpdate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::EventOnPlaceablesUpdate()
@@ -531,7 +516,7 @@ void ABP_ToolBox_C::EventOnPlaceablesUpdate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.OnUnbindEventToPlaceablesUpdate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_ToolBox_C::OnUnbindEventToPlaceablesUpdate()
@@ -549,9 +534,9 @@ void ABP_ToolBox_C::OnUnbindEventToPlaceablesUpdate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ToolBox.BP_ToolBox_C.ExecuteUbergraph_BP_ToolBox
-//		Flags  -> (Final)
+//		Flags  -> (Final, HasDefaults)
 // Parameters:
 //		int                                                EntryPoint                                                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 void ABP_ToolBox_C::ExecuteUbergraph_BP_ToolBox(int EntryPoint)

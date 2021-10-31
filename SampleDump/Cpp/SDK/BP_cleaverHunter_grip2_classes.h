@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_cleaverHunter_grip2.BP_cleaverHunter_grip2_C
-// 0x0000 (FullSize[0x0078] - InheritedSize[0x0078])
+// 0x0000 (FullSize[0x0080] - InheritedSize[0x0080])
 class UBP_cleaverHunter_grip2_C : public UBP_MordhauEquipmentPart_C
 {
 public:

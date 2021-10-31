@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,30 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_Instrument.BP_Instrument_C.CanPlay
+//		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+//		bool                                               Return                                                     (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+void ABP_Instrument_C::CanPlay(bool* Return)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_Instrument.BP_Instrument_C.CanPlay");
+
+	ABP_Instrument_C_CanPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+	if (Return != nullptr)
+		*Return = params.Return;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.ServerSetToneAndPlay
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +63,7 @@ void ABP_Instrument_C::ServerSetToneAndPlay(unsigned char Tone)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.RequestBlock
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -66,7 +89,7 @@ bool ABP_Instrument_C::RequestBlock(Mordhau_EBlockType BlockType, bool bAllowFTP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.GetToneFromAttack
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -93,7 +116,7 @@ void ABP_Instrument_C::GetToneFromAttack(Mordhau_EAttackMove Move, float Angle, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.PlayTone
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -114,7 +137,7 @@ void ABP_Instrument_C::PlayTone(unsigned char Tone)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.OnRep_ReplicatedTone
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -133,7 +156,7 @@ void ABP_Instrument_C::OnRep_ReplicatedTone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.UserConstructionScript
 //		Flags  -> (Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 void ABP_Instrument_C::UserConstructionScript()
@@ -151,7 +174,7 @@ void ABP_Instrument_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.RequestAttack
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -174,7 +197,7 @@ void ABP_Instrument_C::RequestAttack(Mordhau_EAttackMove Move, float Angle)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.ServerSetTone
 //		Flags  -> (Net, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -195,7 +218,7 @@ void ABP_Instrument_C::ServerSetTone(unsigned char Tone)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.EquipmentCommand
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -216,7 +239,7 @@ void ABP_Instrument_C::EquipmentCommand(int Command)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Instrument.BP_Instrument_C.ExecuteUbergraph_BP_Instrument
 //		Flags  -> (Final)
 // Parameters:

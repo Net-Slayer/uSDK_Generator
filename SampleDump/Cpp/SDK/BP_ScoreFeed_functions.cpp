@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,28 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddSpawn
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		float                                              Score                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void UBP_ScoreFeed_C::AddSpawn(float Score)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_ScoreFeed.BP_ScoreFeed_C.AddSpawn");
+
+	UBP_ScoreFeed_C_AddSpawn_Params params;
+	params.Score = Score;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddStructureDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +61,7 @@ void UBP_ScoreFeed_C::AddStructureDamage(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddVehicleDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +82,7 @@ void UBP_ScoreFeed_C::AddVehicleDamage(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddVehicleTeamDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +103,7 @@ void UBP_ScoreFeed_C::AddVehicleTeamDamage(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddRepair
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +124,7 @@ void UBP_ScoreFeed_C::AddRepair(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddObjective
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -124,7 +145,7 @@ void UBP_ScoreFeed_C::AddObjective(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddWaveCleared
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -145,7 +166,7 @@ void UBP_ScoreFeed_C::AddWaveCleared(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddHeal
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -166,7 +187,7 @@ void UBP_ScoreFeed_C::AddHeal(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddNeutralized
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -187,7 +208,7 @@ void UBP_ScoreFeed_C::AddNeutralized(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddNeutralizing
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -208,7 +229,7 @@ void UBP_ScoreFeed_C::AddNeutralizing(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddCaptured
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -229,7 +250,7 @@ void UBP_ScoreFeed_C::AddCaptured(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddCapturing
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -250,7 +271,7 @@ void UBP_ScoreFeed_C::AddCapturing(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddHeadshot
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -271,7 +292,7 @@ void UBP_ScoreFeed_C::AddHeadshot(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.UpdateCurrentPointsText
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -290,7 +311,7 @@ void UBP_ScoreFeed_C::UpdateCurrentPointsText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.UpdateComboVisibility
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -311,7 +332,7 @@ void UBP_ScoreFeed_C::UpdateComboVisibility(bool ShouldHide)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.RemoveFromFeed
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -332,7 +353,7 @@ void UBP_ScoreFeed_C::RemoveFromFeed(class UBP_ScoreEntry_C* ToRemove)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddTeamDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -353,7 +374,7 @@ void UBP_ScoreFeed_C::AddTeamDamage(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -376,7 +397,7 @@ void UBP_ScoreFeed_C::AddDamage(float Points, int HitZone)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.CollectPoints
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -397,7 +418,7 @@ void UBP_ScoreFeed_C::CollectPoints(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddSuicide
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -418,7 +439,7 @@ void UBP_ScoreFeed_C::AddSuicide(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddTeamKill
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -441,7 +462,7 @@ void UBP_ScoreFeed_C::AddTeamKill(float Points, const struct FString& Name)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddAssist
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -462,7 +483,7 @@ void UBP_ScoreFeed_C::AddAssist(float Points)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddKill
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -485,7 +506,7 @@ void UBP_ScoreFeed_C::AddKill(float Points, const struct FString& Name)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.AddEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -512,7 +533,7 @@ void UBP_ScoreFeed_C::AddEntry(float Points, const struct FString& PlayerName, c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ScoreFeed_C::Construct()
@@ -530,7 +551,7 @@ void UBP_ScoreFeed_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.WidgetAnimationEvt_FadeAnim_K2Node_WidgetAnimationEvent_1
 //		Flags  -> (BlueprintEvent)
 void UBP_ScoreFeed_C::WidgetAnimationEvt_FadeAnim_K2Node_WidgetAnimationEvent_1()
@@ -548,7 +569,7 @@ void UBP_ScoreFeed_C::WidgetAnimationEvt_FadeAnim_K2Node_WidgetAnimationEvent_1(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreFeed.BP_ScoreFeed_C.ExecuteUbergraph_BP_ScoreFeed
 //		Flags  -> (Final)
 // Parameters:

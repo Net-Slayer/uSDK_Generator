@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_CircleTimer_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.GetPercent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ float UBP_CircleTimer_C::GetPercent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.Start Countdown
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_CircleTimer_C::Start_Countdown(float Duration)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_CircleTimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_CircleTimer_C::Construct()
@@ -125,7 +125,7 @@ void UBP_CircleTimer_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CircleTimer.BP_CircleTimer_C.ExecuteUbergraph_BP_CircleTimer
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

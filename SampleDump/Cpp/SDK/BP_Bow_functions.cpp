@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.OnRep_FireArrows
 //		Flags  -> (HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_Bow_C::OnRep_FireArrows()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.ClearFireEffects
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +57,7 @@ void ABP_Bow_C::ClearFireEffects()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.GetUsesFireArrows
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -80,7 +80,7 @@ void ABP_Bow_C::GetUsesFireArrows(bool* UsesFireArrows)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.SetUseFireArrows
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -101,7 +101,7 @@ void ABP_Bow_C::SetUseFireArrows(bool UseFire)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.OnLoadedChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_Bow_C::OnLoadedChanged()
@@ -119,7 +119,7 @@ void ABP_Bow_C::OnLoadedChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_Bow_C::ReceiveBeginPlay()
@@ -137,7 +137,7 @@ void ABP_Bow_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.UpdateEquipmentVisualState
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_Bow_C::UpdateEquipmentVisualState()
@@ -155,7 +155,7 @@ void ABP_Bow_C::UpdateEquipmentVisualState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.ReceiveDestroyed
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_Bow_C::ReceiveDestroyed()
@@ -173,7 +173,7 @@ void ABP_Bow_C::ReceiveDestroyed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Bow.BP_Bow_C.ExecuteUbergraph_BP_Bow
 //		Flags  -> (Final)
 // Parameters:

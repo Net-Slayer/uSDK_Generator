@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x025B6CD0
+//		Offset -> 0x025C2260
 //		Name   -> Function MediaAssets.MediaSource.Validate
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -42,7 +42,7 @@ bool UMediaSource::Validate()
 
 
 // Function:
-//		Offset -> 0x025B6270
+//		Offset -> 0x025C1800
 //		Name   -> Function MediaAssets.MediaSource.SetMediaOptionString
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -66,7 +66,7 @@ void UMediaSource::SetMediaOptionString(const struct FName& Key, const struct FS
 
 
 // Function:
-//		Offset -> 0x025B61A0
+//		Offset -> 0x025C1730
 //		Name   -> Function MediaAssets.MediaSource.SetMediaOptionInt64
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -90,7 +90,7 @@ void UMediaSource::SetMediaOptionInt64(const struct FName& Key, int64_t Value)
 
 
 // Function:
-//		Offset -> 0x025B60D0
+//		Offset -> 0x025C1660
 //		Name   -> Function MediaAssets.MediaSource.SetMediaOptionFloat
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -114,7 +114,7 @@ void UMediaSource::SetMediaOptionFloat(const struct FName& Key, float Value)
 
 
 // Function:
-//		Offset -> 0x025B6000
+//		Offset -> 0x025C1590
 //		Name   -> Function MediaAssets.MediaSource.SetMediaOptionBool
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -138,7 +138,7 @@ void UMediaSource::SetMediaOptionBool(const struct FName& Key, bool Value)
 
 
 // Function:
-//		Offset -> 0x025B4960
+//		Offset -> 0x025BFEF0
 //		Name   -> Function MediaAssets.MediaSource.GetUrl
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -161,7 +161,7 @@ struct FString UMediaSource::GetUrl()
 
 
 // Function:
-//		Offset -> 0x025B5ED0
+//		Offset -> 0x025C1460
 //		Name   -> Function MediaAssets.FileMediaSource.SetFilePath
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -183,7 +183,7 @@ void UFileMediaSource::SetFilePath(const struct FString& Path)
 
 
 // Function:
-//		Offset -> 0x025B3870
+//		Offset -> 0x025BEE00
 //		Name   -> Function MediaAssets.MediaBlueprintFunctionLibrary.EnumerateWebcamCaptureDevices
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -209,7 +209,7 @@ void UMediaBlueprintFunctionLibrary::STATIC_EnumerateWebcamCaptureDevices(TArray
 
 
 // Function:
-//		Offset -> 0x025B3720
+//		Offset -> 0x025BECB0
 //		Name   -> Function MediaAssets.MediaBlueprintFunctionLibrary.EnumerateVideoCaptureDevices
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -235,7 +235,7 @@ void UMediaBlueprintFunctionLibrary::STATIC_EnumerateVideoCaptureDevices(TArray<
 
 
 // Function:
-//		Offset -> 0x025B35D0
+//		Offset -> 0x025BEB60
 //		Name   -> Function MediaAssets.MediaBlueprintFunctionLibrary.EnumerateAudioCaptureDevices
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -261,7 +261,7 @@ void UMediaBlueprintFunctionLibrary::STATIC_EnumerateAudioCaptureDevices(TArray<
 
 
 // Function:
-//		Offset -> 0x01FCE920
+//		Offset -> 0x01FD7ED0
 //		Name   -> Function MediaAssets.MediaComponent.GetMediaTexture
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -284,7 +284,7 @@ class UMediaTexture* UMediaComponent::GetMediaTexture()
 
 
 // Function:
-//		Offset -> 0x025B3F30
+//		Offset -> 0x025BF4C0
 //		Name   -> Function MediaAssets.MediaComponent.GetMediaPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -307,7 +307,7 @@ class UMediaPlayer* UMediaComponent::GetMediaPlayer()
 
 
 // Function:
-//		Offset -> 0x025B6CA0
+//		Offset -> 0x025C2230
 //		Name   -> Function MediaAssets.MediaPlayer.SupportsSeeking
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -330,7 +330,7 @@ bool UMediaPlayer::SupportsSeeking()
 
 
 // Function:
-//		Offset -> 0x025B6C70
+//		Offset -> 0x025C2200
 //		Name   -> Function MediaAssets.MediaPlayer.SupportsScrubbing
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -353,7 +353,7 @@ bool UMediaPlayer::SupportsScrubbing()
 
 
 // Function:
-//		Offset -> 0x025B6BA0
+//		Offset -> 0x025C2130
 //		Name   -> Function MediaAssets.MediaPlayer.SupportsRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -380,7 +380,7 @@ bool UMediaPlayer::SupportsRate(float Rate, bool Unthinned)
 
 
 // Function:
-//		Offset -> 0x025B6AC0
+//		Offset -> 0x025C2050
 //		Name   -> Function MediaAssets.MediaPlayer.SetViewRotation
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -407,7 +407,7 @@ bool UMediaPlayer::SetViewRotation(const struct FRotator& Rotation, bool Absolut
 
 
 // Function:
-//		Offset -> 0x025B69B0
+//		Offset -> 0x025C1F40
 //		Name   -> Function MediaAssets.MediaPlayer.SetViewField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -436,7 +436,7 @@ bool UMediaPlayer::SetViewField(float Horizontal, float Vertical, bool Absolute)
 
 
 // Function:
-//		Offset -> 0x025B68B0
+//		Offset -> 0x025C1E40
 //		Name   -> Function MediaAssets.MediaPlayer.SetVideoTrackFrameRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -465,7 +465,7 @@ bool UMediaPlayer::SetVideoTrackFrameRate(int TrackIndex, int FormatIndex, float
 
 
 // Function:
-//		Offset -> 0x025B67B0
+//		Offset -> 0x025C1D40
 //		Name   -> Function MediaAssets.MediaPlayer.SetTrackFormat
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -494,7 +494,7 @@ bool UMediaPlayer::SetTrackFormat(MediaAssets_EMediaPlayerTrack TrackType, int T
 
 
 // Function:
-//		Offset -> 0x025B6730
+//		Offset -> 0x025C1CC0
 //		Name   -> Function MediaAssets.MediaPlayer.SetTimeDelay
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -516,7 +516,7 @@ void UMediaPlayer::SetTimeDelay(const struct FTimespan& TimeDelay)
 
 
 // Function:
-//		Offset -> 0x025B6580
+//		Offset -> 0x025C1B10
 //		Name   -> Function MediaAssets.MediaPlayer.SetRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -541,7 +541,7 @@ bool UMediaPlayer::SetRate(float Rate)
 
 
 // Function:
-//		Offset -> 0x025B64F0
+//		Offset -> 0x025C1A80
 //		Name   -> Function MediaAssets.MediaPlayer.SetNativeVolume
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -566,7 +566,7 @@ bool UMediaPlayer::SetNativeVolume(float Volume)
 
 
 // Function:
-//		Offset -> 0x025B6370
+//		Offset -> 0x025C1900
 //		Name   -> Function MediaAssets.MediaPlayer.SetMediaOptions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -588,7 +588,7 @@ void UMediaPlayer::SetMediaOptions(class UMediaSource* Options)
 
 
 // Function:
-//		Offset -> 0x025B5F70
+//		Offset -> 0x025C1500
 //		Name   -> Function MediaAssets.MediaPlayer.SetLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -613,7 +613,7 @@ bool UMediaPlayer::SetLooping(bool Looping)
 
 
 // Function:
-//		Offset -> 0x025B5C70
+//		Offset -> 0x025C1200
 //		Name   -> Function MediaAssets.MediaPlayer.SetDesiredPlayerName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -635,7 +635,7 @@ void UMediaPlayer::SetDesiredPlayerName(const struct FName& PlayerName)
 
 
 // Function:
-//		Offset -> 0x025B5BE0
+//		Offset -> 0x025C1170
 //		Name   -> Function MediaAssets.MediaPlayer.SetBlockOnTime
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -657,7 +657,7 @@ void UMediaPlayer::SetBlockOnTime(const struct FTimespan& Time)
 
 
 // Function:
-//		Offset -> 0x025B5B20
+//		Offset -> 0x025C10B0
 //		Name   -> Function MediaAssets.MediaPlayer.SelectTrack
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -684,7 +684,7 @@ bool UMediaPlayer::SelectTrack(MediaAssets_EMediaPlayerTrack TrackType, int Trac
 
 
 // Function:
-//		Offset -> 0x025B5A80
+//		Offset -> 0x025C1010
 //		Name   -> Function MediaAssets.MediaPlayer.Seek
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -709,7 +709,7 @@ bool UMediaPlayer::Seek(const struct FTimespan& Time)
 
 
 // Function:
-//		Offset -> 0x025B5A50
+//		Offset -> 0x025C0FE0
 //		Name   -> Function MediaAssets.MediaPlayer.Rewind
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -732,7 +732,7 @@ bool UMediaPlayer::Rewind()
 
 
 // Function:
-//		Offset -> 0x025B5960
+//		Offset -> 0x025C0EF0
 //		Name   -> Function MediaAssets.MediaPlayer.Reopen
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -755,7 +755,7 @@ bool UMediaPlayer::Reopen()
 
 
 // Function:
-//		Offset -> 0x025B5810
+//		Offset -> 0x025C0DA0
 //		Name   -> Function MediaAssets.MediaPlayer.Previous
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -778,7 +778,7 @@ bool UMediaPlayer::Previous()
 
 
 // Function:
-//		Offset -> 0x025B57F0
+//		Offset -> 0x025C0D80
 //		Name   -> Function MediaAssets.MediaPlayer.PlayAndSeek
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMediaPlayer::PlayAndSeek()
@@ -797,7 +797,7 @@ void UMediaPlayer::PlayAndSeek()
 
 
 // Function:
-//		Offset -> 0x025B57C0
+//		Offset -> 0x025C0D50
 //		Name   -> Function MediaAssets.MediaPlayer.Play
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -820,7 +820,7 @@ bool UMediaPlayer::Play()
 
 
 // Function:
-//		Offset -> 0x025B5790
+//		Offset -> 0x025C0D20
 //		Name   -> Function MediaAssets.MediaPlayer.Pause
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -843,7 +843,7 @@ bool UMediaPlayer::Pause()
 
 
 // Function:
-//		Offset -> 0x025B56E0
+//		Offset -> 0x025C0C70
 //		Name   -> Function MediaAssets.MediaPlayer.OpenURL
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -868,7 +868,7 @@ bool UMediaPlayer::OpenURL(const struct FString& URL)
 
 
 // Function:
-//		Offset -> 0x025B55E0
+//		Offset -> 0x025C0B70
 //		Name   -> Function MediaAssets.MediaPlayer.OpenSourceWithOptions
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -895,7 +895,7 @@ bool UMediaPlayer::OpenSourceWithOptions(class UMediaSource* MediaSource, const 
 
 
 // Function:
-//		Offset -> 0x025B5400
+//		Offset -> 0x025C0990
 //		Name   -> Function MediaAssets.MediaPlayer.OpenSourceLatent
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -927,7 +927,7 @@ void UMediaPlayer::OpenSourceLatent(class UObject* WorldContextObject, const str
 
 
 // Function:
-//		Offset -> 0x025B5370
+//		Offset -> 0x025C0900
 //		Name   -> Function MediaAssets.MediaPlayer.OpenSource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -952,7 +952,7 @@ bool UMediaPlayer::OpenSource(class UMediaSource* MediaSource)
 
 
 // Function:
-//		Offset -> 0x025B52B0
+//		Offset -> 0x025C0840
 //		Name   -> Function MediaAssets.MediaPlayer.OpenPlaylistIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -979,7 +979,7 @@ bool UMediaPlayer::OpenPlaylistIndex(class UMediaPlaylist* InPlaylist, int Index
 
 
 // Function:
-//		Offset -> 0x025B5210
+//		Offset -> 0x025C07A0
 //		Name   -> Function MediaAssets.MediaPlayer.OpenPlaylist
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1004,7 +1004,7 @@ bool UMediaPlayer::OpenPlaylist(class UMediaPlaylist* InPlaylist)
 
 
 // Function:
-//		Offset -> 0x025B5160
+//		Offset -> 0x025C06F0
 //		Name   -> Function MediaAssets.MediaPlayer.OpenFile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1029,7 +1029,7 @@ bool UMediaPlayer::OpenFile(const struct FString& FilePath)
 
 
 // Function:
-//		Offset -> 0x025B5110
+//		Offset -> 0x025C06A0
 //		Name   -> Function MediaAssets.MediaPlayer.Next
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1052,7 +1052,7 @@ bool UMediaPlayer::Next()
 
 
 // Function:
-//		Offset -> 0x025B50E0
+//		Offset -> 0x025C0670
 //		Name   -> Function MediaAssets.MediaPlayer.IsReady
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1075,7 +1075,7 @@ bool UMediaPlayer::IsReady()
 
 
 // Function:
-//		Offset -> 0x025B50B0
+//		Offset -> 0x025C0640
 //		Name   -> Function MediaAssets.MediaPlayer.IsPreparing
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1098,7 +1098,7 @@ bool UMediaPlayer::IsPreparing()
 
 
 // Function:
-//		Offset -> 0x025B5080
+//		Offset -> 0x025C0610
 //		Name   -> Function MediaAssets.MediaPlayer.IsPlaying
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1121,7 +1121,7 @@ bool UMediaPlayer::IsPlaying()
 
 
 // Function:
-//		Offset -> 0x025B5050
+//		Offset -> 0x025C05E0
 //		Name   -> Function MediaAssets.MediaPlayer.IsPaused
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1144,7 +1144,7 @@ bool UMediaPlayer::IsPaused()
 
 
 // Function:
-//		Offset -> 0x025B5020
+//		Offset -> 0x025C05B0
 //		Name   -> Function MediaAssets.MediaPlayer.IsLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1167,7 +1167,7 @@ bool UMediaPlayer::IsLooping()
 
 
 // Function:
-//		Offset -> 0x025B4FF0
+//		Offset -> 0x025C0580
 //		Name   -> Function MediaAssets.MediaPlayer.IsConnecting
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1190,7 +1190,7 @@ bool UMediaPlayer::IsConnecting()
 
 
 // Function:
-//		Offset -> 0x025B4FC0
+//		Offset -> 0x025C0550
 //		Name   -> Function MediaAssets.MediaPlayer.IsClosed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1213,7 +1213,7 @@ bool UMediaPlayer::IsClosed()
 
 
 // Function:
-//		Offset -> 0x025B4F90
+//		Offset -> 0x025C0520
 //		Name   -> Function MediaAssets.MediaPlayer.IsBuffering
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1236,7 +1236,7 @@ bool UMediaPlayer::IsBuffering()
 
 
 // Function:
-//		Offset -> 0x025B4EA0
+//		Offset -> 0x025C0430
 //		Name   -> Function MediaAssets.MediaPlayer.HasError
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1259,7 +1259,7 @@ bool UMediaPlayer::HasError()
 
 
 // Function:
-//		Offset -> 0x025B4E30
+//		Offset -> 0x025C03C0
 //		Name   -> Function MediaAssets.MediaPlayer.GetViewRotation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1282,7 +1282,7 @@ struct FRotator UMediaPlayer::GetViewRotation()
 
 
 // Function:
-//		Offset -> 0x025B4D30
+//		Offset -> 0x025C02C0
 //		Name   -> Function MediaAssets.MediaPlayer.GetVideoTrackType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1309,7 +1309,7 @@ struct FString UMediaPlayer::GetVideoTrackType(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B4C60
+//		Offset -> 0x025C01F0
 //		Name   -> Function MediaAssets.MediaPlayer.GetVideoTrackFrameRates
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1336,7 +1336,7 @@ struct FFloatRange UMediaPlayer::GetVideoTrackFrameRates(int TrackIndex, int For
 
 
 // Function:
-//		Offset -> 0x025B4BA0
+//		Offset -> 0x025C0130
 //		Name   -> Function MediaAssets.MediaPlayer.GetVideoTrackFrameRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1363,7 +1363,7 @@ float UMediaPlayer::GetVideoTrackFrameRate(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B4AD0
+//		Offset -> 0x025C0060
 //		Name   -> Function MediaAssets.MediaPlayer.GetVideoTrackDimensions
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1390,7 +1390,7 @@ struct FIntPoint UMediaPlayer::GetVideoTrackDimensions(int TrackIndex, int Forma
 
 
 // Function:
-//		Offset -> 0x025B4A10
+//		Offset -> 0x025BFFA0
 //		Name   -> Function MediaAssets.MediaPlayer.GetVideoTrackAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1417,7 +1417,7 @@ float UMediaPlayer::GetVideoTrackAspectRatio(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B49E0
+//		Offset -> 0x025BFF70
 //		Name   -> Function MediaAssets.MediaPlayer.GetVerticalFieldOfView
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1440,7 +1440,7 @@ float UMediaPlayer::GetVerticalFieldOfView()
 
 
 // Function:
-//		Offset -> 0x025B4920
+//		Offset -> 0x025BFEB0
 //		Name   -> Function MediaAssets.MediaPlayer.GetUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1463,7 +1463,7 @@ struct FString UMediaPlayer::GetUrl()
 
 
 // Function:
-//		Offset -> 0x025B4810
+//		Offset -> 0x025BFDA0
 //		Name   -> Function MediaAssets.MediaPlayer.GetTrackLanguage
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1490,7 +1490,7 @@ struct FString UMediaPlayer::GetTrackLanguage(MediaAssets_EMediaPlayerTrack Trac
 
 
 // Function:
-//		Offset -> 0x025B4750
+//		Offset -> 0x025BFCE0
 //		Name   -> Function MediaAssets.MediaPlayer.GetTrackFormat
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1517,7 +1517,7 @@ int UMediaPlayer::GetTrackFormat(MediaAssets_EMediaPlayerTrack TrackType, int Tr
 
 
 // Function:
-//		Offset -> 0x025B4630
+//		Offset -> 0x025BFBC0
 //		Name   -> Function MediaAssets.MediaPlayer.GetTrackDisplayName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1544,7 +1544,7 @@ struct FText UMediaPlayer::GetTrackDisplayName(MediaAssets_EMediaPlayerTrack Tra
 
 
 // Function:
-//		Offset -> 0x025B45F0
+//		Offset -> 0x025BFB80
 //		Name   -> Function MediaAssets.MediaPlayer.GetTimeDelay
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1567,7 +1567,7 @@ struct FTimespan UMediaPlayer::GetTimeDelay()
 
 
 // Function:
-//		Offset -> 0x025B45B0
+//		Offset -> 0x025BFB40
 //		Name   -> Function MediaAssets.MediaPlayer.GetTime
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1590,7 +1590,7 @@ struct FTimespan UMediaPlayer::GetTime()
 
 
 // Function:
-//		Offset -> 0x025B44B0
+//		Offset -> 0x025BFA40
 //		Name   -> Function MediaAssets.MediaPlayer.GetSupportedRates
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1616,7 +1616,7 @@ void UMediaPlayer::GetSupportedRates(TArray<struct FFloatRange>* OutRates, bool 
 
 
 // Function:
-//		Offset -> 0x025B43A0
+//		Offset -> 0x025BF930
 //		Name   -> Function MediaAssets.MediaPlayer.GetSelectedTrack
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1641,7 +1641,7 @@ int UMediaPlayer::GetSelectedTrack(MediaAssets_EMediaPlayerTrack TrackType)
 
 
 // Function:
-//		Offset -> 0x025B4370
+//		Offset -> 0x025BF900
 //		Name   -> Function MediaAssets.MediaPlayer.GetRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1664,7 +1664,7 @@ float UMediaPlayer::GetRate()
 
 
 // Function:
-//		Offset -> 0x025B4210
+//		Offset -> 0x025BF7A0
 //		Name   -> Function MediaAssets.MediaPlayer.GetPlaylistIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1687,7 +1687,7 @@ int UMediaPlayer::GetPlaylistIndex()
 
 
 // Function:
-//		Offset -> 0x025B41F0
+//		Offset -> 0x025BF780
 //		Name   -> Function MediaAssets.MediaPlayer.GetPlaylist
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1710,7 +1710,7 @@ class UMediaPlaylist* UMediaPlayer::GetPlaylist()
 
 
 // Function:
-//		Offset -> 0x025B41B0
+//		Offset -> 0x025BF740
 //		Name   -> Function MediaAssets.MediaPlayer.GetPlayerName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1733,7 +1733,7 @@ struct FName UMediaPlayer::GetPlayerName()
 
 
 // Function:
-//		Offset -> 0x025B4120
+//		Offset -> 0x025BF6B0
 //		Name   -> Function MediaAssets.MediaPlayer.GetNumTracks
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1758,7 +1758,7 @@ int UMediaPlayer::GetNumTracks(MediaAssets_EMediaPlayerTrack TrackType)
 
 
 // Function:
-//		Offset -> 0x025B4060
+//		Offset -> 0x025BF5F0
 //		Name   -> Function MediaAssets.MediaPlayer.GetNumTrackFormats
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1785,7 +1785,7 @@ int UMediaPlayer::GetNumTrackFormats(MediaAssets_EMediaPlayerTrack TrackType, in
 
 
 // Function:
-//		Offset -> 0x025B3E90
+//		Offset -> 0x025BF420
 //		Name   -> Function MediaAssets.MediaPlayer.GetMediaName
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1808,7 +1808,7 @@ struct FText UMediaPlayer::GetMediaName()
 
 
 // Function:
-//		Offset -> 0x025B3E50
+//		Offset -> 0x025BF3E0
 //		Name   -> Function MediaAssets.MediaPlayer.GetLastVideoSampleProcessedTime
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1831,7 +1831,7 @@ struct FTimespan UMediaPlayer::GetLastVideoSampleProcessedTime()
 
 
 // Function:
-//		Offset -> 0x025B3E10
+//		Offset -> 0x025BF3A0
 //		Name   -> Function MediaAssets.MediaPlayer.GetLastAudioSampleProcessedTime
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1854,7 +1854,7 @@ struct FTimespan UMediaPlayer::GetLastAudioSampleProcessedTime()
 
 
 // Function:
-//		Offset -> 0x025B3DE0
+//		Offset -> 0x025BF370
 //		Name   -> Function MediaAssets.MediaPlayer.GetHorizontalFieldOfView
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1877,7 +1877,7 @@ float UMediaPlayer::GetHorizontalFieldOfView()
 
 
 // Function:
-//		Offset -> 0x025B3D40
+//		Offset -> 0x025BF2D0
 //		Name   -> Function MediaAssets.MediaPlayer.GetDuration
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1900,7 +1900,7 @@ struct FTimespan UMediaPlayer::GetDuration()
 
 
 // Function:
-//		Offset -> 0x025B3D00
+//		Offset -> 0x025BF290
 //		Name   -> Function MediaAssets.MediaPlayer.GetDesiredPlayerName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1923,7 +1923,7 @@ struct FName UMediaPlayer::GetDesiredPlayerName()
 
 
 // Function:
-//		Offset -> 0x025B3C00
+//		Offset -> 0x025BF190
 //		Name   -> Function MediaAssets.MediaPlayer.GetAudioTrackType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1950,7 +1950,7 @@ struct FString UMediaPlayer::GetAudioTrackType(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B3B40
+//		Offset -> 0x025BF0D0
 //		Name   -> Function MediaAssets.MediaPlayer.GetAudioTrackSampleRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1977,7 +1977,7 @@ int UMediaPlayer::GetAudioTrackSampleRate(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B3A80
+//		Offset -> 0x025BF010
 //		Name   -> Function MediaAssets.MediaPlayer.GetAudioTrackChannels
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2004,7 +2004,7 @@ int UMediaPlayer::GetAudioTrackChannels(int TrackIndex, int FormatIndex)
 
 
 // Function:
-//		Offset -> 0x025B35B0
+//		Offset -> 0x025BEB40
 //		Name   -> Function MediaAssets.MediaPlayer.Close
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMediaPlayer::Close()
@@ -2023,7 +2023,7 @@ void UMediaPlayer::Close()
 
 
 // Function:
-//		Offset -> 0x025B3500
+//		Offset -> 0x025BEA90
 //		Name   -> Function MediaAssets.MediaPlayer.CanPlayUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2048,7 +2048,7 @@ bool UMediaPlayer::CanPlayUrl(const struct FString& URL)
 
 
 // Function:
-//		Offset -> 0x025B3470
+//		Offset -> 0x025BEA00
 //		Name   -> Function MediaAssets.MediaPlayer.CanPlaySource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2073,7 +2073,7 @@ bool UMediaPlayer::CanPlaySource(class UMediaSource* MediaSource)
 
 
 // Function:
-//		Offset -> 0x025B3440
+//		Offset -> 0x025BE9D0
 //		Name   -> Function MediaAssets.MediaPlayer.CanPause
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2096,7 +2096,7 @@ bool UMediaPlayer::CanPause()
 
 
 // Function:
-//		Offset -> 0x025B5990
+//		Offset -> 0x025C0F20
 //		Name   -> Function MediaAssets.MediaPlaylist.Replace
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2123,7 +2123,7 @@ bool UMediaPlaylist::Replace(int Index, class UMediaSource* Replacement)
 
 
 // Function:
-//		Offset -> 0x025B58D0
+//		Offset -> 0x025C0E60
 //		Name   -> Function MediaAssets.MediaPlaylist.RemoveAt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2148,7 +2148,7 @@ bool UMediaPlaylist::RemoveAt(int Index)
 
 
 // Function:
-//		Offset -> 0x025B5840
+//		Offset -> 0x025C0DD0
 //		Name   -> Function MediaAssets.MediaPlaylist.Remove
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2173,7 +2173,7 @@ bool UMediaPlaylist::Remove(class UMediaSource* MediaSource)
 
 
 // Function:
-//		Offset -> 0x025B5140
+//		Offset -> 0x025C06D0
 //		Name   -> Function MediaAssets.MediaPlaylist.Num
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2196,7 +2196,7 @@ int UMediaPlaylist::Num()
 
 
 // Function:
-//		Offset -> 0x025B4ED0
+//		Offset -> 0x025C0460
 //		Name   -> Function MediaAssets.MediaPlaylist.Insert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2220,7 +2220,7 @@ void UMediaPlaylist::Insert(class UMediaSource* MediaSource, int Index)
 
 
 // Function:
-//		Offset -> 0x025B42D0
+//		Offset -> 0x025BF860
 //		Name   -> Function MediaAssets.MediaPlaylist.GetRandom
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2247,7 +2247,7 @@ class UMediaSource* UMediaPlaylist::GetRandom(int* OutIndex)
 
 
 // Function:
-//		Offset -> 0x025B4230
+//		Offset -> 0x025BF7C0
 //		Name   -> Function MediaAssets.MediaPlaylist.GetPrevious
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2274,7 +2274,7 @@ class UMediaSource* UMediaPlaylist::GetPrevious(int* InOutIndex)
 
 
 // Function:
-//		Offset -> 0x025B3FC0
+//		Offset -> 0x025BF550
 //		Name   -> Function MediaAssets.MediaPlaylist.GetNext
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2301,7 +2301,7 @@ class UMediaSource* UMediaPlaylist::GetNext(int* InOutIndex)
 
 
 // Function:
-//		Offset -> 0x025B39C0
+//		Offset -> 0x025BEF50
 //		Name   -> Function MediaAssets.MediaPlaylist.Get
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2326,7 +2326,7 @@ class UMediaSource* UMediaPlaylist::Get(int Index)
 
 
 // Function:
-//		Offset -> 0x025B3140
+//		Offset -> 0x025BE6D0
 //		Name   -> Function MediaAssets.MediaPlaylist.AddUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2351,7 +2351,7 @@ bool UMediaPlaylist::AddUrl(const struct FString& URL)
 
 
 // Function:
-//		Offset -> 0x025B3090
+//		Offset -> 0x025BE620
 //		Name   -> Function MediaAssets.MediaPlaylist.AddFile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2376,7 +2376,7 @@ bool UMediaPlaylist::AddFile(const struct FString& FilePath)
 
 
 // Function:
-//		Offset -> 0x025B3000
+//		Offset -> 0x025BE590
 //		Name   -> Function MediaAssets.MediaPlaylist.Add
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2401,7 +2401,7 @@ bool UMediaPlaylist::Add(class UMediaSource* MediaSource)
 
 
 // Function:
-//		Offset -> 0x025B6610
+//		Offset -> 0x025C1BA0
 //		Name   -> Function MediaAssets.MediaSoundComponent.SetSpectralAnalysisSettings
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2425,7 +2425,7 @@ void UMediaSoundComponent::SetSpectralAnalysisSettings(TArray<float> InFrequenci
 
 
 // Function:
-//		Offset -> 0x025B63F0
+//		Offset -> 0x025C1980
 //		Name   -> Function MediaAssets.MediaSoundComponent.SetMediaPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2447,7 +2447,7 @@ void UMediaSoundComponent::SetMediaPlayer(class UMediaPlayer* NewMediaPlayer)
 
 
 // Function:
-//		Offset -> 0x025B5E10
+//		Offset -> 0x025C13A0
 //		Name   -> Function MediaAssets.MediaSoundComponent.SetEnvelopeFollowingsettings
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2471,7 +2471,7 @@ void UMediaSoundComponent::SetEnvelopeFollowingsettings(int AttackTimeMsec, int 
 
 
 // Function:
-//		Offset -> 0x025B5D80
+//		Offset -> 0x025C1310
 //		Name   -> Function MediaAssets.MediaSoundComponent.SetEnableSpectralAnalysis
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2493,7 +2493,7 @@ void UMediaSoundComponent::SetEnableSpectralAnalysis(bool bInSpectralAnalysisEna
 
 
 // Function:
-//		Offset -> 0x025B5CF0
+//		Offset -> 0x025C1280
 //		Name   -> Function MediaAssets.MediaSoundComponent.SetEnableEnvelopeFollowing
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2515,7 +2515,7 @@ void UMediaSoundComponent::SetEnableEnvelopeFollowing(bool bInEnvelopeFollowing)
 
 
 // Function:
-//		Offset -> 0x025B4430
+//		Offset -> 0x025BF9C0
 //		Name   -> Function MediaAssets.MediaSoundComponent.GetSpectralData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2538,7 +2538,7 @@ TArray<struct FMediaSoundComponentSpectralData> UMediaSoundComponent::GetSpectra
 
 
 // Function:
-//		Offset -> 0x025B3F60
+//		Offset -> 0x025BF4F0
 //		Name   -> Function MediaAssets.MediaSoundComponent.GetMediaPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2561,7 +2561,7 @@ class UMediaPlayer* UMediaSoundComponent::GetMediaPlayer()
 
 
 // Function:
-//		Offset -> 0x025B3D80
+//		Offset -> 0x025BF310
 //		Name   -> Function MediaAssets.MediaSoundComponent.GetEnvelopeValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2584,7 +2584,7 @@ float UMediaSoundComponent::GetEnvelopeValue()
 
 
 // Function:
-//		Offset -> 0x025B31F0
+//		Offset -> 0x025BE780
 //		Name   -> Function MediaAssets.MediaSoundComponent.BP_GetAttenuationSettingsToApply
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2611,7 +2611,7 @@ bool UMediaSoundComponent::BP_GetAttenuationSettingsToApply(struct FSoundAttenua
 
 
 // Function:
-//		Offset -> 0x025B6470
+//		Offset -> 0x025C1A00
 //		Name   -> Function MediaAssets.MediaTexture.SetMediaPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2633,7 +2633,7 @@ void UMediaTexture::SetMediaPlayer(class UMediaPlayer* NewMediaPlayer)
 
 
 // Function:
-//		Offset -> 0x025B4E70
+//		Offset -> 0x025C0400
 //		Name   -> Function MediaAssets.MediaTexture.GetWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2656,7 +2656,7 @@ int UMediaTexture::GetWidth()
 
 
 // Function:
-//		Offset -> 0x025B3F90
+//		Offset -> 0x025BF520
 //		Name   -> Function MediaAssets.MediaTexture.GetMediaPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2679,7 +2679,7 @@ class UMediaPlayer* UMediaTexture::GetMediaPlayer()
 
 
 // Function:
-//		Offset -> 0x025B3DB0
+//		Offset -> 0x025BF340
 //		Name   -> Function MediaAssets.MediaTexture.GetHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2702,7 +2702,7 @@ int UMediaTexture::GetHeight()
 
 
 // Function:
-//		Offset -> 0x025B3A50
+//		Offset -> 0x025BEFE0
 //		Name   -> Function MediaAssets.MediaTexture.GetAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

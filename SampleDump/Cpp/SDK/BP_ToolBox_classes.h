@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_ToolBox.BP_ToolBox_C
-// 0x0060 (FullSize[0x0D30] - InheritedSize[0x0CD0])
+// 0x0050 (FullSize[0x0D20] - InheritedSize[0x0CD0])
 class ABP_ToolBox_C : public ABP_2HThrowableBase_C
 {
 public:
@@ -28,13 +28,12 @@ public:
 	class UMordhauHUDWidgetComponent*                  MordhauHUDWidget;                                          // 0x0CD8(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	class UBuildingSystemComponent*                    BuildingSystem;                                            // 0x0CE0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 	int                                                ObjectType;                                                // 0x0CE8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_LNHP[0x4];                                     // 0x0CEC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	TArray<struct FBP_ToolBoxSpawnable>                SpawnableObjects;                                          // 0x0CF0(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
-	class UMeshComponent*                              PreviewMeshComponent;                                      // 0x0D00(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              NextAvailableTime;                                         // 0x0D08(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	float                                              Cooldown;                                                  // 0x0D0C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class UWidgetComponent*                            WidgetDisplay;                                             // 0x0D10(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	struct FText                                       LastTraceText;                                             // 0x0D18(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
+	unsigned char                                      UnknownData_XN6Y[0x4];                                     // 0x0CEC(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class UMeshComponent*                              PreviewMeshComponent;                                      // 0x0CF0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                              NextAvailableTime;                                         // 0x0CF8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                              Cooldown;                                                  // 0x0CFC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UWidgetComponent*                            WidgetDisplay;                                             // 0x0D00(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FText                                       LastTraceText;                                             // 0x0D08(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 
 
 	static UClass* StaticClass()
@@ -45,6 +44,7 @@ public:
 
 
 
+	void ValidateDeployableSpawnConditions(int* Result);
 	void Update_Trace_Text(const struct FText& Trace_Placement_Text, bool IgnoreLastText, bool Valid_Placement);
 	void OnHideWidget();
 	void OnShowWidget();
@@ -57,7 +57,6 @@ public:
 	void AddStaticMeshPreviewIfNone(class UStaticMesh* StaticMesh);
 	void AddSkeletalMeshPreviewIfNone(class USkeletalMesh* SkeletalMesh);
 	void RequestPlant(const struct FVector& Location, const struct FRotator& Rotation, unsigned char ObjectType, class USceneComponent* AttachTo);
-	void ValidateSpot(const struct FVector& PlanterLocation, const struct FRotator& CameraRotation1P, const struct FVector& Offset, bool* Succeeded, struct FVector* Location, struct FRotator* Rotation, class USceneComponent** AttachToComponent);
 	bool OnRequestModeSwitch(class AMordhauCharacter* Character);
 	bool OnRequestFire(class AMordhauCharacter* Character);
 	void UpdateEquipmentState();

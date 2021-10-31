@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,12 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function BP_ScoreFeed.BP_ScoreFeed_C.AddSpawn
+struct UBP_ScoreFeed_C_AddSpawn_Params
+{
+	float                                              Score;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
 
 // Function BP_ScoreFeed.BP_ScoreFeed_C.AddStructureDamage
 struct UBP_ScoreFeed_C_AddStructureDamage_Params

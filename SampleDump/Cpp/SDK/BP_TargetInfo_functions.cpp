@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_Overlay_RankIndicator_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::Get_Overlay_RankIndicator_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetPercent_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ float UBP_TargetInfo_C::GetPercent_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetPercent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ float UBP_TargetInfo_C::GetPercent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_TextBlock_0_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ struct FText UBP_TargetInfo_C::Get_TextBlock_0_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_TextBlock_0_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -173,7 +173,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::Get_TextBlock_0_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -195,7 +195,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.GetPlayerStateFromTarget
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -220,7 +220,7 @@ void UBP_TargetInfo_C::GetPlayerStateFromTarget(class AActor* Target, class AMor
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_HeadText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -242,7 +242,7 @@ struct FText UBP_TargetInfo_C::Get_HeadText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_TargetNameText_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -264,7 +264,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::Get_TargetNameText_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Get_HeadText_Visibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -286,7 +286,7 @@ UMG_ESlateVisibility UBP_TargetInfo_C::Get_HeadText_Visibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.CheckForTarget
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -305,7 +305,7 @@ void UBP_TargetInfo_C::CheckForTarget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_TargetInfo_C::Construct()
@@ -323,7 +323,7 @@ void UBP_TargetInfo_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TargetInfo.BP_TargetInfo_C.ExecuteUbergraph_BP_TargetInfo
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

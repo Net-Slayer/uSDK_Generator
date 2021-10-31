@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.ApplyHeal
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_Medpack_C::ApplyHeal(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.CanHeldInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -64,7 +64,7 @@ bool ABP_Medpack_C::CanHeldInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -88,7 +88,7 @@ bool ABP_Medpack_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.FireProjectile
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -115,7 +115,7 @@ void ABP_Medpack_C::FireProjectile(const struct FVector& Origin, const struct FR
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.OnLoadedChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_Medpack_C::OnLoadedChanged()
@@ -133,7 +133,7 @@ void ABP_Medpack_C::OnLoadedChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.OnHeldInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -154,7 +154,7 @@ void ABP_Medpack_C::OnHeldInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Medpack.BP_Medpack_C.ExecuteUbergraph_BP_Medpack
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

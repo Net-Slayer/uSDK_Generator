@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseDialog.BP_BaseDialog_C.GetTitleText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_BaseDialog_C::GetTitleText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseDialog.BP_BaseDialog_C.OnMouseButtonDown_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +67,7 @@ struct FEventReply UBP_BaseDialog_C::OnMouseButtonDown_1(const struct FGeometry&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseDialog.BP_BaseDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_BaseDialog_C::Show()
@@ -85,7 +85,7 @@ void UBP_BaseDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseDialog.BP_BaseDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_BaseDialog_C::Hide()
@@ -103,7 +103,7 @@ void UBP_BaseDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseDialog.BP_BaseDialog_C.ExecuteUbergraph_BP_BaseDialog
 //		Flags  -> (Final)
 // Parameters:

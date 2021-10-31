@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -25,7 +25,7 @@ class UClothConfigNv : public UClothConfigCommon
 {
 public:
 	ClothingSystemRuntimeNv_EClothingWindMethodNv      ClothingWindMethod;                                        // 0x0028(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_PGJP[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_J9SR[0x3];                                     // 0x0029(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FClothConstraintSetupNv                     VerticalConstraint;                                        // 0x002C(0x0010) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FClothConstraintSetupNv                     HorizontalConstraint;                                      // 0x003C(0x0010) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FClothConstraintSetupNv                     BendConstraint;                                            // 0x004C(0x0010) (Edit, NoDestructor, NativeAccessSpecifierPublic)
@@ -47,14 +47,14 @@ public:
 	float                                              GravityScale;                                              // 0x00D4(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     GravityOverride;                                           // 0x00D8(0x000C) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bUseGravityOverride;                                       // 0x00E4(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_32LN[0x3];                                     // 0x00E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WML6[0x3];                                     // 0x00E5(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              TetherStiffness;                                           // 0x00E8(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              TetherLimit;                                               // 0x00EC(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              CollisionThickness;                                        // 0x00F0(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              AnimDriveSpringStiffness;                                  // 0x00F4(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              AnimDriveDamperStiffness;                                  // 0x00F8(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	ClothingSystemRuntimeCommon_EClothingWindMethod_Legacy WindMethod;                                                // 0x00FC(0x0001) (ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ETZP[0x3];                                     // 0x00FD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_GLQL[0x3];                                     // 0x00FD(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FClothConstraintSetup_Legacy                VerticalConstraintConfig;                                  // 0x0100(0x0010) (Deprecated, NoDestructor, NativeAccessSpecifierPublic)
 	struct FClothConstraintSetup_Legacy                HorizontalConstraintConfig;                                // 0x0110(0x0010) (Deprecated, NoDestructor, NativeAccessSpecifierPublic)
 	struct FClothConstraintSetup_Legacy                BendConstraintConfig;                                      // 0x0120(0x0010) (Deprecated, NoDestructor, NativeAccessSpecifierPublic)
@@ -93,7 +93,7 @@ public:
 class UClothingSimulationInteractorNv : public UClothingSimulationInteractor
 {
 public:
-	unsigned char                                      UnknownData_JGQ4[0x10];                                    // 0x0030(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_L83I[0x10];                                    // 0x0030(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02594FC0
+//		Offset -> 0x025A0570
 //		Name   -> Function EyeTracker.EyeTrackerFunctionLibrary.SetEyeTrackedPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UEyeTrackerFunctionLibrary::STATIC_SetEyeTrackedPlayer(class APlayerControl
 
 
 // Function:
-//		Offset -> 0x02594F90
+//		Offset -> 0x025A0540
 //		Name   -> Function EyeTracker.EyeTrackerFunctionLibrary.IsStereoGazeDataAvailable
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -64,7 +64,7 @@ bool UEyeTrackerFunctionLibrary::STATIC_IsStereoGazeDataAvailable()
 
 
 // Function:
-//		Offset -> 0x02594F60
+//		Offset -> 0x025A0510
 //		Name   -> Function EyeTracker.EyeTrackerFunctionLibrary.IsEyeTrackerConnected
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -87,7 +87,7 @@ bool UEyeTrackerFunctionLibrary::STATIC_IsEyeTrackerConnected()
 
 
 // Function:
-//		Offset -> 0x02594EC0
+//		Offset -> 0x025A0470
 //		Name   -> Function EyeTracker.EyeTrackerFunctionLibrary.GetStereoGazeData
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -114,7 +114,7 @@ bool UEyeTrackerFunctionLibrary::STATIC_GetStereoGazeData(struct FEyeTrackerSter
 
 
 // Function:
-//		Offset -> 0x02594E10
+//		Offset -> 0x025A03C0
 //		Name   -> Function EyeTracker.EyeTrackerFunctionLibrary.GetGazeData
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.InitializeOptions
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_ChatBoxEntry_C::InitializeOptions(TMap<struct FString, struct FText>* O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.GetToolTipText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -64,7 +64,7 @@ struct FText UBP_ChatBoxEntry_C::GetToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.UpdateEntryMessage
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -87,7 +87,7 @@ void UBP_ChatBoxEntry_C::UpdateEntryMessage(const struct FText& New_Message, con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -109,7 +109,7 @@ UMG_ESlateVisibility UBP_ChatBoxEntry_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.SetupEntry
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -140,7 +140,7 @@ void UBP_ChatBoxEntry_C::SetupEntry(const struct FString& Name, const struct FPl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.Motivational Mute
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::Motivational_Mute()
@@ -158,7 +158,7 @@ void UBP_ChatBoxEntry_C::Motivational_Mute()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ClientMute
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::ClientMute()
@@ -176,7 +176,7 @@ void UBP_ChatBoxEntry_C::ClientMute()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.VoteKick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::VoteKick()
@@ -194,7 +194,7 @@ void UBP_ChatBoxEntry_C::VoteKick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ADMIN - Mute
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::ADMIN___Mute()
@@ -212,7 +212,7 @@ void UBP_ChatBoxEntry_C::ADMIN___Mute()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.MuteDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::MuteDialogCanceled()
@@ -230,7 +230,7 @@ void UBP_ChatBoxEntry_C::MuteDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ContextButtonClicked2
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -251,7 +251,7 @@ void UBP_ChatBoxEntry_C::ContextButtonClicked2(int Button_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ADMIN - Message
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::ADMIN___Message()
@@ -269,7 +269,7 @@ void UBP_ChatBoxEntry_C::ADMIN___Message()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.MessageDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::MessageDialogEntered()
@@ -287,7 +287,7 @@ void UBP_ChatBoxEntry_C::MessageDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.MessageDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::MessageDialogCanceled()
@@ -305,7 +305,7 @@ void UBP_ChatBoxEntry_C::MessageDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.MuteDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::MuteDialogEntered()
@@ -323,7 +323,7 @@ void UBP_ChatBoxEntry_C::MuteDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ContextButtonClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -344,7 +344,7 @@ void UBP_ChatBoxEntry_C::ContextButtonClicked(int Button_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ChatBoxEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
@@ -362,7 +362,7 @@ void UBP_ChatBoxEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.OptionSelected
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -383,7 +383,7 @@ void UBP_ChatBoxEntry_C::OptionSelected(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.CreateWrapper
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -404,7 +404,7 @@ void UBP_ChatBoxEntry_C::CreateWrapper(TMap<struct FString, struct FText> InOpti
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ContextButtonClicked3
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -425,7 +425,7 @@ void UBP_ChatBoxEntry_C::ContextButtonClicked3(int Button_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.KickDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::KickDialogEntered()
@@ -443,7 +443,7 @@ void UBP_ChatBoxEntry_C::KickDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.KickDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::KickDialogCanceled()
@@ -461,7 +461,7 @@ void UBP_ChatBoxEntry_C::KickDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.BanDurationDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::BanDurationDialogEntered()
@@ -479,7 +479,7 @@ void UBP_ChatBoxEntry_C::BanDurationDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.BanDurationDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::BanDurationDialogCanceled()
@@ -497,7 +497,7 @@ void UBP_ChatBoxEntry_C::BanDurationDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ADMIN - Kick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::ADMIN___Kick()
@@ -515,7 +515,7 @@ void UBP_ChatBoxEntry_C::ADMIN___Kick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ADMIN - Ban
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::ADMIN___Ban()
@@ -533,7 +533,7 @@ void UBP_ChatBoxEntry_C::ADMIN___Ban()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.BanReasonDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::BanReasonDialogCanceled()
@@ -551,7 +551,7 @@ void UBP_ChatBoxEntry_C::BanReasonDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.BanReasonDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBoxEntry_C::BanReasonDialogEntered()
@@ -569,7 +569,7 @@ void UBP_ChatBoxEntry_C::BanReasonDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBoxEntry.BP_ChatBoxEntry_C.ExecuteUbergraph_BP_ChatBoxEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

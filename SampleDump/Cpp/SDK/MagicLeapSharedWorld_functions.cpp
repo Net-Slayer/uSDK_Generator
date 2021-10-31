@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00CF3420
+//		Offset -> 0x00CFCBC0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SendSharedWorldDataToClients
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42,7 +42,7 @@ bool AMagicLeapSharedWorldGameMode::SendSharedWorldDataToClients()
 
 
 // Function:
-//		Offset -> 0x00CF3400
+//		Offset -> 0x00CFCBA0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SelectChosenOne
 //		Flags  -> (BlueprintAuthorityOnly, Native, Event, Public, BlueprintCallable, BlueprintEvent)
 void AMagicLeapSharedWorldGameMode::SelectChosenOne()
@@ -61,7 +61,7 @@ void AMagicLeapSharedWorldGameMode::SelectChosenOne()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.MagicLeapOnNewLocalDataFromClients__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void AMagicLeapSharedWorldGameMode::MagicLeapOnNewLocalDataFromClients__DelegateSignature()
@@ -79,7 +79,7 @@ void AMagicLeapSharedWorldGameMode::MagicLeapOnNewLocalDataFromClients__Delegate
 
 
 // Function:
-//		Offset -> 0x00CF32E0
+//		Offset -> 0x00CFCA80
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.DetermineSharedWorldData
 //		Flags  -> (BlueprintAuthorityOnly, Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void AMagicLeapSharedWorldGameMode::DetermineSharedWorldData(struct FMagicLeapSh
 
 
 // Function:
-//		Offset -> 0x00CF33E0
+//		Offset -> 0x00CFCB80
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_SharedWorldData
 //		Flags  -> (Final, Native, Private)
 void AMagicLeapSharedWorldGameState::OnReplicate_SharedWorldData()
@@ -122,7 +122,7 @@ void AMagicLeapSharedWorldGameState::OnReplicate_SharedWorldData()
 
 
 // Function:
-//		Offset -> 0x00CF33C0
+//		Offset -> 0x00CFCB60
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_AlignmentTransforms
 //		Flags  -> (Final, Native, Private)
 void AMagicLeapSharedWorldGameState::OnReplicate_AlignmentTransforms()
@@ -141,7 +141,7 @@ void AMagicLeapSharedWorldGameState::OnReplicate_AlignmentTransforms()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameState.MagicLeapSharedWorldEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void AMagicLeapSharedWorldGameState::MagicLeapSharedWorldEvent__DelegateSignature()
@@ -159,7 +159,7 @@ void AMagicLeapSharedWorldGameState::MagicLeapSharedWorldEvent__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x00CF3190
+//		Offset -> 0x00CFC930
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.CalculateXRCameraRootTransform
 //		Flags  -> (Native, Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -182,7 +182,7 @@ struct FTransform AMagicLeapSharedWorldGameState::CalculateXRCameraRootTransform
 
 
 // Function:
-//		Offset -> 0x00CF34F0
+//		Offset -> 0x00CFCC90
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetLocalWorldData
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, BlueprintCallable)
 // Parameters:
@@ -204,7 +204,7 @@ void AMagicLeapSharedWorldPlayerController::ServerSetLocalWorldData(const struct
 
 
 // Function:
-//		Offset -> 0x00CF3450
+//		Offset -> 0x00CFCBF0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetAlignmentTransforms
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, BlueprintCallable)
 // Parameters:
@@ -226,7 +226,7 @@ void AMagicLeapSharedWorldPlayerController::ServerSetAlignmentTransforms(const s
 
 
 // Function:
-//		Offset -> 0x00CF3390
+//		Offset -> 0x00CFCB30
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.IsChosenOne
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -249,7 +249,7 @@ bool AMagicLeapSharedWorldPlayerController::IsChosenOne()
 
 
 // Function:
-//		Offset -> 0x00CF3250
+//		Offset -> 0x00CFC9F0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientSetChosenOne
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient, BlueprintCallable)
 // Parameters:
@@ -271,7 +271,7 @@ void AMagicLeapSharedWorldPlayerController::ClientSetChosenOne(bool bChosenOne)
 
 
 // Function:
-//		Offset -> 0x00CF3230
+//		Offset -> 0x00CFC9D0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientMarkReadyForSendingLocalData
 //		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 void AMagicLeapSharedWorldPlayerController::ClientMarkReadyForSendingLocalData()
@@ -290,7 +290,7 @@ void AMagicLeapSharedWorldPlayerController::ClientMarkReadyForSendingLocalData()
 
 
 // Function:
-//		Offset -> 0x00CF3200
+//		Offset -> 0x00CFC9A0
 //		Name   -> Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.CanSendLocalDataToServer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

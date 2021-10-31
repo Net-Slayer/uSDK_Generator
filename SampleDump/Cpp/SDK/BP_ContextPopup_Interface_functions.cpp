@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopup_Interface.BP_ContextPopup_Interface_C.ClearEntries
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ContextPopup_Interface_C::ClearEntries()
@@ -37,7 +37,7 @@ void UBP_ContextPopup_Interface_C::ClearEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ContextPopup_Interface.BP_ContextPopup_Interface_C.AddButtonEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -60,7 +60,7 @@ enum class GameplayTasks_EGameplayTaskRunResult : uint8_t
 // 0x0002
 struct FGameplayResourceSet
 {
-	unsigned char                                      UnknownData_HDJW[0x2];                                     // 0x0000(0x0002) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_VDLX[0x2];                                     // 0x0000(0x0002) MISSED OFFSET (PADDING)
 
 };
 

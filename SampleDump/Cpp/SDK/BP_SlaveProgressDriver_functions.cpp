@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SlaveProgressDriver.BP_SlaveProgressDriver_C.UpdateProgress
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_SlaveProgressDriver_C::UpdateProgress(float Progress)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SlaveProgressDriver.BP_SlaveProgressDriver_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -64,7 +64,7 @@ bool ABP_SlaveProgressDriver_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SlaveProgressDriver.BP_SlaveProgressDriver_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_SlaveProgressDriver_C::ReceiveBeginPlay()
@@ -82,7 +82,7 @@ void ABP_SlaveProgressDriver_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SlaveProgressDriver.BP_SlaveProgressDriver_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void ABP_SlaveProgressDriver_C::OnInteractionStart(class AMordhauCharacter* Char
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SlaveProgressDriver.BP_SlaveProgressDriver_C.ExecuteUbergraph_BP_SlaveProgressDriver
 //		Flags  -> (Final)
 // Parameters:

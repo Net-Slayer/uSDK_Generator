@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTService_ObstacleNavigator.BTService_ObstacleNavigator_C.ReceiveTickAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void UBTService_ObstacleNavigator_C::ReceiveTickAI(class AAIController* OwnerCon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTService_ObstacleNavigator.BTService_ObstacleNavigator_C.ExecuteUbergraph_BTService_ObstacleNavigator
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

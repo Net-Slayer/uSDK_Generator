@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Bullet1411.BP_Bullet1411_C
-// 0x0000 (FullSize[0x07C4] - InheritedSize[0x07C4])
+// 0x0000 (FullSize[0x07D4] - InheritedSize[0x07D4])
 class ABP_Bullet1411_C : public ABP_ArrowProjectile_C
 {
 public:

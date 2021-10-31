@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.AttachProjectile
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -43,7 +43,7 @@ bool ABP_BallistaProjectile_C::AttachProjectile(const struct FHitResult& Hit)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void ABP_BallistaProjectile_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.OnUsedToKillOther
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -95,7 +95,7 @@ void ABP_BallistaProjectile_C::OnUsedToKillOther(class AAdvancedCharacter* Chara
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.OnPostDismemberedOther
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -118,7 +118,7 @@ void ABP_BallistaProjectile_C::OnPostDismemberedOther(const struct FName& bone, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.OnProjectileHit
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -149,7 +149,7 @@ void ABP_BallistaProjectile_C::OnProjectileHit(const struct FVector& HitLocation
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BallistaProjectile.BP_BallistaProjectile_C.ExecuteUbergraph_BP_BallistaProjectile
 //		Flags  -> (Final)
 // Parameters:

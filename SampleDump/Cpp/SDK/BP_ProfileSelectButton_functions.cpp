@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_46_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_46_OnButtonClickedEvent__DelegateSignature()
@@ -37,7 +37,7 @@ void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_46_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ProfileSelectButton_C::Construct()
@@ -55,7 +55,7 @@ void UBP_ProfileSelectButton_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_369_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_369_OnButtonHoverEvent__DelegateSignature()
@@ -73,7 +73,7 @@ void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_369_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_380_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_380_OnButtonHoverEvent__DelegateSignature()
@@ -91,7 +91,7 @@ void UBP_ProfileSelectButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_380_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.ExecuteUbergraph_BP_ProfileSelectButton
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -112,7 +112,7 @@ void UBP_ProfileSelectButton_C::ExecuteUbergraph_BP_ProfileSelectButton(int Entr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelectButton.BP_ProfileSelectButton_C.OnProfileButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

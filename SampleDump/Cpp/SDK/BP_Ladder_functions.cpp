@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.UpdateInteractionText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_Ladder_C::UpdateInteractionText()
@@ -37,7 +37,7 @@ void ABP_Ladder_C::UpdateInteractionText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.OnRep_LadderState
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -56,7 +56,7 @@ void ABP_Ladder_C::OnRep_LadderState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.CanHeldInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -80,7 +80,7 @@ bool ABP_Ladder_C::CanHeldInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -104,7 +104,7 @@ bool ABP_Ladder_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -123,7 +123,7 @@ void ABP_Ladder_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.OnHeldInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -144,7 +144,7 @@ void ABP_Ladder_C::OnHeldInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_Ladder_C::ReceiveBeginPlay()
@@ -162,7 +162,7 @@ void ABP_Ladder_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.OnHighlightMaintained
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -183,7 +183,7 @@ void ABP_Ladder_C::OnHighlightMaintained(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.BeginAnimatingLadder
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -204,7 +204,7 @@ void ABP_Ladder_C::BeginAnimatingLadder(bool DoEffects)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -225,7 +225,7 @@ void ABP_Ladder_C::OnInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -252,7 +252,7 @@ void ABP_Ladder_C::ReceiveAnyDamage(float Damage, class UDamageType* DamageType,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -273,7 +273,7 @@ void ABP_Ladder_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.ToggleLadderState
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -294,7 +294,7 @@ void ABP_Ladder_C::ToggleLadderState(class AController* Instigator)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Ladder.BP_Ladder_C.ExecuteUbergraph_BP_Ladder
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -92,7 +92,7 @@ struct FGameplayTag
 struct FGameplayTagQuery
 {
 	int                                                TokenStreamVersion;                                        // 0x0000(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_9P87[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_CHUW[0x4];                                     // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FGameplayTag>                        TagDictionary;                                             // 0x0008(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<unsigned char>                              QueryTokenStream;                                          // 0x0018(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	struct FString                                     UserDescription;                                           // 0x0028(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -115,7 +115,7 @@ struct FGameplayTagSource
 {
 	struct FName                                       SourceName;                                                // 0x0000(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	GameplayTags_EGameplayTagSourceType                SourceType;                                                // 0x0008(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_RWFM[0x7];                                     // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_ZSPS[0x7];                                     // 0x0009(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UGameplayTagsList*                           SourceTagList;                                             // 0x0010(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class URestrictedGameplayTagsList*                 SourceRestrictedTagList;                                   // 0x0018(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
@@ -135,7 +135,7 @@ struct FGameplayTagTableRow : public FTableRowBase
 struct FRestrictedGameplayTagTableRow : public FGameplayTagTableRow
 {
 	bool                                               bAllowNonRestrictedChildren;                               // 0x0020(0x0001) (Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_M6M2[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ACSY[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -170,7 +170,7 @@ struct FRestrictedConfigInfo
 // 0x0001
 struct FGameplayTagCreationWidgetHelper
 {
-	unsigned char                                      UnknownData_DU6J[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_SF2V[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
 
 };
 
@@ -178,7 +178,7 @@ struct FGameplayTagCreationWidgetHelper
 // 0x0010
 struct FGameplayTagReferenceHelper
 {
-	unsigned char                                      UnknownData_ALOU[0x10];                                    // 0x0000(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_VZGH[0x10];                                    // 0x0000(0x0010) MISSED OFFSET (PADDING)
 
 };
 
@@ -186,7 +186,7 @@ struct FGameplayTagReferenceHelper
 // 0x0050
 struct FGameplayTagNode
 {
-	unsigned char                                      UnknownData_XYSR[0x50];                                    // 0x0000(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_UJA9[0x50];                                    // 0x0000(0x0050) MISSED OFFSET (PADDING)
 
 };
 

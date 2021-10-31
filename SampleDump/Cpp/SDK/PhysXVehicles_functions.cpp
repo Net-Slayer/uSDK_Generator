@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E3A980
+//		Offset -> 0x00E44850
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetUseAutoGears
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UWheeledVehicleMovementComponent::SetUseAutoGears(bool bUseAuto)
 
 
 // Function:
-//		Offset -> 0x00E3A900
+//		Offset -> 0x00E447D0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetThrottleInput
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ void UWheeledVehicleMovementComponent::SetThrottleInput(float Throttle)
 
 
 // Function:
-//		Offset -> 0x00E3A840
+//		Offset -> 0x00E44710
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetTargetGear
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UWheeledVehicleMovementComponent::SetTargetGear(int GearNum, bool bImmediat
 
 
 // Function:
-//		Offset -> 0x00E3A7C0
+//		Offset -> 0x00E44690
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetSteeringInput
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -109,7 +109,7 @@ void UWheeledVehicleMovementComponent::SetSteeringInput(float Steering)
 
 
 // Function:
-//		Offset -> 0x00E3A660
+//		Offset -> 0x00E44530
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetHandbrakeInput
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -131,7 +131,7 @@ void UWheeledVehicleMovementComponent::SetHandbrakeInput(bool bNewHandbrake)
 
 
 // Function:
-//		Offset -> 0x00E3A5D0
+//		Offset -> 0x00E444A0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnoreMask
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -153,7 +153,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnoreMask(const struct FNavAv
 
 
 // Function:
-//		Offset -> 0x00E3A550
+//		Offset -> 0x00E44420
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnore
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -175,7 +175,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnore(int GroupFlags)
 
 
 // Function:
-//		Offset -> 0x00E3A4C0
+//		Offset -> 0x00E44390
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoidMask
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -197,7 +197,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoidMask(const struct FNavAvo
 
 
 // Function:
-//		Offset -> 0x00E3A440
+//		Offset -> 0x00E44310
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoid
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -219,7 +219,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoid(int GroupFlags)
 
 
 // Function:
-//		Offset -> 0x00E3A3B0
+//		Offset -> 0x00E44280
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearUp
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -241,7 +241,7 @@ void UWheeledVehicleMovementComponent::SetGearUp(bool bNewGearUp)
 
 
 // Function:
-//		Offset -> 0x00E3A320
+//		Offset -> 0x00E441F0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearDown
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -263,7 +263,7 @@ void UWheeledVehicleMovementComponent::SetGearDown(bool bNewGearDown)
 
 
 // Function:
-//		Offset -> 0x00E3A100
+//		Offset -> 0x00E43FD0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetBrakeInput
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -285,7 +285,7 @@ void UWheeledVehicleMovementComponent::SetBrakeInput(float Brake)
 
 
 // Function:
-//		Offset -> 0x00E3A070
+//		Offset -> 0x00E43F40
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroupMask
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -307,7 +307,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroupMask(const struct FNavAv
 
 
 // Function:
-//		Offset -> 0x00E39FF0
+//		Offset -> 0x00E43EC0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -329,7 +329,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroup(int GroupFlags)
 
 
 // Function:
-//		Offset -> 0x00E39F60
+//		Offset -> 0x00E43E30
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -351,7 +351,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceEnabled(bool bEnable)
 
 
 // Function:
-//		Offset -> 0x00E39D90
+//		Offset -> 0x00E43C60
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.ServerUpdateState
 //		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 // Parameters:
@@ -381,7 +381,7 @@ void UWheeledVehicleMovementComponent::ServerUpdateState(float InSteeringInput, 
 
 
 // Function:
-//		Offset -> 0x00E39D00
+//		Offset -> 0x00E43BD0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetUseAutoGears
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -404,7 +404,7 @@ bool UWheeledVehicleMovementComponent::GetUseAutoGears()
 
 
 // Function:
-//		Offset -> 0x00E39CD0
+//		Offset -> 0x00E43BA0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetTargetGear
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -427,7 +427,7 @@ int UWheeledVehicleMovementComponent::GetTargetGear()
 
 
 // Function:
-//		Offset -> 0x00E39C10
+//		Offset -> 0x00E43AE0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetForwardSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -450,7 +450,7 @@ float UWheeledVehicleMovementComponent::GetForwardSpeed()
 
 
 // Function:
-//		Offset -> 0x00E39BE0
+//		Offset -> 0x00E43AB0
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineRotationSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -473,7 +473,7 @@ float UWheeledVehicleMovementComponent::GetEngineRotationSpeed()
 
 
 // Function:
-//		Offset -> 0x00E39BB0
+//		Offset -> 0x00E43A80
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineMaxRotationSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -496,7 +496,7 @@ float UWheeledVehicleMovementComponent::GetEngineMaxRotationSpeed()
 
 
 // Function:
-//		Offset -> 0x00E39B80
+//		Offset -> 0x00E43A50
 //		Name   -> Function PhysXVehicles.WheeledVehicleMovementComponent.GetCurrentGear
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -519,7 +519,7 @@ int UWheeledVehicleMovementComponent::GetCurrentGear()
 
 
 // Function:
-//		Offset -> 0x00E3A6F0
+//		Offset -> 0x00E445C0
 //		Name   -> Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetSteerAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -543,7 +543,7 @@ void USimpleWheeledVehicleMovementComponent::SetSteerAngle(float SteerAngle, int
 
 
 // Function:
-//		Offset -> 0x00E3A250
+//		Offset -> 0x00E44120
 //		Name   -> Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetDriveTorque
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -567,7 +567,7 @@ void USimpleWheeledVehicleMovementComponent::SetDriveTorque(float DriveTorque, i
 
 
 // Function:
-//		Offset -> 0x00E3A180
+//		Offset -> 0x00E44050
 //		Name   -> Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetBrakeTorque
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -591,7 +591,7 @@ void USimpleWheeledVehicleMovementComponent::SetBrakeTorque(float BrakeTorque, i
 
 
 // Function:
-//		Offset -> 0x00E39D30
+//		Offset -> 0x00E43C00
 //		Name   -> Function PhysXVehicles.VehicleAnimInstance.GetVehicle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -614,7 +614,7 @@ class AWheeledVehicle* UVehicleAnimInstance::GetVehicle()
 
 
 // Function:
-//		Offset -> 0x00E39D60
+//		Offset -> 0x00E43C30
 //		Name   -> Function PhysXVehicles.VehicleWheel.IsInAir
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -637,7 +637,7 @@ bool UVehicleWheel::IsInAir()
 
 
 // Function:
-//		Offset -> 0x00E39CA0
+//		Offset -> 0x00E43B70
 //		Name   -> Function PhysXVehicles.VehicleWheel.GetSuspensionOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -660,7 +660,7 @@ float UVehicleWheel::GetSuspensionOffset()
 
 
 // Function:
-//		Offset -> 0x00E39C70
+//		Offset -> 0x00E43B40
 //		Name   -> Function PhysXVehicles.VehicleWheel.GetSteerAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -683,7 +683,7 @@ float UVehicleWheel::GetSteerAngle()
 
 
 // Function:
-//		Offset -> 0x00E39C40
+//		Offset -> 0x00E43B10
 //		Name   -> Function PhysXVehicles.VehicleWheel.GetRotationAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

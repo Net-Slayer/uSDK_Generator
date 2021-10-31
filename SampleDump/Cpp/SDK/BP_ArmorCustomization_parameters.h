@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -176,12 +176,6 @@ struct UBP_ArmorCustomization_C_BndEvt__EmblemColorPicker2_K2Node_ComponentBound
 	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
-// Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature
-struct UBP_ArmorCustomization_C_BndEvt__MetalRoughnessScaleSlider_K2Node_ComponentBoundEvent_98_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
 // Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__MetalTintColorPicker_K2Node_ComponentBoundEvent_107_OnClicked__DelegateSignature
 struct UBP_ArmorCustomization_C_BndEvt__MetalTintColorPicker_K2Node_ComponentBoundEvent_107_OnClicked__DelegateSignature_Params
 {
@@ -255,6 +249,12 @@ struct UBP_ArmorCustomization_C_BndEvt__Dropdown_K2Node_ComponentBoundEvent_0_On
 // Function BP_ArmorCustomization.BP_ArmorCustomization_C.UpdateTeamColorsPreview
 struct UBP_ArmorCustomization_C_UpdateTeamColorsPreview_Params
 {
+};
+
+// Function BP_ArmorCustomization.BP_ArmorCustomization_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature
+struct UBP_ArmorCustomization_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_ArmorCustomization.BP_ArmorCustomization_C.ExecuteUbergraph_BP_ArmorCustomization

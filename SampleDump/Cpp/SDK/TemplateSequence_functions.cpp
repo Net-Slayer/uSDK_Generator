@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D85E70
+//		Offset -> 0x00D8F9E0
 //		Name   -> Function TemplateSequence.TemplateSequenceActor.SetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void ATemplateSequenceActor::SetSequence(class UTemplateSequence* InSequence)
 
 
 // Function:
-//		Offset -> 0x00D85DF0
+//		Offset -> 0x00D8F960
 //		Name   -> Function TemplateSequence.TemplateSequenceActor.SetBinding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ void ATemplateSequenceActor::SetBinding(class AActor* Actor)
 
 
 // Function:
-//		Offset -> 0x00D85DC0
+//		Offset -> 0x00D8F930
 //		Name   -> Function TemplateSequence.TemplateSequenceActor.LoadSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -86,7 +86,7 @@ class UTemplateSequence* ATemplateSequenceActor::LoadSequence()
 
 
 // Function:
-//		Offset -> 0x00D85D90
+//		Offset -> 0x00D8F900
 //		Name   -> Function TemplateSequence.TemplateSequenceActor.GetSequencePlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -109,7 +109,7 @@ class UTemplateSequencePlayer* ATemplateSequenceActor::GetSequencePlayer()
 
 
 // Function:
-//		Offset -> 0x00D85D60
+//		Offset -> 0x00D8F8D0
 //		Name   -> Function TemplateSequence.TemplateSequenceActor.GetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -132,7 +132,7 @@ class UTemplateSequence* ATemplateSequenceActor::GetSequence()
 
 
 // Function:
-//		Offset -> 0x00D85BF0
+//		Offset -> 0x00D8F760
 //		Name   -> Function TemplateSequence.TemplateSequencePlayer.CreateTemplateSequencePlayer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

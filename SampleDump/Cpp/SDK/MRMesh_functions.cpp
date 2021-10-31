@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x01FB9210
+//		Offset -> 0x01FC27C0
 //		Name   -> Function MRMesh.MeshReconstructorBase.StopReconstruction
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UMeshReconstructorBase::StopReconstruction()
@@ -38,7 +38,7 @@ void UMeshReconstructorBase::StopReconstruction()
 
 
 // Function:
-//		Offset -> 0x01FB91F0
+//		Offset -> 0x01FC27A0
 //		Name   -> Function MRMesh.MeshReconstructorBase.StartReconstruction
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UMeshReconstructorBase::StartReconstruction()
@@ -57,7 +57,7 @@ void UMeshReconstructorBase::StartReconstruction()
 
 
 // Function:
-//		Offset -> 0x010D6720
+//		Offset -> 0x010E6DD0
 //		Name   -> Function MRMesh.MeshReconstructorBase.PauseReconstruction
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UMeshReconstructorBase::PauseReconstruction()
@@ -76,7 +76,7 @@ void UMeshReconstructorBase::PauseReconstruction()
 
 
 // Function:
-//		Offset -> 0x01FB91C0
+//		Offset -> 0x01FC2770
 //		Name   -> Function MRMesh.MeshReconstructorBase.IsReconstructionStarted
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -99,7 +99,7 @@ bool UMeshReconstructorBase::IsReconstructionStarted()
 
 
 // Function:
-//		Offset -> 0x01FB9190
+//		Offset -> 0x01FC2740
 //		Name   -> Function MRMesh.MeshReconstructorBase.IsReconstructionPaused
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -122,7 +122,7 @@ bool UMeshReconstructorBase::IsReconstructionPaused()
 
 
 // Function:
-//		Offset -> 0x01FB9090
+//		Offset -> 0x01FC2640
 //		Name   -> Function MRMesh.MeshReconstructorBase.DisconnectMRMesh
 //		Flags  -> (Native, Public)
 void UMeshReconstructorBase::DisconnectMRMesh()
@@ -141,7 +141,7 @@ void UMeshReconstructorBase::DisconnectMRMesh()
 
 
 // Function:
-//		Offset -> 0x01FB8F80
+//		Offset -> 0x01FC2530
 //		Name   -> Function MRMesh.MeshReconstructorBase.ConnectMRMesh
 //		Flags  -> (Native, Public)
 // Parameters:
@@ -163,7 +163,7 @@ void UMeshReconstructorBase::ConnectMRMesh(class UMRMeshComponent* Mesh)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MRMesh.MockDataMeshTrackerComponent.OnMockDataMeshTrackerUpdated__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -192,7 +192,7 @@ void UMockDataMeshTrackerComponent::OnMockDataMeshTrackerUpdated__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x01FB90B0
+//		Offset -> 0x01FC2660
 //		Name   -> Function MRMesh.MockDataMeshTrackerComponent.DisconnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -214,7 +214,7 @@ void UMockDataMeshTrackerComponent::DisconnectMRMesh(class UMRMeshComponent* InM
 
 
 // Function:
-//		Offset -> 0x01FB9010
+//		Offset -> 0x01FC25C0
 //		Name   -> Function MRMesh.MockDataMeshTrackerComponent.ConnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -236,7 +236,7 @@ void UMockDataMeshTrackerComponent::ConnectMRMesh(class UMRMeshComponent* InMRMe
 
 
 // Function:
-//		Offset -> 0x01FB9150
+//		Offset -> 0x01FC2700
 //		Name   -> Function MRMesh.MRMeshComponent.IsConnected
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -259,7 +259,7 @@ bool UMRMeshComponent::IsConnected()
 
 
 // Function:
-//		Offset -> 0x01FB9130
+//		Offset -> 0x01FC26E0
 //		Name   -> Function MRMesh.MRMeshComponent.ForceNavMeshUpdate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMRMeshComponent::ForceNavMeshUpdate()
@@ -278,7 +278,7 @@ void UMRMeshComponent::ForceNavMeshUpdate()
 
 
 // Function:
-//		Offset -> 0x01FB8F50
+//		Offset -> 0x01FC2500
 //		Name   -> Function MRMesh.MRMeshComponent.Clear
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMRMeshComponent::Clear()

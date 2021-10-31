@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -34,6 +34,8 @@ public:
 
 
 
+	void STATIC_Get_Key_Info_from_Action_Name_Secondary(const struct FName& ActionName, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Secondary_Key, struct FText* Secondary_Key_Display_Name);
+	void STATIC_Get_Key_Info_from_Action_Name_Primary(const struct FName& ActionName, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Key, struct FText* Key_Display_Name);
 	void STATIC_CreateContextPopup_Interface(TMap<struct FString, struct FText> Option_Map, class UObject* __WorldContext);
 	void STATIC_Set_Spawn_Loadout(class APlayerController* Player_Controller, int ID, class UObject* __WorldContext);
 	void STATIC_GetLoadoutFromSingleton(int ID, class UObject* __WorldContext, struct FCharacterProfile* Profile, bool* is_Default_Profile);
@@ -42,7 +44,6 @@ public:
 	void STATIC_OpenSteamProfile(const struct FString& SteamId, class UObject* __WorldContext);
 	void STATIC_GetPlayerStateFromActor(class AActor* Actor, class UObject* __WorldContext, class AMordhauPlayerState** PlayerState);
 	void STATIC_GetKeyInfoFromKey(const struct FKey& Key_, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Key, struct FText* Key_Display_Name);
-	void STATIC_GetKeyInfoFromActionName(const struct FName& Action_Name, class UObject* __WorldContext, class UTexture2D** Icon, struct FKey* Key, struct FText* Key_Display_Name);
 	void STATIC_GetRank(class UObject* __WorldContext, int* Rank);
 	void STATIC_Get1v1MMRFromStats(class UObject* __WorldContext, int* MMR);
 	void STATIC_CreateContextPopup(TMap<struct FString, struct FText> Option_Map, class UObject* __WorldContext, class UBP_ContextPopupWrapper_C** Context_Popup_Wrapper);

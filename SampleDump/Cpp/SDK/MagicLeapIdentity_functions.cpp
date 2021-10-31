@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapIdentity.MagicLeapIdentity.RequestIdentityAttributeValueDelegate__DelegateSignature
 //		Flags  -> (Public, Delegate, HasOutParms)
 // Parameters:
@@ -42,7 +42,7 @@ void UMagicLeapIdentity::RequestIdentityAttributeValueDelegate__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x00D199C0
+//		Offset -> 0x00D231F0
 //		Name   -> Function MagicLeapIdentity.MagicLeapIdentity.RequestAttributeValueAsync
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ MagicLeapIdentity_EMagicLeapIdentityError UMagicLeapIdentity::RequestAttributeVa
 
 
 // Function:
-//		Offset -> 0x00D19860
+//		Offset -> 0x00D23090
 //		Name   -> Function MagicLeapIdentity.MagicLeapIdentity.RequestAttributeValue
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -98,7 +98,7 @@ MagicLeapIdentity_EMagicLeapIdentityError UMagicLeapIdentity::RequestAttributeVa
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapIdentity.MagicLeapIdentity.ModifyIdentityAttributeValueDelegate__DelegateSignature
 //		Flags  -> (Public, Delegate, HasOutParms)
 // Parameters:
@@ -121,7 +121,7 @@ void UMagicLeapIdentity::ModifyIdentityAttributeValueDelegate__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x00D197B0
+//		Offset -> 0x00D22FE0
 //		Name   -> Function MagicLeapIdentity.MagicLeapIdentity.GetAllAvailableAttributesAsync
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -143,7 +143,7 @@ void UMagicLeapIdentity::GetAllAvailableAttributesAsync(const struct FScriptDele
 
 
 // Function:
-//		Offset -> 0x00D196F0
+//		Offset -> 0x00D22F20
 //		Name   -> Function MagicLeapIdentity.MagicLeapIdentity.GetAllAvailableAttributes
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -170,7 +170,7 @@ MagicLeapIdentity_EMagicLeapIdentityError UMagicLeapIdentity::GetAllAvailableAtt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeapIdentity.MagicLeapIdentity.AvailableIdentityAttributesDelegate__DelegateSignature
 //		Flags  -> (Public, Delegate, HasOutParms)
 // Parameters:

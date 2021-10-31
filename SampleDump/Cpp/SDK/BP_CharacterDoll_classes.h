@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,11 +20,11 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_CharacterDoll.BP_CharacterDoll_C
-// 0x0008 (FullSize[0x12D0] - InheritedSize[0x12C8])
+// 0x0008 (FullSize[0x12C0] - InheritedSize[0x12B8])
 class ABP_CharacterDoll_C : public ABP_MordhauCharacter_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x12C8(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x12B8(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 
 
 	static UClass* StaticClass()

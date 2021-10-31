@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -188,7 +188,7 @@ enum class MordhauOnlineSubsystem_EPlayFabRequestType : uint8_t
 	EPlayFabRequestType__JoinMatchmakingMatch = 55,
 	EPlayFabRequestType__LeaveMatchmakingMatch = 56,
 	EPlayFabRequestType__RefreshEntityToken = 57,
-	EPlayFabRequestType__AuthenticateSessionTicket = 58,
+	EPlayFabRequestType__AuthenticatePlayer = 58,
 	EPlayFabRequestType__EPlayFabRequestType_MAX = 59,
 
 };
@@ -220,10 +220,10 @@ enum class MordhauOnlineSubsystem_EIngameEvent : uint8_t
 // 0x0030
 struct FPlayFabProfile
 {
-	unsigned char                                      UnknownData_07BW[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_SMLV[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     PlayFabId;                                                 // 0x0008(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EPlatform                   Platform;                                                  // 0x0018(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DBB4[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_2SKL[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     PlatformAccountID;                                         // 0x0020(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -232,10 +232,10 @@ struct FPlayFabProfile
 // 0x0020
 struct FPlayFabEntity
 {
-	unsigned char                                      UnknownData_0S7R[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_9LF7[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     ID;                                                        // 0x0008(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EEntityType                 Type;                                                      // 0x0018(0x0001) (BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZWRD[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_MGBR[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -270,10 +270,10 @@ struct FLeaderboardEntry
 struct FPlayFabMatchmakingAttributes
 {
 	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0000(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_AUOQ[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_K0UO[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                MMR;                                                       // 0x0004(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                OpenSlots;                                                 // 0x0008(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_B5XN[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VI21[0x4];                                     // 0x000C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TMap<MordhauOnlineSubsystem_EServerLocation, int>  Pings;                                                     // 0x0010(0x0050) (BlueprintVisible, NativeAccessSpecifierPublic)
 
 };
@@ -284,18 +284,7 @@ struct FPlayFabPort
 {
 	struct FString                                     Name;                                                      // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Num;                                                       // 0x0010(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E8MN[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
-
-};
-
-// ScriptStruct MordhauOnlineSubsystem.PlayFabServerDetails
-// 0x0028
-struct FPlayFabServerDetails
-{
-	struct FString                                     IPV4Address;                                               // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FPlayFabPort>                        Ports;                                                     // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0020(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VI0F[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_3903[0x4];                                     // 0x0014(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -309,6 +298,17 @@ struct FPlayFabMatchmakingPlayer
 
 };
 
+// ScriptStruct MordhauOnlineSubsystem.PlayFabServerDetails
+// 0x0028
+struct FPlayFabServerDetails
+{
+	struct FString                                     IPV4Address;                                               // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FPlayFabPort>                        Ports;                                                     // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0020(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData_8I6E[0x7];                                     // 0x0021(0x0007) MISSED OFFSET (PADDING)
+
+};
+
 // ScriptStruct MordhauOnlineSubsystem.PlayFabMatchmakingMatch
 // 0x00A8
 struct FPlayFabMatchmakingMatch
@@ -318,13 +318,13 @@ struct FPlayFabMatchmakingMatch
 	struct FString                                     OwnerID;                                                   // 0x0020(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     GroupID;                                                   // 0x0030(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EPlayFabMatchStatus         Status;                                                    // 0x0040(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G3C5[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T98L[0x7];                                     // 0x0041(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FPlayFabMatchmakingPlayer>           Members;                                                   // 0x0048(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FString>                             RegisteredMembers;                                         // 0x0058(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0068(0x0028) (BlueprintVisible, NativeAccessSpecifierPublic)
 	TArray<MordhauOnlineSubsystem_EServerLocation>     LocationPreference;                                        // 0x0090(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x00A0(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_M7I8[0x7];                                     // 0x00A1(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_VIWP[0x7];                                     // 0x00A1(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -334,12 +334,12 @@ struct FPlayFabGameServer
 {
 	struct FString                                     ServerId;                                                  // 0x0000(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EServerState                State;                                                     // 0x0010(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_R5X0[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T70L[0x7];                                     // 0x0011(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FDateTime                                   LastHeartbeat;                                             // 0x0018(0x0008) (BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FTimespan                                   Runtime;                                                   // 0x0020(0x0008) (BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0028(0x0028) (BlueprintVisible, NativeAccessSpecifierPublic)
 	int                                                Version;                                                   // 0x0050(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TIMX[0x4];                                     // 0x0054(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_0FBR[0x4];                                     // 0x0054(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     ServerName;                                                // 0x0058(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     MapName;                                                   // 0x0068(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     GameMode;                                                  // 0x0078(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -351,11 +351,11 @@ struct FPlayFabGameServer
 	bool                                               bIsOfficial;                                               // 0x00B1(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bAllowJoin;                                                // 0x00B2(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsPasswordProtected;                                      // 0x00B3(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_4DQX[0x4];                                     // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_MHWG[0x4];                                     // 0x00B4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<int>                                        Mods;                                                      // 0x00B8(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<int>                                        Pings;                                                     // 0x00C8(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EServerLocation             Location;                                                  // 0x00D8(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_WWHX[0x7];                                     // 0x00D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_PV35[0x7];                                     // 0x00D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     AccountID;                                                 // 0x00E0(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     OperatingSystem;                                           // 0x00F0(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
@@ -404,7 +404,7 @@ struct FPlayFabMatch
 	int                                                TopScore;                                                  // 0x0040(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                AvgScore;                                                  // 0x0044(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Score;                                                     // 0x0048(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_5SI9[0x4];                                     // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_HX7P[0x4];                                     // 0x004C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int64_t                                            StartTimestamp;                                            // 0x0050(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int64_t                                            EndTimestamp;                                              // 0x0058(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
@@ -444,24 +444,23 @@ struct FQueuedModDownload
 struct FPlayFabRequest
 {
 	MordhauOnlineSubsystem_EPlayFabRequestType         Type;                                                      // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0W7I[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_DY2U[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                MaxRetries;                                                // 0x0004(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                RetryDelay;                                                // 0x0008(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Retries;                                                   // 0x000C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int64_t                                            Timestamp;                                                 // 0x0010(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EPlayFabRequestPriority     Priority;                                                  // 0x0018(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bAllowMultiple;                                            // 0x0019(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_PTFO[0x6];                                     // 0x001A(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_DL6O[0x6];                                     // 0x001A(0x0006) MISSED OFFSET (PADDING)
 
 };
 
-// ScriptStruct MordhauOnlineSubsystem.AuthenticateSessionTicketPlayFabRequest
+// ScriptStruct MordhauOnlineSubsystem.AuthenticatePlayerPlayFabRequest
 // 0x0078 (0x0098 - 0x0020)
-struct FAuthenticateSessionTicketPlayFabRequest : public FPlayFabRequest
+struct FAuthenticatePlayerPlayFabRequest : public FPlayFabRequest
 {
-	struct FPlayFabPlayer                              Player;                                                    // 0x0020(0x0060) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                PlayerId;                                                  // 0x0080(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_W4TW[0x4];                                     // 0x0084(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	TWeakObjectPtr<class APlayerController>            PlayerController;                                          // 0x0020(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabPlayer                              PlayFabPlayer;                                             // 0x0028(0x0060) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     SessionTicket;                                             // 0x0088(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -586,7 +585,7 @@ struct FSetObjectsPlayFabRequest : public FPlayFabRequest
 {
 	struct FString                                     EntityId;                                                  // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     EntityType;                                                // 0x0030(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8RBX[0x10];                                    // 0x0040(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_HT3T[0x10];                                    // 0x0040(0x0010) MISSED OFFSET (PADDING)
 
 };
 
@@ -643,7 +642,7 @@ struct FCreateServerBackfillTicketPlayFabRequest : public FPlayFabRequest
 	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0030(0x0028) (NativeAccessSpecifierPublic)
 	TArray<struct FPlayFabMatchmakingPlayer>           Members;                                                   // 0x0058(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Timeout;                                                   // 0x0068(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G3FL[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_AUTK[0x4];                                     // 0x006C(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -691,7 +690,7 @@ struct FCreateMatchmakingTicketPlayFabRequest : public FPlayFabRequest
 	struct FPlayFabMatchmakingAttributes               Attributes;                                                // 0x0030(0x0060) (HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FString>                             Members;                                                   // 0x0090(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Timeout;                                                   // 0x00A0(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_750J[0x4];                                     // 0x00A4(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_01EP[0x4];                                     // 0x00A4(0x0004) MISSED OFFSET (PADDING)
 
 };
 
@@ -712,7 +711,7 @@ struct FReportTimeLeftPlayFabRequest : public FPlayFabRequest
 {
 	struct FString                                     Map;                                                       // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                PlayerCount;                                               // 0x0030(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_W0OJ[0x4];                                     // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_XGXT[0x4];                                     // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<float>                                      TimeLeft;                                                  // 0x0038(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -723,7 +722,7 @@ struct FClearRestrictionPlayFabRequest : public FPlayFabRequest
 {
 	struct FString                                     PlayFabId;                                                 // 0x0020(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EPlayFabRestriction         Restriction;                                               // 0x0030(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VVMO[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_FHN9[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -773,7 +772,7 @@ struct FUpdateGameServerPlayFabRequest : public FPlayFabRequest
 	int                                                BeaconListenPort;                                          // 0x0088(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bAllowJoin;                                                // 0x008C(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsPasswordProtected;                                      // 0x008D(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_P6FX[0x2];                                     // 0x008E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_Q6S8[0x2];                                     // 0x008E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     Mods;                                                      // 0x0090(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Pings;                                                     // 0x00A0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     Location;                                                  // 0x00B0(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -888,7 +887,7 @@ struct FPlayFabStat
 	int                                                Value;                                                     // 0x0010(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Version;                                                   // 0x0014(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsDirty;                                                  // 0x0018(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TWWL[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_6983[0x7];                                     // 0x0019(0x0007) MISSED OFFSET (PADDING)
 
 };
 
@@ -999,10 +998,10 @@ struct FPlayFabBackfillTicket
 	struct FString                                     TicketId;                                                  // 0x0010(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     MatchId;                                                   // 0x0020(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EPlayFabTicketStatus        Status;                                                    // 0x0030(0x0001) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_NJNA[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_8CJ9[0x7];                                     // 0x0031(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FDateTime                                   CreationTime;                                              // 0x0038(0x0008) (BlueprintVisible, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                Timeout;                                                   // 0x0040(0x0004) (BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GOUA[0x4];                                     // 0x0044(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_SH1L[0x4];                                     // 0x0044(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FPlayFabMatchmakingPlayer>           Members;                                                   // 0x0048(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     CancellationReason;                                        // 0x0058(0x0010) (BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0068(0x0028) (BlueprintVisible, NativeAccessSpecifierPublic)
@@ -1041,7 +1040,7 @@ struct FPlayFabStats
 struct FPlayFabPlayerData
 {
 	bool                                               bImportedInventory;                                        // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FYP4[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_H2XB[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FPlayFabMatch>                       Matches;                                                   // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 };
@@ -1080,7 +1079,7 @@ struct FPlayFabTitleData
 	TArray<struct FString>                             BlacklistedServers;                                        // 0x0000(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<struct FString>                             ProfaneWords;                                              // 0x0010(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	MordhauOnlineSubsystem_EIngameEvent                IngameEvent;                                               // 0x0020(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_SSZ3[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T89T[0x3];                                     // 0x0021(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FPlayFabRewardSettings                      RewardSettings;                                            // 0x0024(0x002C) (NoDestructor, NativeAccessSpecifierPublic)
 	TMap<struct FString, int64_t>                      GlobalBannedPlayers;                                       // 0x0050(0x0050) (NativeAccessSpecifierPublic)
 	TMap<struct FString, int64_t>                      GlobalMutedPlayers;                                        // 0x00A0(0x0050) (NativeAccessSpecifierPublic)

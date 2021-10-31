@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -23,7 +23,7 @@ namespace CG
 // 0x00B0
 struct FMagicLeapImageTrackerTarget
 {
-	unsigned char                                      UnknownData_74C7[0xB0];                                    // 0x0000(0x00B0) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ZHNK[0xB0];                                    // 0x0000(0x00B0) MISSED OFFSET (PADDING)
 
 };
 

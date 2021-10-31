@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D192C0
+//		Offset -> 0x00D22AF0
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.SetStaticGestureConfidenceThreshold
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43,7 +43,7 @@ void UMagicLeapHandTrackingFunctionLibrary::STATIC_SetStaticGestureConfidenceThr
 
 
 // Function:
-//		Offset -> 0x00D19150
+//		Offset -> 0x00D22980
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.SetConfiguration
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -74,7 +74,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_SetConfiguration(TArray<Magic
 
 
 // Function:
-//		Offset -> 0x00D190D0
+//		Offset -> 0x00D22900
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.IsHoldingControl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -99,7 +99,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_IsHoldingControl(InputCore_EC
 
 
 // Function:
-//		Offset -> 0x00D19050
+//		Offset -> 0x00D22880
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetStaticGestureConfidenceThreshold
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -124,7 +124,7 @@ float UMagicLeapHandTrackingFunctionLibrary::STATIC_GetStaticGestureConfidenceTh
 
 
 // Function:
-//		Offset -> 0x00D18F50
+//		Offset -> 0x00D22780
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetMotionSourceForHandKeypoint
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -155,7 +155,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetMotionSourceForHandKeypoin
 
 
 // Function:
-//		Offset -> 0x00D18E80
+//		Offset -> 0x00D226B0
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetMagicLeapHandTrackingLiveLinkSource
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -182,7 +182,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetMagicLeapHandTrackingLiveL
 
 
 // Function:
-//		Offset -> 0x00D18D20
+//		Offset -> 0x00D22550
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetHandThumbTip
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -213,7 +213,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetHandThumbTip(InputCore_ECo
 
 
 // Function:
-//		Offset -> 0x00D18C50
+//		Offset -> 0x00D22480
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetHandKeypointForMotionSource
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -242,7 +242,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetHandKeypointForMotionSourc
 
 
 // Function:
-//		Offset -> 0x00D18AF0
+//		Offset -> 0x00D22320
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetHandIndexFingerTip
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -273,7 +273,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetHandIndexFingerTip(InputCo
 
 
 // Function:
-//		Offset -> 0x00D18A20
+//		Offset -> 0x00D22250
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetHandCenterNormalized
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -302,7 +302,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetHandCenterNormalized(Input
 
 
 // Function:
-//		Offset -> 0x00D18900
+//		Offset -> 0x00D22130
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetHandCenter
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -331,7 +331,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetHandCenter(InputCore_ECont
 
 
 // Function:
-//		Offset -> 0x00D18670
+//		Offset -> 0x00D21EA0
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetGestureKeypointTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -364,7 +364,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetGestureKeypointTransform(I
 
 
 // Function:
-//		Offset -> 0x00D18810
+//		Offset -> 0x00D22040
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetGestureKeypoints
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -393,7 +393,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetGestureKeypoints(InputCore
 
 
 // Function:
-//		Offset -> 0x00D18590
+//		Offset -> 0x00D21DC0
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetCurrentGestureConfidence
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -422,7 +422,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetCurrentGestureConfidence(I
 
 
 // Function:
-//		Offset -> 0x00D184C0
+//		Offset -> 0x00D21CF0
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetCurrentGesture
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -451,7 +451,7 @@ bool UMagicLeapHandTrackingFunctionLibrary::STATIC_GetCurrentGesture(InputCore_E
 
 
 // Function:
-//		Offset -> 0x00D18320
+//		Offset -> 0x00D21B50
 //		Name   -> Function MagicLeapHandTracking.MagicLeapHandTrackingFunctionLibrary.GetConfiguration
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

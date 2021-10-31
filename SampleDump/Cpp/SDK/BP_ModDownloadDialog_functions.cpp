@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.CancelAllModsRequiredDownloads
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ModDownloadDialog_C::CancelAllModsRequiredDownloads()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.UpdateCurrentDownloadProgress
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +57,7 @@ void UBP_ModDownloadDialog_C::UpdateCurrentDownloadProgress()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.UpdateCurrentlyInstalledMods
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -76,7 +76,7 @@ void UBP_ModDownloadDialog_C::UpdateCurrentlyInstalledMods()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.SetButtonText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -97,7 +97,7 @@ void UBP_ModDownloadDialog_C::SetButtonText(const struct FText& ButtonText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.SetTitleText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -118,7 +118,7 @@ void UBP_ModDownloadDialog_C::SetTitleText(const struct FText& TitleText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.OnFailure_2BBA97D647185ABC0293E9A9C5E0925A
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -141,7 +141,7 @@ void UBP_ModDownloadDialog_C::OnFailure_2BBA97D647185ABC0293E9A9C5E0925A(int Res
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.OnSuccess_2BBA97D647185ABC0293E9A9C5E0925A
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -164,7 +164,7 @@ void UBP_ModDownloadDialog_C::OnSuccess_2BBA97D647185ABC0293E9A9C5E0925A(int Res
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.OnFailure_F325FFB4489130F65283CC894D428C76
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -187,7 +187,7 @@ void UBP_ModDownloadDialog_C::OnFailure_F325FFB4489130F65283CC894D428C76(int Res
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.OnSuccess_F325FFB4489130F65283CC894D428C76
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -210,7 +210,7 @@ void UBP_ModDownloadDialog_C::OnSuccess_F325FFB4489130F65283CC894D428C76(int Res
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEvent_14_ButtonClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ModDownloadDialog_C::BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEvent_14_ButtonClicked__DelegateSignature()
@@ -228,7 +228,7 @@ void UBP_ModDownloadDialog_C::BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_ModDownloadDialog_C::Show()
@@ -246,7 +246,7 @@ void UBP_ModDownloadDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_ModDownloadDialog_C::Hide()
@@ -264,7 +264,7 @@ void UBP_ModDownloadDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -287,7 +287,7 @@ void UBP_ModDownloadDialog_C::Tick(const struct FGeometry& MyGeometry, float InD
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.ExecuteUbergraph_BP_ModDownloadDialog
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -308,7 +308,7 @@ void UBP_ModDownloadDialog_C::ExecuteUbergraph_BP_ModDownloadDialog(int EntryPoi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.DownloadFailed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ModDownloadDialog_C::DownloadFailed__DelegateSignature()
@@ -326,7 +326,7 @@ void UBP_ModDownloadDialog_C::DownloadFailed__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.DownloadCanceled__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ModDownloadDialog_C::DownloadCanceled__DelegateSignature()
@@ -344,7 +344,7 @@ void UBP_ModDownloadDialog_C::DownloadCanceled__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModDownloadDialog.BP_ModDownloadDialog_C.DownloadCompleted__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ModDownloadDialog_C::DownloadCompleted__DelegateSignature()

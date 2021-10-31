@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -27,7 +27,7 @@ struct FAnimationSetup
 	class UClass*                                      AnimBlueprint;                                             // 0x0008(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FPerPlatformInt                             NumRandomizedInstances;                                    // 0x0010(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FPerPlatformBool                            Enabled;                                                   // 0x0014(0x0001) (Edit, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GUPW[0x3];                                     // 0x0015(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_R6CG[0x3];                                     // 0x0015(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -36,20 +36,20 @@ struct FAnimationSetup
 struct FAnimationStateEntry
 {
 	unsigned char                                      State;                                                     // 0x0000(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_LMFR[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_IRQ1[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FAnimationSetup>                     AnimationSetups;                                           // 0x0008(0x0010) (Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bOnDemand;                                                 // 0x0018(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bAdditive;                                                 // 0x0019(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_I1ZM[0x2];                                     // 0x001A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1V91[0x2];                                     // 0x001A(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              BlendTime;                                                 // 0x001C(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bReturnToPreviousState;                                    // 0x0020(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bSetNextState;                                             // 0x0021(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      NextState;                                                 // 0x0022(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1K7L[0x1];                                     // 0x0023(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_4JXE[0x1];                                     // 0x0023(0x0001) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FPerPlatformInt                             MaximumNumberOfConcurrentInstances;                        // 0x0024(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	float                                              WiggleTimePercentage;                                      // 0x0028(0x0004) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bRequiresCurves;                                           // 0x002C(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GS9F[0x3];                                     // 0x002D(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_5714[0x3];                                     // 0x002D(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -70,7 +70,7 @@ struct FPerSkeletonAnimationSharingSetup
 // 0x0008 (0x0030 - 0x0028)
 struct FTickAnimationSharingFunction : public FTickFunction
 {
-	unsigned char                                      UnknownData_JVL1[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_FCN1[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -79,7 +79,7 @@ struct FTickAnimationSharingFunction : public FTickFunction
 struct FAnimationSharingScalability
 {
 	struct FPerPlatformBool                            UseBlendTransitions;                                       // 0x0000(0x0001) (Edit, NoDestructor, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G6VU[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_X114[0x3];                                     // 0x0001(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FPerPlatformFloat                           BlendSignificanceValue;                                    // 0x0004(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FPerPlatformInt                             MaximumNumberConcurrentBlends;                             // 0x0008(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FPerPlatformFloat                           TickSignificanceValue;                                     // 0x000C(0x0004) (Edit, NoDestructor, NativeAccessSpecifierPublic)

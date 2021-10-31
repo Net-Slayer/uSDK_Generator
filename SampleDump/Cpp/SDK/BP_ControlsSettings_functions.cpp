@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.CollapseVisibilityIfConsole
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_ControlsSettings_C::CollapseVisibilityIfConsole()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadRangedSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -60,7 +60,7 @@ void UBP_ControlsSettings_C::ApplyGamepadRangedSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadRangedSensititySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -79,7 +79,7 @@ void UBP_ControlsSettings_C::UpdateGamepadRangedSensititySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateControlSchemeDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -98,7 +98,7 @@ void UBP_ControlsSettings_C::UpdateControlSchemeDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyAngleAttacksWithMovement
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -117,7 +117,7 @@ void UBP_ControlsSettings_C::ApplyAngleAttacksWithMovement()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateAngleAttacksWithMovementCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -136,7 +136,7 @@ void UBP_ControlsSettings_C::UpdateAngleAttacksWithMovementCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateAngleAttackAfterPressCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -155,7 +155,7 @@ void UBP_ControlsSettings_C::UpdateAngleAttackAfterPressCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyAngleAttackAfterPress
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_ControlsSettings_C::ApplyAngleAttackAfterPress()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInverseAttackDirection
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -193,7 +193,7 @@ void UBP_ControlsSettings_C::ApplyInverseAttackDirection()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInverseAttackDirectionCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -212,7 +212,7 @@ void UBP_ControlsSettings_C::UpdateInverseAttackDirectionCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyToggleSprint
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -231,7 +231,7 @@ void UBP_ControlsSettings_C::ApplyToggleSprint()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.GetSliderValue
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -258,7 +258,7 @@ void UBP_ControlsSettings_C::GetSliderValue(class UBP_SliderEntry_C* Slider, con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateToggleSprintCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -277,9 +277,9 @@ void UBP_ControlsSettings_C::UpdateToggleSprintCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 //		class UBP_SliderEntry_C*                           Slider                                                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 //		float                                              Value                                                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
@@ -302,7 +302,7 @@ void UBP_ControlsSettings_C::UpdateSlider(class UBP_SliderEntry_C* Slider, float
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadRightYDeadzone
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -321,7 +321,7 @@ void UBP_ControlsSettings_C::ApplyGamepadRightYDeadzone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadRightXDeadzone
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -340,7 +340,7 @@ void UBP_ControlsSettings_C::ApplyGamepadRightXDeadzone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadLeftYDeadzone
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -359,7 +359,7 @@ void UBP_ControlsSettings_C::ApplyGamepadLeftYDeadzone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadLeftXDeadzone
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -378,7 +378,7 @@ void UBP_ControlsSettings_C::ApplyGamepadLeftXDeadzone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertGamepadRightY
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -397,7 +397,7 @@ void UBP_ControlsSettings_C::ApplyInvertGamepadRightY()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertGamepadRightX
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -416,7 +416,7 @@ void UBP_ControlsSettings_C::ApplyInvertGamepadRightX()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertGamepadRightYCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -435,7 +435,7 @@ void UBP_ControlsSettings_C::UpdateInvertGamepadRightYCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertGamepadRightXCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -454,7 +454,7 @@ void UBP_ControlsSettings_C::UpdateInvertGamepadRightXCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadRightYDeadzoneSlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -473,7 +473,7 @@ void UBP_ControlsSettings_C::UpdateGamepadRightYDeadzoneSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadRightXDeadzoneSlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -492,7 +492,7 @@ void UBP_ControlsSettings_C::UpdateGamepadRightXDeadzoneSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadLeftYDeadzoneSlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -511,7 +511,7 @@ void UBP_ControlsSettings_C::UpdateGamepadLeftYDeadzoneSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadLeftXDeadzoneSlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -530,7 +530,7 @@ void UBP_ControlsSettings_C::UpdateGamepadLeftXDeadzoneSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadRightYSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -549,7 +549,7 @@ void UBP_ControlsSettings_C::ApplyGamepadRightYSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadRightXSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -568,7 +568,7 @@ void UBP_ControlsSettings_C::ApplyGamepadRightXSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadLeftYSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -587,7 +587,7 @@ void UBP_ControlsSettings_C::ApplyGamepadLeftYSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyGamepadLeftXSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -606,7 +606,7 @@ void UBP_ControlsSettings_C::ApplyGamepadLeftXSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyMouseYSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -625,7 +625,7 @@ void UBP_ControlsSettings_C::ApplyMouseYSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyMouseXSensitivity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -644,7 +644,7 @@ void UBP_ControlsSettings_C::ApplyMouseXSensitivity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadRightYSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -663,7 +663,7 @@ void UBP_ControlsSettings_C::UpdateGamepadRightYSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadRightXSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -682,7 +682,7 @@ void UBP_ControlsSettings_C::UpdateGamepadRightXSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadLeftYSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -701,7 +701,7 @@ void UBP_ControlsSettings_C::UpdateGamepadLeftYSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateGamepadLeftXSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -720,7 +720,7 @@ void UBP_ControlsSettings_C::UpdateGamepadLeftXSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateMouseYSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -739,7 +739,7 @@ void UBP_ControlsSettings_C::UpdateMouseYSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateMouseXSensitivitySlider
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -758,7 +758,7 @@ void UBP_ControlsSettings_C::UpdateMouseXSensitivitySlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyFlipAttackSide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -777,7 +777,7 @@ void UBP_ControlsSettings_C::ApplyFlipAttackSide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateFlipAttackSideCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -796,7 +796,7 @@ void UBP_ControlsSettings_C::UpdateFlipAttackSideCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertGamepadLeftY
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -815,7 +815,7 @@ void UBP_ControlsSettings_C::ApplyInvertGamepadLeftY()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertGamepadLeftX
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -834,7 +834,7 @@ void UBP_ControlsSettings_C::ApplyInvertGamepadLeftX()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertGamepadLeftYCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -853,7 +853,7 @@ void UBP_ControlsSettings_C::UpdateInvertGamepadLeftYCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertGamepadLeftXCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -872,7 +872,7 @@ void UBP_ControlsSettings_C::UpdateInvertGamepadLeftXCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertMouseY
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -891,7 +891,7 @@ void UBP_ControlsSettings_C::ApplyInvertMouseY()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertMouseYCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -910,7 +910,7 @@ void UBP_ControlsSettings_C::UpdateInvertMouseYCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ApplyInvertMouseX
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -929,7 +929,7 @@ void UBP_ControlsSettings_C::ApplyInvertMouseX()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateInvertMouseXCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -948,7 +948,7 @@ void UBP_ControlsSettings_C::UpdateInvertMouseXCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::OnShown()
@@ -966,7 +966,7 @@ void UBP_ControlsSettings_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.UpdateWidgets
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::UpdateWidgets()
@@ -984,7 +984,7 @@ void UBP_ControlsSettings_C::UpdateWidgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__ToggleSprintCheckbox_K2Node_ComponentBoundEvent_6_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__ToggleSprintCheckbox_K2Node_ComponentBoundEvent_6_OnHovered__DelegateSignature()
@@ -1002,7 +1002,7 @@ void UBP_ControlsSettings_C::BndEvt__ToggleSprintCheckbox_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InverseAttackDirectionCheckbox_K2Node_ComponentBoundEvent_14_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InverseAttackDirectionCheckbox_K2Node_ComponentBoundEvent_14_OnHovered__DelegateSignature()
@@ -1020,7 +1020,7 @@ void UBP_ControlsSettings_C::BndEvt__InverseAttackDirectionCheckbox_K2Node_Compo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__AngleAttackAfterPressCheckbox_K2Node_ComponentBoundEvent_23_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__AngleAttackAfterPressCheckbox_K2Node_ComponentBoundEvent_23_OnHovered__DelegateSignature()
@@ -1038,7 +1038,7 @@ void UBP_ControlsSettings_C::BndEvt__AngleAttackAfterPressCheckbox_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__FlipAttackSideCheckbox_K2Node_ComponentBoundEvent_33_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__FlipAttackSideCheckbox_K2Node_ComponentBoundEvent_33_OnHovered__DelegateSignature()
@@ -1056,7 +1056,7 @@ void UBP_ControlsSettings_C::BndEvt__FlipAttackSideCheckbox_K2Node_ComponentBoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertMouseXCheckbox_K2Node_ComponentBoundEvent_44_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertMouseXCheckbox_K2Node_ComponentBoundEvent_44_OnHovered__DelegateSignature()
@@ -1074,7 +1074,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertMouseXCheckbox_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__MouseXSensitivitySlider_K2Node_ComponentBoundEvent_56_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__MouseXSensitivitySlider_K2Node_ComponentBoundEvent_56_OnHovered__DelegateSignature()
@@ -1092,7 +1092,7 @@ void UBP_ControlsSettings_C::BndEvt__MouseXSensitivitySlider_K2Node_ComponentBou
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertMouseYCheckbox_K2Node_ComponentBoundEvent_69_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertMouseYCheckbox_K2Node_ComponentBoundEvent_69_OnHovered__DelegateSignature()
@@ -1110,7 +1110,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertMouseYCheckbox_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__MouseYSensitivitySlider_K2Node_ComponentBoundEvent_83_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__MouseYSensitivitySlider_K2Node_ComponentBoundEvent_83_OnHovered__DelegateSignature()
@@ -1128,7 +1128,7 @@ void UBP_ControlsSettings_C::BndEvt__MouseYSensitivitySlider_K2Node_ComponentBou
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertGamepadLeftXCheckbox_K2Node_ComponentBoundEvent_98_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertGamepadLeftXCheckbox_K2Node_ComponentBoundEvent_98_OnHovered__DelegateSignature()
@@ -1146,7 +1146,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertGamepadLeftXCheckbox_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadLeftXSensitivitySlider_K2Node_ComponentBoundEvent_114_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadLeftXSensitivitySlider_K2Node_ComponentBoundEvent_114_OnHovered__DelegateSignature()
@@ -1164,7 +1164,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadLeftXSensitivitySlider_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadLeftXDeadzoneSlider_K2Node_ComponentBoundEvent_131_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadLeftXDeadzoneSlider_K2Node_ComponentBoundEvent_131_OnHovered__DelegateSignature()
@@ -1182,7 +1182,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadLeftXDeadzoneSlider_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertGamepadLeftYCheckbox_K2Node_ComponentBoundEvent_149_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertGamepadLeftYCheckbox_K2Node_ComponentBoundEvent_149_OnHovered__DelegateSignature()
@@ -1200,7 +1200,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertGamepadLeftYCheckbox_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadLeftYSensitivitySlider_K2Node_ComponentBoundEvent_168_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadLeftYSensitivitySlider_K2Node_ComponentBoundEvent_168_OnHovered__DelegateSignature()
@@ -1218,7 +1218,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadLeftYSensitivitySlider_K2Node_Compon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadLeftYDeadzoneSlider_K2Node_ComponentBoundEvent_188_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadLeftYDeadzoneSlider_K2Node_ComponentBoundEvent_188_OnHovered__DelegateSignature()
@@ -1236,7 +1236,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadLeftYDeadzoneSlider_K2Node_Component
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertGamepadRightXCheckbox_K2Node_ComponentBoundEvent_209_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertGamepadRightXCheckbox_K2Node_ComponentBoundEvent_209_OnHovered__DelegateSignature()
@@ -1254,7 +1254,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertGamepadRightXCheckbox_K2Node_Componen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadRightXSensitivitySlider_K2Node_ComponentBoundEvent_231_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadRightXSensitivitySlider_K2Node_ComponentBoundEvent_231_OnHovered__DelegateSignature()
@@ -1272,7 +1272,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadRightXSensitivitySlider_K2Node_Compo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadRightXDeadzoneSlider_K2Node_ComponentBoundEvent_254_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadRightXDeadzoneSlider_K2Node_ComponentBoundEvent_254_OnHovered__DelegateSignature()
@@ -1290,7 +1290,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadRightXDeadzoneSlider_K2Node_Componen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InvertGamepadRightYCheckbox_K2Node_ComponentBoundEvent_278_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InvertGamepadRightYCheckbox_K2Node_ComponentBoundEvent_278_OnHovered__DelegateSignature()
@@ -1308,7 +1308,7 @@ void UBP_ControlsSettings_C::BndEvt__InvertGamepadRightYCheckbox_K2Node_Componen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadRightYSensitivitySlider_K2Node_ComponentBoundEvent_303_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadRightYSensitivitySlider_K2Node_ComponentBoundEvent_303_OnHovered__DelegateSignature()
@@ -1326,7 +1326,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadRightYSensitivitySlider_K2Node_Compo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GamepadRightYDeadzoneSlider_K2Node_ComponentBoundEvent_329_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GamepadRightYDeadzoneSlider_K2Node_ComponentBoundEvent_329_OnHovered__DelegateSignature()
@@ -1344,7 +1344,7 @@ void UBP_ControlsSettings_C::BndEvt__GamepadRightYDeadzoneSlider_K2Node_Componen
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__resetButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -1362,7 +1362,7 @@ void UBP_ControlsSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_4_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -1380,7 +1380,7 @@ void UBP_ControlsSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_0_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__InverseAttackDirectionYCheckbox_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__InverseAttackDirectionYCheckbox_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature()
@@ -1398,7 +1398,7 @@ void UBP_ControlsSettings_C::BndEvt__InverseAttackDirectionYCheckbox_K2Node_Comp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__AngleAttacksWithMovementCheckbox_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__AngleAttacksWithMovementCheckbox_K2Node_ComponentBoundEvent_2_OnHovered__DelegateSignature()
@@ -1416,7 +1416,7 @@ void UBP_ControlsSettings_C::BndEvt__AngleAttacksWithMovementCheckbox_K2Node_Com
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__ControlSchemeDropdown_K2Node_ComponentBoundEvent_3_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__ControlSchemeDropdown_K2Node_ComponentBoundEvent_3_OnHovered__DelegateSignature()
@@ -1434,7 +1434,7 @@ void UBP_ControlsSettings_C::BndEvt__ControlSchemeDropdown_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__ControlSchemeDropdown_K2Node_ComponentBoundEvent_5_OnSelectionChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1457,7 +1457,7 @@ void UBP_ControlsSettings_C::BndEvt__ControlSchemeDropdown_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ContinueButtonClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::ContinueButtonClicked()
@@ -1475,7 +1475,7 @@ void UBP_ControlsSettings_C::ContinueButtonClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.CancelButtonClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::CancelButtonClicked()
@@ -1493,7 +1493,7 @@ void UBP_ControlsSettings_C::CancelButtonClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.BndEvt__GameoadRangedSensitivitySlider_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ControlsSettings_C::BndEvt__GameoadRangedSensitivitySlider_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature()
@@ -1511,7 +1511,7 @@ void UBP_ControlsSettings_C::BndEvt__GameoadRangedSensitivitySlider_K2Node_Compo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ResetConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::ResetConfirm()
@@ -1529,7 +1529,7 @@ void UBP_ControlsSettings_C::ResetConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ResetCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ControlsSettings_C::ResetCancel()
@@ -1547,7 +1547,7 @@ void UBP_ControlsSettings_C::ResetCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ControlsSettings.BP_ControlsSettings_C.ExecuteUbergraph_BP_ControlsSettings
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

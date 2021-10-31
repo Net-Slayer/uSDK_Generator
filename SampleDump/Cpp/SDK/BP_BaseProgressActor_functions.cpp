@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseProgressActor.BP_BaseProgressActor_C.ProgressUpdatedInternal
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_BaseProgressActor_C::ProgressUpdatedInternal(float Progress)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseProgressActor.BP_BaseProgressActor_C.ProgressUpdated
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void ABP_BaseProgressActor_C::ProgressUpdated(float Progress)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseProgressActor.BP_BaseProgressActor_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_BaseProgressActor_C::ReceiveBeginPlay()
@@ -79,7 +79,7 @@ void ABP_BaseProgressActor_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseProgressActor.BP_BaseProgressActor_C.ExecuteUbergraph_BP_BaseProgressActor
 //		Flags  -> (Final)
 // Parameters:

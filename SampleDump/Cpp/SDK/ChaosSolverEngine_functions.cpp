@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x03092DC0
+//		Offset -> 0x0309DDB0
 //		Name   -> Function ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary.ConvertPhysicsCollisionToHitResult
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -44,7 +44,7 @@ struct FHitResult UChaosSolverEngineBlueprintLibrary::STATIC_ConvertPhysicsColli
 
 
 // Function:
-//		Offset -> 0x03092ED0
+//		Offset -> 0x0309DEC0
 //		Name   -> Function ChaosSolverEngine.ChaosSolverActor.SetSolverActive
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -66,7 +66,7 @@ void AChaosSolverActor::SetSolverActive(bool bActive)
 
 
 // Function:
-//		Offset -> 0x03092EB0
+//		Offset -> 0x0309DEA0
 //		Name   -> Function ChaosSolverEngine.ChaosSolverActor.SetAsCurrentWorldSolver
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void AChaosSolverActor::SetAsCurrentWorldSolver()

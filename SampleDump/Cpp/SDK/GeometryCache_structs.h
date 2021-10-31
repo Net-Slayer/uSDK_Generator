@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -23,7 +23,7 @@ namespace CG
 // 0x0070
 struct FTrackRenderData
 {
-	unsigned char                                      UnknownData_B88C[0x70];                                    // 0x0000(0x0070) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CJ20[0x70];                                    // 0x0000(0x0070) MISSED OFFSET (PADDING)
 
 };
 
@@ -31,7 +31,7 @@ struct FTrackRenderData
 // 0x00A8
 struct FGeometryCacheMeshData
 {
-	unsigned char                                      UnknownData_37GS[0xA8];                                    // 0x0000(0x00A8) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_71CY[0xA8];                                    // 0x0000(0x00A8) MISSED OFFSET (PADDING)
 
 };
 
@@ -39,7 +39,7 @@ struct FGeometryCacheMeshData
 // 0x0008
 struct FGeometryCacheVertexInfo
 {
-	unsigned char                                      UnknownData_9LGF[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_JVRS[0x8];                                     // 0x0000(0x0008) MISSED OFFSET (PADDING)
 
 };
 
@@ -47,7 +47,7 @@ struct FGeometryCacheVertexInfo
 // 0x000C
 struct FGeometryCacheMeshBatchInfo
 {
-	unsigned char                                      UnknownData_SWUF[0xC];                                     // 0x0000(0x000C) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_U2R3[0xC];                                     // 0x0000(0x000C) MISSED OFFSET (PADDING)
 
 };
 

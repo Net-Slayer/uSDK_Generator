@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -34,7 +34,7 @@ public:
 	struct FButtonStyle                                SelectedButtonStyle;                                       // 0x0288(0x0278) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FButtonStyle                                DeselectedButtonStyle;                                     // 0x0500(0x0278) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               isSelected;                                                // 0x0778(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn)
-	unsigned char                                      UnknownData_S8QA[0x7];                                     // 0x0779(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_T0GH[0x7];                                     // 0x0779(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FScriptMulticastDelegate                    ButtonSelected;                                            // 0x0780(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FVector2D                                   ButtonSize;                                                // 0x0790(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	struct FScriptMulticastDelegate                    ButtonDeselected;                                          // 0x0798(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)

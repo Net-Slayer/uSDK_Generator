@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -23,7 +23,7 @@ namespace CG
 // 0x0001
 struct FMagicLeapAudioDummyStruct
 {
-	unsigned char                                      UnknownData_1CTA[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_M20I[0x1];                                     // 0x0000(0x0001) MISSED OFFSET (PADDING)
 
 };
 

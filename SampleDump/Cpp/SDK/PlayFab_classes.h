@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -25,11 +25,11 @@ class UPlayFabAdminAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_D9ZD[0x798];                                   // 0x0040(0x0798) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WD3R[0x798];                                   // 0x0040(0x0798) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x07D8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x07E0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x07E8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_QNG3[0x50];                                    // 0x07F0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_YQIT[0x50];                                    // 0x07F0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -510,11 +510,11 @@ class UPlayFabAuthenticationAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EVE9[0x68];                                    // 0x0040(0x0068) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_DTZZ[0x68];                                    // 0x0040(0x0068) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00A8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x00B0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x00B8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_OMOQ[0x50];                                    // 0x00C0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_APOY[0x50];                                    // 0x00C0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -559,11 +559,11 @@ class UPlayFabClientAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ZVAT[0xA68];                                   // 0x0040(0x0A68) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_HEAA[0xA68];                                   // 0x0040(0x0A68) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0AA8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0AB0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0AB8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_OUM9[0x50];                                    // 0x0AC0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_DBF2[0x50];                                    // 0x0AC0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1214,11 +1214,11 @@ class UPlayFabCloudScriptAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_I8JW[0x118];                                   // 0x0040(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_JI9R[0x118];                                   // 0x0040(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0158(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0160(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0168(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_XEG2[0x50];                                    // 0x0170(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_3DKH[0x50];                                    // 0x0170(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1297,11 +1297,11 @@ class UPlayFabDataAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_PK13[0xB8];                                    // 0x0040(0x00B8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_6OTM[0xB8];                                    // 0x0040(0x00B8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00F8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0100(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0108(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_N8MT[0x50];                                    // 0x0110(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CXBW[0x50];                                    // 0x0110(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1366,11 +1366,11 @@ class UPlayFabEventsAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G8X0[0x68];                                    // 0x0040(0x0068) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_929K[0x68];                                    // 0x0040(0x0068) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00A8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x00B0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x00B8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_OC6L[0x50];                                    // 0x00C0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_GM6O[0x50];                                    // 0x00C0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1414,11 +1414,11 @@ class UPlayFabExperimentationAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_H60Z[0x118];                                   // 0x0040(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_P2SW[0x118];                                   // 0x0040(0x0118) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0158(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0160(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0168(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_8M1H[0x50];                                    // 0x0170(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WSTJ[0x50];                                    // 0x0170(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1502,11 +1502,11 @@ class UPlayFabGroupsAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E6AT[0x1D8];                                   // 0x0040(0x01D8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_EC83[0x1D8];                                   // 0x0040(0x01D8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0218(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0220(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0228(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_AHXM[0x50];                                    // 0x0230(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_NPMT[0x50];                                    // 0x0230(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1633,11 +1633,11 @@ class UPlayFabInsightsAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VV2Z[0xA8];                                    // 0x0040(0x00A8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_ON2S[0xA8];                                    // 0x0040(0x00A8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00E8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x00F0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x00F8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_6AFI[0x50];                                    // 0x0100(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_V5YV[0x50];                                    // 0x0100(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1696,7 +1696,7 @@ public:
 class UPlayFabJsonObject : public UObject
 {
 public:
-	unsigned char                                      UnknownData_GPCW[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_QP3U[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1743,7 +1743,7 @@ public:
 class UPlayFabJsonValue : public UObject
 {
 public:
-	unsigned char                                      UnknownData_FBSY[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_F82M[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1775,11 +1775,11 @@ class UPlayFabLocalizationAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_35D2[0x58];                                    // 0x0040(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_23JA[0x58];                                    // 0x0040(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0098(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x00A0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x00A8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_PPZ9[0x50];                                    // 0x00B0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_FOPS[0x50];                                    // 0x00B0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1820,11 +1820,11 @@ class UPlayFabMatchmakerAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3STR[0x98];                                    // 0x0040(0x0098) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_ZQGQ[0x98];                                    // 0x0040(0x0098) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00D8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x00E0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x00E8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_U680[0x50];                                    // 0x00F0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BM3B[0x50];                                    // 0x00F0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -1881,11 +1881,11 @@ class UPlayFabMultiplayerAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9YO6[0x418];                                   // 0x0040(0x0418) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VEIU[0x418];                                   // 0x0040(0x0418) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x0458(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0460(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0468(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_LJNM[0x50];                                    // 0x0470(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CVIB[0x50];                                    // 0x0470(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -2149,11 +2149,11 @@ class UPlayFabProfilesAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_85U8[0xB8];                                    // 0x0040(0x00B8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_H15Y[0xB8];                                    // 0x0040(0x00B8) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x00F8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x0100(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x0108(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_5GR4[0x50];                                    // 0x0110(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_7DEU[0x50];                                    // 0x0110(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -2218,11 +2218,11 @@ class UPlayFabServerAPI : public UOnlineBlueprintCallProxyBase
 {
 public:
 	struct FScriptMulticastDelegate                    OnPlayFabResponse;                                         // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_1A2K[0x898];                                   // 0x0040(0x0898) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_M9KG[0x898];                                   // 0x0040(0x0898) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UPlayFabAuthenticationContext*               CallAuthenticationContext;                                 // 0x08D8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	class UPlayFabJsonObject*                          RequestJsonObj;                                            // 0x08E0(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UPlayFabJsonObject*                          ResponseJsonObj;                                           // 0x08E8(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_4HS6[0x50];                                    // 0x08F0(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_5KTO[0x50];                                    // 0x08F0(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

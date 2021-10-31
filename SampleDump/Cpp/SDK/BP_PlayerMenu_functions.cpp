@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_TextBlock_3_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FSlateColor UBP_PlayerMenu_C::Get_TextBlock_3_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_TextBlock_5_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_PlayerMenu_C::Get_TextBlock_5_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_TextBlock_3_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_PlayerMenu_C::Get_TextBlock_3_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_CurrentRankMMRText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FText UBP_PlayerMenu_C::Get_CurrentRankMMRText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_CurrentRankText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FSlateColor UBP_PlayerMenu_C::Get_CurrentRankText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Get_CurrentRankText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ struct FText UBP_PlayerMenu_C::Get_CurrentRankText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Update
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -170,7 +170,7 @@ void UBP_PlayerMenu_C::Update()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_PlayerMenu_C::Construct()
@@ -188,7 +188,7 @@ void UBP_PlayerMenu_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.BndEvt__ChangeBannerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_PlayerMenu_C::BndEvt__ChangeBannerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -206,7 +206,7 @@ void UBP_PlayerMenu_C::BndEvt__ChangeBannerButton_K2Node_ComponentBoundEvent_0_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.OnHideAnimFinish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_PlayerMenu_C::OnHideAnimFinish()
@@ -224,7 +224,7 @@ void UBP_PlayerMenu_C::OnHideAnimFinish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.CloseBannerMenu
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_PlayerMenu_C::CloseBannerMenu()
@@ -242,7 +242,7 @@ void UBP_PlayerMenu_C::CloseBannerMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_PlayerMenu_C::OnShown()
@@ -260,7 +260,7 @@ void UBP_PlayerMenu_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.BndEvt__RankDisplayDropdown_K2Node_ComponentBoundEvent_1_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -283,7 +283,7 @@ void UBP_PlayerMenu_C::BndEvt__RankDisplayDropdown_K2Node_ComponentBoundEvent_1_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerMenu.BP_PlayerMenu_C.ExecuteUbergraph_BP_PlayerMenu
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

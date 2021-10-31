@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,10 +24,10 @@ namespace CG
 class UAudioCurveSourceComponent : public UAudioComponent
 {
 public:
-	unsigned char                                      UnknownData_1R2A[0x8];                                     // 0x07D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_K8F5[0x8];                                     // 0x07D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FName                                       CurveSourceBindingName;                                    // 0x07D8(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              CurveSyncOffset;                                           // 0x07E0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_R1XA[0x2C];                                    // 0x07E4(0x002C) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_N3MH[0x2C];                                    // 0x07E4(0x002C) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

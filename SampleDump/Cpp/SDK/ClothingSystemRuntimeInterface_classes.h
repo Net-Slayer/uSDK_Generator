@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -58,7 +58,7 @@ public:
 class UClothingSimulationInteractor : public UObject
 {
 public:
-	unsigned char                                      UnknownData_1XG7[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_MNG4[0x8];                                     // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -125,7 +125,7 @@ public:
 	int                                                NumFixedVerts;                                             // 0x0078(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                MaxBoneWeights;                                            // 0x007C(0x0004) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TArray<uint32_t>                                   SelfCollisionIndices;                                      // 0x0080(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_OTKW[0x50];                                    // 0x0090(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_C5BD[0x50];                                    // 0x0090(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

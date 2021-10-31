@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00CC3400
+//		Offset -> 0x00CCCB70
 //		Name   -> Function Niagara.NiagaraActor.SetDestroyOnSystemFinish
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void ANiagaraActor::SetDestroyOnSystemFinish(bool bShouldDestroyOnSystemFinish)
 
 
 // Function:
-//		Offset -> 0x00CC2F90
+//		Offset -> 0x00CCC700
 //		Name   -> Function Niagara.NiagaraActor.OnNiagaraSystemFinished
 //		Flags  -> (Final, Native, Private)
 // Parameters:
@@ -63,7 +63,7 @@ void ANiagaraActor::OnNiagaraSystemFinished(class UNiagaraComponent* FinishedCom
 
 
 // Function:
-//		Offset -> 0x00CC4830
+//		Offset -> 0x00CCDFA0
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableVec4
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -87,7 +87,7 @@ void UNiagaraComponent::SetVariableVec4(const struct FName& InVariableName, cons
 
 
 // Function:
-//		Offset -> 0x00CC4760
+//		Offset -> 0x00CCDED0
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableVec3
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -111,7 +111,7 @@ void UNiagaraComponent::SetVariableVec3(const struct FName& InVariableName, cons
 
 
 // Function:
-//		Offset -> 0x00CC46A0
+//		Offset -> 0x00CCDE10
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableVec2
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -135,7 +135,7 @@ void UNiagaraComponent::SetVariableVec2(const struct FName& InVariableName, cons
 
 
 // Function:
-//		Offset -> 0x00CC45D0
+//		Offset -> 0x00CCDD40
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableQuat
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -159,7 +159,7 @@ void UNiagaraComponent::SetVariableQuat(const struct FName& InVariableName, cons
 
 
 // Function:
-//		Offset -> 0x00CC4510
+//		Offset -> 0x00CCDC80
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -183,7 +183,7 @@ void UNiagaraComponent::SetVariableObject(const struct FName& InVariableName, cl
 
 
 // Function:
-//		Offset -> 0x00CC4450
+//		Offset -> 0x00CCDBC0
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -207,7 +207,7 @@ void UNiagaraComponent::SetVariableMaterial(const struct FName& InVariableName, 
 
 
 // Function:
-//		Offset -> 0x00CC4380
+//		Offset -> 0x00CCDAF0
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableLinearColor
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -231,7 +231,7 @@ void UNiagaraComponent::SetVariableLinearColor(const struct FName& InVariableNam
 
 
 // Function:
-//		Offset -> 0x00CC42C0
+//		Offset -> 0x00CCDA30
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableInt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -255,7 +255,7 @@ void UNiagaraComponent::SetVariableInt(const struct FName& InVariableName, int I
 
 
 // Function:
-//		Offset -> 0x00CC41F0
+//		Offset -> 0x00CCD960
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableFloat
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -279,7 +279,7 @@ void UNiagaraComponent::SetVariableFloat(const struct FName& InVariableName, flo
 
 
 // Function:
-//		Offset -> 0x00CC4120
+//		Offset -> 0x00CCD890
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableBool
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -303,7 +303,7 @@ void UNiagaraComponent::SetVariableBool(const struct FName& InVariableName, bool
 
 
 // Function:
-//		Offset -> 0x00CC4060
+//		Offset -> 0x00CCD7D0
 //		Name   -> Function Niagara.NiagaraComponent.SetVariableActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -327,7 +327,7 @@ void UNiagaraComponent::SetVariableActor(const struct FName& InVariableName, cla
 
 
 // Function:
-//		Offset -> 0x00CC3FE0
+//		Offset -> 0x00CCD750
 //		Name   -> Function Niagara.NiagaraComponent.SetSeekDelta
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -349,7 +349,7 @@ void UNiagaraComponent::SetSeekDelta(float InSeekDelta)
 
 
 // Function:
-//		Offset -> 0x00CC3F50
+//		Offset -> 0x00CCD6C0
 //		Name   -> Function Niagara.NiagaraComponent.SetRenderingEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -371,7 +371,7 @@ void UNiagaraComponent::SetRenderingEnabled(bool bInRenderingEnabled)
 
 
 // Function:
-//		Offset -> 0x00CC3E80
+//		Offset -> 0x00CCD5F0
 //		Name   -> Function Niagara.NiagaraComponent.SetPreviewLODDistance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -395,7 +395,7 @@ void UNiagaraComponent::SetPreviewLODDistance(bool bEnablePreviewLODDistance, fl
 
 
 // Function:
-//		Offset -> 0x00CC3DF0
+//		Offset -> 0x00CCD560
 //		Name   -> Function Niagara.NiagaraComponent.SetPaused
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -417,7 +417,7 @@ void UNiagaraComponent::SetPaused(bool bInPaused)
 
 
 // Function:
-//		Offset -> 0x00CC3CF0
+//		Offset -> 0x00CCD460
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec4
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -441,7 +441,7 @@ void UNiagaraComponent::SetNiagaraVariableVec4(const struct FString& InVariableN
 
 
 // Function:
-//		Offset -> 0x00CC3C00
+//		Offset -> 0x00CCD370
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec3
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -465,7 +465,7 @@ void UNiagaraComponent::SetNiagaraVariableVec3(const struct FString& InVariableN
 
 
 // Function:
-//		Offset -> 0x00CC3B20
+//		Offset -> 0x00CCD290
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableVec2
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -489,7 +489,7 @@ void UNiagaraComponent::SetNiagaraVariableVec2(const struct FString& InVariableN
 
 
 // Function:
-//		Offset -> 0x00CC3A30
+//		Offset -> 0x00CCD1A0
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableQuat
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -513,7 +513,7 @@ void UNiagaraComponent::SetNiagaraVariableQuat(const struct FString& InVariableN
 
 
 // Function:
-//		Offset -> 0x00CC35A0
+//		Offset -> 0x00CCCD10
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -537,7 +537,7 @@ void UNiagaraComponent::SetNiagaraVariableObject(const struct FString& InVariabl
 
 
 // Function:
-//		Offset -> 0x00CC3940
+//		Offset -> 0x00CCD0B0
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableLinearColor
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -561,7 +561,7 @@ void UNiagaraComponent::SetNiagaraVariableLinearColor(const struct FString& InVa
 
 
 // Function:
-//		Offset -> 0x00CC3860
+//		Offset -> 0x00CCCFD0
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableInt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -585,7 +585,7 @@ void UNiagaraComponent::SetNiagaraVariableInt(const struct FString& InVariableNa
 
 
 // Function:
-//		Offset -> 0x00CC3770
+//		Offset -> 0x00CCCEE0
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableFloat
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -609,7 +609,7 @@ void UNiagaraComponent::SetNiagaraVariableFloat(const struct FString& InVariable
 
 
 // Function:
-//		Offset -> 0x00CC3680
+//		Offset -> 0x00CCCDF0
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableBool
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -633,7 +633,7 @@ void UNiagaraComponent::SetNiagaraVariableBool(const struct FString& InVariableN
 
 
 // Function:
-//		Offset -> 0x00CC35A0
+//		Offset -> 0x00CCCD10
 //		Name   -> Function Niagara.NiagaraComponent.SetNiagaraVariableActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -657,7 +657,7 @@ void UNiagaraComponent::SetNiagaraVariableActor(const struct FString& InVariable
 
 
 // Function:
-//		Offset -> 0x00CC3520
+//		Offset -> 0x00CCCC90
 //		Name   -> Function Niagara.NiagaraComponent.SetMaxSimTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -679,7 +679,7 @@ void UNiagaraComponent::SetMaxSimTime(float InMaxTime)
 
 
 // Function:
-//		Offset -> 0x00CC3490
+//		Offset -> 0x00CCCC00
 //		Name   -> Function Niagara.NiagaraComponent.SetForceSolo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -701,7 +701,7 @@ void UNiagaraComponent::SetForceSolo(bool bInForceSolo)
 
 
 // Function:
-//		Offset -> 0x00CC3380
+//		Offset -> 0x00CCCAF0
 //		Name   -> Function Niagara.NiagaraComponent.SetDesiredAge
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -723,7 +723,7 @@ void UNiagaraComponent::SetDesiredAge(float InDesiredAge)
 
 
 // Function:
-//		Offset -> 0x00CC32F0
+//		Offset -> 0x00CCCA60
 //		Name   -> Function Niagara.NiagaraComponent.SetCanRenderWhileSeeking
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -745,7 +745,7 @@ void UNiagaraComponent::SetCanRenderWhileSeeking(bool bInCanRenderWhileSeeking)
 
 
 // Function:
-//		Offset -> 0x00CC3260
+//		Offset -> 0x00CCC9D0
 //		Name   -> Function Niagara.NiagaraComponent.SetAutoDestroy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -767,7 +767,7 @@ void UNiagaraComponent::SetAutoDestroy(bool bInAutoDestroy)
 
 
 // Function:
-//		Offset -> 0x00CC31E0
+//		Offset -> 0x00CCC950
 //		Name   -> Function Niagara.NiagaraComponent.SetAsset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -789,7 +789,7 @@ void UNiagaraComponent::SetAsset(class UNiagaraSystem* InAsset)
 
 
 // Function:
-//		Offset -> 0x00CC3150
+//		Offset -> 0x00CCC8C0
 //		Name   -> Function Niagara.NiagaraComponent.SetAllowScalability
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -811,7 +811,7 @@ void UNiagaraComponent::SetAllowScalability(bool bAllow)
 
 
 // Function:
-//		Offset -> 0x00CC30D0
+//		Offset -> 0x00CCC840
 //		Name   -> Function Niagara.NiagaraComponent.SetAgeUpdateMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -833,7 +833,7 @@ void UNiagaraComponent::SetAgeUpdateMode(Niagara_ENiagaraAgeUpdateMode InAgeUpda
 
 
 // Function:
-//		Offset -> 0x00CC3050
+//		Offset -> 0x00CCC7C0
 //		Name   -> Function Niagara.NiagaraComponent.SeekToDesiredAge
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -855,7 +855,7 @@ void UNiagaraComponent::SeekToDesiredAge(float InDesiredAge)
 
 
 // Function:
-//		Offset -> 0x00CC3030
+//		Offset -> 0x00CCC7A0
 //		Name   -> Function Niagara.NiagaraComponent.ResetSystem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UNiagaraComponent::ResetSystem()
@@ -874,7 +874,7 @@ void UNiagaraComponent::ResetSystem()
 
 
 // Function:
-//		Offset -> 0x00CC3010
+//		Offset -> 0x00CCC780
 //		Name   -> Function Niagara.NiagaraComponent.ReinitializeSystem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UNiagaraComponent::ReinitializeSystem()
@@ -893,7 +893,7 @@ void UNiagaraComponent::ReinitializeSystem()
 
 
 // Function:
-//		Offset -> 0x00CC2F60
+//		Offset -> 0x00CCC6D0
 //		Name   -> Function Niagara.NiagaraComponent.IsPaused
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -916,7 +916,7 @@ bool UNiagaraComponent::IsPaused()
 
 
 // Function:
-//		Offset -> 0x00CC2F30
+//		Offset -> 0x00CCC6A0
 //		Name   -> Function Niagara.NiagaraComponent.GetSeekDelta
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -939,7 +939,7 @@ float UNiagaraComponent::GetSeekDelta()
 
 
 // Function:
-//		Offset -> 0x00CC2F10
+//		Offset -> 0x00CCC680
 //		Name   -> Function Niagara.NiagaraComponent.GetPreviewLODDistanceEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -962,7 +962,7 @@ bool UNiagaraComponent::GetPreviewLODDistanceEnabled()
 
 
 // Function:
-//		Offset -> 0x00CC2EF0
+//		Offset -> 0x00CCC660
 //		Name   -> Function Niagara.NiagaraComponent.GetPreviewLODDistance
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -985,7 +985,7 @@ int UNiagaraComponent::GetPreviewLODDistance()
 
 
 // Function:
-//		Offset -> 0x00CC2C50
+//		Offset -> 0x00CCC3C0
 //		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticleValueVec3_DebugOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1012,7 +1012,7 @@ TArray<struct FVector> UNiagaraComponent::GetNiagaraParticleValueVec3_DebugOnly(
 
 
 // Function:
-//		Offset -> 0x00CC2DA0
+//		Offset -> 0x00CCC510
 //		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticleValues_DebugOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1039,7 +1039,7 @@ TArray<float> UNiagaraComponent::GetNiagaraParticleValues_DebugOnly(const struct
 
 
 // Function:
-//		Offset -> 0x00CC2B60
+//		Offset -> 0x00CCC2D0
 //		Name   -> Function Niagara.NiagaraComponent.GetNiagaraParticlePositions_DebugOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1064,7 +1064,7 @@ TArray<struct FVector> UNiagaraComponent::GetNiagaraParticlePositions_DebugOnly(
 
 
 // Function:
-//		Offset -> 0x00CC2B30
+//		Offset -> 0x00CCC2A0
 //		Name   -> Function Niagara.NiagaraComponent.GetMaxSimTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1087,7 +1087,7 @@ float UNiagaraComponent::GetMaxSimTime()
 
 
 // Function:
-//		Offset -> 0x00CC2B00
+//		Offset -> 0x00CCC270
 //		Name   -> Function Niagara.NiagaraComponent.GetForceSolo
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1110,7 +1110,7 @@ bool UNiagaraComponent::GetForceSolo()
 
 
 // Function:
-//		Offset -> 0x00CC2AD0
+//		Offset -> 0x00CCC240
 //		Name   -> Function Niagara.NiagaraComponent.GetDesiredAge
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1133,7 +1133,7 @@ float UNiagaraComponent::GetDesiredAge()
 
 
 // Function:
-//		Offset -> 0x00CC2A20
+//		Offset -> 0x00CCC190
 //		Name   -> Function Niagara.NiagaraComponent.GetDataInterface
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1158,7 +1158,7 @@ class UNiagaraDataInterface* UNiagaraComponent::GetDataInterface(const struct FS
 
 
 // Function:
-//		Offset -> 0x00CC2A00
+//		Offset -> 0x00CCC170
 //		Name   -> Function Niagara.NiagaraComponent.GetAsset
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1181,7 +1181,7 @@ class UNiagaraSystem* UNiagaraComponent::GetAsset()
 
 
 // Function:
-//		Offset -> 0x00CC29D0
+//		Offset -> 0x00CCC140
 //		Name   -> Function Niagara.NiagaraComponent.GetAgeUpdateMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1204,7 +1204,7 @@ Niagara_ENiagaraAgeUpdateMode UNiagaraComponent::GetAgeUpdateMode()
 
 
 // Function:
-//		Offset -> 0x00CC2910
+//		Offset -> 0x00CCC080
 //		Name   -> Function Niagara.NiagaraComponent.AdvanceSimulationByTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1228,7 +1228,7 @@ void UNiagaraComponent::AdvanceSimulationByTime(float SimulateTime, float TickDe
 
 
 // Function:
-//		Offset -> 0x00CC2840
+//		Offset -> 0x00CCBFB0
 //		Name   -> Function Niagara.NiagaraComponent.AdvanceSimulation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1252,7 +1252,7 @@ void UNiagaraComponent::AdvanceSimulation(int TickCount, float TickDeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x00CC9320
+//		Offset -> 0x00CD2A90
 //		Name   -> Function Niagara.NiagaraParticleCallbackHandler.ReceiveParticleData
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1276,7 +1276,7 @@ void UNiagaraParticleCallbackHandler::ReceiveParticleData(TArray<struct FBasicPa
 
 
 // Function:
-//		Offset -> 0x00CC9200
+//		Offset -> 0x00CD2970
 //		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetTextureSize
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1305,7 +1305,7 @@ void UNiagaraDataInterfaceGrid2DCollection::GetTextureSize(class UNiagaraCompone
 
 
 // Function:
-//		Offset -> 0x00CC90E0
+//		Offset -> 0x00CD2850
 //		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetRawTextureSize
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1334,7 +1334,7 @@ void UNiagaraDataInterfaceGrid2DCollection::GetRawTextureSize(class UNiagaraComp
 
 
 // Function:
-//		Offset -> 0x00CC8FD0
+//		Offset -> 0x00CD2740
 //		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillTexture2D
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -1363,7 +1363,7 @@ bool UNiagaraDataInterfaceGrid2DCollection::FillTexture2D(class UNiagaraComponen
 
 
 // Function:
-//		Offset -> 0x00CC8E60
+//		Offset -> 0x00CD25D0
 //		Name   -> Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillRawTexture2D
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1397,7 +1397,7 @@ bool UNiagaraDataInterfaceGrid2DCollection::FillRawTexture2D(class UNiagaraCompo
 
 
 // Function:
-//		Offset -> 0x00CCC7C0
+//		Offset -> 0x00CD5F30
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAttached
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1440,7 +1440,7 @@ class UNiagaraComponent* UNiagaraFunctionLibrary::STATIC_SpawnSystemAttached(cla
 
 
 // Function:
-//		Offset -> 0x00CCC510
+//		Offset -> 0x00CD5C80
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.SpawnSystemAtLocation
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1481,7 +1481,7 @@ class UNiagaraComponent* UNiagaraFunctionLibrary::STATIC_SpawnSystemAtLocation(c
 
 
 // Function:
-//		Offset -> 0x00CCC400
+//		Offset -> 0x00CD5B70
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.SetVolumeTextureObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1507,7 +1507,7 @@ void UNiagaraFunctionLibrary::STATIC_SetVolumeTextureObject(class UNiagaraCompon
 
 
 // Function:
-//		Offset -> 0x00CCC020
+//		Offset -> 0x00CD5790
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.SetTextureObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1533,7 +1533,7 @@ void UNiagaraFunctionLibrary::STATIC_SetTextureObject(class UNiagaraComponent* N
 
 
 // Function:
-//		Offset -> 0x00CCBA70
+//		Offset -> 0x00CD51E0
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMeshComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1559,7 +1559,7 @@ void UNiagaraFunctionLibrary::STATIC_OverrideSystemUserVariableStaticMeshCompone
 
 
 // Function:
-//		Offset -> 0x00CCB960
+//		Offset -> 0x00CD50D0
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMesh
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1585,7 +1585,7 @@ void UNiagaraFunctionLibrary::STATIC_OverrideSystemUserVariableStaticMesh(class 
 
 
 // Function:
-//		Offset -> 0x00CCB850
+//		Offset -> 0x00CD4FC0
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableSkeletalMeshComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1611,7 +1611,7 @@ void UNiagaraFunctionLibrary::STATIC_OverrideSystemUserVariableSkeletalMeshCompo
 
 
 // Function:
-//		Offset -> 0x00CCB490
+//		Offset -> 0x00CD4C00
 //		Name   -> Function Niagara.NiagaraFunctionLibrary.GetNiagaraParameterCollection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1638,7 +1638,7 @@ class UNiagaraParameterCollectionInstance* UNiagaraFunctionLibrary::STATIC_GetNi
 
 
 // Function:
-//		Offset -> 0x00CCC310
+//		Offset -> 0x00CD5A80
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVectorParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1662,7 +1662,7 @@ void UNiagaraParameterCollectionInstance::SetVectorParameter(const struct FStrin
 
 
 // Function:
-//		Offset -> 0x00CCC210
+//		Offset -> 0x00CD5980
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVector4Parameter
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1686,7 +1686,7 @@ void UNiagaraParameterCollectionInstance::SetVector4Parameter(const struct FStri
 
 
 // Function:
-//		Offset -> 0x00CCC130
+//		Offset -> 0x00CD58A0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetVector2DParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1710,7 +1710,7 @@ void UNiagaraParameterCollectionInstance::SetVector2DParameter(const struct FStr
 
 
 // Function:
-//		Offset -> 0x00CCBF30
+//		Offset -> 0x00CD56A0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetQuatParameter
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1734,7 +1734,7 @@ void UNiagaraParameterCollectionInstance::SetQuatParameter(const struct FString&
 
 
 // Function:
-//		Offset -> 0x00CCBE50
+//		Offset -> 0x00CD55C0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetIntParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1758,7 +1758,7 @@ void UNiagaraParameterCollectionInstance::SetIntParameter(const struct FString& 
 
 
 // Function:
-//		Offset -> 0x00CCBD60
+//		Offset -> 0x00CD54D0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetFloatParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1782,7 +1782,7 @@ void UNiagaraParameterCollectionInstance::SetFloatParameter(const struct FString
 
 
 // Function:
-//		Offset -> 0x00CCBC70
+//		Offset -> 0x00CD53E0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetColorParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1806,7 +1806,7 @@ void UNiagaraParameterCollectionInstance::SetColorParameter(const struct FString
 
 
 // Function:
-//		Offset -> 0x00CCBB80
+//		Offset -> 0x00CD52F0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.SetBoolParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1830,7 +1830,7 @@ void UNiagaraParameterCollectionInstance::SetBoolParameter(const struct FString&
 
 
 // Function:
-//		Offset -> 0x00CCB790
+//		Offset -> 0x00CD4F00
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVectorParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1855,7 +1855,7 @@ struct FVector UNiagaraParameterCollectionInstance::GetVectorParameter(const str
 
 
 // Function:
-//		Offset -> 0x00CCB6D0
+//		Offset -> 0x00CD4E40
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVector4Parameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1880,7 +1880,7 @@ struct FVector4 UNiagaraParameterCollectionInstance::GetVector4Parameter(const s
 
 
 // Function:
-//		Offset -> 0x00CCB610
+//		Offset -> 0x00CD4D80
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetVector2DParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1905,7 +1905,7 @@ struct FVector2D UNiagaraParameterCollectionInstance::GetVector2DParameter(const
 
 
 // Function:
-//		Offset -> 0x00CCB550
+//		Offset -> 0x00CD4CC0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetQuatParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1930,7 +1930,7 @@ struct FQuat UNiagaraParameterCollectionInstance::GetQuatParameter(const struct 
 
 
 // Function:
-//		Offset -> 0x00CCB3E0
+//		Offset -> 0x00CD4B50
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetIntParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1955,7 +1955,7 @@ int UNiagaraParameterCollectionInstance::GetIntParameter(const struct FString& I
 
 
 // Function:
-//		Offset -> 0x00CCB330
+//		Offset -> 0x00CD4AA0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetFloatParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1980,7 +1980,7 @@ float UNiagaraParameterCollectionInstance::GetFloatParameter(const struct FStrin
 
 
 // Function:
-//		Offset -> 0x00CCB270
+//		Offset -> 0x00CD49E0
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetColorParameter
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2005,7 +2005,7 @@ struct FLinearColor UNiagaraParameterCollectionInstance::GetColorParameter(const
 
 
 // Function:
-//		Offset -> 0x00CCB1C0
+//		Offset -> 0x00CD4930
 //		Name   -> Function Niagara.NiagaraParameterCollectionInstance.GetBoolParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2030,7 +2030,7 @@ bool UNiagaraParameterCollectionInstance::GetBoolParameter(const struct FString&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function Niagara.NiagaraPreviewBase.SetSystem
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2051,7 +2051,7 @@ void ANiagaraPreviewBase::SetSystem(class UNiagaraSystem* InSystem)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function Niagara.NiagaraPreviewBase.SetLabelText
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2074,7 +2074,7 @@ void ANiagaraPreviewBase::SetLabelText(const struct FText& InXAxisText, const st
 
 
 // Function:
-//		Offset -> 0x00CD0700
+//		Offset -> 0x00CD9E70
 //		Name   -> Function Niagara.NiagaraPreviewAxis.Num
 //		Flags  -> (Native, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2097,7 +2097,7 @@ int UNiagaraPreviewAxis::Num()
 
 
 // Function:
-//		Offset -> 0x00CD04B0
+//		Offset -> 0x00CD9C20
 //		Name   -> Function Niagara.NiagaraPreviewAxis.ApplyToPreview
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2127,7 +2127,7 @@ void UNiagaraPreviewAxis::ApplyToPreview(class UNiagaraComponent* PreviewCompone
 
 
 // Function:
-//		Offset -> 0x00CD0730
+//		Offset -> 0x00CD9EA0
 //		Name   -> Function Niagara.NiagaraPreviewGrid.SetPaused
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2149,7 +2149,7 @@ void ANiagaraPreviewGrid::SetPaused(bool bPaused)
 
 
 // Function:
-//		Offset -> 0x00CD0650
+//		Offset -> 0x00CD9DC0
 //		Name   -> Function Niagara.NiagaraPreviewGrid.GetPreviews
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2173,7 +2173,7 @@ void ANiagaraPreviewGrid::GetPreviews(TArray<class UNiagaraComponent*>* OutPrevi
 
 
 // Function:
-//		Offset -> 0x00CD0630
+//		Offset -> 0x00CD9DA0
 //		Name   -> Function Niagara.NiagaraPreviewGrid.DeactivatePreviews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ANiagaraPreviewGrid::DeactivatePreviews()
@@ -2192,7 +2192,7 @@ void ANiagaraPreviewGrid::DeactivatePreviews()
 
 
 // Function:
-//		Offset -> 0x00CD0420
+//		Offset -> 0x00CD9B90
 //		Name   -> Function Niagara.NiagaraPreviewGrid.ActivatePreviews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2214,7 +2214,7 @@ void ANiagaraPreviewGrid::ActivatePreviews(bool bReset)
 
 
 // Function:
-//		Offset -> 0x00B00610
+//		Offset -> 0x00B04930
 //		Name   -> Function Niagara.NiagaraScript.RaiseOnGPUCompilationComplete
 //		Flags  -> (Final, Native, Public)
 void UNiagaraScript::RaiseOnGPUCompilationComplete()

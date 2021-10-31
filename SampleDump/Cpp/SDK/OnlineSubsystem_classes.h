@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -26,7 +26,7 @@ class UNamedInterfaces : public UObject
 public:
 	TArray<struct FNamedInterface>                     NamedInterfaces;                                           // 0x0028(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	TArray<struct FNamedInterfaceDef>                  NamedInterfaceDefs;                                        // 0x0038(0x0010) (ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_SWU6[0x18];                                    // 0x0048(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ANCY[0x18];                                    // 0x0048(0x0018) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

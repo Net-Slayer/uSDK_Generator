@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D25410
+//		Offset -> 0x00D2ED80
 //		Name   -> Function MagicLeapLightEstimation.MagicLeapLightEstimationFunctionLibrary.IsTrackerValid
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -42,7 +42,7 @@ bool UMagicLeapLightEstimationFunctionLibrary::STATIC_IsTrackerValid()
 
 
 // Function:
-//		Offset -> 0x00D25380
+//		Offset -> 0x00D2ECF0
 //		Name   -> Function MagicLeapLightEstimation.MagicLeapLightEstimationFunctionLibrary.GetColorTemperatureState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ bool UMagicLeapLightEstimationFunctionLibrary::STATIC_GetColorTemperatureState(s
 
 
 // Function:
-//		Offset -> 0x00D252D0
+//		Offset -> 0x00D2EC40
 //		Name   -> Function MagicLeapLightEstimation.MagicLeapLightEstimationFunctionLibrary.GetAmbientGlobalState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -96,7 +96,7 @@ bool UMagicLeapLightEstimationFunctionLibrary::STATIC_GetAmbientGlobalState(stru
 
 
 // Function:
-//		Offset -> 0x00D252B0
+//		Offset -> 0x00D2EC20
 //		Name   -> Function MagicLeapLightEstimation.MagicLeapLightEstimationFunctionLibrary.DestroyTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UMagicLeapLightEstimationFunctionLibrary::STATIC_DestroyTracker()
@@ -115,7 +115,7 @@ void UMagicLeapLightEstimationFunctionLibrary::STATIC_DestroyTracker()
 
 
 // Function:
-//		Offset -> 0x00D25280
+//		Offset -> 0x00D2EBF0
 //		Name   -> Function MagicLeapLightEstimation.MagicLeapLightEstimationFunctionLibrary.CreateTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

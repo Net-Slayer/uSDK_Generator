@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -19,6 +19,12 @@ namespace CG
 // Parameters
 //---------------------------------------------------------------------------
 
+// Function BP_SliderEntry.BP_SliderEntry_C.Update Slider
+struct UBP_SliderEntry_C_Update_Slider_Params
+{
+	struct FS_MordhauSlider                            Slider_Struct;                                             // 0x0000(0x0010)  (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
 // Function BP_SliderEntry.BP_SliderEntry_C.GetValue
 struct UBP_SliderEntry_C_GetValue_Params
 {
@@ -31,22 +37,9 @@ struct UBP_SliderEntry_C_SetValue_Params
 	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
-// Function BP_SliderEntry.BP_SliderEntry_C.GetPercent
-struct UBP_SliderEntry_C_GetPercent_Params
+// Function BP_SliderEntry.BP_SliderEntry_C.Construct
+struct UBP_SliderEntry_C_Construct_Params
 {
-	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_SliderEntry.BP_SliderEntry_C.GetNumericValue
-struct UBP_SliderEntry_C_GetNumericValue_Params
-{
-	struct FText                                       ReturnValue;                                               // 0x0000(0x0018)  (Parm, OutParm, ReturnParm)
-};
-
-// Function BP_SliderEntry.BP_SliderEntry_C.BndEvt__TestSlider_K2Node_ComponentBoundEvent_4_OnFloatValueChangedEvent__DelegateSignature
-struct UBP_SliderEntry_C_BndEvt__TestSlider_K2Node_ComponentBoundEvent_4_OnFloatValueChangedEvent__DelegateSignature_Params
-{
-	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_SliderEntry.BP_SliderEntry_C.BndEvt__sliderEntry_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature
@@ -54,22 +47,10 @@ struct UBP_SliderEntry_C_BndEvt__sliderEntry_K2Node_ComponentBoundEvent_10_OnBut
 {
 };
 
-// Function BP_SliderEntry.BP_SliderEntry_C.BndEvt__NumericDisplay_K2Node_ComponentBoundEvent_136_OnEditableTextChangedEvent__DelegateSignature
-struct UBP_SliderEntry_C_BndEvt__NumericDisplay_K2Node_ComponentBoundEvent_136_OnEditableTextChangedEvent__DelegateSignature_Params
+// Function BP_SliderEntry.BP_SliderEntry_C.BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature
+struct UBP_SliderEntry_C_BndEvt__BP_MordhauSlider_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature_Params
 {
-	struct FText                                       Text;                                                      // 0x0000(0x0018)  (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
-};
-
-// Function BP_SliderEntry.BP_SliderEntry_C.BndEvt__NumericDisplay_K2Node_ComponentBoundEvent_150_OnEditableTextCommittedEvent__DelegateSignature
-struct UBP_SliderEntry_C_BndEvt__NumericDisplay_K2Node_ComponentBoundEvent_150_OnEditableTextCommittedEvent__DelegateSignature_Params
-{
-	struct FText                                       Text;                                                      // 0x0000(0x0018)  (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
-	TEnumAsByte<SlateCore_ETextCommit>                 CommitMethod;                                              // 0x0018(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_SliderEntry.BP_SliderEntry_C.Construct
-struct UBP_SliderEntry_C_Construct_Params
-{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_SliderEntry.BP_SliderEntry_C.ExecuteUbergraph_BP_SliderEntry

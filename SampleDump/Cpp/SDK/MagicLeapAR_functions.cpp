@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D00120
+//		Offset -> 0x00D09950
 //		Name   -> Function MagicLeapAR.LuminARSessionFunctionLibrary.StartLuminARSession
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -45,7 +45,7 @@ void ULuminARSessionFunctionLibrary::STATIC_StartLuminARSession(class UObject* W
 
 
 // Function:
-//		Offset -> 0x00CFFDF0
+//		Offset -> 0x00D09620
 //		Name   -> Function MagicLeapAR.LuminARFrameFunctionLibrary.LuminARLineTrace
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -76,7 +76,7 @@ bool ULuminARFrameFunctionLibrary::STATIC_LuminARLineTrace(class UObject* WorldC
 
 
 // Function:
-//		Offset -> 0x00CFFDA0
+//		Offset -> 0x00D095D0
 //		Name   -> Function MagicLeapAR.LuminARFrameFunctionLibrary.GetTrackingState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -99,7 +99,7 @@ MagicLeapAR_ELuminARTrackingState ULuminARFrameFunctionLibrary::STATIC_GetTracki
 
 
 // Function:
-//		Offset -> 0x00CFFAA0
+//		Offset -> 0x00D092D0
 //		Name   -> Function MagicLeapAR.LuminARImageTrackingFunctionLibrary.AddLuminRuntimeCandidateImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -134,7 +134,7 @@ class ULuminARCandidateImage* ULuminARImageTrackingFunctionLibrary::STATIC_AddLu
 
 
 // Function:
-//		Offset -> 0x00CFFCC0
+//		Offset -> 0x00D094F0
 //		Name   -> Function MagicLeapAR.LuminARLightEstimate.GetAmbientIntensityNits
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -157,7 +157,7 @@ TArray<float> ULuminARLightEstimate::GetAmbientIntensityNits()
 
 
 // Function:
-//		Offset -> 0x00CFFDD0
+//		Offset -> 0x00D09600
 //		Name   -> Function MagicLeapAR.LuminARCandidateImage.GetUseUnreliablePose
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -180,7 +180,7 @@ bool ULuminARCandidateImage::GetUseUnreliablePose()
 
 
 // Function:
-//		Offset -> 0x00CFFD80
+//		Offset -> 0x00D095B0
 //		Name   -> Function MagicLeapAR.LuminARCandidateImage.GetImageIsStationary
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

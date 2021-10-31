@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02241340
+//		Offset -> 0x0224AC60
 //		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialVectorParameterValue
 //		Flags  -> (Final, RequiredAPI, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -43,7 +43,7 @@ void ALandscapeProxy::SetLandscapeMaterialVectorParameterValue(const struct FNam
 
 
 // Function:
-//		Offset -> 0x02241280
+//		Offset -> 0x0224ABA0
 //		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialTextureParameterValue
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 // Parameters:
@@ -67,7 +67,7 @@ void ALandscapeProxy::SetLandscapeMaterialTextureParameterValue(const struct FNa
 
 
 // Function:
-//		Offset -> 0x022411B0
+//		Offset -> 0x0224AAD0
 //		Name   -> Function Landscape.LandscapeProxy.SetLandscapeMaterialScalarParameterValue
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable)
 // Parameters:
@@ -91,7 +91,7 @@ void ALandscapeProxy::SetLandscapeMaterialScalarParameterValue(const struct FNam
 
 
 // Function:
-//		Offset -> 0x010BCBA0
+//		Offset -> 0x010CD040
 //		Name   -> Function Landscape.LandscapeProxy.EditorSetLandscapeMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -113,7 +113,7 @@ void ALandscapeProxy::EditorSetLandscapeMaterial(class UMaterialInterface* NewLa
 
 
 // Function:
-//		Offset -> 0x02240E20
+//		Offset -> 0x0224A740
 //		Name   -> Function Landscape.LandscapeProxy.EditorApplySpline
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -155,7 +155,7 @@ void ALandscapeProxy::EditorApplySpline(class USplineComponent* InSplineComponen
 
 
 // Function:
-//		Offset -> 0x02240D90
+//		Offset -> 0x0224A6B0
 //		Name   -> Function Landscape.LandscapeProxy.ChangeUseTessellationComponentScreenSizeFalloff
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -177,7 +177,7 @@ void ALandscapeProxy::ChangeUseTessellationComponentScreenSizeFalloff(bool InCom
 
 
 // Function:
-//		Offset -> 0x02240D10
+//		Offset -> 0x0224A630
 //		Name   -> Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSizeFalloff
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -199,7 +199,7 @@ void ALandscapeProxy::ChangeTessellationComponentScreenSizeFalloff(float InUseTe
 
 
 // Function:
-//		Offset -> 0x02240C90
+//		Offset -> 0x0224A5B0
 //		Name   -> Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSize
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -221,7 +221,7 @@ void ALandscapeProxy::ChangeTessellationComponentScreenSize(float InTessellation
 
 
 // Function:
-//		Offset -> 0x02240C10
+//		Offset -> 0x0224A530
 //		Name   -> Function Landscape.LandscapeProxy.ChangeLODDistanceFactor
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -243,7 +243,7 @@ void ALandscapeProxy::ChangeLODDistanceFactor(float InLODDistanceFactor)
 
 
 // Function:
-//		Offset -> 0x02240B90
+//		Offset -> 0x0224A4B0
 //		Name   -> Function Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -265,7 +265,7 @@ void ALandscapeProxy::ChangeComponentScreenSizeToUseSubSections(float InComponen
 
 
 // Function:
-//		Offset -> 0x00B00610
+//		Offset -> 0x00B04930
 //		Name   -> Function Landscape.LandscapeBlueprintBrushBase.RequestLandscapeUpdate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ALandscapeBlueprintBrushBase::RequestLandscapeUpdate()
@@ -284,7 +284,7 @@ void ALandscapeBlueprintBrushBase::RequestLandscapeUpdate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function Landscape.LandscapeBlueprintBrushBase.Render
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -312,7 +312,7 @@ class UTextureRenderTarget2D* ALandscapeBlueprintBrushBase::Render(bool InIsHeig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function Landscape.LandscapeBlueprintBrushBase.Initialize
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintEvent)
 // Parameters:
@@ -337,7 +337,7 @@ void ALandscapeBlueprintBrushBase::Initialize(const struct FTransform& InLandsca
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function Landscape.LandscapeBlueprintBrushBase.GetBlueprintRenderDependencies
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -360,7 +360,7 @@ void ALandscapeBlueprintBrushBase::GetBlueprintRenderDependencies(TArray<class U
 
 
 // Function:
-//		Offset -> 0x0223F330
+//		Offset -> 0x02248C50
 //		Name   -> Function Landscape.LandscapeComponent.GetMaterialInstanceDynamic
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -385,7 +385,7 @@ class UMaterialInstanceDynamic* ULandscapeComponent::GetMaterialInstanceDynamic(
 
 
 // Function:
-//		Offset -> 0x0223F250
+//		Offset -> 0x02248B70
 //		Name   -> Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightByNameAtLocation
 //		Flags  -> (Final, RequiredAPI, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -412,7 +412,7 @@ float ULandscapeComponent::EditorGetPaintLayerWeightByNameAtLocation(const struc
 
 
 // Function:
-//		Offset -> 0x0223F250
+//		Offset -> 0x02248B70
 //		Name   -> Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightAtLocation
 //		Flags  -> (Final, RequiredAPI, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -439,7 +439,7 @@ float ULandscapeComponent::EditorGetPaintLayerWeightAtLocation(const struct FVec
 
 
 // Function:
-//		Offset -> 0x0223F3C0
+//		Offset -> 0x02248CE0
 //		Name   -> Function Landscape.LandscapeHeightfieldCollisionComponent.GetRenderComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -462,7 +462,7 @@ class ULandscapeComponent* ULandscapeHeightfieldCollisionComponent::GetRenderCom
 
 
 // Function:
-//		Offset -> 0x02241130
+//		Offset -> 0x0224AA50
 //		Name   -> Function Landscape.LandscapeSplinesComponent.GetSplineMeshComponents
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

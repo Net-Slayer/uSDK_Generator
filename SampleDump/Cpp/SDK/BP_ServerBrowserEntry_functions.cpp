@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.SetFavoriteServers
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_ServerBrowserEntry_C::SetFavoriteServers(bool bAddOrRemove)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.Update
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_ServerBrowserEntry_C::Update(const struct FServerSearchResult& Session)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.GetServerBrowser
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_ServerBrowserEntry_C::GetServerBrowser(class UBP_ServerBrowser_C** Serv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.Select
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -105,7 +105,7 @@ void UBP_ServerBrowserEntry_C::Select(bool isSelected)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ServerBrowserEntry_C::Construct()
@@ -123,7 +123,7 @@ void UBP_ServerBrowserEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_386_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowserEntry_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_386_OnButtonClickedEvent__DelegateSignature()
@@ -141,7 +141,7 @@ void UBP_ServerBrowserEntry_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_386_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.BndEvt__FavoriteButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowserEntry_C::BndEvt__FavoriteButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -159,7 +159,7 @@ void UBP_ServerBrowserEntry_C::BndEvt__FavoriteButton_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowserEntry.BP_ServerBrowserEntry_C.ExecuteUbergraph_BP_ServerBrowserEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

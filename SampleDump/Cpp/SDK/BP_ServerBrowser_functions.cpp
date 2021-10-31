@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.CheckIfValidBeforeAddingEntries
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ServerBrowser_C::CheckIfValidBeforeAddingEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.UpdateListings
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +57,7 @@ void UBP_ServerBrowser_C::UpdateListings()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.UpdateArrowVisibilities
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -76,7 +76,7 @@ void UBP_ServerBrowser_C::UpdateArrowVisibilities()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnRep_ServerSort
 //		Flags  -> (HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -95,7 +95,7 @@ void UBP_ServerBrowser_C::OnRep_ServerSort()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ToggleArrowVisibilities
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -116,7 +116,7 @@ void UBP_ServerBrowser_C::ToggleArrowVisibilities(unsigned char Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnFailure_BBC3547C49248E80E0006694F0879DC3
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -137,7 +137,7 @@ void UBP_ServerBrowser_C::OnFailure_BBC3547C49248E80E0006694F0879DC3(TArray<stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnSuccess_BBC3547C49248E80E0006694F0879DC3
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -158,7 +158,7 @@ void UBP_ServerBrowser_C::OnSuccess_BBC3547C49248E80E0006694F0879DC3(TArray<stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnFailure_0D81799A475BE46000BC0A8D4385A93C
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::OnFailure_0D81799A475BE46000BC0A8D4385A93C()
@@ -176,7 +176,7 @@ void UBP_ServerBrowser_C::OnFailure_0D81799A475BE46000BC0A8D4385A93C()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnSuccess_0D81799A475BE46000BC0A8D4385A93C
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::OnSuccess_0D81799A475BE46000BC0A8D4385A93C()
@@ -194,7 +194,7 @@ void UBP_ServerBrowser_C::OnSuccess_0D81799A475BE46000BC0A8D4385A93C()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ServerBrowser_C::Construct()
@@ -212,7 +212,7 @@ void UBP_ServerBrowser_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.Refresh
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::Refresh()
@@ -230,7 +230,7 @@ void UBP_ServerBrowser_C::Refresh()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.Join
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::Join()
@@ -248,7 +248,7 @@ void UBP_ServerBrowser_C::Join()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__RefreshButton_K2Node_ComponentBoundEvent_111_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__RefreshButton_K2Node_ComponentBoundEvent_111_OnButtonClickedEvent__DelegateSignature()
@@ -266,7 +266,7 @@ void UBP_ServerBrowser_C::BndEvt__RefreshButton_K2Node_ComponentBoundEvent_111_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__JoinButton_K2Node_ComponentBoundEvent_129_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__JoinButton_K2Node_ComponentBoundEvent_129_OnButtonClickedEvent__DelegateSignature()
@@ -284,7 +284,7 @@ void UBP_ServerBrowser_C::BndEvt__JoinButton_K2Node_ComponentBoundEvent_129_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__AllButton_K2Node_ComponentBoundEvent_289_OnSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__AllButton_K2Node_ComponentBoundEvent_289_OnSelected__DelegateSignature()
@@ -302,7 +302,7 @@ void UBP_ServerBrowser_C::BndEvt__AllButton_K2Node_ComponentBoundEvent_289_OnSel
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__FriendsButton_K2Node_ComponentBoundEvent_290_OnSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__FriendsButton_K2Node_ComponentBoundEvent_290_OnSelected__DelegateSignature()
@@ -320,7 +320,7 @@ void UBP_ServerBrowser_C::BndEvt__FriendsButton_K2Node_ComponentBoundEvent_290_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__FavoritesButton_K2Node_ComponentBoundEvent_294_OnSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__FavoritesButton_K2Node_ComponentBoundEvent_294_OnSelected__DelegateSignature()
@@ -338,7 +338,7 @@ void UBP_ServerBrowser_C::BndEvt__FavoritesButton_K2Node_ComponentBoundEvent_294
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__RecentButton_K2Node_ComponentBoundEvent_299_OnSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__RecentButton_K2Node_ComponentBoundEvent_299_OnSelected__DelegateSignature()
@@ -356,7 +356,7 @@ void UBP_ServerBrowser_C::BndEvt__RecentButton_K2Node_ComponentBoundEvent_299_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__LanButton_K2Node_ComponentBoundEvent_305_OnSelected__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__LanButton_K2Node_ComponentBoundEvent_305_OnSelected__DelegateSignature()
@@ -374,7 +374,7 @@ void UBP_ServerBrowser_C::BndEvt__LanButton_K2Node_ComponentBoundEvent_305_OnSel
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__NotFullCheckbox_K2Node_ComponentBoundEvent_178_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -395,7 +395,7 @@ void UBP_ServerBrowser_C::BndEvt__NotFullCheckbox_K2Node_ComponentBoundEvent_178
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__HasPlayersCheckbox_K2Node_ComponentBoundEvent_186_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -416,7 +416,7 @@ void UBP_ServerBrowser_C::BndEvt__HasPlayersCheckbox_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__NoPasswordCheckbox_K2Node_ComponentBoundEvent_195_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -437,7 +437,7 @@ void UBP_ServerBrowser_C::BndEvt__NoPasswordCheckbox_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__DevBuildCheckbox_K2Node_ComponentBoundEvent_308_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -458,7 +458,7 @@ void UBP_ServerBrowser_C::BndEvt__DevBuildCheckbox_K2Node_ComponentBoundEvent_30
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.CreateMismatchDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::CreateMismatchDialog()
@@ -476,7 +476,7 @@ void UBP_ServerBrowser_C::CreateMismatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.HideMismatchDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::HideMismatchDialog()
@@ -494,7 +494,7 @@ void UBP_ServerBrowser_C::HideMismatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ShowMismatchDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::ShowMismatchDialog()
@@ -512,7 +512,7 @@ void UBP_ServerBrowser_C::ShowMismatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ContinueJoin
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::ContinueJoin()
@@ -530,7 +530,7 @@ void UBP_ServerBrowser_C::ContinueJoin()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__RentServerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__RentServerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -548,7 +548,7 @@ void UBP_ServerBrowser_C::BndEvt__RentServerButton_K2Node_ComponentBoundEvent_0_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::OnShown()
@@ -566,7 +566,7 @@ void UBP_ServerBrowser_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__GameModeComboBox_K2Node_ComponentBoundEvent_1_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -589,7 +589,7 @@ void UBP_ServerBrowser_C::BndEvt__GameModeComboBox_K2Node_ComponentBoundEvent_1_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__ServerNameFilter_K2Node_ComponentBoundEvent_2_OnEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -612,7 +612,7 @@ void UBP_ServerBrowser_C::BndEvt__ServerNameFilter_K2Node_ComponentBoundEvent_2_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__MaxPingEntry_K2Node_ComponentBoundEvent_4_OnEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -635,7 +635,7 @@ void UBP_ServerBrowser_C::BndEvt__MaxPingEntry_K2Node_ComponentBoundEvent_4_OnEd
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ShowModDownloadDialog
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -656,7 +656,7 @@ void UBP_ServerBrowser_C::ShowModDownloadDialog(TArray<int> ModsRequired)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ModDownloadCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::ModDownloadCanceled()
@@ -674,7 +674,7 @@ void UBP_ServerBrowser_C::ModDownloadCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ModDownloadFailed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::ModDownloadFailed()
@@ -692,7 +692,7 @@ void UBP_ServerBrowser_C::ModDownloadFailed()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ModDownloadCompleted
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::ModDownloadCompleted()
@@ -710,7 +710,7 @@ void UBP_ServerBrowser_C::ModDownloadCompleted()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnOkClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ServerBrowser_C::OnOkClicked()
@@ -728,7 +728,7 @@ void UBP_ServerBrowser_C::OnOkClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.JoinSession
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -749,7 +749,7 @@ void UBP_ServerBrowser_C::JoinSession(const struct FServerSearchResult& Session)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__ServNameDescendSort_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__ServNameDescendSort_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
@@ -767,7 +767,7 @@ void UBP_ServerBrowser_C::BndEvt__ServNameDescendSort_K2Node_ComponentBoundEvent
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__ServNameAscendSort_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__ServNameAscendSort_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -785,7 +785,7 @@ void UBP_ServerBrowser_C::BndEvt__ServNameAscendSort_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__PingAscendSort_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__PingAscendSort_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
@@ -803,7 +803,7 @@ void UBP_ServerBrowser_C::BndEvt__PingAscendSort_K2Node_ComponentBoundEvent_6_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__PingDescendSort_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__PingDescendSort_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
@@ -821,7 +821,7 @@ void UBP_ServerBrowser_C::BndEvt__PingDescendSort_K2Node_ComponentBoundEvent_7_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__MapNameDescendSort_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__MapNameDescendSort_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
@@ -839,7 +839,7 @@ void UBP_ServerBrowser_C::BndEvt__MapNameDescendSort_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__MapNameAscendSort_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__MapNameAscendSort_K2Node_ComponentBoundEvent_9_OnButtonClickedEvent__DelegateSignature()
@@ -857,7 +857,7 @@ void UBP_ServerBrowser_C::BndEvt__MapNameAscendSort_K2Node_ComponentBoundEvent_9
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__CountAscendSort_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__CountAscendSort_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature()
@@ -875,7 +875,7 @@ void UBP_ServerBrowser_C::BndEvt__CountAscendSort_K2Node_ComponentBoundEvent_10_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__CountDescendSort_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__CountDescendSort_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature()
@@ -893,7 +893,7 @@ void UBP_ServerBrowser_C::BndEvt__CountDescendSort_K2Node_ComponentBoundEvent_11
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__ServerNameButton_K2Node_ComponentBoundEvent_12_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__ServerNameButton_K2Node_ComponentBoundEvent_12_OnButtonClickedEvent__DelegateSignature()
@@ -911,7 +911,7 @@ void UBP_ServerBrowser_C::BndEvt__ServerNameButton_K2Node_ComponentBoundEvent_12
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__MapNameButton_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__MapNameButton_K2Node_ComponentBoundEvent_13_OnButtonClickedEvent__DelegateSignature()
@@ -929,7 +929,7 @@ void UBP_ServerBrowser_C::BndEvt__MapNameButton_K2Node_ComponentBoundEvent_13_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__PlayersButton_K2Node_ComponentBoundEvent_14_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__PlayersButton_K2Node_ComponentBoundEvent_14_OnButtonClickedEvent__DelegateSignature()
@@ -947,7 +947,7 @@ void UBP_ServerBrowser_C::BndEvt__PlayersButton_K2Node_ComponentBoundEvent_14_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__PingButton_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ServerBrowser_C::BndEvt__PingButton_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature()
@@ -965,7 +965,7 @@ void UBP_ServerBrowser_C::BndEvt__PingButton_K2Node_ComponentBoundEvent_15_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.BndEvt__ServerNameFilter_K2Node_ComponentBoundEvent_18_OnEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -986,7 +986,7 @@ void UBP_ServerBrowser_C::BndEvt__ServerNameFilter_K2Node_ComponentBoundEvent_18
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.OnPartyUpdated
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1007,7 +1007,7 @@ void UBP_ServerBrowser_C::OnPartyUpdated(TArray<struct FPlayFabPlayer> PartyMemb
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ServerBrowser.BP_ServerBrowser_C.ExecuteUbergraph_BP_ServerBrowser
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

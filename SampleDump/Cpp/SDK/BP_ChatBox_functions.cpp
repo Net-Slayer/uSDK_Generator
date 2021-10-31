@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnRep_bIsChatPaused
 //		Flags  -> (HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_ChatBox_C::OnRep_bIsChatPaused()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetText_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -60,7 +60,7 @@ struct FText UBP_ChatBox_C::GetText_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetVisibility_4
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -82,7 +82,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetVisibility_4()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -104,7 +104,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.Get_TextArea_bIsEnabled_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -126,7 +126,7 @@ bool UBP_ChatBox_C::Get_TextArea_bIsEnabled_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -148,7 +148,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.Repopulate Muted Player List
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -167,7 +167,7 @@ void UBP_ChatBox_C::Repopulate_Muted_Player_List()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.RemovePlayerFromMutedMap
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -192,7 +192,7 @@ void UBP_ChatBox_C::RemovePlayerFromMutedMap(const struct FPlayFabPlayer& Player
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.IsPlayerMuted
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -220,7 +220,7 @@ void UBP_ChatBox_C::IsPlayerMuted(const struct FPlayFabPlayer& Player, TEnumAsBy
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.AddPlayerToMutedMap
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -243,7 +243,7 @@ void UBP_ChatBox_C::AddPlayerToMutedMap(const struct FPlayFabPlayer& Player, TEn
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.Get Keys From Value
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -270,7 +270,7 @@ void UBP_ChatBox_C::Get_Keys_From_Value(TMap<class UBP_ChatBoxEntry_C*, struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.UnmutePlayer
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -291,7 +291,7 @@ void UBP_ChatBox_C::UnmutePlayer(const struct FPlayFabPlayer& Player)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.MutePlayer
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -314,7 +314,7 @@ void UBP_ChatBox_C::MutePlayer(TEnumAsByte<E_ChatMuteTypes_E_ChatMuteTypes> Mute
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -336,7 +336,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.ResetThreshold
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ChatBox_C::ResetThreshold()
@@ -354,7 +354,7 @@ void UBP_ChatBox_C::ResetThreshold()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -376,7 +376,7 @@ struct FText UBP_ChatBox_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.AddViewModeEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -397,7 +397,7 @@ void UBP_ChatBox_C::AddViewModeEntry(class UBP_ChatBoxEntry_C* Entry)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.AddEntriesEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -418,7 +418,7 @@ void UBP_ChatBox_C::AddEntriesEntry(class UBP_ChatBoxEntry_C* Entry)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetEntriesVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -440,7 +440,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetEntriesVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetChatBoxVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -462,7 +462,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetChatBoxVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnEscape
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -481,7 +481,7 @@ void UBP_ChatBox_C::OnEscape()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnMessageReceived
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -506,7 +506,7 @@ void UBP_ChatBox_C::OnMessageReceived(const struct FText& Message, class APlayer
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnEnter
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -525,7 +525,7 @@ void UBP_ChatBox_C::OnEnter()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GoToChatMode
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -546,7 +546,7 @@ void UBP_ChatBox_C::GoToChatMode(bool Team)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetViewModeVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -568,7 +568,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetViewModeVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GetInputContainerVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -590,7 +590,7 @@ UMG_ESlateVisibility UBP_ChatBox_C::GetInputContainerVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnPreviewKeyDown
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -616,7 +616,7 @@ struct FEventReply UBP_ChatBox_C::OnPreviewKeyDown(const struct FGeometry& MyGeo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.AddEntry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -647,7 +647,7 @@ void UBP_ChatBox_C::AddEntry(const struct FString& Name, const struct FText& Mes
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.BndEvt__TextArea_K2Node_ComponentBoundEvent_594_OnMultiLineEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -668,7 +668,7 @@ void UBP_ChatBox_C::BndEvt__TextArea_K2Node_ComponentBoundEvent_594_OnMultiLineE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnMouseLeave
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -689,7 +689,7 @@ void UBP_ChatBox_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnMouseEnter
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -712,7 +712,7 @@ void UBP_ChatBox_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -735,7 +735,7 @@ void UBP_ChatBox_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GoToViewMode
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBox_C::GoToViewMode()
@@ -753,7 +753,7 @@ void UBP_ChatBox_C::GoToViewMode()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.GoToViewModeCallback
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ChatBox_C::GoToViewModeCallback()
@@ -771,7 +771,7 @@ void UBP_ChatBox_C::GoToViewModeCallback()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ChatBox_C::Construct()
@@ -789,7 +789,7 @@ void UBP_ChatBox_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.BndEvt__CheckBox_0_K2Node_ComponentBoundEvent_1_OnCheckBoxComponentStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -810,7 +810,7 @@ void UBP_ChatBox_C::BndEvt__CheckBox_0_K2Node_ComponentBoundEvent_1_OnCheckBoxCo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.OnServerRestrictionInfoReceived
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -831,7 +831,7 @@ void UBP_ChatBox_C::OnServerRestrictionInfoReceived(const struct FServerRestrict
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.BndEvt__PauseChatCheckbox_K2Node_ComponentBoundEvent_0_OnCheckBoxComponentStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -852,7 +852,7 @@ void UBP_ChatBox_C::BndEvt__PauseChatCheckbox_K2Node_ComponentBoundEvent_0_OnChe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ChatBox_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
@@ -870,7 +870,7 @@ void UBP_ChatBox_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonPressedE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ChatBox.BP_ChatBox_C.ExecuteUbergraph_BP_ChatBox
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.SetNavBarVisibility
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_MainMenu_C::SetNavBarVisibility(UMG_ESlateVisibility InVisibility)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Request Sub Tab Navigation
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_MainMenu_C::Request_Sub_Tab_Navigation(int Direction)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Init Nav Struct
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -80,7 +80,7 @@ void UBP_MainMenu_C::Init_Nav_Struct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Get_ReturnButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -102,7 +102,7 @@ UMG_ESlateVisibility UBP_MainMenu_C::Get_ReturnButton_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.IsMenuContentWidgetVisible
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -127,7 +127,7 @@ void UBP_MainMenu_C::IsMenuContentWidgetVisible(class UBP_MenuContentWidget_C* W
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Request Main Navigation
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -148,7 +148,7 @@ void UBP_MainMenu_C::Request_Main_Navigation(int Direction)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Get_ArmorySubNav_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -170,7 +170,7 @@ UMG_ESlateVisibility UBP_MainMenu_C::Get_ArmorySubNav_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.AskHUDToHideUs
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -189,7 +189,7 @@ void UBP_MainMenu_C::AskHUDToHideUs()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.HideErrorDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::HideErrorDialog()
@@ -207,7 +207,7 @@ void UBP_MainMenu_C::HideErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowErrorDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -228,7 +228,7 @@ void UBP_MainMenu_C::ShowErrorDialog(const struct FText& ErrorMessage)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.CreateErrorDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -247,7 +247,7 @@ void UBP_MainMenu_C::CreateErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.HideQuitMatchDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::HideQuitMatchDialog()
@@ -265,7 +265,7 @@ void UBP_MainMenu_C::HideQuitMatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowQuitMatchDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -284,7 +284,7 @@ void UBP_MainMenu_C::ShowQuitMatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.CreateQuitMatchDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -303,7 +303,7 @@ void UBP_MainMenu_C::CreateQuitMatchDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.QuitGame
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::QuitGame()
@@ -321,7 +321,7 @@ void UBP_MainMenu_C::QuitGame()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.HideQuitGameDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::HideQuitGameDialog()
@@ -339,7 +339,7 @@ void UBP_MainMenu_C::HideQuitGameDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowQuitGameDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -358,7 +358,7 @@ void UBP_MainMenu_C::ShowQuitGameDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.CreateQuitGameDialog
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -377,7 +377,7 @@ void UBP_MainMenu_C::CreateQuitGameDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.OnPreviewKeyDown
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -403,7 +403,7 @@ struct FEventReply UBP_MainMenu_C::OnPreviewKeyDown(const struct FGeometry& MyGe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.SetContentWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -424,7 +424,7 @@ void UBP_MainMenu_C::SetContentWidget(class UBP_MenuContentWidget_C* NewWidget)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.UpdateNavAndSubNavButtons
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -443,7 +443,7 @@ void UBP_MainMenu_C::UpdateNavAndSubNavButtons()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.CleanUpCustomization
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -462,7 +462,7 @@ void UBP_MainMenu_C::CleanUpCustomization()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Show
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -483,7 +483,7 @@ void UBP_MainMenu_C::Show(TEnumAsByte<E_ArmoryStates_E_ArmoryStates> Armory_Stat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Hide
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -502,7 +502,7 @@ void UBP_MainMenu_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.OnFailure_03195FFE4CF4F9BC52C6D0A8D1D5E5E7
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::OnFailure_03195FFE4CF4F9BC52C6D0A8D1D5E5E7()
@@ -520,7 +520,7 @@ void UBP_MainMenu_C::OnFailure_03195FFE4CF4F9BC52C6D0A8D1D5E5E7()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.OnSuccess_03195FFE4CF4F9BC52C6D0A8D1D5E5E7
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::OnSuccess_03195FFE4CF4F9BC52C6D0A8D1D5E5E7()
@@ -538,7 +538,7 @@ void UBP_MainMenu_C::OnSuccess_03195FFE4CF4F9BC52C6D0A8D1D5E5E7()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.OnShow
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -559,7 +559,7 @@ void UBP_MainMenu_C::OnShow(TEnumAsByte<E_ArmoryStates_E_ArmoryStates> Armory_St
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_MainMenu_C::Construct()
@@ -577,7 +577,7 @@ void UBP_MainMenu_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__SettingsButton_K2Node_ComponentBoundEvent_821_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__SettingsButton_K2Node_ComponentBoundEvent_821_OnClick__DelegateSignature()
@@ -595,7 +595,7 @@ void UBP_MainMenu_C::BndEvt__SettingsButton_K2Node_ComponentBoundEvent_821_OnCli
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ArmoryButton_K2Node_ComponentBoundEvent_833_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ArmoryButton_K2Node_ComponentBoundEvent_833_OnClick__DelegateSignature()
@@ -613,7 +613,7 @@ void UBP_MainMenu_C::BndEvt__ArmoryButton_K2Node_ComponentBoundEvent_833_OnClick
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__QuitButton_K2Node_ComponentBoundEvent_845_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__QuitButton_K2Node_ComponentBoundEvent_845_OnClick__DelegateSignature()
@@ -631,7 +631,7 @@ void UBP_MainMenu_C::BndEvt__QuitButton_K2Node_ComponentBoundEvent_845_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__GameButton_K2Node_ComponentBoundEvent_857_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__GameButton_K2Node_ComponentBoundEvent_857_OnClick__DelegateSignature()
@@ -649,7 +649,7 @@ void UBP_MainMenu_C::BndEvt__GameButton_K2Node_ComponentBoundEvent_857_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ControlsButton_K2Node_ComponentBoundEvent_879_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ControlsButton_K2Node_ComponentBoundEvent_879_OnClick__DelegateSignature()
@@ -667,7 +667,7 @@ void UBP_MainMenu_C::BndEvt__ControlsButton_K2Node_ComponentBoundEvent_879_OnCli
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__PlayButton_K2Node_ComponentBoundEvent_17_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__PlayButton_K2Node_ComponentBoundEvent_17_OnClick__DelegateSignature()
@@ -685,7 +685,7 @@ void UBP_MainMenu_C::BndEvt__PlayButton_K2Node_ComponentBoundEvent_17_OnClick__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ServerBrowserButton_K2Node_ComponentBoundEvent_116_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ServerBrowserButton_K2Node_ComponentBoundEvent_116_OnClick__DelegateSignature()
@@ -703,7 +703,7 @@ void UBP_MainMenu_C::BndEvt__ServerBrowserButton_K2Node_ComponentBoundEvent_116_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__VideoButton_K2Node_ComponentBoundEvent_74_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__VideoButton_K2Node_ComponentBoundEvent_74_OnClick__DelegateSignature()
@@ -721,7 +721,7 @@ void UBP_MainMenu_C::BndEvt__VideoButton_K2Node_ComponentBoundEvent_74_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__AudioButton_K2Node_ComponentBoundEvent_55_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__AudioButton_K2Node_ComponentBoundEvent_55_OnClick__DelegateSignature()
@@ -739,7 +739,7 @@ void UBP_MainMenu_C::BndEvt__AudioButton_K2Node_ComponentBoundEvent_55_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__HomeButton_K2Node_ComponentBoundEvent_425_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__HomeButton_K2Node_ComponentBoundEvent_425_OnClick__DelegateSignature()
@@ -757,7 +757,7 @@ void UBP_MainMenu_C::BndEvt__HomeButton_K2Node_ComponentBoundEvent_425_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__LocalGameButton_K2Node_ComponentBoundEvent_124_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__LocalGameButton_K2Node_ComponentBoundEvent_124_OnClick__DelegateSignature()
@@ -775,7 +775,7 @@ void UBP_MainMenu_C::BndEvt__LocalGameButton_K2Node_ComponentBoundEvent_124_OnCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__KeyBindingsButton_K2Node_ComponentBoundEvent_111_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__KeyBindingsButton_K2Node_ComponentBoundEvent_111_OnClick__DelegateSignature()
@@ -793,7 +793,7 @@ void UBP_MainMenu_C::BndEvt__KeyBindingsButton_K2Node_ComponentBoundEvent_111_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.QuitMatch
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::QuitMatch()
@@ -811,7 +811,7 @@ void UBP_MainMenu_C::QuitMatch()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnClick__DelegateSignature()
@@ -829,7 +829,7 @@ void UBP_MainMenu_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ProgressButton_K2Node_ComponentBoundEvent_1_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ProgressButton_K2Node_ComponentBoundEvent_1_OnClick__DelegateSignature()
@@ -847,7 +847,7 @@ void UBP_MainMenu_C::BndEvt__ProgressButton_K2Node_ComponentBoundEvent_1_OnClick
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__StatsButton_K2Node_ComponentBoundEvent_2_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__StatsButton_K2Node_ComponentBoundEvent_2_OnClick__DelegateSignature()
@@ -865,7 +865,7 @@ void UBP_MainMenu_C::BndEvt__StatsButton_K2Node_ComponentBoundEvent_2_OnClick__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__CreditsButton_K2Node_ComponentBoundEvent_3_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__CreditsButton_K2Node_ComponentBoundEvent_3_OnClick__DelegateSignature()
@@ -883,7 +883,7 @@ void UBP_MainMenu_C::BndEvt__CreditsButton_K2Node_ComponentBoundEvent_3_OnClick_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__MiscButton_K2Node_ComponentBoundEvent_4_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__MiscButton_K2Node_ComponentBoundEvent_4_OnClick__DelegateSignature()
@@ -901,7 +901,7 @@ void UBP_MainMenu_C::BndEvt__MiscButton_K2Node_ComponentBoundEvent_4_OnClick__De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__SocialButton_K2Node_ComponentBoundEvent_5_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__SocialButton_K2Node_ComponentBoundEvent_5_OnClick__DelegateSignature()
@@ -919,7 +919,7 @@ void UBP_MainMenu_C::BndEvt__SocialButton_K2Node_ComponentBoundEvent_5_OnClick__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__MatchmakingButton_K2Node_ComponentBoundEvent_6_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__MatchmakingButton_K2Node_ComponentBoundEvent_6_OnClick__DelegateSignature()
@@ -937,7 +937,7 @@ void UBP_MainMenu_C::BndEvt__MatchmakingButton_K2Node_ComponentBoundEvent_6_OnCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__HordeBRButton_K2Node_ComponentBoundEvent_8_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__HordeBRButton_K2Node_ComponentBoundEvent_8_OnClick__DelegateSignature()
@@ -955,7 +955,7 @@ void UBP_MainMenu_C::BndEvt__HordeBRButton_K2Node_ComponentBoundEvent_8_OnClick_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -978,7 +978,7 @@ void UBP_MainMenu_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.GoToMatchMaking
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::GoToMatchMaking()
@@ -996,7 +996,7 @@ void UBP_MainMenu_C::GoToMatchMaking()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__TrainingButton_K2Node_ComponentBoundEvent_9_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__TrainingButton_K2Node_ComponentBoundEvent_9_OnClick__DelegateSignature()
@@ -1014,7 +1014,7 @@ void UBP_MainMenu_C::BndEvt__TrainingButton_K2Node_ComponentBoundEvent_9_OnClick
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ModsButton_K2Node_ComponentBoundEvent_10_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ModsButton_K2Node_ComponentBoundEvent_10_OnClick__DelegateSignature()
@@ -1032,7 +1032,7 @@ void UBP_MainMenu_C::BndEvt__ModsButton_K2Node_ComponentBoundEvent_10_OnClick__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowNotConnectedErrorDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::ShowNotConnectedErrorDialog()
@@ -1050,7 +1050,7 @@ void UBP_MainMenu_C::ShowNotConnectedErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ReturnButton_K2Node_ComponentBoundEvent_12_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ReturnButton_K2Node_ComponentBoundEvent_12_OnClick__DelegateSignature()
@@ -1068,7 +1068,7 @@ void UBP_MainMenu_C::BndEvt__ReturnButton_K2Node_ComponentBoundEvent_12_OnClick_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__ScoreboardButton_K2Node_ComponentBoundEvent_13_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__ScoreboardButton_K2Node_ComponentBoundEvent_13_OnClick__DelegateSignature()
@@ -1086,7 +1086,7 @@ void UBP_MainMenu_C::BndEvt__ScoreboardButton_K2Node_ComponentBoundEvent_13_OnCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__HomeSubNavButton_K2Node_ComponentBoundEvent_14_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__HomeSubNavButton_K2Node_ComponentBoundEvent_14_OnClick__DelegateSignature()
@@ -1104,7 +1104,7 @@ void UBP_MainMenu_C::BndEvt__HomeSubNavButton_K2Node_ComponentBoundEvent_14_OnCl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowMainMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1125,7 +1125,7 @@ void UBP_MainMenu_C::ShowMainMenu(TEnumAsByte<E_ArmoryStates_E_ArmoryStates> Arm
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.HideMainMenu
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::HideMainMenu()
@@ -1143,7 +1143,7 @@ void UBP_MainMenu_C::HideMainMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Show Menu Scoreboard
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Show_Menu_Scoreboard()
@@ -1161,7 +1161,7 @@ void UBP_MainMenu_C::Show_Menu_Scoreboard()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.SelectPlayTab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::SelectPlayTab()
@@ -1179,7 +1179,7 @@ void UBP_MainMenu_C::SelectPlayTab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.SelectSettingsTab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::SelectSettingsTab()
@@ -1197,7 +1197,7 @@ void UBP_MainMenu_C::SelectSettingsTab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Select Home Tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Select_Home_Tab()
@@ -1215,7 +1215,7 @@ void UBP_MainMenu_C::Select_Home_Tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Select Armory Tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Select_Armory_Tab()
@@ -1233,7 +1233,7 @@ void UBP_MainMenu_C::Select_Armory_Tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Select PlayerMenu Tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Select_PlayerMenu_Tab()
@@ -1251,7 +1251,7 @@ void UBP_MainMenu_C::Select_PlayerMenu_Tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Select Misc Tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Select_Misc_Tab()
@@ -1269,7 +1269,7 @@ void UBP_MainMenu_C::Select_Misc_Tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.Select Quit Tab
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::Select_Quit_Tab()
@@ -1287,7 +1287,7 @@ void UBP_MainMenu_C::Select_Quit_Tab()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.BndEvt__CustomizationButton_K2Node_ComponentBoundEvent_13_OnClick__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MainMenu_C::BndEvt__CustomizationButton_K2Node_ComponentBoundEvent_13_OnClick__DelegateSignature()
@@ -1305,7 +1305,7 @@ void UBP_MainMenu_C::BndEvt__CustomizationButton_K2Node_ComponentBoundEvent_13_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ShowOnlineBanErrorDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MainMenu_C::ShowOnlineBanErrorDialog()
@@ -1323,7 +1323,7 @@ void UBP_MainMenu_C::ShowOnlineBanErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MainMenu.BP_MainMenu_C.ExecuteUbergraph_BP_MainMenu
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

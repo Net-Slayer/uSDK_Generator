@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.UpdateValue
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void ABP_LocalCooldownInteractable_C::UpdateValue()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -62,7 +62,7 @@ bool ABP_LocalCooldownInteractable_C::CanInteract(class AMordhauCharacter* Chara
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -83,7 +83,7 @@ void ABP_LocalCooldownInteractable_C::OnInteractionStart(class AMordhauCharacter
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.AvailableInteractionStart
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -104,7 +104,7 @@ void ABP_LocalCooldownInteractable_C::AvailableInteractionStart(class AMordhauCh
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.NotAvailableInteractionStart
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -125,7 +125,7 @@ void ABP_LocalCooldownInteractable_C::NotAvailableInteractionStart(class AMordha
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.Depleted
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_LocalCooldownInteractable_C::Depleted()
@@ -143,7 +143,7 @@ void ABP_LocalCooldownInteractable_C::Depleted()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.Refilled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_LocalCooldownInteractable_C::Refilled()
@@ -161,7 +161,7 @@ void ABP_LocalCooldownInteractable_C::Refilled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.Deplete
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -182,7 +182,7 @@ void ABP_LocalCooldownInteractable_C::Deplete(class APlayerState* PlayerState)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.PopCooldown
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_LocalCooldownInteractable_C::PopCooldown()
@@ -200,7 +200,7 @@ void ABP_LocalCooldownInteractable_C::PopCooldown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LocalCooldownInteractable.BP_LocalCooldownInteractable_C.ExecuteUbergraph_BP_LocalCooldownInteractable
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

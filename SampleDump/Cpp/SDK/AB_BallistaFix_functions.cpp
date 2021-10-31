@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.AnimGraph
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UAB_BallistaFix_C::AnimGraph(struct FPoseLink* AnimGraph)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.ConvertWeaponStateToBallistaState
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +67,7 @@ void UAB_BallistaFix_C::ConvertWeaponStateToBallistaState(int WeaponState, int* 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_3E29D7084497949F76E9F5918AF91DDC
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_3E29D7084497949F76E9F5918AF91DDC()
@@ -85,7 +85,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_29B281684D28C7AF35CCA0B944D2E0DD
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_29B281684D28C7AF35CCA0B944D2E0DD()
@@ -103,7 +103,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_E274503849BC207BAA7C548DFD4347B1
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_E274503849BC207BAA7C548DFD4347B1()
@@ -121,7 +121,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_SequencePlayer_3CCE4D93491F6E806F32E1926BBFB355
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_SequencePlayer_3CCE4D93491F6E806F32E1926BBFB355()
@@ -139,7 +139,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_CA8A52954199C3DE488FC5B003D5BE99
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_CA8A52954199C3DE488FC5B003D5BE99()
@@ -157,7 +157,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_09BD16F548497D6A319D8E8D55BD1BEB
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_09BD16F548497D6A319D8E8D55BD1BEB()
@@ -175,7 +175,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_7BA49A1B438B3F96C4D37E80AFBE0D9C
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_7BA49A1B438B3F96C4D37E80AFBE0D9C()
@@ -193,7 +193,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_DAB5C4564263778DC95EE09EF85BDA6B
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_ModifyBone_DAB5C4564263778DC95EE09EF85BDA6B()
@@ -211,7 +211,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_33EE963C4FA311C985F8BA888A857377
 //		Flags  -> (BlueprintEvent)
 void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaFix_AnimGraphNode_TransitionResult_33EE963C4FA311C985F8BA888A857377()
@@ -229,7 +229,7 @@ void UAB_BallistaFix_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AB_BallistaF
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.BlueprintUpdateAnimation
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -250,7 +250,7 @@ void UAB_BallistaFix_C::BlueprintUpdateAnimation(float DeltaTimeX)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.BlueprintBeginPlay
 //		Flags  -> (Event, Public, BlueprintEvent)
 void UAB_BallistaFix_C::BlueprintBeginPlay()
@@ -268,7 +268,7 @@ void UAB_BallistaFix_C::BlueprintBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AB_BallistaFix.AB_BallistaFix_C.ExecuteUbergraph_AB_BallistaFix
 //		Flags  -> (Final)
 // Parameters:

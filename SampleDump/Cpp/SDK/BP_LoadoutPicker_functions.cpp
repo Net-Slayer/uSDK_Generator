@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Get_Defaults_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_LoadoutPicker_C::Get_Defaults_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.GetDefaultOrCustomProfileFromSingleton
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -66,7 +66,7 @@ void UBP_LoadoutPicker_C::GetDefaultOrCustomProfileFromSingleton(int SelectedIdx
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.GetSelectedIDInCustomProfiles
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -89,7 +89,7 @@ void UBP_LoadoutPicker_C::GetSelectedIDInCustomProfiles(int* SelectedId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Set Spawn Loadout
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -114,7 +114,7 @@ void UBP_LoadoutPicker_C::Set_Spawn_Loadout(int ID, int* Selected_Character_Prof
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Move Entry
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -137,7 +137,7 @@ void UBP_LoadoutPicker_C::Move_Entry(int ID_to_move, int New_ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Remove Entry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -158,7 +158,7 @@ void UBP_LoadoutPicker_C::Remove_Entry(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Add Entry
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -179,7 +179,7 @@ void UBP_LoadoutPicker_C::Add_Entry(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Set Selected Entry
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -210,7 +210,7 @@ void UBP_LoadoutPicker_C::Set_Selected_Entry(int ID, int* Selected_ID, class UBP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Clear Entry Widgets
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -229,7 +229,7 @@ void UBP_LoadoutPicker_C::Clear_Entry_Widgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Generate Entry Widgets
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -248,7 +248,7 @@ void UBP_LoadoutPicker_C::Generate_Entry_Widgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.UpdateWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -267,7 +267,7 @@ void UBP_LoadoutPicker_C::UpdateWidget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.RegisterPreviewEvents
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_LoadoutPicker_C::RegisterPreviewEvents()
@@ -285,7 +285,7 @@ void UBP_LoadoutPicker_C::RegisterPreviewEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.OnDrag
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -306,7 +306,7 @@ void UBP_LoadoutPicker_C::OnDrag(float DeltaDistance)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.OnScroll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -327,7 +327,7 @@ void UBP_LoadoutPicker_C::OnScroll(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.UpdatePreviewDoll
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -348,7 +348,7 @@ void UBP_LoadoutPicker_C::UpdatePreviewDoll(const struct FCharacterProfile& New_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_LoadoutPicker_C::SetActive()
@@ -366,7 +366,7 @@ void UBP_LoadoutPicker_C::SetActive()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.OnClick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -389,7 +389,7 @@ void UBP_LoadoutPicker_C::OnClick(bool Listen_for_Double_Click, int Entry_Id)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.OnHover
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -410,7 +410,7 @@ void UBP_LoadoutPicker_C::OnHover(int Entry_Id)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -433,7 +433,7 @@ void UBP_LoadoutPicker_C::Tick(const struct FGeometry& MyGeometry, float InDelta
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_LoadoutPicker_C::Construct()
@@ -451,7 +451,7 @@ void UBP_LoadoutPicker_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.BndEvt__ToggleDefaultLoadouts_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_LoadoutPicker_C::BndEvt__ToggleDefaultLoadouts_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -469,7 +469,7 @@ void UBP_LoadoutPicker_C::BndEvt__ToggleDefaultLoadouts_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.ToggleShowDefaultLoadouts
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_LoadoutPicker_C::ToggleShowDefaultLoadouts()
@@ -487,7 +487,7 @@ void UBP_LoadoutPicker_C::ToggleShowDefaultLoadouts()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_LoadoutPicker.BP_LoadoutPicker_C.ExecuteUbergraph_BP_LoadoutPicker
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

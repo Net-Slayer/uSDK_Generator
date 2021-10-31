@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.Get_CloseButton_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_TwoTeamSelect_C::Get_CloseButton_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.GetText_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_TwoTeamSelect_C::GetText_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.GetText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_TwoTeamSelect_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -106,7 +106,7 @@ void UBP_TwoTeamSelect_C::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.BndEvt__SpectatorButton_K2Node_ComponentBoundEvent_184_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoTeamSelect_C::BndEvt__SpectatorButton_K2Node_ComponentBoundEvent_184_OnButtonClickedEvent__DelegateSignature()
@@ -124,7 +124,7 @@ void UBP_TwoTeamSelect_C::BndEvt__SpectatorButton_K2Node_ComponentBoundEvent_184
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.BndEvt__AutoAssignButton_K2Node_ComponentBoundEvent_204_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoTeamSelect_C::BndEvt__AutoAssignButton_K2Node_ComponentBoundEvent_204_OnButtonClickedEvent__DelegateSignature()
@@ -142,7 +142,7 @@ void UBP_TwoTeamSelect_C::BndEvt__AutoAssignButton_K2Node_ComponentBoundEvent_20
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TwoTeamSelect_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -160,7 +160,7 @@ void UBP_TwoTeamSelect_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_4_OnButton
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_TwoTeamSelect_C::Show()
@@ -178,7 +178,7 @@ void UBP_TwoTeamSelect_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TwoTeamSelect.BP_TwoTeamSelect_C.ExecuteUbergraph_BP_TwoTeamSelect
 //		Flags  -> (Final)
 // Parameters:

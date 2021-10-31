@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,12 +20,12 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_ThrownWeaponProjectile.BP_ThrownWeaponProjectile_C
-// 0x000C (FullSize[0x07D0] - InheritedSize[0x07C4])
+// 0x000C (FullSize[0x07E0] - InheritedSize[0x07D4])
 class ABP_ThrownWeaponProjectile_C : public ABP_MordhauProjectile_C
 {
 public:
-	unsigned char                                      UnknownData_JI6P[0x4];                                     // 0x07C4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x07C8(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
+	unsigned char                                      UnknownData_0BR3[0x4];                                     // 0x07D4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x07D8(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 
 
 	static UClass* StaticClass()

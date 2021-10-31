@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D09A90
+//		Offset -> 0x00D132C0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.SetMotionSourceForHand
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -46,7 +46,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_SetMotionSourceForHand(InputCor
 
 
 // Function:
-//		Offset -> 0x00D091C0
+//		Offset -> 0x00D129F0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.SetControllerTrackingMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -71,7 +71,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_SetControllerTrackingMode(Magic
 
 
 // Function:
-//		Offset -> 0x00D09950
+//		Offset -> 0x00D13180
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayLEDPattern
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -102,7 +102,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayLEDPattern(const struct FNa
 
 
 // Function:
-//		Offset -> 0x00D097A0
+//		Offset -> 0x00D12FD0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayLEDEffect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -137,7 +137,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayLEDEffect(const struct FNam
 
 
 // Function:
-//		Offset -> 0x00D096B0
+//		Offset -> 0x00D12EE0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayHapticPattern
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -166,7 +166,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayHapticPattern(const struct 
 
 
 // Function:
-//		Offset -> 0x00D09500
+//		Offset -> 0x00D12D30
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayControllerLEDEffect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -201,7 +201,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayControllerLEDEffect(InputCo
 
 
 // Function:
-//		Offset -> 0x00D093C0
+//		Offset -> 0x00D12BF0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayControllerLED
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -232,7 +232,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayControllerLED(InputCore_ECo
 
 
 // Function:
-//		Offset -> 0x00D092C0
+//		Offset -> 0x00D12AF0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.PlayControllerHapticFeedback
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -261,7 +261,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_PlayControllerHapticFeedback(In
 
 
 // Function:
-//		Offset -> 0x00CFAEF0
+//		Offset -> 0x00D04720
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.MaxSupportedMagicLeapControllers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -284,7 +284,7 @@ int UMagicLeapControllerFunctionLibrary::STATIC_MaxSupportedMagicLeapControllers
 
 
 // Function:
-//		Offset -> 0x00D090C0
+//		Offset -> 0x00D128F0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.IsMLControllerConnected
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -309,7 +309,7 @@ bool UMagicLeapControllerFunctionLibrary::STATIC_IsMLControllerConnected(const s
 
 
 // Function:
-//		Offset -> 0x0062E970
+//		Offset -> 0x006326D0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.InvertControllerMapping
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UMagicLeapControllerFunctionLibrary::STATIC_InvertControllerMapping()
@@ -328,7 +328,7 @@ void UMagicLeapControllerFunctionLibrary::STATIC_InvertControllerMapping()
 
 
 // Function:
-//		Offset -> 0x00D09240
+//		Offset -> 0x00D12A70
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetMotionSourceForHand
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -353,7 +353,7 @@ struct FName UMagicLeapControllerFunctionLibrary::STATIC_GetMotionSourceForHand(
 
 
 // Function:
-//		Offset -> 0x00D091C0
+//		Offset -> 0x00D129F0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetMLControllerType
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -378,7 +378,7 @@ MagicLeapController_EMagicLeapControllerType UMagicLeapControllerFunctionLibrary
 
 
 // Function:
-//		Offset -> 0x00D09140
+//		Offset -> 0x00D12970
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetHandForMotionSource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -403,7 +403,7 @@ InputCore_EControllerHand UMagicLeapControllerFunctionLibrary::STATIC_GetHandFor
 
 
 // Function:
-//		Offset -> 0x00D090C0
+//		Offset -> 0x00D128F0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetControllerType
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -428,7 +428,7 @@ MagicLeapController_EMagicLeapControllerType UMagicLeapControllerFunctionLibrary
 
 
 // Function:
-//		Offset -> 0x00D09090
+//		Offset -> 0x00D128C0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetControllerTrackingMode
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -451,7 +451,7 @@ MagicLeapController_EMagicLeapControllerTrackingMode UMagicLeapControllerFunctio
 
 
 // Function:
-//		Offset -> 0x00D08FC0
+//		Offset -> 0x00D127F0
 //		Name   -> Function MagicLeapController.MagicLeapControllerFunctionLibrary.GetControllerMapping
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:

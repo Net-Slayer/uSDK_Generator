@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D20880
+//		Offset -> 0x00D2A1A0
 //		Name   -> Function MagicLeapPrivileges.MagicLeapPrivilegesFunctionLibrary.RequestPrivilegeAsync
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -46,7 +46,7 @@ bool UMagicLeapPrivilegesFunctionLibrary::STATIC_RequestPrivilegeAsync(MagicLeap
 
 
 // Function:
-//		Offset -> 0x00D20800
+//		Offset -> 0x00D2A120
 //		Name   -> Function MagicLeapPrivileges.MagicLeapPrivilegesFunctionLibrary.RequestPrivilege
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -71,7 +71,7 @@ bool UMagicLeapPrivilegesFunctionLibrary::STATIC_RequestPrivilege(MagicLeapPrivi
 
 
 // Function:
-//		Offset -> 0x00D20800
+//		Offset -> 0x00D2A120
 //		Name   -> Function MagicLeapPrivileges.MagicLeapPrivilegesFunctionLibrary.CheckPrivilege
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

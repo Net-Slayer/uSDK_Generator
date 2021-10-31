@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.DoEmote
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_EmoteMenu_C::DoEmote(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.OptionChosen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_EmoteMenu_C::OptionChosen(int Choice)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_EmoteMenu_C::Show()
@@ -79,7 +79,7 @@ void UBP_EmoteMenu_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -102,7 +102,7 @@ void UBP_EmoteMenu_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.RebuildEmoteList
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EmoteMenu_C::RebuildEmoteList()
@@ -120,7 +120,7 @@ void UBP_EmoteMenu_C::RebuildEmoteList()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EmoteMenu.BP_EmoteMenu_C.ExecuteUbergraph_BP_EmoteMenu
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -23,7 +23,7 @@ namespace CG
 // 0x0020
 struct FWebJSCallbackBase
 {
-	unsigned char                                      UnknownData_LSSU[0x20];                                    // 0x0000(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_554R[0x20];                                    // 0x0000(0x0020) MISSED OFFSET (PADDING)
 
 };
 

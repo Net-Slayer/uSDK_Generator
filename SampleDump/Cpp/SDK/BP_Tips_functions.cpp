@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Get_TeamTip_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_Tips_C::Get_TeamTip_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Get_LoadoutTip_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_Tips_C::Get_LoadoutTip_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Get_TeamTip_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_Tips_C::Get_TeamTip_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Get_LoadoutTip_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FText UBP_Tips_C::Get_LoadoutTip_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Tips_C::Show()
@@ -125,7 +125,7 @@ void UBP_Tips_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_Tips_C::Construct()
@@ -143,7 +143,7 @@ void UBP_Tips_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.WidgetAnimationEvt_Blink_K2Node_WidgetAnimationEvent_1
 //		Flags  -> (BlueprintEvent)
 void UBP_Tips_C::WidgetAnimationEvt_Blink_K2Node_WidgetAnimationEvent_1()
@@ -161,7 +161,7 @@ void UBP_Tips_C::WidgetAnimationEvt_Blink_K2Node_WidgetAnimationEvent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Tips.BP_Tips_C.ExecuteUbergraph_BP_Tips
 //		Flags  -> (Final)
 // Parameters:

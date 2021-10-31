@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0244BB30
+//		Offset -> 0x024570B0
 //		Name   -> Function UMG.Widget.SetVisibility
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UWidget::SetVisibility(UMG_ESlateVisibility InVisibility)
 
 
 // Function:
-//		Offset -> 0x0244B910
+//		Offset -> 0x02456E90
 //		Name   -> Function UMG.Widget.SetUserFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ void UWidget::SetUserFocus(class APlayerController* PlayerController)
 
 
 // Function:
-//		Offset -> 0x0244B840
+//		Offset -> 0x02456DC0
 //		Name   -> Function UMG.Widget.SetToolTipText
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -85,7 +85,7 @@ void UWidget::SetToolTipText(const struct FText& InToolTipText)
 
 
 // Function:
-//		Offset -> 0x0244B7C0
+//		Offset -> 0x02456D40
 //		Name   -> Function UMG.Widget.SetToolTip
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -107,7 +107,7 @@ void UWidget::SetToolTip(class UWidget* Widget)
 
 
 // Function:
-//		Offset -> 0x0244B6B0
+//		Offset -> 0x02456C30
 //		Name   -> Function UMG.Widget.SetRenderTranslation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -129,7 +129,7 @@ void UWidget::SetRenderTranslation(const struct FVector2D& Translation)
 
 
 // Function:
-//		Offset -> 0x0244B630
+//		Offset -> 0x02456BB0
 //		Name   -> Function UMG.Widget.SetRenderTransformPivot
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -151,7 +151,7 @@ void UWidget::SetRenderTransformPivot(const struct FVector2D& Pivot)
 
 
 // Function:
-//		Offset -> 0x0244B5B0
+//		Offset -> 0x02456B30
 //		Name   -> Function UMG.Widget.SetRenderTransformAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -173,7 +173,7 @@ void UWidget::SetRenderTransformAngle(float Angle)
 
 
 // Function:
-//		Offset -> 0x0244B4D0
+//		Offset -> 0x02456A50
 //		Name   -> Function UMG.Widget.SetRenderTransform
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -195,7 +195,7 @@ void UWidget::SetRenderTransform(const struct FWidgetTransform& InTransform)
 
 
 // Function:
-//		Offset -> 0x0244B450
+//		Offset -> 0x024569D0
 //		Name   -> Function UMG.Widget.SetRenderShear
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -217,7 +217,7 @@ void UWidget::SetRenderShear(const struct FVector2D& Shear)
 
 
 // Function:
-//		Offset -> 0x0244B3D0
+//		Offset -> 0x02456950
 //		Name   -> Function UMG.Widget.SetRenderScale
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -239,7 +239,7 @@ void UWidget::SetRenderScale(const struct FVector2D& Scale)
 
 
 // Function:
-//		Offset -> 0x0244B350
+//		Offset -> 0x024568D0
 //		Name   -> Function UMG.Widget.SetRenderOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -261,7 +261,7 @@ void UWidget::SetRenderOpacity(float InOpacity)
 
 
 // Function:
-//		Offset -> 0x0244B200
+//		Offset -> 0x02456780
 //		Name   -> Function UMG.Widget.SetNavigationRuleExplicit
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -285,7 +285,7 @@ void UWidget::SetNavigationRuleExplicit(SlateCore_EUINavigation Direction, class
 
 
 // Function:
-//		Offset -> 0x0244B120
+//		Offset -> 0x024566A0
 //		Name   -> Function UMG.Widget.SetNavigationRuleCustomBoundary
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -309,7 +309,7 @@ void UWidget::SetNavigationRuleCustomBoundary(SlateCore_EUINavigation Direction,
 
 
 // Function:
-//		Offset -> 0x0244B040
+//		Offset -> 0x024565C0
 //		Name   -> Function UMG.Widget.SetNavigationRuleCustom
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -333,7 +333,7 @@ void UWidget::SetNavigationRuleCustom(SlateCore_EUINavigation Direction, const s
 
 
 // Function:
-//		Offset -> 0x0244AF80
+//		Offset -> 0x02456500
 //		Name   -> Function UMG.Widget.SetNavigationRuleBase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -357,7 +357,7 @@ void UWidget::SetNavigationRuleBase(SlateCore_EUINavigation Direction, SlateCore
 
 
 // Function:
-//		Offset -> 0x0244AE70
+//		Offset -> 0x024563F0
 //		Name   -> Function UMG.Widget.SetNavigationRule
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -383,7 +383,7 @@ void UWidget::SetNavigationRule(SlateCore_EUINavigation Direction, SlateCore_EUI
 
 
 // Function:
-//		Offset -> 0x0244AE50
+//		Offset -> 0x024563D0
 //		Name   -> Function UMG.Widget.SetKeyboardFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UWidget::SetKeyboardFocus()
@@ -402,7 +402,7 @@ void UWidget::SetKeyboardFocus()
 
 
 // Function:
-//		Offset -> 0x0244ADC0
+//		Offset -> 0x02456340
 //		Name   -> Function UMG.Widget.SetIsEnabled
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -424,7 +424,7 @@ void UWidget::SetIsEnabled(bool bInIsEnabled)
 
 
 // Function:
-//		Offset -> 0x0244AD20
+//		Offset -> 0x024562A0
 //		Name   -> Function UMG.Widget.SetFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UWidget::SetFocus()
@@ -443,7 +443,7 @@ void UWidget::SetFocus()
 
 
 // Function:
-//		Offset -> 0x0244ACA0
+//		Offset -> 0x02456220
 //		Name   -> Function UMG.Widget.SetCursor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -465,7 +465,7 @@ void UWidget::SetCursor(TEnumAsByte<CoreUObject_EMouseCursor> InCursor)
 
 
 // Function:
-//		Offset -> 0x0244AC20
+//		Offset -> 0x024561A0
 //		Name   -> Function UMG.Widget.SetClipping
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -487,7 +487,7 @@ void UWidget::SetClipping(SlateCore_EWidgetClipping InClipping)
 
 
 // Function:
-//		Offset -> 0x0244AB60
+//		Offset -> 0x024560E0
 //		Name   -> Function UMG.Widget.SetAllNavigationRules
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -511,7 +511,7 @@ void UWidget::SetAllNavigationRules(SlateCore_EUINavigationRule Rule, const stru
 
 
 // Function:
-//		Offset -> 0x0244AB40
+//		Offset -> 0x024560C0
 //		Name   -> Function UMG.Widget.ResetCursor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UWidget::ResetCursor()
@@ -530,7 +530,7 @@ void UWidget::ResetCursor()
 
 
 // Function:
-//		Offset -> 0x010B7A40
+//		Offset -> 0x010C7DB0
 //		Name   -> Function UMG.Widget.RemoveFromParent
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UWidget::RemoveFromParent()
@@ -549,7 +549,7 @@ void UWidget::RemoveFromParent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.OnReply__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -571,7 +571,7 @@ struct FEventReply UWidget::OnReply__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.OnPointerEvent__DelegateSignature
 //		Flags  -> (Public, Delegate, HasOutParms)
 // Parameters:
@@ -597,7 +597,7 @@ struct FEventReply UWidget::OnPointerEvent__DelegateSignature(const struct FGeom
 
 
 // Function:
-//		Offset -> 0x0244AB10
+//		Offset -> 0x02456090
 //		Name   -> Function UMG.Widget.IsVisible
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -620,7 +620,7 @@ bool UWidget::IsVisible()
 
 
 // Function:
-//		Offset -> 0x01FB91C0
+//		Offset -> 0x01FC2770
 //		Name   -> Function UMG.Widget.IsHovered
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -643,7 +643,7 @@ bool UWidget::IsHovered()
 
 
 // Function:
-//		Offset -> 0x0244AAF0
+//		Offset -> 0x02456070
 //		Name   -> Function UMG.Widget.InvalidateLayoutAndVolatility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UWidget::InvalidateLayoutAndVolatility()
@@ -662,7 +662,7 @@ void UWidget::InvalidateLayoutAndVolatility()
 
 
 // Function:
-//		Offset -> 0x0244AA60
+//		Offset -> 0x02455FE0
 //		Name   -> Function UMG.Widget.HasUserFocusedDescendants
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -687,7 +687,7 @@ bool UWidget::HasUserFocusedDescendants(class APlayerController* PlayerControlle
 
 
 // Function:
-//		Offset -> 0x0244A9D0
+//		Offset -> 0x02455F50
 //		Name   -> Function UMG.Widget.HasUserFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -712,7 +712,7 @@ bool UWidget::HasUserFocus(class APlayerController* PlayerController)
 
 
 // Function:
-//		Offset -> 0x0244A910
+//		Offset -> 0x02455E90
 //		Name   -> Function UMG.Widget.HasMouseCaptureByUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -739,7 +739,7 @@ bool UWidget::HasMouseCaptureByUser(int UserIndex, int PointerIndex)
 
 
 // Function:
-//		Offset -> 0x0244A8E0
+//		Offset -> 0x02455E60
 //		Name   -> Function UMG.Widget.HasMouseCapture
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -762,7 +762,7 @@ bool UWidget::HasMouseCapture()
 
 
 // Function:
-//		Offset -> 0x0244A8B0
+//		Offset -> 0x02455E30
 //		Name   -> Function UMG.Widget.HasKeyboardFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -785,7 +785,7 @@ bool UWidget::HasKeyboardFocus()
 
 
 // Function:
-//		Offset -> 0x0244A880
+//		Offset -> 0x02455E00
 //		Name   -> Function UMG.Widget.HasFocusedDescendants
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -808,7 +808,7 @@ bool UWidget::HasFocusedDescendants()
 
 
 // Function:
-//		Offset -> 0x0244A850
+//		Offset -> 0x02455DD0
 //		Name   -> Function UMG.Widget.HasAnyUserFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -831,7 +831,7 @@ bool UWidget::HasAnyUserFocus()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetWidget__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -853,7 +853,7 @@ class UWidget* UWidget::GetWidget__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0244A820
+//		Offset -> 0x02455DA0
 //		Name   -> Function UMG.Widget.GetVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -876,7 +876,7 @@ UMG_ESlateVisibility UWidget::GetVisibility()
 
 
 // Function:
-//		Offset -> 0x0244A700
+//		Offset -> 0x02455C80
 //		Name   -> Function UMG.Widget.GetTickSpaceGeometry
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -899,7 +899,7 @@ struct FGeometry UWidget::GetTickSpaceGeometry()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetText__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -921,7 +921,7 @@ struct FText UWidget::GetText__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetSlateVisibility__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -943,7 +943,7 @@ UMG_ESlateVisibility UWidget::GetSlateVisibility__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetSlateColor__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -965,7 +965,7 @@ struct FSlateColor UWidget::GetSlateColor__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetSlateBrush__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -987,7 +987,7 @@ struct FSlateBrush UWidget::GetSlateBrush__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x010C9C40
+//		Offset -> 0x010DA170
 //		Name   -> Function UMG.Widget.GetRenderTransformAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1010,7 +1010,7 @@ float UWidget::GetRenderTransformAngle()
 
 
 // Function:
-//		Offset -> 0x0244A6A0
+//		Offset -> 0x02455C20
 //		Name   -> Function UMG.Widget.GetRenderOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1033,7 +1033,7 @@ float UWidget::GetRenderOpacity()
 
 
 // Function:
-//		Offset -> 0x0244A670
+//		Offset -> 0x02455BF0
 //		Name   -> Function UMG.Widget.GetParent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1056,7 +1056,7 @@ class UPanelWidget* UWidget::GetParent()
 
 
 // Function:
-//		Offset -> 0x0244A630
+//		Offset -> 0x02455BB0
 //		Name   -> Function UMG.Widget.GetPaintSpaceGeometry
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1079,7 +1079,7 @@ struct FGeometry UWidget::GetPaintSpaceGeometry()
 
 
 // Function:
-//		Offset -> 0x0244A600
+//		Offset -> 0x02455B80
 //		Name   -> Function UMG.Widget.GetOwningPlayer
 //		Flags  -> (BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1102,7 +1102,7 @@ class APlayerController* UWidget::GetOwningPlayer()
 
 
 // Function:
-//		Offset -> 0x0244A5D0
+//		Offset -> 0x02455B50
 //		Name   -> Function UMG.Widget.GetOwningLocalPlayer
 //		Flags  -> (BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1125,7 +1125,7 @@ class ULocalPlayer* UWidget::GetOwningLocalPlayer()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetMouseCursor__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1147,7 +1147,7 @@ TEnumAsByte<CoreUObject_EMouseCursor> UWidget::GetMouseCursor__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetLinearColor__DelegateSignature
 //		Flags  -> (Public, Delegate, HasDefaults)
 // Parameters:
@@ -1169,7 +1169,7 @@ struct FLinearColor UWidget::GetLinearColor__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0244A5A0
+//		Offset -> 0x02455B20
 //		Name   -> Function UMG.Widget.GetIsEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1192,7 +1192,7 @@ bool UWidget::GetIsEnabled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetInt32__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1214,7 +1214,7 @@ int UWidget::GetInt32__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0244A570
+//		Offset -> 0x02455AF0
 //		Name   -> Function UMG.Widget.GetGameInstance
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1237,7 +1237,7 @@ class UGameInstance* UWidget::GetGameInstance()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetFloat__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1259,7 +1259,7 @@ float UWidget::GetFloat__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0244A500
+//		Offset -> 0x02455A80
 //		Name   -> Function UMG.Widget.GetDesiredSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1282,7 +1282,7 @@ struct FVector2D UWidget::GetDesiredSize()
 
 
 // Function:
-//		Offset -> 0x0244A4D0
+//		Offset -> 0x02455A50
 //		Name   -> Function UMG.Widget.GetClipping
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1305,7 +1305,7 @@ SlateCore_EWidgetClipping UWidget::GetClipping()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetCheckBoxState__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1327,7 +1327,7 @@ SlateCore_ECheckBoxState UWidget::GetCheckBoxState__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0244A490
+//		Offset -> 0x02455A10
 //		Name   -> Function UMG.Widget.GetCachedGeometry
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1350,7 +1350,7 @@ struct FGeometry UWidget::GetCachedGeometry()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GetBool__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1372,7 +1372,7 @@ bool UWidget::GetBool__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GenerateWidgetForString__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1396,7 +1396,7 @@ class UWidget* UWidget::GenerateWidgetForString__DelegateSignature(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.Widget.GenerateWidgetForObject__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -1420,7 +1420,7 @@ class UWidget* UWidget::GenerateWidgetForObject__DelegateSignature(class UObject
 
 
 // Function:
-//		Offset -> 0x0244A400
+//		Offset -> 0x02455980
 //		Name   -> Function UMG.Widget.ForceVolatile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1442,7 +1442,7 @@ void UWidget::ForceVolatile(bool bForce)
 
 
 // Function:
-//		Offset -> 0x0244A3E0
+//		Offset -> 0x02455960
 //		Name   -> Function UMG.Widget.ForceLayoutPrepass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UWidget::ForceLayoutPrepass()
@@ -1461,7 +1461,7 @@ void UWidget::ForceLayoutPrepass()
 
 
 // Function:
-//		Offset -> 0x02448530
+//		Offset -> 0x02453AB0
 //		Name   -> Function UMG.UserWidget.UnregisterInputComponent
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 void UUserWidget::UnregisterInputComponent()
@@ -1480,7 +1480,7 @@ void UUserWidget::UnregisterInputComponent()
 
 
 // Function:
-//		Offset -> 0x02448450
+//		Offset -> 0x024539D0
 //		Name   -> Function UMG.UserWidget.UnbindFromAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1504,7 +1504,7 @@ void UUserWidget::UnbindFromAnimationStarted(class UWidgetAnimation* Animation, 
 
 
 // Function:
-//		Offset -> 0x02448370
+//		Offset -> 0x024538F0
 //		Name   -> Function UMG.UserWidget.UnbindFromAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1528,7 +1528,7 @@ void UUserWidget::UnbindFromAnimationFinished(class UWidgetAnimation* Animation,
 
 
 // Function:
-//		Offset -> 0x024482F0
+//		Offset -> 0x02453870
 //		Name   -> Function UMG.UserWidget.UnbindAllFromAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1550,7 +1550,7 @@ void UUserWidget::UnbindAllFromAnimationStarted(class UWidgetAnimation* Animatio
 
 
 // Function:
-//		Offset -> 0x02448270
+//		Offset -> 0x024537F0
 //		Name   -> Function UMG.UserWidget.UnbindAllFromAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1572,7 +1572,7 @@ void UUserWidget::UnbindAllFromAnimationFinished(class UWidgetAnimation* Animati
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -1595,7 +1595,7 @@ void UUserWidget::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 
 // Function:
-//		Offset -> 0x024481B0
+//		Offset -> 0x02453730
 //		Name   -> Function UMG.UserWidget.StopListeningForInputAction
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -1619,7 +1619,7 @@ void UUserWidget::StopListeningForInputAction(const struct FName& ActionName, TE
 
 
 // Function:
-//		Offset -> 0x02448190
+//		Offset -> 0x02453710
 //		Name   -> Function UMG.UserWidget.StopListeningForAllInputActions
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 void UUserWidget::StopListeningForAllInputActions()
@@ -1638,7 +1638,7 @@ void UUserWidget::StopListeningForAllInputActions()
 
 
 // Function:
-//		Offset -> 0x02448170
+//		Offset -> 0x024536F0
 //		Name   -> Function UMG.UserWidget.StopAnimationsAndLatentActions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UUserWidget::StopAnimationsAndLatentActions()
@@ -1657,7 +1657,7 @@ void UUserWidget::StopAnimationsAndLatentActions()
 
 
 // Function:
-//		Offset -> 0x024480F0
+//		Offset -> 0x02453670
 //		Name   -> Function UMG.UserWidget.StopAnimation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1679,7 +1679,7 @@ void UUserWidget::StopAnimation(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x024480D0
+//		Offset -> 0x02453650
 //		Name   -> Function UMG.UserWidget.StopAllAnimations
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UUserWidget::StopAllAnimations()
@@ -1698,7 +1698,7 @@ void UUserWidget::StopAllAnimations()
 
 
 // Function:
-//		Offset -> 0x02447E00
+//		Offset -> 0x02453380
 //		Name   -> Function UMG.UserWidget.SetPositionInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1722,7 +1722,7 @@ void UUserWidget::SetPositionInViewport(const struct FVector2D& Position, bool b
 
 
 // Function:
-//		Offset -> 0x02447D30
+//		Offset -> 0x024532B0
 //		Name   -> Function UMG.UserWidget.SetPlaybackSpeed
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1746,7 +1746,7 @@ void UUserWidget::SetPlaybackSpeed(class UWidgetAnimation* InAnimation, float Pl
 
 
 // Function:
-//		Offset -> 0x02447CA0
+//		Offset -> 0x02453220
 //		Name   -> Function UMG.UserWidget.SetPadding
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1768,7 +1768,7 @@ void UUserWidget::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x02447C20
+//		Offset -> 0x024531A0
 //		Name   -> Function UMG.UserWidget.SetOwningPlayer
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1790,7 +1790,7 @@ void UUserWidget::SetOwningPlayer(class APlayerController* LocalPlayerController
 
 
 // Function:
-//		Offset -> 0x02447B60
+//		Offset -> 0x024530E0
 //		Name   -> Function UMG.UserWidget.SetNumLoopsToPlay
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1814,7 +1814,7 @@ void UUserWidget::SetNumLoopsToPlay(class UWidgetAnimation* InAnimation, int Num
 
 
 // Function:
-//		Offset -> 0x024479E0
+//		Offset -> 0x02452F60
 //		Name   -> Function UMG.UserWidget.SetInputActionPriority
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -1836,7 +1836,7 @@ void UUserWidget::SetInputActionPriority(int NewPriority)
 
 
 // Function:
-//		Offset -> 0x02447950
+//		Offset -> 0x02452ED0
 //		Name   -> Function UMG.UserWidget.SetInputActionBlocking
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -1858,7 +1858,7 @@ void UUserWidget::SetInputActionBlocking(bool bShouldBlock)
 
 
 // Function:
-//		Offset -> 0x024477E0
+//		Offset -> 0x02452D60
 //		Name   -> Function UMG.UserWidget.SetForegroundColor
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1880,7 +1880,7 @@ void UUserWidget::SetForegroundColor(const struct FSlateColor& InForegroundColor
 
 
 // Function:
-//		Offset -> 0x02447760
+//		Offset -> 0x02452CE0
 //		Name   -> Function UMG.UserWidget.SetDesiredSizeInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1902,7 +1902,7 @@ void UUserWidget::SetDesiredSizeInViewport(const struct FVector2D& Size)
 
 
 // Function:
-//		Offset -> 0x02447660
+//		Offset -> 0x02452BE0
 //		Name   -> Function UMG.UserWidget.SetColorAndOpacity
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1924,7 +1924,7 @@ void UUserWidget::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacit
 
 
 // Function:
-//		Offset -> 0x024475D0
+//		Offset -> 0x02452B50
 //		Name   -> Function UMG.UserWidget.SetAnchorsInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1946,7 +1946,7 @@ void UUserWidget::SetAnchorsInViewport(const struct FAnchors& Anchors)
 
 
 // Function:
-//		Offset -> 0x02447550
+//		Offset -> 0x02452AD0
 //		Name   -> Function UMG.UserWidget.SetAlignmentInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1968,7 +1968,7 @@ void UUserWidget::SetAlignmentInViewport(const struct FVector2D& Alignment)
 
 
 // Function:
-//		Offset -> 0x024474D0
+//		Offset -> 0x02452A50
 //		Name   -> Function UMG.UserWidget.ReverseAnimation
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1990,7 +1990,7 @@ void UUserWidget::ReverseAnimation(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x024474B0
+//		Offset -> 0x02452A30
 //		Name   -> Function UMG.UserWidget.RemoveFromViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 void UUserWidget::RemoveFromViewport()
@@ -2009,7 +2009,7 @@ void UUserWidget::RemoveFromViewport()
 
 
 // Function:
-//		Offset -> 0x02447490
+//		Offset -> 0x02452A10
 //		Name   -> Function UMG.UserWidget.RegisterInputComponent
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 void UUserWidget::RegisterInputComponent()
@@ -2028,7 +2028,7 @@ void UUserWidget::RegisterInputComponent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2049,7 +2049,7 @@ void UUserWidget::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x02447410
+//		Offset -> 0x02452990
 //		Name   -> Function UMG.UserWidget.PlaySound
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2071,7 +2071,7 @@ void UUserWidget::PlaySound(class USoundBase* SoundToPlay)
 
 
 // Function:
-//		Offset -> 0x02447220
+//		Offset -> 0x024527A0
 //		Name   -> Function UMG.UserWidget.PlayAnimationTimeRange
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2108,7 +2108,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationTimeRange(class UWidgetAnima
 
 
 // Function:
-//		Offset -> 0x02447110
+//		Offset -> 0x02452690
 //		Name   -> Function UMG.UserWidget.PlayAnimationReverse
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2137,7 +2137,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationReverse(class UWidgetAnimati
 
 
 // Function:
-//		Offset -> 0x02447000
+//		Offset -> 0x02452580
 //		Name   -> Function UMG.UserWidget.PlayAnimationForward
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2166,7 +2166,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationForward(class UWidgetAnimati
 
 
 // Function:
-//		Offset -> 0x02446E40
+//		Offset -> 0x024523C0
 //		Name   -> Function UMG.UserWidget.PlayAnimation
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2201,7 +2201,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InA
 
 
 // Function:
-//		Offset -> 0x02446DA0
+//		Offset -> 0x02452320
 //		Name   -> Function UMG.UserWidget.PauseAnimation
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2226,7 +2226,7 @@ float UUserWidget::PauseAnimation(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnTouchStarted
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2252,7 +2252,7 @@ struct FEventReply UUserWidget::OnTouchStarted(const struct FGeometry& MyGeometr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnTouchMoved
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2278,7 +2278,7 @@ struct FEventReply UUserWidget::OnTouchMoved(const struct FGeometry& MyGeometry,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnTouchGesture
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2304,7 +2304,7 @@ struct FEventReply UUserWidget::OnTouchGesture(const struct FGeometry& MyGeometr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnTouchForceChanged
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2330,7 +2330,7 @@ struct FEventReply UUserWidget::OnTouchForceChanged(const struct FGeometry& MyGe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnTouchEnded
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2356,7 +2356,7 @@ struct FEventReply UUserWidget::OnTouchEnded(const struct FGeometry& MyGeometry,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnRemovedFromFocusPath
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2377,7 +2377,7 @@ void UUserWidget::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnPreviewMouseButtonDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2403,7 +2403,7 @@ struct FEventReply UUserWidget::OnPreviewMouseButtonDown(const struct FGeometry&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnPreviewKeyDown
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -2429,7 +2429,7 @@ struct FEventReply UUserWidget::OnPreviewKeyDown(const struct FGeometry& MyGeome
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnPaint
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent, Const)
 // Parameters:
@@ -2452,7 +2452,7 @@ void UUserWidget::OnPaint(struct FPaintContext* Context)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseWheel
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2478,7 +2478,7 @@ struct FEventReply UUserWidget::OnMouseWheel(const struct FGeometry& MyGeometry,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseMove
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2504,7 +2504,7 @@ struct FEventReply UUserWidget::OnMouseMove(const struct FGeometry& MyGeometry, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseLeave
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2525,7 +2525,7 @@ void UUserWidget::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseEnter
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2548,7 +2548,7 @@ void UUserWidget::OnMouseEnter(const struct FGeometry& MyGeometry, const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseCaptureLost
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UUserWidget::OnMouseCaptureLost()
@@ -2566,7 +2566,7 @@ void UUserWidget::OnMouseCaptureLost()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseButtonUp
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2592,7 +2592,7 @@ struct FEventReply UUserWidget::OnMouseButtonUp(const struct FGeometry& MyGeomet
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseButtonDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2618,7 +2618,7 @@ struct FEventReply UUserWidget::OnMouseButtonDown(const struct FGeometry& MyGeom
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMouseButtonDoubleClick
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2644,7 +2644,7 @@ struct FEventReply UUserWidget::OnMouseButtonDoubleClick(const struct FGeometry&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnMotionDetected
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2670,7 +2670,7 @@ struct FEventReply UUserWidget::OnMotionDetected(const struct FGeometry& MyGeome
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnKeyUp
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2696,7 +2696,7 @@ struct FEventReply UUserWidget::OnKeyUp(const struct FGeometry& MyGeometry, cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnKeyDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2722,7 +2722,7 @@ struct FEventReply UUserWidget::OnKeyDown(const struct FGeometry& MyGeometry, co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnKeyChar
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2748,7 +2748,7 @@ struct FEventReply UUserWidget::OnKeyChar(const struct FGeometry& MyGeometry, co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnInitialized
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UUserWidget::OnInitialized()
@@ -2766,7 +2766,7 @@ void UUserWidget::OnInitialized()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnFocusReceived
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2792,7 +2792,7 @@ struct FEventReply UUserWidget::OnFocusReceived(const struct FGeometry& MyGeomet
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnFocusLost
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2813,7 +2813,7 @@ void UUserWidget::OnFocusLost(const struct FFocusEvent& InFocusEvent)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDrop
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2841,7 +2841,7 @@ bool UUserWidget::OnDrop(const struct FGeometry& MyGeometry, const struct FPoint
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDragOver
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2869,7 +2869,7 @@ bool UUserWidget::OnDragOver(const struct FGeometry& MyGeometry, const struct FP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDragLeave
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2892,7 +2892,7 @@ void UUserWidget::OnDragLeave(const struct FPointerEvent& PointerEvent, class UD
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDragEnter
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -2917,7 +2917,7 @@ void UUserWidget::OnDragEnter(const struct FGeometry& MyGeometry, const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDragDetected
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2944,7 +2944,7 @@ void UUserWidget::OnDragDetected(const struct FGeometry& MyGeometry, const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnDragCancelled
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2967,7 +2967,7 @@ void UUserWidget::OnDragCancelled(const struct FPointerEvent& PointerEvent, clas
 
 
 // Function:
-//		Offset -> 0x02446D10
+//		Offset -> 0x02452290
 //		Name   -> Function UMG.UserWidget.OnAnimationStarted
 //		Flags  -> (BlueprintCosmetic, Native, Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2989,7 +2989,7 @@ void UUserWidget::OnAnimationStarted(class UWidgetAnimation* Animation)
 
 
 // Function:
-//		Offset -> 0x02446C80
+//		Offset -> 0x02452200
 //		Name   -> Function UMG.UserWidget.OnAnimationFinished
 //		Flags  -> (BlueprintCosmetic, Native, Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3011,7 +3011,7 @@ void UUserWidget::OnAnimationFinished(class UWidgetAnimation* Animation)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnAnalogValueChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -3037,7 +3037,7 @@ struct FEventReply UUserWidget::OnAnalogValueChanged(const struct FGeometry& MyG
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.OnAddedToFocusPath
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -3058,7 +3058,7 @@ void UUserWidget::OnAddedToFocusPath(const struct FFocusEvent& InFocusEvent)
 
 
 // Function:
-//		Offset -> 0x02446B00
+//		Offset -> 0x02452080
 //		Name   -> Function UMG.UserWidget.ListenForInputAction
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -3086,7 +3086,7 @@ void UUserWidget::ListenForInputAction(const struct FName& ActionName, TEnumAsBy
 
 
 // Function:
-//		Offset -> 0x02446AD0
+//		Offset -> 0x02452050
 //		Name   -> Function UMG.UserWidget.IsPlayingAnimation
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3109,7 +3109,7 @@ bool UUserWidget::IsPlayingAnimation()
 
 
 // Function:
-//		Offset -> 0x02446A40
+//		Offset -> 0x02451FC0
 //		Name   -> Function UMG.UserWidget.IsListeningForInputAction
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3134,7 +3134,7 @@ bool UUserWidget::IsListeningForInputAction(const struct FName& ActionName)
 
 
 // Function:
-//		Offset -> 0x02446870
+//		Offset -> 0x02451DF0
 //		Name   -> Function UMG.UserWidget.IsInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3157,7 +3157,7 @@ bool UUserWidget::IsInViewport()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.IsInteractable
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent, Const)
 // Parameters:
@@ -3179,7 +3179,7 @@ bool UUserWidget::IsInteractable()
 
 
 // Function:
-//		Offset -> 0x02446A10
+//		Offset -> 0x02451F90
 //		Name   -> Function UMG.UserWidget.IsAnyAnimationPlaying
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3202,7 +3202,7 @@ bool UUserWidget::IsAnyAnimationPlaying()
 
 
 // Function:
-//		Offset -> 0x02446980
+//		Offset -> 0x02451F00
 //		Name   -> Function UMG.UserWidget.IsAnimationPlayingForward
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3227,7 +3227,7 @@ bool UUserWidget::IsAnimationPlayingForward(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x024468F0
+//		Offset -> 0x02451E70
 //		Name   -> Function UMG.UserWidget.IsAnimationPlaying
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3252,7 +3252,7 @@ bool UUserWidget::IsAnimationPlaying(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x024468A0
+//		Offset -> 0x02451E20
 //		Name   -> Function UMG.UserWidget.GetOwningPlayerPawn
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3275,7 +3275,7 @@ class APawn* UUserWidget::GetOwningPlayerPawn()
 
 
 // Function:
-//		Offset -> 0x02446870
+//		Offset -> 0x02451DF0
 //		Name   -> Function UMG.UserWidget.GetIsVisible
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3298,7 +3298,7 @@ bool UUserWidget::GetIsVisible()
 
 
 // Function:
-//		Offset -> 0x024467D0
+//		Offset -> 0x02451D50
 //		Name   -> Function UMG.UserWidget.GetAnimationCurrentTime
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3323,7 +3323,7 @@ float UUserWidget::GetAnimationCurrentTime(class UWidgetAnimation* InAnimation)
 
 
 // Function:
-//		Offset -> 0x02446790
+//		Offset -> 0x02451D10
 //		Name   -> Function UMG.UserWidget.GetAnchorsInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3346,7 +3346,7 @@ struct FAnchors UUserWidget::GetAnchorsInViewport()
 
 
 // Function:
-//		Offset -> 0x02446750
+//		Offset -> 0x02451CD0
 //		Name   -> Function UMG.UserWidget.GetAlignmentInViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3369,7 +3369,7 @@ struct FVector2D UUserWidget::GetAlignmentInViewport()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.Destruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UUserWidget::Destruct()
@@ -3387,7 +3387,7 @@ void UUserWidget::Destruct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserWidget.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UUserWidget::Construct()
@@ -3405,7 +3405,7 @@ void UUserWidget::Construct()
 
 
 // Function:
-//		Offset -> 0x02446730
+//		Offset -> 0x02451CB0
 //		Name   -> Function UMG.UserWidget.CancelLatentActions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UUserWidget::CancelLatentActions()
@@ -3424,7 +3424,7 @@ void UUserWidget::CancelLatentActions()
 
 
 // Function:
-//		Offset -> 0x02446650
+//		Offset -> 0x02451BD0
 //		Name   -> Function UMG.UserWidget.BindToAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3448,7 +3448,7 @@ void UUserWidget::BindToAnimationStarted(class UWidgetAnimation* Animation, cons
 
 
 // Function:
-//		Offset -> 0x02446570
+//		Offset -> 0x02451AF0
 //		Name   -> Function UMG.UserWidget.BindToAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3472,7 +3472,7 @@ void UUserWidget::BindToAnimationFinished(class UWidgetAnimation* Animation, con
 
 
 // Function:
-//		Offset -> 0x02446400
+//		Offset -> 0x02451980
 //		Name   -> Function UMG.UserWidget.BindToAnimationEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3500,7 +3500,7 @@ void UUserWidget::BindToAnimationEvent(class UWidgetAnimation* Animation, const 
 
 
 // Function:
-//		Offset -> 0x02446380
+//		Offset -> 0x02451900
 //		Name   -> Function UMG.UserWidget.AddToViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3522,7 +3522,7 @@ void UUserWidget::AddToViewport(int ZOrder)
 
 
 // Function:
-//		Offset -> 0x024462F0
+//		Offset -> 0x02451870
 //		Name   -> Function UMG.UserWidget.AddToPlayerScreen
 //		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3547,7 +3547,7 @@ bool UUserWidget::AddToPlayerScreen(int ZOrder)
 
 
 // Function:
-//		Offset -> 0x02454810
+//		Offset -> 0x0245FE20
 //		Name   -> Function UMG.WidgetComponent.SetWindowVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3569,7 +3569,7 @@ void UWidgetComponent::SetWindowVisibility(UMG_EWindowVisibility InVisibility)
 
 
 // Function:
-//		Offset -> 0x02454780
+//		Offset -> 0x0245FD90
 //		Name   -> Function UMG.WidgetComponent.SetWindowFocusable
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3591,7 +3591,7 @@ void UWidgetComponent::SetWindowFocusable(bool bInWindowFocusable)
 
 
 // Function:
-//		Offset -> 0x02454700
+//		Offset -> 0x0245FD10
 //		Name   -> Function UMG.WidgetComponent.SetWidgetSpace
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3613,7 +3613,7 @@ void UWidgetComponent::SetWidgetSpace(UMG_EWidgetSpace NewSpace)
 
 
 // Function:
-//		Offset -> 0x0110AEB0
+//		Offset -> 0x0245FC80
 //		Name   -> Function UMG.WidgetComponent.SetWidget
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -3635,7 +3635,7 @@ void UWidgetComponent::SetWidget(class UUserWidget* Widget)
 
 
 // Function:
-//		Offset -> 0x02454670
+//		Offset -> 0x0245FBF0
 //		Name   -> Function UMG.WidgetComponent.SetTwoSided
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3657,7 +3657,7 @@ void UWidgetComponent::SetTwoSided(bool bWantTwoSided)
 
 
 // Function:
-//		Offset -> 0x024545F0
+//		Offset -> 0x0245FB70
 //		Name   -> Function UMG.WidgetComponent.SetTintColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3679,7 +3679,7 @@ void UWidgetComponent::SetTintColorAndOpacity(const struct FLinearColor& NewTint
 
 
 // Function:
-//		Offset -> 0x02454570
+//		Offset -> 0x0245FAF0
 //		Name   -> Function UMG.WidgetComponent.SetTickWhenOffscreen
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3701,7 +3701,7 @@ void UWidgetComponent::SetTickWhenOffscreen(bool bWantTickWhenOffscreen)
 
 
 // Function:
-//		Offset -> 0x024544F0
+//		Offset -> 0x0245FA70
 //		Name   -> Function UMG.WidgetComponent.SetRedrawTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3723,7 +3723,7 @@ void UWidgetComponent::SetRedrawTime(float InRedrawTime)
 
 
 // Function:
-//		Offset -> 0x02454460
+//		Offset -> 0x0245F9E0
 //		Name   -> Function UMG.WidgetComponent.SetPivot
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3745,7 +3745,7 @@ void UWidgetComponent::SetPivot(const struct FVector2D& InPivot)
 
 
 // Function:
-//		Offset -> 0x024543E0
+//		Offset -> 0x0245F960
 //		Name   -> Function UMG.WidgetComponent.SetOwnerPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3767,7 +3767,7 @@ void UWidgetComponent::SetOwnerPlayer(class ULocalPlayer* LocalPlayer)
 
 
 // Function:
-//		Offset -> 0x02454350
+//		Offset -> 0x0245F8D0
 //		Name   -> Function UMG.WidgetComponent.SetManuallyRedraw
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3789,7 +3789,7 @@ void UWidgetComponent::SetManuallyRedraw(bool bUseManualRedraw)
 
 
 // Function:
-//		Offset -> 0x024542D0
+//		Offset -> 0x0245F850
 //		Name   -> Function UMG.WidgetComponent.SetGeometryMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3811,7 +3811,7 @@ void UWidgetComponent::SetGeometryMode(UMG_EWidgetGeometryMode InGeometryMode)
 
 
 // Function:
-//		Offset -> 0x024541D0
+//		Offset -> 0x0245F750
 //		Name   -> Function UMG.WidgetComponent.SetDrawSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3833,7 +3833,7 @@ void UWidgetComponent::SetDrawSize(const struct FVector2D& Size)
 
 
 // Function:
-//		Offset -> 0x02454150
+//		Offset -> 0x0245F6D0
 //		Name   -> Function UMG.WidgetComponent.SetDrawAtDesiredSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3855,7 +3855,7 @@ void UWidgetComponent::SetDrawAtDesiredSize(bool bInDrawAtDesiredSize)
 
 
 // Function:
-//		Offset -> 0x024540D0
+//		Offset -> 0x0245F650
 //		Name   -> Function UMG.WidgetComponent.SetCylinderArcAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3877,7 +3877,7 @@ void UWidgetComponent::SetCylinderArcAngle(float InCylinderArcAngle)
 
 
 // Function:
-//		Offset -> 0x02453F70
+//		Offset -> 0x0245F4F0
 //		Name   -> Function UMG.WidgetComponent.SetBackgroundColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3899,7 +3899,7 @@ void UWidgetComponent::SetBackgroundColor(const struct FLinearColor& NewBackgrou
 
 
 // Function:
-//		Offset -> 0x01080810
+//		Offset -> 0x0108E710
 //		Name   -> Function UMG.WidgetComponent.RequestRedraw
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UWidgetComponent::RequestRedraw()
@@ -3918,7 +3918,7 @@ void UWidgetComponent::RequestRedraw()
 
 
 // Function:
-//		Offset -> 0x02453610
+//		Offset -> 0x0245EB90
 //		Name   -> Function UMG.WidgetComponent.GetWindowVisiblility
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3941,7 +3941,7 @@ UMG_EWindowVisibility UWidgetComponent::GetWindowVisiblility()
 
 
 // Function:
-//		Offset -> 0x024535F0
+//		Offset -> 0x0245EB70
 //		Name   -> Function UMG.WidgetComponent.GetWindowFocusable
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3964,7 +3964,7 @@ bool UWidgetComponent::GetWindowFocusable()
 
 
 // Function:
-//		Offset -> 0x024535D0
+//		Offset -> 0x0245EB50
 //		Name   -> Function UMG.WidgetComponent.GetWidgetSpace
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3987,7 +3987,7 @@ UMG_EWidgetSpace UWidgetComponent::GetWidgetSpace()
 
 
 // Function:
-//		Offset -> 0x024533D0
+//		Offset -> 0x0245E950
 //		Name   -> Function UMG.WidgetComponent.GetUserWidgetObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4010,7 +4010,7 @@ class UUserWidget* UWidgetComponent::GetUserWidgetObject()
 
 
 // Function:
-//		Offset -> 0x024533B0
+//		Offset -> 0x0245E930
 //		Name   -> Function UMG.WidgetComponent.GetTwoSided
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4033,7 +4033,7 @@ bool UWidgetComponent::GetTwoSided()
 
 
 // Function:
-//		Offset -> 0x02453390
+//		Offset -> 0x0245E910
 //		Name   -> Function UMG.WidgetComponent.GetTickWhenOffscreen
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4056,7 +4056,7 @@ bool UWidgetComponent::GetTickWhenOffscreen()
 
 
 // Function:
-//		Offset -> 0x02453360
+//		Offset -> 0x0245E8E0
 //		Name   -> Function UMG.WidgetComponent.GetRenderTarget
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4079,7 +4079,7 @@ class UTextureRenderTarget2D* UWidgetComponent::GetRenderTarget()
 
 
 // Function:
-//		Offset -> 0x02453340
+//		Offset -> 0x0245E8C0
 //		Name   -> Function UMG.WidgetComponent.GetRedrawTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4102,7 +4102,7 @@ float UWidgetComponent::GetRedrawTime()
 
 
 // Function:
-//		Offset -> 0x02453260
+//		Offset -> 0x0245E7E0
 //		Name   -> Function UMG.WidgetComponent.GetPivot
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4125,7 +4125,7 @@ struct FVector2D UWidgetComponent::GetPivot()
 
 
 // Function:
-//		Offset -> 0x02453230
+//		Offset -> 0x0245E7B0
 //		Name   -> Function UMG.WidgetComponent.GetOwnerPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4148,7 +4148,7 @@ class ULocalPlayer* UWidgetComponent::GetOwnerPlayer()
 
 
 // Function:
-//		Offset -> 0x02453010
+//		Offset -> 0x0245E590
 //		Name   -> Function UMG.WidgetComponent.GetMaterialInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4171,7 +4171,7 @@ class UMaterialInstanceDynamic* UWidgetComponent::GetMaterialInstance()
 
 
 // Function:
-//		Offset -> 0x01FDF300
+//		Offset -> 0x01FE88B0
 //		Name   -> Function UMG.WidgetComponent.GetManuallyRedraw
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4194,7 +4194,7 @@ bool UWidgetComponent::GetManuallyRedraw()
 
 
 // Function:
-//		Offset -> 0x02452F40
+//		Offset -> 0x0245E4C0
 //		Name   -> Function UMG.WidgetComponent.GetGeometryMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4217,7 +4217,7 @@ UMG_EWidgetGeometryMode UWidgetComponent::GetGeometryMode()
 
 
 // Function:
-//		Offset -> 0x02452F00
+//		Offset -> 0x0245E480
 //		Name   -> Function UMG.WidgetComponent.GetDrawSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4240,7 +4240,7 @@ struct FVector2D UWidgetComponent::GetDrawSize()
 
 
 // Function:
-//		Offset -> 0x02452EE0
+//		Offset -> 0x0245E460
 //		Name   -> Function UMG.WidgetComponent.GetDrawAtDesiredSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4263,7 +4263,7 @@ bool UWidgetComponent::GetDrawAtDesiredSize()
 
 
 // Function:
-//		Offset -> 0x02452EC0
+//		Offset -> 0x0245E440
 //		Name   -> Function UMG.WidgetComponent.GetCylinderArcAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4286,7 +4286,7 @@ float UWidgetComponent::GetCylinderArcAngle()
 
 
 // Function:
-//		Offset -> 0x02452E80
+//		Offset -> 0x0245E400
 //		Name   -> Function UMG.WidgetComponent.GetCurrentDrawSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4309,7 +4309,7 @@ struct FVector2D UWidgetComponent::GetCurrentDrawSize()
 
 
 // Function:
-//		Offset -> 0x02429CA0
+//		Offset -> 0x02435250
 //		Name   -> Function UMG.AsyncTaskDownloadImage.DownloadImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4334,7 +4334,7 @@ class UAsyncTaskDownloadImage* UAsyncTaskDownloadImage::STATIC_DownloadImage(con
 
 
 // Function:
-//		Offset -> 0x02438250
+//		Offset -> 0x024437D0
 //		Name   -> Function UMG.PanelWidget.RemoveChildAt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4359,7 +4359,7 @@ bool UPanelWidget::RemoveChildAt(int Index)
 
 
 // Function:
-//		Offset -> 0x024381C0
+//		Offset -> 0x02443740
 //		Name   -> Function UMG.PanelWidget.RemoveChild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4384,7 +4384,7 @@ bool UPanelWidget::RemoveChild(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x02438130
+//		Offset -> 0x024436B0
 //		Name   -> Function UMG.PanelWidget.HasChild
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4409,7 +4409,7 @@ bool UPanelWidget::HasChild(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x02438100
+//		Offset -> 0x02443680
 //		Name   -> Function UMG.PanelWidget.HasAnyChildren
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4432,7 +4432,7 @@ bool UPanelWidget::HasAnyChildren()
 
 
 // Function:
-//		Offset -> 0x02437CC0
+//		Offset -> 0x02443240
 //		Name   -> Function UMG.PanelWidget.GetChildrenCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4455,7 +4455,7 @@ int UPanelWidget::GetChildrenCount()
 
 
 // Function:
-//		Offset -> 0x02437C30
+//		Offset -> 0x024431B0
 //		Name   -> Function UMG.PanelWidget.GetChildIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4480,7 +4480,7 @@ int UPanelWidget::GetChildIndex(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x02437BA0
+//		Offset -> 0x02443120
 //		Name   -> Function UMG.PanelWidget.GetChildAt
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4505,7 +4505,7 @@ class UWidget* UPanelWidget::GetChildAt(int Index)
 
 
 // Function:
-//		Offset -> 0x02437B20
+//		Offset -> 0x024430A0
 //		Name   -> Function UMG.PanelWidget.GetAllChildren
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4528,7 +4528,7 @@ TArray<class UWidget*> UPanelWidget::GetAllChildren()
 
 
 // Function:
-//		Offset -> 0x02437B00
+//		Offset -> 0x02443080
 //		Name   -> Function UMG.PanelWidget.ClearChildren
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UPanelWidget::ClearChildren()
@@ -4547,7 +4547,7 @@ void UPanelWidget::ClearChildren()
 
 
 // Function:
-//		Offset -> 0x024379C0
+//		Offset -> 0x02442F40
 //		Name   -> Function UMG.PanelWidget.AddChild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4572,7 +4572,7 @@ class UPanelSlot* UPanelWidget::AddChild(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x0242EF80
+//		Offset -> 0x0243A500
 //		Name   -> Function UMG.ContentWidget.SetContent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4597,7 +4597,7 @@ class UPanelSlot* UContentWidget::SetContent(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x0242E7B0
+//		Offset -> 0x02439D30
 //		Name   -> Function UMG.ContentWidget.GetContentSlot
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4620,7 +4620,7 @@ class UPanelSlot* UContentWidget::GetContentSlot()
 
 
 // Function:
-//		Offset -> 0x0242E780
+//		Offset -> 0x02439D00
 //		Name   -> Function UMG.ContentWidget.GetContent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4643,7 +4643,7 @@ class UWidget* UContentWidget::GetContent()
 
 
 // Function:
-//		Offset -> 0x0242BAC0
+//		Offset -> 0x02437070
 //		Name   -> Function UMG.BackgroundBlur.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4665,7 +4665,7 @@ void UBackgroundBlur::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignm
 
 
 // Function:
-//		Offset -> 0x0242B410
+//		Offset -> 0x024369C0
 //		Name   -> Function UMG.BackgroundBlur.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4687,7 +4687,7 @@ void UBackgroundBlur::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242B080
+//		Offset -> 0x02436630
 //		Name   -> Function UMG.BackgroundBlur.SetLowQualityFallbackBrush
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -4709,7 +4709,7 @@ void UBackgroundBlur::SetLowQualityFallbackBrush(const struct FSlateBrush& InBru
 
 
 // Function:
-//		Offset -> 0x0242ACD0
+//		Offset -> 0x02436280
 //		Name   -> Function UMG.BackgroundBlur.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4731,7 +4731,7 @@ void UBackgroundBlur::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAl
 
 
 // Function:
-//		Offset -> 0x0242A650
+//		Offset -> 0x02435C00
 //		Name   -> Function UMG.BackgroundBlur.SetBlurStrength
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -4753,7 +4753,7 @@ void UBackgroundBlur::SetBlurStrength(float InStrength)
 
 
 // Function:
-//		Offset -> 0x0242A5D0
+//		Offset -> 0x02435B80
 //		Name   -> Function UMG.BackgroundBlur.SetBlurRadius
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4775,7 +4775,7 @@ void UBackgroundBlur::SetBlurRadius(int InBlurRadius)
 
 
 // Function:
-//		Offset -> 0x0242A430
+//		Offset -> 0x024359E0
 //		Name   -> Function UMG.BackgroundBlur.SetApplyAlphaToBlur
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4797,7 +4797,7 @@ void UBackgroundBlur::SetApplyAlphaToBlur(bool bInApplyAlphaToBlur)
 
 
 // Function:
-//		Offset -> 0x0242BB40
+//		Offset -> 0x024370F0
 //		Name   -> Function UMG.BackgroundBlurSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4819,7 +4819,7 @@ void UBackgroundBlurSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAl
 
 
 // Function:
-//		Offset -> 0x0242B4A0
+//		Offset -> 0x02436A50
 //		Name   -> Function UMG.BackgroundBlurSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4841,7 +4841,7 @@ void UBackgroundBlurSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242AD50
+//		Offset -> 0x02436300
 //		Name   -> Function UMG.BackgroundBlurSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4863,7 +4863,7 @@ void UBackgroundBlurSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizont
 
 
 // Function:
-//		Offset -> 0x0242A060
+//		Offset -> 0x02435610
 //		Name   -> Function UMG.BoolBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -4886,7 +4886,7 @@ bool UBoolBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x0242BBC0
+//		Offset -> 0x02437170
 //		Name   -> Function UMG.Border.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4908,7 +4908,7 @@ void UBorder::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment> InV
 
 
 // Function:
-//		Offset -> 0x0242B530
+//		Offset -> 0x02436AE0
 //		Name   -> Function UMG.Border.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4930,7 +4930,7 @@ void UBorder::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242ADD0
+//		Offset -> 0x02436380
 //		Name   -> Function UMG.Border.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4952,7 +4952,7 @@ void UBorder::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlignment>
 
 
 // Function:
-//		Offset -> 0x0242AC50
+//		Offset -> 0x02436200
 //		Name   -> Function UMG.Border.SetDesiredSizeScale
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4974,7 +4974,7 @@ void UBorder::SetDesiredSizeScale(const struct FVector2D& InScale)
 
 
 // Function:
-//		Offset -> 0x0242ABD0
+//		Offset -> 0x02436180
 //		Name   -> Function UMG.Border.SetContentColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4996,7 +4996,7 @@ void UBorder::SetContentColorAndOpacity(const struct FLinearColor& InContentColo
 
 
 // Function:
-//		Offset -> 0x0242A9D0
+//		Offset -> 0x02435F80
 //		Name   -> Function UMG.Border.SetBrushFromTexture
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5018,7 +5018,7 @@ void UBorder::SetBrushFromTexture(class UTexture2D* Texture)
 
 
 // Function:
-//		Offset -> 0x0242A950
+//		Offset -> 0x02435F00
 //		Name   -> Function UMG.Border.SetBrushFromMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5040,7 +5040,7 @@ void UBorder::SetBrushFromMaterial(class UMaterialInterface* Material)
 
 
 // Function:
-//		Offset -> 0x0242A8D0
+//		Offset -> 0x02435E80
 //		Name   -> Function UMG.Border.SetBrushFromAsset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5062,7 +5062,7 @@ void UBorder::SetBrushFromAsset(class USlateBrushAsset* Asset)
 
 
 // Function:
-//		Offset -> 0x0242A850
+//		Offset -> 0x02435E00
 //		Name   -> Function UMG.Border.SetBrushColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5084,7 +5084,7 @@ void UBorder::SetBrushColor(const struct FLinearColor& InBrushColor)
 
 
 // Function:
-//		Offset -> 0x0242A6D0
+//		Offset -> 0x02435C80
 //		Name   -> Function UMG.Border.SetBrush
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -5106,7 +5106,7 @@ void UBorder::SetBrush(const struct FSlateBrush& InBrush)
 
 
 // Function:
-//		Offset -> 0x02429E70
+//		Offset -> 0x02435420
 //		Name   -> Function UMG.Border.GetDynamicMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5129,7 +5129,7 @@ class UMaterialInstanceDynamic* UBorder::GetDynamicMaterial()
 
 
 // Function:
-//		Offset -> 0x0242BC40
+//		Offset -> 0x024371F0
 //		Name   -> Function UMG.BorderSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5151,7 +5151,7 @@ void UBorderSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment>
 
 
 // Function:
-//		Offset -> 0x0242B5C0
+//		Offset -> 0x02436B70
 //		Name   -> Function UMG.BorderSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5173,7 +5173,7 @@ void UBorderSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242AE50
+//		Offset -> 0x02436400
 //		Name   -> Function UMG.BorderSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5195,7 +5195,7 @@ void UBorderSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlignm
 
 
 // Function:
-//		Offset -> 0x0242A090
+//		Offset -> 0x02435640
 //		Name   -> Function UMG.BrushBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -5218,7 +5218,7 @@ struct FSlateBrush UBrushBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x0242BA40
+//		Offset -> 0x02436FF0
 //		Name   -> Function UMG.Button.SetTouchMethod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5240,7 +5240,7 @@ void UButton::SetTouchMethod(TEnumAsByte<SlateCore_EButtonTouchMethod> InTouchMe
 
 
 // Function:
-//		Offset -> 0x0242B960
+//		Offset -> 0x02436F10
 //		Name   -> Function UMG.Button.SetStyle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -5262,7 +5262,7 @@ void UButton::SetStyle(const struct FButtonStyle& InStyle)
 
 
 // Function:
-//		Offset -> 0x0242B7E0
+//		Offset -> 0x02436D90
 //		Name   -> Function UMG.Button.SetPressMethod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5284,7 +5284,7 @@ void UButton::SetPressMethod(TEnumAsByte<SlateCore_EButtonPressMethod> InPressMe
 
 
 // Function:
-//		Offset -> 0x0242AB50
+//		Offset -> 0x02436100
 //		Name   -> Function UMG.Button.SetColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5306,7 +5306,7 @@ void UButton::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 
 
 // Function:
-//		Offset -> 0x0242AAD0
+//		Offset -> 0x02436080
 //		Name   -> Function UMG.Button.SetClickMethod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5328,7 +5328,7 @@ void UButton::SetClickMethod(TEnumAsByte<SlateCore_EButtonClickMethod> InClickMe
 
 
 // Function:
-//		Offset -> 0x0242A550
+//		Offset -> 0x02435B00
 //		Name   -> Function UMG.Button.SetBackgroundColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5350,7 +5350,7 @@ void UButton::SetBackgroundColor(const struct FLinearColor& InBackgroundColor)
 
 
 // Function:
-//		Offset -> 0x0242A2C0
+//		Offset -> 0x02435870
 //		Name   -> Function UMG.Button.IsPressed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5373,7 +5373,7 @@ bool UButton::IsPressed()
 
 
 // Function:
-//		Offset -> 0x0242BCC0
+//		Offset -> 0x02437270
 //		Name   -> Function UMG.ButtonSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5395,7 +5395,7 @@ void UButtonSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment>
 
 
 // Function:
-//		Offset -> 0x0242B650
+//		Offset -> 0x02436C00
 //		Name   -> Function UMG.ButtonSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5417,7 +5417,7 @@ void UButtonSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242AED0
+//		Offset -> 0x02436480
 //		Name   -> Function UMG.ButtonSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5439,7 +5439,7 @@ void UButtonSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlignm
 
 
 // Function:
-//		Offset -> 0x02429C10
+//		Offset -> 0x024351C0
 //		Name   -> Function UMG.CanvasPanel.AddChildToCanvas
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5464,7 +5464,7 @@ class UCanvasPanelSlot* UCanvasPanel::AddChildToCanvas(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x0242BD40
+//		Offset -> 0x024372F0
 //		Name   -> Function UMG.CanvasPanelSlot.SetZOrder
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5486,7 +5486,7 @@ void UCanvasPanelSlot::SetZOrder(int InZOrder)
 
 
 // Function:
-//		Offset -> 0x0242B8E0
+//		Offset -> 0x02436E90
 //		Name   -> Function UMG.CanvasPanelSlot.SetSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5508,7 +5508,7 @@ void UCanvasPanelSlot::SetSize(const struct FVector2D& InSize)
 
 
 // Function:
-//		Offset -> 0x0242B760
+//		Offset -> 0x02436D10
 //		Name   -> Function UMG.CanvasPanelSlot.SetPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5530,7 +5530,7 @@ void UCanvasPanelSlot::SetPosition(const struct FVector2D& InPosition)
 
 
 // Function:
-//		Offset -> 0x0242B380
+//		Offset -> 0x02436930
 //		Name   -> Function UMG.CanvasPanelSlot.SetOffsets
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5552,7 +5552,7 @@ void UCanvasPanelSlot::SetOffsets(const struct FMargin& InOffset)
 
 
 // Function:
-//		Offset -> 0x0242B280
+//		Offset -> 0x02436830
 //		Name   -> Function UMG.CanvasPanelSlot.SetMinimum
 //		Flags  -> (Final, Native, Public, HasDefaults)
 // Parameters:
@@ -5574,7 +5574,7 @@ void UCanvasPanelSlot::SetMinimum(const struct FVector2D& InMinimumAnchors)
 
 
 // Function:
-//		Offset -> 0x0242B200
+//		Offset -> 0x024367B0
 //		Name   -> Function UMG.CanvasPanelSlot.SetMaximum
 //		Flags  -> (Final, Native, Public, HasDefaults)
 // Parameters:
@@ -5596,7 +5596,7 @@ void UCanvasPanelSlot::SetMaximum(const struct FVector2D& InMaximumAnchors)
 
 
 // Function:
-//		Offset -> 0x0242AFE0
+//		Offset -> 0x02436590
 //		Name   -> Function UMG.CanvasPanelSlot.SetLayout
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -5618,7 +5618,7 @@ void UCanvasPanelSlot::SetLayout(const struct FAnchorData& InLayoutData)
 
 
 // Function:
-//		Offset -> 0x0242A4C0
+//		Offset -> 0x02435A70
 //		Name   -> Function UMG.CanvasPanelSlot.SetAutoSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5640,7 +5640,7 @@ void UCanvasPanelSlot::SetAutoSize(bool InbAutoSize)
 
 
 // Function:
-//		Offset -> 0x0242A3A0
+//		Offset -> 0x02435950
 //		Name   -> Function UMG.CanvasPanelSlot.SetAnchors
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5662,7 +5662,7 @@ void UCanvasPanelSlot::SetAnchors(const struct FAnchors& InAnchors)
 
 
 // Function:
-//		Offset -> 0x0242A320
+//		Offset -> 0x024358D0
 //		Name   -> Function UMG.CanvasPanelSlot.SetAlignment
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -5684,7 +5684,7 @@ void UCanvasPanelSlot::SetAlignment(const struct FVector2D& InAlignment)
 
 
 // Function:
-//		Offset -> 0x0242A260
+//		Offset -> 0x02435810
 //		Name   -> Function UMG.CanvasPanelSlot.GetZOrder
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5707,7 +5707,7 @@ int UCanvasPanelSlot::GetZOrder()
 
 
 // Function:
-//		Offset -> 0x02429FB0
+//		Offset -> 0x02435560
 //		Name   -> Function UMG.CanvasPanelSlot.GetSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5730,7 +5730,7 @@ struct FVector2D UCanvasPanelSlot::GetSize()
 
 
 // Function:
-//		Offset -> 0x02429F70
+//		Offset -> 0x02435520
 //		Name   -> Function UMG.CanvasPanelSlot.GetPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5753,7 +5753,7 @@ struct FVector2D UCanvasPanelSlot::GetPosition()
 
 
 // Function:
-//		Offset -> 0x02429F30
+//		Offset -> 0x024354E0
 //		Name   -> Function UMG.CanvasPanelSlot.GetOffsets
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5776,7 +5776,7 @@ struct FMargin UCanvasPanelSlot::GetOffsets()
 
 
 // Function:
-//		Offset -> 0x02429EA0
+//		Offset -> 0x02435450
 //		Name   -> Function UMG.CanvasPanelSlot.GetLayout
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5799,7 +5799,7 @@ struct FAnchorData UCanvasPanelSlot::GetLayout()
 
 
 // Function:
-//		Offset -> 0x02429E10
+//		Offset -> 0x024353C0
 //		Name   -> Function UMG.CanvasPanelSlot.GetAutoSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5822,7 +5822,7 @@ bool UCanvasPanelSlot::GetAutoSize()
 
 
 // Function:
-//		Offset -> 0x02429DD0
+//		Offset -> 0x02435380
 //		Name   -> Function UMG.CanvasPanelSlot.GetAnchors
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5845,7 +5845,7 @@ struct FAnchors UCanvasPanelSlot::GetAnchors()
 
 
 // Function:
-//		Offset -> 0x02429D90
+//		Offset -> 0x02435340
 //		Name   -> Function UMG.CanvasPanelSlot.GetAlignment
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5868,7 +5868,7 @@ struct FVector2D UCanvasPanelSlot::GetAlignment()
 
 
 // Function:
-//		Offset -> 0x0242AF50
+//		Offset -> 0x02436500
 //		Name   -> Function UMG.CheckBox.SetIsChecked
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5890,7 +5890,7 @@ void UCheckBox::SetIsChecked(bool InIsChecked)
 
 
 // Function:
-//		Offset -> 0x0242AA50
+//		Offset -> 0x02436000
 //		Name   -> Function UMG.CheckBox.SetCheckedState
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5912,7 +5912,7 @@ void UCheckBox::SetCheckedState(SlateCore_ECheckBoxState InCheckedState)
 
 
 // Function:
-//		Offset -> 0x0242A2F0
+//		Offset -> 0x024358A0
 //		Name   -> Function UMG.CheckBox.IsPressed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5935,7 +5935,7 @@ bool UCheckBox::IsPressed()
 
 
 // Function:
-//		Offset -> 0x0242A290
+//		Offset -> 0x02435840
 //		Name   -> Function UMG.CheckBox.IsChecked
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5958,7 +5958,7 @@ bool UCheckBox::IsChecked()
 
 
 // Function:
-//		Offset -> 0x02429E40
+//		Offset -> 0x024353F0
 //		Name   -> Function UMG.CheckBox.GetCheckedState
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5981,7 +5981,7 @@ SlateCore_ECheckBoxState UCheckBox::GetCheckedState()
 
 
 // Function:
-//		Offset -> 0x0242A230
+//		Offset -> 0x024357E0
 //		Name   -> Function UMG.CheckedStateBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -6004,7 +6004,7 @@ SlateCore_ECheckBoxState UCheckedStateBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x0242B860
+//		Offset -> 0x02436E10
 //		Name   -> Function UMG.CircularThrobber.SetRadius
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6026,7 +6026,7 @@ void UCircularThrobber::SetRadius(float InRadius)
 
 
 // Function:
-//		Offset -> 0x0242B6E0
+//		Offset -> 0x02436C90
 //		Name   -> Function UMG.CircularThrobber.SetPeriod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6048,7 +6048,7 @@ void UCircularThrobber::SetPeriod(float InPeriod)
 
 
 // Function:
-//		Offset -> 0x0242B300
+//		Offset -> 0x024368B0
 //		Name   -> Function UMG.CircularThrobber.SetNumberOfPieces
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6070,7 +6070,7 @@ void UCircularThrobber::SetNumberOfPieces(int InNumberOfPieces)
 
 
 // Function:
-//		Offset -> 0x02429FF0
+//		Offset -> 0x024355A0
 //		Name   -> Function UMG.ColorBinding.GetSlateValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -6093,7 +6093,7 @@ struct FSlateColor UColorBinding::GetSlateValue()
 
 
 // Function:
-//		Offset -> 0x02429EF0
+//		Offset -> 0x024354A0
 //		Name   -> Function UMG.ColorBinding.GetLinearValue
 //		Flags  -> (Final, Native, Public, HasDefaults, Const)
 // Parameters:
@@ -6116,7 +6116,7 @@ struct FLinearColor UColorBinding::GetLinearValue()
 
 
 // Function:
-//		Offset -> 0x0242FC00
+//		Offset -> 0x0243B180
 //		Name   -> Function UMG.ComboBoxString.SetSelectedOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6138,7 +6138,7 @@ void UComboBoxString::SetSelectedOption(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x0242FB80
+//		Offset -> 0x0243B100
 //		Name   -> Function UMG.ComboBoxString.SetSelectedIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6160,7 +6160,7 @@ void UComboBoxString::SetSelectedIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x0242EC70
+//		Offset -> 0x0243A1F0
 //		Name   -> Function UMG.ComboBoxString.RemoveOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6185,7 +6185,7 @@ bool UComboBoxString::RemoveOption(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x0242EBD0
+//		Offset -> 0x0243A150
 //		Name   -> Function UMG.ComboBoxString.RefreshOptions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UComboBoxString::RefreshOptions()
@@ -6204,7 +6204,7 @@ void UComboBoxString::RefreshOptions()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.ComboBoxString.OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -6227,7 +6227,7 @@ void UComboBoxString::OnSelectionChangedEvent__DelegateSignature(const struct FS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.ComboBoxString.OnOpeningEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UComboBoxString::OnOpeningEvent__DelegateSignature()
@@ -6245,7 +6245,7 @@ void UComboBoxString::OnOpeningEvent__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x0242EBA0
+//		Offset -> 0x0243A120
 //		Name   -> Function UMG.ComboBoxString.IsOpen
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6268,7 +6268,7 @@ bool UComboBoxString::IsOpen()
 
 
 // Function:
-//		Offset -> 0x0242E980
+//		Offset -> 0x02439F00
 //		Name   -> Function UMG.ComboBoxString.GetSelectedOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6291,7 +6291,7 @@ struct FString UComboBoxString::GetSelectedOption()
 
 
 // Function:
-//		Offset -> 0x0242E950
+//		Offset -> 0x02439ED0
 //		Name   -> Function UMG.ComboBoxString.GetSelectedIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6314,7 +6314,7 @@ int UComboBoxString::GetSelectedIndex()
 
 
 // Function:
-//		Offset -> 0x0242E920
+//		Offset -> 0x02439EA0
 //		Name   -> Function UMG.ComboBoxString.GetOptionCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6337,7 +6337,7 @@ int UComboBoxString::GetOptionCount()
 
 
 // Function:
-//		Offset -> 0x0242E840
+//		Offset -> 0x02439DC0
 //		Name   -> Function UMG.ComboBoxString.GetOptionAtIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6362,7 +6362,7 @@ struct FString UComboBoxString::GetOptionAtIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x0242E640
+//		Offset -> 0x02439BC0
 //		Name   -> Function UMG.ComboBoxString.FindOptionIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6387,7 +6387,7 @@ int UComboBoxString::FindOptionIndex(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x0242E290
+//		Offset -> 0x02439810
 //		Name   -> Function UMG.ComboBoxString.ClearSelection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UComboBoxString::ClearSelection()
@@ -6406,7 +6406,7 @@ void UComboBoxString::ClearSelection()
 
 
 // Function:
-//		Offset -> 0x0242E270
+//		Offset -> 0x024397F0
 //		Name   -> Function UMG.ComboBoxString.ClearOptions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UComboBoxString::ClearOptions()
@@ -6425,7 +6425,7 @@ void UComboBoxString::ClearOptions()
 
 
 // Function:
-//		Offset -> 0x0242E0F0
+//		Offset -> 0x02439670
 //		Name   -> Function UMG.ComboBoxString.AddOption
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6447,7 +6447,7 @@ void UComboBoxString::AddOption(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x0242E510
+//		Offset -> 0x02439A90
 //		Name   -> Function UMG.DragDropOperation.Drop
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -6469,7 +6469,7 @@ void UDragDropOperation::Drop(const struct FPointerEvent& PointerEvent)
 
 
 // Function:
-//		Offset -> 0x0242E3E0
+//		Offset -> 0x02439960
 //		Name   -> Function UMG.DragDropOperation.Dragged
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -6491,7 +6491,7 @@ void UDragDropOperation::Dragged(const struct FPointerEvent& PointerEvent)
 
 
 // Function:
-//		Offset -> 0x0242E2B0
+//		Offset -> 0x02439830
 //		Name   -> Function UMG.DragDropOperation.DragCancelled
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -6513,7 +6513,7 @@ void UDragDropOperation::DragCancelled(const struct FPointerEvent& PointerEvent)
 
 
 // Function:
-//		Offset -> 0x0242F010
+//		Offset -> 0x0243A590
 //		Name   -> Function UMG.DynamicEntryBoxBase.SetEntrySpacing
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -6535,7 +6535,7 @@ void UDynamicEntryBoxBase::SetEntrySpacing(const struct FVector2D& InEntrySpacin
 
 
 // Function:
-//		Offset -> 0x0242E810
+//		Offset -> 0x02439D90
 //		Name   -> Function UMG.DynamicEntryBoxBase.GetNumEntries
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6558,7 +6558,7 @@ int UDynamicEntryBoxBase::GetNumEntries()
 
 
 // Function:
-//		Offset -> 0x0242E6F0
+//		Offset -> 0x02439C70
 //		Name   -> Function UMG.DynamicEntryBoxBase.GetAllEntries
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6581,7 +6581,7 @@ TArray<class UUserWidget*> UDynamicEntryBoxBase::GetAllEntries()
 
 
 // Function:
-//		Offset -> 0x0242ED20
+//		Offset -> 0x0243A2A0
 //		Name   -> Function UMG.DynamicEntryBox.Reset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6603,7 +6603,7 @@ void UDynamicEntryBox::Reset(bool bDeleteWidgets)
 
 
 // Function:
-//		Offset -> 0x0242EBF0
+//		Offset -> 0x0243A170
 //		Name   -> Function UMG.DynamicEntryBox.RemoveEntry
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6625,7 +6625,7 @@ void UDynamicEntryBox::RemoveEntry(class UUserWidget* EntryWidget)
 
 
 // Function:
-//		Offset -> 0x0242E1C0
+//		Offset -> 0x02439740
 //		Name   -> Function UMG.DynamicEntryBox.BP_CreateEntryOfClass
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -6650,7 +6650,7 @@ class UUserWidget* UDynamicEntryBox::BP_CreateEntryOfClass(class UClass* EntryCl
 
 
 // Function:
-//		Offset -> 0x0242E190
+//		Offset -> 0x02439710
 //		Name   -> Function UMG.DynamicEntryBox.BP_CreateEntry
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -6673,7 +6673,7 @@ class UUserWidget* UDynamicEntryBox::BP_CreateEntry()
 
 
 // Function:
-//		Offset -> 0x0242FCF0
+//		Offset -> 0x0243B270
 //		Name   -> Function UMG.EditableText.SetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6695,7 +6695,7 @@ void UEditableText::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x0242F720
+//		Offset -> 0x0243ACA0
 //		Name   -> Function UMG.EditableText.SetJustification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6717,7 +6717,7 @@ void UEditableText::SetJustification(TEnumAsByte<Slate_ETextJustify> InJustifica
 
 
 // Function:
-//		Offset -> 0x0242F600
+//		Offset -> 0x0243AB80
 //		Name   -> Function UMG.EditableText.SetIsReadOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6739,7 +6739,7 @@ void UEditableText::SetIsReadOnly(bool InbIsReadyOnly)
 
 
 // Function:
-//		Offset -> 0x0242F4E0
+//		Offset -> 0x0243AA60
 //		Name   -> Function UMG.EditableText.SetIsPassword
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6761,7 +6761,7 @@ void UEditableText::SetIsPassword(bool InbIsPassword)
 
 
 // Function:
-//		Offset -> 0x0242F180
+//		Offset -> 0x0243A700
 //		Name   -> Function UMG.EditableText.SetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6783,7 +6783,7 @@ void UEditableText::SetHintText(const struct FText& InHintText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.EditableText.OnEditableTextCommittedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -6806,7 +6806,7 @@ void UEditableText::OnEditableTextCommittedEvent__DelegateSignature(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.EditableText.OnEditableTextChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -6827,7 +6827,7 @@ void UEditableText::OnEditableTextChangedEvent__DelegateSignature(const struct F
 
 
 // Function:
-//		Offset -> 0x0242EA00
+//		Offset -> 0x02439F80
 //		Name   -> Function UMG.EditableText.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -6850,7 +6850,7 @@ struct FText UEditableText::GetText()
 
 
 // Function:
-//		Offset -> 0x0242FDD0
+//		Offset -> 0x0243B350
 //		Name   -> Function UMG.EditableTextBox.SetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6872,7 +6872,7 @@ void UEditableTextBox::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x0242F7A0
+//		Offset -> 0x0243AD20
 //		Name   -> Function UMG.EditableTextBox.SetJustification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6894,7 +6894,7 @@ void UEditableTextBox::SetJustification(TEnumAsByte<Slate_ETextJustify> InJustif
 
 
 // Function:
-//		Offset -> 0x0242F690
+//		Offset -> 0x0243AC10
 //		Name   -> Function UMG.EditableTextBox.SetIsReadOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6916,7 +6916,7 @@ void UEditableTextBox::SetIsReadOnly(bool bReadOnly)
 
 
 // Function:
-//		Offset -> 0x0242F570
+//		Offset -> 0x0243AAF0
 //		Name   -> Function UMG.EditableTextBox.SetIsPassword
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6938,7 +6938,7 @@ void UEditableTextBox::SetIsPassword(bool bIsPassword)
 
 
 // Function:
-//		Offset -> 0x0242F260
+//		Offset -> 0x0243A7E0
 //		Name   -> Function UMG.EditableTextBox.SetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6960,7 +6960,7 @@ void UEditableTextBox::SetHintText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x0242F0A0
+//		Offset -> 0x0243A620
 //		Name   -> Function UMG.EditableTextBox.SetError
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -6982,7 +6982,7 @@ void UEditableTextBox::SetError(const struct FText& InError)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.EditableTextBox.OnEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -7005,7 +7005,7 @@ void UEditableTextBox::OnEditableTextBoxCommittedEvent__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.EditableTextBox.OnEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -7026,7 +7026,7 @@ void UEditableTextBox::OnEditableTextBoxChangedEvent__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x0242EB70
+//		Offset -> 0x0243A0F0
 //		Name   -> Function UMG.EditableTextBox.HasError
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -7049,7 +7049,7 @@ bool UEditableTextBox::HasError()
 
 
 // Function:
-//		Offset -> 0x0242EAA0
+//		Offset -> 0x0243A020
 //		Name   -> Function UMG.EditableTextBox.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -7072,7 +7072,7 @@ struct FText UEditableTextBox::GetText()
 
 
 // Function:
-//		Offset -> 0x0242E250
+//		Offset -> 0x024397D0
 //		Name   -> Function UMG.EditableTextBox.ClearError
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UEditableTextBox::ClearError()
@@ -7091,7 +7091,7 @@ void UEditableTextBox::ClearError()
 
 
 // Function:
-//		Offset -> 0x0242F450
+//		Offset -> 0x0243A9D0
 //		Name   -> Function UMG.ExpandableArea.SetIsExpanded_Animated
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7113,7 +7113,7 @@ void UExpandableArea::SetIsExpanded_Animated(bool IsExpanded)
 
 
 // Function:
-//		Offset -> 0x0242F3C0
+//		Offset -> 0x0243A940
 //		Name   -> Function UMG.ExpandableArea.SetIsExpanded
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7135,7 +7135,7 @@ void UExpandableArea::SetIsExpanded(bool IsExpanded)
 
 
 // Function:
-//		Offset -> 0x0242E7E0
+//		Offset -> 0x02439D60
 //		Name   -> Function UMG.ExpandableArea.GetIsExpanded
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -7158,7 +7158,7 @@ bool UExpandableArea::GetIsExpanded()
 
 
 // Function:
-//		Offset -> 0x0242EB40
+//		Offset -> 0x0243A0C0
 //		Name   -> Function UMG.FloatBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -7181,7 +7181,7 @@ float UFloatBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x0242FA30
+//		Offset -> 0x0243AFB0
 //		Name   -> Function UMG.GridPanel.SetRowFill
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7205,7 +7205,7 @@ void UGridPanel::SetRowFill(int ColumnIndex, float Coefficient)
 
 
 // Function:
-//		Offset -> 0x0242EE30
+//		Offset -> 0x0243A3B0
 //		Name   -> Function UMG.GridPanel.SetColumnFill
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7229,7 +7229,7 @@ void UGridPanel::SetColumnFill(int ColumnIndex, float Coefficient)
 
 
 // Function:
-//		Offset -> 0x0242DFF0
+//		Offset -> 0x02439570
 //		Name   -> Function UMG.GridPanel.AddChildToGrid
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7258,7 +7258,7 @@ class UGridSlot* UGridPanel::AddChildToGrid(class UWidget* Content, int InRow, i
 
 
 // Function:
-//		Offset -> 0x0242FEB0
+//		Offset -> 0x0243B430
 //		Name   -> Function UMG.GridSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7280,7 +7280,7 @@ void UGridSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment> I
 
 
 // Function:
-//		Offset -> 0x0242FB00
+//		Offset -> 0x0243B080
 //		Name   -> Function UMG.GridSlot.SetRowSpan
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7302,7 +7302,7 @@ void UGridSlot::SetRowSpan(int InRowSpan)
 
 
 // Function:
-//		Offset -> 0x0242F9B0
+//		Offset -> 0x0243AF30
 //		Name   -> Function UMG.GridSlot.SetRow
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7324,7 +7324,7 @@ void UGridSlot::SetRow(int InRow)
 
 
 // Function:
-//		Offset -> 0x0242F920
+//		Offset -> 0x0243AEA0
 //		Name   -> Function UMG.GridSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7346,7 +7346,7 @@ void UGridSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242F8A0
+//		Offset -> 0x0243AE20
 //		Name   -> Function UMG.GridSlot.SetNudge
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -7368,7 +7368,7 @@ void UGridSlot::SetNudge(const struct FVector2D& InNudge)
 
 
 // Function:
-//		Offset -> 0x0242F820
+//		Offset -> 0x0243ADA0
 //		Name   -> Function UMG.GridSlot.SetLayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7390,7 +7390,7 @@ void UGridSlot::SetLayer(int InLayer)
 
 
 // Function:
-//		Offset -> 0x0242F340
+//		Offset -> 0x0243A8C0
 //		Name   -> Function UMG.GridSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7412,7 +7412,7 @@ void UGridSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlignmen
 
 
 // Function:
-//		Offset -> 0x0242EF00
+//		Offset -> 0x0243A480
 //		Name   -> Function UMG.GridSlot.SetColumnSpan
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7434,7 +7434,7 @@ void UGridSlot::SetColumnSpan(int InColumnSpan)
 
 
 // Function:
-//		Offset -> 0x0242EDB0
+//		Offset -> 0x0243A330
 //		Name   -> Function UMG.GridSlot.SetColumn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7456,7 +7456,7 @@ void UGridSlot::SetColumn(int InColumn)
 
 
 // Function:
-//		Offset -> 0x024322A0
+//		Offset -> 0x0243D820
 //		Name   -> Function UMG.HorizontalBox.AddChildToHorizontalBox
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7481,7 +7481,7 @@ class UHorizontalBoxSlot* UHorizontalBox::AddChildToHorizontalBox(class UWidget*
 
 
 // Function:
-//		Offset -> 0x024346B0
+//		Offset -> 0x0243FC30
 //		Name   -> Function UMG.HorizontalBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7503,7 +7503,7 @@ void UHorizontalBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAli
 
 
 // Function:
-//		Offset -> 0x024345A0
+//		Offset -> 0x0243FB20
 //		Name   -> Function UMG.HorizontalBoxSlot.SetSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7525,7 +7525,7 @@ void UHorizontalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 
 
 // Function:
-//		Offset -> 0x024341A0
+//		Offset -> 0x0243F720
 //		Name   -> Function UMG.HorizontalBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7547,7 +7547,7 @@ void UHorizontalBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x02433EE0
+//		Offset -> 0x0243F460
 //		Name   -> Function UMG.HorizontalBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7569,7 +7569,7 @@ void UHorizontalBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizonta
 
 
 // Function:
-//		Offset -> 0x02434120
+//		Offset -> 0x0243F6A0
 //		Name   -> Function UMG.Image.SetOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7591,7 +7591,7 @@ void UImage::SetOpacity(float InOpacity)
 
 
 // Function:
-//		Offset -> 0x02433D70
+//		Offset -> 0x0243F2F0
 //		Name   -> Function UMG.Image.SetColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -7613,7 +7613,7 @@ void UImage::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 
 
 // Function:
-//		Offset -> 0x02433BF0
+//		Offset -> 0x0243F170
 //		Name   -> Function UMG.Image.SetBrushTintColor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7635,7 +7635,7 @@ void UImage::SetBrushTintColor(const struct FSlateColor& TintColor)
 
 
 // Function:
-//		Offset -> 0x02433B70
+//		Offset -> 0x0243F0F0
 //		Name   -> Function UMG.Image.SetBrushSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -7657,7 +7657,7 @@ void UImage::SetBrushSize(const struct FVector2D& DesiredSize)
 
 
 // Function:
-//		Offset -> 0x02433AF0
+//		Offset -> 0x0243F070
 //		Name   -> Function UMG.Image.SetBrushResourceObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7679,7 +7679,7 @@ void UImage::SetBrushResourceObject(class UObject* ResourceObject)
 
 
 // Function:
-//		Offset -> 0x02433A20
+//		Offset -> 0x0243EFA0
 //		Name   -> Function UMG.Image.SetBrushFromTextureDynamic
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7703,7 +7703,7 @@ void UImage::SetBrushFromTextureDynamic(class UTexture2DDynamic* Texture, bool b
 
 
 // Function:
-//		Offset -> 0x02433950
+//		Offset -> 0x0243EED0
 //		Name   -> Function UMG.Image.SetBrushFromTexture
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7727,7 +7727,7 @@ void UImage::SetBrushFromTexture(class UTexture2D* Texture, bool bMatchSize)
 
 
 // Function:
-//		Offset -> 0x024337F0
+//		Offset -> 0x0243ED70
 //		Name   -> Function UMG.Image.SetBrushFromSoftTexture
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7749,7 +7749,7 @@ void UImage::SetBrushFromSoftTexture(bool bMatchSize)
 
 
 // Function:
-//		Offset -> 0x024336D0
+//		Offset -> 0x0243EC50
 //		Name   -> Function UMG.Image.SetBrushFromSoftMaterial
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UImage::SetBrushFromSoftMaterial()
@@ -7768,7 +7768,7 @@ void UImage::SetBrushFromSoftMaterial()
 
 
 // Function:
-//		Offset -> 0x02433640
+//		Offset -> 0x0243EBC0
 //		Name   -> Function UMG.Image.SetBrushFromMaterial
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7790,7 +7790,7 @@ void UImage::SetBrushFromMaterial(class UMaterialInterface* Material)
 
 
 // Function:
-//		Offset -> 0x02433550
+//		Offset -> 0x0243EAD0
 //		Name   -> Function UMG.Image.SetBrushFromAtlasInterface
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7812,7 +7812,7 @@ void UImage::SetBrushFromAtlasInterface(bool bMatchSize)
 
 
 // Function:
-//		Offset -> 0x024334C0
+//		Offset -> 0x0243EA40
 //		Name   -> Function UMG.Image.SetBrushFromAsset
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -7834,7 +7834,7 @@ void UImage::SetBrushFromAsset(class USlateBrushAsset* Asset)
 
 
 // Function:
-//		Offset -> 0x02433340
+//		Offset -> 0x0243E8C0
 //		Name   -> Function UMG.Image.SetBrush
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -7856,7 +7856,7 @@ void UImage::SetBrush(const struct FSlateBrush& InBrush)
 
 
 // Function:
-//		Offset -> 0x02432A30
+//		Offset -> 0x0243DFB0
 //		Name   -> Function UMG.Image.GetDynamicMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7879,7 +7879,7 @@ class UMaterialInstanceDynamic* UImage::GetDynamicMaterial()
 
 
 // Function:
-//		Offset -> 0x02434630
+//		Offset -> 0x0243FBB0
 //		Name   -> Function UMG.InputKeySelector.SetTextBlockVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7901,7 +7901,7 @@ void UInputKeySelector::SetTextBlockVisibility(UMG_ESlateVisibility InVisibility
 
 
 // Function:
-//		Offset -> 0x02434430
+//		Offset -> 0x0243F9B0
 //		Name   -> Function UMG.InputKeySelector.SetSelectedKey
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -7923,7 +7923,7 @@ void UInputKeySelector::SetSelectedKey(const struct FInputChord& InSelectedKey)
 
 
 // Function:
-//		Offset -> 0x02434040
+//		Offset -> 0x0243F5C0
 //		Name   -> Function UMG.InputKeySelector.SetNoKeySpecifiedText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7945,7 +7945,7 @@ void UInputKeySelector::SetNoKeySpecifiedText(const struct FText& InNoKeySpecifi
 
 
 // Function:
-//		Offset -> 0x02433F60
+//		Offset -> 0x0243F4E0
 //		Name   -> Function UMG.InputKeySelector.SetKeySelectionText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -7967,7 +7967,7 @@ void UInputKeySelector::SetKeySelectionText(const struct FText& InKeySelectionTe
 
 
 // Function:
-//		Offset -> 0x02433DF0
+//		Offset -> 0x0243F370
 //		Name   -> Function UMG.InputKeySelector.SetEscapeKeys
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -7989,7 +7989,7 @@ void UInputKeySelector::SetEscapeKeys(TArray<struct FKey> InKeys)
 
 
 // Function:
-//		Offset -> 0x024332B0
+//		Offset -> 0x0243E830
 //		Name   -> Function UMG.InputKeySelector.SetAllowModifierKeys
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8011,7 +8011,7 @@ void UInputKeySelector::SetAllowModifierKeys(bool bInAllowModifierKeys)
 
 
 // Function:
-//		Offset -> 0x02433220
+//		Offset -> 0x0243E7A0
 //		Name   -> Function UMG.InputKeySelector.SetAllowGamepadKeys
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8033,7 +8033,7 @@ void UInputKeySelector::SetAllowGamepadKeys(bool bInAllowGamepadKeys)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.InputKeySelector.OnKeySelected__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -8054,7 +8054,7 @@ void UInputKeySelector::OnKeySelected__DelegateSignature(const struct FInputChor
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.InputKeySelector.OnIsSelectingKeyChanged__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UInputKeySelector::OnIsSelectingKeyChanged__DelegateSignature()
@@ -8072,7 +8072,7 @@ void UInputKeySelector::OnIsSelectingKeyChanged__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x02432AF0
+//		Offset -> 0x0243E070
 //		Name   -> Function UMG.InputKeySelector.GetIsSelectingKey
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8095,7 +8095,7 @@ bool UInputKeySelector::GetIsSelectingKey()
 
 
 // Function:
-//		Offset -> 0x02432D90
+//		Offset -> 0x0243E310
 //		Name   -> Function UMG.Int32Binding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -8118,7 +8118,7 @@ int UInt32Binding::GetValue()
 
 
 // Function:
-//		Offset -> 0x02433CE0
+//		Offset -> 0x0243F260
 //		Name   -> Function UMG.InvalidationBox.SetCanCache
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8140,7 +8140,7 @@ void UInvalidationBox::SetCanCache(bool CanCache)
 
 
 // Function:
-//		Offset -> 0x00B00610
+//		Offset -> 0x00B04930
 //		Name   -> Function UMG.InvalidationBox.InvalidateCache
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UInvalidationBox::InvalidateCache()
@@ -8159,7 +8159,7 @@ void UInvalidationBox::InvalidateCache()
 
 
 // Function:
-//		Offset -> 0x02432970
+//		Offset -> 0x0243DEF0
 //		Name   -> Function UMG.InvalidationBox.GetCanCache
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8182,7 +8182,7 @@ bool UInvalidationBox::GetCanCache()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserListEntry.BP_OnItemSelectionChanged
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -8203,7 +8203,7 @@ void UUserListEntry::BP_OnItemSelectionChanged(bool bIsSelected)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserListEntry.BP_OnItemExpansionChanged
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -8224,7 +8224,7 @@ void UUserListEntry::BP_OnItemExpansionChanged(bool bIsExpanded)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserListEntry.BP_OnEntryReleased
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void UUserListEntry::BP_OnEntryReleased()
@@ -8242,7 +8242,7 @@ void UUserListEntry::BP_OnEntryReleased()
 
 
 // Function:
-//		Offset -> 0x02432E90
+//		Offset -> 0x0243E410
 //		Name   -> Function UMG.UserListEntryLibrary.IsListItemSelected
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -8265,7 +8265,7 @@ bool UUserListEntryLibrary::STATIC_IsListItemSelected()
 
 
 // Function:
-//		Offset -> 0x02432DF0
+//		Offset -> 0x0243E370
 //		Name   -> Function UMG.UserListEntryLibrary.IsListItemExpanded
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -8288,7 +8288,7 @@ bool UUserListEntryLibrary::STATIC_IsListItemExpanded()
 
 
 // Function:
-//		Offset -> 0x02432CF0
+//		Offset -> 0x0243E270
 //		Name   -> Function UMG.UserListEntryLibrary.GetOwningListView
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -8311,7 +8311,7 @@ class UListViewBase* UUserListEntryLibrary::STATIC_GetOwningListView()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function UMG.UserObjectListEntry.OnListItemObjectSet
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -8332,7 +8332,7 @@ void UUserObjectListEntry::OnListItemObjectSet(class UObject* ListItemObject)
 
 
 // Function:
-//		Offset -> 0x02432BB0
+//		Offset -> 0x0243E130
 //		Name   -> Function UMG.UserObjectListEntryLibrary.GetListItemObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -8355,7 +8355,7 @@ class UObject* UUserObjectListEntryLibrary::STATIC_GetListItemObject()
 
 
 // Function:
-//		Offset -> 0x02434730
+//		Offset -> 0x0243FCB0
 //		Name   -> Function UMG.ListViewBase.SetWheelScrollMultiplier
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8377,7 +8377,7 @@ void UListViewBase::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 
 
 // Function:
-//		Offset -> 0x024342B0
+//		Offset -> 0x0243F830
 //		Name   -> Function UMG.ListViewBase.SetScrollOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8399,7 +8399,7 @@ void UListViewBase::SetScrollOffset(float InScrollOffset)
 
 
 // Function:
-//		Offset -> 0x02434330
+//		Offset -> 0x0243F8B0
 //		Name   -> Function UMG.ListViewBase.SetScrollbarVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8421,7 +8421,7 @@ void UListViewBase::SetScrollbarVisibility(UMG_ESlateVisibility InVisibility)
 
 
 // Function:
-//		Offset -> 0x02433200
+//		Offset -> 0x0243E780
 //		Name   -> Function UMG.ListViewBase.ScrollToTop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UListViewBase::ScrollToTop()
@@ -8440,7 +8440,7 @@ void UListViewBase::ScrollToTop()
 
 
 // Function:
-//		Offset -> 0x024331E0
+//		Offset -> 0x0243E760
 //		Name   -> Function UMG.ListViewBase.ScrollToBottom
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UListViewBase::ScrollToBottom()
@@ -8459,7 +8459,7 @@ void UListViewBase::ScrollToBottom()
 
 
 // Function:
-//		Offset -> 0x02433140
+//		Offset -> 0x0243E6C0
 //		Name   -> Function UMG.ListViewBase.RequestRefresh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UListViewBase::RequestRefresh()
@@ -8478,7 +8478,7 @@ void UListViewBase::RequestRefresh()
 
 
 // Function:
-//		Offset -> 0x024330A0
+//		Offset -> 0x0243E620
 //		Name   -> Function UMG.ListViewBase.RegenerateAllEntries
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UListViewBase::RegenerateAllEntries()
@@ -8497,7 +8497,7 @@ void UListViewBase::RegenerateAllEntries()
 
 
 // Function:
-//		Offset -> 0x024329A0
+//		Offset -> 0x0243DF20
 //		Name   -> Function UMG.ListViewBase.GetDisplayedEntryWidgets
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8520,7 +8520,7 @@ TArray<class UUserWidget*> UListViewBase::GetDisplayedEntryWidgets()
 
 
 // Function:
-//		Offset -> 0x02434520
+//		Offset -> 0x0243FAA0
 //		Name   -> Function UMG.ListView.SetSelectionMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8542,7 +8542,7 @@ void UListView::SetSelectionMode(TEnumAsByte<Slate_ESelectionMode> SelectionMode
 
 
 // Function:
-//		Offset -> 0x024343B0
+//		Offset -> 0x0243F930
 //		Name   -> Function UMG.ListView.SetSelectedIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8564,7 +8564,7 @@ void UListView::SetSelectedIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x02433160
+//		Offset -> 0x0243E6E0
 //		Name   -> Function UMG.ListView.ScrollIndexIntoView
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8586,7 +8586,7 @@ void UListView::ScrollIndexIntoView(int Index)
 
 
 // Function:
-//		Offset -> 0x024330C0
+//		Offset -> 0x0243E640
 //		Name   -> Function UMG.ListView.RemoveItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8608,7 +8608,7 @@ void UListView::RemoveItem(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x02432F90
+//		Offset -> 0x0243E510
 //		Name   -> Function UMG.ListView.NavigateToIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -8630,7 +8630,7 @@ void UListView::NavigateToIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x02432F60
+//		Offset -> 0x0243E4E0
 //		Name   -> Function UMG.ListView.IsRefreshPending
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8653,7 +8653,7 @@ bool UListView::IsRefreshPending()
 
 
 // Function:
-//		Offset -> 0x02432CC0
+//		Offset -> 0x0243E240
 //		Name   -> Function UMG.ListView.GetNumItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8676,7 +8676,7 @@ int UListView::GetNumItems()
 
 
 // Function:
-//		Offset -> 0x02432C50
+//		Offset -> 0x0243E1D0
 //		Name   -> Function UMG.ListView.GetListItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8699,7 +8699,7 @@ TArray<class UObject*> UListView::GetListItems()
 
 
 // Function:
-//		Offset -> 0x02432B20
+//		Offset -> 0x0243E0A0
 //		Name   -> Function UMG.ListView.GetItemAt
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8724,7 +8724,7 @@ class UObject* UListView::GetItemAt(int Index)
 
 
 // Function:
-//		Offset -> 0x02432A60
+//		Offset -> 0x0243DFE0
 //		Name   -> Function UMG.ListView.GetIndexForItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8749,7 +8749,7 @@ int UListView::GetIndexForItem(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x024328A0
+//		Offset -> 0x0243DE20
 //		Name   -> Function UMG.ListView.ClearListItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UListView::ClearListItems()
@@ -8768,7 +8768,7 @@ void UListView::ClearListItems()
 
 
 // Function:
-//		Offset -> 0x02432820
+//		Offset -> 0x0243DDA0
 //		Name   -> Function UMG.ListView.BP_SetSelectedItem
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -8790,7 +8790,7 @@ void UListView::BP_SetSelectedItem(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x02432770
+//		Offset -> 0x0243DCF0
 //		Name   -> Function UMG.ListView.BP_SetListItems
 //		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -8812,7 +8812,7 @@ void UListView::BP_SetListItems(TArray<class UObject*> InListItems)
 
 
 // Function:
-//		Offset -> 0x024326A0
+//		Offset -> 0x0243DC20
 //		Name   -> Function UMG.ListView.BP_SetItemSelection
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -8836,7 +8836,7 @@ void UListView::BP_SetItemSelection(class UObject* Item, bool bSelected)
 
 
 // Function:
-//		Offset -> 0x02432620
+//		Offset -> 0x0243DBA0
 //		Name   -> Function UMG.ListView.BP_ScrollItemIntoView
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -8858,7 +8858,7 @@ void UListView::BP_ScrollItemIntoView(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x024325A0
+//		Offset -> 0x0243DB20
 //		Name   -> Function UMG.ListView.BP_NavigateToItem
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 // Parameters:
@@ -8880,7 +8880,7 @@ void UListView::BP_NavigateToItem(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x02432510
+//		Offset -> 0x0243DA90
 //		Name   -> Function UMG.ListView.BP_IsItemVisible
 //		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8905,7 +8905,7 @@ bool UListView::BP_IsItemVisible(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x02432450
+//		Offset -> 0x0243D9D0
 //		Name   -> Function UMG.ListView.BP_GetSelectedItems
 //		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -8932,7 +8932,7 @@ bool UListView::BP_GetSelectedItems(TArray<class UObject*>* Items)
 
 
 // Function:
-//		Offset -> 0x02432420
+//		Offset -> 0x0243D9A0
 //		Name   -> Function UMG.ListView.BP_GetSelectedItem
 //		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8955,7 +8955,7 @@ class UObject* UListView::BP_GetSelectedItem()
 
 
 // Function:
-//		Offset -> 0x024323F0
+//		Offset -> 0x0243D970
 //		Name   -> Function UMG.ListView.BP_GetNumItemsSelected
 //		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -8978,7 +8978,7 @@ int UListView::BP_GetNumItemsSelected()
 
 
 // Function:
-//		Offset -> 0x024323D0
+//		Offset -> 0x0243D950
 //		Name   -> Function UMG.ListView.BP_ClearSelection
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 void UListView::BP_ClearSelection()
@@ -8997,7 +8997,7 @@ void UListView::BP_ClearSelection()
 
 
 // Function:
-//		Offset -> 0x024323B0
+//		Offset -> 0x0243D930
 //		Name   -> Function UMG.ListView.BP_CancelScrollIntoView
 //		Flags  -> (Final, Native, Private, BlueprintCallable)
 void UListView::BP_CancelScrollIntoView()
@@ -9016,7 +9016,7 @@ void UListView::BP_CancelScrollIntoView()
 
 
 // Function:
-//		Offset -> 0x02432330
+//		Offset -> 0x0243D8B0
 //		Name   -> Function UMG.ListView.AddItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9038,7 +9038,7 @@ void UListView::AddItem(class UObject* Item)
 
 
 // Function:
-//		Offset -> 0x024347E0
+//		Offset -> 0x0243FD60
 //		Name   -> Function UMG.MenuAnchor.ToggleOpen
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9060,7 +9060,7 @@ void UMenuAnchor::ToggleOpen(bool bFocusOnOpen)
 
 
 // Function:
-//		Offset -> 0x024347B0
+//		Offset -> 0x0243FD30
 //		Name   -> Function UMG.MenuAnchor.ShouldOpenDueToClick
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9083,7 +9083,7 @@ bool UMenuAnchor::ShouldOpenDueToClick()
 
 
 // Function:
-//		Offset -> 0x02434230
+//		Offset -> 0x0243F7B0
 //		Name   -> Function UMG.MenuAnchor.SetPlacement
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9105,7 +9105,7 @@ void UMenuAnchor::SetPlacement(TEnumAsByte<SlateCore_EMenuPlacement> InPlacement
 
 
 // Function:
-//		Offset -> 0x02433010
+//		Offset -> 0x0243E590
 //		Name   -> Function UMG.MenuAnchor.Open
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9127,7 +9127,7 @@ void UMenuAnchor::Open(bool bFocusMenu)
 
 
 // Function:
-//		Offset -> 0x02432F30
+//		Offset -> 0x0243E4B0
 //		Name   -> Function UMG.MenuAnchor.IsOpen
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9150,7 +9150,7 @@ bool UMenuAnchor::IsOpen()
 
 
 // Function:
-//		Offset -> 0x02432DC0
+//		Offset -> 0x0243E340
 //		Name   -> Function UMG.MenuAnchor.HasOpenSubMenus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9173,7 +9173,7 @@ bool UMenuAnchor::HasOpenSubMenus()
 
 
 // Function:
-//		Offset -> 0x02432C80
+//		Offset -> 0x0243E200
 //		Name   -> Function UMG.MenuAnchor.GetMenuPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9196,7 +9196,7 @@ struct FVector2D UMenuAnchor::GetMenuPosition()
 
 
 // Function:
-//		Offset -> 0x024328E0
+//		Offset -> 0x0243DE60
 //		Name   -> Function UMG.MenuAnchor.FitInWindow
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9218,7 +9218,7 @@ void UMenuAnchor::FitInWindow(bool bFit)
 
 
 // Function:
-//		Offset -> 0x024328C0
+//		Offset -> 0x0243DE40
 //		Name   -> Function UMG.MenuAnchor.Close
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMenuAnchor::Close()
@@ -9237,7 +9237,7 @@ void UMenuAnchor::Close()
 
 
 // Function:
-//		Offset -> 0x024380D0
+//		Offset -> 0x02443650
 //		Name   -> Function UMG.MouseCursorBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -9260,7 +9260,7 @@ TEnumAsByte<CoreUObject_EMouseCursor> UMouseCursorBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x02440EA0
+//		Offset -> 0x0244C420
 //		Name   -> Function UMG.TextLayoutWidget.SetJustification
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -9282,7 +9282,7 @@ void UTextLayoutWidget::SetJustification(TEnumAsByte<Slate_ETextJustify> InJusti
 
 
 // Function:
-//		Offset -> 0x024395B0
+//		Offset -> 0x02444B30
 //		Name   -> Function UMG.MultiLineEditableText.SetWidgetStyle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -9304,7 +9304,7 @@ void UMultiLineEditableText::SetWidgetStyle(const struct FTextBlockStyle& InWidg
 
 
 // Function:
-//		Offset -> 0x024390E0
+//		Offset -> 0x02444660
 //		Name   -> Function UMG.MultiLineEditableText.SetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9326,7 +9326,7 @@ void UMultiLineEditableText::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x02438D70
+//		Offset -> 0x024442F0
 //		Name   -> Function UMG.MultiLineEditableText.SetIsReadOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9348,7 +9348,7 @@ void UMultiLineEditableText::SetIsReadOnly(bool bReadOnly)
 
 
 // Function:
-//		Offset -> 0x02438AA0
+//		Offset -> 0x02444020
 //		Name   -> Function UMG.MultiLineEditableText.SetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9370,7 +9370,7 @@ void UMultiLineEditableText::SetHintText(const struct FText& InHintText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextCommittedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -9393,7 +9393,7 @@ void UMultiLineEditableText::OnMultiLineEditableTextCommittedEvent__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -9414,7 +9414,7 @@ void UMultiLineEditableText::OnMultiLineEditableTextChangedEvent__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x02437EF0
+//		Offset -> 0x02443470
 //		Name   -> Function UMG.MultiLineEditableText.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9437,7 +9437,7 @@ struct FText UMultiLineEditableText::GetText()
 
 
 // Function:
-//		Offset -> 0x02437DB0
+//		Offset -> 0x02443330
 //		Name   -> Function UMG.MultiLineEditableText.GetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9460,7 +9460,7 @@ struct FText UMultiLineEditableText::GetHintText()
 
 
 // Function:
-//		Offset -> 0x02439380
+//		Offset -> 0x02444900
 //		Name   -> Function UMG.MultiLineEditableTextBox.SetTextStyle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -9482,7 +9482,7 @@ void UMultiLineEditableTextBox::SetTextStyle(const struct FTextBlockStyle& InTex
 
 
 // Function:
-//		Offset -> 0x024391C0
+//		Offset -> 0x02444740
 //		Name   -> Function UMG.MultiLineEditableTextBox.SetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9504,7 +9504,7 @@ void UMultiLineEditableTextBox::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x02438E00
+//		Offset -> 0x02444380
 //		Name   -> Function UMG.MultiLineEditableTextBox.SetIsReadOnly
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9526,7 +9526,7 @@ void UMultiLineEditableTextBox::SetIsReadOnly(bool bReadOnly)
 
 
 // Function:
-//		Offset -> 0x02438B80
+//		Offset -> 0x02444100
 //		Name   -> Function UMG.MultiLineEditableTextBox.SetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9548,7 +9548,7 @@ void UMultiLineEditableTextBox::SetHintText(const struct FText& InHintText)
 
 
 // Function:
-//		Offset -> 0x02438940
+//		Offset -> 0x02443EC0
 //		Name   -> Function UMG.MultiLineEditableTextBox.SetError
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9570,7 +9570,7 @@ void UMultiLineEditableTextBox::SetError(const struct FText& InError)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -9593,7 +9593,7 @@ void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxCommittedEvent__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -9614,7 +9614,7 @@ void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxChangedEvent__Delegate
 
 
 // Function:
-//		Offset -> 0x02437F90
+//		Offset -> 0x02443510
 //		Name   -> Function UMG.MultiLineEditableTextBox.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9637,7 +9637,7 @@ struct FText UMultiLineEditableTextBox::GetText()
 
 
 // Function:
-//		Offset -> 0x02437E50
+//		Offset -> 0x024433D0
 //		Name   -> Function UMG.MultiLineEditableTextBox.GetHintText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9660,7 +9660,7 @@ struct FText UMultiLineEditableTextBox::GetHintText()
 
 
 // Function:
-//		Offset -> 0x02437A50
+//		Offset -> 0x02442FD0
 //		Name   -> Function UMG.Overlay.AddChildToOverlay
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9685,7 +9685,7 @@ class UOverlaySlot* UOverlay::AddChildToOverlay(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x02439530
+//		Offset -> 0x02444AB0
 //		Name   -> Function UMG.OverlaySlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9707,7 +9707,7 @@ void UOverlaySlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment
 
 
 // Function:
-//		Offset -> 0x02438F10
+//		Offset -> 0x02444490
 //		Name   -> Function UMG.OverlaySlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9729,7 +9729,7 @@ void UOverlaySlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x02438C60
+//		Offset -> 0x024441E0
 //		Name   -> Function UMG.OverlaySlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9751,7 +9751,7 @@ void UOverlaySlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlign
 
 
 // Function:
-//		Offset -> 0x02438FA0
+//		Offset -> 0x02444520
 //		Name   -> Function UMG.ProgressBar.SetPercent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9773,7 +9773,7 @@ void UProgressBar::SetPercent(float InPercent)
 
 
 // Function:
-//		Offset -> 0x02438CE0
+//		Offset -> 0x02444260
 //		Name   -> Function UMG.ProgressBar.SetIsMarquee
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9795,7 +9795,7 @@ void UProgressBar::SetIsMarquee(bool InbIsMarquee)
 
 
 // Function:
-//		Offset -> 0x02438A20
+//		Offset -> 0x02443FA0
 //		Name   -> Function UMG.ProgressBar.SetFillColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -9817,7 +9817,7 @@ void UProgressBar::SetFillColorAndOpacity(const struct FLinearColor& InColor)
 
 
 // Function:
-//		Offset -> 0x024394B0
+//		Offset -> 0x02444A30
 //		Name   -> Function UMG.RetainerBox.SetTextureParameter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9839,7 +9839,7 @@ void URetainerBox::SetTextureParameter(const struct FName& TextureParameter)
 
 
 // Function:
-//		Offset -> 0x02439020
+//		Offset -> 0x024445A0
 //		Name   -> Function UMG.RetainerBox.SetRenderingPhase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9863,7 +9863,7 @@ void URetainerBox::SetRenderingPhase(int RenderPhase, int TotalPhases)
 
 
 // Function:
-//		Offset -> 0x024388C0
+//		Offset -> 0x02443E40
 //		Name   -> Function UMG.RetainerBox.SetEffectMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9885,7 +9885,7 @@ void URetainerBox::SetEffectMaterial(class UMaterialInterface* EffectMaterial)
 
 
 // Function:
-//		Offset -> 0x024382E0
+//		Offset -> 0x02443860
 //		Name   -> Function UMG.RetainerBox.RequestRender
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void URetainerBox::RequestRender()
@@ -9904,7 +9904,7 @@ void URetainerBox::RequestRender()
 
 
 // Function:
-//		Offset -> 0x02437D80
+//		Offset -> 0x02443300
 //		Name   -> Function UMG.RetainerBox.GetEffectMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -9927,7 +9927,7 @@ class UMaterialInstanceDynamic* URetainerBox::GetEffectMaterial()
 
 
 // Function:
-//		Offset -> 0x02439430
+//		Offset -> 0x024449B0
 //		Name   -> Function UMG.RichTextBlock.SetTextStyleSet
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9949,7 +9949,7 @@ void URichTextBlock::SetTextStyleSet(class UDataTable* NewTextStyleSet)
 
 
 // Function:
-//		Offset -> 0x024392A0
+//		Offset -> 0x02444820
 //		Name   -> Function UMG.RichTextBlock.SetText
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -9971,7 +9971,7 @@ void URichTextBlock::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x02438E90
+//		Offset -> 0x02444410
 //		Name   -> Function UMG.RichTextBlock.SetMinDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -9993,7 +9993,7 @@ void URichTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 
 
 // Function:
-//		Offset -> 0x02438810
+//		Offset -> 0x02443D90
 //		Name   -> Function UMG.RichTextBlock.SetDefaultTextStyle
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -10015,7 +10015,7 @@ void URichTextBlock::SetDefaultTextStyle(const struct FTextBlockStyle& InDefault
 
 
 // Function:
-//		Offset -> 0x02438690
+//		Offset -> 0x02443C10
 //		Name   -> Function UMG.RichTextBlock.SetDefaultStrikeBrush
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -10039,7 +10039,7 @@ void URichTextBlock::SetDefaultStrikeBrush(struct FSlateBrush* InStrikeBrush)
 
 
 // Function:
-//		Offset -> 0x02438610
+//		Offset -> 0x02443B90
 //		Name   -> Function UMG.RichTextBlock.SetDefaultShadowOffset
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -10061,7 +10061,7 @@ void URichTextBlock::SetDefaultShadowOffset(const struct FVector2D& InShadowOffs
 
 
 // Function:
-//		Offset -> 0x02438590
+//		Offset -> 0x02443B10
 //		Name   -> Function UMG.RichTextBlock.SetDefaultShadowColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -10083,7 +10083,7 @@ void URichTextBlock::SetDefaultShadowColorAndOpacity(const struct FLinearColor& 
 
 
 // Function:
-//		Offset -> 0x02438480
+//		Offset -> 0x02443A00
 //		Name   -> Function UMG.RichTextBlock.SetDefaultFont
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10105,7 +10105,7 @@ void URichTextBlock::SetDefaultFont(const struct FSlateFontInfo& InFontInfo)
 
 
 // Function:
-//		Offset -> 0x02438390
+//		Offset -> 0x02443910
 //		Name   -> Function UMG.RichTextBlock.SetDefaultColorAndOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10127,7 +10127,7 @@ void URichTextBlock::SetDefaultColorAndOpacity(const struct FSlateColor& InColor
 
 
 // Function:
-//		Offset -> 0x02438300
+//		Offset -> 0x02443880
 //		Name   -> Function UMG.RichTextBlock.SetAutoWrapText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10149,7 +10149,7 @@ void URichTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 
 
 // Function:
-//		Offset -> 0x02438030
+//		Offset -> 0x024435B0
 //		Name   -> Function UMG.RichTextBlock.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -10172,7 +10172,7 @@ struct FText URichTextBlock::GetText()
 
 
 // Function:
-//		Offset -> 0x02437CF0
+//		Offset -> 0x02443270
 //		Name   -> Function UMG.RichTextBlock.GetDecoratorByClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10197,7 +10197,7 @@ class URichTextBlockDecorator* URichTextBlock::GetDecoratorByClass(class UClass*
 
 
 // Function:
-//		Offset -> 0x02437AE0
+//		Offset -> 0x02443060
 //		Name   -> Function UMG.RichTextBlock.ClearAllDefaultStyleOverrides
 //		Flags  -> (Final, Native, Public)
 void URichTextBlock::ClearAllDefaultStyleOverrides()
@@ -10216,7 +10216,7 @@ void URichTextBlock::ClearAllDefaultStyleOverrides()
 
 
 // Function:
-//		Offset -> 0x0243D560
+//		Offset -> 0x02448AE0
 //		Name   -> Function UMG.SafeZone.SetSidesToPad
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10244,7 +10244,7 @@ void USafeZone::SetSidesToPad(bool InPadLeft, bool InPadRight, bool InPadTop, bo
 
 
 // Function:
-//		Offset -> 0x0243D890
+//		Offset -> 0x02448E10
 //		Name   -> Function UMG.ScaleBox.SetUserSpecifiedScale
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10266,7 +10266,7 @@ void UScaleBox::SetUserSpecifiedScale(float InUserSpecifiedScale)
 
 
 // Function:
-//		Offset -> 0x0243D810
+//		Offset -> 0x02448D90
 //		Name   -> Function UMG.ScaleBox.SetStretchDirection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10288,7 +10288,7 @@ void UScaleBox::SetStretchDirection(TEnumAsByte<Slate_EStretchDirection> InStret
 
 
 // Function:
-//		Offset -> 0x0243D790
+//		Offset -> 0x02448D10
 //		Name   -> Function UMG.ScaleBox.SetStretch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10310,7 +10310,7 @@ void UScaleBox::SetStretch(TEnumAsByte<Slate_EStretch> InStretch)
 
 
 // Function:
-//		Offset -> 0x0243CD70
+//		Offset -> 0x024482F0
 //		Name   -> Function UMG.ScaleBox.SetIgnoreInheritedScale
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10332,7 +10332,7 @@ void UScaleBox::SetIgnoreInheritedScale(bool bInIgnoreInheritedScale)
 
 
 // Function:
-//		Offset -> 0x0242BCC0
+//		Offset -> 0x02437270
 //		Name   -> Function UMG.ScaleBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10354,7 +10354,7 @@ void UScaleBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignmen
 
 
 // Function:
-//		Offset -> 0x0243D180
+//		Offset -> 0x02448700
 //		Name   -> Function UMG.ScaleBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10376,7 +10376,7 @@ void UScaleBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0242AED0
+//		Offset -> 0x02436480
 //		Name   -> Function UMG.ScaleBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10398,7 +10398,7 @@ void UScaleBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlig
 
 
 // Function:
-//		Offset -> 0x0243D6D0
+//		Offset -> 0x02448C50
 //		Name   -> Function UMG.ScrollBar.SetState
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10422,7 +10422,7 @@ void UScrollBar::SetState(float InOffsetFraction, float InThumbSizeFraction)
 
 
 // Function:
-//		Offset -> 0x0243DA10
+//		Offset -> 0x02448F90
 //		Name   -> Function UMG.ScrollBox.SetWheelScrollMultiplier
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10444,7 +10444,7 @@ void UScrollBox::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 
 
 // Function:
-//		Offset -> 0x0243D3B0
+//		Offset -> 0x02448930
 //		Name   -> Function UMG.ScrollBox.SetScrollOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10466,7 +10466,7 @@ void UScrollBox::SetScrollOffset(float NewScrollOffset)
 
 
 // Function:
-//		Offset -> 0x0243D330
+//		Offset -> 0x024488B0
 //		Name   -> Function UMG.ScrollBox.SetScrollbarVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10488,7 +10488,7 @@ void UScrollBox::SetScrollbarVisibility(UMG_ESlateVisibility NewScrollBarVisibil
 
 
 // Function:
-//		Offset -> 0x0243D4D0
+//		Offset -> 0x02448A50
 //		Name   -> Function UMG.ScrollBox.SetScrollbarThickness
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -10510,7 +10510,7 @@ void UScrollBox::SetScrollbarThickness(const struct FVector2D& NewScrollbarThick
 
 
 // Function:
-//		Offset -> 0x0243D430
+//		Offset -> 0x024489B0
 //		Name   -> Function UMG.ScrollBox.SetScrollbarPadding
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -10532,7 +10532,7 @@ void UScrollBox::SetScrollbarPadding(const struct FMargin& NewScrollbarPadding)
 
 
 // Function:
-//		Offset -> 0x0243D100
+//		Offset -> 0x02448680
 //		Name   -> Function UMG.ScrollBox.SetOrientation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10554,7 +10554,7 @@ void UScrollBox::SetOrientation(TEnumAsByte<SlateCore_EOrientation> NewOrientati
 
 
 // Function:
-//		Offset -> 0x0243CB70
+//		Offset -> 0x024480F0
 //		Name   -> Function UMG.ScrollBox.SetConsumeMouseWheel
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10576,7 +10576,7 @@ void UScrollBox::SetConsumeMouseWheel(SlateCore_EConsumeMouseWheel NewConsumeMou
 
 
 // Function:
-//		Offset -> 0x0243CAE0
+//		Offset -> 0x02448060
 //		Name   -> Function UMG.ScrollBox.SetAnimateWheelScrolling
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10598,7 +10598,7 @@ void UScrollBox::SetAnimateWheelScrolling(bool bShouldAnimateWheelScrolling)
 
 
 // Function:
-//		Offset -> 0x0243CA50
+//		Offset -> 0x02447FD0
 //		Name   -> Function UMG.ScrollBox.SetAlwaysShowScrollbar
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10620,7 +10620,7 @@ void UScrollBox::SetAlwaysShowScrollbar(bool NewAlwaysShowScrollbar)
 
 
 // Function:
-//		Offset -> 0x0243C9C0
+//		Offset -> 0x02447F40
 //		Name   -> Function UMG.ScrollBox.SetAllowOverscroll
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10642,7 +10642,7 @@ void UScrollBox::SetAllowOverscroll(bool NewAllowOverscroll)
 
 
 // Function:
-//		Offset -> 0x0243C870
+//		Offset -> 0x02447DF0
 //		Name   -> Function UMG.ScrollBox.ScrollWidgetIntoView
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10670,7 +10670,7 @@ void UScrollBox::ScrollWidgetIntoView(class UWidget* WidgetToFind, bool AnimateS
 
 
 // Function:
-//		Offset -> 0x0243C850
+//		Offset -> 0x02447DD0
 //		Name   -> Function UMG.ScrollBox.ScrollToStart
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UScrollBox::ScrollToStart()
@@ -10689,7 +10689,7 @@ void UScrollBox::ScrollToStart()
 
 
 // Function:
-//		Offset -> 0x0243C830
+//		Offset -> 0x02447DB0
 //		Name   -> Function UMG.ScrollBox.ScrollToEnd
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UScrollBox::ScrollToEnd()
@@ -10708,7 +10708,7 @@ void UScrollBox::ScrollToEnd()
 
 
 // Function:
-//		Offset -> 0x0243C000
+//		Offset -> 0x02447580
 //		Name   -> Function UMG.ScrollBox.GetViewOffsetFraction
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -10731,7 +10731,7 @@ float UScrollBox::GetViewOffsetFraction()
 
 
 // Function:
-//		Offset -> 0x0243BFD0
+//		Offset -> 0x02447550
 //		Name   -> Function UMG.ScrollBox.GetScrollOffsetOfEnd
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -10754,7 +10754,7 @@ float UScrollBox::GetScrollOffsetOfEnd()
 
 
 // Function:
-//		Offset -> 0x0243BFA0
+//		Offset -> 0x02447520
 //		Name   -> Function UMG.ScrollBox.GetScrollOffset
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -10777,7 +10777,7 @@ float UScrollBox::GetScrollOffset()
 
 
 // Function:
-//		Offset -> 0x0243BA90
+//		Offset -> 0x02447010
 //		Name   -> Function UMG.ScrollBox.EndInertialScrolling
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UScrollBox::EndInertialScrolling()
@@ -10796,7 +10796,7 @@ void UScrollBox::EndInertialScrolling()
 
 
 // Function:
-//		Offset -> 0x0243D910
+//		Offset -> 0x02448E90
 //		Name   -> Function UMG.ScrollBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10818,7 +10818,7 @@ void UScrollBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignme
 
 
 // Function:
-//		Offset -> 0x0243D210
+//		Offset -> 0x02448790
 //		Name   -> Function UMG.ScrollBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10840,7 +10840,7 @@ void UScrollBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0243CC70
+//		Offset -> 0x024481F0
 //		Name   -> Function UMG.ScrollBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10862,7 +10862,7 @@ void UScrollBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAli
 
 
 // Function:
-//		Offset -> 0x0243DA90
+//		Offset -> 0x02449010
 //		Name   -> Function UMG.SizeBox.SetWidthOverride
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10884,7 +10884,7 @@ void USizeBox::SetWidthOverride(float InWidthOverride)
 
 
 // Function:
-//		Offset -> 0x0243D080
+//		Offset -> 0x02448600
 //		Name   -> Function UMG.SizeBox.SetMinDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10906,7 +10906,7 @@ void USizeBox::SetMinDesiredWidth(float InMinDesiredWidth)
 
 
 // Function:
-//		Offset -> 0x0243D000
+//		Offset -> 0x02448580
 //		Name   -> Function UMG.SizeBox.SetMinDesiredHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10928,7 +10928,7 @@ void USizeBox::SetMinDesiredHeight(float InMinDesiredHeight)
 
 
 // Function:
-//		Offset -> 0x0243CF80
+//		Offset -> 0x02448500
 //		Name   -> Function UMG.SizeBox.SetMinAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10950,7 +10950,7 @@ void USizeBox::SetMinAspectRatio(float InMinAspectRatio)
 
 
 // Function:
-//		Offset -> 0x0243CF00
+//		Offset -> 0x02448480
 //		Name   -> Function UMG.SizeBox.SetMaxDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10972,7 +10972,7 @@ void USizeBox::SetMaxDesiredWidth(float InMaxDesiredWidth)
 
 
 // Function:
-//		Offset -> 0x0243CE80
+//		Offset -> 0x02448400
 //		Name   -> Function UMG.SizeBox.SetMaxDesiredHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -10994,7 +10994,7 @@ void USizeBox::SetMaxDesiredHeight(float InMaxDesiredHeight)
 
 
 // Function:
-//		Offset -> 0x0243CE00
+//		Offset -> 0x02448380
 //		Name   -> Function UMG.SizeBox.SetMaxAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11016,7 +11016,7 @@ void USizeBox::SetMaxAspectRatio(float InMaxAspectRatio)
 
 
 // Function:
-//		Offset -> 0x0243CBF0
+//		Offset -> 0x02448170
 //		Name   -> Function UMG.SizeBox.SetHeightOverride
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11038,7 +11038,7 @@ void USizeBox::SetHeightOverride(float InHeightOverride)
 
 
 // Function:
-//		Offset -> 0x0243BA70
+//		Offset -> 0x02446FF0
 //		Name   -> Function UMG.SizeBox.ClearWidthOverride
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearWidthOverride()
@@ -11057,7 +11057,7 @@ void USizeBox::ClearWidthOverride()
 
 
 // Function:
-//		Offset -> 0x0243BA50
+//		Offset -> 0x02446FD0
 //		Name   -> Function UMG.SizeBox.ClearMinDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMinDesiredWidth()
@@ -11076,7 +11076,7 @@ void USizeBox::ClearMinDesiredWidth()
 
 
 // Function:
-//		Offset -> 0x0243BA30
+//		Offset -> 0x02446FB0
 //		Name   -> Function UMG.SizeBox.ClearMinDesiredHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMinDesiredHeight()
@@ -11095,7 +11095,7 @@ void USizeBox::ClearMinDesiredHeight()
 
 
 // Function:
-//		Offset -> 0x0243BA10
+//		Offset -> 0x02446F90
 //		Name   -> Function UMG.SizeBox.ClearMinAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMinAspectRatio()
@@ -11114,7 +11114,7 @@ void USizeBox::ClearMinAspectRatio()
 
 
 // Function:
-//		Offset -> 0x0243B9F0
+//		Offset -> 0x02446F70
 //		Name   -> Function UMG.SizeBox.ClearMaxDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMaxDesiredWidth()
@@ -11133,7 +11133,7 @@ void USizeBox::ClearMaxDesiredWidth()
 
 
 // Function:
-//		Offset -> 0x0243B9D0
+//		Offset -> 0x02446F50
 //		Name   -> Function UMG.SizeBox.ClearMaxDesiredHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMaxDesiredHeight()
@@ -11152,7 +11152,7 @@ void USizeBox::ClearMaxDesiredHeight()
 
 
 // Function:
-//		Offset -> 0x0243B9B0
+//		Offset -> 0x02446F30
 //		Name   -> Function UMG.SizeBox.ClearMaxAspectRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearMaxAspectRatio()
@@ -11171,7 +11171,7 @@ void USizeBox::ClearMaxAspectRatio()
 
 
 // Function:
-//		Offset -> 0x0243B990
+//		Offset -> 0x02446F10
 //		Name   -> Function UMG.SizeBox.ClearHeightOverride
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USizeBox::ClearHeightOverride()
@@ -11190,7 +11190,7 @@ void USizeBox::ClearHeightOverride()
 
 
 // Function:
-//		Offset -> 0x0243D990
+//		Offset -> 0x02448F10
 //		Name   -> Function UMG.SizeBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11212,7 +11212,7 @@ void USizeBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment
 
 
 // Function:
-//		Offset -> 0x0243D2A0
+//		Offset -> 0x02448820
 //		Name   -> Function UMG.SizeBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11234,7 +11234,7 @@ void USizeBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0243CCF0
+//		Offset -> 0x02448270
 //		Name   -> Function UMG.SizeBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11256,7 +11256,7 @@ void USizeBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlign
 
 
 // Function:
-//		Offset -> 0x0243DE10
+//		Offset -> 0x02449390
 //		Name   -> Function UMG.SlateBlueprintLibrary.TransformVectorLocalToAbsolute
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11283,7 +11283,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_TransformVectorLocalToAbsolute(c
 
 
 // Function:
-//		Offset -> 0x0243DD10
+//		Offset -> 0x02449290
 //		Name   -> Function UMG.SlateBlueprintLibrary.TransformVectorAbsoluteToLocal
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11310,7 +11310,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_TransformVectorAbsoluteToLocal(c
 
 
 // Function:
-//		Offset -> 0x0243DC10
+//		Offset -> 0x02449190
 //		Name   -> Function UMG.SlateBlueprintLibrary.TransformScalarLocalToAbsolute
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11337,7 +11337,7 @@ float USlateBlueprintLibrary::STATIC_TransformScalarLocalToAbsolute(const struct
 
 
 // Function:
-//		Offset -> 0x0243DB10
+//		Offset -> 0x02449090
 //		Name   -> Function UMG.SlateBlueprintLibrary.TransformScalarAbsoluteToLocal
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11364,7 +11364,7 @@ float USlateBlueprintLibrary::STATIC_TransformScalarAbsoluteToLocal(const struct
 
 
 // Function:
-//		Offset -> 0x0243C660
+//		Offset -> 0x02447BE0
 //		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToWidgetLocal
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -11396,7 +11396,7 @@ void USlateBlueprintLibrary::STATIC_ScreenToWidgetLocal(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x0243C510
+//		Offset -> 0x02447A90
 //		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToWidgetAbsolute
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -11426,7 +11426,7 @@ void USlateBlueprintLibrary::STATIC_ScreenToWidgetAbsolute(class UObject* WorldC
 
 
 // Function:
-//		Offset -> 0x0243C410
+//		Offset -> 0x02447990
 //		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToViewport
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -11454,7 +11454,7 @@ void USlateBlueprintLibrary::STATIC_ScreenToViewport(class UObject* WorldContext
 
 
 // Function:
-//		Offset -> 0x0243C230
+//		Offset -> 0x024477B0
 //		Name   -> Function UMG.SlateBlueprintLibrary.LocalToViewport
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11487,7 +11487,7 @@ void USlateBlueprintLibrary::STATIC_LocalToViewport(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x0243C130
+//		Offset -> 0x024476B0
 //		Name   -> Function UMG.SlateBlueprintLibrary.LocalToAbsolute
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11514,7 +11514,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_LocalToAbsolute(const struct FGe
 
 
 // Function:
-//		Offset -> 0x0243C030
+//		Offset -> 0x024475B0
 //		Name   -> Function UMG.SlateBlueprintLibrary.IsUnderLocation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11541,7 +11541,7 @@ bool USlateBlueprintLibrary::STATIC_IsUnderLocation(const struct FGeometry& Geom
 
 
 // Function:
-//		Offset -> 0x0243BEE0
+//		Offset -> 0x02447460
 //		Name   -> Function UMG.SlateBlueprintLibrary.GetLocalTopLeft
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11566,7 +11566,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_GetLocalTopLeft(const struct FGe
 
 
 // Function:
-//		Offset -> 0x0243BE20
+//		Offset -> 0x024473A0
 //		Name   -> Function UMG.SlateBlueprintLibrary.GetLocalSize
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11591,7 +11591,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_GetLocalSize(const struct FGeome
 
 
 // Function:
-//		Offset -> 0x0243BD60
+//		Offset -> 0x024472E0
 //		Name   -> Function UMG.SlateBlueprintLibrary.GetAbsoluteSize
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11616,7 +11616,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_GetAbsoluteSize(const struct FGe
 
 
 // Function:
-//		Offset -> 0x0243BAB0
+//		Offset -> 0x02447030
 //		Name   -> Function UMG.SlateBlueprintLibrary.EqualEqual_SlateBrush
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11643,7 +11643,7 @@ bool USlateBlueprintLibrary::STATIC_EqualEqual_SlateBrush(const struct FSlateBru
 
 
 // Function:
-//		Offset -> 0x0243B840
+//		Offset -> 0x02446DC0
 //		Name   -> Function UMG.SlateBlueprintLibrary.AbsoluteToViewport
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11674,7 +11674,7 @@ void USlateBlueprintLibrary::STATIC_AbsoluteToViewport(class UObject* WorldConte
 
 
 // Function:
-//		Offset -> 0x0243B740
+//		Offset -> 0x02446CC0
 //		Name   -> Function UMG.SlateBlueprintLibrary.AbsoluteToLocal
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -11701,7 +11701,7 @@ struct FVector2D USlateBlueprintLibrary::STATIC_AbsoluteToLocal(const struct FGe
 
 
 // Function:
-//		Offset -> 0x02441B40
+//		Offset -> 0x0244D0C0
 //		Name   -> Function UMG.Slider.SetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11723,7 +11723,7 @@ void USlider::SetValue(float InValue)
 
 
 // Function:
-//		Offset -> 0x024417B0
+//		Offset -> 0x0244CD30
 //		Name   -> Function UMG.Slider.SetStepSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11745,7 +11745,7 @@ void USlider::SetStepSize(float InValue)
 
 
 // Function:
-//		Offset -> 0x02441730
+//		Offset -> 0x0244CCB0
 //		Name   -> Function UMG.Slider.SetSliderHandleColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -11767,7 +11767,7 @@ void USlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 
 
 // Function:
-//		Offset -> 0x024416B0
+//		Offset -> 0x0244CC30
 //		Name   -> Function UMG.Slider.SetSliderBarColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -11789,7 +11789,7 @@ void USlider::SetSliderBarColor(const struct FLinearColor& InValue)
 
 
 // Function:
-//		Offset -> 0x02441330
+//		Offset -> 0x0244C8B0
 //		Name   -> Function UMG.Slider.SetMinValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11811,7 +11811,7 @@ void USlider::SetMinValue(float InValue)
 
 
 // Function:
-//		Offset -> 0x024410B0
+//		Offset -> 0x0244C630
 //		Name   -> Function UMG.Slider.SetMaxValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11833,7 +11833,7 @@ void USlider::SetMaxValue(float InValue)
 
 
 // Function:
-//		Offset -> 0x02440F20
+//		Offset -> 0x0244C4A0
 //		Name   -> Function UMG.Slider.SetLocked
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11855,7 +11855,7 @@ void USlider::SetLocked(bool InValue)
 
 
 // Function:
-//		Offset -> 0x02440D40
+//		Offset -> 0x0244C2C0
 //		Name   -> Function UMG.Slider.SetIndentHandle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11877,7 +11877,7 @@ void USlider::SetIndentHandle(bool InValue)
 
 
 // Function:
-//		Offset -> 0x024405A0
+//		Offset -> 0x0244BB20
 //		Name   -> Function UMG.Slider.GetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -11900,7 +11900,7 @@ float USlider::GetValue()
 
 
 // Function:
-//		Offset -> 0x024403B0
+//		Offset -> 0x0244B930
 //		Name   -> Function UMG.Slider.GetNormalizedValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -11923,7 +11923,7 @@ float USlider::GetNormalizedValue()
 
 
 // Function:
-//		Offset -> 0x02441630
+//		Offset -> 0x0244CBB0
 //		Name   -> Function UMG.Spacer.SetSize
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -11945,7 +11945,7 @@ void USpacer::SetSize(const struct FVector2D& InSize)
 
 
 // Function:
-//		Offset -> 0x02441BC0
+//		Offset -> 0x0244D140
 //		Name   -> Function UMG.SpinBox.SetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11967,7 +11967,7 @@ void USpinBox::SetValue(float NewValue)
 
 
 // Function:
-//		Offset -> 0x024413B0
+//		Offset -> 0x0244C930
 //		Name   -> Function UMG.SpinBox.SetMinValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11989,7 +11989,7 @@ void USpinBox::SetMinValue(float NewValue)
 
 
 // Function:
-//		Offset -> 0x024412B0
+//		Offset -> 0x0244C830
 //		Name   -> Function UMG.SpinBox.SetMinSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12011,7 +12011,7 @@ void USpinBox::SetMinSliderValue(float NewValue)
 
 
 // Function:
-//		Offset -> 0x02441230
+//		Offset -> 0x0244C7B0
 //		Name   -> Function UMG.SpinBox.SetMinFractionalDigits
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12033,7 +12033,7 @@ void USpinBox::SetMinFractionalDigits(int NewValue)
 
 
 // Function:
-//		Offset -> 0x02441130
+//		Offset -> 0x0244C6B0
 //		Name   -> Function UMG.SpinBox.SetMaxValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12055,7 +12055,7 @@ void USpinBox::SetMaxValue(float NewValue)
 
 
 // Function:
-//		Offset -> 0x02441030
+//		Offset -> 0x0244C5B0
 //		Name   -> Function UMG.SpinBox.SetMaxSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12077,7 +12077,7 @@ void USpinBox::SetMaxSliderValue(float NewValue)
 
 
 // Function:
-//		Offset -> 0x02440FB0
+//		Offset -> 0x0244C530
 //		Name   -> Function UMG.SpinBox.SetMaxFractionalDigits
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12099,7 +12099,7 @@ void USpinBox::SetMaxFractionalDigits(int NewValue)
 
 
 // Function:
-//		Offset -> 0x02440C50
+//		Offset -> 0x0244C1D0
 //		Name   -> Function UMG.SpinBox.SetForegroundColor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12121,7 +12121,7 @@ void USpinBox::SetForegroundColor(const struct FSlateColor& InForegroundColor)
 
 
 // Function:
-//		Offset -> 0x024409C0
+//		Offset -> 0x0244BF40
 //		Name   -> Function UMG.SpinBox.SetDelta
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12143,7 +12143,7 @@ void USpinBox::SetDelta(float NewValue)
 
 
 // Function:
-//		Offset -> 0x02440600
+//		Offset -> 0x0244BB80
 //		Name   -> Function UMG.SpinBox.SetAlwaysUsesDeltaSnap
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12165,7 +12165,7 @@ void USpinBox::SetAlwaysUsesDeltaSnap(bool bNewValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxValueCommittedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -12188,7 +12188,7 @@ void USpinBox::OnSpinBoxValueCommittedEvent__DelegateSignature(float InValue, TE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxValueChangedEvent__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -12209,7 +12209,7 @@ void USpinBox::OnSpinBoxValueChangedEvent__DelegateSignature(float InValue)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxBeginSliderMovement__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void USpinBox::OnSpinBoxBeginSliderMovement__DelegateSignature()
@@ -12227,7 +12227,7 @@ void USpinBox::OnSpinBoxBeginSliderMovement__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x024405D0
+//		Offset -> 0x0244BB50
 //		Name   -> Function UMG.SpinBox.GetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12250,7 +12250,7 @@ float USpinBox::GetValue()
 
 
 // Function:
-//		Offset -> 0x02440380
+//		Offset -> 0x0244B900
 //		Name   -> Function UMG.SpinBox.GetMinValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12273,7 +12273,7 @@ float USpinBox::GetMinValue()
 
 
 // Function:
-//		Offset -> 0x02440350
+//		Offset -> 0x0244B8D0
 //		Name   -> Function UMG.SpinBox.GetMinSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12296,7 +12296,7 @@ float USpinBox::GetMinSliderValue()
 
 
 // Function:
-//		Offset -> 0x02440320
+//		Offset -> 0x0244B8A0
 //		Name   -> Function UMG.SpinBox.GetMinFractionalDigits
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12319,7 +12319,7 @@ int USpinBox::GetMinFractionalDigits()
 
 
 // Function:
-//		Offset -> 0x024402F0
+//		Offset -> 0x0244B870
 //		Name   -> Function UMG.SpinBox.GetMaxValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12342,7 +12342,7 @@ float USpinBox::GetMaxValue()
 
 
 // Function:
-//		Offset -> 0x024402C0
+//		Offset -> 0x0244B840
 //		Name   -> Function UMG.SpinBox.GetMaxSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12365,7 +12365,7 @@ float USpinBox::GetMaxSliderValue()
 
 
 // Function:
-//		Offset -> 0x02440290
+//		Offset -> 0x0244B810
 //		Name   -> Function UMG.SpinBox.GetMaxFractionalDigits
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12388,7 +12388,7 @@ int USpinBox::GetMaxFractionalDigits()
 
 
 // Function:
-//		Offset -> 0x02440200
+//		Offset -> 0x0244B780
 //		Name   -> Function UMG.SpinBox.GetDelta
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12411,7 +12411,7 @@ float USpinBox::GetDelta()
 
 
 // Function:
-//		Offset -> 0x024401D0
+//		Offset -> 0x0244B750
 //		Name   -> Function UMG.SpinBox.GetAlwaysUsesDeltaSnap
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12434,7 +12434,7 @@ bool USpinBox::GetAlwaysUsesDeltaSnap()
 
 
 // Function:
-//		Offset -> 0x02440170
+//		Offset -> 0x0244B6F0
 //		Name   -> Function UMG.SpinBox.ClearMinValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USpinBox::ClearMinValue()
@@ -12453,7 +12453,7 @@ void USpinBox::ClearMinValue()
 
 
 // Function:
-//		Offset -> 0x02440150
+//		Offset -> 0x0244B6D0
 //		Name   -> Function UMG.SpinBox.ClearMinSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USpinBox::ClearMinSliderValue()
@@ -12472,7 +12472,7 @@ void USpinBox::ClearMinSliderValue()
 
 
 // Function:
-//		Offset -> 0x02440130
+//		Offset -> 0x0244B6B0
 //		Name   -> Function UMG.SpinBox.ClearMaxValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USpinBox::ClearMaxValue()
@@ -12491,7 +12491,7 @@ void USpinBox::ClearMaxValue()
 
 
 // Function:
-//		Offset -> 0x02440110
+//		Offset -> 0x0244B690
 //		Name   -> Function UMG.SpinBox.ClearMaxSliderValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USpinBox::ClearMaxSliderValue()
@@ -12510,7 +12510,7 @@ void USpinBox::ClearMaxSliderValue()
 
 
 // Function:
-//		Offset -> 0x02440500
+//		Offset -> 0x0244BA80
 //		Name   -> Function UMG.TextBinding.GetTextValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -12533,7 +12533,7 @@ struct FText UTextBinding::GetTextValue()
 
 
 // Function:
-//		Offset -> 0x024403E0
+//		Offset -> 0x0244B960
 //		Name   -> Function UMG.TextBinding.GetStringValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -12556,7 +12556,7 @@ struct FString UTextBinding::GetStringValue()
 
 
 // Function:
-//		Offset -> 0x02441A60
+//		Offset -> 0x0244CFE0
 //		Name   -> Function UMG.TextBlock.SetText
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -12578,7 +12578,7 @@ void UTextBlock::SetText(const struct FText& InText)
 
 
 // Function:
-//		Offset -> 0x02441830
+//		Offset -> 0x0244CDB0
 //		Name   -> Function UMG.TextBlock.SetStrikeBrush
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12600,7 +12600,7 @@ void UTextBlock::SetStrikeBrush(const struct FSlateBrush& InStrikeBrush)
 
 
 // Function:
-//		Offset -> 0x024415B0
+//		Offset -> 0x0244CB30
 //		Name   -> Function UMG.TextBlock.SetShadowOffset
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -12622,7 +12622,7 @@ void UTextBlock::SetShadowOffset(const struct FVector2D& InShadowOffset)
 
 
 // Function:
-//		Offset -> 0x02441530
+//		Offset -> 0x0244CAB0
 //		Name   -> Function UMG.TextBlock.SetShadowColorAndOpacity
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -12644,7 +12644,7 @@ void UTextBlock::SetShadowColorAndOpacity(const struct FLinearColor& InShadowCol
 
 
 // Function:
-//		Offset -> 0x024414B0
+//		Offset -> 0x0244CA30
 //		Name   -> Function UMG.TextBlock.SetOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12666,7 +12666,7 @@ void UTextBlock::SetOpacity(float InOpacity)
 
 
 // Function:
-//		Offset -> 0x024411B0
+//		Offset -> 0x0244C730
 //		Name   -> Function UMG.TextBlock.SetMinDesiredWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12688,7 +12688,7 @@ void UTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 
 
 // Function:
-//		Offset -> 0x02440B40
+//		Offset -> 0x0244C0C0
 //		Name   -> Function UMG.TextBlock.SetFont
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12710,7 +12710,7 @@ void UTextBlock::SetFont(const struct FSlateFontInfo& InFontInfo)
 
 
 // Function:
-//		Offset -> 0x024408D0
+//		Offset -> 0x0244BE50
 //		Name   -> Function UMG.TextBlock.SetColorAndOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12732,7 +12732,7 @@ void UTextBlock::SetColorAndOpacity(const struct FSlateColor& InColorAndOpacity)
 
 
 // Function:
-//		Offset -> 0x02440840
+//		Offset -> 0x0244BDC0
 //		Name   -> Function UMG.TextBlock.SetAutoWrapText
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12754,7 +12754,7 @@ void UTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 
 
 // Function:
-//		Offset -> 0x02440460
+//		Offset -> 0x0244B9E0
 //		Name   -> Function UMG.TextBlock.GetText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -12777,7 +12777,7 @@ struct FText UTextBlock::GetText()
 
 
 // Function:
-//		Offset -> 0x02440260
+//		Offset -> 0x0244B7E0
 //		Name   -> Function UMG.TextBlock.GetDynamicOutlineMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12800,7 +12800,7 @@ class UMaterialInstanceDynamic* UTextBlock::GetDynamicOutlineMaterial()
 
 
 // Function:
-//		Offset -> 0x02440230
+//		Offset -> 0x0244B7B0
 //		Name   -> Function UMG.TextBlock.GetDynamicFontMaterial
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12823,7 +12823,7 @@ class UMaterialInstanceDynamic* UTextBlock::GetDynamicFontMaterial()
 
 
 // Function:
-//		Offset -> 0x02441430
+//		Offset -> 0x0244C9B0
 //		Name   -> Function UMG.Throbber.SetNumberOfPieces
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12845,7 +12845,7 @@ void UThrobber::SetNumberOfPieces(int InNumberOfPieces)
 
 
 // Function:
-//		Offset -> 0x024407B0
+//		Offset -> 0x0244BD30
 //		Name   -> Function UMG.Throbber.SetAnimateVertically
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12867,7 +12867,7 @@ void UThrobber::SetAnimateVertically(bool bInAnimateVertically)
 
 
 // Function:
-//		Offset -> 0x02440720
+//		Offset -> 0x0244BCA0
 //		Name   -> Function UMG.Throbber.SetAnimateOpacity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12889,7 +12889,7 @@ void UThrobber::SetAnimateOpacity(bool bInAnimateOpacity)
 
 
 // Function:
-//		Offset -> 0x02440690
+//		Offset -> 0x0244BC10
 //		Name   -> Function UMG.Throbber.SetAnimateHorizontally
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12911,7 +12911,7 @@ void UThrobber::SetAnimateHorizontally(bool bInAnimateHorizontally)
 
 
 // Function:
-//		Offset -> 0x02440AC0
+//		Offset -> 0x0244C040
 //		Name   -> Function UMG.TileView.SetEntryWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12933,7 +12933,7 @@ void UTileView::SetEntryWidth(float NewWidth)
 
 
 // Function:
-//		Offset -> 0x02440A40
+//		Offset -> 0x0244BFC0
 //		Name   -> Function UMG.TileView.SetEntryHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12955,7 +12955,7 @@ void UTileView::SetEntryHeight(float NewHeight)
 
 
 // Function:
-//		Offset -> 0x02440DD0
+//		Offset -> 0x0244C350
 //		Name   -> Function UMG.TreeView.SetItemExpansion
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -12979,7 +12979,7 @@ void UTreeView::SetItemExpansion(class UObject* Item, bool bExpandItem)
 
 
 // Function:
-//		Offset -> 0x024401B0
+//		Offset -> 0x0244B730
 //		Name   -> Function UMG.TreeView.ExpandAll
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UTreeView::ExpandAll()
@@ -12998,7 +12998,7 @@ void UTreeView::ExpandAll()
 
 
 // Function:
-//		Offset -> 0x02440190
+//		Offset -> 0x0244B710
 //		Name   -> Function UMG.TreeView.CollapseAll
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UTreeView::CollapseAll()
@@ -13017,7 +13017,7 @@ void UTreeView::CollapseAll()
 
 
 // Function:
-//		Offset -> 0x02447FD0
+//		Offset -> 0x02453550
 //		Name   -> Function UMG.UMGSequencePlayer.SetUserTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13039,7 +13039,7 @@ void UUMGSequencePlayer::SetUserTag(const struct FName& InUserTag)
 
 
 // Function:
-//		Offset -> 0x024468D0
+//		Offset -> 0x02451E50
 //		Name   -> Function UMG.UMGSequencePlayer.GetUserTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13062,7 +13062,7 @@ struct FName UUMGSequencePlayer::GetUserTag()
 
 
 // Function:
-//		Offset -> 0x02447F40
+//		Offset -> 0x024534C0
 //		Name   -> Function UMG.UniformGridPanel.SetSlotPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13084,7 +13084,7 @@ void UUniformGridPanel::SetSlotPadding(const struct FMargin& InSlotPadding)
 
 
 // Function:
-//		Offset -> 0x02447AE0
+//		Offset -> 0x02453060
 //		Name   -> Function UMG.UniformGridPanel.SetMinDesiredSlotWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13106,7 +13106,7 @@ void UUniformGridPanel::SetMinDesiredSlotWidth(float InMinDesiredSlotWidth)
 
 
 // Function:
-//		Offset -> 0x02447A60
+//		Offset -> 0x02452FE0
 //		Name   -> Function UMG.UniformGridPanel.SetMinDesiredSlotHeight
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13128,7 +13128,7 @@ void UUniformGridPanel::SetMinDesiredSlotHeight(float InMinDesiredSlotHeight)
 
 
 // Function:
-//		Offset -> 0x024461F0
+//		Offset -> 0x02451770
 //		Name   -> Function UMG.UniformGridPanel.AddChildToUniformGrid
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13157,7 +13157,7 @@ class UUniformGridSlot* UUniformGridPanel::AddChildToUniformGrid(class UWidget* 
 
 
 // Function:
-//		Offset -> 0x02448050
+//		Offset -> 0x024535D0
 //		Name   -> Function UMG.UniformGridSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13179,7 +13179,7 @@ void UUniformGridSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlign
 
 
 // Function:
-//		Offset -> 0x02447EC0
+//		Offset -> 0x02453440
 //		Name   -> Function UMG.UniformGridSlot.SetRow
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13201,7 +13201,7 @@ void UUniformGridSlot::SetRow(int InRow)
 
 
 // Function:
-//		Offset -> 0x024478D0
+//		Offset -> 0x02452E50
 //		Name   -> Function UMG.UniformGridSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13223,7 +13223,7 @@ void UUniformGridSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalA
 
 
 // Function:
-//		Offset -> 0x024476E0
+//		Offset -> 0x02452C60
 //		Name   -> Function UMG.UniformGridSlot.SetColumn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13245,7 +13245,7 @@ void UUniformGridSlot::SetColumn(int InColumn)
 
 
 // Function:
-//		Offset -> 0x0244A190
+//		Offset -> 0x02455710
 //		Name   -> Function UMG.VerticalBox.AddChildToVerticalBox
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13270,7 +13270,7 @@ class UVerticalBoxSlot* UVerticalBox::AddChildToVerticalBox(class UWidget* Conte
 
 
 // Function:
-//		Offset -> 0x0244B990
+//		Offset -> 0x02456F10
 //		Name   -> Function UMG.VerticalBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13292,7 +13292,7 @@ void UVerticalBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlign
 
 
 // Function:
-//		Offset -> 0x0244B730
+//		Offset -> 0x02456CB0
 //		Name   -> Function UMG.VerticalBoxSlot.SetSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13314,7 +13314,7 @@ void UVerticalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 
 
 // Function:
-//		Offset -> 0x0244B2C0
+//		Offset -> 0x02456840
 //		Name   -> Function UMG.VerticalBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13336,7 +13336,7 @@ void UVerticalBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x0244AD40
+//		Offset -> 0x024562C0
 //		Name   -> Function UMG.VerticalBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13358,7 +13358,7 @@ void UVerticalBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalA
 
 
 // Function:
-//		Offset -> 0x0244BBB0
+//		Offset -> 0x02457130
 //		Name   -> Function UMG.Viewport.Spawn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13383,7 +13383,7 @@ class AActor* UViewport::Spawn(class UClass* ActorClass)
 
 
 // Function:
-//		Offset -> 0x0244BAA0
+//		Offset -> 0x02457020
 //		Name   -> Function UMG.Viewport.SetViewRotation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -13405,7 +13405,7 @@ void UViewport::SetViewRotation(const struct FRotator& Rotation)
 
 
 // Function:
-//		Offset -> 0x0244BA10
+//		Offset -> 0x02456F90
 //		Name   -> Function UMG.Viewport.SetViewLocation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -13427,7 +13427,7 @@ void UViewport::SetViewLocation(const struct FVector& Location)
 
 
 // Function:
-//		Offset -> 0x0244A7B0
+//		Offset -> 0x02455D30
 //		Name   -> Function UMG.Viewport.GetViewRotation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13450,7 +13450,7 @@ struct FRotator UViewport::GetViewRotation()
 
 
 // Function:
-//		Offset -> 0x0244A7F0
+//		Offset -> 0x02455D70
 //		Name   -> Function UMG.Viewport.GetViewportWorld
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13473,7 +13473,7 @@ class UWorld* UViewport::GetViewportWorld()
 
 
 // Function:
-//		Offset -> 0x0244A770
+//		Offset -> 0x02455CF0
 //		Name   -> Function UMG.Viewport.GetViewLocation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13496,7 +13496,7 @@ struct FVector UViewport::GetViewLocation()
 
 
 // Function:
-//		Offset -> 0x0244A740
+//		Offset -> 0x02455CC0
 //		Name   -> Function UMG.VisibilityBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -13519,7 +13519,7 @@ UMG_ESlateVisibility UVisibilityBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x0244BE20
+//		Offset -> 0x024573A0
 //		Name   -> Function UMG.WidgetAnimation.UnbindFromAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13543,7 +13543,7 @@ void UWidgetAnimation::UnbindFromAnimationStarted(class UUserWidget* Widget, con
 
 
 // Function:
-//		Offset -> 0x0244BD40
+//		Offset -> 0x024572C0
 //		Name   -> Function UMG.WidgetAnimation.UnbindFromAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13567,7 +13567,7 @@ void UWidgetAnimation::UnbindFromAnimationFinished(class UUserWidget* Widget, co
 
 
 // Function:
-//		Offset -> 0x0244BCC0
+//		Offset -> 0x02457240
 //		Name   -> Function UMG.WidgetAnimation.UnbindAllFromAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13589,7 +13589,7 @@ void UWidgetAnimation::UnbindAllFromAnimationStarted(class UUserWidget* Widget)
 
 
 // Function:
-//		Offset -> 0x0244BC40
+//		Offset -> 0x024571C0
 //		Name   -> Function UMG.WidgetAnimation.UnbindAllFromAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13611,7 +13611,7 @@ void UWidgetAnimation::UnbindAllFromAnimationFinished(class UUserWidget* Widget)
 
 
 // Function:
-//		Offset -> 0x0244A6D0
+//		Offset -> 0x02455C50
 //		Name   -> Function UMG.WidgetAnimation.GetStartTime
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13634,7 +13634,7 @@ float UWidgetAnimation::GetStartTime()
 
 
 // Function:
-//		Offset -> 0x0244A540
+//		Offset -> 0x02455AC0
 //		Name   -> Function UMG.WidgetAnimation.GetEndTime
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -13657,7 +13657,7 @@ float UWidgetAnimation::GetEndTime()
 
 
 // Function:
-//		Offset -> 0x0244A300
+//		Offset -> 0x02455880
 //		Name   -> Function UMG.WidgetAnimation.BindToAnimationStarted
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13681,7 +13681,7 @@ void UWidgetAnimation::BindToAnimationStarted(class UUserWidget* Widget, const s
 
 
 // Function:
-//		Offset -> 0x0244A220
+//		Offset -> 0x024557A0
 //		Name   -> Function UMG.WidgetAnimation.BindToAnimationFinished
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -13705,7 +13705,7 @@ void UWidgetAnimation::BindToAnimationFinished(class UUserWidget* Widget, const 
 
 
 // Function:
-//		Offset -> 0x0244DCD0
+//		Offset -> 0x02459250
 //		Name   -> Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationTimeRangeProxyObject
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -13746,7 +13746,7 @@ class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::STAT
 
 
 // Function:
-//		Offset -> 0x0244DAD0
+//		Offset -> 0x02459050
 //		Name   -> Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationProxyObject
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -13785,7 +13785,7 @@ class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::STAT
 
 
 // Function:
-//		Offset -> 0x0244FDF0
+//		Offset -> 0x0245B370
 //		Name   -> Function UMG.WidgetBinding.GetValue
 //		Flags  -> (Final, Native, Public, Const)
 // Parameters:
@@ -13808,7 +13808,7 @@ class UWidget* UWidgetBinding::GetValue()
 
 
 // Function:
-//		Offset -> 0x02451370
+//		Offset -> 0x0245C8F0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.UnlockMouse
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -13835,7 +13835,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_UnlockMouse(struct FEventRepl
 
 
 // Function:
-//		Offset -> 0x02451300
+//		Offset -> 0x0245C880
 //		Name   -> Function UMG.WidgetBlueprintLibrary.Unhandled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -13858,7 +13858,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_Unhandled()
 
 
 // Function:
-//		Offset -> 0x02451170
+//		Offset -> 0x0245C6F0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13888,7 +13888,7 @@ void UWidgetBlueprintLibrary::STATIC_SetWindowTitleBarState(class UWidget* Title
 
 
 // Function:
-//		Offset -> 0x024510E0
+//		Offset -> 0x0245C660
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarOnCloseClickedDelegate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13910,7 +13910,7 @@ void UWidgetBlueprintLibrary::STATIC_SetWindowTitleBarOnCloseClickedDelegate(con
 
 
 // Function:
-//		Offset -> 0x02451060
+//		Offset -> 0x0245C5E0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarCloseButtonActive
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13932,7 +13932,7 @@ void UWidgetBlueprintLibrary::STATIC_SetWindowTitleBarCloseButtonActive(bool bAc
 
 
 // Function:
-//		Offset -> 0x0244D590
+//		Offset -> 0x02458B10
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetUserFocus
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -13963,7 +13963,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_SetUserFocus(struct FEventRep
 
 
 // Function:
-//		Offset -> 0x02450F30
+//		Offset -> 0x0245C4B0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetMousePosition
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -13992,7 +13992,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_SetMousePosition(struct FEven
 
 
 // Function:
-//		Offset -> 0x02450E40
+//		Offset -> 0x0245C3C0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnlyEx
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14018,7 +14018,7 @@ void UWidgetBlueprintLibrary::STATIC_SetInputMode_UIOnlyEx(class APlayerControll
 
 
 // Function:
-//		Offset -> 0x02450D40
+//		Offset -> 0x0245C2C0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnly
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14044,7 +14044,7 @@ void UWidgetBlueprintLibrary::STATIC_SetInputMode_UIOnly(class APlayerController
 
 
 // Function:
-//		Offset -> 0x02450CD0
+//		Offset -> 0x0245C250
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameOnly
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14066,7 +14066,7 @@ void UWidgetBlueprintLibrary::STATIC_SetInputMode_GameOnly(class APlayerControll
 
 
 // Function:
-//		Offset -> 0x02450B90
+//		Offset -> 0x0245C110
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUIEx
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14094,7 +14094,7 @@ void UWidgetBlueprintLibrary::STATIC_SetInputMode_GameAndUIEx(class APlayerContr
 
 
 // Function:
-//		Offset -> 0x02450A50
+//		Offset -> 0x0245BFD0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUI
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14122,7 +14122,7 @@ void UWidgetBlueprintLibrary::STATIC_SetInputMode_GameAndUI(class APlayerControl
 
 
 // Function:
-//		Offset -> 0x02450920
+//		Offset -> 0x0245BEA0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetHardwareCursor
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -14153,7 +14153,7 @@ bool UWidgetBlueprintLibrary::STATIC_SetHardwareCursor(class UObject* WorldConte
 
 
 // Function:
-//		Offset -> 0x02450900
+//		Offset -> 0x0245BE80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetFocusToGameViewport
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 void UWidgetBlueprintLibrary::STATIC_SetFocusToGameViewport()
@@ -14172,7 +14172,7 @@ void UWidgetBlueprintLibrary::STATIC_SetFocusToGameViewport()
 
 
 // Function:
-//		Offset -> 0x024507B0
+//		Offset -> 0x0245BD30
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetColorVisionDeficiencyType
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14200,7 +14200,7 @@ void UWidgetBlueprintLibrary::STATIC_SetColorVisionDeficiencyType(SlateCore_ECol
 
 
 // Function:
-//		Offset -> 0x02450600
+//		Offset -> 0x0245BB80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetBrushResourceToTexture
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -14226,7 +14226,7 @@ void UWidgetBlueprintLibrary::STATIC_SetBrushResourceToTexture(struct FSlateBrus
 
 
 // Function:
-//		Offset -> 0x02450600
+//		Offset -> 0x0245BB80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.SetBrushResourceToMaterial
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -14252,7 +14252,7 @@ void UWidgetBlueprintLibrary::STATIC_SetBrushResourceToMaterial(struct FSlateBru
 
 
 // Function:
-//		Offset -> 0x024505E0
+//		Offset -> 0x0245BB60
 //		Name   -> Function UMG.WidgetBlueprintLibrary.RestorePreviousWindowTitleBarState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UWidgetBlueprintLibrary::STATIC_RestorePreviousWindowTitleBarState()
@@ -14271,7 +14271,7 @@ void UWidgetBlueprintLibrary::STATIC_RestorePreviousWindowTitleBarState()
 
 
 // Function:
-//		Offset -> 0x024504F0
+//		Offset -> 0x0245BA70
 //		Name   -> Function UMG.WidgetBlueprintLibrary.ReleaseMouseCapture
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14298,7 +14298,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_ReleaseMouseCapture(struct FE
 
 
 // Function:
-//		Offset -> 0x0244D830
+//		Offset -> 0x02458DB0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.ReleaseJoystickCapture
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14327,7 +14327,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_ReleaseJoystickCapture(struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction UMG.WidgetBlueprintLibrary.OnGameWindowCloseButtonClickedDelegate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 void UWidgetBlueprintLibrary::OnGameWindowCloseButtonClickedDelegate__DelegateSignature()
@@ -14345,7 +14345,7 @@ void UWidgetBlueprintLibrary::OnGameWindowCloseButtonClickedDelegate__DelegateSi
 
 
 // Function:
-//		Offset -> 0x02450440
+//		Offset -> 0x0245B9C0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.NoResourceBrush
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14368,7 +14368,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::STATIC_NoResourceBrush()
 
 
 // Function:
-//		Offset -> 0x024502A0
+//		Offset -> 0x0245B820
 //		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromTexture
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14397,7 +14397,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::STATIC_MakeBrushFromTexture(class UT
 
 
 // Function:
-//		Offset -> 0x02450100
+//		Offset -> 0x0245B680
 //		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromMaterial
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14426,7 +14426,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::STATIC_MakeBrushFromMaterial(class U
 
 
 // Function:
-//		Offset -> 0x0244FFF0
+//		Offset -> 0x0245B570
 //		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromAsset
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14451,7 +14451,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::STATIC_MakeBrushFromAsset(class USla
 
 
 // Function:
-//		Offset -> 0x0244FEC0
+//		Offset -> 0x0245B440
 //		Name   -> Function UMG.WidgetBlueprintLibrary.LockMouse
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14480,7 +14480,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_LockMouse(struct FEventReply*
 
 
 // Function:
-//		Offset -> 0x0244FE90
+//		Offset -> 0x0245B410
 //		Name   -> Function UMG.WidgetBlueprintLibrary.IsDragDropping
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14503,7 +14503,7 @@ bool UWidgetBlueprintLibrary::STATIC_IsDragDropping()
 
 
 // Function:
-//		Offset -> 0x0244FE20
+//		Offset -> 0x0245B3A0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.Handled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14526,7 +14526,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_Handled()
 
 
 // Function:
-//		Offset -> 0x0244FC80
+//		Offset -> 0x0245B200
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetSafeZonePadding
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -14558,7 +14558,7 @@ void UWidgetBlueprintLibrary::STATIC_GetSafeZonePadding(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x0244FB00
+//		Offset -> 0x0245B080
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetKeyEventFromAnalogInputEvent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14583,7 +14583,7 @@ struct FKeyEvent UWidgetBlueprintLibrary::STATIC_GetKeyEventFromAnalogInputEvent
 
 
 // Function:
-//		Offset -> 0x0244F9B0
+//		Offset -> 0x0245AF30
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromPointerEvent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14608,7 +14608,7 @@ struct FInputEvent UWidgetBlueprintLibrary::STATIC_GetInputEventFromPointerEvent
 
 
 // Function:
-//		Offset -> 0x0244F8D0
+//		Offset -> 0x0245AE50
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromNavigationEvent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14633,7 +14633,7 @@ struct FInputEvent UWidgetBlueprintLibrary::STATIC_GetInputEventFromNavigationEv
 
 
 // Function:
-//		Offset -> 0x0244F7B0
+//		Offset -> 0x0245AD30
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromKeyEvent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14658,7 +14658,7 @@ struct FInputEvent UWidgetBlueprintLibrary::STATIC_GetInputEventFromKeyEvent(con
 
 
 // Function:
-//		Offset -> 0x0244F6D0
+//		Offset -> 0x0245AC50
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromCharacterEvent
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14683,7 +14683,7 @@ struct FInputEvent UWidgetBlueprintLibrary::STATIC_GetInputEventFromCharacterEve
 
 
 // Function:
-//		Offset -> 0x0244F550
+//		Offset -> 0x0245AAD0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetDynamicMaterial
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14710,7 +14710,7 @@ class UMaterialInstanceDynamic* UWidgetBlueprintLibrary::STATIC_GetDynamicMateri
 
 
 // Function:
-//		Offset -> 0x0244F520
+//		Offset -> 0x0245AAA0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetDragDroppingContent
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14733,7 +14733,7 @@ class UDragDropOperation* UWidgetBlueprintLibrary::STATIC_GetDragDroppingContent
 
 
 // Function:
-//		Offset -> 0x0244F3A0
+//		Offset -> 0x0245A920
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsTexture2D
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14758,7 +14758,7 @@ class UTexture2D* UWidgetBlueprintLibrary::STATIC_GetBrushResourceAsTexture2D(co
 
 
 // Function:
-//		Offset -> 0x0244F220
+//		Offset -> 0x0245A7A0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsMaterial
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14783,7 +14783,7 @@ class UMaterialInterface* UWidgetBlueprintLibrary::STATIC_GetBrushResourceAsMate
 
 
 // Function:
-//		Offset -> 0x0244F0A0
+//		Offset -> 0x0245A620
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResource
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14808,7 +14808,7 @@ class UObject* UWidgetBlueprintLibrary::STATIC_GetBrushResource(const struct FSl
 
 
 // Function:
-//		Offset -> 0x0244EF30
+//		Offset -> 0x0245A4B0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetAllWidgetsWithInterface
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -14838,7 +14838,7 @@ void UWidgetBlueprintLibrary::STATIC_GetAllWidgetsWithInterface(class UObject* W
 
 
 // Function:
-//		Offset -> 0x0244EDC0
+//		Offset -> 0x0245A340
 //		Name   -> Function UMG.WidgetBlueprintLibrary.GetAllWidgetsOfClass
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -14868,7 +14868,7 @@ void UWidgetBlueprintLibrary::STATIC_GetAllWidgetsOfClass(class UObject* WorldCo
 
 
 // Function:
-//		Offset -> 0x0244ECD0
+//		Offset -> 0x0245A250
 //		Name   -> Function UMG.WidgetBlueprintLibrary.EndDragDrop
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -14895,7 +14895,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_EndDragDrop(struct FEventRepl
 
 
 // Function:
-//		Offset -> 0x0244EA60
+//		Offset -> 0x02459FE0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DrawTextFormatted
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -14931,7 +14931,7 @@ void UWidgetBlueprintLibrary::STATIC_DrawTextFormatted(struct FPaintContext* Con
 
 
 // Function:
-//		Offset -> 0x0244E8D0
+//		Offset -> 0x02459E50
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DrawText
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -14961,7 +14961,7 @@ void UWidgetBlueprintLibrary::STATIC_DrawText(struct FPaintContext* Context, con
 
 
 // Function:
-//		Offset -> 0x0244E700
+//		Offset -> 0x02459C80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DrawLines
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -14993,7 +14993,7 @@ void UWidgetBlueprintLibrary::STATIC_DrawLines(struct FPaintContext* Context, TA
 
 
 // Function:
-//		Offset -> 0x0244E500
+//		Offset -> 0x02459A80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DrawLine
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -15027,7 +15027,7 @@ void UWidgetBlueprintLibrary::STATIC_DrawLine(struct FPaintContext* Context, con
 
 
 // Function:
-//		Offset -> 0x0244E350
+//		Offset -> 0x024598D0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DrawBox
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -15059,7 +15059,7 @@ void UWidgetBlueprintLibrary::STATIC_DrawBox(struct FPaintContext* Context, cons
 
 
 // Function:
-//		Offset -> 0x0244E330
+//		Offset -> 0x024598B0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DismissAllMenus
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 void UWidgetBlueprintLibrary::STATIC_DismissAllMenus()
@@ -15078,7 +15078,7 @@ void UWidgetBlueprintLibrary::STATIC_DismissAllMenus()
 
 
 // Function:
-//		Offset -> 0x0244E0E0
+//		Offset -> 0x02459660
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DetectDragIfPressed
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -15107,7 +15107,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_DetectDragIfPressed(const str
 
 
 // Function:
-//		Offset -> 0x0244DF10
+//		Offset -> 0x02459490
 //		Name   -> Function UMG.WidgetBlueprintLibrary.DetectDrag
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15138,7 +15138,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_DetectDrag(struct FEventReply
 
 
 // Function:
-//		Offset -> 0x0244DA50
+//		Offset -> 0x02458FD0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.CreateDragDropOperation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -15163,7 +15163,7 @@ class UDragDropOperation* UWidgetBlueprintLibrary::STATIC_CreateDragDropOperatio
 
 
 // Function:
-//		Offset -> 0x0244D960
+//		Offset -> 0x02458EE0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.Create
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -15192,7 +15192,7 @@ class UUserWidget* UWidgetBlueprintLibrary::STATIC_Create(class UObject* WorldCo
 
 
 // Function:
-//		Offset -> 0x0244D830
+//		Offset -> 0x02458DB0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.ClearUserFocus
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15221,7 +15221,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_ClearUserFocus(struct FEventR
 
 
 // Function:
-//		Offset -> 0x0244D700
+//		Offset -> 0x02458C80
 //		Name   -> Function UMG.WidgetBlueprintLibrary.CaptureMouse
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15250,7 +15250,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_CaptureMouse(struct FEventRep
 
 
 // Function:
-//		Offset -> 0x0244D590
+//		Offset -> 0x02458B10
 //		Name   -> Function UMG.WidgetBlueprintLibrary.CaptureJoystick
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15281,7 +15281,7 @@ struct FEventReply UWidgetBlueprintLibrary::STATIC_CaptureJoystick(struct FEvent
 
 
 // Function:
-//		Offset -> 0x0244D570
+//		Offset -> 0x02458AF0
 //		Name   -> Function UMG.WidgetBlueprintLibrary.CancelDragDrop
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UWidgetBlueprintLibrary::STATIC_CancelDragDrop()
@@ -15300,7 +15300,7 @@ void UWidgetBlueprintLibrary::STATIC_CancelDragDrop()
 
 
 // Function:
-//		Offset -> 0x02454250
+//		Offset -> 0x0245F7D0
 //		Name   -> Function UMG.WidgetInteractionComponent.SetFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15322,7 +15322,7 @@ void UWidgetInteractionComponent::SetFocus(class UWidget* FocusWidget)
 
 
 // Function:
-//		Offset -> 0x02453FF0
+//		Offset -> 0x0245F570
 //		Name   -> Function UMG.WidgetInteractionComponent.SetCustomHitResult
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -15344,7 +15344,7 @@ void UWidgetInteractionComponent::SetCustomHitResult(const struct FHitResult& Hi
 
 
 // Function:
-//		Offset -> 0x02453E20
+//		Offset -> 0x0245F3A0
 //		Name   -> Function UMG.WidgetInteractionComponent.SendKeyChar
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15371,7 +15371,7 @@ bool UWidgetInteractionComponent::SendKeyChar(const struct FString& Characters, 
 
 
 // Function:
-//		Offset -> 0x02453DA0
+//		Offset -> 0x0245F320
 //		Name   -> Function UMG.WidgetInteractionComponent.ScrollWheel
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15393,7 +15393,7 @@ void UWidgetInteractionComponent::ScrollWheel(float ScrollDelta)
 
 
 // Function:
-//		Offset -> 0x02453C40
+//		Offset -> 0x0245F1C0
 //		Name   -> Function UMG.WidgetInteractionComponent.ReleasePointerKey
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15415,7 +15415,7 @@ void UWidgetInteractionComponent::ReleasePointerKey(const struct FKey& Key)
 
 
 // Function:
-//		Offset -> 0x02453B40
+//		Offset -> 0x0245F0C0
 //		Name   -> Function UMG.WidgetInteractionComponent.ReleaseKey
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15440,7 +15440,7 @@ bool UWidgetInteractionComponent::ReleaseKey(const struct FKey& Key)
 
 
 // Function:
-//		Offset -> 0x024538F0
+//		Offset -> 0x0245EE70
 //		Name   -> Function UMG.WidgetInteractionComponent.PressPointerKey
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15462,7 +15462,7 @@ void UWidgetInteractionComponent::PressPointerKey(const struct FKey& Key)
 
 
 // Function:
-//		Offset -> 0x024537C0
+//		Offset -> 0x0245ED40
 //		Name   -> Function UMG.WidgetInteractionComponent.PressKey
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15489,7 +15489,7 @@ bool UWidgetInteractionComponent::PressKey(const struct FKey& Key, bool bRepeat)
 
 
 // Function:
-//		Offset -> 0x024536C0
+//		Offset -> 0x0245EC40
 //		Name   -> Function UMG.WidgetInteractionComponent.PressAndReleaseKey
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -15514,7 +15514,7 @@ bool UWidgetInteractionComponent::PressAndReleaseKey(const struct FKey& Key)
 
 
 // Function:
-//		Offset -> 0x02453690
+//		Offset -> 0x0245EC10
 //		Name   -> Function UMG.WidgetInteractionComponent.IsOverInteractableWidget
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15537,7 +15537,7 @@ bool UWidgetInteractionComponent::IsOverInteractableWidget()
 
 
 // Function:
-//		Offset -> 0x02453660
+//		Offset -> 0x0245EBE0
 //		Name   -> Function UMG.WidgetInteractionComponent.IsOverHitTestVisibleWidget
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15560,7 +15560,7 @@ bool UWidgetInteractionComponent::IsOverHitTestVisibleWidget()
 
 
 // Function:
-//		Offset -> 0x02453630
+//		Offset -> 0x0245EBB0
 //		Name   -> Function UMG.WidgetInteractionComponent.IsOverFocusableWidget
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15583,7 +15583,7 @@ bool UWidgetInteractionComponent::IsOverFocusableWidget()
 
 
 // Function:
-//		Offset -> 0x02452F90
+//		Offset -> 0x0245E510
 //		Name   -> Function UMG.WidgetInteractionComponent.GetLastHitResult
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15606,7 +15606,7 @@ struct FHitResult UWidgetInteractionComponent::GetLastHitResult()
 
 
 // Function:
-//		Offset -> 0x02452F60
+//		Offset -> 0x0245E4E0
 //		Name   -> Function UMG.WidgetInteractionComponent.GetHoveredWidgetComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15629,7 +15629,7 @@ class UWidgetComponent* UWidgetInteractionComponent::GetHoveredWidgetComponent()
 
 
 // Function:
-//		Offset -> 0x02452E40
+//		Offset -> 0x0245E3C0
 //		Name   -> Function UMG.WidgetInteractionComponent.Get2DHitLocation
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -15652,7 +15652,7 @@ struct FVector2D UWidgetInteractionComponent::Get2DHitLocation()
 
 
 // Function:
-//		Offset -> 0x02454E90
+//		Offset -> 0x024604A0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsWrapBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15677,7 +15677,7 @@ class UWrapBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsWrapBoxSlot(class UWidget
 
 
 // Function:
-//		Offset -> 0x02454E10
+//		Offset -> 0x02460420
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsWidgetSwitcherSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15702,7 +15702,7 @@ class UWidgetSwitcherSlot* UWidgetLayoutLibrary::STATIC_SlotAsWidgetSwitcherSlot
 
 
 // Function:
-//		Offset -> 0x02454D90
+//		Offset -> 0x024603A0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsVerticalBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15727,7 +15727,7 @@ class UVerticalBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsVerticalBoxSlot(class
 
 
 // Function:
-//		Offset -> 0x02454D10
+//		Offset -> 0x02460320
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsUniformGridSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15752,7 +15752,7 @@ class UUniformGridSlot* UWidgetLayoutLibrary::STATIC_SlotAsUniformGridSlot(class
 
 
 // Function:
-//		Offset -> 0x02454C90
+//		Offset -> 0x024602A0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsSizeBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15777,7 +15777,7 @@ class USizeBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsSizeBoxSlot(class UWidget
 
 
 // Function:
-//		Offset -> 0x02454C10
+//		Offset -> 0x02460220
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsScrollBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15802,7 +15802,7 @@ class UScrollBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsScrollBoxSlot(class UWi
 
 
 // Function:
-//		Offset -> 0x02454B90
+//		Offset -> 0x024601A0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsScaleBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15827,7 +15827,7 @@ class UScaleBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsScaleBoxSlot(class UWidg
 
 
 // Function:
-//		Offset -> 0x02454B10
+//		Offset -> 0x02460120
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsSafeBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15852,7 +15852,7 @@ class USafeZoneSlot* UWidgetLayoutLibrary::STATIC_SlotAsSafeBoxSlot(class UWidge
 
 
 // Function:
-//		Offset -> 0x02454A90
+//		Offset -> 0x024600A0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsOverlaySlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15877,7 +15877,7 @@ class UOverlaySlot* UWidgetLayoutLibrary::STATIC_SlotAsOverlaySlot(class UWidget
 
 
 // Function:
-//		Offset -> 0x02454A10
+//		Offset -> 0x02460020
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsHorizontalBoxSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15902,7 +15902,7 @@ class UHorizontalBoxSlot* UWidgetLayoutLibrary::STATIC_SlotAsHorizontalBoxSlot(c
 
 
 // Function:
-//		Offset -> 0x02454990
+//		Offset -> 0x0245FFA0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsGridSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15927,7 +15927,7 @@ class UGridSlot* UWidgetLayoutLibrary::STATIC_SlotAsGridSlot(class UWidget* Widg
 
 
 // Function:
-//		Offset -> 0x02454910
+//		Offset -> 0x0245FF20
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsCanvasSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15952,7 +15952,7 @@ class UCanvasPanelSlot* UWidgetLayoutLibrary::STATIC_SlotAsCanvasSlot(class UWid
 
 
 // Function:
-//		Offset -> 0x02454890
+//		Offset -> 0x0245FEA0
 //		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsBorderSlot
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -15977,7 +15977,7 @@ class UBorderSlot* UWidgetLayoutLibrary::STATIC_SlotAsBorderSlot(class UWidget* 
 
 
 // Function:
-//		Offset -> 0x02453D30
+//		Offset -> 0x0245F2B0
 //		Name   -> Function UMG.WidgetLayoutLibrary.RemoveAllWidgets
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -15999,7 +15999,7 @@ void UWidgetLayoutLibrary::STATIC_RemoveAllWidgets(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x024539E0
+//		Offset -> 0x0245EF60
 //		Name   -> Function UMG.WidgetLayoutLibrary.ProjectWorldLocationToWidgetPosition
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -16032,7 +16032,7 @@ bool UWidgetLayoutLibrary::STATIC_ProjectWorldLocationToWidgetPosition(class APl
 
 
 // Function:
-//		Offset -> 0x02453520
+//		Offset -> 0x0245EAA0
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportWidgetGeometry
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -16057,7 +16057,7 @@ struct FGeometry UWidgetLayoutLibrary::STATIC_GetViewportWidgetGeometry(class UO
 
 
 // Function:
-//		Offset -> 0x02453490
+//		Offset -> 0x0245EA10
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportSize
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -16082,7 +16082,7 @@ struct FVector2D UWidgetLayoutLibrary::STATIC_GetViewportSize(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x02453400
+//		Offset -> 0x0245E980
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportScale
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -16107,7 +16107,7 @@ float UWidgetLayoutLibrary::STATIC_GetViewportScale(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x02453290
+//		Offset -> 0x0245E810
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetPlayerScreenWidgetGeometry
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -16132,7 +16132,7 @@ struct FGeometry UWidgetLayoutLibrary::STATIC_GetPlayerScreenWidgetGeometry(clas
 
 
 // Function:
-//		Offset -> 0x02453110
+//		Offset -> 0x0245E690
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionScaledByDPI
 //		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -16164,7 +16164,7 @@ bool UWidgetLayoutLibrary::STATIC_GetMousePositionScaledByDPI(class APlayerContr
 
 
 // Function:
-//		Offset -> 0x02453080
+//		Offset -> 0x0245E600
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionOnViewport
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -16189,7 +16189,7 @@ struct FVector2D UWidgetLayoutLibrary::STATIC_GetMousePositionOnViewport(class U
 
 
 // Function:
-//		Offset -> 0x02453040
+//		Offset -> 0x0245E5C0
 //		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionOnPlatform
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -16212,7 +16212,7 @@ struct FVector2D UWidgetLayoutLibrary::STATIC_GetMousePositionOnPlatform()
 
 
 // Function:
-//		Offset -> 0x024561B0
+//		Offset -> 0x024617C0
 //		Name   -> Function UMG.WidgetSwitcher.SetActiveWidgetIndex
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -16234,7 +16234,7 @@ void UWidgetSwitcher::SetActiveWidgetIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x02433640
+//		Offset -> 0x0243EBC0
 //		Name   -> Function UMG.WidgetSwitcher.SetActiveWidget
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -16256,7 +16256,7 @@ void UWidgetSwitcher::SetActiveWidget(class UWidget* Widget)
 
 
 // Function:
-//		Offset -> 0x02456120
+//		Offset -> 0x02461730
 //		Name   -> Function UMG.WidgetSwitcher.GetWidgetAtIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -16281,7 +16281,7 @@ class UWidget* UWidgetSwitcher::GetWidgetAtIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x024560F0
+//		Offset -> 0x02461700
 //		Name   -> Function UMG.WidgetSwitcher.GetNumWidgets
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -16304,7 +16304,7 @@ int UWidgetSwitcher::GetNumWidgets()
 
 
 // Function:
-//		Offset -> 0x024560C0
+//		Offset -> 0x024616D0
 //		Name   -> Function UMG.WidgetSwitcher.GetActiveWidgetIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -16327,7 +16327,7 @@ int UWidgetSwitcher::GetActiveWidgetIndex()
 
 
 // Function:
-//		Offset -> 0x02456090
+//		Offset -> 0x024616A0
 //		Name   -> Function UMG.WidgetSwitcher.GetActiveWidget
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -16350,7 +16350,7 @@ class UWidget* UWidgetSwitcher::GetActiveWidget()
 
 
 // Function:
-//		Offset -> 0x02456780
+//		Offset -> 0x02461D90
 //		Name   -> Function UMG.WidgetSwitcherSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16372,7 +16372,7 @@ void UWidgetSwitcherSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAl
 
 
 // Function:
-//		Offset -> 0x02438F10
+//		Offset -> 0x02444490
 //		Name   -> Function UMG.WidgetSwitcherSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16394,7 +16394,7 @@ void UWidgetSwitcherSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x02456350
+//		Offset -> 0x02461960
 //		Name   -> Function UMG.WidgetSwitcherSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16416,7 +16416,7 @@ void UWidgetSwitcherSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizont
 
 
 // Function:
-//		Offset -> 0x02456800
+//		Offset -> 0x02461E10
 //		Name   -> Function UMG.WindowTitleBarArea.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16438,7 +16438,7 @@ void UWindowTitleBarArea::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAl
 
 
 // Function:
-//		Offset -> 0x024565D0
+//		Offset -> 0x02461BE0
 //		Name   -> Function UMG.WindowTitleBarArea.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16460,7 +16460,7 @@ void UWindowTitleBarArea::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x024563D0
+//		Offset -> 0x024619E0
 //		Name   -> Function UMG.WindowTitleBarArea.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16482,7 +16482,7 @@ void UWindowTitleBarArea::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizont
 
 
 // Function:
-//		Offset -> 0x02456880
+//		Offset -> 0x02461E90
 //		Name   -> Function UMG.WindowTitleBarAreaSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16504,7 +16504,7 @@ void UWindowTitleBarAreaSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVertic
 
 
 // Function:
-//		Offset -> 0x02456660
+//		Offset -> 0x02461C70
 //		Name   -> Function UMG.WindowTitleBarAreaSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16526,7 +16526,7 @@ void UWindowTitleBarAreaSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x02456450
+//		Offset -> 0x02461A60
 //		Name   -> Function UMG.WindowTitleBarAreaSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16548,7 +16548,7 @@ void UWindowTitleBarAreaSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHori
 
 
 // Function:
-//		Offset -> 0x02456550
+//		Offset -> 0x02461B60
 //		Name   -> Function UMG.WrapBox.SetInnerSlotPadding
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -16570,7 +16570,7 @@ void UWrapBox::SetInnerSlotPadding(const struct FVector2D& InPadding)
 
 
 // Function:
-//		Offset -> 0x02456000
+//		Offset -> 0x02461610
 //		Name   -> Function UMG.WrapBox.AddChildToWrapBox
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16595,7 +16595,7 @@ class UWrapBoxSlot* UWrapBox::AddChildToWrapBox(class UWidget* Content)
 
 
 // Function:
-//		Offset -> 0x02456900
+//		Offset -> 0x02461F10
 //		Name   -> Function UMG.WrapBoxSlot.SetVerticalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16617,7 +16617,7 @@ void UWrapBoxSlot::SetVerticalAlignment(TEnumAsByte<SlateCore_EVerticalAlignment
 
 
 // Function:
-//		Offset -> 0x024566F0
+//		Offset -> 0x02461D00
 //		Name   -> Function UMG.WrapBoxSlot.SetPadding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16639,7 +16639,7 @@ void UWrapBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 
 // Function:
-//		Offset -> 0x024564D0
+//		Offset -> 0x02461AE0
 //		Name   -> Function UMG.WrapBoxSlot.SetHorizontalAlignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16661,7 +16661,7 @@ void UWrapBoxSlot::SetHorizontalAlignment(TEnumAsByte<SlateCore_EHorizontalAlign
 
 
 // Function:
-//		Offset -> 0x024562D0
+//		Offset -> 0x024618E0
 //		Name   -> Function UMG.WrapBoxSlot.SetFillSpanWhenLessThan
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16683,7 +16683,7 @@ void UWrapBoxSlot::SetFillSpanWhenLessThan(float InFillSpanWhenLessThan)
 
 
 // Function:
-//		Offset -> 0x02456240
+//		Offset -> 0x02461850
 //		Name   -> Function UMG.WrapBoxSlot.SetFillEmptySpace
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

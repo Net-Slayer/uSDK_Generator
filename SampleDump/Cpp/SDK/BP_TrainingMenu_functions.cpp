@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TrainingMenu.BP_TrainingMenu_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_TrainingMenu_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TrainingMenu.BP_TrainingMenu_C.TutorialPopupConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_TrainingMenu_C::TutorialPopupConfirm()
@@ -59,7 +59,7 @@ void UBP_TrainingMenu_C::TutorialPopupConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TrainingMenu.BP_TrainingMenu_C.TutorialPopupCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_TrainingMenu_C::TutorialPopupCancel()
@@ -77,7 +77,7 @@ void UBP_TrainingMenu_C::TutorialPopupCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TrainingMenu.BP_TrainingMenu_C.BndEvt__Button_1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TrainingMenu_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -95,7 +95,7 @@ void UBP_TrainingMenu_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_0_OnButtonC
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TrainingMenu.BP_TrainingMenu_C.ExecuteUbergraph_BP_TrainingMenu
 //		Flags  -> (Final)
 // Parameters:

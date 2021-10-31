@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../SDK.h"
 #include <iostream>
@@ -39,7 +39,7 @@ bool InitSdk(const std::string& moduleName, const uintptr_t gObjectsOffset, cons
 }
 bool InitSdk()
 {
-	return InitSdk("Mordhau-Win64-Shipping.exe", 0x4DA2658, 0x4D89BC0);
+	return InitSdk("Mordhau-Win64-Shipping.exe", 0x4DB4418, 0x4D9B980);
 }
 #endif
 //---------------------------------------------------------------------------

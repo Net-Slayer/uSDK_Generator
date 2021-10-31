@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.Get_ModeName_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_GameModeEntry_C::Get_ModeName_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.GetVisibility_3
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_GameModeEntry_C::GetVisibility_3()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.OnCheckStateChanged
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_GameModeEntry_C::OnCheckStateChanged(bool bIsChecked)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.RemoveCheckboxes
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void UBP_GameModeEntry_C::RemoveCheckboxes()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.UpdatePlayerCounts
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -129,7 +129,7 @@ void UBP_GameModeEntry_C::UpdatePlayerCounts(TArray<int>* PlayerCounts, TArray<i
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.GetVisibility_2
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ UMG_ESlateVisibility UBP_GameModeEntry_C::GetVisibility_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.AddCheckbox
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_GameModeEntry_C::AddCheckbox(int Player_Count, bool bIsChecked)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -196,7 +196,7 @@ UMG_ESlateVisibility UBP_GameModeEntry_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.Deselect
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -215,7 +215,7 @@ void UBP_GameModeEntry_C::Deselect()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.Select
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -234,7 +234,7 @@ void UBP_GameModeEntry_C::Select()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_GameModeEntry_C::Construct()
@@ -252,7 +252,7 @@ void UBP_GameModeEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameModeEntry_C::BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonClickedEvent__DelegateSignature()
@@ -270,7 +270,7 @@ void UBP_GameModeEntry_C::BndEvt__Row_K2Node_ComponentBoundEvent_100_OnButtonCli
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameModeEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
@@ -288,7 +288,7 @@ void UBP_GameModeEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_0_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameModeEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
@@ -306,7 +306,7 @@ void UBP_GameModeEntry_C::BndEvt__EntryButton_K2Node_ComponentBoundEvent_1_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__InfoButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameModeEntry_C::BndEvt__InfoButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
@@ -324,7 +324,7 @@ void UBP_GameModeEntry_C::BndEvt__InfoButton_K2Node_ComponentBoundEvent_2_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__InfoButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GameModeEntry_C::BndEvt__InfoButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature()
@@ -342,7 +342,7 @@ void UBP_GameModeEntry_C::BndEvt__InfoButton_K2Node_ComponentBoundEvent_3_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -363,7 +363,7 @@ void UBP_GameModeEntry_C::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.BndEvt__BP_Checkbox_K2Node_ComponentBoundEvent_4_OnCheckStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -384,7 +384,7 @@ void UBP_GameModeEntry_C::BndEvt__BP_Checkbox_K2Node_ComponentBoundEvent_4_OnChe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.ExecuteUbergraph_BP_GameModeEntry
 //		Flags  -> (Final)
 // Parameters:
@@ -405,7 +405,7 @@ void UBP_GameModeEntry_C::ExecuteUbergraph_BP_GameModeEntry(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.OnHover__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_GameModeEntry_C::OnHover__DelegateSignature()
@@ -423,7 +423,7 @@ void UBP_GameModeEntry_C::OnHover__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GameModeEntry.BP_GameModeEntry_C.SelectionChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

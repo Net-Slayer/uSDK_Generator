@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,9 +24,9 @@ namespace CG
 class UMovieSceneCaptureProtocolBase : public UObject
 {
 public:
-	unsigned char                                      UnknownData_NZS9[0x28];                                    // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_DMN4[0x28];                                    // 0x0028(0x0028) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	MovieSceneCapture_EMovieSceneCaptureProtocolState  State;                                                     // 0x0050(0x0001) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_H4WR[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_OUBR[0x7];                                     // 0x0051(0x0007) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -81,7 +81,7 @@ class UMasterAudioSubmixCaptureProtocol : public UMovieSceneAudioCaptureProtocol
 {
 public:
 	struct FString                                     Filename;                                                  // 0x0058(0x0010) (Edit, BlueprintVisible, ZeroConstructor, Config, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_1BID[0x28];                                    // 0x0068(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_F0FK[0x28];                                    // 0x0068(0x0028) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -118,15 +118,15 @@ class UCompositionGraphCaptureProtocol : public UMovieSceneImageCaptureProtocolB
 public:
 	struct FCompositionGraphCapturePasses              IncludeRenderPasses;                                       // 0x0058(0x0010) (Edit, BlueprintVisible, Config, NativeAccessSpecifierPublic)
 	bool                                               bCaptureFramesInHDR;                                       // 0x0068(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_HW70[0x3];                                     // 0x0069(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_OUDL[0x3];                                     // 0x0069(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                HDRCompressionQuality;                                     // 0x006C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<MovieSceneCapture_EHDRCaptureGamut>    CaptureGamut;                                              // 0x0070(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_HZWN[0x7];                                     // 0x0071(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_NQ73[0x7];                                     // 0x0071(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FSoftObjectPath                             PostProcessingMaterial;                                    // 0x0078(0x0018) (Edit, BlueprintVisible, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bDisableScreenPercentage;                                  // 0x0090(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_VN83[0x7];                                     // 0x0091(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_FN96[0x7];                                     // 0x0091(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UMaterialInterface*                          PostProcessingMaterialPtr;                                 // 0x0098(0x0008) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_BWL2[0x20];                                    // 0x00A0(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_K63J[0x20];                                    // 0x00A0(0x0020) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -144,7 +144,7 @@ public:
 class UFrameGrabberProtocol : public UMovieSceneImageCaptureProtocolBase
 {
 public:
-	unsigned char                                      UnknownData_OSV4[0x10];                                    // 0x0058(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_QW7F[0x10];                                    // 0x0058(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -162,7 +162,7 @@ public:
 class UImageSequenceProtocol : public UFrameGrabberProtocol
 {
 public:
-	unsigned char                                      UnknownData_2NV8[0x70];                                    // 0x0068(0x0070) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_O6XO[0x70];                                    // 0x0068(0x0070) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -181,7 +181,7 @@ class UCompressedImageSequenceProtocol : public UImageSequenceProtocol
 {
 public:
 	int                                                CompressionQuality;                                        // 0x00D8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_NLVF[0x4];                                     // 0x00DC(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_DMIZ[0x4];                                     // 0x00DC(0x0004) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -252,7 +252,7 @@ class UImageSequenceProtocol_EXR : public UImageSequenceProtocol
 public:
 	bool                                               bCompressed;                                               // 0x00D8(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	TEnumAsByte<MovieSceneCapture_EHDRCaptureGamut>    CaptureGamut;                                              // 0x00D9(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_6YHO[0xE];                                     // 0x00DA(0x000E) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_BBAK[0xE];                                     // 0x00DA(0x000E) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -287,7 +287,7 @@ public:
 class UMovieSceneCapture : public UObject
 {
 public:
-	unsigned char                                      UnknownData_ERR6[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_83PC[0x10];                                    // 0x0028(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FSoftClassPath                              ImageCaptureProtocolType;                                  // 0x0038(0x0018) (Edit, ZeroConstructor, Config, NoClear, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FSoftClassPath                              AudioCaptureProtocolType;                                  // 0x0050(0x0018) (Edit, ZeroConstructor, Config, NoClear, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UMovieSceneImageCaptureProtocolBase*         ImageCaptureProtocol;                                      // 0x0068(0x0008) (Edit, ExportObject, ZeroConstructor, Transient, EditConst, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -295,10 +295,10 @@ public:
 	struct FMovieSceneCaptureSettings                  Settings;                                                  // 0x0078(0x0070) (Edit, BlueprintVisible, Config, NativeAccessSpecifierPublic)
 	bool                                               bUseSeparateProcess;                                       // 0x00E8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bCloseEditorWhenCaptureStarts;                             // 0x00E9(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_J2W7[0x6];                                     // 0x00EA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_2JEL[0x6];                                     // 0x00EA(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     AdditionalCommandLineArguments;                            // 0x00F0(0x0010) (Edit, BlueprintVisible, ZeroConstructor, Config, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FString                                     InheritedCommandLineArguments;                             // 0x0100(0x0010) (Edit, BlueprintVisible, ZeroConstructor, Transient, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_5356[0x110];                                   // 0x0110(0x0110) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_D0CE[0x110];                                   // 0x0110(0x0110) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -321,9 +321,9 @@ class ULevelCapture : public UMovieSceneCapture
 {
 public:
 	bool                                               bAutoStartCapture;                                         // 0x0220(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_M4ZW[0xB];                                     // 0x0221(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_RTEX[0xB];                                     // 0x0221(0x000B) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FGuid                                       PrerequisiteActorId;                                       // 0x022C(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_RV4E[0x4];                                     // 0x023C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_LQ9B[0x4];                                     // 0x023C(0x0004) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -364,7 +364,7 @@ class UUserDefinedCaptureProtocol : public UMovieSceneImageCaptureProtocolBase
 {
 public:
 	class UWorld*                                      World;                                                     // 0x0058(0x0008) (BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_VG34[0x78];                                    // 0x0060(0x0078) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_GDU3[0x78];                                    // 0x0060(0x0078) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -400,7 +400,7 @@ class UUserDefinedImageCaptureProtocol : public UUserDefinedCaptureProtocol
 public:
 	ImageWriteQueue_EDesiredImageFormat                Format;                                                    // 0x00D8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bEnableCompression;                                        // 0x00D9(0x0001) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DZOT[0x2];                                     // 0x00DA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_UPIR[0x2];                                     // 0x00DA(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	int                                                CompressionQuality;                                        // 0x00DC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 
@@ -423,9 +423,9 @@ class UVideoCaptureProtocol : public UFrameGrabberProtocol
 {
 public:
 	bool                                               bUseCompression;                                           // 0x0068(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_I0UB[0x3];                                     // 0x0069(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_4QRX[0x3];                                     // 0x0069(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              CompressionQuality;                                        // 0x006C(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_ABGH[0x10];                                    // 0x0070(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_7V7V[0x10];                                    // 0x0070(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanelArmorEntry.BP_KilledByPanelArmorEntry_C.Flash
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_KilledByPanelArmorEntry_C::Flash()
@@ -37,7 +37,7 @@ void UBP_KilledByPanelArmorEntry_C::Flash()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanelArmorEntry.BP_KilledByPanelArmorEntry_C.SetArmorClass
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -58,7 +58,7 @@ void UBP_KilledByPanelArmorEntry_C::SetArmorClass(int NewArmorClass)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanelArmorEntry.BP_KilledByPanelArmorEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_KilledByPanelArmorEntry_C::Construct()
@@ -76,7 +76,7 @@ void UBP_KilledByPanelArmorEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KilledByPanelArmorEntry.BP_KilledByPanelArmorEntry_C.ExecuteUbergraph_BP_KilledByPanelArmorEntry
 //		Flags  -> (Final)
 // Parameters:

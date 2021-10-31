@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.FindProgressBarTarget
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -50,7 +50,7 @@ void UBP_Rewards2_C::FindProgressBarTarget(int Next_Rank_XP, int Current_Rank_XP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.HandleRankUp
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -71,7 +71,7 @@ void UBP_Rewards2_C::HandleRankUp(class UBP_CasualRankWidget_C* Casual_Rank_Widg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.XP Interpolation
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -94,7 +94,7 @@ void UBP_Rewards2_C::XP_Interpolation(class UBP_CasualRankWidget_C* Casual_Rank_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.InitializeRankValues
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -115,7 +115,7 @@ void UBP_Rewards2_C::InitializeRankValues(class UBP_CasualRankWidget_C* Casual_R
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.Get_EarnedXPText_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -137,7 +137,7 @@ struct FText UBP_Rewards2_C::Get_EarnedXPText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.BeginXPSequence
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::BeginXPSequence()
@@ -155,7 +155,7 @@ void UBP_Rewards2_C::BeginXPSequence()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.AddToXPBar
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::AddToXPBar()
@@ -173,7 +173,7 @@ void UBP_Rewards2_C::AddToXPBar()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -196,7 +196,7 @@ void UBP_Rewards2_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.RankUp
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::RankUp()
@@ -214,7 +214,7 @@ void UBP_Rewards2_C::RankUp()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.ExitXP
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::ExitXP()
@@ -232,7 +232,7 @@ void UBP_Rewards2_C::ExitXP()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.RankUpAnimDone
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::RankUpAnimDone()
@@ -250,7 +250,7 @@ void UBP_Rewards2_C::RankUpAnimDone()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.MergeGold
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::MergeGold()
@@ -268,7 +268,7 @@ void UBP_Rewards2_C::MergeGold()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.RequestRewards
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::RequestRewards()
@@ -286,7 +286,7 @@ void UBP_Rewards2_C::RequestRewards()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.RewardDropTimedOut
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::RewardDropTimedOut()
@@ -304,7 +304,7 @@ void UBP_Rewards2_C::RewardDropTimedOut()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_Rewards2_C::Construct()
@@ -322,7 +322,7 @@ void UBP_Rewards2_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.OnRewardsDropped
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -349,7 +349,7 @@ void UBP_Rewards2_C::OnRewardsDropped(bool bWasSuccessful, const struct FString&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.Enable
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::Enable()
@@ -367,7 +367,7 @@ void UBP_Rewards2_C::Enable()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.BeginGoldAnimation
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::BeginGoldAnimation()
@@ -385,7 +385,7 @@ void UBP_Rewards2_C::BeginGoldAnimation()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.Update Player Widget
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::Update_Player_Widget()
@@ -403,7 +403,7 @@ void UBP_Rewards2_C::Update_Player_Widget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.ExecuteUbergraph_BP_Rewards2
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -424,7 +424,7 @@ void UBP_Rewards2_C::ExecuteUbergraph_BP_Rewards2(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Rewards2.BP_Rewards2_C.RewardsComplete__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_Rewards2_C::RewardsComplete__DelegateSignature()

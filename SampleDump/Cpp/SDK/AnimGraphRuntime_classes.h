@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -60,7 +60,7 @@ public:
 class UAnimSequencerInstance : public UAnimInstance
 {
 public:
-	unsigned char                                      UnknownData_D0RM[0x8];                                     // 0x0268(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_2P5N[0x8];                                     // 0x0268(0x0008) Fix Super Size
 
 
 	static UClass* StaticClass()
@@ -110,7 +110,7 @@ public:
 	struct FScriptMulticastDelegate                    OnInterrupted;                                             // 0x0048(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnNotifyBegin;                                             // 0x0058(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnNotifyEnd;                                               // 0x0068(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3V86[0x30];                                    // 0x0078(0x0030) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_V7KW[0x30];                                    // 0x0078(0x0030) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

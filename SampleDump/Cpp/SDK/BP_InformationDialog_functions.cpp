@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.SetButtonText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_InformationDialog_C::SetButtonText(const struct FText& ButtonText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.SetTitleText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_InformationDialog_C::SetTitleText(const struct FText& TitleText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.GetInfoText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -83,7 +83,7 @@ struct FText UBP_InformationDialog_C::GetInfoText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEvent_14_ButtonClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_InformationDialog_C::BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEvent_14_ButtonClicked__DelegateSignature()
@@ -101,7 +101,7 @@ void UBP_InformationDialog_C::BndEvt__BP_OneButtonDialog_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_InformationDialog_C::Show()
@@ -119,7 +119,7 @@ void UBP_InformationDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_InformationDialog_C::Hide()
@@ -137,7 +137,7 @@ void UBP_InformationDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.ExecuteUbergraph_BP_InformationDialog
 //		Flags  -> (Final)
 // Parameters:
@@ -158,7 +158,7 @@ void UBP_InformationDialog_C::ExecuteUbergraph_BP_InformationDialog(int EntryPoi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_InformationDialog.BP_InformationDialog_C.ButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_InformationDialog_C::ButtonClicked__DelegateSignature()

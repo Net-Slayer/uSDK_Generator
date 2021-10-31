@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02FACCA0
+//		Offset -> 0x02FB7C90
 //		Name   -> Function NavigationSystem.NavigationPath.IsValid
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -42,7 +42,7 @@ bool UNavigationPath::IsValid()
 
 
 // Function:
-//		Offset -> 0x010C5C90
+//		Offset -> 0x010D61C0
 //		Name   -> Function NavigationSystem.NavigationPath.IsStringPulled
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -65,7 +65,7 @@ bool UNavigationPath::IsStringPulled()
 
 
 // Function:
-//		Offset -> 0x02FACC70
+//		Offset -> 0x02FB7C60
 //		Name   -> Function NavigationSystem.NavigationPath.IsPartial
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -88,7 +88,7 @@ bool UNavigationPath::IsPartial()
 
 
 // Function:
-//		Offset -> 0x02FAC580
+//		Offset -> 0x02FB7570
 //		Name   -> Function NavigationSystem.NavigationPath.GetPathLength
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -111,7 +111,7 @@ float UNavigationPath::GetPathLength()
 
 
 // Function:
-//		Offset -> 0x02FAC330
+//		Offset -> 0x02FB7320
 //		Name   -> Function NavigationSystem.NavigationPath.GetPathCost
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -134,7 +134,7 @@ float UNavigationPath::GetPathCost()
 
 
 // Function:
-//		Offset -> 0x02FAC230
+//		Offset -> 0x02FB7220
 //		Name   -> Function NavigationSystem.NavigationPath.GetDebugString
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -157,7 +157,7 @@ struct FString UNavigationPath::GetDebugString()
 
 
 // Function:
-//		Offset -> 0x02FABE10
+//		Offset -> 0x02FB6E00
 //		Name   -> Function NavigationSystem.NavigationPath.EnableRecalculationOnInvalidation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -179,7 +179,7 @@ void UNavigationPath::EnableRecalculationOnInvalidation(TEnumAsByte<Engine_ENavi
 
 
 // Function:
-//		Offset -> 0x02FABD30
+//		Offset -> 0x02FB6D20
 //		Name   -> Function NavigationSystem.NavigationPath.EnableDebugDrawing
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -203,7 +203,7 @@ void UNavigationPath::EnableDebugDrawing(bool bShouldDrawDebugData, const struct
 
 
 // Function:
-//		Offset -> 0x02FADBA0
+//		Offset -> 0x02FB8B90
 //		Name   -> Function NavigationSystem.NavigationSystemV1.UnregisterNavigationInvoker
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -225,7 +225,7 @@ void UNavigationSystemV1::UnregisterNavigationInvoker(class AActor* Invoker)
 
 
 // Function:
-//		Offset -> 0x02FADAE0
+//		Offset -> 0x02FB8AD0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.SimpleMoveToLocation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -249,7 +249,7 @@ void UNavigationSystemV1::STATIC_SimpleMoveToLocation(class AController* Control
 
 
 // Function:
-//		Offset -> 0x02FADA30
+//		Offset -> 0x02FB8A20
 //		Name   -> Function NavigationSystem.NavigationSystemV1.SimpleMoveToActor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -273,7 +273,7 @@ void UNavigationSystemV1::STATIC_SimpleMoveToActor(class AController* Controller
 
 
 // Function:
-//		Offset -> 0x02FAD9B0
+//		Offset -> 0x02FB89A0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.SetMaxSimultaneousTileGenerationJobsCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -295,7 +295,7 @@ void UNavigationSystemV1::SetMaxSimultaneousTileGenerationJobsCount(int MaxNumbe
 
 
 // Function:
-//		Offset -> 0x02FAD930
+//		Offset -> 0x02FB8920
 //		Name   -> Function NavigationSystem.NavigationSystemV1.SetGeometryGatheringMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -317,7 +317,7 @@ void UNavigationSystemV1::SetGeometryGatheringMode(Engine_ENavDataGatheringModeC
 
 
 // Function:
-//		Offset -> 0x02FAD910
+//		Offset -> 0x02FB8900
 //		Name   -> Function NavigationSystem.NavigationSystemV1.ResetMaxSimultaneousTileGenerationJobsCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UNavigationSystemV1::ResetMaxSimultaneousTileGenerationJobsCount()
@@ -336,7 +336,7 @@ void UNavigationSystemV1::ResetMaxSimultaneousTileGenerationJobsCount()
 
 
 // Function:
-//		Offset -> 0x02FAD810
+//		Offset -> 0x02FB8800
 //		Name   -> Function NavigationSystem.NavigationSystemV1.RegisterNavigationInvoker
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -362,7 +362,7 @@ void UNavigationSystemV1::RegisterNavigationInvoker(class AActor* Invoker, float
 
 
 // Function:
-//		Offset -> 0x02FAD640
+//		Offset -> 0x02FB8630
 //		Name   -> Function NavigationSystem.NavigationSystemV1.ProjectPointToNavigation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -395,7 +395,7 @@ struct FVector UNavigationSystemV1::STATIC_ProjectPointToNavigation(class UObjec
 
 
 // Function:
-//		Offset -> 0x02FAD5C0
+//		Offset -> 0x02FB85B0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.OnNavigationBoundsUpdated
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -417,7 +417,7 @@ void UNavigationSystemV1::OnNavigationBoundsUpdated(class ANavMeshBoundsVolume* 
 
 
 // Function:
-//		Offset -> 0x02FAD3B0
+//		Offset -> 0x02FB83A0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.NavigationRaycast
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -454,7 +454,7 @@ bool UNavigationSystemV1::STATIC_NavigationRaycast(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x02FAD2B0
+//		Offset -> 0x02FB82A0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.K2_ReplaceAreaInOctreeData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -483,7 +483,7 @@ bool UNavigationSystemV1::K2_ReplaceAreaInOctreeData(class UObject* Object, clas
 
 
 // Function:
-//		Offset -> 0x02FAD0D0
+//		Offset -> 0x02FB80C0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.K2_ProjectPointToNavigation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -520,7 +520,7 @@ bool UNavigationSystemV1::STATIC_K2_ProjectPointToNavigation(class UObject* Worl
 
 
 // Function:
-//		Offset -> 0x02FACED0
+//		Offset -> 0x02FB7EC0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.K2_GetRandomReachablePointInRadius
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -557,7 +557,7 @@ bool UNavigationSystemV1::STATIC_K2_GetRandomReachablePointInRadius(class UObjec
 
 
 // Function:
-//		Offset -> 0x02FACCD0
+//		Offset -> 0x02FB7CC0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.K2_GetRandomPointInNavigableRadius
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -594,7 +594,7 @@ bool UNavigationSystemV1::STATIC_K2_GetRandomPointInNavigableRadius(class UObjec
 
 
 // Function:
-//		Offset -> 0x02FACCD0
+//		Offset -> 0x02FB7CC0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.K2_GetRandomLocationInNavigableRadius
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -631,7 +631,7 @@ bool UNavigationSystemV1::STATIC_K2_GetRandomLocationInNavigableRadius(class UOb
 
 
 // Function:
-//		Offset -> 0x02FACBF0
+//		Offset -> 0x02FB7BE0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.IsNavigationBeingBuiltOrLocked
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -656,7 +656,7 @@ bool UNavigationSystemV1::STATIC_IsNavigationBeingBuiltOrLocked(class UObject* W
 
 
 // Function:
-//		Offset -> 0x02FACB70
+//		Offset -> 0x02FB7B60
 //		Name   -> Function NavigationSystem.NavigationSystemV1.IsNavigationBeingBuilt
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -681,7 +681,7 @@ bool UNavigationSystemV1::STATIC_IsNavigationBeingBuilt(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x02FAC9A0
+//		Offset -> 0x02FB7990
 //		Name   -> Function NavigationSystem.NavigationSystemV1.GetRandomReachablePointInRadius
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -714,7 +714,7 @@ struct FVector UNavigationSystemV1::STATIC_GetRandomReachablePointInRadius(class
 
 
 // Function:
-//		Offset -> 0x02FAC7D0
+//		Offset -> 0x02FB77C0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.GetRandomPointInNavigableRadius
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -747,7 +747,7 @@ struct FVector UNavigationSystemV1::STATIC_GetRandomPointInNavigableRadius(class
 
 
 // Function:
-//		Offset -> 0x02FAC5B0
+//		Offset -> 0x02FB75A0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.GetPathLength
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -784,7 +784,7 @@ TEnumAsByte<Engine_ENavigationQueryResult> UNavigationSystemV1::STATIC_GetPathLe
 
 
 // Function:
-//		Offset -> 0x02FAC360
+//		Offset -> 0x02FB7350
 //		Name   -> Function NavigationSystem.NavigationSystemV1.GetPathCost
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -821,7 +821,7 @@ TEnumAsByte<Engine_ENavigationQueryResult> UNavigationSystemV1::STATIC_GetPathCo
 
 
 // Function:
-//		Offset -> 0x02FAC2B0
+//		Offset -> 0x02FB72A0
 //		Name   -> Function NavigationSystem.NavigationSystemV1.GetNavigationSystem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -846,7 +846,7 @@ class UNavigationSystemV1* UNavigationSystemV1::STATIC_GetNavigationSystem(class
 
 
 // Function:
-//		Offset -> 0x02FAC080
+//		Offset -> 0x02FB7070
 //		Name   -> Function NavigationSystem.NavigationSystemV1.FindPathToLocationSynchronously
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -879,7 +879,7 @@ class UNavigationPath* UNavigationSystemV1::STATIC_FindPathToLocationSynchronous
 
 
 // Function:
-//		Offset -> 0x02FABE90
+//		Offset -> 0x02FB6E80
 //		Name   -> Function NavigationSystem.NavigationSystemV1.FindPathToActorSynchronously
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -914,7 +914,7 @@ class UNavigationPath* UNavigationSystemV1::STATIC_FindPathToActorSynchronously(
 
 
 // Function:
-//		Offset -> 0x02FAFB20
+//		Offset -> 0x02FBAB10
 //		Name   -> Function NavigationSystem.NavRelevantComponent.SetNavigationRelevancy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -936,7 +936,7 @@ void UNavRelevantComponent::SetNavigationRelevancy(bool bRelevant)
 
 
 // Function:
-//		Offset -> 0x02FAFAA0
+//		Offset -> 0x02FBAA90
 //		Name   -> Function NavigationSystem.NavModifierComponent.SetAreaClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -958,7 +958,7 @@ void UNavModifierComponent::SetAreaClass(class UClass* NewAreaClass)
 
 
 // Function:
-//		Offset -> 0x02FAFA20
+//		Offset -> 0x02FBAA10
 //		Name   -> Function NavigationSystem.NavModifierVolume.SetAreaClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -980,7 +980,7 @@ void ANavModifierVolume::SetAreaClass(class UClass* NewAreaClass)
 
 
 // Function:
-//		Offset -> 0x02FAF890
+//		Offset -> 0x02FBA880
 //		Name   -> Function NavigationSystem.RecastNavMesh.K2_ReplaceAreaInTileBounds
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:

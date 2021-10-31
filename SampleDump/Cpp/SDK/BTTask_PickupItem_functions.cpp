@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_PickupItem.BTTask_PickupItem_C.ReceiveExecuteAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBTTask_PickupItem_C::ReceiveExecuteAI(class AAIController* OwnerController
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_PickupItem.BTTask_PickupItem_C.ExecuteUbergraph_BTTask_PickupItem
 //		Flags  -> (Final)
 // Parameters:

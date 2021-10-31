@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02308C40
+//		Offset -> 0x02312560
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_TwoBoneIK
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -62,7 +62,7 @@ void UKismetAnimationLibrary::STATIC_K2_TwoBoneIK(const struct FVector& RootPos,
 
 
 // Function:
-//		Offset -> 0x02308C20
+//		Offset -> 0x02312540
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_StartProfilingTimer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 void UKismetAnimationLibrary::STATIC_K2_StartProfilingTimer()
@@ -81,7 +81,7 @@ void UKismetAnimationLibrary::STATIC_K2_StartProfilingTimer()
 
 
 // Function:
-//		Offset -> 0x02308970
+//		Offset -> 0x02312290
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_MakePerlinNoiseVectorAndRemap
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -122,7 +122,7 @@ struct FVector UKismetAnimationLibrary::STATIC_K2_MakePerlinNoiseVectorAndRemap(
 
 
 // Function:
-//		Offset -> 0x02308860
+//		Offset -> 0x02312180
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_MakePerlinNoiseAndRemap
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ float UKismetAnimationLibrary::STATIC_K2_MakePerlinNoiseAndRemap(float Value, fl
 
 
 // Function:
-//		Offset -> 0x023085E0
+//		Offset -> 0x02311F00
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_LookAt
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -186,7 +186,7 @@ struct FTransform UKismetAnimationLibrary::STATIC_K2_LookAt(const struct FTransf
 
 
 // Function:
-//		Offset -> 0x023084F0
+//		Offset -> 0x02311E10
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_EndProfilingTimer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -213,7 +213,7 @@ float UKismetAnimationLibrary::STATIC_K2_EndProfilingTimer(bool bLog, const stru
 
 
 // Function:
-//		Offset -> 0x02308230
+//		Offset -> 0x02311B50
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_DistanceBetweenTwoSocketsAndMapRange
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -256,7 +256,7 @@ float UKismetAnimationLibrary::STATIC_K2_DistanceBetweenTwoSocketsAndMapRange(cl
 
 
 // Function:
-//		Offset -> 0x02308130
+//		Offset -> 0x02311A50
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_DirectionBetweenSockets
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -285,7 +285,7 @@ struct FVector UKismetAnimationLibrary::STATIC_K2_DirectionBetweenSockets(class 
 
 
 // Function:
-//		Offset -> 0x02307D10
+//		Offset -> 0x02311630
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_CalculateVelocityFromSockets
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -334,7 +334,7 @@ float UKismetAnimationLibrary::STATIC_K2_CalculateVelocityFromSockets(float Delt
 
 
 // Function:
-//		Offset -> 0x02307AF0
+//		Offset -> 0x02311410
 //		Name   -> Function AnimGraphRuntime.KismetAnimationLibrary.K2_CalculateVelocityFromPositionHistory
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -371,7 +371,7 @@ float UKismetAnimationLibrary::STATIC_K2_CalculateVelocityFromPositionHistory(fl
 
 
 // Function:
-//		Offset -> 0x023091F0
+//		Offset -> 0x02312B10
 //		Name   -> Function AnimGraphRuntime.PlayMontageCallbackProxy.OnNotifyEndReceived
 //		Flags  -> (Final, Native, Protected, HasOutParms)
 // Parameters:
@@ -395,7 +395,7 @@ void UPlayMontageCallbackProxy::OnNotifyEndReceived(const struct FName& NotifyNa
 
 
 // Function:
-//		Offset -> 0x02309110
+//		Offset -> 0x02312A30
 //		Name   -> Function AnimGraphRuntime.PlayMontageCallbackProxy.OnNotifyBeginReceived
 //		Flags  -> (Final, Native, Protected, HasOutParms)
 // Parameters:
@@ -419,7 +419,7 @@ void UPlayMontageCallbackProxy::OnNotifyBeginReceived(const struct FName& Notify
 
 
 // Function:
-//		Offset -> 0x02309040
+//		Offset -> 0x02312960
 //		Name   -> Function AnimGraphRuntime.PlayMontageCallbackProxy.OnMontageEnded
 //		Flags  -> (Final, Native, Protected)
 // Parameters:
@@ -443,7 +443,7 @@ void UPlayMontageCallbackProxy::OnMontageEnded(class UAnimMontage* Montage, bool
 
 
 // Function:
-//		Offset -> 0x02308F70
+//		Offset -> 0x02312890
 //		Name   -> Function AnimGraphRuntime.PlayMontageCallbackProxy.OnMontageBlendingOut
 //		Flags  -> (Final, Native, Protected)
 // Parameters:
@@ -467,7 +467,7 @@ void UPlayMontageCallbackProxy::OnMontageBlendingOut(class UAnimMontage* Montage
 
 
 // Function:
-//		Offset -> 0x02307970
+//		Offset -> 0x02311290
 //		Name   -> Function AnimGraphRuntime.PlayMontageCallbackProxy.CreateProxyObjectForPlayMontage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

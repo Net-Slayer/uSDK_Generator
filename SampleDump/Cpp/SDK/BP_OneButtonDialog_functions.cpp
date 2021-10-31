@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.GetButtonText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_OneButtonDialog_C::GetButtonText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_OneButtonDialog_C::Construct()
@@ -59,7 +59,7 @@ void UBP_OneButtonDialog_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_OneButtonDialog_C::BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButtonClickedEvent__DelegateSignature()
@@ -77,7 +77,7 @@ void UBP_OneButtonDialog_C::BndEvt__Button_K2Node_ComponentBoundEvent_150_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_OneButtonDialog_C::Show()
@@ -95,7 +95,7 @@ void UBP_OneButtonDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_OneButtonDialog_C::Hide()
@@ -113,7 +113,7 @@ void UBP_OneButtonDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.ExecuteUbergraph_BP_OneButtonDialog
 //		Flags  -> (Final)
 // Parameters:
@@ -134,7 +134,7 @@ void UBP_OneButtonDialog_C::ExecuteUbergraph_BP_OneButtonDialog(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneButtonDialog.BP_OneButtonDialog_C.ButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_OneButtonDialog_C::ButtonClicked__DelegateSignature()

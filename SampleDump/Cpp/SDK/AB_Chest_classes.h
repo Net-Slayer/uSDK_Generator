@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class UAB_Chest_C : public UAnimInstance
 {
 public:
-	unsigned char                                      UnknownData_AD4L[0x8];                                     // 0x0268(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_I566[0x8];                                     // 0x0268(0x0008) Fix Super Size
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0270(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 	struct FAnimNode_Root                              AnimGraphNode_Root;                                        // 0x0278(0x0030)
 	struct FAnimNode_MeshSpaceRefPose                  AnimGraphNode_MeshRefPose;                                 // 0x02A8(0x0010)

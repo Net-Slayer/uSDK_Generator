@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,11 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.Update button prompts 
+struct ABP_MordhauPlayerController_C_Update_button_prompts__Params
+{
+};
 
 // Function BP_MordhauPlayerController.BP_MordhauPlayerController_C.NewFunction_1
 struct ABP_MordhauPlayerController_C_NewFunction_1_Params

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00A27E90
+//		Offset -> 0x00A2C170
 //		Name   -> Function AnimationSharing.AnimSharingStateInstance.GetInstancedActors
 //		Flags  -> (Final, Native, Protected, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -43,7 +43,7 @@ void UAnimSharingStateInstance::GetInstancedActors(TArray<class AActor*>* Actors
 
 
 // Function:
-//		Offset -> 0x00A280F0
+//		Offset -> 0x00A2C3D0
 //		Name   -> Function AnimationSharing.AnimationSharingManager.RegisterActorWithSkeletonBP
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -67,7 +67,7 @@ void UAnimationSharingManager::RegisterActorWithSkeletonBP(class AActor* InActor
 
 
 // Function:
-//		Offset -> 0x00A27DE0
+//		Offset -> 0x00A2C0C0
 //		Name   -> Function AnimationSharing.AnimationSharingManager.GetAnimationSharingManager
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -92,7 +92,7 @@ class UAnimationSharingManager* UAnimationSharingManager::STATIC_GetAnimationSha
 
 
 // Function:
-//		Offset -> 0x00A27D20
+//		Offset -> 0x00A2C000
 //		Name   -> Function AnimationSharing.AnimationSharingManager.CreateAnimationSharingManager
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -119,7 +119,7 @@ bool UAnimationSharingManager::STATIC_CreateAnimationSharingManager(class UObjec
 
 
 // Function:
-//		Offset -> 0x00A27CF0
+//		Offset -> 0x00A2BFD0
 //		Name   -> Function AnimationSharing.AnimationSharingManager.AnimationSharingEnabled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -142,7 +142,7 @@ bool UAnimationSharingManager::STATIC_AnimationSharingEnabled()
 
 
 // Function:
-//		Offset -> 0x00A27F40
+//		Offset -> 0x00A2C220
 //		Name   -> Function AnimationSharing.AnimationSharingStateProcessor.ProcessActorState
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -175,7 +175,7 @@ void UAnimationSharingStateProcessor::ProcessActorState(int* OutState, class AAc
 
 
 // Function:
-//		Offset -> 0x00A27E60
+//		Offset -> 0x00A2C140
 //		Name   -> Function AnimationSharing.AnimationSharingStateProcessor.GetAnimationStateEnum
 //		Flags  -> (Native, Event, Public, BlueprintEvent)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -25,7 +25,7 @@ class UAndroidPermissionCallbackProxy : public UObject
 {
 public:
 	struct FScriptMulticastDelegate                    OnPermissionsGrantedDynamicDelegate;                       // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DMN3[0x10];                                    // 0x0038(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9P1H[0x10];                                    // 0x0038(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

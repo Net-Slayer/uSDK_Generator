@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D1D1D0
+//		Offset -> 0x00D26A50
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerComponent.SetTargetAsync
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ bool UMagicLeapImageTrackerComponent::SetTargetAsync(class UTexture2D* ImageTarg
 
 
 // Function:
-//		Offset -> 0x00D1D130
+//		Offset -> 0x00D269B0
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerComponent.RemoveTargetAsync
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -67,7 +67,7 @@ bool UMagicLeapImageTrackerComponent::RemoveTargetAsync()
 
 
 // Function:
-//		Offset -> 0x00D1D160
+//		Offset -> 0x00D269E0
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerFunctionLibrary.SetMaxSimultaneousTargets
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -89,7 +89,7 @@ void UMagicLeapImageTrackerFunctionLibrary::STATIC_SetMaxSimultaneousTargets(int
 
 
 // Function:
-//		Offset -> 0x00D1D100
+//		Offset -> 0x00D26980
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerFunctionLibrary.IsImageTrackingEnabled
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -112,7 +112,7 @@ bool UMagicLeapImageTrackerFunctionLibrary::STATIC_IsImageTrackingEnabled()
 
 
 // Function:
-//		Offset -> 0x00D1D0D0
+//		Offset -> 0x00D26950
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerFunctionLibrary.GetMaxSimultaneousTargets
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -135,7 +135,7 @@ int UMagicLeapImageTrackerFunctionLibrary::STATIC_GetMaxSimultaneousTargets()
 
 
 // Function:
-//		Offset -> 0x00D1D050
+//		Offset -> 0x00D268D0
 //		Name   -> Function MagicLeapImageTracker.MagicLeapImageTrackerFunctionLibrary.EnableImageTracking
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

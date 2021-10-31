@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.GetJoiningText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void UBP_MordhauGameInstance_C::GetJoiningText(bool bIsFull, struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.GetJoiningTextOld
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -69,7 +69,7 @@ void UBP_MordhauGameInstance_C::GetJoiningTextOld(const struct FServerSearchResu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnFailure_EC1BED794FBBC103AFC74FAD71124461
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnFailure_EC1BED794FBBC103AFC74FAD71124461()
@@ -87,7 +87,7 @@ void UBP_MordhauGameInstance_C::OnFailure_EC1BED794FBBC103AFC74FAD71124461()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnSuccess_EC1BED794FBBC103AFC74FAD71124461
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnSuccess_EC1BED794FBBC103AFC74FAD71124461()
@@ -105,7 +105,7 @@ void UBP_MordhauGameInstance_C::OnSuccess_EC1BED794FBBC103AFC74FAD71124461()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnFailure_E564B5624B7FDB47DBB2E08126C636D7
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnFailure_E564B5624B7FDB47DBB2E08126C636D7()
@@ -123,7 +123,7 @@ void UBP_MordhauGameInstance_C::OnFailure_E564B5624B7FDB47DBB2E08126C636D7()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnSuccess_E564B5624B7FDB47DBB2E08126C636D7
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnSuccess_E564B5624B7FDB47DBB2E08126C636D7()
@@ -141,7 +141,7 @@ void UBP_MordhauGameInstance_C::OnSuccess_E564B5624B7FDB47DBB2E08126C636D7()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnFailure_4643A5C64229EB24E86C05B71625BDC1
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnFailure_4643A5C64229EB24E86C05B71625BDC1()
@@ -159,7 +159,7 @@ void UBP_MordhauGameInstance_C::OnFailure_4643A5C64229EB24E86C05B71625BDC1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnFull_4643A5C64229EB24E86C05B71625BDC1
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnFull_4643A5C64229EB24E86C05B71625BDC1()
@@ -177,7 +177,7 @@ void UBP_MordhauGameInstance_C::OnFull_4643A5C64229EB24E86C05B71625BDC1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnSuccess_4643A5C64229EB24E86C05B71625BDC1
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnSuccess_4643A5C64229EB24E86C05B71625BDC1()
@@ -195,7 +195,7 @@ void UBP_MordhauGameInstance_C::OnSuccess_4643A5C64229EB24E86C05B71625BDC1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.ShowPasswordDialog
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -216,7 +216,7 @@ void UBP_MordhauGameInstance_C::ShowPasswordDialog(const struct FServerSearchRes
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.ShowNetworkErrorDialog
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::ShowNetworkErrorDialog()
@@ -234,7 +234,7 @@ void UBP_MordhauGameInstance_C::ShowNetworkErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnErrorOkClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnErrorOkClicked()
@@ -252,7 +252,7 @@ void UBP_MordhauGameInstance_C::OnErrorOkClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.CreatePasswordDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::CreatePasswordDialog()
@@ -270,7 +270,7 @@ void UBP_MordhauGameInstance_C::CreatePasswordDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.CreateNetworkErrorDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::CreateNetworkErrorDialog()
@@ -288,7 +288,7 @@ void UBP_MordhauGameInstance_C::CreateNetworkErrorDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.CreateJoiningDialog
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::CreateJoiningDialog()
@@ -306,7 +306,7 @@ void UBP_MordhauGameInstance_C::CreateJoiningDialog()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.ShowJoiningDialog
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -327,7 +327,7 @@ void UBP_MordhauGameInstance_C::ShowJoiningDialog(const struct FServerSearchResu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnJoiningCancelClick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnJoiningCancelClick()
@@ -345,7 +345,7 @@ void UBP_MordhauGameInstance_C::OnJoiningCancelClick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnPasswordTextEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -368,7 +368,7 @@ void UBP_MordhauGameInstance_C::OnPasswordTextEntered(const struct FText& Text, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.Join
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::Join()
@@ -386,7 +386,7 @@ void UBP_MordhauGameInstance_C::Join()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.JoinSessionSearchResult
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -407,7 +407,7 @@ void UBP_MordhauGameInstance_C::JoinSessionSearchResult(const struct FServerSear
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnPasswordCancelClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnPasswordCancelClicked()
@@ -425,7 +425,7 @@ void UBP_MordhauGameInstance_C::OnPasswordCancelClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.OnPasswordOKClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MordhauGameInstance_C::OnPasswordOKClicked()
@@ -443,7 +443,7 @@ void UBP_MordhauGameInstance_C::OnPasswordOKClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameInstance.BP_MordhauGameInstance_C.ExecuteUbergraph_BP_MordhauGameInstance
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.BndEvt__sliderEntry_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ModListEntry_C::BndEvt__sliderEntry_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature()
@@ -37,7 +37,7 @@ void UBP_ModListEntry_C::BndEvt__sliderEntry_K2Node_ComponentBoundEvent_10_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.BndEvt__sliderEntry_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ModListEntry_C::BndEvt__sliderEntry_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature()
@@ -55,7 +55,7 @@ void UBP_ModListEntry_C::BndEvt__sliderEntry_K2Node_ComponentBoundEvent_1_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.ExecuteUbergraph_BP_ModListEntry
 //		Flags  -> (Final)
 // Parameters:
@@ -76,7 +76,7 @@ void UBP_ModListEntry_C::ExecuteUbergraph_BP_ModListEntry(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.OnClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ModListEntry_C::OnClicked__DelegateSignature()
@@ -94,7 +94,7 @@ void UBP_ModListEntry_C::OnClicked__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.OnHovered__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -115,7 +115,7 @@ void UBP_ModListEntry_C::OnHovered__DelegateSignature(class UBP_ModListEntry_C* 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ModListEntry.BP_ModListEntry_C.OnValueChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

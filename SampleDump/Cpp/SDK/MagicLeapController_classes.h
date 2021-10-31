@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -58,11 +58,11 @@ public:
 class UMagicLeapTouchpadGesturesComponent : public UActorComponent
 {
 public:
-	unsigned char                                      UnknownData_KHCB[0x8];                                     // 0x00B0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_J2MS[0x8];                                     // 0x00B0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FScriptMulticastDelegate                    OnTouchpadGestureStart;                                    // 0x00B8(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnTouchpadGestureContinue;                                 // 0x00C8(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnTouchpadGestureEnd;                                      // 0x00D8(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3J15[0x58];                                    // 0x00E8(0x0058) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_C8W8[0x58];                                    // 0x00E8(0x0058) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

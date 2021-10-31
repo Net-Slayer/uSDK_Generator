@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -35,7 +35,7 @@ public:
 	float                                              AnalogCursorSize;                                          // 0x00DC(0x0004) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bUseEngineAnalogCursor;                                    // 0x00E0(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	bool                                               bAnalogCursorNoAcceleration;                               // 0x00E1(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_2ME3[0x16];                                    // 0x00E2(0x0016) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_2KMS[0x16];                                    // 0x00E2(0x0016) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

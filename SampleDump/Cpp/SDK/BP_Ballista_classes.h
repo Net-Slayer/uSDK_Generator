@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,14 +20,15 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Ballista.BP_Ballista_C
-// 0x0020 (FullSize[0x0C50] - InheritedSize[0x0C30])
+// 0x0028 (FullSize[0x0B98] - InheritedSize[0x0B70])
 class ABP_Ballista_C : public ABP_MordhauVehicle_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0C30(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
-	class UMoveSoundComponent*                         MoveSound;                                                 // 0x0C38(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
-	class UProjectileTurretShooterComponent*           ProjectileTurretShooter;                                   // 0x0C40(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
-	class USkeletalMeshComponent*                      Bolt;                                                      // 0x0C48(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0B70(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
+	class UBP_VehicleBallista_C*                       BP_VehicleBallista;                                        // 0x0B78(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UMoveSoundComponent*                         MoveSound;                                                 // 0x0B80(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UProjectileTurretShooterComponent*           ProjectileTurretShooter;                                   // 0x0B88(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USkeletalMeshComponent*                      Bolt;                                                      // 0x0B90(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 
 	static UClass* StaticClass()
@@ -44,8 +45,6 @@ public:
 	void InpActEvt_Cycle_Camera_K2Node_InputActionEvent_2(const struct FKey& Key);
 	void InpActEvt_Cycle_Camera_K2Node_InputActionEvent_1(const struct FKey& Key);
 	void ReceiveBeginPlay();
-	void UpdateAnimationFor(class AMordhauCharacter* Character, class UMordhauAnimInstance* AnimInst, float DeltaTime);
-	void UpdateFPCameraFor(class AMordhauCharacter* Character, float DeltaSeconds, bool bRotationOnly);
 	void OnDied(float Angle, Mordhau_EMordhauDamageType Type, unsigned char SubType, const struct FName& bone, const struct FVector& Point, class AActor* Source, class AActor* Agent);
 	void OnCosmeticHit(Mordhau_EMordhauDamageType DamageType, unsigned char SubType, const struct FHitResult& Hit, class AActor* Agent);
 	void InpAxisEvt_Look_Up_K2Node_InputAxisEvent_19(float AxisValue);

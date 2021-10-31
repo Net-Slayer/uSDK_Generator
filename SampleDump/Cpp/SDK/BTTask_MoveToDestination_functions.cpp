@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.GetFilterClass
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -42,7 +42,7 @@ void UBTTask_MoveToDestination_C::GetFilterClass(class UClass** FilterClass)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.KeepMoving
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -65,7 +65,7 @@ void UBTTask_MoveToDestination_C::KeepMoving(bool* bKeepMoving)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ClearTarget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBTTask_MoveToDestination_C::ClearTarget()
@@ -83,7 +83,7 @@ void UBTTask_MoveToDestination_C::ClearTarget()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.GetTargetLoc
 //		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -106,7 +106,7 @@ void UBTTask_MoveToDestination_C::GetTargetLoc(struct FVector* TargetLocation)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ResetTimeAndDistance
 //		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -125,7 +125,7 @@ void UBTTask_MoveToDestination_C::ResetTimeAndDistance()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.Init
 //		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -148,7 +148,7 @@ void UBTTask_MoveToDestination_C::Init(class AAIController* OwnerController, cla
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.SetPath
 //		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -167,7 +167,7 @@ void UBTTask_MoveToDestination_C::SetPath()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ReceiveTickAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -192,7 +192,7 @@ void UBTTask_MoveToDestination_C::ReceiveTickAI(class AAIController* OwnerContro
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ReceiveAbortAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -215,7 +215,7 @@ void UBTTask_MoveToDestination_C::ReceiveAbortAI(class AAIController* OwnerContr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ReceiveExecuteAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -238,7 +238,7 @@ void UBTTask_MoveToDestination_C::ReceiveExecuteAI(class AAIController* OwnerCon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BTTask_MoveToDestination.BTTask_MoveToDestination_C.ExecuteUbergraph_BTTask_MoveToDestination
 //		Flags  -> (Final)
 // Parameters:

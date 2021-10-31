@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -42,7 +42,7 @@ public:
 	bool                                               AllowsVoteKick;                                            // 0x0830(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	bool                                               UsesCompetitiveRank;                                       // 0x0831(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
 	TEnumAsByte<E_ScoreboardEntryTypes_E_ScoreboardEntryTypes> Scoreboard_Entry_Type;                                     // 0x0832(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_X9TO[0x5];                                     // 0x0833(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_ACAA[0x5];                                     // 0x0833(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TMap<struct FString, float>                        LastVoteKickRequestTime;                                   // 0x0838(0x0050) (Edit, BlueprintVisible, DisableEditOnInstance)
 
 

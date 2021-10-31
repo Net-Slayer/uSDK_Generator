@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.Get_Lock_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_ColorPickerElement_C::Get_Lock_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.Get_ImageButton_ToolTipText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ struct FText UBP_ColorPickerElement_C::Get_ImageButton_ToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.IsSelectedElement
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_ColorPickerElement_C::IsSelectedElement(bool* Value)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.SetData
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_ColorPickerElement_C::SetData(int Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.SetColor
 //		Flags  -> (Private, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_ColorPickerElement_C::SetColor(const struct FLinearColor& Color)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ColorPickerElement_C::Construct()
@@ -146,7 +146,7 @@ void UBP_ColorPickerElement_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.OnMouseEnter
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -169,7 +169,7 @@ void UBP_ColorPickerElement_C::OnMouseEnter(const struct FGeometry& MyGeometry, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.OnMouseLeave
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -190,7 +190,7 @@ void UBP_ColorPickerElement_C::OnMouseLeave(const struct FPointerEvent& MouseEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.BndEvt__ImageButton_K2Node_ComponentBoundEvent_9595_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ColorPickerElement_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_9595_OnButtonClickedEvent__DelegateSignature()
@@ -208,7 +208,7 @@ void UBP_ColorPickerElement_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_95
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.BndEvt__ImageButton_K2Node_ComponentBoundEvent_2238_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ColorPickerElement_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_2238_OnButtonHoverEvent__DelegateSignature()
@@ -226,7 +226,7 @@ void UBP_ColorPickerElement_C::BndEvt__ImageButton_K2Node_ComponentBoundEvent_22
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ColorPickerElement.BP_ColorPickerElement_C.ExecuteUbergraph_BP_ColorPickerElement
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

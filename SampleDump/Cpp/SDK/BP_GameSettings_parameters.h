@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -290,8 +290,8 @@ struct UBP_GameSettings_C_ApplyTracersStayTime_Params
 {
 };
 
-// Function BP_GameSettings.BP_GameSettings_C.UpdateTracersStayTimeSlider
-struct UBP_GameSettings_C_UpdateTracersStayTimeSlider_Params
+// Function BP_GameSettings.BP_GameSettings_C.Update Tracers Stay Time Slider
+struct UBP_GameSettings_C_Update_Tracers_Stay_Time_Slider_Params
 {
 };
 

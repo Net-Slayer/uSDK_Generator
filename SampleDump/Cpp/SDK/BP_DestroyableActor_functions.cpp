@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,64 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnPlayedParticle
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+//		class UParticleSystemComponent*                    ParticleSystem                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+void ABP_DestroyableActor_C::OnPlayedParticle(class UParticleSystemComponent* ParticleSystem)
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_DestroyableActor.BP_DestroyableActor_C.OnPlayedParticle");
+
+	ABP_DestroyableActor_C_OnPlayedParticle_Params params;
+	params.ParticleSystem = ParticleSystem;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnMeshChanged
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+void ABP_DestroyableActor_C::OnMeshChanged()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_DestroyableActor.BP_DestroyableActor_C.OnMeshChanged");
+
+	ABP_DestroyableActor_C_OnMeshChanged_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
+//		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnStoppedRegenerating
+//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+void ABP_DestroyableActor_C::OnStoppedRegenerating()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function BP_DestroyableActor.BP_DestroyableActor_C.OnStoppedRegenerating");
+
+	ABP_DestroyableActor_C_OnStoppedRegenerating_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.DetachAttachedProjectiles
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +95,7 @@ void ABP_DestroyableActor_C::DetachAttachedProjectiles()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnRep_Regenerating
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -57,7 +114,7 @@ void ABP_DestroyableActor_C::OnRep_Regenerating()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnReplicatedHealthChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableActor_C::OnReplicatedHealthChanged()
@@ -75,7 +132,7 @@ void ABP_DestroyableActor_C::OnReplicatedHealthChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.StopRegenerating
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableActor_C::StopRegenerating()
@@ -93,7 +150,7 @@ void ABP_DestroyableActor_C::StopRegenerating()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.PlayParticle
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -112,7 +169,7 @@ void ABP_DestroyableActor_C::PlayParticle()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.SetHealth
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -135,7 +192,7 @@ void ABP_DestroyableActor_C::SetHealth(float NewHealth, class AController* Insti
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.OnRep_ReplicatedHealth
 //		Flags  -> (HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -154,7 +211,7 @@ void ABP_DestroyableActor_C::OnRep_ReplicatedHealth()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.UpdateReplicatedHealth
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -173,7 +230,7 @@ void ABP_DestroyableActor_C::UpdateReplicatedHealth()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -192,7 +249,7 @@ void ABP_DestroyableActor_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -219,7 +276,7 @@ void ABP_DestroyableActor_C::ReceiveAnyDamage(float Damage, class UDamageType* D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_DestroyableActor_C::ReceiveBeginPlay()
@@ -237,7 +294,7 @@ void ABP_DestroyableActor_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.RegenTickEvent
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableActor_C::RegenTickEvent()
@@ -255,7 +312,7 @@ void ABP_DestroyableActor_C::RegenTickEvent()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.StartRegenerating
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableActor_C::StartRegenerating()
@@ -273,7 +330,7 @@ void ABP_DestroyableActor_C::StartRegenerating()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.DetachAfterShortDelay
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_DestroyableActor_C::DetachAfterShortDelay()
@@ -291,7 +348,7 @@ void ABP_DestroyableActor_C::DetachAfterShortDelay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DestroyableActor.BP_DestroyableActor_C.ExecuteUbergraph_BP_DestroyableActor
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

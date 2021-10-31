@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,12 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function BP_Instrument.BP_Instrument_C.CanPlay
+struct ABP_Instrument_C_CanPlay_Params
+{
+	bool                                               Return;                                                    // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
+};
 
 // Function BP_Instrument.BP_Instrument_C.ServerSetToneAndPlay
 struct ABP_Instrument_C_ServerSetToneAndPlay_Params

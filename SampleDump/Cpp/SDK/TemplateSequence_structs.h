@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -25,7 +25,7 @@ struct FTemplateSequenceBindingOverrideData
 {
 	TWeakObjectPtr<class UObject>                      Object;                                                    // 0x0000(0x0008) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bOverridesDefault;                                         // 0x0008(0x0001) (Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8YTB[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_XUYH[0x3];                                     // 0x0009(0x0003) MISSED OFFSET (PADDING)
 
 };
 
@@ -34,7 +34,7 @@ struct FTemplateSequenceBindingOverrideData
 struct FTemplateSequenceInstanceData : public FMovieSceneSequenceInstanceData
 {
 	struct FMovieSceneEvaluationOperand                Operand;                                                   // 0x0008(0x0014) (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_N3HN[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_MPFD[0x4];                                     // 0x001C(0x0004) MISSED OFFSET (PADDING)
 
 };
 

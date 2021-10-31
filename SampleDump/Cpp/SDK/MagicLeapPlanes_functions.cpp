@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D201B0
+//		Offset -> 0x00D29A80
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesComponent.RequestPlanesAsync
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42,7 +42,7 @@ bool UMagicLeapPlanesComponent::RequestPlanesAsync()
 
 
 // Function:
-//		Offset -> 0x00D20030
+//		Offset -> 0x00D29900
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.ReorderPlaneFlags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -70,7 +70,7 @@ void UMagicLeapPlanesFunctionLibrary::STATIC_ReorderPlaneFlags(TArray<MagicLeapP
 
 
 // Function:
-//		Offset -> 0x00D1FFA0
+//		Offset -> 0x00D29870
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.RemovePersistentQuery
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -95,7 +95,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_RemovePersistentQuery(const struct 
 
 
 // Function:
-//		Offset -> 0x00D1FE20
+//		Offset -> 0x00D296F0
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.RemoveFlagsNotInQuery
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -123,7 +123,7 @@ void UMagicLeapPlanesFunctionLibrary::STATIC_RemoveFlagsNotInQuery(TArray<MagicL
 
 
 // Function:
-//		Offset -> 0x00D1FCC0
+//		Offset -> 0x00D29590
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.PlanesQueryBeginAsync
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -150,7 +150,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_PlanesQueryBeginAsync(const struct 
 
 
 // Function:
-//		Offset -> 0x00D1FB10
+//		Offset -> 0x00D293E0
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.PlanesPersistentQueryBeginAsync
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -179,7 +179,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_PlanesPersistentQueryBeginAsync(con
 
 
 // Function:
-//		Offset -> 0x00D1FAE0
+//		Offset -> 0x00D293B0
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.IsTrackerValid
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -202,7 +202,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_IsTrackerValid()
 
 
 // Function:
-//		Offset -> 0x00D1F990
+//		Offset -> 0x00D29260
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.GetContentScale
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -229,7 +229,7 @@ struct FTransform UMagicLeapPlanesFunctionLibrary::STATIC_GetContentScale(class 
 
 
 // Function:
-//		Offset -> 0x00D1F960
+//		Offset -> 0x00D29230
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.DestroyTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -252,7 +252,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_DestroyTracker()
 
 
 // Function:
-//		Offset -> 0x00D1F930
+//		Offset -> 0x00D29200
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.CreateTracker
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -275,7 +275,7 @@ bool UMagicLeapPlanesFunctionLibrary::STATIC_CreateTracker()
 
 
 // Function:
-//		Offset -> 0x00D1F8B0
+//		Offset -> 0x00D29180
 //		Name   -> Function MagicLeapPlanes.MagicLeapPlanesFunctionLibrary.AddPersistentQuery
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:

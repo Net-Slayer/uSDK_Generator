@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.IsChecked
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_CheckboxEntry_C::IsChecked(bool* Value)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.SetIsChecked
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_CheckboxEntry_C::SetIsChecked(bool Value)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.GetCheckedState
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -86,7 +86,7 @@ void UBP_CheckboxEntry_C::GetCheckedState(SlateCore_ECheckBoxState* Value)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.SetCheckedState
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ void UBP_CheckboxEntry_C::SetCheckedState(SlateCore_ECheckBoxState Value)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.BndEvt__EntryCheckbox_K2Node_ComponentBoundEvent_31_OnCheckBoxComponentStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -128,7 +128,7 @@ void UBP_CheckboxEntry_C::BndEvt__EntryCheckbox_K2Node_ComponentBoundEvent_31_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.BndEvt__Button_10_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_CheckboxEntry_C::BndEvt__Button_10_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature()
@@ -146,7 +146,7 @@ void UBP_CheckboxEntry_C::BndEvt__Button_10_K2Node_ComponentBoundEvent_20_OnButt
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.BndEvt__Button_10_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_CheckboxEntry_C::BndEvt__Button_10_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
@@ -164,7 +164,7 @@ void UBP_CheckboxEntry_C::BndEvt__Button_10_K2Node_ComponentBoundEvent_1_OnButto
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_CheckboxEntry_C::Construct()
@@ -182,7 +182,7 @@ void UBP_CheckboxEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.ExecuteUbergraph_BP_CheckboxEntry
 //		Flags  -> (Final)
 // Parameters:
@@ -203,7 +203,7 @@ void UBP_CheckboxEntry_C::ExecuteUbergraph_BP_CheckboxEntry(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.OnHovered__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CheckboxEntry_C::OnHovered__DelegateSignature()
@@ -221,7 +221,7 @@ void UBP_CheckboxEntry_C::OnHovered__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CheckboxEntry.BP_CheckboxEntry_C.OnCheckStateChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

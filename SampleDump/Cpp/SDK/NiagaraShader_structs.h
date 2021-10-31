@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -37,7 +37,7 @@ enum class NiagaraShader_EFNiagaraCompileEventSeverity : uint8_t
 // 0x0028
 struct FNiagaraDataInterfaceGeneratedFunction
 {
-	unsigned char                                      UnknownData_U3LU[0x28];                                    // 0x0000(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_5VZ4[0x28];                                    // 0x0000(0x0028) MISSED OFFSET (PADDING)
 
 };
 
@@ -56,7 +56,7 @@ struct FNiagaraDataInterfaceGPUParamInfo
 struct FNiagaraCompileEvent
 {
 	NiagaraShader_EFNiagaraCompileEventSeverity        Severity;                                                  // 0x0000(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_KJMP[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_RKBI[0x7];                                     // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     Message;                                                   // 0x0008(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FGuid                                       NodeGuid;                                                  // 0x0018(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FGuid                                       PinGuid;                                                   // 0x0028(0x0010) (ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)

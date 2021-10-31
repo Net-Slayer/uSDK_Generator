@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.OnKeyDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -45,7 +45,7 @@ struct FEventReply UBP_ProfileSelect_C::OnKeyDown(const struct FGeometry& MyGeom
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_ProfileSelect_C::Hide()
@@ -63,7 +63,7 @@ void UBP_ProfileSelect_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.Get_ConfirmButton_bIsEnabled_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ bool UBP_ProfileSelect_C::Get_ConfirmButton_bIsEnabled_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -104,7 +104,7 @@ void UBP_ProfileSelect_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.PopulateCharacterProfiles
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -123,7 +123,7 @@ void UBP_ProfileSelect_C::PopulateCharacterProfiles()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.ProfileButtonClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -144,7 +144,7 @@ void UBP_ProfileSelect_C::ProfileButtonClicked(int ProfileId)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.BndEvt__ConfirmButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileSelect_C::BndEvt__ConfirmButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -162,7 +162,7 @@ void UBP_ProfileSelect_C::BndEvt__ConfirmButton_K2Node_ComponentBoundEvent_0_OnB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_ProfileSelect_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
@@ -180,7 +180,7 @@ void UBP_ProfileSelect_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_3_OnButton
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProfileSelect.BP_ProfileSelect_C.ExecuteUbergraph_BP_ProfileSelect
 //		Flags  -> (Final)
 // Parameters:

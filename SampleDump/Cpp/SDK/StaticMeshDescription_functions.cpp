@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02540750
+//		Offset -> 0x0254BAF0
 //		Name   -> Function StaticMeshDescription.StaticMeshDescription.SetVertexInstanceUV
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -45,7 +45,7 @@ void UStaticMeshDescription::SetVertexInstanceUV(const struct FVertexInstanceID&
 
 
 // Function:
-//		Offset -> 0x02540670
+//		Offset -> 0x0254BA10
 //		Name   -> Function StaticMeshDescription.StaticMeshDescription.SetPolygonGroupMaterialSlotName
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ void UStaticMeshDescription::SetPolygonGroupMaterialSlotName(const struct FPolyg
 
 
 // Function:
-//		Offset -> 0x025405A0
+//		Offset -> 0x0254B940
 //		Name   -> Function StaticMeshDescription.StaticMeshDescription.GetVertexInstanceUV
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -96,7 +96,7 @@ struct FVector2D UStaticMeshDescription::GetVertexInstanceUV(const struct FVerte
 
 
 // Function:
-//		Offset -> 0x02540270
+//		Offset -> 0x0254B610
 //		Name   -> Function StaticMeshDescription.StaticMeshDescription.CreateCube
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:

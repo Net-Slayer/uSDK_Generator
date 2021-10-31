@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00CFB960
+//		Offset -> 0x00D05190
 //		Name   -> Function MagicLeap.InAppPurchaseComponent.TryPurchaseItemAsync
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ bool UInAppPurchaseComponent::TryPurchaseItemAsync(const struct FPurchaseItemDet
 
 
 // Function:
-//		Offset -> 0x00CFB8D0
+//		Offset -> 0x00D05100
 //		Name   -> Function MagicLeap.InAppPurchaseComponent.TryGetPurchaseHistoryAsync
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ bool UInAppPurchaseComponent::TryGetPurchaseHistoryAsync(int InNumPages)
 
 
 // Function:
-//		Offset -> 0x00CFB7F0
+//		Offset -> 0x00D05020
 //		Name   -> Function MagicLeap.InAppPurchaseComponent.TryGetItemsDetailsAsync
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -94,7 +94,7 @@ bool UInAppPurchaseComponent::TryGetItemsDetailsAsync(TArray<struct FString> Ite
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.PurchaseConfirmationSuccess__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -115,7 +115,7 @@ void UInAppPurchaseComponent::PurchaseConfirmationSuccess__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.PurchaseConfirmationFailure__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UInAppPurchaseComponent::PurchaseConfirmationFailure__DelegateSignature()
@@ -133,7 +133,7 @@ void UInAppPurchaseComponent::PurchaseConfirmationFailure__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.InAppPurchaseLogMessage__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -154,7 +154,7 @@ void UInAppPurchaseComponent::InAppPurchaseLogMessage__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.GetPurchaseHistorySuccess__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -175,7 +175,7 @@ void UInAppPurchaseComponent::GetPurchaseHistorySuccess__DelegateSignature(TArra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.GetPurchaseHistoryFailure__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UInAppPurchaseComponent::GetPurchaseHistoryFailure__DelegateSignature()
@@ -193,7 +193,7 @@ void UInAppPurchaseComponent::GetPurchaseHistoryFailure__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.GetItemsDetailsSuccess__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -214,7 +214,7 @@ void UInAppPurchaseComponent::GetItemsDetailsSuccess__DelegateSignature(TArray<s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.InAppPurchaseComponent.GetItemsDetailsFailure__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 void UInAppPurchaseComponent::GetItemsDetailsFailure__DelegateSignature()
@@ -232,7 +232,7 @@ void UInAppPurchaseComponent::GetItemsDetailsFailure__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x00CFB730
+//		Offset -> 0x00D04F60
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetStabilizationDepthActor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -256,7 +256,7 @@ void UMagicLeapHMDFunctionLibrary::STATIC_SetStabilizationDepthActor(class AActo
 
 
 // Function:
-//		Offset -> 0x00CFB670
+//		Offset -> 0x00D04EA0
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetFocusActor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -280,7 +280,7 @@ void UMagicLeapHMDFunctionLibrary::STATIC_SetFocusActor(class AActor* InFocusAct
 
 
 // Function:
-//		Offset -> 0x00CFB5F0
+//		Offset -> 0x00D04E20
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetBaseRotation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -302,7 +302,7 @@ void UMagicLeapHMDFunctionLibrary::STATIC_SetBaseRotation(const struct FRotator&
 
 
 // Function:
-//		Offset -> 0x00CFB5F0
+//		Offset -> 0x00D04E20
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetBasePosition
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -324,7 +324,7 @@ void UMagicLeapHMDFunctionLibrary::STATIC_SetBasePosition(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x00CFB5F0
+//		Offset -> 0x00D04E20
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetBaseOrientation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -346,7 +346,7 @@ void UMagicLeapHMDFunctionLibrary::STATIC_SetBaseOrientation(const struct FQuat&
 
 
 // Function:
-//		Offset -> 0x00CFB5C0
+//		Offset -> 0x00D04DF0
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.SetAppReady
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -369,7 +369,7 @@ bool UMagicLeapHMDFunctionLibrary::STATIC_SetAppReady()
 
 
 // Function:
-//		Offset -> 0x00CFAF80
+//		Offset -> 0x00D047B0
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.IsRunningOnMagicLeapHMD
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -392,7 +392,7 @@ bool UMagicLeapHMDFunctionLibrary::STATIC_IsRunningOnMagicLeapHMD()
 
 
 // Function:
-//		Offset -> 0x00CFAEF0
+//		Offset -> 0x00D04720
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetPlatformAPILevel
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -415,7 +415,7 @@ int UMagicLeapHMDFunctionLibrary::STATIC_GetPlatformAPILevel()
 
 
 // Function:
-//		Offset -> 0x00CFAEF0
+//		Offset -> 0x00D04720
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetMLSDKVersionRevision
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -438,7 +438,7 @@ int UMagicLeapHMDFunctionLibrary::STATIC_GetMLSDKVersionRevision()
 
 
 // Function:
-//		Offset -> 0x00CFAEF0
+//		Offset -> 0x00D04720
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetMLSDKVersionMinor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -461,7 +461,7 @@ int UMagicLeapHMDFunctionLibrary::STATIC_GetMLSDKVersionMinor()
 
 
 // Function:
-//		Offset -> 0x00CFAEF0
+//		Offset -> 0x00D04720
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetMLSDKVersionMajor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -484,7 +484,7 @@ int UMagicLeapHMDFunctionLibrary::STATIC_GetMLSDKVersionMajor()
 
 
 // Function:
-//		Offset -> 0x00CFAE70
+//		Offset -> 0x00D046A0
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetMLSDKVersion
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -507,7 +507,7 @@ struct FString UMagicLeapHMDFunctionLibrary::STATIC_GetMLSDKVersion()
 
 
 // Function:
-//		Offset -> 0x00CFAF20
+//		Offset -> 0x00D04750
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetMinimumAPILevel
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -530,7 +530,7 @@ int UMagicLeapHMDFunctionLibrary::STATIC_GetMinimumAPILevel()
 
 
 // Function:
-//		Offset -> 0x00CFADE0
+//		Offset -> 0x00D04610
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetHeadTrackingState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -557,7 +557,7 @@ bool UMagicLeapHMDFunctionLibrary::STATIC_GetHeadTrackingState(struct FMagicLeap
 
 
 // Function:
-//		Offset -> 0x00CFAC50
+//		Offset -> 0x00D04480
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetHeadTrackingMapEvents
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -580,7 +580,7 @@ bool UMagicLeapHMDFunctionLibrary::STATIC_GetHeadTrackingMapEvents()
 
 
 // Function:
-//		Offset -> 0x00CFABA0
+//		Offset -> 0x00D043D0
 //		Name   -> Function MagicLeap.MagicLeapHMDFunctionLibrary.GetGraphicsClientPerformanceInfo
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -607,7 +607,7 @@ bool UMagicLeapHMDFunctionLibrary::STATIC_GetGraphicsClientPerformanceInfo(struc
 
 
 // Function:
-//		Offset -> 0x00CFB4A0
+//		Offset -> 0x00D04CD0
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.SelectMeshBlocks
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -633,7 +633,7 @@ void UMagicLeapMeshTrackerComponent::SelectMeshBlocks(const struct FMagicLeapTra
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.MagicLeapMeshTrackerComponent.OnMeshTrackerUpdated__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms, HasDefaults)
 // Parameters:
@@ -662,7 +662,7 @@ void UMagicLeapMeshTrackerComponent::OnMeshTrackerUpdated__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x00CFAF50
+//		Offset -> 0x00D04780
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.GetNumQueuedBlockUpdates
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -685,7 +685,7 @@ int UMagicLeapMeshTrackerComponent::GetNumQueuedBlockUpdates()
 
 
 // Function:
-//		Offset -> 0x00CFAB20
+//		Offset -> 0x00D04350
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.DisconnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -707,7 +707,7 @@ void UMagicLeapMeshTrackerComponent::DisconnectMRMesh(class UMRMeshComponent* In
 
 
 // Function:
-//		Offset -> 0x00CFAB00
+//		Offset -> 0x00D04330
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.DisconnectBlockSelector
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMagicLeapMeshTrackerComponent::DisconnectBlockSelector()
@@ -726,7 +726,7 @@ void UMagicLeapMeshTrackerComponent::DisconnectBlockSelector()
 
 
 // Function:
-//		Offset -> 0x00CFAA80
+//		Offset -> 0x00D042B0
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.ConnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -748,7 +748,7 @@ void UMagicLeapMeshTrackerComponent::ConnectMRMesh(class UMRMeshComponent* InMRM
 
 
 // Function:
-//		Offset -> 0x00CFA9E0
+//		Offset -> 0x00D04210
 //		Name   -> Function MagicLeap.MagicLeapMeshTrackerComponent.ConnectBlockSelector
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMagicLeapMeshTrackerComponent::ConnectBlockSelector()
@@ -767,7 +767,7 @@ void UMagicLeapMeshTrackerComponent::ConnectBlockSelector()
 
 
 // Function:
-//		Offset -> 0x00CFB380
+//		Offset -> 0x00D04BB0
 //		Name   -> Function MagicLeap.MagicLeapMeshBlockSelectorInterface.SelectMeshBlocks
 //		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -793,7 +793,7 @@ void UMagicLeapMeshBlockSelectorInterface::SelectMeshBlocks(const struct FMagicL
 
 
 // Function:
-//		Offset -> 0x00CFB230
+//		Offset -> 0x00D04A60
 //		Name   -> Function MagicLeap.MagicLeapRaycastComponent.RequestRaycast
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -820,7 +820,7 @@ bool UMagicLeapRaycastComponent::RequestRaycast(const struct FMagicLeapRaycastQu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction MagicLeap.MagicLeapRaycastComponent.RaycastResultDelegate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -841,7 +841,7 @@ void UMagicLeapRaycastComponent::RaycastResultDelegate__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x00CFAFB0
+//		Offset -> 0x00D047E0
 //		Name   -> Function MagicLeap.MagicLeapRaycastFunctionLibrary.MakeRaycastQueryParams
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:

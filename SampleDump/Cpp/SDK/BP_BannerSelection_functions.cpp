@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.UpdatePreviewWidget
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_BannerSelection_C::UpdatePreviewWidget(int Banner_ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.Clear
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_BannerSelection_C::Clear()
@@ -58,7 +58,7 @@ void UBP_BannerSelection_C::Clear()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.Populate Grid
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -77,7 +77,7 @@ void UBP_BannerSelection_C::Populate_Grid()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_BannerSelection_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -95,7 +95,7 @@ void UBP_BannerSelection_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.CloseMenu
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_BannerSelection_C::CloseMenu()
@@ -113,7 +113,7 @@ void UBP_BannerSelection_C::CloseMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.Update
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_BannerSelection_C::Update()
@@ -131,7 +131,7 @@ void UBP_BannerSelection_C::Update()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -154,7 +154,7 @@ void UBP_BannerSelection_C::Tick(const struct FGeometry& MyGeometry, float InDel
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BannerSelection.BP_BannerSelection_C.ExecuteUbergraph_BP_BannerSelection
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

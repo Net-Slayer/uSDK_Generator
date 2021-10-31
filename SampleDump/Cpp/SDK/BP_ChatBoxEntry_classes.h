@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -38,13 +38,13 @@ public:
 	struct FLinearColor                                Username_Color;                                            // 0x0298(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FText                                       Prefix;                                                    // 0x02A8(0x0018) (Edit, BlueprintVisible)
 	bool                                               HidePrefixAndName;                                         // 0x02C0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_2QW0[0x7];                                     // 0x02C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_1SDB[0x7];                                     // 0x02C1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	class UBP_ChatBox_C*                               Chat_Box_Ref;                                              // 0x02C8(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class UBP_TextInputDialog_C*                       LastTextInputDialog;                                       // 0x02D0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FPlayFabPlayer                              Player;                                                    // 0x02D8(0x0060) (Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash)
 	TMap<struct FString, struct FText>                 OptionMap;                                                 // 0x0338(0x0050) (Edit, BlueprintVisible, DisableEditOnInstance)
 	TEnumAsByte<E_ChatUserTypes_E_ChatUserTypes>       Chat_User_Type;                                            // 0x0388(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	unsigned char                                      UnknownData_3R9B[0x7];                                     // 0x0389(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_QAUK[0x7];                                     // 0x0389(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FText                                       BanDuration;                                               // 0x0390(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 
 

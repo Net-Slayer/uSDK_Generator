@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -19,16 +19,16 @@ namespace CG
 // Parameters
 //---------------------------------------------------------------------------
 
-// Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride
-struct ABP_AmmoBox_C_UpdateWidgetVisibilityOverride_Params
-{
-};
-
 // Function BP_AmmoBox.BP_AmmoBox_C.CanInteract
 struct ABP_AmmoBox_C_CanInteract_Params
 {
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor)
+};
+
+// Function BP_AmmoBox.BP_AmmoBox_C.UpdateWidgetVisibilityOverride
+struct ABP_AmmoBox_C_UpdateWidgetVisibilityOverride_Params
+{
 };
 
 // Function BP_AmmoBox.BP_AmmoBox_C.Restock

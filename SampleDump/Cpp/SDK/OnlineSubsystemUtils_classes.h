@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -45,7 +45,7 @@ class UAchievementQueryCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_G8LA[0x18];                                    // 0x0050(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_LP9E[0x18];                                    // 0x0050(0x0018) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -67,7 +67,7 @@ class UAchievementWriteCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_R13B[0x30];                                    // 0x0050(0x0030) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_0WXJ[0x30];                                    // 0x0050(0x0030) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -88,7 +88,7 @@ class UConnectionCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_4VA6[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_MBL1[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -109,7 +109,7 @@ class UCreateSessionCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_CJ66[0x48];                                    // 0x0050(0x0048) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_TU5L[0x48];                                    // 0x0050(0x0048) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -130,7 +130,7 @@ class UDestroySessionCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9QX3[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_WX6Q[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -151,7 +151,7 @@ class UEndMatchCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_CKJT[0x30];                                    // 0x0050(0x0030) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_4HV8[0x30];                                    // 0x0050(0x0030) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -172,7 +172,7 @@ class UEndTurnCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_TH5K[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_41JM[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -193,7 +193,7 @@ class UFindSessionsCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_DJ2J[0x40];                                    // 0x0050(0x0040) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_CW4W[0x40];                                    // 0x0050(0x0040) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -218,7 +218,7 @@ class UFindTurnBasedMatchCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E1SQ[0x38];                                    // 0x0050(0x0038) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_9X3F[0x38];                                    // 0x0050(0x0038) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -239,7 +239,7 @@ class UInAppPurchaseCallbackProxy : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8S0L[0x38];                                    // 0x0048(0x0038) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_QK3Q[0x38];                                    // 0x0048(0x0038) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -260,7 +260,7 @@ class UInAppPurchaseCallbackProxy2 : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_FEHD[0x60];                                    // 0x0048(0x0060) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ICV6[0x60];                                    // 0x0048(0x0060) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -283,7 +283,7 @@ class UInAppPurchaseQueryCallbackProxy : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_V04X[0x48];                                    // 0x0048(0x0048) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_YLLH[0x48];                                    // 0x0048(0x0048) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -304,7 +304,7 @@ class UInAppPurchaseQueryCallbackProxy2 : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_EF41[0x20];                                    // 0x0048(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EZIJ[0x20];                                    // 0x0048(0x0020) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -325,7 +325,7 @@ class UInAppPurchaseRestoreCallbackProxy : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_STWE[0x48];                                    // 0x0048(0x0048) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_PWV9[0x48];                                    // 0x0048(0x0048) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -346,7 +346,7 @@ class UInAppPurchaseRestoreCallbackProxy2 : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_UV9X[0x60];                                    // 0x0048(0x0060) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_L3GY[0x60];                                    // 0x0048(0x0060) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -365,9 +365,9 @@ public:
 class UIpConnection : public UNetConnection
 {
 public:
-	unsigned char                                      UnknownData_1GFF[0x50];                                    // 0x1A30(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_WF0Q[0x50];                                    // 0x1A30(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              SocketErrorDisconnectDelay;                                // 0x1A80(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_FFZA[0x4C];                                    // 0x1A84(0x004C) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EULV[0x4C];                                    // 0x1A84(0x004C) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -387,18 +387,18 @@ class UIpNetDriver : public UNetDriver
 public:
 	unsigned char                                      LogPortUnreach : 1;                                        // 0x0750(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      AllowPlayerPortUnreach : 1;                                // 0x0750(0x0001) BIT_FIELD (Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0I1Y[0x3];                                     // 0x0751(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_E9OB[0x3];                                     // 0x0751(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	uint32_t                                           MaxPortCountToTry;                                         // 0x0754(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_8L5A[0xC];                                     // 0x0758(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_BL1G[0xC];                                     // 0x0758(0x000C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	uint32_t                                           ServerDesiredSocketReceiveBufferBytes;                     // 0x0764(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	uint32_t                                           ServerDesiredSocketSendBufferBytes;                        // 0x0768(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	uint32_t                                           ClientDesiredSocketReceiveBufferBytes;                     // 0x076C(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	uint32_t                                           ClientDesiredSocketSendBufferBytes;                        // 0x0770(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_TG8D[0x4];                                     // 0x0774(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_YKN1[0x4];                                     // 0x0774(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	double                                             MaxSecondsInReceive;                                       // 0x0778(0x0008) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	int                                                NbPacketsBetweenReceiveTimeTest;                           // 0x0780(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	float                                              ResolutionConnectionTimeout;                               // 0x0784(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_OA0C[0x38];                                    // 0x0788(0x0038) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_OBTC[0x38];                                    // 0x0788(0x0038) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -418,7 +418,7 @@ class UJoinSessionCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_E11G[0x130];                                   // 0x0050(0x0130) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_X877[0x130];                                   // 0x0050(0x0130) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -457,7 +457,7 @@ class ULeaderboardFlushCallbackProxy : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3FPH[0x20];                                    // 0x0048(0x0020) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EU43[0x20];                                    // 0x0048(0x0020) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -478,7 +478,7 @@ class ULeaderboardQueryCallbackProxy : public UObject
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0028(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0038(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_GZ7C[0x50];                                    // 0x0048(0x0050) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_M0T7[0x50];                                    // 0x0048(0x0050) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -499,7 +499,7 @@ class ULogoutCallbackProxy : public UBlueprintAsyncActionBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_3B7D[0x18];                                    // 0x0050(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_ZCS8[0x18];                                    // 0x0050(0x0018) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -518,11 +518,11 @@ public:
 class AOnlineBeacon : public AActor
 {
 public:
-	unsigned char                                      UnknownData_T5JL[0x8];                                     // 0x0220(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_VU4U[0x8];                                     // 0x0220(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              BeaconConnectionInitialTimeout;                            // 0x0228(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	float                                              BeaconConnectionTimeout;                                   // 0x022C(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UNetDriver*                                  NetDriver;                                                 // 0x0230(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_E54F[0x18];                                    // 0x0238(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EVRK[0x18];                                    // 0x0238(0x0018) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -543,7 +543,7 @@ public:
 	class AOnlineBeaconHostObject*                     BeaconOwner;                                               // 0x0250(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	class UNetConnection*                              BeaconConnection;                                          // 0x0258(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	OnlineSubsystemUtils_EBeaconConnectionState        ConnectionState;                                           // 0x0260(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_TUNV[0x4F];                                    // 0x0261(0x004F) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_EP1I[0x4F];                                    // 0x0261(0x004F) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -563,9 +563,9 @@ class AOnlineBeaconHost : public AOnlineBeacon
 {
 public:
 	int                                                ListenPort;                                                // 0x0250(0x0004) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_0UNC[0x4];                                     // 0x0254(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_PWBL[0x4];                                     // 0x0254(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<class AOnlineBeaconClient*>                 ClientActors;                                              // 0x0258(0x0010) (ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_14DU[0xA0];                                    // 0x0268(0x00A0) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_6V2P[0xA0];                                    // 0x0268(0x00A0) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -606,7 +606,7 @@ public:
 	TMap<struct FName, struct FName>                   MappedUniqueNetIdTypes;                                    // 0x0028(0x0050) (Config, NativeAccessSpecifierPrivate)
 	TArray<struct FName>                               CompatibleUniqueNetIdTypes;                                // 0x0078(0x0010) (ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 	struct FName                                       VoiceSubsystemNameOverride;                                // 0x0088(0x0008) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData_X0LU[0xF8];                                    // 0x0090(0x00F8) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_SA7P[0xF8];                                    // 0x0090(0x00F8) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -625,7 +625,7 @@ class UOnlinePIESettings : public UDeveloperSettings
 {
 public:
 	bool                                               bOnlinePIEEnabled;                                         // 0x0038(0x0001) (Edit, ZeroConstructor, Config, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9B95[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_Y344[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FPIELoginSettingsInternal>           Logins;                                                    // 0x0040(0x0010) (Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 
@@ -644,10 +644,10 @@ public:
 class UOnlineSessionClient : public UOnlineSession
 {
 public:
-	unsigned char                                      UnknownData_FV1U[0x1B0];                                   // 0x0028(0x01B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_2PY7[0x1B0];                                   // 0x0028(0x01B0) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	bool                                               bIsFromInvite;                                             // 0x01D8(0x0001) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bHandlingDisconnect;                                       // 0x01D9(0x0001) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_V27W[0x6];                                     // 0x01DA(0x0006) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_JW17[0x6];                                     // 0x01DA(0x0006) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -665,13 +665,13 @@ public:
 class APartyBeaconClient : public AOnlineBeaconClient
 {
 public:
-	unsigned char                                      UnknownData_EMV4[0x30];                                    // 0x02B0(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_XDDN[0x30];                                    // 0x02B0(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     DestSessionId;                                             // 0x02E0(0x0010) (ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FPartyReservation                           PendingReservation;                                        // 0x02F0(0x0050) (Protected, NativeAccessSpecifierProtected)
 	OnlineSubsystemUtils_EClientRequestType            RequestType;                                               // 0x0340(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bPendingReservationSent;                                   // 0x0341(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bCancelReservation;                                        // 0x0342(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_SWNA[0x2D];                                    // 0x0343(0x002D) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_RC02[0x2D];                                    // 0x0343(0x002D) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -698,12 +698,12 @@ class APartyBeaconHost : public AOnlineBeaconHostObject
 {
 public:
 	class UPartyBeaconState*                           State;                                                     // 0x0248(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_6Y9K[0x60];                                    // 0x0250(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_6Z08[0x60];                                    // 0x0250(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	bool                                               bLogoutOnSessionTimeout;                                   // 0x02B0(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_O3DW[0x3];                                     // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_B4OZ[0x3];                                     // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              SessionTimeoutSecs;                                        // 0x02B4(0x0004) (ZeroConstructor, Transient, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	float                                              TravelSessionTimeoutSecs;                                  // 0x02B8(0x0004) (ZeroConstructor, Transient, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_0YMN[0x4];                                     // 0x02BC(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_A9C2[0x4];                                     // 0x02BC(0x0004) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -731,9 +731,9 @@ public:
 	int                                                ForceTeamNum;                                              // 0x004C(0x0004) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bRestrictCrossConsole;                                     // 0x0050(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bEnableRemovalRequests;                                    // 0x0051(0x0001) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_4H6C[0x6];                                     // 0x0052(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_93LC[0x6];                                     // 0x0052(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FPartyReservation>                   Reservations;                                              // 0x0058(0x0010) (ZeroConstructor, Transient, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_IKOW[0x10];                                    // 0x0068(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_MBCM[0x10];                                    // 0x0068(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -753,7 +753,7 @@ class UQuitMatchCallbackProxy : public UOnlineBlueprintCallProxyBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_9FSX[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_6CON[0x28];                                    // 0x0050(0x0028) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -774,7 +774,7 @@ class UShowLoginUICallbackProxy : public UBlueprintAsyncActionBase
 public:
 	struct FScriptMulticastDelegate                    onSuccess;                                                 // 0x0030(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    onFailure;                                                 // 0x0040(0x0010) (ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData_YI3V[0x10];                                    // 0x0050(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_GOUM[0x10];                                    // 0x0050(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -793,13 +793,13 @@ public:
 class ASpectatorBeaconClient : public AOnlineBeaconClient
 {
 public:
-	unsigned char                                      UnknownData_QR3M[0x30];                                    // 0x02B0(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_Q99O[0x30];                                    // 0x02B0(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FString                                     DestSessionId;                                             // 0x02E0(0x0010) (ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	struct FSpectatorReservation                       PendingReservation;                                        // 0x02F0(0x0078) (Protected, NativeAccessSpecifierProtected)
 	OnlineSubsystemUtils_ESpectatorClientRequestType   RequestType;                                               // 0x0368(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bPendingReservationSent;                                   // 0x0369(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bCancelReservation;                                        // 0x036A(0x0001) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_NBMP[0x2D];                                    // 0x036B(0x002D) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_B2BF[0x2D];                                    // 0x036B(0x002D) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -824,12 +824,12 @@ class ASpectatorBeaconHost : public AOnlineBeaconHostObject
 {
 public:
 	class USpectatorBeaconState*                       State;                                                     // 0x0248(0x0008) (ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_SXXO[0x60];                                    // 0x0250(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_PVYV[0x60];                                    // 0x0250(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	bool                                               bLogoutOnSessionTimeout;                                   // 0x02B0(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_9GYG[0x3];                                     // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_7ZR4[0x3];                                     // 0x02B1(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	float                                              SessionTimeoutSecs;                                        // 0x02B4(0x0004) (ZeroConstructor, Transient, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	float                                              TravelSessionTimeoutSecs;                                  // 0x02B8(0x0004) (ZeroConstructor, Transient, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_WWZ0[0x4];                                     // 0x02BC(0x0004) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_IMXL[0x4];                                     // 0x02BC(0x0004) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -851,9 +851,9 @@ public:
 	int                                                NumConsumedReservations;                                   // 0x0030(0x0004) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	int                                                MaxReservations;                                           // 0x0034(0x0004) (ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
 	bool                                               bRestrictCrossConsole;                                     // 0x0038(0x0001) (ZeroConstructor, Config, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_913B[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_LZSZ[0x7];                                     // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	TArray<struct FSpectatorReservation>               Reservations;                                              // 0x0040(0x0010) (ZeroConstructor, Transient, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData_1F22[0x10];                                    // 0x0050(0x0010) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_NLZ6[0x10];                                    // 0x0050(0x0010) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()
@@ -928,7 +928,7 @@ public:
 class UVoipListenerSynthComponent : public USynthComponent
 {
 public:
-	unsigned char                                      UnknownData_VUSR[0x60];                                    // 0x06D0(0x0060) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_R9DZ[0x60];                                    // 0x06D0(0x0060) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.InitializeOptions
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void UBP_ScoreboardEntryParent_C::InitializeOptions(TMap<struct FString, struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.Refresh Entry
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -65,7 +65,7 @@ void UBP_ScoreboardEntryParent_C::Refresh_Entry(class AMordhauPlayerState* Playe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.MuteDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::MuteDialogEntered()
@@ -83,7 +83,7 @@ void UBP_ScoreboardEntryParent_C::MuteDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.MuteDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::MuteDialogCanceled()
@@ -101,7 +101,7 @@ void UBP_ScoreboardEntryParent_C::MuteDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.KickDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::KickDialogEntered()
@@ -119,7 +119,7 @@ void UBP_ScoreboardEntryParent_C::KickDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.KickDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::KickDialogCanceled()
@@ -137,7 +137,7 @@ void UBP_ScoreboardEntryParent_C::KickDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.BanDurationDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::BanDurationDialogEntered()
@@ -155,7 +155,7 @@ void UBP_ScoreboardEntryParent_C::BanDurationDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.BanDurationDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::BanDurationDialogCanceled()
@@ -173,7 +173,7 @@ void UBP_ScoreboardEntryParent_C::BanDurationDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.ADMIN - Mute
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::ADMIN___Mute()
@@ -191,7 +191,7 @@ void UBP_ScoreboardEntryParent_C::ADMIN___Mute()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.ADMIN - Kick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::ADMIN___Kick()
@@ -209,7 +209,7 @@ void UBP_ScoreboardEntryParent_C::ADMIN___Kick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.ADMIN - Ban
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::ADMIN___Ban()
@@ -227,7 +227,7 @@ void UBP_ScoreboardEntryParent_C::ADMIN___Ban()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.BanReasonDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::BanReasonDialogCanceled()
@@ -245,7 +245,7 @@ void UBP_ScoreboardEntryParent_C::BanReasonDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.BanReasonDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::BanReasonDialogEntered()
@@ -263,7 +263,7 @@ void UBP_ScoreboardEntryParent_C::BanReasonDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.Context Button Clicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -284,7 +284,7 @@ void UBP_ScoreboardEntryParent_C::Context_Button_Clicked(int Button_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.CallContextMenu
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::CallContextMenu()
@@ -302,7 +302,7 @@ void UBP_ScoreboardEntryParent_C::CallContextMenu()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.VoteKick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::VoteKick()
@@ -320,7 +320,7 @@ void UBP_ScoreboardEntryParent_C::VoteKick()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.Chat Mute
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::Chat_Mute()
@@ -338,7 +338,7 @@ void UBP_ScoreboardEntryParent_C::Chat_Mute()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.View Steam Profile
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::View_Steam_Profile()
@@ -356,7 +356,7 @@ void UBP_ScoreboardEntryParent_C::View_Steam_Profile()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::Construct()
@@ -374,7 +374,7 @@ void UBP_ScoreboardEntryParent_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.OptionSelected
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -395,7 +395,7 @@ void UBP_ScoreboardEntryParent_C::OptionSelected(const struct FString& Option)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.CreateWrapper
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -416,7 +416,7 @@ void UBP_ScoreboardEntryParent_C::CreateWrapper(TMap<struct FString, struct FTex
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.ADMIN - Message
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::ADMIN___Message()
@@ -434,7 +434,7 @@ void UBP_ScoreboardEntryParent_C::ADMIN___Message()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.MessageDialogEntered
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::MessageDialogEntered()
@@ -452,7 +452,7 @@ void UBP_ScoreboardEntryParent_C::MessageDialogEntered()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.MessageDialogCanceled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::MessageDialogCanceled()
@@ -470,7 +470,7 @@ void UBP_ScoreboardEntryParent_C::MessageDialogCanceled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.ExecuteUbergraph_BP_ScoreboardEntryParent
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -491,7 +491,7 @@ void UBP_ScoreboardEntryParent_C::ExecuteUbergraph_BP_ScoreboardEntryParent(int 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ScoreboardEntryParent.BP_ScoreboardEntryParent_C.Refreshed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_ScoreboardEntryParent_C::Refreshed__DelegateSignature()

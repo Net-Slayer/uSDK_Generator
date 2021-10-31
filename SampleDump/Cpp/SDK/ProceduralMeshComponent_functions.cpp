@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00B1CBE0
+//		Offset -> 0x00B20F10
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.SliceProceduralMesh
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -55,7 +55,7 @@ void UKismetProceduralMeshLibrary::STATIC_SliceProceduralMesh(class UProceduralM
 
 
 // Function:
-//		Offset -> 0x00B1C790
+//		Offset -> 0x00B20AC0
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.GetSectionFromStaticMesh
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -97,7 +97,7 @@ void UKismetProceduralMeshLibrary::STATIC_GetSectionFromStaticMesh(class UStatic
 
 
 // Function:
-//		Offset -> 0x00B1C4D0
+//		Offset -> 0x00B20800
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.GetSectionFromProceduralMesh
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -137,7 +137,7 @@ void UKismetProceduralMeshLibrary::STATIC_GetSectionFromProceduralMesh(class UPr
 
 
 // Function:
-//		Offset -> 0x00B1C200
+//		Offset -> 0x00B20530
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.GenerateBoxMesh
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -175,7 +175,7 @@ void UKismetProceduralMeshLibrary::STATIC_GenerateBoxMesh(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x00B1B7E0
+//		Offset -> 0x00B1FB10
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.CreateGridMeshWelded
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -211,7 +211,7 @@ void UKismetProceduralMeshLibrary::STATIC_CreateGridMeshWelded(int NumX, int Num
 
 
 // Function:
-//		Offset -> 0x00B1B680
+//		Offset -> 0x00B1F9B0
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.CreateGridMeshTriangles
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -241,7 +241,7 @@ void UKismetProceduralMeshLibrary::STATIC_CreateGridMeshTriangles(int NumX, int 
 
 
 // Function:
-//		Offset -> 0x00B1B3E0
+//		Offset -> 0x00B1F710
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.CreateGridMeshSplit
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -280,7 +280,7 @@ void UKismetProceduralMeshLibrary::STATIC_CreateGridMeshSplit(int NumX, int NumY
 
 
 // Function:
-//		Offset -> 0x00B1B2B0
+//		Offset -> 0x00B1F5E0
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.CopyProceduralMeshFromStaticMeshComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -308,7 +308,7 @@ void UKismetProceduralMeshLibrary::STATIC_CopyProceduralMeshFromStaticMeshCompon
 
 
 // Function:
-//		Offset -> 0x00B1B110
+//		Offset -> 0x00B1F440
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.ConvertQuadToTriangles
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -340,7 +340,7 @@ void UKismetProceduralMeshLibrary::STATIC_ConvertQuadToTriangles(TArray<int>* Tr
 
 
 // Function:
-//		Offset -> 0x00B1AE00
+//		Offset -> 0x00B1F130
 //		Name   -> Function ProceduralMeshComponent.KismetProceduralMeshLibrary.CalculateTangentsForMesh
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -373,7 +373,7 @@ void UKismetProceduralMeshLibrary::STATIC_CalculateTangentsForMesh(TArray<struct
 
 
 // Function:
-//		Offset -> 0x00B1D0E0
+//		Offset -> 0x00B21410
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.UpdateMeshSection_LinearColor
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -411,7 +411,7 @@ void UProceduralMeshComponent::UpdateMeshSection_LinearColor(int SectionIndex, T
 
 
 // Function:
-//		Offset -> 0x00B1CE10
+//		Offset -> 0x00B21140
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.UpdateMeshSection
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -443,7 +443,7 @@ void UProceduralMeshComponent::UpdateMeshSection(int SectionIndex, TArray<struct
 
 
 // Function:
-//		Offset -> 0x00B1CB20
+//		Offset -> 0x00B20E50
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.SetMeshSectionVisible
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -467,7 +467,7 @@ void UProceduralMeshComponent::SetMeshSectionVisible(int SectionIndex, bool bNew
 
 
 // Function:
-//		Offset -> 0x00B1CA90
+//		Offset -> 0x00B20DC0
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.IsMeshSectionVisible
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -492,7 +492,7 @@ bool UProceduralMeshComponent::IsMeshSectionVisible(int SectionIndex)
 
 
 // Function:
-//		Offset -> 0x00B1C4A0
+//		Offset -> 0x00B207D0
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.GetNumSections
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -515,7 +515,7 @@ int UProceduralMeshComponent::GetNumSections()
 
 
 // Function:
-//		Offset -> 0x00B1BD80
+//		Offset -> 0x00B200B0
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.CreateMeshSection_LinearColor
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -557,7 +557,7 @@ void UProceduralMeshComponent::CreateMeshSection_LinearColor(int SectionIndex, T
 
 
 // Function:
-//		Offset -> 0x00B1BA10
+//		Offset -> 0x00B1FD40
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.CreateMeshSection
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -593,7 +593,7 @@ void UProceduralMeshComponent::CreateMeshSection(int SectionIndex, TArray<struct
 
 
 // Function:
-//		Offset -> 0x00B1B090
+//		Offset -> 0x00B1F3C0
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.ClearMeshSection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -615,7 +615,7 @@ void UProceduralMeshComponent::ClearMeshSection(int SectionIndex)
 
 
 // Function:
-//		Offset -> 0x00B1B070
+//		Offset -> 0x00B1F3A0
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.ClearCollisionConvexMeshes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UProceduralMeshComponent::ClearCollisionConvexMeshes()
@@ -634,7 +634,7 @@ void UProceduralMeshComponent::ClearCollisionConvexMeshes()
 
 
 // Function:
-//		Offset -> 0x00B1B050
+//		Offset -> 0x00B1F380
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.ClearAllMeshSections
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UProceduralMeshComponent::ClearAllMeshSections()
@@ -653,7 +653,7 @@ void UProceduralMeshComponent::ClearAllMeshSections()
 
 
 // Function:
-//		Offset -> 0x00B1AD10
+//		Offset -> 0x00B1F040
 //		Name   -> Function ProceduralMeshComponent.ProceduralMeshComponent.AddCollisionConvexMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

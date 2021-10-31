@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.EquipIfUpgrade
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_WearablePickup_C::EquipIfUpgrade(class AMordhauCharacter* Char)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.Equip
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void ABP_WearablePickup_C::Equip(class AMordhauCharacter* Char)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.IsAnUpgrade
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -86,7 +86,7 @@ void ABP_WearablePickup_C::IsAnUpgrade(class AMordhauCharacter* Char, bool* Valu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.AssignToCharacter
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -109,7 +109,7 @@ void ABP_WearablePickup_C::AssignToCharacter(class AMordhauCharacter* Character,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -130,7 +130,7 @@ void ABP_WearablePickup_C::OnInteractionStart(class AMordhauCharacter* Character
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_WearablePickup_C::ReceiveBeginPlay()
@@ -148,7 +148,7 @@ void ABP_WearablePickup_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_WearablePickup.BP_WearablePickup_C.ExecuteUbergraph_BP_WearablePickup
 //		Flags  -> (Final)
 // Parameters:

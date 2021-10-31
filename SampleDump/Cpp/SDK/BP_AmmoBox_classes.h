@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -36,8 +36,8 @@ public:
 
 
 
-	void UpdateWidgetVisibilityOverride();
 	bool CanInteract(class AMordhauCharacter* Character);
+	void UpdateWidgetVisibilityOverride();
 	void Restock(class AMordhauCharacter* Character);
 	void AvailableInteractionStart(class AMordhauCharacter* Character);
 	void Deplete(class APlayerState* PlayerState);

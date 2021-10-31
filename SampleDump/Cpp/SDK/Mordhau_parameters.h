@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -54,155 +54,6 @@ struct URconCommand_CanExecuteCommand_Params
 	int                                                ClientId;                                                  // 0x0018(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                PacketId;                                                  // 0x001C(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.StartMatchmakingMatch.StartMatchmakingMatch
-struct UStartMatchmakingMatch_StartMatchmakingMatch_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class UStartMatchmakingMatch*                      ReturnValue;                                               // 0x00B0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.SetMatchmakingMatchServerDetails.SetMatchmakingMatchServerDetails
-struct USetMatchmakingMatchServerDetails_SetMatchmakingMatchServerDetails_Params
-{
-	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x00A8(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class USetMatchmakingMatchServerDetails*           ReturnValue;                                               // 0x00D0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetMatchmakingPenalty.GetMatchmakingPenalty
-struct UGetMatchmakingPenalty_GetMatchmakingPenalty_Params
-{
-	struct FPlayFabPlayerEntity                        PlayerEntity;                                              // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGetMatchmakingPenalty*                      ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.PenalizeForLeavingActiveMatch.PenalizeForLeavingActiveMatch
-struct UPenalizeForLeavingActiveMatch_PenalizeForLeavingActiveMatch_Params
-{
-	struct FPlayFabPlayerEntity                        PlayerEntity;                                              // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UPenalizeForLeavingActiveMatch*              ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.PenalizeForLeavingActiveMatch.OnGetMatchmakingPenaltySuccess
-struct UPenalizeForLeavingActiveMatch_OnGetMatchmakingPenaltySuccess_Params
-{
-	struct FPlayFabPlayerEntity                        InPlayerEntity;                                            // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                InLeaveCount;                                              // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FDateTime                                   InLeaveTime;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FDateTime                                   InBanEndTime;                                              // 0x0030(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.PenalizeForLeavingActiveMatch.OnGetMatchmakingPenaltyFailure
-struct UPenalizeForLeavingActiveMatch_OnGetMatchmakingPenaltyFailure_Params
-{
-	struct FPlayFabPlayerEntity                        InPlayerEntity;                                            // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                InLeaveCount;                                              // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FDateTime                                   InLeaveTime;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FDateTime                                   InBanEndTime;                                              // 0x0030(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.RequestPartyStats.RequestPartyStats
-struct URequestPartyStats_RequestPartyStats_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class URequestPartyStats*                          ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.UnmountMod
-struct UMods_UnmountMod_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.UninstallMod
-struct UMods_UninstallMod_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.Process
-struct UMods_Process_Params
-{
-};
-
-// Function Mordhau.Mods.MountMods
-struct UMods_MountMods_Params
-{
-	TArray<int>                                        ModIds;                                                    // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.MountMod
-struct UMods_MountMod_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.MountAllPaksInCustomPakFolder
-struct UMods_MountAllPaksInCustomPakFolder_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.MountAllInstalledMods
-struct UMods_MountAllInstalledMods_Params
-{
-};
-
-// Function Mordhau.Mods.IsModMounted
-struct UMods_IsModMounted_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.GetModDownloadQueue
-struct UMods_GetModDownloadQueue_Params
-{
-	TArray<struct FQueuedModDownload>                  ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.GetInstalledMod
-struct UMods_GetInstalledMod_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FInstalledMod                               ReturnValue;                                               // 0x0008(0x0060)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.GetAllInstalledMods
-struct UMods_GetAllInstalledMods_Params
-{
-	TArray<struct FInstalledMod>                       ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Mods.CancelModDownload
-struct UMods_CancelModDownload_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetMod.GetMod
-struct UGetMod_GetMod_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGetMod*                                     ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DownloadModfilesById.DownloadModfilesById
-struct UDownloadModfilesById_DownloadModfilesById_Params
-{
-	TArray<int>                                        ModIds;                                                    // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UDownloadModfilesById*                       ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.UnHighlight
-struct AAdvancedCharacter_UnHighlight_Params
-{
 };
 
 // Function Mordhau.AdvancedCharacter.TurnNotAbsolute
@@ -263,11 +114,6 @@ struct AAdvancedCharacter_StopHealthRegen_Params
 	float                                              ExtraTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.AdvancedCharacter.StopBurningCosmetic
-struct AAdvancedCharacter_StopBurningCosmetic_Params
-{
-};
-
 // Function Mordhau.AdvancedCharacter.StopAnim
 struct AAdvancedCharacter_StopAnim_Params
 {
@@ -283,21 +129,6 @@ struct AAdvancedCharacter_StartRagdollWithBlend_Params
 // Function Mordhau.AdvancedCharacter.StartRagdoll
 struct AAdvancedCharacter_StartRagdoll_Params
 {
-};
-
-// Function Mordhau.AdvancedCharacter.StartBurningCosmetic
-struct AAdvancedCharacter_StartBurningCosmetic_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.StartBurning
-struct AAdvancedCharacter_StartBurning_Params
-{
-	float                                              Duration;                                                  // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Damage;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Tick;                                                      // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageAgent;                                               // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AController*                                 InstigatorController;                                      // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.AdvancedCharacter.SpawnParticlesAttached
@@ -316,12 +147,6 @@ struct AAdvancedCharacter_SpawnParticlesAttached_Params
 struct AAdvancedCharacter_SetOnSmoke_Params
 {
 	class AMasterField*                                SmokeField;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.SetOnFire
-struct AAdvancedCharacter_SetOnFire_Params
-{
-	class AMasterField*                                FireField;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.AdvancedCharacter.SetMaxAnimBlendWeight
@@ -481,8 +306,8 @@ struct AAdvancedCharacter_OnTookDamage_Params
 	bool                                               bWillKill;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	unsigned char                                      SubType;                                                   // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x0004(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Point;                                                     // 0x000C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0004(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class AActor*                                      Source;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class AActor*                                      Agent;                                                     // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
@@ -524,17 +349,6 @@ struct AAdvancedCharacter_OnKilled_Params
 	class AController*                                 EventInstigator;                                           // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.AdvancedCharacter.OnInteractionStart
-struct AAdvancedCharacter_OnInteractionStart_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.OnInteractionEnd
-struct AAdvancedCharacter_OnInteractionEnd_Params
-{
-};
-
 // Function Mordhau.AdvancedCharacter.OnHit
 struct AAdvancedCharacter_OnHit_Params
 {
@@ -545,29 +359,8 @@ struct AAdvancedCharacter_OnHit_Params
 	unsigned char                                      SurfaceType;                                               // 0x001D(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.AdvancedCharacter.OnHighlightStart
-struct AAdvancedCharacter_OnHighlightStart_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.OnHighlightMaintained
-struct AAdvancedCharacter_OnHighlightMaintained_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.OnHighlightEnd
-struct AAdvancedCharacter_OnHighlightEnd_Params
-{
-};
-
 // Function Mordhau.AdvancedCharacter.OnHealthChanged
 struct AAdvancedCharacter_OnHealthChanged_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.OnExceededTimeOutOfBounds
-struct AAdvancedCharacter_OnExceededTimeOutOfBounds_Params
 {
 };
 
@@ -664,11 +457,6 @@ struct AAdvancedCharacter_LookUp_Params
 	bool                                               bIsAbsolute;                                               // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.AdvancedCharacter.LeftOutOfBoundsArea
-struct AAdvancedCharacter_LeftOutOfBoundsArea_Params
-{
-};
-
 // Function Mordhau.AdvancedCharacter.Knockback
 struct AAdvancedCharacter_Knockback_Params
 {
@@ -684,12 +472,6 @@ struct AAdvancedCharacter_IsViewTarget_Params
 
 // Function Mordhau.AdvancedCharacter.IsPlayerControlledIncludingVehicle
 struct AAdvancedCharacter_IsPlayerControlledIncludingVehicle_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.IsOutOfBounds
-struct AAdvancedCharacter_IsOutOfBounds_Params
 {
 	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
@@ -743,30 +525,8 @@ struct AAdvancedCharacter_IsAirborne_Params
 	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.AdvancedCharacter.InteractionStart
-struct AAdvancedCharacter_InteractionStart_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.InteractionEnd
-struct AAdvancedCharacter_InteractionEnd_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.Highlight
-struct AAdvancedCharacter_Highlight_Params
-{
-};
-
 // Function Mordhau.AdvancedCharacter.GetRawLookUpValue
 struct AAdvancedCharacter_GetRawLookUpValue_Params
-{
-	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.GetOutOfBoundsTimeUntilDeath
-struct AAdvancedCharacter_GetOutOfBoundsTimeUntilDeath_Params
 {
 	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
@@ -803,12 +563,6 @@ struct AAdvancedCharacter_GetLastDismemberedBoneForceDir_Params
 
 // Function Mordhau.AdvancedCharacter.GetIsDead
 struct AAdvancedCharacter_GetIsDead_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.GetIsBurning
-struct AAdvancedCharacter_GetIsBurning_Params
 {
 	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
@@ -865,23 +619,6 @@ struct AAdvancedCharacter_GetAdditiveOverrideTypeNormalizedTime_Params
 struct AAdvancedCharacter_GetAdditiveOverrideType_Params
 {
 	struct FName                                       ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AdvancedCharacter.EnteredOutOfBoundsArea
-struct AAdvancedCharacter_EnteredOutOfBoundsArea_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.DouseFire
-struct AAdvancedCharacter_DouseFire_Params
-{
-};
-
-// Function Mordhau.AdvancedCharacter.CanInteract
-struct AAdvancedCharacter_CanInteract_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.AdvancedCharacter.CanBleedOutFromHit
@@ -960,96 +697,1850 @@ struct AAdvancedCharacter_AddTurnDegrees_Params
 	float                                              Delta;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.UpdateFPCameraFor
-struct AMordhauVehicle_UpdateFPCameraFor_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DeltaSeconds;                                              // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bRotationOnly;                                             // 0x000C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.UpdateAnimationFor
-struct AMordhauVehicle_UpdateAnimationFor_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMordhauAnimInstance*                        AnimInst;                                                  // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              DeltaTime;                                                 // 0x0010(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.StopDriving
-struct AMordhauVehicle_StopDriving_Params
+// Function Mordhau.MordhauInventoryItem.MarkSeen
+struct UMordhauInventoryItem_MarkSeen_Params
 {
 };
 
-// Function Mordhau.MordhauVehicle.StartDriving
-struct AMordhauVehicle_StartDriving_Params
+// Function Mordhau.MordhauInventoryItem.GetWasSeen
+struct UMordhauInventoryItem_GetWasSeen_Params
 {
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.SetDriver
-struct AMordhauVehicle_SetDriver_Params
+// Function Mordhau.ArmsWearable.GetHandsWearablesNum
+struct UArmsWearable_GetHandsWearablesNum_Params
 {
-	class AMordhauCharacter*                           NewDriver;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.ServerSecondaryTurn
-struct AMordhauVehicle_ServerSecondaryTurn_Params
+// Function Mordhau.ArmsWearable.GetHandsWearable
+struct UArmsWearable_GetHandsWearable_Params
 {
-	float                                              NewTurn;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.SecondaryTurnAtRate
-struct AMordhauVehicle_SecondaryTurnAtRate_Params
+// Function Mordhau.MordhauMotion.ProcessFeint
+struct UMordhauMotion_ProcessFeint_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.ProcessBlock
+struct UMordhauMotion_ProcessBlock_Params
+{
+	Mordhau_EBlockType                                 Type;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.ProcessAttack
+struct UMordhauMotion_ProcessAttack_Params
+{
+	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.OnTick
+struct UMordhauMotion_OnTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.OnLeave
+struct UMordhauMotion_OnLeave_Params
+{
+	bool                                               Interrupted;                                               // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.OnLateTick
+struct UMordhauMotion_OnLateTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.OnEnded
+struct UMordhauMotion_OnEnded_Params
+{
+};
+
+// Function Mordhau.MordhauMotion.OnDynamicParamChanged
+struct UMordhauMotion_OnDynamicParamChanged_Params
+{
+	unsigned char                                      OldValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewValue;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.OnBegin
+struct UMordhauMotion_OnBegin_Params
+{
+};
+
+// Function Mordhau.MordhauMotion.HasAuthority
+struct UMordhauMotion_HasAuthority_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetWorld
+struct UMordhauMotion_GetWorld_Params
+{
+	class UWorld*                                      ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetOwnerMordhauCharacter
+struct UMordhauMotion_GetOwnerMordhauCharacter_Params
+{
+	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetOwnerAdvancedCharacter
+struct UMordhauMotion_GetOwnerAdvancedCharacter_Params
+{
+	class AAdvancedCharacter*                          ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetOwnerActor
+struct UMordhauMotion_GetOwnerActor_Params
+{
+	class AActor*                                      ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetOwner
+struct UMordhauMotion_GetOwner_Params
+{
+	class UMotionSystemComponent*                      ReturnValue;                                               // 0x0000(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.GetIsFirstPerson
+struct UMordhauMotion_GetIsFirstPerson_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauMotion.CanInitiateMotion
+struct UMordhauMotion_CanInitiateMotion_Params
+{
+	class UClass*                                      NewMotionType;                                             // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.ShouldStunOnHit
+struct UAttackMotion_ShouldStunOnHit_Params
+{
+	class UMotionSystemComponent*                      OtherComponent;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.SetHasHitIncludingCosmeticHit
+struct UAttackMotion_SetHasHitIncludingCosmeticHit_Params
+{
+	bool                                               bPlayHitShake;                                             // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.PrepareAnimationData
+struct UAttackMotion_PrepareAnimationData_Params
+{
+};
+
+// Function Mordhau.AttackMotion.OverrideTrace
+struct UAttackMotion_OverrideTrace_Params
+{
+	struct FVector                                     OutStart;                                                  // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     OutEnd;                                                    // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.OverrideIsUsingAdditionalTracers
+struct UAttackMotion_OverrideIsUsingAdditionalTracers_Params
+{
+	bool                                               OutResult;                                                 // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.OverrideAdditionalTrace
+struct UAttackMotion_OverrideAdditionalTrace_Params
+{
+	struct FVector                                     OutStart;                                                  // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     OutEnd;                                                    // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.ModifyAttackInfo
+struct UAttackMotion_ModifyAttackInfo_Params
+{
+};
+
+// Function Mordhau.AttackMotion.FindWeapon
+struct UAttackMotion_FindWeapon_Params
+{
+	class AMordhauWeapon*                              ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.AttackMotion.ComputeWindup
+struct UAttackMotion_ComputeWindup_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BotProfile.AssignToController
+struct UBotProfile_AssignToController_Params
+{
+	class AMordhauAIController*                        Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Bounds.OnExceededTimeOutOfBounds
+struct UBounds_OnExceededTimeOutOfBounds_Params
+{
+};
+
+// Function Mordhau.Bounds.LeftOutOfBoundsArea
+struct UBounds_LeftOutOfBoundsArea_Params
+{
+};
+
+// Function Mordhau.Bounds.IsOutOfBounds
+struct UBounds_IsOutOfBounds_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Bounds.IsAllowedOutOfBounds
+struct UBounds_IsAllowedOutOfBounds_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Bounds.GetOutOfBoundsTimeUntilDeath
+struct UBounds_GetOutOfBoundsTimeUntilDeath_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Bounds.EnteredOutOfBoundsArea
+struct UBounds_EnteredOutOfBoundsArea_Params
+{
+	class UObject*                                     WCO;                                                       // 0x0000(0x0008)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildablePlaneTrace.GetPlacementAngleAndRotation
+struct UBuildablePlaneTrace_GetPlacementAngleAndRotation_Params
+{
+	struct FSpawnablePlaneTraceResult                  OutTraceResult;                                            // 0x0000(0x0270)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
+	struct FSpawnableObjectInfo                        ObjectInfo;                                                // 0x0270(0x0098)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	float                                              OutAngle;                                                  // 0x0308(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    OutRotation;                                               // 0x030C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildablePlaneTrace.DrawDebugPlane
+struct UBuildablePlaneTrace_DrawDebugPlane_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Forward;                                                   // 0x0008(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Back;                                                      // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Right;                                                     // 0x0020(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Left;                                                      // 0x002C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     InTraceAmount;                                             // 0x0038(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TEnumAsByte<Engine_EDrawDebugTrace>                DrawDebugType;                                             // 0x0044(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.ValidateSpot
+struct UBuildingSystemComponent_ValidateSpot_Params
+{
+	struct FVector                                     Offset;                                                    // 0x0000(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     OutLocation;                                               // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    OutRotation;                                               // 0x0018(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	class USceneComponent*                             AttachToComponent;                                         // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UBuildableTraceBase*                         BuildableTraceHit;                                         // 0x0030(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                SpawnableObjectIndex;                                      // 0x0038(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bDrawObjectPreview;                                        // 0x003C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bForceFail;                                                // 0x003D(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x003E(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.SetupMeshPreview
+struct UBuildingSystemComponent_SetupMeshPreview_Params
+{
+};
+
+// Function Mordhau.BuildingSystemComponent.GetEquipmentPlaceableMaxLimit
+struct UBuildingSystemComponent_GetEquipmentPlaceableMaxLimit_Params
+{
+	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.GetEquipmentPlaceableLimitName
+struct UBuildingSystemComponent_GetEquipmentPlaceableLimitName_Params
+{
+	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       ReturnValue;                                               // 0x0004(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.GetEquipmentInfo
+struct UBuildingSystemComponent_GetEquipmentInfo_Params
+{
+	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FSpawnableObjectInfo                        ReturnValue;                                               // 0x0008(0x0098)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.GetEquipmentDisplayName
+struct UBuildingSystemComponent_GetEquipmentDisplayName_Params
+{
+	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       ReturnValue;                                               // 0x0004(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.GetEquipmentAmmoCost
+struct UBuildingSystemComponent_GetEquipmentAmmoCost_Params
+{
+	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.DisplayPreview
+struct UBuildingSystemComponent_DisplayPreview_Params
+{
+	bool                                               bDrawObjectPreview;                                        // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsValid;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FSpawnableObjectInfo                        ObjectInfo;                                                // 0x0008(0x0098)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	struct FTransform                                  ObjectTransform;                                           // 0x00A0(0x0030)  (ConstParm, Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	int                                                SpawnableObjectIndex;                                      // 0x00D0(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.DestroyMeshPreview
+struct UBuildingSystemComponent_DestroyMeshPreview_Params
+{
+};
+
+// Function Mordhau.BuildingSystemComponent.AddStaticMeshPreviewIfNone
+struct UBuildingSystemComponent_AddStaticMeshPreviewIfNone_Params
+{
+	class UStaticMesh*                                 StaticMesh;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BuildingSystemComponent.AddSkeletalMeshPreviewIfNone
+struct UBuildingSystemComponent_AddSkeletalMeshPreviewIfNone_Params
+{
+	class USkeletalMesh*                               SkeletalMesh;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BurnableComponent.StopBurningCosmetic
+struct UBurnableComponent_StopBurningCosmetic_Params
+{
+};
+
+// Function Mordhau.BurnableComponent.StartBurningCosmetic
+struct UBurnableComponent_StartBurningCosmetic_Params
+{
+};
+
+// Function Mordhau.BurnableComponent.StartBurning
+struct UBurnableComponent_StartBurning_Params
+{
+	float                                              Duration;                                                  // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Damage;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Tick;                                                      // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageAgent;                                               // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AController*                                 InstigatorController;                                      // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BurnableComponent.SetOnFire
+struct UBurnableComponent_SetOnFire_Params
+{
+	class AMasterField*                                FireField;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BurnableComponent.GetIsBurning
+struct UBurnableComponent_GetIsBurning_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.BurnableComponent.DouseFire
+struct UBurnableComponent_DouseFire_Params
+{
+};
+
+// Function Mordhau.VehicleBase.SpawnParticlesAttached
+struct AVehicleBase_SpawnParticlesAttached_Params
+{
+	class UParticleSystem*                             Particle;                                                  // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Location;                                                  // 0x0008(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    Rotation;                                                  // 0x0014(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	TEnumAsByte<Engine_EAttachLocation>                AttachType;                                                // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       Socket;                                                    // 0x0024(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UParticleSystemComponent*                    ReturnValue;                                               // 0x0030(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.Server_Unreliable_LookUp
+struct AVehicleBase_Server_Unreliable_LookUp_Params
+{
+	float                                              NewLookUp;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.Server_SetRight
+struct AVehicleBase_Server_SetRight_Params
+{
+	float                                              InRight;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.Server_SetForward
+struct AVehicleBase_Server_SetForward_Params
+{
+	float                                              InForward;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.Server_Reliable_RequestUse
+struct AVehicleBase_Server_Reliable_RequestUse_Params
+{
+};
+
+// Function Mordhau.VehicleBase.PostInteractionWidgetCreated
+struct AVehicleBase_PostInteractionWidgetCreated_Params
+{
+};
+
+// Function Mordhau.VehicleBase.PlaySound
+struct AVehicleBase_PlaySound_Params
+{
+	class USoundBase*                                  Sound;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     InLocation;                                                // 0x0010(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TEnumAsByte<Engine_EAttachLocation>                AttachLocation;                                            // 0x001C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bAttach;                                                   // 0x001D(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class USoundAttenuation*                           Override;                                                  // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              VolumeMultiplier;                                          // 0x0028(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              PitchMultiplier;                                           // 0x002C(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UAudioComponent*                             ReturnValue;                                               // 0x0030(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.OnTookDamage
+struct AVehicleBase_OnTookDamage_Params
+{
+	bool                                               bWillKill;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0004(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Source;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Agent;                                                     // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.OnRep_ReplicatedVehicleFlags
+struct AVehicleBase_OnRep_ReplicatedVehicleFlags_Params
+{
+};
+
+// Function Mordhau.VehicleBase.OnRep_ReplicatedLookUpValue
+struct AVehicleBase_OnRep_ReplicatedLookUpValue_Params
+{
+};
+
+// Function Mordhau.VehicleBase.OnRep_LatestState
+struct AVehicleBase_OnRep_LatestState_Params
+{
+};
+
+// Function Mordhau.VehicleBase.OnDied
+struct AVehicleBase_OnDied_Params
+{
+	float                                              Angle;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0005(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x0010(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Source;                                                    // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Agent;                                                     // 0x0028(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.OnDeath
+struct AVehicleBase_OnDeath_Params
+{
+};
+
+// Function Mordhau.VehicleBase.NetStateSend
+struct AVehicleBase_NetStateSend_Params
+{
+};
+
+// Function Mordhau.VehicleBase.LookUpNotAbsolute
+struct AVehicleBase_LookUpNotAbsolute_Params
 {
 	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.SecondaryTurn
-struct AMordhauVehicle_SecondaryTurn_Params
+// Function Mordhau.VehicleBase.LookUpAtRate
+struct AVehicleBase_LookUpAtRate_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.LookUp
+struct AVehicleBase_LookUp_Params
 {
 	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bIsAbsolute;                                               // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
+// Function Mordhau.VehicleBase.GetRawLookUpValue
+struct AVehicleBase_GetRawLookUpValue_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.GetLookUpValue
+struct AVehicleBase_GetLookUpValue_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VehicleBase.GetDriver
+struct AVehicleBase_GetDriver_Params
+{
+	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CapturePointBanner.UpdateVisuals
+struct ACapturePointBanner_UpdateVisuals_Params
+{
+};
+
+// Function Mordhau.CapturePointBanner.InitializeBanner
+struct ACapturePointBanner_InitializeBanner_Params
+{
+	class AControlPoint*                               OwningPoint;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterMeshComponent.OnCharacterStoppedRagdollFalling
+struct UCharacterMeshComponent_OnCharacterStoppedRagdollFalling_Params
+{
+};
+
+// Function Mordhau.CharacterMeshComponent.OnCharacterStartedRagdollFalling
+struct UCharacterMeshComponent_OnCharacterStartedRagdollFalling_Params
+{
+};
+
+// Function Mordhau.CharacterMeshComponent.OnCharacterLODTick
+struct UCharacterMeshComponent_OnCharacterLODTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterMeshComponent.OnCharacterDied
+struct UCharacterMeshComponent_OnCharacterDied_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.TogglePerk
+struct UCharacterProfileBPWrapper_TogglePerk_Params
+{
+	unsigned char                                      Perk;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetWearablePattern
+struct UCharacterProfileBPWrapper_SetWearablePattern_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewPattern;                                                // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetWearableId
+struct UCharacterProfileBPWrapper_SetWearableId_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewId;                                                     // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetWearableColor
+struct UCharacterProfileBPWrapper_SetWearableColor_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      ColorIdx;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewColor;                                                  // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetVoicePitch
+struct UCharacterProfileBPWrapper_SetVoicePitch_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetVoice
+struct UCharacterProfileBPWrapper_SetVoice_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetStrong
+struct UCharacterProfileBPWrapper_SetStrong_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetSkinny
+struct UCharacterProfileBPWrapper_SetSkinny_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetSkinColor
+struct UCharacterProfileBPWrapper_SetSkinColor_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetProfileName
+struct UCharacterProfileBPWrapper_SetProfileName_Params
+{
+	struct FText                                       NewName;                                                   // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetProfileCategory
+struct UCharacterProfileBPWrapper_SetProfileCategory_Params
+{
+	struct FString                                     NewCategory;                                               // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetMetalTint
+struct UCharacterProfileBPWrapper_SetMetalTint_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetMetalRoughnessScale
+struct UCharacterProfileBPWrapper_SetMetalRoughnessScale_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetIsFemale
+struct UCharacterProfileBPWrapper_SetIsFemale_Params
+{
+	bool                                               bNewValue;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetHairColor
+struct UCharacterProfileBPWrapper_SetHairColor_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetHair
+struct UCharacterProfileBPWrapper_SetHair_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetFat
+struct UCharacterProfileBPWrapper_SetFat_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetFacialHair
+struct UCharacterProfileBPWrapper_SetFacialHair_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetFace
+struct UCharacterProfileBPWrapper_SetFace_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEyeColor
+struct UCharacterProfileBPWrapper_SetEyeColor_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEyebrows
+struct UCharacterProfileBPWrapper_SetEyebrows_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentSkin
+struct UCharacterProfileBPWrapper_SetEquipmentSkin_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewSkin;                                                   // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentPattern
+struct UCharacterProfileBPWrapper_SetEquipmentPattern_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewPattern;                                                // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentPartId
+struct UCharacterProfileBPWrapper_SetEquipmentPartId_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      PartIdx;                                                   // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewPartId;                                                 // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentId
+struct UCharacterProfileBPWrapper_SetEquipmentId_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewId;                                                     // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentCustomizationDirect
+struct UCharacterProfileBPWrapper_SetEquipmentCustomizationDirect_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentCustomization                     NewCustomization;                                          // 0x0008(0x0030)  (Parm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentColor
+struct UCharacterProfileBPWrapper_SetEquipmentColor_Params
+{
+	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      ColorIdx;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewColor;                                                  // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEmblemColor
+struct UCharacterProfileBPWrapper_SetEmblemColor_Params
+{
+	unsigned char                                      ColorIdx;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewValue;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetEmblem
+struct UCharacterProfileBPWrapper_SetEmblem_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.SetAge
+struct UCharacterProfileBPWrapper_SetAge_Params
+{
+	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.RemoveAllEquipment
+struct UCharacterProfileBPWrapper_RemoveAllEquipment_Params
+{
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.HasPerk
+struct UCharacterProfileBPWrapper_HasPerk_Params
+{
+	unsigned char                                      Perk;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterProfileBPWrapper.ForceValidate
+struct UCharacterProfileBPWrapper_ForceValidate_Params
+{
+};
+
+// Function Mordhau.CharacterVoiceComponent.UpdateVoiceDataFromCharacter
+struct UCharacterVoiceComponent_UpdateVoiceDataFromCharacter_Params
+{
+};
+
+// Function Mordhau.CharacterVoiceComponent.OnVoiceCommandReplicated
+struct UCharacterVoiceComponent_OnVoiceCommandReplicated_Params
+{
+};
+
+// Function Mordhau.CharacterVoiceComponent.OnTakeDamage
+struct UCharacterVoiceComponent_OnTakeDamage_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterVoiceComponent.OnLODTick
+struct UCharacterVoiceComponent_OnLODTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterVoiceComponent.OnCharacterDied
+struct UCharacterVoiceComponent_OnCharacterDied_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CharacterVoiceComponent.OnCharacterBuilt
+struct UCharacterVoiceComponent_OnCharacterBuilt_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.SetSelectedOption
+struct UComboBoxText_SetSelectedOption_Params
+{
+	struct FText                                       Option;                                                    // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.RemoveOption
+struct UComboBoxText_RemoveOption_Params
+{
+	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.RefreshOptions
+struct UComboBoxText_RefreshOptions_Params
+{
+};
+
+// DelegateFunction Mordhau.ComboBoxText.OnSelectionChangedEvent__DelegateSignature
+struct UComboBoxText_OnSelectionChangedEvent__DelegateSignature_Params
+{
+	struct FText                                       SelectedItem;                                              // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
+	TEnumAsByte<SlateCore_ESelectInfo>                 SelectionType;                                             // 0x0018(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// DelegateFunction Mordhau.ComboBoxText.OnOpeningEvent__DelegateSignature
+struct UComboBoxText_OnOpeningEvent__DelegateSignature_Params
+{
+};
+
+// Function Mordhau.ComboBoxText.GetSelectedOption
+struct UComboBoxText_GetSelectedOption_Params
+{
+	struct FText                                       ReturnValue;                                               // 0x0000(0x0018)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.GetOptionCount
+struct UComboBoxText_GetOptionCount_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.GetOptionAtIndex
+struct UComboBoxText_GetOptionAtIndex_Params
+{
+	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FText                                       ReturnValue;                                               // 0x0008(0x0018)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.FindOptionIndex
+struct UComboBoxText_FindOptionIndex_Params
+{
+	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0018(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ComboBoxText.ClearSelection
+struct UComboBoxText_ClearSelection_Params
+{
+};
+
+// Function Mordhau.ComboBoxText.ClearOptions
+struct UComboBoxText_ClearOptions_Params
+{
+};
+
+// Function Mordhau.ComboBoxText.AddOption
+struct UComboBoxText_AddOption_Params
+{
+	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.UpdateVisuals
+struct AControlPoint_UpdateVisuals_Params
+{
+};
+
+// Function Mordhau.ControlPoint.UpdateUIWidgets
+struct AControlPoint_UpdateUIWidgets_Params
+{
+};
+
+// Function Mordhau.ControlPoint.UpdateUIMaterialInstance
+struct AControlPoint_UpdateUIMaterialInstance_Params
+{
+};
+
+// Function Mordhau.ControlPoint.UpdatePresenceNumbers
+struct AControlPoint_UpdatePresenceNumbers_Params
+{
+};
+
+// Function Mordhau.ControlPoint.UpdateCaptureProgress
+struct AControlPoint_UpdateCaptureProgress_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.SetOwningTeam
+struct AControlPoint_SetOwningTeam_Params
+{
+	unsigned char                                      NewTeam;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.SetCapturingTeam
+struct AControlPoint_SetCapturingTeam_Params
+{
+	unsigned char                                      NewTeam;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.SetCaptureProgress
+struct AControlPoint_SetCaptureProgress_Params
+{
+	float                                              NewProgress;                                               // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      NewCaptor;                                                 // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bAwardScore;                                               // 0x0005(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.OnStoppedFlashing
+struct AControlPoint_OnStoppedFlashing_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnStartedFlashing
+struct AControlPoint_OnStartedFlashing_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnRep_ReplicatedCaptureProgress
+struct AControlPoint_OnRep_ReplicatedCaptureProgress_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnRep_OwningTeam
+struct AControlPoint_OnRep_OwningTeam_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnRep_CapturingTeam
+struct AControlPoint_OnRep_CapturingTeam_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnOwningTeamChanged
+struct AControlPoint_OnOwningTeamChanged_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnCapturingTeamChanged
+struct AControlPoint_OnCapturingTeamChanged_Params
+{
+};
+
+// Function Mordhau.ControlPoint.OnCaptureAreaEndOverlap
+struct AControlPoint_OnCaptureAreaEndOverlap_Params
+{
+	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.OnCaptureAreaBeginOverlap
+struct AControlPoint_OnCaptureAreaBeginOverlap_Params
+{
+	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bFromSweep;                                                // 0x001C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FHitResult                                  SweepResult;                                               // 0x0020(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ControlPoint.EnemyLostPrerequisites
+struct AControlPoint_EnemyLostPrerequisites_Params
+{
+};
+
+// Function Mordhau.ControlPoint.EnemyGainedPrerequisites
+struct AControlPoint_EnemyGainedPrerequisites_Params
+{
+};
+
+// Function Mordhau.ControlPoint.CanCapture
+struct AControlPoint_CanCapture_Params
+{
+	unsigned char                                      Team;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CreatureAnimInstance.DoFootstep
+struct UCreatureAnimInstance_DoFootstep_Params
+{
+	int                                                Limb;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CrowdObstacleComponent.UnregisterObstacle
+struct UCrowdObstacleComponent_UnregisterObstacle_Params
+{
+};
+
+// Function Mordhau.CrowdObstacleComponent.RegisterObstacle
+struct UCrowdObstacleComponent_RegisterObstacle_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.UpdateCharacterProfile
+struct ACustomizationReplicationActor_UpdateCharacterProfile_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CustomizationReplicationActor.UnregisterCharacter
+struct ACustomizationReplicationActor_UnregisterCharacter_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CustomizationReplicationActor.TriggerUpdateIfUpToDate
+struct ACustomizationReplicationActor_TriggerUpdateIfUpToDate_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.RegisterCharacter
+struct ACustomizationReplicationActor_RegisterCharacter_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearablePattern
+struct ACustomizationReplicationActor_OnRep_ReplicatedWearablePattern_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableId
+struct ACustomizationReplicationActor_OnRep_ReplicatedWearableId_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableColor2
+struct ACustomizationReplicationActor_OnRep_ReplicatedWearableColor2_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableColor1
+struct ACustomizationReplicationActor_OnRep_ReplicatedWearableColor1_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedSkillsCustomization
+struct ACustomizationReplicationActor_OnRep_ReplicatedSkillsCustomization_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesTranslate
+struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesTranslate_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesScale
+struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesScale_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesRotate
+struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesRotate_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedDefaultEquipmentId
+struct ACustomizationReplicationActor_OnRep_ReplicatedDefaultEquipmentId_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedAppearanceCustomization
+struct ACustomizationReplicationActor_OnRep_ReplicatedAppearanceCustomization_Params
+{
+};
+
+// Function Mordhau.CustomizationReplicationActor.IsUpToDate
+struct ACustomizationReplicationActor_IsUpToDate_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CustomizationReplicationActor.AssignDataFromProfile
+struct ACustomizationReplicationActor_AssignDataFromProfile_Params
+{
+	struct FCharacterProfile                           Profile;                                                   // 0x0000(0x00B8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DamageableComponent.OnTookDamage
+struct UDamageableComponent_OnTookDamage_Params
+{
+	bool                                               bWillKill;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0004(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Source;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Agent;                                                     // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DamageableComponent.OnTakeDamage
+struct UDamageableComponent_OnTakeDamage_Params
+{
+	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x00C0(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DamageableComponent.OnRep_NetDamage
+struct UDamageableComponent_OnRep_NetDamage_Params
+{
+};
+
+// Function Mordhau.DamageableComponent.OnPostTakeDamage
+struct UDamageableComponent_OnPostTakeDamage_Params
+{
+	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DamageableComponent.OnKilled
+struct UDamageableComponent_OnKilled_Params
+{
+};
+
+// Function Mordhau.DamageableComponent.ModifyDamage
+struct UDamageableComponent_ModifyDamage_Params
+{
+	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x00C0(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.TryDismember
+struct UDismemberableComponent_TryDismember_Params
+{
+	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x0008(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AMordhauWeapon*                              Weapon;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsRagdollDismember;                                       // 0x0021(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0022(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.QueueDismember
+struct UDismemberableComponent_QueueDismember_Params
+{
+	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsDismemberPartial;                                       // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsBluntForce;                                             // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Force;                                                     // 0x000C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Agent;                                                     // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.ProcessQueuedDismemberment
+struct UDismemberableComponent_ProcessQueuedDismemberment_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.OnCharacterCameraStyleChanged
+struct UDismemberableComponent_OnCharacterCameraStyleChanged_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.IsBoneDismembered
+struct UDismemberableComponent_IsBoneDismembered_Params
+{
+	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.Dismember
+struct UDismemberableComponent_Dismember_Params
+{
+	struct FDismemberedBoneData                        InDismemberedBoneData;                                     // 0x0000(0x0020)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
+	class ASeparatedBodyPart*                          ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DismemberableComponent.CanDismember
+struct UDismemberableComponent_CanDismember_Params
+{
+	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DriverComponent.OnLateTick
+struct UDriverComponent_OnLateTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ECSActor.AddManagedCharacter
+struct AECSActor_AddManagedCharacter_Params
+{
+	class ACharacter*                                  Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EmoteMotion.DoDrop
+struct UEmoteMotion_DoDrop_Params
+{
+	class AMordhauEquipment*                           Equipment;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Force;                                                     // 0x0008(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EnvironmentMovable.InitializeMovable
+struct AEnvironmentMovable_InitializeMovable_Params
+{
+	class USceneComponent*                             InSwayingComponent;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     InRollPitchYawFrequency;                                   // 0x0008(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     InRollPitchYawMagnitude;                                   // 0x0014(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     InRollPitchYawSpeed;                                       // 0x0020(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSwitchMotion.GetSwitchingTo
+struct UEquipmentSwitchMotion_GetSwitchingTo_Params
+{
+	class AMordhauEquipment*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnUnPossessed
+struct UEquipmentSystemComponent_OnUnPossessed_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnPreBeginPlay
+struct UEquipmentSystemComponent_OnPreBeginPlay_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnLODTick
+struct UEquipmentSystemComponent_OnLODTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnLateTick
+struct UEquipmentSystemComponent_OnLateTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnCharacterVehicleChanged
+struct UEquipmentSystemComponent_OnCharacterVehicleChanged_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnCharacterCameraStyleChanged
+struct UEquipmentSystemComponent_OnCharacterCameraStyleChanged_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.EquipmentSystemComponent.OnAnyEquipmentStateChanged
+struct UEquipmentSystemComponent_OnAnyEquipmentStateChanged_Params
+{
+};
+
+// Function Mordhau.FaceCustomizationComponent.OnCharacterBuilt
+struct UFaceCustomizationComponent_OnCharacterBuilt_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.UpdateThudVelocity
+struct AMordhauActor_UpdateThudVelocity_Params
+{
+	float                                              NewThudVelocity;                                           // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.PostInteractionWidgetCreated
+struct AMordhauActor_PostInteractionWidgetCreated_Params
+{
+};
+
+// Function Mordhau.MordhauActor.OnUsedToKillOther
+struct AMordhauActor_OnUsedToKillOther_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Source;                                                    // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.OnThud
+struct AMordhauActor_OnThud_Params
+{
+};
+
+// Function Mordhau.MordhauActor.OnRep_ReplicatedThud
+struct AMordhauActor_OnRep_ReplicatedThud_Params
+{
+};
+
+// Function Mordhau.MordhauActor.OnReceiveCosmeticHit
+struct AMordhauActor_OnReceiveCosmeticHit_Params
+{
+	class AActor*                                      Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Agent;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0010(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FHitResult                                  Hit;                                                       // 0x0014(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.OnPostDismemberedOther
+struct AMordhauActor_OnPostDismemberedOther_Params
+{
+	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class ASeparatedBodyPart*                          Part;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.OnLocalPlayerUsedToKillOther
+struct AMordhauActor_OnLocalPlayerUsedToKillOther_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     Point;                                                     // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Source;                                                    // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauActor.IsAnyInstanceOwner
+struct AMordhauActor_IsAnyInstanceOwner_Params
+{
+	TArray<class AMordhauPlayerController*>            ControllerArray;                                           // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.UpdateMaterial
+struct AMordhauEquipment_UpdateMaterial_Params
+{
+	class USkeletalMeshComponent*                      SkeletalMeshComp;                                          // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.UpdateInteractionCollision
+struct AMordhauEquipment_UpdateInteractionCollision_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.UpdateEquipmentVisualState
+struct AMordhauEquipment_UpdateEquipmentVisualState_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.UpdateEquipmentState
+struct AMordhauEquipment_UpdateEquipmentState_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.UpdateCapsuleShadowStatus
+struct AMordhauEquipment_UpdateCapsuleShadowStatus_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.SwitchMode
+struct AMordhauEquipment_SwitchMode_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.ShouldShine
+struct AMordhauEquipment_ShouldShine_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.SetPartsUseAuxiliaryMesh
+struct AMordhauEquipment_SetPartsUseAuxiliaryMesh_Params
+{
+	bool                                               bNewValue;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.SetParts
+struct AMordhauEquipment_SetParts_Params
+{
+	TArray<unsigned char>                              NewPartsId;                                                // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bRebuild;                                                  // 0x0010(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.SetLoaded
+struct AMordhauEquipment_SetLoaded_Params
+{
+	bool                                               bNewLoaded;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.SetColors
+struct AMordhauEquipment_SetColors_Params
+{
+	TArray<unsigned char>                              NewColors;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.SetAmmo
+struct AMordhauEquipment_SetAmmo_Params
+{
+	unsigned char                                      NewAmmo;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.RestockOtherEquipmentOnCharacter
+struct AMordhauEquipment_RestockOtherEquipmentOnCharacter_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.ResetMeshRelativeTransform
+struct AMordhauEquipment_ResetMeshRelativeTransform_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.RequestAttack
+struct AMordhauEquipment_RequestAttack_Params
+{
+	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.RebuildIfAllReplicated
+struct AMordhauEquipment_RebuildIfAllReplicated_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.RebuildEquipment
+struct AMordhauEquipment_RebuildEquipment_Params
+{
+	bool                                               bDoOnlyQuickJob;                                           // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnRequestModeSwitch
+struct AMordhauEquipment_OnRequestModeSwitch_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnRequestFire
+struct AMordhauEquipment_OnRequestFire_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedSkin
+struct AMordhauEquipment_OnRep_ReplicatedSkin_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedPattern
+struct AMordhauEquipment_OnRep_ReplicatedPattern_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedPartsId
+struct AMordhauEquipment_OnRep_ReplicatedPartsId_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedEmblemColors
+struct AMordhauEquipment_OnRep_ReplicatedEmblemColors_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedEmblem
+struct AMordhauEquipment_OnRep_ReplicatedEmblem_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_ReplicatedColors
+struct AMordhauEquipment_OnRep_ReplicatedColors_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_IsUsingAlternateMode
+struct AMordhauEquipment_OnRep_IsUsingAlternateMode_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_IsLoaded
+struct AMordhauEquipment_OnRep_IsLoaded_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnRep_Ammo
+struct AMordhauEquipment_OnRep_Ammo_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnPickedUp
+struct AMordhauEquipment_OnPickedUp_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnPartsChanged
+struct AMordhauEquipment_OnPartsChanged_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnLoadedChanged
+struct AMordhauEquipment_OnLoadedChanged_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.OnHolsteredOrDropped
+struct AMordhauEquipment_OnHolsteredOrDropped_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnHolstered
+struct AMordhauEquipment_OnHolstered_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnEquipped
+struct AMordhauEquipment_OnEquipped_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnDropped
+struct AMordhauEquipment_OnDropped_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.OnAmmoChanged
+struct AMordhauEquipment_OnAmmoChanged_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.MarkSkinSeen
+struct AMordhauEquipment_MarkSkinSeen_Params
+{
+	int                                                SkinIdx;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.MarkSeen
+struct AMordhauEquipment_MarkSeen_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.LocalPlayerTick
+struct AMordhauEquipment_LocalPlayerTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.LocalPlayerLateTick
+struct AMordhauEquipment_LocalPlayerLateTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.LateTick
+struct AMordhauEquipment_LateTick_Params
+{
+	float                                              DeltaSeconds;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetWasSkinSeen
+struct AMordhauEquipment_GetWasSkinSeen_Params
+{
+	int                                                SkinIdx;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetWasSeen
+struct AMordhauEquipment_GetWasSeen_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetRandomCustomization
+struct AMordhauEquipment_GetRandomCustomization_Params
+{
+	bool                                               bOnlyColors;                                               // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentCustomization                     ReturnValue;                                               // 0x0008(0x0030)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetParentCharacter
+struct AMordhauEquipment_GetParentCharacter_Params
+{
+	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetCurrentMaxAmmo
+struct AMordhauEquipment_GetCurrentMaxAmmo_Params
+{
+	unsigned char                                      ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.GetAmmo
+struct AMordhauEquipment_GetAmmo_Params
+{
+	unsigned char                                      ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.FireProjectile_Internal
+struct AMordhauEquipment_FireProjectile_Internal_Params
+{
+	struct FVector                                     InOrigin;                                                  // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    InOrientation;                                             // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	class AController*                                 Controller;                                                // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ExpectedDelay;                                             // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsLocal;                                                  // 0x0024(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AMordhauProjectile*                          ReturnValue;                                               // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.FireProjectile
+struct AMordhauEquipment_FireProjectile_Params
+{
+	struct FVector                                     Origin;                                                    // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                                    Orientation;                                               // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	class AController*                                 OwningController;                                          // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ExpectedDelay;                                             // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.FindCurrentHolsterInfo
+struct AMordhauEquipment_FindCurrentHolsterInfo_Params
+{
+	struct FEquipmentHolsterInfo                       ReturnValue;                                               // 0x0000(0x0060)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.EquipmentCommand
+struct AMordhauEquipment_EquipmentCommand_Params
+{
+	int                                                Command;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.DestroyPhysicsProxy
+struct AMordhauEquipment_DestroyPhysicsProxy_Params
+{
+};
+
+// Function Mordhau.MordhauEquipment.ComputeAccurateBounds
+struct AMordhauEquipment_ComputeAccurateBounds_Params
+{
+	struct FBoxSphereBounds                            ReturnValue;                                               // 0x0000(0x001C)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.CanPerformAttack
+struct AMordhauEquipment_CanPerformAttack_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0009(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.BelongsToCharacter
+struct AMordhauEquipment_BelongsToCharacter_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.AssignCustomizationToProjectile
+struct AMordhauEquipment_AssignCustomizationToProjectile_Params
+{
+	class AMordhauProjectile*                          Projectile;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauEquipment.AssignCustomization
+struct AMordhauEquipment_AssignCustomization_Params
+{
+	struct FEquipmentCustomization                     Customization;                                             // 0x0000(0x0030)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	unsigned char                                      CustomizationEmblem;                                       // 0x0030(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      CustomizationEmblemColor1;                                 // 0x0031(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      CustomizationEmblemColor2;                                 // 0x0032(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.UpdateTrail
+struct AMordhauWeapon_UpdateTrail_Params
+{
+	float                                              Weight;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.SetIsAllowedToAddForce
+struct AMordhauWeapon_SetIsAllowedToAddForce_Params
+{
+	bool                                               bIsAllowed;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.RequestBlock
+struct AMordhauWeapon_RequestBlock_Params
+{
+	Mordhau_EBlockType                                 BlockType;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bAllowFTP;                                                 // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0002(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnWasBlocked
+struct AMordhauWeapon_OnWasBlocked_Params
+{
+	struct FBlockResult                                Result;                                                    // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnHit
+struct AMordhauWeapon_OnHit_Params
+{
+	class AActor*                                      Actor;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     WorldLocation;                                             // 0x0014(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      Tier;                                                      // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SurfaceType;                                               // 0x0021(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnCosmeticHit
+struct AMordhauWeapon_OnCosmeticHit_Params
+{
+	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FHitResult                                  Hit;                                                       // 0x0004(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnBlockStarted
+struct AMordhauWeapon_OnBlockStarted_Params
+{
+	Mordhau_EBlockType                                 Type;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnBlocked
+struct AMordhauWeapon_OnBlocked_Params
+{
+	struct FBlockResult                                Result;                                                    // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.OnAttackStopped
+struct AMordhauWeapon_OnAttackStopped_Params
+{
+};
+
+// Function Mordhau.MordhauWeapon.OnAttackStarted
+struct AMordhauWeapon_OnAttackStarted_Params
+{
+	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.IsAllowedToAddForce
+struct AMordhauWeapon_IsAllowedToAddForce_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.IncreaseBloodLevel
+struct AMordhauWeapon_IncreaseBloodLevel_Params
+{
+	float                                              Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.GetTrace
+struct AMordhauWeapon_GetTrace_Params
+{
+	struct FVector                                     TraceStart;                                                // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.GetBaseAttackInfo
+struct AMordhauWeapon_GetBaseAttackInfo_Params
+{
+	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FAttackInfo                                 ReturnValue;                                               // 0x0008(0x0128)  (ConstParm, Parm, OutParm, ReturnParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.GetAdditionalTrace
+struct AMordhauWeapon_GetAdditionalTrace_Params
+{
+	struct FVector                                     TraceStart;                                                // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauWeapon.AddTraceEntryData
+struct AMordhauWeapon_AddTraceEntryData_Params
+{
+	class AActor*                                      Actor;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       bone;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.VirtualWeapon.InitializeVirtualWeapon
+struct AVirtualWeapon_InitializeVirtualWeapon_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GameModeMetadata.GetPlayerCount
+struct UGameModeMetadata_GetPlayerCount_Params
+{
+	MordhauOnlineSubsystem_EServerRegion               ServerRegion;                                              // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<int>                                        ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GameModeMetadata.GetDefaultObject
+struct UGameModeMetadata_GetDefaultObject_Params
+{
+	class UClass*                                      MetadataClass;                                             // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGameModeMetadata*                           ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HeadWearable.GetCoifWearablesNum
+struct UHeadWearable_GetCoifWearablesNum_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HeadWearable.GetCoifWearable
+struct UHeadWearable_GetCoifWearable_Params
+{
+	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HeadWearable.AddCoifWearable
+struct UHeadWearable_AddCoifWearable_Params
+{
+};
+
+// Function Mordhau.StatComponent.TickStat
+struct UStatComponent_TickStat_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.StatComponent.OnRep_StatValue
+struct UStatComponent_OnRep_StatValue_Params
+{
+	int                                                OldStatValue;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.StatComponent.GetStatValue
+struct UStatComponent_GetStatValue_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HealthStatComponent.OnCharacterDied
+struct UHealthStatComponent_OnCharacterDied_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
 // Function Mordhau.MordhauVehicle.RequestUse
 struct AMordhauVehicle_RequestUse_Params
-{
-};
-
-// Function Mordhau.MordhauVehicle.PostProcessCameraPOV
-struct AMordhauVehicle_PostProcessCameraPOV_Params
-{
-	struct FPOV                                        InPOV;                                                     // 0x0000(0x001C)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	struct FPOV                                        ReturnValue;                                               // 0x001C(0x001C)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.OverrideAttackAngle
-struct AMordhauVehicle_OverrideAttackAngle_Params
-{
-	class UAttackMotion*                               Motion;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x0008(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.OnStoppedDriving
-struct AMordhauVehicle_OnStoppedDriving_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.OnStartedDriving
-struct AMordhauVehicle_OnStartedDriving_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauVehicle.OnRep_ReplicatedSecondaryTurnValue
-struct AMordhauVehicle_OnRep_ReplicatedSecondaryTurnValue_Params
-{
-};
-
-// Function Mordhau.MordhauVehicle.OnDriverChanged
-struct AMordhauVehicle_OnDriverChanged_Params
 {
 };
 
@@ -1059,40 +2550,782 @@ struct AMordhauVehicle_KnockOffDriver_Params
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.GetVehicleLeaveInfo
-struct AMordhauVehicle_GetVehicleLeaveInfo_Params
+// Function Mordhau.MordhauVehicle.GetDriver
+struct AMordhauVehicle_GetDriver_Params
+{
+	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Horse.SpawnTurd
+struct AHorse_SpawnTurd_Params
+{
+};
+
+// Function Mordhau.Horse.ServerRequestRearing
+struct AHorse_ServerRequestRearing_Params
+{
+};
+
+// Function Mordhau.Horse.SecondaryTurnNotAbsolute
+struct AHorse_SecondaryTurnNotAbsolute_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Horse.RequestRearing
+struct AHorse_RequestRearing_Params
+{
+};
+
+// Function Mordhau.Horse.OnRep_ReplicatedRearing
+struct AHorse_OnRep_ReplicatedRearing_Params
+{
+};
+
+// Function Mordhau.Horse.OnBumpCapsuleOverlapped
+struct AHorse_OnBumpCapsuleOverlapped_Params
+{
+	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bFromSweep;                                                // 0x001C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FHitResult                                  SweepResult;                                               // 0x0020(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Horse.GetIsInRearingMode
+struct AHorse_GetIsInRearingMode_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Horse.CalculateBumpDamage
+struct AHorse_CalculateBumpDamage_Params
+{
+	struct FVector                                     OurWorldVelocity;                                          // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x000C(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.UpdateFPCameraFor
+struct UMordhauVehicleComponent_UpdateFPCameraFor_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DeltaSeconds;                                              // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bRotationOnly;                                             // 0x000C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.UpdateAnimationFor
+struct UMordhauVehicleComponent_UpdateAnimationFor_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMordhauAnimInstance*                        AnimInst;                                                  // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              DeltaTime;                                                 // 0x0010(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.Suicide
+struct UMordhauVehicleComponent_Suicide_Params
+{
+};
+
+// Function Mordhau.MordhauVehicleComponent.StopDriving
+struct UMordhauVehicleComponent_StopDriving_Params
+{
+};
+
+// Function Mordhau.MordhauVehicleComponent.StartDriving
+struct UMordhauVehicleComponent_StartDriving_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.SetDriver
+struct UMordhauVehicleComponent_SetDriver_Params
+{
+	class AMordhauCharacter*                           NewDriver;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.ServerSecondaryTurn
+struct UMordhauVehicleComponent_ServerSecondaryTurn_Params
+{
+	float                                              NewTurn;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.SecondaryTurnAtRate
+struct UMordhauVehicleComponent_SecondaryTurnAtRate_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.SecondaryTurn
+struct UMordhauVehicleComponent_SecondaryTurn_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bIsAbsolute;                                               // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.RequestMeshEnablePhysics
+struct UMordhauVehicleComponent_RequestMeshEnablePhysics_Params
+{
+	float                                              Duration;                                                  // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.PostProcessCameraPOV
+struct UMordhauVehicleComponent_PostProcessCameraPOV_Params
+{
+	struct FPOV                                        InPOV;                                                     // 0x0000(0x001C)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	class AMordhauCharacter*                           Character;                                                 // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPOV                                        ReturnValue;                                               // 0x0028(0x001C)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.OverrideAttackAngle
+struct UMordhauVehicleComponent_OverrideAttackAngle_Params
+{
+	class UAttackMotion*                               Motion;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x0008(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.OnStoppedDriving
+struct UMordhauVehicleComponent_OnStoppedDriving_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.OnStartedDriving
+struct UMordhauVehicleComponent_OnStartedDriving_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.OnRep_ReplicatedSecondaryTurnValue
+struct UMordhauVehicleComponent_OnRep_ReplicatedSecondaryTurnValue_Params
+{
+};
+
+// Function Mordhau.MordhauVehicleComponent.OnDriverChanged
+struct UMordhauVehicleComponent_OnDriverChanged_Params
+{
+};
+
+// Function Mordhau.MordhauVehicleComponent.GetVehicleLeaveInfo
+struct UMordhauVehicleComponent_GetVehicleLeaveInfo_Params
 {
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FTransform                                  FromTransform;                                             // 0x0010(0x0030)  (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FVehicleTransitionInfo                      ReturnValue;                                               // 0x0040(0x0010)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.GetVehicleEnterInfo
-struct AMordhauVehicle_GetVehicleEnterInfo_Params
+// Function Mordhau.MordhauVehicleComponent.GetVehicleEnterInfo
+struct UMordhauVehicleComponent_GetVehicleEnterInfo_Params
 {
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FTransform                                  FromTransform;                                             // 0x0010(0x0030)  (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 	struct FVehicleTransitionInfo                      ReturnValue;                                               // 0x0040(0x0010)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.GetExitTransform
-struct AMordhauVehicle_GetExitTransform_Params
+// Function Mordhau.MordhauVehicleComponent.GetPawnOwner
+struct UMordhauVehicleComponent_GetPawnOwner_Params
+{
+	class APawn*                                       ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.GetMesh
+struct UMordhauVehicleComponent_GetMesh_Params
+{
+	class USkeletalMeshComponent*                      ReturnValue;                                               // 0x0000(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.GetLookUpValue
+struct UMordhauVehicleComponent_GetLookUpValue_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.GetExitTransform
+struct UMordhauVehicleComponent_GetExitTransform_Params
 {
 	struct FTransform                                  ReturnValue;                                               // 0x0000(0x0030)  (Parm, OutParm, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.DriverLateTick
-struct AMordhauVehicle_DriverLateTick_Params
+// Function Mordhau.MordhauVehicleComponent.GetDriver
+struct UMordhauVehicleComponent_GetDriver_Params
+{
+	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauVehicleComponent.DriverLateTick
+struct UMordhauVehicleComponent_DriverLateTick_Params
 {
 	class AMordhauCharacter*                           FromDriver;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              DeltaTime;                                                 // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauVehicle.CanDrive
-struct AMordhauVehicle_CanDrive_Params
+// Function Mordhau.MordhauVehicleComponent.CanDrive
+struct UMordhauVehicleComponent_CanDrive_Params
 {
 	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.UpdateSkeletalMeshComponentMaterials
+struct UHumanMeshComponent_UpdateSkeletalMeshComponentMaterials_Params
+{
+	class USkeletalMeshComponent*                      USMC;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.UpdateAllSkeletalMeshComponentMaterials
+struct UHumanMeshComponent_UpdateAllSkeletalMeshComponentMaterials_Params
+{
+};
+
+// Function Mordhau.HumanMeshComponent.SetMaterialParamsForMergedSlot
+struct UHumanMeshComponent_SetMaterialParamsForMergedSlot_Params
+{
+	struct FString                                     Prefix;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMordhauWearable*                            Wearable;                                                  // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMaterialInstanceDynamic*                    Mid;                                                       // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               LowQuality;                                                // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.SetMaterialParamsForLODMasterSlot
+struct UHumanMeshComponent_SetMaterialParamsForLODMasterSlot_Params
+{
+	struct FString                                     Slot;                                                      // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMordhauWearable*                            Wearable;                                                  // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMaterialInstanceDynamic*                    Mid;                                                       // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.OnCharacterTornOff
+struct UHumanMeshComponent_OnCharacterTornOff_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.OnCharacterChangedTeam
+struct UHumanMeshComponent_OnCharacterChangedTeam_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.OnCharacterCameraStyleChanged
+struct UHumanMeshComponent_OnCharacterCameraStyleChanged_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.OnCharacterBuilt
+struct UHumanMeshComponent_OnCharacterBuilt_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.ModifyBodyColors
+struct UHumanMeshComponent_ModifyBodyColors_Params
+{
+	struct FLinearColor                                InSkinColor;                                               // 0x0000(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                                InHairColor;                                               // 0x0010(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                                InEyeColor;                                                // 0x0020(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                                OutSkinColor;                                              // 0x0030(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                                OutHairColor;                                              // 0x0040(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                                OutEyeColor;                                               // 0x0050(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.CreateUnifiedMeshIfNone
+struct UHumanMeshComponent_CreateUnifiedMeshIfNone_Params
+{
+	bool                                               bRequireHeavyDutyCheck;                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.CreateFPMeshIfNone
+struct UHumanMeshComponent_CreateFPMeshIfNone_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.HumanMeshComponent.CreateFPDeadMeshIfNone
+struct UHumanMeshComponent_CreateFPDeadMeshIfNone_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.UnHighlight
+struct UInteractable_UnHighlight_Params
+{
+};
+
+// Function Mordhau.Interactable.OnInteractPassively
+struct UInteractable_OnInteractPassively_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.OnInteractionStart
+struct UInteractable_OnInteractionStart_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.OnInteractionMaintained
+struct UInteractable_OnInteractionMaintained_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.OnInteractionEnd
+struct UInteractable_OnInteractionEnd_Params
+{
+};
+
+// Function Mordhau.Interactable.OnHighlightStart
+struct UInteractable_OnHighlightStart_Params
+{
+};
+
+// Function Mordhau.Interactable.OnHighlightMaintained
+struct UInteractable_OnHighlightMaintained_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.OnHighlightEnd
+struct UInteractable_OnHighlightEnd_Params
+{
+};
+
+// Function Mordhau.Interactable.OnHeldInteractionStart
+struct UInteractable_OnHeldInteractionStart_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.InteractPassively
+struct UInteractable_InteractPassively_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.InteractionStart
+struct UInteractable_InteractionStart_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.InteractionMaintained
+struct UInteractable_InteractionMaintained_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.InteractionEnd
+struct UInteractable_InteractionEnd_Params
+{
+};
+
+// Function Mordhau.Interactable.Highlight
+struct UInteractable_Highlight_Params
+{
+};
+
+// Function Mordhau.Interactable.HeldInteractionStart
+struct UInteractable_HeldInteractionStart_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.GetMaxInteractionHoldTime
+struct UInteractable_GetMaxInteractionHoldTime_Params
+{
+	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.CanInteractPassively
+struct UInteractable_CanInteractPassively_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.CanInteract
+struct UInteractable_CanInteract_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Interactable.CanHeldInteract
+struct UInteractable_CanHeldInteract_Params
+{
+	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionComponent.UnHighlight
+struct UInteractionComponent_UnHighlight_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.OnInteractionStart
+struct UInteractionComponent_OnInteractionStart_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionComponent.OnInteractionEnd
+struct UInteractionComponent_OnInteractionEnd_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.OnHighlightStart
+struct UInteractionComponent_OnHighlightStart_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.OnHighlightEnd
+struct UInteractionComponent_OnHighlightEnd_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.InteractionStart
+struct UInteractionComponent_InteractionStart_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionComponent.InteractionEnd
+struct UInteractionComponent_InteractionEnd_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.Highlight
+struct UInteractionComponent_Highlight_Params
+{
+};
+
+// Function Mordhau.InteractionComponent.CanInteract
+struct UInteractionComponent_CanInteract_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionSystemComponent.OnUnPossessed
+struct UInteractionSystemComponent_OnUnPossessed_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionSystemComponent.OnLODTick
+struct UInteractionSystemComponent_OnLODTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionSystemComponent.OnLateTick
+struct UInteractionSystemComponent_OnLateTick_Params
+{
+	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.InteractionSystemComponent.OnCharacterDestroyed
+struct UInteractionSystemComponent_OnCharacterDestroyed_Params
+{
+	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.LegsWearable.GetFeetWearablesNum
+struct ULegsWearable_GetFeetWearablesNum_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.LegsWearable.GetFeetWearable
+struct ULegsWearable_GetFeetWearable_Params
+{
+	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MasterField.UpdateField
+struct AMasterField_UpdateField_Params
+{
+};
+
+// Function Mordhau.MasterField.SetSubFieldsHidden
+struct AMasterField_SetSubFieldsHidden_Params
+{
+	bool                                               bAreHidden;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MasterField.RecomputeCombinedBoundingBox
+struct AMasterField_RecomputeCombinedBoundingBox_Params
+{
+};
+
+// Function Mordhau.MasterField.GetSubFields
+struct AMasterField_GetSubFields_Params
+{
+	TArray<class ASubField*>                           ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MasterField.GetFieldBoundsCenter
+struct AMasterField_GetFieldBoundsCenter_Params
+{
+	struct FVector                                     ReturnValue;                                               // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MasterField.DeactivateAndDestroyField
+struct AMasterField_DeactivateAndDestroyField_Params
+{
+};
+
+// Function Mordhau.MasterField.CreateField
+struct AMasterField_CreateField_Params
+{
+};
+
+// Function Mordhau.MasterField.ComputeDistanceIntoField
+struct AMasterField_ComputeDistanceIntoField_Params
+{
+	struct FVector                                     Location;                                                  // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x000C(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MasterField.BeginFieldDeactivation
+struct AMasterField_BeginFieldDeactivation_Params
+{
+};
+
+// Function Mordhau.CreateMatchmakingTicket.CreateMatchmakingTicket
+struct UCreateMatchmakingTicket_CreateMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabMatchmakingAttributes               Attributes;                                                // 0x0010(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FString>                             Members;                                                   // 0x0070(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Timeout;                                                   // 0x0080(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UCreateMatchmakingTicket*                    ReturnValue;                                               // 0x0088(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.JoinMatchmakingTicket.JoinMatchmakingTicket
+struct UJoinMatchmakingTicket_JoinMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabMatchmakingAttributes               Attributes;                                                // 0x0020(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UJoinMatchmakingTicket*                      ReturnValue;                                               // 0x0080(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.CancelMatchmakingTicket.CancelMatchmakingTicket
+struct UCancelMatchmakingTicket_CancelMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UCancelMatchmakingTicket*                    ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetMatchmakingTicket.GetMatchmakingTicket
+struct UGetMatchmakingTicket_GetMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGetMatchmakingTicket*                       ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetMatchmakingMatch.GetMatchmakingMatch
+struct UGetMatchmakingMatch_GetMatchmakingMatch_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGetMatchmakingMatch*                        ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetGameServers.GetGameServers
+struct UGetGameServers_GetGameServers_Params
+{
+	struct FGameServerFilter                           Filter;                                                    // 0x0000(0x0048)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class UGetGameServers*                             ReturnValue;                                               // 0x0048(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetGameServer.GetGameServer
+struct UGetGameServer_GetGameServer_Params
+{
+	struct FString                                     ServerId;                                                  // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     IPV4Address;                                               // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Port;                                                      // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGetGameServer*                              ReturnValue;                                               // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ReserveServerSlots.ReserveServerSlots
+struct UReserveServerSlots_ReserveServerSlots_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0008(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	TArray<struct FPlayFabMatchmakingPlayer>           Players;                                                   // 0x0030(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UReserveServerSlots*                         ReturnValue;                                               // 0x0040(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.JoinMatchmakingMatch.JoinMatchmakingMatch
+struct UJoinMatchmakingMatch_JoinMatchmakingMatch_Params
+{
+	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class UJoinMatchmakingMatch*                       ReturnValue;                                               // 0x00A8(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.LeaveMatchmakingMatch.LeaveMatchmakingMatch
+struct ULeaveMatchmakingMatch_LeaveMatchmakingMatch_Params
+{
+	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class ULeaveMatchmakingMatch*                      ReturnValue;                                               // 0x00A8(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.UpdateMatchmakingMatch.UpdateMatchmakingMatch
+struct UUpdateMatchmakingMatch_UpdateMatchmakingMatch_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class UUpdateMatchmakingMatch*                     ReturnValue;                                               // 0x00B0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.StartMatchmakingMatch.StartMatchmakingMatch
+struct UStartMatchmakingMatch_StartMatchmakingMatch_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class UStartMatchmakingMatch*                      ReturnValue;                                               // 0x00B0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.SetMatchmakingMatchServerDetails.SetMatchmakingMatchServerDetails
+struct USetMatchmakingMatchServerDetails_SetMatchmakingMatchServerDetails_Params
+{
+	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x00A8(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	class USetMatchmakingMatchServerDetails*           ReturnValue;                                               // 0x00D0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetMatchmakingPenalty.GetMatchmakingPenalty
+struct UGetMatchmakingPenalty_GetMatchmakingPenalty_Params
+{
+	struct FPlayFabPlayerEntity                        PlayerEntity;                                              // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGetMatchmakingPenalty*                      ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.PenalizeForLeavingActiveMatch.PenalizeForLeavingActiveMatch
+struct UPenalizeForLeavingActiveMatch_PenalizeForLeavingActiveMatch_Params
+{
+	struct FPlayFabPlayerEntity                        PlayerEntity;                                              // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UPenalizeForLeavingActiveMatch*              ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.PenalizeForLeavingActiveMatch.OnGetMatchmakingPenaltySuccess
+struct UPenalizeForLeavingActiveMatch_OnGetMatchmakingPenaltySuccess_Params
+{
+	struct FPlayFabPlayerEntity                        InPlayerEntity;                                            // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                InLeaveCount;                                              // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FDateTime                                   InLeaveTime;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FDateTime                                   InBanEndTime;                                              // 0x0030(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.PenalizeForLeavingActiveMatch.OnGetMatchmakingPenaltyFailure
+struct UPenalizeForLeavingActiveMatch_OnGetMatchmakingPenaltyFailure_Params
+{
+	struct FPlayFabPlayerEntity                        InPlayerEntity;                                            // 0x0000(0x0020)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                InLeaveCount;                                              // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FDateTime                                   InLeaveTime;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FDateTime                                   InBanEndTime;                                              // 0x0030(0x0008)  (Parm, ZeroConstructor, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.RequestPartyStats.RequestPartyStats
+struct URequestPartyStats_RequestPartyStats_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class URequestPartyStats*                          ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.UnmountMod
+struct UMods_UnmountMod_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.UninstallMod
+struct UMods_UninstallMod_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.Process
+struct UMods_Process_Params
+{
+};
+
+// Function Mordhau.Mods.MountMods
+struct UMods_MountMods_Params
+{
+	TArray<int>                                        ModIds;                                                    // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.MountMod
+struct UMods_MountMod_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.MountAllPaksInCustomPakFolder
+struct UMods_MountAllPaksInCustomPakFolder_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.MountAllInstalledMods
+struct UMods_MountAllInstalledMods_Params
+{
+};
+
+// Function Mordhau.Mods.IsModMounted
+struct UMods_IsModMounted_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.GetModDownloadQueue
+struct UMods_GetModDownloadQueue_Params
+{
+	TArray<struct FQueuedModDownload>                  ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.GetInstalledMod
+struct UMods_GetInstalledMod_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FInstalledMod                               ReturnValue;                                               // 0x0008(0x0060)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.GetAllInstalledMods
+struct UMods_GetAllInstalledMods_Params
+{
+	TArray<struct FInstalledMod>                       ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.Mods.CancelModDownload
+struct UMods_CancelModDownload_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.GetMod.GetMod
+struct UGetMod_GetMod_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGetMod*                                     ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.DownloadModfilesById.DownloadModfilesById
+struct UDownloadModfilesById_DownloadModfilesById_Params
+{
+	TArray<int>                                        ModIds;                                                    // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UDownloadModfilesById*                       ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.Mordhau1DVehicle.OnStepChanged
@@ -1340,12 +3573,6 @@ struct AMordhauAIController_CanInteract_Params
 {
 	class AActor*                                      Target;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CreatureAnimInstance.DoFootstep
-struct UCreatureAnimInstance_DoFootstep_Params
-{
-	int                                                Limb;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauBeaconClient.ServerReserveSlots
@@ -2302,7 +4529,7 @@ struct AMordhauCharacter_GetLastVehicleTime_Params
 struct AMordhauCharacter_GetLastUsedVehicle_Params
 {
 	float                                              MaximumTimeDiscrepancy;                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AMordhauVehicle*                             ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMordhauVehicleComponent*                    ReturnValue;                                               // 0x0008(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauCharacter.GetLastMovementFrontalHitActor
@@ -2708,6 +4935,1022 @@ struct AMordhauCharacter_AppendHeadSet_Params
 // Function Mordhau.MordhauCharacter.AppendBodySet
 struct AMordhauCharacter_AppendBodySet_Params
 {
+};
+
+// Function Mordhau.MordhauDialog.Show
+struct UMordhauDialog_Show_Params
+{
+};
+
+// Function Mordhau.MordhauDialog.Hide
+struct UMordhauDialog_Hide_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.UpdateParty
+struct UMordhauGameInstance_UpdateParty_Params
+{
+	bool                                               bUpdateProfile;                                            // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.UnregisterMetadata
+struct UMordhauGameInstance_UnregisterMetadata_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.StopLoadingScreen
+struct UMordhauGameInstance_StopLoadingScreen_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.Shutdown
+struct UMordhauGameInstance_Shutdown_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ShowPasswordDialog
+struct UMordhauGameInstance_ShowPasswordDialog_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ShowNetworkErrorDialog
+struct UMordhauGameInstance_ShowNetworkErrorDialog_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ShowJoiningDialog
+struct UMordhauGameInstance_ShowJoiningDialog_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ShowInviteDialog
+struct UMordhauGameInstance_ShowInviteDialog_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyServerDetails
+struct UMordhauGameInstance_SetPartyServerDetails_Params
+{
+	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyMemberServerDetails
+struct UMordhauGameInstance_SetPartyMemberServerDetails_Params
+{
+	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyMemberProfile
+struct UMordhauGameInstance_SetPartyMemberProfile_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayerProfile                              Profile;                                                   // 0x0060(0x00C8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyMatchmakingState
+struct UMordhauGameInstance_SetPartyMatchmakingState_Params
+{
+	Mordhau_EMatchmakingState                          MatchmakingState;                                          // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyMatchmakingMembers
+struct UMordhauGameInstance_SetPartyMatchmakingMembers_Params
+{
+	TArray<struct FString>                             Members;                                                   // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyMatch
+struct UMordhauGameInstance_SetPartyMatch_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyLeader
+struct UMordhauGameInstance_SetPartyLeader_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetPartyGameServer
+struct UMordhauGameInstance_SetPartyGameServer_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetNetworkError
+struct UMordhauGameInstance_SetNetworkError_Params
+{
+	struct FText                                       ErrorText;                                                 // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetMatchmakingMatchID
+struct UMordhauGameInstance_SetMatchmakingMatchID_Params
+{
+	struct FString                                     MatchId;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetLastPlayerLeaveTime
+struct UMordhauGameInstance_SetLastPlayerLeaveTime_Params
+{
+	double                                             InLastPlayerLeaveTime;                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SetIngameEvent
+struct UMordhauGameInstance_SetIngameEvent_Params
+{
+	MordhauOnlineSubsystem_EIngameEvent                InIngameEvent;                                             // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ServerTravel
+struct UMordhauGameInstance_ServerTravel_Params
+{
+	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     MapName;                                                   // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.SaveConfig
+struct UMordhauGameInstance_SaveConfig_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.RespondControllerConnectionChange
+struct UMordhauGameInstance_RespondControllerConnectionChange_Params
+{
+	bool                                               Status;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                UserId;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ControllerId;                                              // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.RequestPlayerInformation
+struct UMordhauGameInstance_RequestPlayerInformation_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.RemovePartyMatchmakingTicket
+struct UMordhauGameInstance_RemovePartyMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.RegisterMetadata
+struct UMordhauGameInstance_RegisterMetadata_Params
+{
+	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FString>                             AssetPaths;                                                // 0x0008(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.PerformPlatformLogin
+struct UMordhauGameInstance_PerformPlatformLogin_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.OnStatsBecameAvailable
+struct UMordhauGameInstance_OnStatsBecameAvailable_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.OnInventoryBecameAvailable
+struct UMordhauGameInstance_OnInventoryBecameAvailable_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.OnFindMordhauServerSessionByAddressSuccess
+struct UMordhauGameInstance_OnFindMordhauServerSessionByAddressSuccess_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.LogMatchmakingState
+struct UMordhauGameInstance_LogMatchmakingState_Params
+{
+	struct FString                                     Message;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.LeaveParty
+struct UMordhauGameInstance_LeaveParty_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.KickPartyMember
+struct UMordhauGameInstance_KickPartyMember_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.JoinSessionSearchResult
+struct UMordhauGameInstance_JoinSessionSearchResult_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.JoinPartyGameServer
+struct UMordhauGameInstance_JoinPartyGameServer_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.IsPartyReadyForMatchmaking
+struct UMordhauGameInstance_IsPartyReadyForMatchmaking_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsPartyMember
+struct UMordhauGameInstance_IsPartyMember_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0060(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsPartyLeader
+struct UMordhauGameInstance_IsPartyLeader_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsOfficialServerMuted
+struct UMordhauGameInstance_IsOfficialServerMuted_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsOfficialServerBanned
+struct UMordhauGameInstance_IsOfficialServerBanned_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsLoggingIn
+struct UMordhauGameInstance_IsLoggingIn_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsLoggedIn
+struct UMordhauGameInstance_IsLoggedIn_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsLoadingScreenActive
+struct UMordhauGameInstance_IsLoadingScreenActive_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsInventoryAvailable
+struct UMordhauGameInstance_IsInventoryAvailable_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsGlobalServerMuted
+struct UMordhauGameInstance_IsGlobalServerMuted_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.IsGlobalServerBanned
+struct UMordhauGameInstance_IsGlobalServerBanned_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.Init
+struct UMordhauGameInstance_Init_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.HasCompletedLogin
+struct UMordhauGameInstance_HasCompletedLogin_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetServerRegionPings
+struct UMordhauGameInstance_GetServerRegionPings_Params
+{
+	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TMap<MordhauOnlineSubsystem_EServerLocation, int>  ReturnValue;                                               // 0x0008(0x0050)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetServerLocationPreference
+struct UMordhauGameInstance_GetServerLocationPreference_Params
+{
+	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<MordhauOnlineSubsystem_EServerLocation>     ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetServerLocationPings
+struct UMordhauGameInstance_GetServerLocationPings_Params
+{
+	TMap<MordhauOnlineSubsystem_EServerLocation, int>  ReturnValue;                                               // 0x0000(0x0050)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetServerLocationPing
+struct UMordhauGameInstance_GetServerLocationPing_Params
+{
+	MordhauOnlineSubsystem_EServerLocation             Location;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetProfaneWords
+struct UMordhauGameInstance_GetProfaneWords_Params
+{
+	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPlatform
+struct UMordhauGameInstance_GetPlatform_Params
+{
+	MordhauOnlineSubsystem_EPlatform                   ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartySize
+struct UMordhauGameInstance_GetPartySize_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyServerDetails
+struct UMordhauGameInstance_GetPartyServerDetails_Params
+{
+	struct FPlayFabServerDetails                       OutServerDetails;                                          // 0x0000(0x0028)  (Parm, OutParm, NativeAccessSpecifierPublic)
+	bool                                               bWasSuccessful;                                            // 0x0028(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMMR
+struct UMordhauGameInstance_GetPartyMMR_Params
+{
+	struct FString                                     GameMode;                                                  // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMemberStatus
+struct UMordhauGameInstance_GetPartyMemberStatus_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     ReturnValue;                                               // 0x0060(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMemberServerDetails
+struct UMordhauGameInstance_GetPartyMemberServerDetails_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabServerDetails                       OutServerDetails;                                          // 0x0060(0x0028)  (Parm, OutParm, NativeAccessSpecifierPublic)
+	bool                                               bWasSuccessful;                                            // 0x0088(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMemberServerAddress
+struct UMordhauGameInstance_GetPartyMemberServerAddress_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FServerAddress                              Address;                                                   // 0x0060(0x0008)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                               bWasSuccessful;                                            // 0x0068(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMembers
+struct UMordhauGameInstance_GetPartyMembers_Params
+{
+	TArray<struct FPlayFabPlayer>                      ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMemberProfile
+struct UMordhauGameInstance_GetPartyMemberProfile_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayerProfile                              Profile;                                                   // 0x0060(0x00C8)  (Parm, OutParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0128(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMemberEntities
+struct UMordhauGameInstance_GetPartyMemberEntities_Params
+{
+	TArray<struct FPlayFabPlayerEntity>                ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingTickets
+struct UMordhauGameInstance_GetPartyMatchmakingTickets_Params
+{
+	TArray<struct FMatchmakingTicket>                  ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingState
+struct UMordhauGameInstance_GetPartyMatchmakingState_Params
+{
+	Mordhau_EMatchmakingState                          ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingMembers
+struct UMordhauGameInstance_GetPartyMatchmakingMembers_Params
+{
+	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyMatch
+struct UMordhauGameInstance_GetPartyMatch_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyLeader
+struct UMordhauGameInstance_GetPartyLeader_Params
+{
+	struct FPlayFabPlayer                              ReturnValue;                                               // 0x0000(0x0060)  (Parm, OutParm, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyID
+struct UMordhauGameInstance_GetPartyID_Params
+{
+	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetPartyGroupID
+struct UMordhauGameInstance_GetPartyGroupID_Params
+{
+	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetOtherPartyMembersEntityIDs
+struct UMordhauGameInstance_GetOtherPartyMembersEntityIDs_Params
+{
+	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetOfficialServerMuteDuration
+struct UMordhauGameInstance_GetOfficialServerMuteDuration_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetOfficialServerBanDuration
+struct UMordhauGameInstance_GetOfficialServerBanDuration_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetNumReservedSlots
+struct UMordhauGameInstance_GetNumReservedSlots_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetNextMatchID
+struct UMordhauGameInstance_GetNextMatchID_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetMatchmakingMatchID
+struct UMordhauGameInstance_GetMatchmakingMatchID_Params
+{
+	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetMatchmakingGroupID
+struct UMordhauGameInstance_GetMatchmakingGroupID_Params
+{
+	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetMapInfo
+struct UMordhauGameInstance_GetMapInfo_Params
+{
+	struct FString                                     MapName;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMapInfo                                    ReturnValue;                                               // 0x0010(0x0020)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetLastPlayerLeaveTime
+struct UMordhauGameInstance_GetLastPlayerLeaveTime_Params
+{
+	double                                             ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetIngameEvent
+struct UMordhauGameInstance_GetIngameEvent_Params
+{
+	MordhauOnlineSubsystem_EIngameEvent                ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetGlobalServerMuteDuration
+struct UMordhauGameInstance_GetGlobalServerMuteDuration_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetGlobalServerBanDuration
+struct UMordhauGameInstance_GetGlobalServerBanDuration_Params
+{
+	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.GetBlacklistedServers
+struct UMordhauGameInstance_GetBlacklistedServers_Params
+{
+	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.FindMapMetadata
+struct UMordhauGameInstance_FindMapMetadata_Params
+{
+	struct FString                                     GameModeMapName;                                           // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UMapMetadata*                                ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.FindGameModeMetadata
+struct UMordhauGameInstance_FindGameModeMetadata_Params
+{
+	struct FString                                     GameModePrefix;                                            // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UGameModeMetadata*                           ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.FindBestServerRegion
+struct UMordhauGameInstance_FindBestServerRegion_Params
+{
+	MordhauOnlineSubsystem_EServerRegion               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.FindBestServerLocation
+struct UMordhauGameInstance_FindBestServerLocation_Params
+{
+	MordhauOnlineSubsystem_EServerLocation             ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.DetermineServerLocationPings
+struct UMordhauGameInstance_DetermineServerLocationPings_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClientTravelSession
+struct UMordhauGameInstance_ClientTravelSession_Params
+{
+	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	struct FString                                     Password;                                                  // 0x0110(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0120(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ClientTravelServerDetails
+struct UMordhauGameInstance_ClientTravelServerDetails_Params
+{
+	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	struct FString                                     Password;                                                  // 0x0028(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0038(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ClientTravel
+struct UMordhauGameInstance_ClientTravel_Params
+{
+	struct FString                                     MapName;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                PlayerCount;                                               // 0x0010(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0014(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyServerDetails
+struct UMordhauGameInstance_ClearPartyServerDetails_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyMemberServerDetails
+struct UMordhauGameInstance_ClearPartyMemberServerDetails_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyMemberProfile
+struct UMordhauGameInstance_ClearPartyMemberProfile_Params
+{
+	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyMatchmakingTickets
+struct UMordhauGameInstance_ClearPartyMatchmakingTickets_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyMatchmakingMembers
+struct UMordhauGameInstance_ClearPartyMatchmakingMembers_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyMatch
+struct UMordhauGameInstance_ClearPartyMatch_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.ClearPartyGameServer
+struct UMordhauGameInstance_ClearPartyGameServer_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.CanLeaveParty
+struct UMordhauGameInstance_CanLeaveParty_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.CanInviteToParty
+struct UMordhauGameInstance_CanInviteToParty_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.BPStopRecordingReplay
+struct UMordhauGameInstance_BPStopRecordingReplay_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.BPStopPlayingReplay
+struct UMordhauGameInstance_BPStopPlayingReplay_Params
+{
+};
+
+// Function Mordhau.MordhauGameInstance.BPStartRecordingReplay
+struct UMordhauGameInstance_BPStartRecordingReplay_Params
+{
+	struct FString                                     InName;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     FriendlyName;                                              // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FString>                             AdditionalOptions;                                         // 0x0020(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.BPPlayReplay
+struct UMordhauGameInstance_BPPlayReplay_Params
+{
+	struct FString                                     InName;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FString>                             AdditionalOptions;                                         // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.AreStatsAvailable
+struct UMordhauGameInstance_AreStatsAvailable_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameInstance.AddPartyMatchmakingTicket
+struct UMordhauGameInstance_AddPartyMatchmakingTicket_Params
+{
+	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.VoteLevel
+struct AMordhauGameMode_VoteLevel_Params
+{
+	class APlayerController*                           Player;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     LevelName;                                                 // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.SetTeamScore
+struct AMordhauGameMode_SetTeamScore_Params
+{
+	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Amount;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.SetRconEvent
+struct AMordhauGameMode_SetRconEvent_Params
+{
+	struct FRconEventStruct                            InStruct;                                                  // 0x0000(0x0020)  (Parm, OutParm, NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             InEvent;                                                   // 0x0020(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                               bOverrideExisting;                                         // 0x0030(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0031(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.RequestedAssignTeam
+struct AMordhauGameMode_RequestedAssignTeam_Params
+{
+	class AController*                                 Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Team;                                                      // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.RemoveBots
+struct AMordhauGameMode_RemoveBots_Params
+{
+	int                                                Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Team;                                                      // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnTeamScoreChanged
+struct AMordhauGameMode_OnTeamScoreChanged_Params
+{
+	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              OldValue;                                                  // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnScoreChanged
+struct AMordhauGameMode_OnScoreChanged_Params
+{
+	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnMatchStateChanged
+struct AMordhauGameMode_OnMatchStateChanged_Params
+{
+	struct FName                                       OldState;                                                  // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       NewState;                                                  // 0x0008(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnKillsChanged
+struct AMordhauGameMode_OnKillsChanged_Params
+{
+	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnKilled
+struct AMordhauGameMode_OnKilled_Params
+{
+	class AController*                                 Killer;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AController*                                 KilledPlayer;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class APawn*                                       KilledPawn;                                                // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0018(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	unsigned char                                      SubType;                                                   // 0x0019(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageSource;                                              // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageAgent;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnDeathsChanged
+struct AMordhauGameMode_OnDeathsChanged_Params
+{
+	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.OnAssistsChanged
+struct AMordhauGameMode_OnAssistsChanged_Params
+{
+	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.MatchTimeRanOut
+struct AMordhauGameMode_MatchTimeRanOut_Params
+{
+};
+
+// Function Mordhau.MordhauGameMode.IsSpawnpointAllowed
+struct AMordhauGameMode_IsSpawnpointAllowed_Params
+{
+	class APlayerStart*                                PlayerStart;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AController*                                 Player;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetSpawnpointPreference
+struct AMordhauGameMode_GetSpawnpointPreference_Params
+{
+	class APlayerStart*                                PlayerStart;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AController*                                 Player;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetNextMaps
+struct AMordhauGameMode_GetNextMaps_Params
+{
+	int                                                Count;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<struct FString>                             ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetNextMap
+struct AMordhauGameMode_GetNextMap_Params
+{
+	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetMapVoteMaps
+struct AMordhauGameMode_GetMapVoteMaps_Params
+{
+	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetMapVoteCounts
+struct AMordhauGameMode_GetMapVoteCounts_Params
+{
+	TArray<unsigned char>                              ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.GetDamageFactor
+struct AMordhauGameMode_GetDamageFactor_Params
+{
+	class AActor*                                      DamageSource;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageTarget;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.ControllerCanRestart
+struct AMordhauGameMode_ControllerCanRestart_Params
+{
+	class AController*                                 Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.ChangeLevel
+struct AMordhauGameMode_ChangeLevel_Params
+{
+	struct FString                                     LevelName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.CanDealDamage
+struct AMordhauGameMode_CanDealDamage_Params
+{
+	class AActor*                                      DamageSource;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      DamageTarget;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.CanClash
+struct AMordhauGameMode_CanClash_Params
+{
+	class APawn*                                       Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class APawn*                                       Target;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.CanChamber
+struct AMordhauGameMode_CanChamber_Params
+{
+	class APawn*                                       Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class APawn*                                       Target;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.Broadcast
+struct AMordhauGameMode_Broadcast_Params
+{
+	class AActor*                                      Sender;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     Msg;                                                       // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FName                                       Type;                                                      // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.AddTeamScore
+struct AMordhauGameMode_AddTeamScore_Params
+{
+	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                              Amount;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameMode.AddBots
+struct AMordhauGameMode_AddBots_Params
+{
+	int                                                Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                Team;                                                      // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.UploadAdminActionDataToWebhook
+struct AMordhauGameSession_UploadAdminActionDataToWebhook_Params
+{
+	struct FString                                     Command;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FPlayFabPlayer                              Sender;                                                    // 0x0010(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     Details;                                                   // 0x0070(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.UnmutePlayer
+struct AMordhauGameSession_UnmutePlayer_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bExpired;                                                  // 0x0010(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0011(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.UnbanPlayer
+struct AMordhauGameSession_UnbanPlayer_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               bExpired;                                                  // 0x0010(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0011(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.TriggerRewardDropForPlayer
+struct AMordhauGameSession_TriggerRewardDropForPlayer_Params
+{
+	class APlayerController*                           Player;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.TriggerRewardDrop
+struct AMordhauGameSession_TriggerRewardDrop_Params
+{
+};
+
+// Function Mordhau.MordhauGameSession.ReportTimeLeft
+struct AMordhauGameSession_ReportTimeLeft_Params
+{
+	TArray<float>                                      TimeLeft;                                                  // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.ReportPlayer
+struct AMordhauGameSession_ReportPlayer_Params
+{
+	struct FString                                     ReporteePlayFabID;                                         // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     ReporterPlayFabID;                                         // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     ReportType;                                                // 0x0020(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     ScreenshotFilename;                                        // 0x0030(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0040(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.RemoveAdmin
+struct AMordhauGameSession_RemoveAdmin_Params
+{
+	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.MutePlayerWithDuration
+struct AMordhauGameSession_MutePlayerWithDuration_Params
+{
+	class APlayerController*                           MutedPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                MuteDuration;                                              // 0x0008(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x000C(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.MutePlayer
+struct AMordhauGameSession_MutePlayer_Params
+{
+	class APlayerController*                           MutedPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.KickPlayer
+struct AMordhauGameSession_KickPlayer_Params
+{
+	class APlayerController*                           KickedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FText                                       KickReason;                                                // 0x0008(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.IsPlayerMuted
+struct AMordhauGameSession_IsPlayerMuted_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.IsPlayerBanned
+struct AMordhauGameSession_IsPlayerBanned_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.GetPlayerMuteDuration
+struct AMordhauGameSession_GetPlayerMuteDuration_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.GetPlayerBanDuration
+struct AMordhauGameSession_GetPlayerBanDuration_Params
+{
+	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.BanPlayerWithDuration
+struct AMordhauGameSession_BanPlayerWithDuration_Params
+{
+	class APlayerController*                           BannedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int                                                BanDuration;                                               // 0x0008(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FText                                       BanReason;                                                 // 0x0010(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0028(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.BanPlayer
+struct AMordhauGameSession_BanPlayer_Params
+{
+	class APlayerController*                           BannedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FText                                       BanReason;                                                 // 0x0008(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.AllowsJoin
+struct AMordhauGameSession_AllowsJoin_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.AllowJoin
+struct AMordhauGameSession_AllowJoin_Params
+{
+	bool                                               bInAllowJoin;                                              // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.AddTieredAdmin
+struct AMordhauGameSession_AddTieredAdmin_Params
+{
+	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FString                                     Tier;                                                      // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauGameSession.AddAdmin
+struct AMordhauGameSession_AddAdmin_Params
+{
+	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauGameState.UpdateSoundGroups
@@ -4655,8 +7898,8 @@ struct UMordhauInventory_RefreshItems_Params
 struct UMordhauInventory_IsSkinAvailable_Params
 {
 	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0010(0x0048)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0058(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0010(0x0050)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0060(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauInventory.IsInventoryAvailable
@@ -4670,8 +7913,8 @@ struct UMordhauInventory_IsInventoryAvailable_Params
 struct UMordhauInventory_HasSkin_Params
 {
 	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0010(0x0048)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0058(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0010(0x0050)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	bool                                               ReturnValue;                                               // 0x0060(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauInventory.HasItem
@@ -4738,8 +7981,8 @@ struct UMordhauInventory_GetStackItem_Params
 // Function Mordhau.MordhauInventory.GetSkinRarity
 struct UMordhauInventory_GetSkinRarity_Params
 {
-	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0000(0x0048)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	Mordhau_EItemRarity                                ReturnValue;                                               // 0x0048(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0000(0x0050)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+	Mordhau_EItemRarity                                ReturnValue;                                               // 0x0050(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauInventory.GetPlayerXP
@@ -5308,6 +8551,11 @@ struct AMordhauPlayerController_ServerAddAdmin_Params
 	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
+// Function Mordhau.MordhauPlayerController.Server_Reliable_GiveCata
+struct AMordhauPlayerController_Server_Reliable_GiveCata_Params
+{
+};
+
 // Function Mordhau.MordhauPlayerController.SaveCurrentProfilesAsBotProfiles
 struct AMordhauPlayerController_SaveCurrentProfilesAsBotProfiles_Params
 {
@@ -5597,6 +8845,18 @@ struct AMordhauPlayerController_IsInventoryAvailable_Params
 	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
+// Function Mordhau.MordhauPlayerController.IsAuthenticating
+struct AMordhauPlayerController_IsAuthenticating_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauPlayerController.IsAuthenticated
+struct AMordhauPlayerController_IsAuthenticated_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
 // Function Mordhau.MordhauPlayerController.IsAllowedServer
 struct AMordhauPlayerController_IsAllowedServer_Params
 {
@@ -5622,6 +8882,11 @@ struct AMordhauPlayerController_GiveClientScoreBP_Params
 {
 	Mordhau_EScoreFeedReason                           Reason;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int                                                ScoreAmount;                                               // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.MordhauPlayerController.GiveCata
+struct AMordhauPlayerController_GiveCata_Params
+{
 };
 
 // Function Mordhau.MordhauPlayerController.GetPlayFabPlayer
@@ -6096,177 +9361,6 @@ struct AMordhauPlayerState_AddAssists_Params
 	int                                                Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauActor.UpdateThudVelocity
-struct AMordhauActor_UpdateThudVelocity_Params
-{
-	float                                              NewThudVelocity;                                           // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.UnHighlight
-struct AMordhauActor_UnHighlight_Params
-{
-};
-
-// Function Mordhau.MordhauActor.PostInteractionWidgetCreated
-struct AMordhauActor_PostInteractionWidgetCreated_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnUsedToKillOther
-struct AMordhauActor_OnUsedToKillOther_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SubType;                                                   // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Point;                                                     // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Source;                                                    // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnThud
-struct AMordhauActor_OnThud_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnRep_ReplicatedThud
-struct AMordhauActor_OnRep_ReplicatedThud_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnReceiveCosmeticHit
-struct AMordhauActor_OnReceiveCosmeticHit_Params
-{
-	class AActor*                                      Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Agent;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0010(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FHitResult                                  Hit;                                                       // 0x0014(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnPostDismemberedOther
-struct AMordhauActor_OnPostDismemberedOther_Params
-{
-	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class ASeparatedBodyPart*                          Part;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnLocalPlayerUsedToKillOther
-struct AMordhauActor_OnLocalPlayerUsedToKillOther_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SubType;                                                   // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Point;                                                     // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Source;                                                    // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnInteractPassively
-struct AMordhauActor_OnInteractPassively_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnInteractionStart
-struct AMordhauActor_OnInteractionStart_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnInteractionMaintained
-struct AMordhauActor_OnInteractionMaintained_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnInteractionEnd
-struct AMordhauActor_OnInteractionEnd_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnHighlightStart
-struct AMordhauActor_OnHighlightStart_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnHighlightMaintained
-struct AMordhauActor_OnHighlightMaintained_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.OnHighlightEnd
-struct AMordhauActor_OnHighlightEnd_Params
-{
-};
-
-// Function Mordhau.MordhauActor.OnHeldInteractionStart
-struct AMordhauActor_OnHeldInteractionStart_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.IsAnyInstanceOwner
-struct AMordhauActor_IsAnyInstanceOwner_Params
-{
-	TArray<class AMordhauPlayerController*>            ControllerArray;                                           // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.InteractPassively
-struct AMordhauActor_InteractPassively_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.InteractionStart
-struct AMordhauActor_InteractionStart_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.InteractionMaintained
-struct AMordhauActor_InteractionMaintained_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.InteractionEnd
-struct AMordhauActor_InteractionEnd_Params
-{
-};
-
-// Function Mordhau.MordhauActor.Highlight
-struct AMordhauActor_Highlight_Params
-{
-};
-
-// Function Mordhau.MordhauActor.HeldInteractionStart
-struct AMordhauActor_HeldInteractionStart_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.CanInteractPassively
-struct AMordhauActor_CanInteractPassively_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.CanInteract
-struct AMordhauActor_CanInteract_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauActor.CanHeldInteract
-struct AMordhauActor_CanHeldInteract_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
 // Function Mordhau.MordhauProjectile.WillSticky
 struct AMordhauProjectile_WillSticky_Params
 {
@@ -6377,10 +9471,10 @@ struct AMordhauProjectile_OnProjectileFired_Params
 {
 };
 
-// Function Mordhau.MordhauProjectile.OnProjectileDamagedCharacter
-struct AMordhauProjectile_OnProjectileDamagedCharacter_Params
+// Function Mordhau.MordhauProjectile.OnProjectileDamagedDamagable
+struct AMordhauProjectile_OnProjectileDamagedDamagable_Params
 {
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UDamageableComponent*                        DamagableComp;                                             // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                               bWillKill;                                                 // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FVector                                     WorldLocation;                                             // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FName                                       bone;                                                      // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -6686,452 +9780,6 @@ struct UGetMordhauServerSessionMods_GetMordhauServerSessionMods_Params
 {
 	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 	class UGetMordhauServerSessionMods*                ReturnValue;                                               // 0x0110(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.UpdateMaterial
-struct AMordhauEquipment_UpdateMaterial_Params
-{
-	class USkeletalMeshComponent*                      SkeletalMeshComp;                                          // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.UpdateInteractionCollision
-struct AMordhauEquipment_UpdateInteractionCollision_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.UpdateEquipmentVisualState
-struct AMordhauEquipment_UpdateEquipmentVisualState_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.UpdateEquipmentState
-struct AMordhauEquipment_UpdateEquipmentState_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.SwitchMode
-struct AMordhauEquipment_SwitchMode_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.ShouldShine
-struct AMordhauEquipment_ShouldShine_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.SetPartsUseAuxiliaryMesh
-struct AMordhauEquipment_SetPartsUseAuxiliaryMesh_Params
-{
-	bool                                               bNewValue;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.SetParts
-struct AMordhauEquipment_SetParts_Params
-{
-	TArray<unsigned char>                              NewPartsId;                                                // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bRebuild;                                                  // 0x0010(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.SetLoaded
-struct AMordhauEquipment_SetLoaded_Params
-{
-	bool                                               bNewLoaded;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.SetColors
-struct AMordhauEquipment_SetColors_Params
-{
-	TArray<unsigned char>                              NewColors;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.SetAmmo
-struct AMordhauEquipment_SetAmmo_Params
-{
-	unsigned char                                      NewAmmo;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.RestockOtherEquipmentOnCharacter
-struct AMordhauEquipment_RestockOtherEquipmentOnCharacter_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.ResetMeshRelativeTransform
-struct AMordhauEquipment_ResetMeshRelativeTransform_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.RequestAttack
-struct AMordhauEquipment_RequestAttack_Params
-{
-	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.RebuildIfAllReplicated
-struct AMordhauEquipment_RebuildIfAllReplicated_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.RebuildEquipment
-struct AMordhauEquipment_RebuildEquipment_Params
-{
-	bool                                               bDoOnlyQuickJob;                                           // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnRequestModeSwitch
-struct AMordhauEquipment_OnRequestModeSwitch_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnRequestFire
-struct AMordhauEquipment_OnRequestFire_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedSkin
-struct AMordhauEquipment_OnRep_ReplicatedSkin_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedPattern
-struct AMordhauEquipment_OnRep_ReplicatedPattern_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedPartsId
-struct AMordhauEquipment_OnRep_ReplicatedPartsId_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedEmblemColors
-struct AMordhauEquipment_OnRep_ReplicatedEmblemColors_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedEmblem
-struct AMordhauEquipment_OnRep_ReplicatedEmblem_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_ReplicatedColors
-struct AMordhauEquipment_OnRep_ReplicatedColors_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_IsUsingAlternateMode
-struct AMordhauEquipment_OnRep_IsUsingAlternateMode_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_IsLoaded
-struct AMordhauEquipment_OnRep_IsLoaded_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnRep_Ammo
-struct AMordhauEquipment_OnRep_Ammo_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnPickedUp
-struct AMordhauEquipment_OnPickedUp_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnPartsChanged
-struct AMordhauEquipment_OnPartsChanged_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnLoadedChanged
-struct AMordhauEquipment_OnLoadedChanged_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.OnHolsteredOrDropped
-struct AMordhauEquipment_OnHolsteredOrDropped_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnHolstered
-struct AMordhauEquipment_OnHolstered_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnEquipped
-struct AMordhauEquipment_OnEquipped_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnDropped
-struct AMordhauEquipment_OnDropped_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.OnAmmoChanged
-struct AMordhauEquipment_OnAmmoChanged_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.MarkSkinSeen
-struct AMordhauEquipment_MarkSkinSeen_Params
-{
-	int                                                SkinIdx;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.MarkSeen
-struct AMordhauEquipment_MarkSeen_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.LocalPlayerTick
-struct AMordhauEquipment_LocalPlayerTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.LocalPlayerLateTick
-struct AMordhauEquipment_LocalPlayerLateTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.LateTick
-struct AMordhauEquipment_LateTick_Params
-{
-	float                                              DeltaSeconds;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetWasSkinSeen
-struct AMordhauEquipment_GetWasSkinSeen_Params
-{
-	int                                                SkinIdx;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0004(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetWasSeen
-struct AMordhauEquipment_GetWasSeen_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetRandomCustomization
-struct AMordhauEquipment_GetRandomCustomization_Params
-{
-	bool                                               bOnlyColors;                                               // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FEquipmentCustomization                     ReturnValue;                                               // 0x0008(0x0030)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetParentCharacter
-struct AMordhauEquipment_GetParentCharacter_Params
-{
-	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetCurrentMaxAmmo
-struct AMordhauEquipment_GetCurrentMaxAmmo_Params
-{
-	unsigned char                                      ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.GetAmmo
-struct AMordhauEquipment_GetAmmo_Params
-{
-	unsigned char                                      ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.FireProjectile_Internal
-struct AMordhauEquipment_FireProjectile_Internal_Params
-{
-	struct FVector                                     InOrigin;                                                  // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    InOrientation;                                             // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	class AController*                                 Controller;                                                // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ExpectedDelay;                                             // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsLocal;                                                  // 0x0024(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AMordhauProjectile*                          ReturnValue;                                               // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.FireProjectile
-struct AMordhauEquipment_FireProjectile_Params
-{
-	struct FVector                                     Origin;                                                    // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    Orientation;                                               // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	class AController*                                 OwningController;                                          // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ExpectedDelay;                                             // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.FindCurrentHolsterInfo
-struct AMordhauEquipment_FindCurrentHolsterInfo_Params
-{
-	struct FEquipmentHolsterInfo                       ReturnValue;                                               // 0x0000(0x0060)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.EquipmentCommand
-struct AMordhauEquipment_EquipmentCommand_Params
-{
-	int                                                Command;                                                   // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.DestroyPhysicsProxy
-struct AMordhauEquipment_DestroyPhysicsProxy_Params
-{
-};
-
-// Function Mordhau.MordhauEquipment.ComputeAccurateBounds
-struct AMordhauEquipment_ComputeAccurateBounds_Params
-{
-	struct FBoxSphereBounds                            ReturnValue;                                               // 0x0000(0x001C)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.CanPerformAttack
-struct AMordhauEquipment_CanPerformAttack_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0009(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.BelongsToCharacter
-struct AMordhauEquipment_BelongsToCharacter_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.AssignCustomizationToProjectile
-struct AMordhauEquipment_AssignCustomizationToProjectile_Params
-{
-	class AMordhauProjectile*                          Projectile;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauEquipment.AssignCustomization
-struct AMordhauEquipment_AssignCustomization_Params
-{
-	struct FEquipmentCustomization                     Customization;                                             // 0x0000(0x0030)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	unsigned char                                      CustomizationEmblem;                                       // 0x0030(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      CustomizationEmblemColor1;                                 // 0x0031(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      CustomizationEmblemColor2;                                 // 0x0032(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.UpdateTrail
-struct AMordhauWeapon_UpdateTrail_Params
-{
-	float                                              Weight;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.SetIsAllowedToAddForce
-struct AMordhauWeapon_SetIsAllowedToAddForce_Params
-{
-	bool                                               bIsAllowed;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.RequestBlock
-struct AMordhauWeapon_RequestBlock_Params
-{
-	Mordhau_EBlockType                                 BlockType;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bAllowFTP;                                                 // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0002(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnWasBlocked
-struct AMordhauWeapon_OnWasBlocked_Params
-{
-	struct FBlockResult                                Result;                                                    // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnHit
-struct AMordhauWeapon_OnHit_Params
-{
-	class AActor*                                      Actor;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x000C(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     WorldLocation;                                             // 0x0014(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      Tier;                                                      // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SurfaceType;                                               // 0x0021(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnCosmeticHit
-struct AMordhauWeapon_OnCosmeticHit_Params
-{
-	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FHitResult                                  Hit;                                                       // 0x0004(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnBlockStarted
-struct AMordhauWeapon_OnBlockStarted_Params
-{
-	Mordhau_EBlockType                                 Type;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnBlocked
-struct AMordhauWeapon_OnBlocked_Params
-{
-	struct FBlockResult                                Result;                                                    // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.OnAttackStopped
-struct AMordhauWeapon_OnAttackStopped_Params
-{
-};
-
-// Function Mordhau.MordhauWeapon.OnAttackStarted
-struct AMordhauWeapon_OnAttackStarted_Params
-{
-	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.IsAllowedToAddForce
-struct AMordhauWeapon_IsAllowedToAddForce_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.IncreaseBloodLevel
-struct AMordhauWeapon_IncreaseBloodLevel_Params
-{
-	float                                              Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.GetTrace
-struct AMordhauWeapon_GetTrace_Params
-{
-	struct FVector                                     TraceStart;                                                // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.GetBaseAttackInfo
-struct AMordhauWeapon_GetBaseAttackInfo_Params
-{
-	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FAttackInfo                                 ReturnValue;                                               // 0x0008(0x0128)  (ConstParm, Parm, OutParm, ReturnParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.GetAdditionalTrace
-struct AMordhauWeapon_GetAdditionalTrace_Params
-{
-	struct FVector                                     TraceStart;                                                // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     TraceEnd;                                                  // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauWeapon.AddTraceEntryData
-struct AMordhauWeapon_AddTraceEntryData_Params
-{
-	class AActor*                                      Actor;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauSingleton.UpdatePreviousLaunchInventory
@@ -8223,6 +10871,12 @@ struct UMordhauUtilityLibrary_IsDLCInstalled_Params
 	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
+// Function Mordhau.MordhauUtilityLibrary.IsDevelopmentEnvironment
+struct UMordhauUtilityLibrary_IsDevelopmentEnvironment_Params
+{
+	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
 // Function Mordhau.MordhauUtilityLibrary.IsDevelopmentBuild
 struct UMordhauUtilityLibrary_IsDevelopmentBuild_Params
 {
@@ -8472,9 +11126,9 @@ struct UMordhauUtilityLibrary_GetRandomUpperChestWearable_Params
 struct UMordhauUtilityLibrary_GetRandomSkin_Params
 {
 	int                                                ID;                                                        // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0008(0x0048)  (Parm, OutParm, NativeAccessSpecifierPublic)
-	class AMordhauEquipment*                           Equipment;                                                 // 0x0050(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EItemRarity                                MaxRarity;                                                 // 0x0058(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FEquipmentSkinEntry                         Skin;                                                      // 0x0008(0x0050)  (Parm, OutParm, NativeAccessSpecifierPublic)
+	class AMordhauEquipment*                           Equipment;                                                 // 0x0058(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	Mordhau_EItemRarity                                MaxRarity;                                                 // 0x0060(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.MordhauUtilityLibrary.GetRandomShouldersWearable
@@ -9650,111 +12304,6 @@ struct UOneDimensionalMovementComponent_SetMovementLine_Params
 	struct FVector                                     NewLineEnd;                                                // 0x000C(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.MordhauMotion.ProcessFeint
-struct UMordhauMotion_ProcessFeint_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.ProcessBlock
-struct UMordhauMotion_ProcessBlock_Params
-{
-	Mordhau_EBlockType                                 Type;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.ProcessAttack
-struct UMordhauMotion_ProcessAttack_Params
-{
-	Mordhau_EAttackMove                                Move;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Angle;                                                     // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.OnTick
-struct UMordhauMotion_OnTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.OnLeave
-struct UMordhauMotion_OnLeave_Params
-{
-	bool                                               Interrupted;                                               // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.OnLateTick
-struct UMordhauMotion_OnLateTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.OnEnded
-struct UMordhauMotion_OnEnded_Params
-{
-};
-
-// Function Mordhau.MordhauMotion.OnDynamicParamChanged
-struct UMordhauMotion_OnDynamicParamChanged_Params
-{
-	unsigned char                                      OldValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewValue;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.OnBegin
-struct UMordhauMotion_OnBegin_Params
-{
-};
-
-// Function Mordhau.MordhauMotion.HasAuthority
-struct UMordhauMotion_HasAuthority_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetWorld
-struct UMordhauMotion_GetWorld_Params
-{
-	class UWorld*                                      ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetOwnerMordhauCharacter
-struct UMordhauMotion_GetOwnerMordhauCharacter_Params
-{
-	class AMordhauCharacter*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetOwnerAdvancedCharacter
-struct UMordhauMotion_GetOwnerAdvancedCharacter_Params
-{
-	class AAdvancedCharacter*                          ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetOwnerActor
-struct UMordhauMotion_GetOwnerActor_Params
-{
-	class AActor*                                      ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetOwner
-struct UMordhauMotion_GetOwner_Params
-{
-	class UMotionSystemComponent*                      ReturnValue;                                               // 0x0000(0x0008)  (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.GetIsFirstPerson
-struct UMordhauMotion_GetIsFirstPerson_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauMotion.CanInitiateMotion
-struct UMordhauMotion_CanInitiateMotion_Params
-{
-	class UClass*                                      NewMotionType;                                             // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
 // Function Mordhau.ParticleSystemActor.SparseTick
 struct AParticleSystemActor_SparseTick_Params
 {
@@ -9808,31 +12357,38 @@ struct UProjectileShooterComponent_ReplenishAmmo_Params
 // Function Mordhau.ProjectileShooterComponent.OnWeaponStateReleasing
 struct UProjectileShooterComponent_OnWeaponStateReleasing_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileShooterComponent.OnWeaponStateRecovery
 struct UProjectileShooterComponent_OnWeaponStateRecovery_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileShooterComponent.OnWeaponStateLoading
 struct UProjectileShooterComponent_OnWeaponStateLoading_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileShooterComponent.OnWeaponStateLoaded
 struct UProjectileShooterComponent_OnWeaponStateLoaded_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileShooterComponent.OnWeaponStateBuilding
 struct UProjectileShooterComponent_OnWeaponStateBuilding_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ProjectileShooterComponent.OnVehicleDied
+struct UProjectileShooterComponent_OnVehicleDied_Params
+{
+	class AVehicleBase*                                Vehicle;                                                   // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+
+// Function Mordhau.ProjectileShooterComponent.OnVehicleDestroyed
+struct UProjectileShooterComponent_OnVehicleDestroyed_Params
+{
+	class AVehicleBase*                                Vehicle;                                                   // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileShooterComponent.OnStopDriving
@@ -9916,14 +12472,14 @@ struct UProjectileShooterComponent_CheckProjectileMeshComponentReference_Params
 // Function Mordhau.ProjectileArmShooterComponent.UpdateArmTarget
 struct UProjectileArmShooterComponent_UpdateArmTarget_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      Owner;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              DeltaTime;                                                 // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.ProjectileArmShooterComponent.UpdateArmPullSound
 struct UProjectileArmShooterComponent_UpdateArmPullSound_Params
 {
-	class AAdvancedCharacter*                          CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class AActor*                                      CharacterOwner;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                              DeltaTime;                                                 // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
@@ -10048,17 +12604,6 @@ struct ASeparatedBodyPart_InitializeDismemberment_Params
 	bool                                               bIsBluntForce;                                             // 0x0041(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
-// Function Mordhau.CapturePointBanner.UpdateVisuals
-struct ACapturePointBanner_UpdateVisuals_Params
-{
-};
-
-// Function Mordhau.CapturePointBanner.InitializeBanner
-struct ACapturePointBanner_InitializeBanner_Params
-{
-	class AControlPoint*                               OwningPoint;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
 // Function Mordhau.SpawnGroup.SetSpawnsTeam
 struct ASpawnGroup_SetSpawnsTeam_Params
 {
@@ -10093,76 +12638,6 @@ struct ASplineAudio_OnActivate_Params
 {
 };
 
-// Function Mordhau.AttackMotion.ShouldStunOnHit
-struct UAttackMotion_ShouldStunOnHit_Params
-{
-	class UMotionSystemComponent*                      OtherComponent;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.SetHasHitIncludingCosmeticHit
-struct UAttackMotion_SetHasHitIncludingCosmeticHit_Params
-{
-	bool                                               bPlayHitShake;                                             // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.PrepareAnimationData
-struct UAttackMotion_PrepareAnimationData_Params
-{
-};
-
-// Function Mordhau.AttackMotion.OverrideTrace
-struct UAttackMotion_OverrideTrace_Params
-{
-	struct FVector                                     OutStart;                                                  // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     OutEnd;                                                    // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.OverrideIsUsingAdditionalTracers
-struct UAttackMotion_OverrideIsUsingAdditionalTracers_Params
-{
-	bool                                               OutResult;                                                 // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.OverrideAdditionalTrace
-struct UAttackMotion_OverrideAdditionalTrace_Params
-{
-	struct FVector                                     OutStart;                                                  // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     OutEnd;                                                    // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.ModifyAttackInfo
-struct UAttackMotion_ModifyAttackInfo_Params
-{
-};
-
-// Function Mordhau.AttackMotion.FindWeapon
-struct UAttackMotion_FindWeapon_Params
-{
-	class AMordhauWeapon*                              ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.AttackMotion.ComputeWindup
-struct UAttackMotion_ComputeWindup_Params
-{
-	float                                              ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.StatComponent.TickStat
-struct UStatComponent_TickStat_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.StatComponent.GetStatValue
-struct UStatComponent_GetStatValue_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
 // Function Mordhau.StaminaStatComponent.OnCharacterDied
 struct UStaminaStatComponent_OnCharacterDied_Params
 {
@@ -10189,30 +12664,6 @@ struct ASubField_DeactivateSubField_Params
 // Function Mordhau.SubField.BeginSubFieldDeactivation
 struct ASubField_BeginSubFieldDeactivation_Params
 {
-};
-
-// Function Mordhau.MordhauInventoryItem.MarkSeen
-struct UMordhauInventoryItem_MarkSeen_Params
-{
-};
-
-// Function Mordhau.MordhauInventoryItem.GetWasSeen
-struct UMordhauInventoryItem_GetWasSeen_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ArmsWearable.GetHandsWearablesNum
-struct UArmsWearable_GetHandsWearablesNum_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ArmsWearable.GetHandsWearable
-struct UArmsWearable_GetHandsWearable_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 // Function Mordhau.TagSystemComponent.SetTags
@@ -10321,2299 +12772,6 @@ struct UUpperChestWearable_GetArmsWearable_Params
 {
 	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BotProfile.AssignToController
-struct UBotProfile_AssignToController_Params
-{
-	class AMordhauAIController*                        Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildablePlaneTrace.GetPlacementAngleAndRotation
-struct UBuildablePlaneTrace_GetPlacementAngleAndRotation_Params
-{
-	struct FSpawnablePlaneTraceResult                  OutTraceResult;                                            // 0x0000(0x0270)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
-	struct FSpawnableObjectInfo                        ObjectInfo;                                                // 0x0270(0x0098)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	float                                              OutAngle;                                                  // 0x0308(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    OutRotation;                                               // 0x030C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildablePlaneTrace.DrawDebugPlane
-struct UBuildablePlaneTrace_DrawDebugPlane_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Forward;                                                   // 0x0008(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Back;                                                      // 0x0014(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Right;                                                     // 0x0020(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Left;                                                      // 0x002C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     InTraceAmount;                                             // 0x0038(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TEnumAsByte<Engine_EDrawDebugTrace>                DrawDebugType;                                             // 0x0044(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.ValidateSpot
-struct UBuildingSystemComponent_ValidateSpot_Params
-{
-	struct FVector                                     Offset;                                                    // 0x0000(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     OutLocation;                                               // 0x000C(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                                    OutRotation;                                               // 0x0018(0x000C)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	class USceneComponent*                             AttachToComponent;                                         // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UBuildableTraceBase*                         BuildableTraceHit;                                         // 0x0030(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                SpawnableObjectIndex;                                      // 0x0038(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bDrawObjectPreview;                                        // 0x003C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x003D(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.SetupMeshPreview
-struct UBuildingSystemComponent_SetupMeshPreview_Params
-{
-};
-
-// Function Mordhau.BuildingSystemComponent.GetEquipmentPlaceableMaxLimit
-struct UBuildingSystemComponent_GetEquipmentPlaceableMaxLimit_Params
-{
-	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.GetEquipmentPlaceableLimitName
-struct UBuildingSystemComponent_GetEquipmentPlaceableLimitName_Params
-{
-	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       ReturnValue;                                               // 0x0004(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.GetEquipmentInfo
-struct UBuildingSystemComponent_GetEquipmentInfo_Params
-{
-	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FSpawnableObjectInfo                        ReturnValue;                                               // 0x0008(0x0098)  (Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.GetEquipmentDisplayName
-struct UBuildingSystemComponent_GetEquipmentDisplayName_Params
-{
-	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       ReturnValue;                                               // 0x0004(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.GetEquipmentAmmoCost
-struct UBuildingSystemComponent_GetEquipmentAmmoCost_Params
-{
-	int                                                SpawnableObjectIndex;                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.DisplayPreview
-struct UBuildingSystemComponent_DisplayPreview_Params
-{
-	bool                                               bDrawObjectPreview;                                        // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsValid;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FSpawnableObjectInfo                        ObjectInfo;                                                // 0x0008(0x0098)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	struct FTransform                                  ObjectTransform;                                           // 0x00A0(0x0030)  (ConstParm, Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	int                                                SpawnableObjectIndex;                                      // 0x00D0(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.DestroyMeshPreview
-struct UBuildingSystemComponent_DestroyMeshPreview_Params
-{
-};
-
-// Function Mordhau.BuildingSystemComponent.AddStaticMeshPreviewIfNone
-struct UBuildingSystemComponent_AddStaticMeshPreviewIfNone_Params
-{
-	class UStaticMesh*                                 StaticMesh;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.BuildingSystemComponent.AddSkeletalMeshPreviewIfNone
-struct UBuildingSystemComponent_AddSkeletalMeshPreviewIfNone_Params
-{
-	class USkeletalMesh*                               SkeletalMesh;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.VehicleBase.OnRep_RestState
-struct AVehicleBase_OnRep_RestState_Params
-{
-};
-
-// Function Mordhau.VehicleBase.NetStateSend
-struct AVehicleBase_NetStateSend_Params
-{
-};
-
-// Function Mordhau.VehicleBase.Multicast_ReceiveNetState
-struct AVehicleBase_Multicast_ReceiveNetState_Params
-{
-	struct FNetState                                   State;                                                     // 0x0000(0x0020)  (Parm, NoDestructor, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Catapult.Server_SetRight
-struct ACatapult_Server_SetRight_Params
-{
-	int8_t                                             InRight;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Catapult.Server_SetForward
-struct ACatapult_Server_SetForward_Params
-{
-	int8_t                                             InForward;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterMeshComponent.OnCharacterStoppedRagdollFalling
-struct UCharacterMeshComponent_OnCharacterStoppedRagdollFalling_Params
-{
-};
-
-// Function Mordhau.CharacterMeshComponent.OnCharacterStartedRagdollFalling
-struct UCharacterMeshComponent_OnCharacterStartedRagdollFalling_Params
-{
-};
-
-// Function Mordhau.CharacterMeshComponent.OnCharacterLODTick
-struct UCharacterMeshComponent_OnCharacterLODTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterMeshComponent.OnCharacterDied
-struct UCharacterMeshComponent_OnCharacterDied_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.TogglePerk
-struct UCharacterProfileBPWrapper_TogglePerk_Params
-{
-	unsigned char                                      Perk;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetWearablePattern
-struct UCharacterProfileBPWrapper_SetWearablePattern_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewPattern;                                                // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetWearableId
-struct UCharacterProfileBPWrapper_SetWearableId_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewId;                                                     // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetWearableColor
-struct UCharacterProfileBPWrapper_SetWearableColor_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      ColorIdx;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewColor;                                                  // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetVoicePitch
-struct UCharacterProfileBPWrapper_SetVoicePitch_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetVoice
-struct UCharacterProfileBPWrapper_SetVoice_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetStrong
-struct UCharacterProfileBPWrapper_SetStrong_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetSkinny
-struct UCharacterProfileBPWrapper_SetSkinny_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetSkinColor
-struct UCharacterProfileBPWrapper_SetSkinColor_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetProfileName
-struct UCharacterProfileBPWrapper_SetProfileName_Params
-{
-	struct FText                                       NewName;                                                   // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetProfileCategory
-struct UCharacterProfileBPWrapper_SetProfileCategory_Params
-{
-	struct FString                                     NewCategory;                                               // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetMetalTint
-struct UCharacterProfileBPWrapper_SetMetalTint_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetMetalRoughnessScale
-struct UCharacterProfileBPWrapper_SetMetalRoughnessScale_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetIsFemale
-struct UCharacterProfileBPWrapper_SetIsFemale_Params
-{
-	bool                                               bNewValue;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetHairColor
-struct UCharacterProfileBPWrapper_SetHairColor_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetHair
-struct UCharacterProfileBPWrapper_SetHair_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetFat
-struct UCharacterProfileBPWrapper_SetFat_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetFacialHair
-struct UCharacterProfileBPWrapper_SetFacialHair_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetFace
-struct UCharacterProfileBPWrapper_SetFace_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEyeColor
-struct UCharacterProfileBPWrapper_SetEyeColor_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEyebrows
-struct UCharacterProfileBPWrapper_SetEyebrows_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentSkin
-struct UCharacterProfileBPWrapper_SetEquipmentSkin_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewSkin;                                                   // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentPattern
-struct UCharacterProfileBPWrapper_SetEquipmentPattern_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewPattern;                                                // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentPartId
-struct UCharacterProfileBPWrapper_SetEquipmentPartId_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      PartIdx;                                                   // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewPartId;                                                 // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentId
-struct UCharacterProfileBPWrapper_SetEquipmentId_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewId;                                                     // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentCustomizationDirect
-struct UCharacterProfileBPWrapper_SetEquipmentCustomizationDirect_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FEquipmentCustomization                     NewCustomization;                                          // 0x0008(0x0030)  (Parm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEquipmentColor
-struct UCharacterProfileBPWrapper_SetEquipmentColor_Params
-{
-	unsigned char                                      Slot;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      ColorIdx;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewColor;                                                  // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEmblemColor
-struct UCharacterProfileBPWrapper_SetEmblemColor_Params
-{
-	unsigned char                                      ColorIdx;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewValue;                                                  // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetEmblem
-struct UCharacterProfileBPWrapper_SetEmblem_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.SetAge
-struct UCharacterProfileBPWrapper_SetAge_Params
-{
-	unsigned char                                      NewValue;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.RemoveAllEquipment
-struct UCharacterProfileBPWrapper_RemoveAllEquipment_Params
-{
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.HasPerk
-struct UCharacterProfileBPWrapper_HasPerk_Params
-{
-	unsigned char                                      Perk;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterProfileBPWrapper.ForceValidate
-struct UCharacterProfileBPWrapper_ForceValidate_Params
-{
-};
-
-// Function Mordhau.CharacterVoiceComponent.UpdateVoiceDataFromCharacter
-struct UCharacterVoiceComponent_UpdateVoiceDataFromCharacter_Params
-{
-};
-
-// Function Mordhau.CharacterVoiceComponent.OnVoiceCommandReplicated
-struct UCharacterVoiceComponent_OnVoiceCommandReplicated_Params
-{
-};
-
-// Function Mordhau.CharacterVoiceComponent.OnTakeDamage
-struct UCharacterVoiceComponent_OnTakeDamage_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterVoiceComponent.OnLODTick
-struct UCharacterVoiceComponent_OnLODTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterVoiceComponent.OnCharacterDied
-struct UCharacterVoiceComponent_OnCharacterDied_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CharacterVoiceComponent.OnCharacterBuilt
-struct UCharacterVoiceComponent_OnCharacterBuilt_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.SetSelectedOption
-struct UComboBoxText_SetSelectedOption_Params
-{
-	struct FText                                       Option;                                                    // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.RemoveOption
-struct UComboBoxText_RemoveOption_Params
-{
-	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.RefreshOptions
-struct UComboBoxText_RefreshOptions_Params
-{
-};
-
-// DelegateFunction Mordhau.ComboBoxText.OnSelectionChangedEvent__DelegateSignature
-struct UComboBoxText_OnSelectionChangedEvent__DelegateSignature_Params
-{
-	struct FText                                       SelectedItem;                                              // 0x0000(0x0018)  (Parm, NativeAccessSpecifierPublic)
-	TEnumAsByte<SlateCore_ESelectInfo>                 SelectionType;                                             // 0x0018(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// DelegateFunction Mordhau.ComboBoxText.OnOpeningEvent__DelegateSignature
-struct UComboBoxText_OnOpeningEvent__DelegateSignature_Params
-{
-};
-
-// Function Mordhau.ComboBoxText.GetSelectedOption
-struct UComboBoxText_GetSelectedOption_Params
-{
-	struct FText                                       ReturnValue;                                               // 0x0000(0x0018)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.GetOptionCount
-struct UComboBoxText_GetOptionCount_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.GetOptionAtIndex
-struct UComboBoxText_GetOptionAtIndex_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FText                                       ReturnValue;                                               // 0x0008(0x0018)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.FindOptionIndex
-struct UComboBoxText_FindOptionIndex_Params
-{
-	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0018(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ComboBoxText.ClearSelection
-struct UComboBoxText_ClearSelection_Params
-{
-};
-
-// Function Mordhau.ComboBoxText.ClearOptions
-struct UComboBoxText_ClearOptions_Params
-{
-};
-
-// Function Mordhau.ComboBoxText.AddOption
-struct UComboBoxText_AddOption_Params
-{
-	struct FText                                       Option;                                                    // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.UpdateVisuals
-struct AControlPoint_UpdateVisuals_Params
-{
-};
-
-// Function Mordhau.ControlPoint.UpdateUIWidgets
-struct AControlPoint_UpdateUIWidgets_Params
-{
-};
-
-// Function Mordhau.ControlPoint.UpdateUIMaterialInstance
-struct AControlPoint_UpdateUIMaterialInstance_Params
-{
-};
-
-// Function Mordhau.ControlPoint.UpdatePresenceNumbers
-struct AControlPoint_UpdatePresenceNumbers_Params
-{
-};
-
-// Function Mordhau.ControlPoint.UpdateCaptureProgress
-struct AControlPoint_UpdateCaptureProgress_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.SetOwningTeam
-struct AControlPoint_SetOwningTeam_Params
-{
-	unsigned char                                      NewTeam;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.SetCapturingTeam
-struct AControlPoint_SetCapturingTeam_Params
-{
-	unsigned char                                      NewTeam;                                                   // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.SetCaptureProgress
-struct AControlPoint_SetCaptureProgress_Params
-{
-	float                                              NewProgress;                                               // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      NewCaptor;                                                 // 0x0004(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bAwardScore;                                               // 0x0005(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.OnStoppedFlashing
-struct AControlPoint_OnStoppedFlashing_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnStartedFlashing
-struct AControlPoint_OnStartedFlashing_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnRep_ReplicatedCaptureProgress
-struct AControlPoint_OnRep_ReplicatedCaptureProgress_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnRep_OwningTeam
-struct AControlPoint_OnRep_OwningTeam_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnRep_CapturingTeam
-struct AControlPoint_OnRep_CapturingTeam_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnOwningTeamChanged
-struct AControlPoint_OnOwningTeamChanged_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnCapturingTeamChanged
-struct AControlPoint_OnCapturingTeamChanged_Params
-{
-};
-
-// Function Mordhau.ControlPoint.OnCaptureAreaEndOverlap
-struct AControlPoint_OnCaptureAreaEndOverlap_Params
-{
-	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.OnCaptureAreaBeginOverlap
-struct AControlPoint_OnCaptureAreaBeginOverlap_Params
-{
-	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bFromSweep;                                                // 0x001C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FHitResult                                  SweepResult;                                               // 0x0020(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ControlPoint.EnemyLostPrerequisites
-struct AControlPoint_EnemyLostPrerequisites_Params
-{
-};
-
-// Function Mordhau.ControlPoint.EnemyGainedPrerequisites
-struct AControlPoint_EnemyGainedPrerequisites_Params
-{
-};
-
-// Function Mordhau.ControlPoint.CanCapture
-struct AControlPoint_CanCapture_Params
-{
-	unsigned char                                      Team;                                                      // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CrowdObstacleComponent.UnregisterObstacle
-struct UCrowdObstacleComponent_UnregisterObstacle_Params
-{
-};
-
-// Function Mordhau.CrowdObstacleComponent.RegisterObstacle
-struct UCrowdObstacleComponent_RegisterObstacle_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.UpdateCharacterProfile
-struct ACustomizationReplicationActor_UpdateCharacterProfile_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CustomizationReplicationActor.UnregisterCharacter
-struct ACustomizationReplicationActor_UnregisterCharacter_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CustomizationReplicationActor.TriggerUpdateIfUpToDate
-struct ACustomizationReplicationActor_TriggerUpdateIfUpToDate_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.RegisterCharacter
-struct ACustomizationReplicationActor_RegisterCharacter_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearablePattern
-struct ACustomizationReplicationActor_OnRep_ReplicatedWearablePattern_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableId
-struct ACustomizationReplicationActor_OnRep_ReplicatedWearableId_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableColor2
-struct ACustomizationReplicationActor_OnRep_ReplicatedWearableColor2_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedWearableColor1
-struct ACustomizationReplicationActor_OnRep_ReplicatedWearableColor1_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedSkillsCustomization
-struct ACustomizationReplicationActor_OnRep_ReplicatedSkillsCustomization_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesTranslate
-struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesTranslate_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesScale
-struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesScale_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedFaceBonesRotate
-struct ACustomizationReplicationActor_OnRep_ReplicatedFaceBonesRotate_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedDefaultEquipmentId
-struct ACustomizationReplicationActor_OnRep_ReplicatedDefaultEquipmentId_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.OnRep_ReplicatedAppearanceCustomization
-struct ACustomizationReplicationActor_OnRep_ReplicatedAppearanceCustomization_Params
-{
-};
-
-// Function Mordhau.CustomizationReplicationActor.IsUpToDate
-struct ACustomizationReplicationActor_IsUpToDate_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CustomizationReplicationActor.AssignDataFromProfile
-struct ACustomizationReplicationActor_AssignDataFromProfile_Params
-{
-	struct FCharacterProfile                           Profile;                                                   // 0x0000(0x00B8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DamageableComponent.OnTookDamage
-struct UDamageableComponent_OnTookDamage_Params
-{
-	bool                                               bWillKill;                                                 // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0001(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SubType;                                                   // 0x0002(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       bone;                                                      // 0x0004(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Point;                                                     // 0x000C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Source;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Agent;                                                     // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DamageableComponent.OnTakeDamage
-struct UDamageableComponent_OnTakeDamage_Params
-{
-	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x00C0(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DamageableComponent.OnRep_NetDamage
-struct UDamageableComponent_OnRep_NetDamage_Params
-{
-};
-
-// Function Mordhau.DamageableComponent.OnPostTakeDamage
-struct UDamageableComponent_OnPostTakeDamage_Params
-{
-	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DamageableComponent.OnKilled
-struct UDamageableComponent_OnKilled_Params
-{
-};
-
-// Function Mordhau.DamageableComponent.ModifyDamage
-struct UDamageableComponent_ModifyDamage_Params
-{
-	float                                              DamageAmount;                                              // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMordhauDamageInfo                          DamageInfo;                                                // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-	class AController*                                 EventInstigator;                                           // 0x00B0(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageCauser;                                              // 0x00B8(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x00C0(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.TryDismember
-struct UDismemberableComponent_TryDismember_Params
-{
-	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Point;                                                     // 0x0008(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AMordhauWeapon*                              Weapon;                                                    // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EAttackMove                                Move;                                                      // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsRagdollDismember;                                       // 0x0021(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0022(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.QueueDismember
-struct UDismemberableComponent_QueueDismember_Params
-{
-	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsDismemberPartial;                                       // 0x0008(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bIsBluntForce;                                             // 0x0009(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Force;                                                     // 0x000C(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Agent;                                                     // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.ProcessQueuedDismemberment
-struct UDismemberableComponent_ProcessQueuedDismemberment_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.OnCharacterCameraStyleChanged
-struct UDismemberableComponent_OnCharacterCameraStyleChanged_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.IsBoneDismembered
-struct UDismemberableComponent_IsBoneDismembered_Params
-{
-	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.Dismember
-struct UDismemberableComponent_Dismember_Params
-{
-	struct FDismemberedBoneData                        InDismemberedBoneData;                                     // 0x0000(0x0020)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
-	class ASeparatedBodyPart*                          ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DismemberableComponent.CanDismember
-struct UDismemberableComponent_CanDismember_Params
-{
-	struct FName                                       bone;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.DriverComponent.OnLateTick
-struct UDriverComponent_OnLateTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ECSActor.AddManagedCharacter
-struct AECSActor_AddManagedCharacter_Params
-{
-	class ACharacter*                                  Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EmoteMotion.DoDrop
-struct UEmoteMotion_DoDrop_Params
-{
-	class AMordhauEquipment*                           Equipment;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     Force;                                                     // 0x0008(0x000C)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EnvironmentMovable.InitializeMovable
-struct AEnvironmentMovable_InitializeMovable_Params
-{
-	class USceneComponent*                             InSwayingComponent;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     InRollPitchYawFrequency;                                   // 0x0008(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     InRollPitchYawMagnitude;                                   // 0x0014(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVector                                     InRollPitchYawSpeed;                                       // 0x0020(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSwitchMotion.GetSwitchingTo
-struct UEquipmentSwitchMotion_GetSwitchingTo_Params
-{
-	class AMordhauEquipment*                           ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnUnPossessed
-struct UEquipmentSystemComponent_OnUnPossessed_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnPreBeginPlay
-struct UEquipmentSystemComponent_OnPreBeginPlay_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnLODTick
-struct UEquipmentSystemComponent_OnLODTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnLateTick
-struct UEquipmentSystemComponent_OnLateTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnCharacterVehicleChanged
-struct UEquipmentSystemComponent_OnCharacterVehicleChanged_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnCharacterCameraStyleChanged
-struct UEquipmentSystemComponent_OnCharacterCameraStyleChanged_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.EquipmentSystemComponent.OnAnyEquipmentStateChanged
-struct UEquipmentSystemComponent_OnAnyEquipmentStateChanged_Params
-{
-};
-
-// Function Mordhau.FaceCustomizationComponent.OnCharacterBuilt
-struct UFaceCustomizationComponent_OnCharacterBuilt_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.VirtualWeapon.InitializeVirtualWeapon
-struct AVirtualWeapon_InitializeVirtualWeapon_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GameModeMetadata.GetPlayerCount
-struct UGameModeMetadata_GetPlayerCount_Params
-{
-	MordhauOnlineSubsystem_EServerRegion               ServerRegion;                                              // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<int>                                        ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GameModeMetadata.GetDefaultObject
-struct UGameModeMetadata_GetDefaultObject_Params
-{
-	class UClass*                                      MetadataClass;                                             // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGameModeMetadata*                           ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HeadWearable.GetCoifWearablesNum
-struct UHeadWearable_GetCoifWearablesNum_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HeadWearable.GetCoifWearable
-struct UHeadWearable_GetCoifWearable_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HeadWearable.AddCoifWearable
-struct UHeadWearable_AddCoifWearable_Params
-{
-};
-
-// Function Mordhau.HealthStatComponent.OnCharacterDied
-struct UHealthStatComponent_OnCharacterDied_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Horse.SpawnTurd
-struct AHorse_SpawnTurd_Params
-{
-};
-
-// Function Mordhau.Horse.ServerRequestRearing
-struct AHorse_ServerRequestRearing_Params
-{
-};
-
-// Function Mordhau.Horse.SecondaryTurnNotAbsolute
-struct AHorse_SecondaryTurnNotAbsolute_Params
-{
-	float                                              Value;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Horse.RequestRearing
-struct AHorse_RequestRearing_Params
-{
-};
-
-// Function Mordhau.Horse.OnRep_ReplicatedRearing
-struct AHorse_OnRep_ReplicatedRearing_Params
-{
-};
-
-// Function Mordhau.Horse.OnBumpCapsuleOverlapped
-struct AHorse_OnBumpCapsuleOverlapped_Params
-{
-	class UPrimitiveComponent*                         OverlappedComp;                                            // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      Other;                                                     // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UPrimitiveComponent*                         OtherComp;                                                 // 0x0010(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OtherBodyIndex;                                            // 0x0018(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bFromSweep;                                                // 0x001C(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FHitResult                                  SweepResult;                                               // 0x0020(0x0088)  (ConstParm, Parm, OutParm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Horse.GetIsInRearingMode
-struct AHorse_GetIsInRearingMode_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.Horse.CalculateBumpDamage
-struct AHorse_CalculateBumpDamage_Params
-{
-	struct FVector                                     OurWorldVelocity;                                          // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x000C(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.UpdateSkeletalMeshComponentMaterials
-struct UHumanMeshComponent_UpdateSkeletalMeshComponentMaterials_Params
-{
-	class USkeletalMeshComponent*                      USMC;                                                      // 0x0000(0x0008)  (Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.UpdateAllSkeletalMeshComponentMaterials
-struct UHumanMeshComponent_UpdateAllSkeletalMeshComponentMaterials_Params
-{
-};
-
-// Function Mordhau.HumanMeshComponent.SetMaterialParamsForMergedSlot
-struct UHumanMeshComponent_SetMaterialParamsForMergedSlot_Params
-{
-	struct FString                                     Prefix;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMordhauWearable*                            Wearable;                                                  // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMaterialInstanceDynamic*                    Mid;                                                       // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               LowQuality;                                                // 0x0020(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.SetMaterialParamsForLODMasterSlot
-struct UHumanMeshComponent_SetMaterialParamsForLODMasterSlot_Params
-{
-	struct FString                                     Slot;                                                      // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMordhauWearable*                            Wearable;                                                  // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMaterialInstanceDynamic*                    Mid;                                                       // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.OnCharacterTornOff
-struct UHumanMeshComponent_OnCharacterTornOff_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.OnCharacterChangedTeam
-struct UHumanMeshComponent_OnCharacterChangedTeam_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.OnCharacterCameraStyleChanged
-struct UHumanMeshComponent_OnCharacterCameraStyleChanged_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.OnCharacterBuilt
-struct UHumanMeshComponent_OnCharacterBuilt_Params
-{
-	class AMordhauCharacter*                           Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.ModifyBodyColors
-struct UHumanMeshComponent_ModifyBodyColors_Params
-{
-	struct FLinearColor                                InSkinColor;                                               // 0x0000(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                                InHairColor;                                               // 0x0010(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                                InEyeColor;                                                // 0x0020(0x0010)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                                OutSkinColor;                                              // 0x0030(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                                OutHairColor;                                              // 0x0040(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                                OutEyeColor;                                               // 0x0050(0x0010)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.CreateUnifiedMeshIfNone
-struct UHumanMeshComponent_CreateUnifiedMeshIfNone_Params
-{
-	bool                                               bRequireHeavyDutyCheck;                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0001(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.CreateFPMeshIfNone
-struct UHumanMeshComponent_CreateFPMeshIfNone_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.HumanMeshComponent.CreateFPDeadMeshIfNone
-struct UHumanMeshComponent_CreateFPDeadMeshIfNone_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionComponent.UnHighlight
-struct UInteractionComponent_UnHighlight_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.OnInteractionStart
-struct UInteractionComponent_OnInteractionStart_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionComponent.OnInteractionEnd
-struct UInteractionComponent_OnInteractionEnd_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.OnHighlightStart
-struct UInteractionComponent_OnHighlightStart_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.OnHighlightEnd
-struct UInteractionComponent_OnHighlightEnd_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.InteractionStart
-struct UInteractionComponent_InteractionStart_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionComponent.InteractionEnd
-struct UInteractionComponent_InteractionEnd_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.Highlight
-struct UInteractionComponent_Highlight_Params
-{
-};
-
-// Function Mordhau.InteractionComponent.CanInteract
-struct UInteractionComponent_CanInteract_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionSystemComponent.OnUnPossessed
-struct UInteractionSystemComponent_OnUnPossessed_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionSystemComponent.OnLODTick
-struct UInteractionSystemComponent_OnLODTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionSystemComponent.OnLateTick
-struct UInteractionSystemComponent_OnLateTick_Params
-{
-	float                                              DeltaTime;                                                 // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.InteractionSystemComponent.OnCharacterDestroyed
-struct UInteractionSystemComponent_OnCharacterDestroyed_Params
-{
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.LegsWearable.GetFeetWearablesNum
-struct ULegsWearable_GetFeetWearablesNum_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.LegsWearable.GetFeetWearable
-struct ULegsWearable_GetFeetWearable_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UClass*                                      ReturnValue;                                               // 0x0008(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MasterField.UpdateField
-struct AMasterField_UpdateField_Params
-{
-};
-
-// Function Mordhau.MasterField.SetSubFieldsHidden
-struct AMasterField_SetSubFieldsHidden_Params
-{
-	bool                                               bAreHidden;                                                // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MasterField.RecomputeCombinedBoundingBox
-struct AMasterField_RecomputeCombinedBoundingBox_Params
-{
-};
-
-// Function Mordhau.MasterField.GetSubFields
-struct AMasterField_GetSubFields_Params
-{
-	TArray<class ASubField*>                           ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MasterField.GetFieldBoundsCenter
-struct AMasterField_GetFieldBoundsCenter_Params
-{
-	struct FVector                                     ReturnValue;                                               // 0x0000(0x000C)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MasterField.DeactivateAndDestroyField
-struct AMasterField_DeactivateAndDestroyField_Params
-{
-};
-
-// Function Mordhau.MasterField.CreateField
-struct AMasterField_CreateField_Params
-{
-};
-
-// Function Mordhau.MasterField.ComputeDistanceIntoField
-struct AMasterField_ComputeDistanceIntoField_Params
-{
-	struct FVector                                     Location;                                                  // 0x0000(0x000C)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x000C(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MasterField.BeginFieldDeactivation
-struct AMasterField_BeginFieldDeactivation_Params
-{
-};
-
-// Function Mordhau.CreateMatchmakingTicket.CreateMatchmakingTicket
-struct UCreateMatchmakingTicket_CreateMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabMatchmakingAttributes               Attributes;                                                // 0x0010(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FString>                             Members;                                                   // 0x0070(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Timeout;                                                   // 0x0080(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UCreateMatchmakingTicket*                    ReturnValue;                                               // 0x0088(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.JoinMatchmakingTicket.JoinMatchmakingTicket
-struct UJoinMatchmakingTicket_JoinMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabMatchmakingAttributes               Attributes;                                                // 0x0020(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UJoinMatchmakingTicket*                      ReturnValue;                                               // 0x0080(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.CancelMatchmakingTicket.CancelMatchmakingTicket
-struct UCancelMatchmakingTicket_CancelMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UCancelMatchmakingTicket*                    ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetMatchmakingTicket.GetMatchmakingTicket
-struct UGetMatchmakingTicket_GetMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGetMatchmakingTicket*                       ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetMatchmakingMatch.GetMatchmakingMatch
-struct UGetMatchmakingMatch_GetMatchmakingMatch_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGetMatchmakingMatch*                        ReturnValue;                                               // 0x0020(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetGameServers.GetGameServers
-struct UGetGameServers_GetGameServers_Params
-{
-	struct FGameServerFilter                           Filter;                                                    // 0x0000(0x0048)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class UGetGameServers*                             ReturnValue;                                               // 0x0048(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.GetGameServer.GetGameServer
-struct UGetGameServer_GetGameServer_Params
-{
-	struct FString                                     ServerId;                                                  // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     IPV4Address;                                               // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Port;                                                      // 0x0020(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGetGameServer*                              ReturnValue;                                               // 0x0028(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.ReserveServerSlots.ReserveServerSlots
-struct UReserveServerSlots_ReserveServerSlots_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabServerDetails                       ServerDetails;                                             // 0x0008(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	TArray<struct FPlayFabMatchmakingPlayer>           Players;                                                   // 0x0030(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UReserveServerSlots*                         ReturnValue;                                               // 0x0040(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.JoinMatchmakingMatch.JoinMatchmakingMatch
-struct UJoinMatchmakingMatch_JoinMatchmakingMatch_Params
-{
-	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class UJoinMatchmakingMatch*                       ReturnValue;                                               // 0x00A8(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.LeaveMatchmakingMatch.LeaveMatchmakingMatch
-struct ULeaveMatchmakingMatch_LeaveMatchmakingMatch_Params
-{
-	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0000(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class ULeaveMatchmakingMatch*                      ReturnValue;                                               // 0x00A8(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.UpdateMatchmakingMatch.UpdateMatchmakingMatch
-struct UUpdateMatchmakingMatch_UpdateMatchmakingMatch_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabMatchmakingMatch                    Match;                                                     // 0x0008(0x00A8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	class UUpdateMatchmakingMatch*                     ReturnValue;                                               // 0x00B0(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauDialog.Show
-struct UMordhauDialog_Show_Params
-{
-};
-
-// Function Mordhau.MordhauDialog.Hide
-struct UMordhauDialog_Hide_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.UpdateParty
-struct UMordhauGameInstance_UpdateParty_Params
-{
-	bool                                               bUpdateProfile;                                            // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.UnregisterMetadata
-struct UMordhauGameInstance_UnregisterMetadata_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.StopLoadingScreen
-struct UMordhauGameInstance_StopLoadingScreen_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.Shutdown
-struct UMordhauGameInstance_Shutdown_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ShowPasswordDialog
-struct UMordhauGameInstance_ShowPasswordDialog_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ShowNetworkErrorDialog
-struct UMordhauGameInstance_ShowNetworkErrorDialog_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ShowJoiningDialog
-struct UMordhauGameInstance_ShowJoiningDialog_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ShowInviteDialog
-struct UMordhauGameInstance_ShowInviteDialog_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyServerDetails
-struct UMordhauGameInstance_SetPartyServerDetails_Params
-{
-	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyMemberServerDetails
-struct UMordhauGameInstance_SetPartyMemberServerDetails_Params
-{
-	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyMemberProfile
-struct UMordhauGameInstance_SetPartyMemberProfile_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayerProfile                              Profile;                                                   // 0x0060(0x00C8)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyMatchmakingState
-struct UMordhauGameInstance_SetPartyMatchmakingState_Params
-{
-	Mordhau_EMatchmakingState                          MatchmakingState;                                          // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyMatchmakingMembers
-struct UMordhauGameInstance_SetPartyMatchmakingMembers_Params
-{
-	TArray<struct FString>                             Members;                                                   // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyMatch
-struct UMordhauGameInstance_SetPartyMatch_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyLeader
-struct UMordhauGameInstance_SetPartyLeader_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetPartyGameServer
-struct UMordhauGameInstance_SetPartyGameServer_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetNetworkError
-struct UMordhauGameInstance_SetNetworkError_Params
-{
-	struct FText                                       ErrorText;                                                 // 0x0000(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetMatchmakingMatchID
-struct UMordhauGameInstance_SetMatchmakingMatchID_Params
-{
-	struct FString                                     MatchId;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetLastPlayerLeaveTime
-struct UMordhauGameInstance_SetLastPlayerLeaveTime_Params
-{
-	double                                             InLastPlayerLeaveTime;                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SetIngameEvent
-struct UMordhauGameInstance_SetIngameEvent_Params
-{
-	MordhauOnlineSubsystem_EIngameEvent                InIngameEvent;                                             // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ServerTravel
-struct UMordhauGameInstance_ServerTravel_Params
-{
-	class UObject*                                     WorldContextObject;                                        // 0x0000(0x0008)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     MapName;                                                   // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.SaveConfig
-struct UMordhauGameInstance_SaveConfig_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.RespondControllerConnectionChange
-struct UMordhauGameInstance_RespondControllerConnectionChange_Params
-{
-	bool                                               Status;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                UserId;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ControllerId;                                              // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.RequestPlayerInformation
-struct UMordhauGameInstance_RequestPlayerInformation_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.RemovePartyMatchmakingTicket
-struct UMordhauGameInstance_RemovePartyMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.RegisterMetadata
-struct UMordhauGameInstance_RegisterMetadata_Params
-{
-	int                                                ModId;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FString>                             AssetPaths;                                                // 0x0008(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.PerformPlatformLogin
-struct UMordhauGameInstance_PerformPlatformLogin_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.OnStatsBecameAvailable
-struct UMordhauGameInstance_OnStatsBecameAvailable_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.OnInventoryBecameAvailable
-struct UMordhauGameInstance_OnInventoryBecameAvailable_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.OnFindMordhauServerSessionByAddressSuccess
-struct UMordhauGameInstance_OnFindMordhauServerSessionByAddressSuccess_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.LogMatchmakingState
-struct UMordhauGameInstance_LogMatchmakingState_Params
-{
-	struct FString                                     Message;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.LeaveParty
-struct UMordhauGameInstance_LeaveParty_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.KickPartyMember
-struct UMordhauGameInstance_KickPartyMember_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.JoinSessionSearchResult
-struct UMordhauGameInstance_JoinSessionSearchResult_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.JoinPartyGameServer
-struct UMordhauGameInstance_JoinPartyGameServer_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.IsPartyReadyForMatchmaking
-struct UMordhauGameInstance_IsPartyReadyForMatchmaking_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsPartyMember
-struct UMordhauGameInstance_IsPartyMember_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0060(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsPartyLeader
-struct UMordhauGameInstance_IsPartyLeader_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsOfficialServerMuted
-struct UMordhauGameInstance_IsOfficialServerMuted_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsOfficialServerBanned
-struct UMordhauGameInstance_IsOfficialServerBanned_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsLoggingIn
-struct UMordhauGameInstance_IsLoggingIn_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsLoggedIn
-struct UMordhauGameInstance_IsLoggedIn_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsLoadingScreenActive
-struct UMordhauGameInstance_IsLoadingScreenActive_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsInventoryAvailable
-struct UMordhauGameInstance_IsInventoryAvailable_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsGlobalServerMuted
-struct UMordhauGameInstance_IsGlobalServerMuted_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.IsGlobalServerBanned
-struct UMordhauGameInstance_IsGlobalServerBanned_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.Init
-struct UMordhauGameInstance_Init_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.HasCompletedLogin
-struct UMordhauGameInstance_HasCompletedLogin_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetServerRegionPings
-struct UMordhauGameInstance_GetServerRegionPings_Params
-{
-	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TMap<MordhauOnlineSubsystem_EServerLocation, int>  ReturnValue;                                               // 0x0008(0x0050)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetServerLocationPreference
-struct UMordhauGameInstance_GetServerLocationPreference_Params
-{
-	MordhauOnlineSubsystem_EServerRegion               Region;                                                    // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<MordhauOnlineSubsystem_EServerLocation>     ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetServerLocationPings
-struct UMordhauGameInstance_GetServerLocationPings_Params
-{
-	TMap<MordhauOnlineSubsystem_EServerLocation, int>  ReturnValue;                                               // 0x0000(0x0050)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetServerLocationPing
-struct UMordhauGameInstance_GetServerLocationPing_Params
-{
-	MordhauOnlineSubsystem_EServerLocation             Location;                                                  // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0004(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetProfaneWords
-struct UMordhauGameInstance_GetProfaneWords_Params
-{
-	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPlatform
-struct UMordhauGameInstance_GetPlatform_Params
-{
-	MordhauOnlineSubsystem_EPlatform                   ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartySize
-struct UMordhauGameInstance_GetPartySize_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyServerDetails
-struct UMordhauGameInstance_GetPartyServerDetails_Params
-{
-	struct FPlayFabServerDetails                       OutServerDetails;                                          // 0x0000(0x0028)  (Parm, OutParm, NativeAccessSpecifierPublic)
-	bool                                               bWasSuccessful;                                            // 0x0028(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMMR
-struct UMordhauGameInstance_GetPartyMMR_Params
-{
-	struct FString                                     GameMode;                                                  // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMemberStatus
-struct UMordhauGameInstance_GetPartyMemberStatus_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     ReturnValue;                                               // 0x0060(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMemberServerDetails
-struct UMordhauGameInstance_GetPartyMemberServerDetails_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabServerDetails                       OutServerDetails;                                          // 0x0060(0x0028)  (Parm, OutParm, NativeAccessSpecifierPublic)
-	bool                                               bWasSuccessful;                                            // 0x0088(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMemberServerAddress
-struct UMordhauGameInstance_GetPartyMemberServerAddress_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FServerAddress                              Address;                                                   // 0x0060(0x0008)  (Parm, OutParm, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                               bWasSuccessful;                                            // 0x0068(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMembers
-struct UMordhauGameInstance_GetPartyMembers_Params
-{
-	TArray<struct FPlayFabPlayer>                      ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMemberProfile
-struct UMordhauGameInstance_GetPartyMemberProfile_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayerProfile                              Profile;                                                   // 0x0060(0x00C8)  (Parm, OutParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0128(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMemberEntities
-struct UMordhauGameInstance_GetPartyMemberEntities_Params
-{
-	TArray<struct FPlayFabPlayerEntity>                ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingTickets
-struct UMordhauGameInstance_GetPartyMatchmakingTickets_Params
-{
-	TArray<struct FMatchmakingTicket>                  ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingState
-struct UMordhauGameInstance_GetPartyMatchmakingState_Params
-{
-	Mordhau_EMatchmakingState                          ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMatchmakingMembers
-struct UMordhauGameInstance_GetPartyMatchmakingMembers_Params
-{
-	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyMatch
-struct UMordhauGameInstance_GetPartyMatch_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     MatchId;                                                   // 0x0010(0x0010)  (Parm, OutParm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyLeader
-struct UMordhauGameInstance_GetPartyLeader_Params
-{
-	struct FPlayFabPlayer                              ReturnValue;                                               // 0x0000(0x0060)  (Parm, OutParm, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyID
-struct UMordhauGameInstance_GetPartyID_Params
-{
-	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetPartyGroupID
-struct UMordhauGameInstance_GetPartyGroupID_Params
-{
-	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetOtherPartyMembersEntityIDs
-struct UMordhauGameInstance_GetOtherPartyMembersEntityIDs_Params
-{
-	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetOfficialServerMuteDuration
-struct UMordhauGameInstance_GetOfficialServerMuteDuration_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetOfficialServerBanDuration
-struct UMordhauGameInstance_GetOfficialServerBanDuration_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetNumReservedSlots
-struct UMordhauGameInstance_GetNumReservedSlots_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetNextMatchID
-struct UMordhauGameInstance_GetNextMatchID_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetMatchmakingMatchID
-struct UMordhauGameInstance_GetMatchmakingMatchID_Params
-{
-	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetMatchmakingGroupID
-struct UMordhauGameInstance_GetMatchmakingGroupID_Params
-{
-	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetMapInfo
-struct UMordhauGameInstance_GetMapInfo_Params
-{
-	struct FString                                     MapName;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMapInfo                                    ReturnValue;                                               // 0x0010(0x0020)  (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetLastPlayerLeaveTime
-struct UMordhauGameInstance_GetLastPlayerLeaveTime_Params
-{
-	double                                             ReturnValue;                                               // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetIngameEvent
-struct UMordhauGameInstance_GetIngameEvent_Params
-{
-	MordhauOnlineSubsystem_EIngameEvent                ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetGlobalServerMuteDuration
-struct UMordhauGameInstance_GetGlobalServerMuteDuration_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetGlobalServerBanDuration
-struct UMordhauGameInstance_GetGlobalServerBanDuration_Params
-{
-	int                                                ReturnValue;                                               // 0x0000(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.GetBlacklistedServers
-struct UMordhauGameInstance_GetBlacklistedServers_Params
-{
-	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.FindMapMetadata
-struct UMordhauGameInstance_FindMapMetadata_Params
-{
-	struct FString                                     GameModeMapName;                                           // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UMapMetadata*                                ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.FindGameModeMetadata
-struct UMordhauGameInstance_FindGameModeMetadata_Params
-{
-	struct FString                                     GameModePrefix;                                            // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UGameModeMetadata*                           ReturnValue;                                               // 0x0010(0x0008)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.FindBestServerRegion
-struct UMordhauGameInstance_FindBestServerRegion_Params
-{
-	MordhauOnlineSubsystem_EServerRegion               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.FindBestServerLocation
-struct UMordhauGameInstance_FindBestServerLocation_Params
-{
-	MordhauOnlineSubsystem_EServerLocation             ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.DetermineServerLocationPings
-struct UMordhauGameInstance_DetermineServerLocationPings_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClientTravelSession
-struct UMordhauGameInstance_ClientTravelSession_Params
-{
-	struct FServerSearchResult                         SearchResult;                                              // 0x0000(0x0110)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	struct FString                                     Password;                                                  // 0x0110(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0120(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ClientTravelServerDetails
-struct UMordhauGameInstance_ClientTravelServerDetails_Params
-{
-	struct FPlayFabServerDetails                       InServerDetails;                                           // 0x0000(0x0028)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	struct FString                                     Password;                                                  // 0x0028(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0038(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ClientTravel
-struct UMordhauGameInstance_ClientTravel_Params
-{
-	struct FString                                     MapName;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                PlayerCount;                                               // 0x0010(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0014(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyServerDetails
-struct UMordhauGameInstance_ClearPartyServerDetails_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyMemberServerDetails
-struct UMordhauGameInstance_ClearPartyMemberServerDetails_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyMemberProfile
-struct UMordhauGameInstance_ClearPartyMemberProfile_Params
-{
-	struct FPlayFabPlayer                              Player;                                                    // 0x0000(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyMatchmakingTickets
-struct UMordhauGameInstance_ClearPartyMatchmakingTickets_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyMatchmakingMembers
-struct UMordhauGameInstance_ClearPartyMatchmakingMembers_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyMatch
-struct UMordhauGameInstance_ClearPartyMatch_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.ClearPartyGameServer
-struct UMordhauGameInstance_ClearPartyGameServer_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.CanLeaveParty
-struct UMordhauGameInstance_CanLeaveParty_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.CanInviteToParty
-struct UMordhauGameInstance_CanInviteToParty_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.BPStopRecordingReplay
-struct UMordhauGameInstance_BPStopRecordingReplay_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.BPStopPlayingReplay
-struct UMordhauGameInstance_BPStopPlayingReplay_Params
-{
-};
-
-// Function Mordhau.MordhauGameInstance.BPStartRecordingReplay
-struct UMordhauGameInstance_BPStartRecordingReplay_Params
-{
-	struct FString                                     InName;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     FriendlyName;                                              // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FString>                             AdditionalOptions;                                         // 0x0020(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.BPPlayReplay
-struct UMordhauGameInstance_BPPlayReplay_Params
-{
-	struct FString                                     InName;                                                    // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FString>                             AdditionalOptions;                                         // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.AreStatsAvailable
-struct UMordhauGameInstance_AreStatsAvailable_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameInstance.AddPartyMatchmakingTicket
-struct UMordhauGameInstance_AddPartyMatchmakingTicket_Params
-{
-	struct FString                                     QueueName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     TicketId;                                                  // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.VoteLevel
-struct AMordhauGameMode_VoteLevel_Params
-{
-	class APlayerController*                           Player;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     LevelName;                                                 // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0018(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.SetTeamScore
-struct AMordhauGameMode_SetTeamScore_Params
-{
-	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Amount;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.SetRconEvent
-struct AMordhauGameMode_SetRconEvent_Params
-{
-	struct FRconEventStruct                            InStruct;                                                  // 0x0000(0x0020)  (Parm, OutParm, NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             InEvent;                                                   // 0x0020(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                               bOverrideExisting;                                         // 0x0030(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0031(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.RequestedAssignTeam
-struct AMordhauGameMode_RequestedAssignTeam_Params
-{
-	class AController*                                 Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Team;                                                      // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.RemoveBots
-struct AMordhauGameMode_RemoveBots_Params
-{
-	int                                                Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Team;                                                      // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnTeamScoreChanged
-struct AMordhauGameMode_OnTeamScoreChanged_Params
-{
-	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              OldValue;                                                  // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnScoreChanged
-struct AMordhauGameMode_OnScoreChanged_Params
-{
-	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnMatchStateChanged
-struct AMordhauGameMode_OnMatchStateChanged_Params
-{
-	struct FName                                       OldState;                                                  // 0x0000(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       NewState;                                                  // 0x0008(0x0008)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnKillsChanged
-struct AMordhauGameMode_OnKillsChanged_Params
-{
-	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnKilled
-struct AMordhauGameMode_OnKilled_Params
-{
-	class AController*                                 Killer;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AController*                                 KilledPlayer;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class APawn*                                       KilledPawn;                                                // 0x0010(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	Mordhau_EMordhauDamageType                         Type;                                                      // 0x0018(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	unsigned char                                      SubType;                                                   // 0x0019(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageSource;                                              // 0x0020(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageAgent;                                               // 0x0028(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnDeathsChanged
-struct AMordhauGameMode_OnDeathsChanged_Params
-{
-	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.OnAssistsChanged
-struct AMordhauGameMode_OnAssistsChanged_Params
-{
-	class APlayerState*                                State;                                                     // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                OldValue;                                                  // 0x0008(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.MatchTimeRanOut
-struct AMordhauGameMode_MatchTimeRanOut_Params
-{
-};
-
-// Function Mordhau.MordhauGameMode.IsSpawnpointAllowed
-struct AMordhauGameMode_IsSpawnpointAllowed_Params
-{
-	class APlayerStart*                                PlayerStart;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AController*                                 Player;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetSpawnpointPreference
-struct AMordhauGameMode_GetSpawnpointPreference_Params
-{
-	class APlayerStart*                                PlayerStart;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AController*                                 Player;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetNextMaps
-struct AMordhauGameMode_GetNextMaps_Params
-{
-	int                                                Count;                                                     // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<struct FString>                             ReturnValue;                                               // 0x0008(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetNextMap
-struct AMordhauGameMode_GetNextMap_Params
-{
-	struct FString                                     ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetMapVoteMaps
-struct AMordhauGameMode_GetMapVoteMaps_Params
-{
-	TArray<struct FString>                             ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetMapVoteCounts
-struct AMordhauGameMode_GetMapVoteCounts_Params
-{
-	TArray<unsigned char>                              ReturnValue;                                               // 0x0000(0x0010)  (Parm, OutParm, ZeroConstructor, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.GetDamageFactor
-struct AMordhauGameMode_GetDamageFactor_Params
-{
-	class AActor*                                      DamageSource;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageTarget;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.ControllerCanRestart
-struct AMordhauGameMode_ControllerCanRestart_Params
-{
-	class AController*                                 Controller;                                                // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.ChangeLevel
-struct AMordhauGameMode_ChangeLevel_Params
-{
-	struct FString                                     LevelName;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.CanDealDamage
-struct AMordhauGameMode_CanDealDamage_Params
-{
-	class AActor*                                      DamageSource;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class AActor*                                      DamageTarget;                                              // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.CanClash
-struct AMordhauGameMode_CanClash_Params
-{
-	class APawn*                                       Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class APawn*                                       Target;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.CanChamber
-struct AMordhauGameMode_CanChamber_Params
-{
-	class APawn*                                       Source;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class APawn*                                       Target;                                                    // 0x0008(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.Broadcast
-struct AMordhauGameMode_Broadcast_Params
-{
-	class AActor*                                      Sender;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     Msg;                                                       // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FName                                       Type;                                                      // 0x0018(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.AddTeamScore
-struct AMordhauGameMode_AddTeamScore_Params
-{
-	int                                                Team;                                                      // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                              Amount;                                                    // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameMode.AddBots
-struct AMordhauGameMode_AddBots_Params
-{
-	int                                                Amount;                                                    // 0x0000(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                Team;                                                      // 0x0004(0x0004)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.UploadAdminActionDataToWebhook
-struct AMordhauGameSession_UploadAdminActionDataToWebhook_Params
-{
-	struct FString                                     Command;                                                   // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FPlayFabPlayer                              Sender;                                                    // 0x0010(0x0060)  (ConstParm, Parm, OutParm, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     Details;                                                   // 0x0070(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.UnmutePlayer
-struct AMordhauGameSession_UnmutePlayer_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bExpired;                                                  // 0x0010(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0011(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.UnbanPlayer
-struct AMordhauGameSession_UnbanPlayer_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               bExpired;                                                  // 0x0010(0x0001)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0011(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.TriggerRewardDropForPlayer
-struct AMordhauGameSession_TriggerRewardDropForPlayer_Params
-{
-	class APlayerController*                           Player;                                                    // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.TriggerRewardDrop
-struct AMordhauGameSession_TriggerRewardDrop_Params
-{
-};
-
-// Function Mordhau.MordhauGameSession.ReportTimeLeft
-struct AMordhauGameSession_ReportTimeLeft_Params
-{
-	TArray<float>                                      TimeLeft;                                                  // 0x0000(0x0010)  (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.ReportPlayer
-struct AMordhauGameSession_ReportPlayer_Params
-{
-	struct FString                                     ReporteePlayFabID;                                         // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     ReporterPlayFabID;                                         // 0x0010(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     ReportType;                                                // 0x0020(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     ScreenshotFilename;                                        // 0x0030(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0040(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.RemoveAdmin
-struct AMordhauGameSession_RemoveAdmin_Params
-{
-	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.MutePlayerWithDuration
-struct AMordhauGameSession_MutePlayerWithDuration_Params
-{
-	class APlayerController*                           MutedPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                MuteDuration;                                              // 0x0008(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x000C(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.MutePlayer
-struct AMordhauGameSession_MutePlayer_Params
-{
-	class APlayerController*                           MutedPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0008(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.KickPlayer
-struct AMordhauGameSession_KickPlayer_Params
-{
-	class APlayerController*                           KickedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FText                                       KickReason;                                                // 0x0008(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.IsPlayerMuted
-struct AMordhauGameSession_IsPlayerMuted_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.IsPlayerBanned
-struct AMordhauGameSession_IsPlayerBanned_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0010(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.GetPlayerMuteDuration
-struct AMordhauGameSession_GetPlayerMuteDuration_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.GetPlayerBanDuration
-struct AMordhauGameSession_GetPlayerBanDuration_Params
-{
-	struct FString                                     PlayFabId;                                                 // 0x0000(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                ReturnValue;                                               // 0x0010(0x0004)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.BanPlayerWithDuration
-struct AMordhauGameSession_BanPlayerWithDuration_Params
-{
-	class APlayerController*                           BannedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int                                                BanDuration;                                               // 0x0008(0x0004)  (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FText                                       BanReason;                                                 // 0x0010(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0028(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.BanPlayer
-struct AMordhauGameSession_BanPlayer_Params
-{
-	class APlayerController*                           BannedPlayer;                                              // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FText                                       BanReason;                                                 // 0x0008(0x0018)  (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-	bool                                               ReturnValue;                                               // 0x0020(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.AllowsJoin
-struct AMordhauGameSession_AllowsJoin_Params
-{
-	bool                                               ReturnValue;                                               // 0x0000(0x0001)  (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.AllowJoin
-struct AMordhauGameSession_AllowJoin_Params
-{
-	bool                                               bInAllowJoin;                                              // 0x0000(0x0001)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.AddTieredAdmin
-struct AMordhauGameSession_AddTieredAdmin_Params
-{
-	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FString                                     Tier;                                                      // 0x0008(0x0010)  (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-
-// Function Mordhau.MordhauGameSession.AddAdmin
-struct AMordhauGameSession_AddAdmin_Params
-{
-	class APlayerController*                           AdminPlayer;                                               // 0x0000(0x0008)  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 
 }

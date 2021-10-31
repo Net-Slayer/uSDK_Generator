@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatePopupText.BP_StatePopupText_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_StatePopupText_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatePopupText.BP_StatePopupText_C.Activate
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void UBP_StatePopupText_C::Activate(const struct FText& Text, const struct FLine
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatePopupText.BP_StatePopupText_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_StatePopupText_C::Construct()
@@ -82,7 +82,7 @@ void UBP_StatePopupText_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatePopupText.BP_StatePopupText_C.Entry Anim Finished
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_StatePopupText_C::Entry_Anim_Finished()
@@ -100,7 +100,7 @@ void UBP_StatePopupText_C::Entry_Anim_Finished()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatePopupText.BP_StatePopupText_C.ExecuteUbergraph_BP_StatePopupText
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

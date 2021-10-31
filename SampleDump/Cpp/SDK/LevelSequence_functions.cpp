@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x025C4AE0
+//		Offset -> 0x025D0070
 //		Name   -> Function LevelSequence.LevelSequence.RemoveMetaDataByClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void ULevelSequence::RemoveMetaDataByClass(class UClass* InClass)
 
 
 // Function:
-//		Offset -> 0x025C4440
+//		Offset -> 0x025CF9D0
 //		Name   -> Function LevelSequence.LevelSequence.FindOrAddMetaDataByClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -66,7 +66,7 @@ class UObject* ULevelSequence::FindOrAddMetaDataByClass(class UClass* InClass)
 
 
 // Function:
-//		Offset -> 0x025C4440
+//		Offset -> 0x025CF9D0
 //		Name   -> Function LevelSequence.LevelSequence.FindMetaDataByClass
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -91,7 +91,7 @@ class UObject* ULevelSequence::FindMetaDataByClass(class UClass* InClass)
 
 
 // Function:
-//		Offset -> 0x025C4440
+//		Offset -> 0x025CF9D0
 //		Name   -> Function LevelSequence.LevelSequence.CopyMetaData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -116,7 +116,7 @@ class UObject* ULevelSequence::CopyMetaData(class UObject* InMetaData)
 
 
 // Function:
-//		Offset -> 0x025C4EA0
+//		Offset -> 0x025D0430
 //		Name   -> Function LevelSequence.LevelSequenceBurnInOptions.SetBurnIn
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -138,7 +138,7 @@ void ULevelSequenceBurnInOptions::SetBurnIn(const struct FSoftClassPath& InBurnI
 
 
 // Function:
-//		Offset -> 0x025C5200
+//		Offset -> 0x025D0790
 //		Name   -> Function LevelSequence.LevelSequenceActor.ShowBurnin
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ALevelSequenceActor::ShowBurnin()
@@ -157,7 +157,7 @@ void ALevelSequenceActor::ShowBurnin()
 
 
 // Function:
-//		Offset -> 0x025C5180
+//		Offset -> 0x025D0710
 //		Name   -> Function LevelSequence.LevelSequenceActor.SetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -179,7 +179,7 @@ void ALevelSequenceActor::SetSequence(class ULevelSequence* InSequence)
 
 
 // Function:
-//		Offset -> 0x025C50F0
+//		Offset -> 0x025D0680
 //		Name   -> Function LevelSequence.LevelSequenceActor.SetReplicatePlayback
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -201,7 +201,7 @@ void ALevelSequenceActor::SetReplicatePlayback(bool ReplicatePlayback)
 
 
 // Function:
-//		Offset -> 0x025C4FA0
+//		Offset -> 0x025D0530
 //		Name   -> Function LevelSequence.LevelSequenceActor.SetEventReceivers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -223,7 +223,7 @@ void ALevelSequenceActor::SetEventReceivers(TArray<class AActor*> AdditionalRece
 
 
 // Function:
-//		Offset -> 0x025C4D70
+//		Offset -> 0x025D0300
 //		Name   -> Function LevelSequence.LevelSequenceActor.SetBindingByTag
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -249,7 +249,7 @@ void ALevelSequenceActor::SetBindingByTag(const struct FName& BindingTag, TArray
 
 
 // Function:
-//		Offset -> 0x025C4C20
+//		Offset -> 0x025D01B0
 //		Name   -> Function LevelSequence.LevelSequenceActor.SetBinding
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -275,7 +275,7 @@ void ALevelSequenceActor::SetBinding(const struct FMovieSceneObjectBindingID& Bi
 
 
 // Function:
-//		Offset -> 0x025C4C00
+//		Offset -> 0x025D0190
 //		Name   -> Function LevelSequence.LevelSequenceActor.ResetBindings
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ALevelSequenceActor::ResetBindings()
@@ -294,7 +294,7 @@ void ALevelSequenceActor::ResetBindings()
 
 
 // Function:
-//		Offset -> 0x025C4B50
+//		Offset -> 0x025D00E0
 //		Name   -> Function LevelSequence.LevelSequenceActor.ResetBinding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -316,7 +316,7 @@ void ALevelSequenceActor::ResetBinding(const struct FMovieSceneObjectBindingID& 
 
 
 // Function:
-//		Offset -> 0x025C4A20
+//		Offset -> 0x025CFFB0
 //		Name   -> Function LevelSequence.LevelSequenceActor.RemoveBindingByTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -340,7 +340,7 @@ void ALevelSequenceActor::RemoveBindingByTag(const struct FName& Tag, class AAct
 
 
 // Function:
-//		Offset -> 0x025C4930
+//		Offset -> 0x025CFEC0
 //		Name   -> Function LevelSequence.LevelSequenceActor.RemoveBinding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -364,7 +364,7 @@ void ALevelSequenceActor::RemoveBinding(const struct FMovieSceneObjectBindingID&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction LevelSequence.LevelSequenceActor.OnLevelSequenceLoaded__DelegateSignature
 //		Flags  -> (Public, Delegate)
 void ALevelSequenceActor::OnLevelSequenceLoaded__DelegateSignature()
@@ -382,7 +382,7 @@ void ALevelSequenceActor::OnLevelSequenceLoaded__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x025C48C0
+//		Offset -> 0x025CFE50
 //		Name   -> Function LevelSequence.LevelSequenceActor.LoadSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -405,7 +405,7 @@ class ULevelSequence* ALevelSequenceActor::LoadSequence()
 
 
 // Function:
-//		Offset -> 0x025C48A0
+//		Offset -> 0x025CFE30
 //		Name   -> Function LevelSequence.LevelSequenceActor.HideBurnin
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ALevelSequenceActor::HideBurnin()
@@ -424,7 +424,7 @@ void ALevelSequenceActor::HideBurnin()
 
 
 // Function:
-//		Offset -> 0x025C4850
+//		Offset -> 0x025CFDE0
 //		Name   -> Function LevelSequence.LevelSequenceActor.GetSequencePlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -447,7 +447,7 @@ class ULevelSequencePlayer* ALevelSequenceActor::GetSequencePlayer()
 
 
 // Function:
-//		Offset -> 0x025C4800
+//		Offset -> 0x025CFD90
 //		Name   -> Function LevelSequence.LevelSequenceActor.GetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -470,7 +470,7 @@ class ULevelSequence* ALevelSequenceActor::GetSequence()
 
 
 // Function:
-//		Offset -> 0x025C46E0
+//		Offset -> 0x025CFC70
 //		Name   -> Function LevelSequence.LevelSequenceActor.FindNamedBindings
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -495,7 +495,7 @@ TArray<struct FMovieSceneObjectBindingID> ALevelSequenceActor::FindNamedBindings
 
 
 // Function:
-//		Offset -> 0x025C4630
+//		Offset -> 0x025CFBC0
 //		Name   -> Function LevelSequence.LevelSequenceActor.FindNamedBinding
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -520,7 +520,7 @@ struct FMovieSceneObjectBindingID ALevelSequenceActor::FindNamedBinding(const st
 
 
 // Function:
-//		Offset -> 0x025C4330
+//		Offset -> 0x025CF8C0
 //		Name   -> Function LevelSequence.LevelSequenceActor.AddBindingByTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -546,7 +546,7 @@ void ALevelSequenceActor::AddBindingByTag(const struct FName& BindingTag, class 
 
 
 // Function:
-//		Offset -> 0x025C41F0
+//		Offset -> 0x025CF780
 //		Name   -> Function LevelSequence.LevelSequenceActor.AddBinding
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -572,7 +572,7 @@ void ALevelSequenceActor::AddBinding(const struct FMovieSceneObjectBindingID& Bi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function LevelSequence.LevelSequenceBurnIn.SetSettings
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -593,7 +593,7 @@ void ULevelSequenceBurnIn::SetSettings(class UObject* InSettings)
 
 
 // Function:
-//		Offset -> 0x025C4880
+//		Offset -> 0x025CFE10
 //		Name   -> Function LevelSequence.LevelSequenceBurnIn.GetSettingsClass
 //		Flags  -> (Native, Event, Public, BlueprintEvent, Const)
 // Parameters:
@@ -616,7 +616,7 @@ class UClass* ULevelSequenceBurnIn::GetSettingsClass()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function LevelSequence.LevelSequenceDirector.OnCreated
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ULevelSequenceDirector::OnCreated()
@@ -634,7 +634,7 @@ void ULevelSequenceDirector::OnCreated()
 
 
 // Function:
-//		Offset -> 0x025C47C0
+//		Offset -> 0x025CFD50
 //		Name   -> Function LevelSequence.LevelSequencePlayer.GetActiveCameraComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -657,7 +657,7 @@ class UCameraComponent* ULevelSequencePlayer::GetActiveCameraComponent()
 
 
 // Function:
-//		Offset -> 0x025C44C0
+//		Offset -> 0x025CFA50
 //		Name   -> Function LevelSequence.LevelSequencePlayer.CreateLevelSequencePlayer
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -690,7 +690,7 @@ class ULevelSequencePlayer* ULevelSequencePlayer::STATIC_CreateLevelSequencePlay
 
 
 // Function:
-//		Offset -> 0x025C5220
+//		Offset -> 0x025D07B0
 //		Name   -> Function LevelSequence.LevelSequenceMediaController.SynchronizeToServer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -712,7 +712,7 @@ void ALevelSequenceMediaController::SynchronizeToServer(float DesyncThresholdSec
 
 
 // Function:
-//		Offset -> 0x025C4910
+//		Offset -> 0x025CFEA0
 //		Name   -> Function LevelSequence.LevelSequenceMediaController.Play
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void ALevelSequenceMediaController::Play()
@@ -731,7 +731,7 @@ void ALevelSequenceMediaController::Play()
 
 
 // Function:
-//		Offset -> 0x025C48F0
+//		Offset -> 0x025CFE80
 //		Name   -> Function LevelSequence.LevelSequenceMediaController.OnRep_ServerStartTimeSeconds
 //		Flags  -> (Final, Native, Private)
 void ALevelSequenceMediaController::OnRep_ServerStartTimeSeconds()
@@ -750,7 +750,7 @@ void ALevelSequenceMediaController::OnRep_ServerStartTimeSeconds()
 
 
 // Function:
-//		Offset -> 0x025C4830
+//		Offset -> 0x025CFDC0
 //		Name   -> Function LevelSequence.LevelSequenceMediaController.GetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -773,7 +773,7 @@ class ALevelSequenceActor* ALevelSequenceMediaController::GetSequence()
 
 
 // Function:
-//		Offset -> 0x0245A590
+//		Offset -> 0x02465BA0
 //		Name   -> Function LevelSequence.LevelSequenceMediaController.GetMediaComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

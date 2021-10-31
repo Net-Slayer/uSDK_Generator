@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D03830
+//		Offset -> 0x00D0D060
 //		Name   -> Function MagicLeapAudio.MagicLeapAudioFunctionLibrary.SetOnAudioJackUnpluggedDelegate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -44,7 +44,7 @@ bool UMagicLeapAudioFunctionLibrary::STATIC_SetOnAudioJackUnpluggedDelegate(cons
 
 
 // Function:
-//		Offset -> 0x00D03780
+//		Offset -> 0x00D0CFB0
 //		Name   -> Function MagicLeapAudio.MagicLeapAudioFunctionLibrary.SetOnAudioJackPluggedDelegate
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -69,7 +69,7 @@ bool UMagicLeapAudioFunctionLibrary::STATIC_SetOnAudioJackPluggedDelegate(const 
 
 
 // Function:
-//		Offset -> 0x00D03700
+//		Offset -> 0x00D0CF30
 //		Name   -> Function MagicLeapAudio.MagicLeapAudioFunctionLibrary.SetMicMute
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -94,7 +94,7 @@ bool UMagicLeapAudioFunctionLibrary::STATIC_SetMicMute(bool IsMuted)
 
 
 // Function:
-//		Offset -> 0x0062E610
+//		Offset -> 0x00632370
 //		Name   -> Function MagicLeapAudio.MagicLeapAudioFunctionLibrary.IsMicMuted
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:

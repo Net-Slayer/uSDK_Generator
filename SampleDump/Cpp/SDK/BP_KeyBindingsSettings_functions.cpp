@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.CollapseIfConsole
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_KeyBindingsSettings_C::CollapseIfConsole()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.SetWidgetBinding
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -66,7 +66,7 @@ void UBP_KeyBindingsSettings_C::SetWidgetBinding(class UBP_KeyBindingElementWidg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.FindDuplicateBindingWidget
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -93,7 +93,7 @@ void UBP_KeyBindingsSettings_C::FindDuplicateBindingWidget(const struct FKey& Ke
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.SelectWidget
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -114,7 +114,7 @@ void UBP_KeyBindingsSettings_C::SelectWidget(class UBP_KeyBindingElementWidget_C
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnMouseWheel
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -140,7 +140,7 @@ struct FEventReply UBP_KeyBindingsSettings_C::OnMouseWheel(const struct FGeometr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnPreviewMouseButtonDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -166,7 +166,7 @@ struct FEventReply UBP_KeyBindingsSettings_C::OnPreviewMouseButtonDown(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnMouseMove
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -192,7 +192,7 @@ struct FEventReply UBP_KeyBindingsSettings_C::OnMouseMove(const struct FGeometry
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.FindWidgetByName
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -217,7 +217,7 @@ void UBP_KeyBindingsSettings_C::FindWidgetByName(const struct FName& ActionName,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.PopulateCustomBindings
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -238,7 +238,7 @@ void UBP_KeyBindingsSettings_C::PopulateCustomBindings(int SourceScheme)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.HandleInputEvent
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -265,7 +265,7 @@ void UBP_KeyBindingsSettings_C::HandleInputEvent(const struct FKey& Key, bool bI
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnAnalogValueChanged
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -291,7 +291,7 @@ struct FEventReply UBP_KeyBindingsSettings_C::OnAnalogValueChanged(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnPreviewKeyDown
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -317,7 +317,7 @@ struct FEventReply UBP_KeyBindingsSettings_C::OnPreviewKeyDown(const struct FGeo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_KeyBindingsSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -335,7 +335,7 @@ void UBP_KeyBindingsSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_0
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.BndEvt__resetButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_KeyBindingsSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
@@ -353,7 +353,7 @@ void UBP_KeyBindingsSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_4
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.BndEvt__ControlsButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_KeyBindingsSettings_C::BndEvt__ControlsButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
@@ -371,7 +371,7 @@ void UBP_KeyBindingsSettings_C::BndEvt__ControlsButton_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::Construct()
@@ -389,7 +389,7 @@ void UBP_KeyBindingsSettings_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnYesClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::OnYesClicked()
@@ -407,7 +407,7 @@ void UBP_KeyBindingsSettings_C::OnYesClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.OnNoClicked
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::OnNoClicked()
@@ -425,7 +425,7 @@ void UBP_KeyBindingsSettings_C::OnNoClicked()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.ApplyKeyBindings
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::ApplyKeyBindings()
@@ -443,7 +443,7 @@ void UBP_KeyBindingsSettings_C::ApplyKeyBindings()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.ResetConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::ResetConfirm()
@@ -461,7 +461,7 @@ void UBP_KeyBindingsSettings_C::ResetConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.ResetCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_KeyBindingsSettings_C::ResetCancel()
@@ -479,7 +479,7 @@ void UBP_KeyBindingsSettings_C::ResetCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingsSettings.BP_KeyBindingsSettings_C.ExecuteUbergraph_BP_KeyBindingsSettings
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

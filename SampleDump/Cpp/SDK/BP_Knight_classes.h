@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,8 +20,8 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Knight.BP_Knight_C
-// 0x0000 (FullSize[0x00A0] - InheritedSize[0x00A0])
-class UBP_Knight_C : public UCharacterVoice
+// 0x0000 (FullSize[0x0060] - InheritedSize[0x0060])
+class UBP_Knight_C : public UBadge
 {
 public:
 

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -19,10 +19,10 @@ namespace CG
 // Parameters
 //---------------------------------------------------------------------------
 
-// Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedCharacter
-struct ABP_MordhauProjectile_C_OnProjectileDamagedCharacter_Params
+// Function BP_MordhauProjectile.BP_MordhauProjectile_C.OnProjectileDamagedDamagable
+struct ABP_MordhauProjectile_C_OnProjectileDamagedDamagable_Params
 {
-	class AAdvancedCharacter*                          Character;                                                 // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UDamageableComponent*                        DamagableComp;                                             // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                               bWillKill;                                                 // 0x0008(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 	struct FVector                                     WorldLocation;                                             // 0x000C(0x000C)  (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FName                                       bone;                                                      // 0x0018(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

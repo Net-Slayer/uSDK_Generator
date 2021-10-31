@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x0303DD70
+//		Offset -> 0x03048DC0
 //		Name   -> Function AIModule.AIController.UseBlackboard
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -48,7 +48,7 @@ bool AAIController::UseBlackboard(class UBlackboardData* BlackboardAsset, class 
 
 
 // Function:
-//		Offset -> 0x0303DB40
+//		Offset -> 0x03048B90
 //		Name   -> Function AIModule.AIController.UnclaimTaskResource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -70,7 +70,7 @@ void AAIController::UnclaimTaskResource(class UClass* ResourceClass)
 
 
 // Function:
-//		Offset -> 0x0303D670
+//		Offset -> 0x030486C0
 //		Name   -> Function AIModule.AIController.SetPathFollowingComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -92,7 +92,7 @@ void AAIController::SetPathFollowingComponent(class UPathFollowingComponent* New
 
 
 // Function:
-//		Offset -> 0x0303D5E0
+//		Offset -> 0x03048630
 //		Name   -> Function AIModule.AIController.SetMoveBlockDetection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -114,7 +114,7 @@ void AAIController::SetMoveBlockDetection(bool bEnable)
 
 
 // Function:
-//		Offset -> 0x0303D410
+//		Offset -> 0x03048460
 //		Name   -> Function AIModule.AIController.RunBehaviorTree
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -139,7 +139,7 @@ bool AAIController::RunBehaviorTree(class UBehaviorTree* BTAsset)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AIController.OnUsingBlackBoard
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -162,7 +162,7 @@ void AAIController::OnUsingBlackBoard(class UBlackboardComponent* BlackboardComp
 
 
 // Function:
-//		Offset -> 0x0303CE20
+//		Offset -> 0x03047E70
 //		Name   -> Function AIModule.AIController.OnGameplayTaskResourcesClaimed
 //		Flags  -> (Native, Public)
 // Parameters:
@@ -186,7 +186,7 @@ void AAIController::OnGameplayTaskResourcesClaimed(const struct FGameplayResourc
 
 
 // Function:
-//		Offset -> 0x0303CBB0
+//		Offset -> 0x03047C00
 //		Name   -> Function AIModule.AIController.MoveToLocation
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -225,7 +225,7 @@ TEnumAsByte<AIModule_EPathFollowingRequestResult> AAIController::MoveToLocation(
 
 
 // Function:
-//		Offset -> 0x0303C990
+//		Offset -> 0x030479E0
 //		Name   -> Function AIModule.AIController.MoveToActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -262,7 +262,7 @@ TEnumAsByte<AIModule_EPathFollowingRequestResult> AAIController::MoveToActor(cla
 
 
 // Function:
-//		Offset -> 0x0303C800
+//		Offset -> 0x03047850
 //		Name   -> Function AIModule.AIController.K2_SetFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -284,7 +284,7 @@ void AAIController::K2_SetFocus(class AActor* NewFocus)
 
 
 // Function:
-//		Offset -> 0x0303C770
+//		Offset -> 0x030477C0
 //		Name   -> Function AIModule.AIController.K2_SetFocalPoint
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -306,7 +306,7 @@ void AAIController::K2_SetFocalPoint(const struct FVector& FP)
 
 
 // Function:
-//		Offset -> 0x0303C750
+//		Offset -> 0x030477A0
 //		Name   -> Function AIModule.AIController.K2_ClearFocus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void AAIController::K2_ClearFocus()
@@ -325,7 +325,7 @@ void AAIController::K2_ClearFocus()
 
 
 // Function:
-//		Offset -> 0x0303C570
+//		Offset -> 0x030475C0
 //		Name   -> Function AIModule.AIController.HasPartialPath
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -348,7 +348,7 @@ bool AAIController::HasPartialPath()
 
 
 // Function:
-//		Offset -> 0x0303C280
+//		Offset -> 0x030472D0
 //		Name   -> Function AIModule.AIController.GetPathFollowingComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -371,7 +371,7 @@ class UPathFollowingComponent* AAIController::GetPathFollowingComponent()
 
 
 // Function:
-//		Offset -> 0x0303C250
+//		Offset -> 0x030472A0
 //		Name   -> Function AIModule.AIController.GetMoveStatus
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -394,7 +394,7 @@ TEnumAsByte<AIModule_EPathFollowingStatus> AAIController::GetMoveStatus()
 
 
 // Function:
-//		Offset -> 0x0303C120
+//		Offset -> 0x03047170
 //		Name   -> Function AIModule.AIController.GetImmediateMoveDestination
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -417,7 +417,7 @@ struct FVector AAIController::GetImmediateMoveDestination()
 
 
 // Function:
-//		Offset -> 0x0303C0F0
+//		Offset -> 0x03047140
 //		Name   -> Function AIModule.AIController.GetFocusActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -440,7 +440,7 @@ class AActor* AAIController::GetFocusActor()
 
 
 // Function:
-//		Offset -> 0x0303C040
+//		Offset -> 0x03047090
 //		Name   -> Function AIModule.AIController.GetFocalPointOnActor
 //		Flags  -> (Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -465,7 +465,7 @@ struct FVector AAIController::GetFocalPointOnActor(class AActor* Actor)
 
 
 // Function:
-//		Offset -> 0x0303C000
+//		Offset -> 0x03047050
 //		Name   -> Function AIModule.AIController.GetFocalPoint
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -488,7 +488,7 @@ struct FVector AAIController::GetFocalPoint()
 
 
 // Function:
-//		Offset -> 0x0303BCF0
+//		Offset -> 0x03046D40
 //		Name   -> Function AIModule.AIController.GetAIPerceptionComponent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -511,7 +511,7 @@ class UAIPerceptionComponent* AAIController::GetAIPerceptionComponent()
 
 
 // Function:
-//		Offset -> 0x0303BA10
+//		Offset -> 0x03046A60
 //		Name   -> Function AIModule.AIController.ClaimTaskResource
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -533,7 +533,7 @@ void AAIController::ClaimTaskResource(class UClass* ResourceClass)
 
 
 // Function:
-//		Offset -> 0x03055800
+//		Offset -> 0x03060830
 //		Name   -> Function AIModule.PathFollowingComponent.OnNavDataRegistered
 //		Flags  -> (Final, Native, Protected)
 // Parameters:
@@ -555,7 +555,7 @@ void UPathFollowingComponent::OnNavDataRegistered(class ANavigationData* NavData
 
 
 // Function:
-//		Offset -> 0x03055670
+//		Offset -> 0x030606A0
 //		Name   -> Function AIModule.PathFollowingComponent.OnActorBump
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults)
 // Parameters:
@@ -583,7 +583,7 @@ void UPathFollowingComponent::OnActorBump(class AActor* SelfActor, class AActor*
 
 
 // Function:
-//		Offset -> 0x03055280
+//		Offset -> 0x030602B0
 //		Name   -> Function AIModule.PathFollowingComponent.GetPathDestination
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -606,7 +606,7 @@ struct FVector UPathFollowingComponent::GetPathDestination()
 
 
 // Function:
-//		Offset -> 0x03055250
+//		Offset -> 0x03060280
 //		Name   -> Function AIModule.PathFollowingComponent.GetPathActionType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -629,7 +629,7 @@ TEnumAsByte<AIModule_EPathFollowingAction> UPathFollowingComponent::GetPathActio
 
 
 // Function:
-//		Offset -> 0x0304E960
+//		Offset -> 0x03059990
 //		Name   -> Function AIModule.CrowdFollowingComponent.SuspendCrowdSteering
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -651,7 +651,7 @@ void UCrowdFollowingComponent::SuspendCrowdSteering(bool bSuspend)
 
 
 // Function:
-//		Offset -> 0x0303CEF0
+//		Offset -> 0x03047F40
 //		Name   -> Function AIModule.AIAsyncTaskBlueprintProxy.OnMoveCompleted
 //		Flags  -> (Final, Native, Public)
 // Parameters:
@@ -675,7 +675,7 @@ void UAIAsyncTaskBlueprintProxy::OnMoveCompleted(const struct FAIRequestID& Requ
 
 
 // Function:
-//		Offset -> 0x0303DBC0
+//		Offset -> 0x03048C10
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.UnlockAIResourcesWithAnimation
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -701,7 +701,7 @@ void UAIBlueprintHelperLibrary::STATIC_UnlockAIResourcesWithAnimation(class UAni
 
 
 // Function:
-//		Offset -> 0x0303D930
+//		Offset -> 0x03048980
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.SpawnAIFromClass
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -738,7 +738,7 @@ class APawn* UAIBlueprintHelperLibrary::STATIC_SpawnAIFromClass(class UObject* W
 
 
 // Function:
-//		Offset -> 0x0303D870
+//		Offset -> 0x030488C0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.SimpleMoveToLocation
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -762,7 +762,7 @@ void UAIBlueprintHelperLibrary::STATIC_SimpleMoveToLocation(class AController* C
 
 
 // Function:
-//		Offset -> 0x0303D7C0
+//		Offset -> 0x03048810
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.SimpleMoveToActor
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -786,7 +786,7 @@ void UAIBlueprintHelperLibrary::STATIC_SimpleMoveToActor(class AController* Cont
 
 
 // Function:
-//		Offset -> 0x0303D4B0
+//		Offset -> 0x03048500
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.SendAIMessage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -814,7 +814,7 @@ void UAIBlueprintHelperLibrary::STATIC_SendAIMessage(class APawn* Target, const 
 
 
 // Function:
-//		Offset -> 0x0303C880
+//		Offset -> 0x030478D0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.LockAIResourcesWithAnimation
 //		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -840,7 +840,7 @@ void UAIBlueprintHelperLibrary::STATIC_LockAIResourcesWithAnimation(class UAnimI
 
 
 // Function:
-//		Offset -> 0x0303C6C0
+//		Offset -> 0x03047710
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.IsValidAIRotation
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -865,7 +865,7 @@ bool UAIBlueprintHelperLibrary::STATIC_IsValidAIRotation(const struct FRotator& 
 
 
 // Function:
-//		Offset -> 0x0303C630
+//		Offset -> 0x03047680
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.IsValidAILocation
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -890,7 +890,7 @@ bool UAIBlueprintHelperLibrary::STATIC_IsValidAILocation(const struct FVector& L
 
 
 // Function:
-//		Offset -> 0x0303C5A0
+//		Offset -> 0x030475F0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.IsValidAIDirection
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -915,7 +915,7 @@ bool UAIBlueprintHelperLibrary::STATIC_IsValidAIDirection(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x0303BE90
+//		Offset -> 0x03046EE0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.GetCurrentPath
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -940,7 +940,7 @@ class UNavigationPath* UAIBlueprintHelperLibrary::STATIC_GetCurrentPath(class AC
 
 
 // Function:
-//		Offset -> 0x0303BE10
+//		Offset -> 0x03046E60
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.GetBlackboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -965,7 +965,7 @@ class UBlackboardComponent* UAIBlueprintHelperLibrary::STATIC_GetBlackboard(clas
 
 
 // Function:
-//		Offset -> 0x0303BC70
+//		Offset -> 0x03046CC0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.GetAIController
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -990,7 +990,7 @@ class AAIController* UAIBlueprintHelperLibrary::STATIC_GetAIController(class AAc
 
 
 // Function:
-//		Offset -> 0x0303BA90
+//		Offset -> 0x03046AE0
 //		Name   -> Function AIModule.AIBlueprintHelperLibrary.CreateMoveToProxyObject
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1025,7 +1025,7 @@ class UAIAsyncTaskBlueprintProxy* UAIBlueprintHelperLibrary::STATIC_CreateMoveTo
 
 
 // Function:
-//		Offset -> 0x0303D6F0
+//		Offset -> 0x03048740
 //		Name   -> Function AIModule.AIPerceptionComponent.SetSenseEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1049,7 +1049,7 @@ void UAIPerceptionComponent::SetSenseEnabled(class UClass* SenseClass, bool bEna
 
 
 // Function:
-//		Offset -> 0x0303D3F0
+//		Offset -> 0x03048440
 //		Name   -> Function AIModule.AIPerceptionComponent.RequestStimuliListenerUpdate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAIPerceptionComponent::RequestStimuliListenerUpdate()
@@ -1068,7 +1068,7 @@ void UAIPerceptionComponent::RequestStimuliListenerUpdate()
 
 
 // Function:
-//		Offset -> 0x0303CFB0
+//		Offset -> 0x03048000
 //		Name   -> Function AIModule.AIPerceptionComponent.OnOwnerEndPlay
 //		Flags  -> (Final, Native, Public)
 // Parameters:
@@ -1092,7 +1092,7 @@ void UAIPerceptionComponent::OnOwnerEndPlay(class AActor* Actor, TEnumAsByte<Eng
 
 
 // Function:
-//		Offset -> 0x0303C390
+//		Offset -> 0x030473E0
 //		Name   -> Function AIModule.AIPerceptionComponent.GetPerceivedHostileActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1116,7 +1116,7 @@ void UAIPerceptionComponent::GetPerceivedHostileActors(TArray<class AActor*>* Ou
 
 
 // Function:
-//		Offset -> 0x0303C2A0
+//		Offset -> 0x030472F0
 //		Name   -> Function AIModule.AIPerceptionComponent.GetPerceivedActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1142,7 +1142,7 @@ void UAIPerceptionComponent::GetPerceivedActors(class UClass* SenseToUse, TArray
 
 
 // Function:
-//		Offset -> 0x0303C160
+//		Offset -> 0x030471B0
 //		Name   -> Function AIModule.AIPerceptionComponent.GetKnownPerceivedActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1168,7 +1168,7 @@ void UAIPerceptionComponent::GetKnownPerceivedActors(class UClass* SenseToUse, T
 
 
 // Function:
-//		Offset -> 0x0303BF10
+//		Offset -> 0x03046F60
 //		Name   -> Function AIModule.AIPerceptionComponent.GetCurrentlyPerceivedActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1194,7 +1194,7 @@ void UAIPerceptionComponent::GetCurrentlyPerceivedActors(class UClass* SenseToUs
 
 
 // Function:
-//		Offset -> 0x0303BD10
+//		Offset -> 0x03046D60
 //		Name   -> Function AIModule.AIPerceptionComponent.GetActorsPerception
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1223,7 +1223,7 @@ bool UAIPerceptionComponent::GetActorsPerception(class AActor* Actor, struct FAc
 
 
 // Function:
-//		Offset -> 0x0303BC50
+//		Offset -> 0x03046CA0
 //		Name   -> Function AIModule.AIPerceptionComponent.ForgetAll
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAIPerceptionComponent::ForgetAll()
@@ -1242,7 +1242,7 @@ void UAIPerceptionComponent::ForgetAll()
 
 
 // Function:
-//		Offset -> 0x0303DCF0
+//		Offset -> 0x03048D40
 //		Name   -> Function AIModule.AIPerceptionStimuliSourceComponent.UnregisterFromSense
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1264,7 +1264,7 @@ void UAIPerceptionStimuliSourceComponent::UnregisterFromSense(class UClass* Sens
 
 
 // Function:
-//		Offset -> 0x0303DCD0
+//		Offset -> 0x03048D20
 //		Name   -> Function AIModule.AIPerceptionStimuliSourceComponent.UnregisterFromPerceptionSystem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAIPerceptionStimuliSourceComponent::UnregisterFromPerceptionSystem()
@@ -1283,7 +1283,7 @@ void UAIPerceptionStimuliSourceComponent::UnregisterFromPerceptionSystem()
 
 
 // Function:
-//		Offset -> 0x0303D2A0
+//		Offset -> 0x030482F0
 //		Name   -> Function AIModule.AIPerceptionStimuliSourceComponent.RegisterWithPerceptionSystem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UAIPerceptionStimuliSourceComponent::RegisterWithPerceptionSystem()
@@ -1302,7 +1302,7 @@ void UAIPerceptionStimuliSourceComponent::RegisterWithPerceptionSystem()
 
 
 // Function:
-//		Offset -> 0x0303D130
+//		Offset -> 0x03048180
 //		Name   -> Function AIModule.AIPerceptionStimuliSourceComponent.RegisterForSense
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1324,7 +1324,7 @@ void UAIPerceptionStimuliSourceComponent::RegisterForSense(class UClass* SenseCl
 
 
 // Function:
-//		Offset -> 0x0303D340
+//		Offset -> 0x03048390
 //		Name   -> Function AIModule.AIPerceptionSystem.ReportPerceptionEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1348,7 +1348,7 @@ void UAIPerceptionSystem::STATIC_ReportPerceptionEvent(class UObject* WorldConte
 
 
 // Function:
-//		Offset -> 0x0303D2C0
+//		Offset -> 0x03048310
 //		Name   -> Function AIModule.AIPerceptionSystem.ReportEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1370,7 +1370,7 @@ void UAIPerceptionSystem::ReportEvent(class UAISenseEvent* PerceptionEvent)
 
 
 // Function:
-//		Offset -> 0x0303D1B0
+//		Offset -> 0x03048200
 //		Name   -> Function AIModule.AIPerceptionSystem.RegisterPerceptionStimuliSource
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1399,7 +1399,7 @@ bool UAIPerceptionSystem::STATIC_RegisterPerceptionStimuliSource(class UObject* 
 
 
 // Function:
-//		Offset -> 0x0303D070
+//		Offset -> 0x030480C0
 //		Name   -> Function AIModule.AIPerceptionSystem.OnPerceptionStimuliSourceEndPlay
 //		Flags  -> (Final, Native, Protected)
 // Parameters:
@@ -1423,7 +1423,7 @@ void UAIPerceptionSystem::OnPerceptionStimuliSourceEndPlay(class AActor* Actor, 
 
 
 // Function:
-//		Offset -> 0x0303C440
+//		Offset -> 0x03047490
 //		Name   -> Function AIModule.AIPerceptionSystem.GetSenseClassForStimulus
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1450,7 +1450,7 @@ class UClass* UAIPerceptionSystem::STATIC_GetSenseClassForStimulus(class UObject
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AISense_Blueprint.OnUpdate
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -1474,7 +1474,7 @@ float UAISense_Blueprint::OnUpdate(TArray<class UAISenseEvent*> EventsToProcess)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AISense_Blueprint.OnListenerUpdated
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1497,7 +1497,7 @@ void UAISense_Blueprint::OnListenerUpdated(class AActor* ActorListener, class UA
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AISense_Blueprint.OnListenerUnregistered
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1520,7 +1520,7 @@ void UAISense_Blueprint::OnListenerUnregistered(class AActor* ActorListener, cla
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AISense_Blueprint.OnListenerRegistered
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1543,7 +1543,7 @@ void UAISense_Blueprint::OnListenerRegistered(class AActor* ActorListener, class
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.AISense_Blueprint.K2_OnNewPawn
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -1564,7 +1564,7 @@ void UAISense_Blueprint::K2_OnNewPawn(class APawn* NewPawn)
 
 
 // Function:
-//		Offset -> 0x03041C30
+//		Offset -> 0x0304CC80
 //		Name   -> Function AIModule.AISense_Blueprint.GetAllListenerComponents
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1588,7 +1588,7 @@ void UAISense_Blueprint::GetAllListenerComponents(TArray<class UAIPerceptionComp
 
 
 // Function:
-//		Offset -> 0x03041B80
+//		Offset -> 0x0304CBD0
 //		Name   -> Function AIModule.AISense_Blueprint.GetAllListenerActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1612,7 +1612,7 @@ void UAISense_Blueprint::GetAllListenerActors(TArray<class AActor*>* ListenerAct
 
 
 // Function:
-//		Offset -> 0x03041D80
+//		Offset -> 0x0304CDD0
 //		Name   -> Function AIModule.AISense_Damage.ReportDamageEvent
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1644,7 +1644,7 @@ void UAISense_Damage::STATIC_ReportDamageEvent(class UObject* WorldContextObject
 
 
 // Function:
-//		Offset -> 0x03041F50
+//		Offset -> 0x0304CFA0
 //		Name   -> Function AIModule.AISense_Hearing.ReportNoiseEvent
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1676,7 +1676,7 @@ void UAISense_Hearing::STATIC_ReportNoiseEvent(class UObject* WorldContextObject
 
 
 // Function:
-//		Offset -> 0x03042210
+//		Offset -> 0x0304D260
 //		Name   -> Function AIModule.AISense_Prediction.RequestPawnPredictionEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1702,7 +1702,7 @@ void UAISense_Prediction::STATIC_RequestPawnPredictionEvent(class APawn* Request
 
 
 // Function:
-//		Offset -> 0x03042110
+//		Offset -> 0x0304D160
 //		Name   -> Function AIModule.AISense_Prediction.RequestControllerPredictionEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1728,7 +1728,7 @@ void UAISense_Prediction::STATIC_RequestControllerPredictionEvent(class AAIContr
 
 
 // Function:
-//		Offset -> 0x01FB9090
+//		Offset -> 0x01FC2640
 //		Name   -> Function AIModule.AISystem.AILoggingVerbose
 //		Flags  -> (Exec, Native, Public)
 void UAISystem::AILoggingVerbose()
@@ -1747,7 +1747,7 @@ void UAISystem::AILoggingVerbose()
 
 
 // Function:
-//		Offset -> 0x010B9060
+//		Offset -> 0x010C93D0
 //		Name   -> Function AIModule.AISystem.AIIgnorePlayers
 //		Flags  -> (Exec, Native, Public)
 void UAISystem::AIIgnorePlayers()
@@ -1766,7 +1766,7 @@ void UAISystem::AIIgnorePlayers()
 
 
 // Function:
-//		Offset -> 0x030417A0
+//		Offset -> 0x0304C7F0
 //		Name   -> Function AIModule.AITask_MoveTo.AIMoveTo
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1809,7 +1809,7 @@ class UAITask_MoveTo* UAITask_MoveTo::STATIC_AIMoveTo(class AAIController* Contr
 
 
 // Function:
-//		Offset -> 0x03042310
+//		Offset -> 0x0304D360
 //		Name   -> Function AIModule.AITask_RunEQS.RunEQS
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1836,7 +1836,7 @@ class UAITask_RunEQS* UAITask_RunEQS::STATIC_RunEQS(class AAIController* Control
 
 
 // Function:
-//		Offset -> 0x03046D80
+//		Offset -> 0x03051DB0
 //		Name   -> Function AIModule.BrainComponent.StopLogic
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -1858,7 +1858,7 @@ void UBrainComponent::StopLogic(const struct FString& Reason)
 
 
 // Function:
-//		Offset -> 0x02E5D950
+//		Offset -> 0x02E68640
 //		Name   -> Function AIModule.BrainComponent.StartLogic
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UBrainComponent::StartLogic()
@@ -1877,7 +1877,7 @@ void UBrainComponent::StartLogic()
 
 
 // Function:
-//		Offset -> 0x03046480
+//		Offset -> 0x01099A90
 //		Name   -> Function AIModule.BrainComponent.RestartLogic
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UBrainComponent::RestartLogic()
@@ -1896,7 +1896,7 @@ void UBrainComponent::RestartLogic()
 
 
 // Function:
-//		Offset -> 0x030463B0
+//		Offset -> 0x03051400
 //		Name   -> Function AIModule.BrainComponent.IsRunning
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1919,7 +1919,7 @@ bool UBrainComponent::IsRunning()
 
 
 // Function:
-//		Offset -> 0x03046380
+//		Offset -> 0x030513D0
 //		Name   -> Function AIModule.BrainComponent.IsPaused
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1942,7 +1942,7 @@ bool UBrainComponent::IsPaused()
 
 
 // Function:
-//		Offset -> 0x030423D0
+//		Offset -> 0x0304D420
 //		Name   -> Function AIModule.BehaviorTreeComponent.SetDynamicSubtree
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -1966,7 +1966,7 @@ void UBehaviorTreeComponent::SetDynamicSubtree(const struct FGameplayTag& Inject
 
 
 // Function:
-//		Offset -> 0x03041CE0
+//		Offset -> 0x0304CD30
 //		Name   -> Function AIModule.BehaviorTreeComponent.GetTagCooldownEndTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1991,7 +1991,7 @@ float UBehaviorTreeComponent::GetTagCooldownEndTime(const struct FGameplayTag& C
 
 
 // Function:
-//		Offset -> 0x03041A70
+//		Offset -> 0x0304CAC0
 //		Name   -> Function AIModule.BehaviorTreeComponent.AddCooldownTagDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2017,7 +2017,7 @@ void UBehaviorTreeComponent::AddCooldownTagDuration(const struct FGameplayTag& C
 
 
 // Function:
-//		Offset -> 0x03045A60
+//		Offset -> 0x03050AB0
 //		Name   -> Function AIModule.BlackboardAssetProvider.GetBlackboardAsset
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2040,7 +2040,7 @@ class UBlackboardData* UBlackboardAssetProvider::GetBlackboardAsset()
 
 
 // Function:
-//		Offset -> 0x03046C90
+//		Offset -> 0x03051CC0
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsVector
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2064,7 +2064,7 @@ void UBlackboardComponent::SetValueAsVector(const struct FName& KeyName, const s
 
 
 // Function:
-//		Offset -> 0x03046B40
+//		Offset -> 0x03051B70
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsString
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2088,7 +2088,7 @@ void UBlackboardComponent::SetValueAsString(const struct FName& KeyName, const s
 
 
 // Function:
-//		Offset -> 0x03046A50
+//		Offset -> 0x03051A80
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsRotator
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2112,7 +2112,7 @@ void UBlackboardComponent::SetValueAsRotator(const struct FName& KeyName, const 
 
 
 // Function:
-//		Offset -> 0x03046980
+//		Offset -> 0x030519B0
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsObject
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2136,7 +2136,7 @@ void UBlackboardComponent::SetValueAsObject(const struct FName& KeyName, class U
 
 
 // Function:
-//		Offset -> 0x030468B0
+//		Offset -> 0x030518E0
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsName
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2160,7 +2160,7 @@ void UBlackboardComponent::SetValueAsName(const struct FName& KeyName, const str
 
 
 // Function:
-//		Offset -> 0x030467E0
+//		Offset -> 0x03051810
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsInt
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2184,7 +2184,7 @@ void UBlackboardComponent::SetValueAsInt(const struct FName& KeyName, int IntVal
 
 
 // Function:
-//		Offset -> 0x03046710
+//		Offset -> 0x03051740
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsFloat
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2208,7 +2208,7 @@ void UBlackboardComponent::SetValueAsFloat(const struct FName& KeyName, float Fl
 
 
 // Function:
-//		Offset -> 0x03046640
+//		Offset -> 0x03051670
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsEnum
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2232,7 +2232,7 @@ void UBlackboardComponent::SetValueAsEnum(const struct FName& KeyName, unsigned 
 
 
 // Function:
-//		Offset -> 0x03046570
+//		Offset -> 0x030515A0
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsClass
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2256,7 +2256,7 @@ void UBlackboardComponent::SetValueAsClass(const struct FName& KeyName, class UC
 
 
 // Function:
-//		Offset -> 0x030464A0
+//		Offset -> 0x030514D0
 //		Name   -> Function AIModule.BlackboardComponent.SetValueAsBool
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2280,7 +2280,7 @@ void UBlackboardComponent::SetValueAsBool(const struct FName& KeyName, bool Bool
 
 
 // Function:
-//		Offset -> 0x030463E0
+//		Offset -> 0x03051430
 //		Name   -> Function AIModule.BlackboardComponent.IsVectorValueSet
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2305,7 +2305,7 @@ bool UBlackboardComponent::IsVectorValueSet(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03046270
+//		Offset -> 0x030512C0
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsVector
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2330,7 +2330,7 @@ struct FVector UBlackboardComponent::GetValueAsVector(const struct FName& KeyNam
 
 
 // Function:
-//		Offset -> 0x03046180
+//		Offset -> 0x030511D0
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsString
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2355,7 +2355,7 @@ struct FString UBlackboardComponent::GetValueAsString(const struct FName& KeyNam
 
 
 // Function:
-//		Offset -> 0x030460D0
+//		Offset -> 0x03051120
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsRotator
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2380,7 +2380,7 @@ struct FRotator UBlackboardComponent::GetValueAsRotator(const struct FName& KeyN
 
 
 // Function:
-//		Offset -> 0x03046030
+//		Offset -> 0x03051080
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsObject
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2405,7 +2405,7 @@ class UObject* UBlackboardComponent::GetValueAsObject(const struct FName& KeyNam
 
 
 // Function:
-//		Offset -> 0x03045F90
+//		Offset -> 0x03050FE0
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsName
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2430,7 +2430,7 @@ struct FName UBlackboardComponent::GetValueAsName(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045EF0
+//		Offset -> 0x03050F40
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsInt
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2455,7 +2455,7 @@ int UBlackboardComponent::GetValueAsInt(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045E50
+//		Offset -> 0x03050EA0
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsFloat
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2480,7 +2480,7 @@ float UBlackboardComponent::GetValueAsFloat(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045DB0
+//		Offset -> 0x03050E00
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsEnum
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2505,7 +2505,7 @@ unsigned char UBlackboardComponent::GetValueAsEnum(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045D10
+//		Offset -> 0x03050D60
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsClass
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2530,7 +2530,7 @@ class UClass* UBlackboardComponent::GetValueAsClass(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045C70
+//		Offset -> 0x03050CC0
 //		Name   -> Function AIModule.BlackboardComponent.GetValueAsBool
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2555,7 +2555,7 @@ bool UBlackboardComponent::GetValueAsBool(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x03045B80
+//		Offset -> 0x03050BD0
 //		Name   -> Function AIModule.BlackboardComponent.GetRotationFromEntry
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2584,7 +2584,7 @@ bool UBlackboardComponent::GetRotationFromEntry(const struct FName& KeyName, str
 
 
 // Function:
-//		Offset -> 0x03045A90
+//		Offset -> 0x03050AE0
 //		Name   -> Function AIModule.BlackboardComponent.GetLocationFromEntry
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2613,7 +2613,7 @@ bool UBlackboardComponent::GetLocationFromEntry(const struct FName& KeyName, str
 
 
 // Function:
-//		Offset -> 0x030459D0
+//		Offset -> 0x03050A20
 //		Name   -> Function AIModule.BlackboardComponent.ClearValue
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2635,7 +2635,7 @@ void UBlackboardComponent::ClearValue(const struct FName& KeyName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveTickAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2660,7 +2660,7 @@ void UBTDecorator_BlueprintBase::ReceiveTickAI(class AAIController* OwnerControl
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveTick
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2683,7 +2683,7 @@ void UBTDecorator_BlueprintBase::ReceiveTick(class AActor* OwnerActor, float Del
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveObserverDeactivatedAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2706,7 +2706,7 @@ void UBTDecorator_BlueprintBase::ReceiveObserverDeactivatedAI(class AAIControlle
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveObserverDeactivated
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2727,7 +2727,7 @@ void UBTDecorator_BlueprintBase::ReceiveObserverDeactivated(class AActor* OwnerA
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveObserverActivatedAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2750,7 +2750,7 @@ void UBTDecorator_BlueprintBase::ReceiveObserverActivatedAI(class AAIController*
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveObserverActivated
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2771,7 +2771,7 @@ void UBTDecorator_BlueprintBase::ReceiveObserverActivated(class AActor* OwnerAct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveExecutionStartAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2794,7 +2794,7 @@ void UBTDecorator_BlueprintBase::ReceiveExecutionStartAI(class AAIController* Ow
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveExecutionStart
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2815,7 +2815,7 @@ void UBTDecorator_BlueprintBase::ReceiveExecutionStart(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveExecutionFinishAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2840,7 +2840,7 @@ void UBTDecorator_BlueprintBase::ReceiveExecutionFinishAI(class AAIController* O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.ReceiveExecutionFinish
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2863,7 +2863,7 @@ void UBTDecorator_BlueprintBase::ReceiveExecutionFinish(class AActor* OwnerActor
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.PerformConditionCheckAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2889,7 +2889,7 @@ bool UBTDecorator_BlueprintBase::PerformConditionCheckAI(class AAIController* Ow
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.PerformConditionCheck
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -2913,7 +2913,7 @@ bool UBTDecorator_BlueprintBase::PerformConditionCheck(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x03046350
+//		Offset -> 0x030513A0
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.IsDecoratorObserverActive
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2936,7 +2936,7 @@ bool UBTDecorator_BlueprintBase::IsDecoratorObserverActive()
 
 
 // Function:
-//		Offset -> 0x03046320
+//		Offset -> 0x03051370
 //		Name   -> Function AIModule.BTDecorator_BlueprintBase.IsDecoratorExecutionActive
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2959,7 +2959,7 @@ bool UBTDecorator_BlueprintBase::IsDecoratorExecutionActive()
 
 
 // Function:
-//		Offset -> 0x02E10AD0
+//		Offset -> 0x02E1B730
 //		Name   -> Function AIModule.BTFunctionLibrary.StopUsingExternalEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -2981,7 +2981,7 @@ void UBTFunctionLibrary::STATIC_StopUsingExternalEvent(class UBTNode* NodeOwner)
 
 
 // Function:
-//		Offset -> 0x02E47D50
+//		Offset -> 0x02E52A20
 //		Name   -> Function AIModule.BTFunctionLibrary.StartUsingExternalEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -3005,7 +3005,7 @@ void UBTFunctionLibrary::STATIC_StartUsingExternalEvent(class UBTNode* NodeOwner
 
 
 // Function:
-//		Offset -> 0x0304B1E0
+//		Offset -> 0x03056210
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsVector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3031,7 +3031,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsVector(class UBTNode* NodeOw
 
 
 // Function:
-//		Offset -> 0x0304B050
+//		Offset -> 0x03056080
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsString
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3057,7 +3057,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsString(class UBTNode* NodeOw
 
 
 // Function:
-//		Offset -> 0x0304AF10
+//		Offset -> 0x03055F40
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsRotator
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -3083,7 +3083,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsRotator(class UBTNode* NodeO
 
 
 // Function:
-//		Offset -> 0x0304ADD0
+//		Offset -> 0x03055E00
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsObject
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3109,7 +3109,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsObject(class UBTNode* NodeOw
 
 
 // Function:
-//		Offset -> 0x0304AC90
+//		Offset -> 0x03055CC0
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3135,7 +3135,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsName(class UBTNode* NodeOwne
 
 
 // Function:
-//		Offset -> 0x0304AB50
+//		Offset -> 0x03055B80
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsInt
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3161,7 +3161,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsInt(class UBTNode* NodeOwner
 
 
 // Function:
-//		Offset -> 0x0304AA10
+//		Offset -> 0x03055A40
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsFloat
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3187,7 +3187,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsFloat(class UBTNode* NodeOwn
 
 
 // Function:
-//		Offset -> 0x0304A8D0
+//		Offset -> 0x03055900
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsEnum
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3213,7 +3213,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsEnum(class UBTNode* NodeOwne
 
 
 // Function:
-//		Offset -> 0x0304A790
+//		Offset -> 0x030557C0
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsClass
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3239,7 +3239,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsClass(class UBTNode* NodeOwn
 
 
 // Function:
-//		Offset -> 0x0304A650
+//		Offset -> 0x03055680
 //		Name   -> Function AIModule.BTFunctionLibrary.SetBlackboardValueAsBool
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3265,7 +3265,7 @@ void UBTFunctionLibrary::STATIC_SetBlackboardValueAsBool(class UBTNode* NodeOwne
 
 
 // Function:
-//		Offset -> 0x0304A540
+//		Offset -> 0x03055570
 //		Name   -> Function AIModule.BTFunctionLibrary.GetOwnersBlackboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3290,7 +3290,7 @@ class UBlackboardComponent* UBTFunctionLibrary::STATIC_GetOwnersBlackboard(class
 
 
 // Function:
-//		Offset -> 0x0304A4C0
+//		Offset -> 0x030554F0
 //		Name   -> Function AIModule.BTFunctionLibrary.GetOwnerComponent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3315,7 +3315,7 @@ class UBehaviorTreeComponent* UBTFunctionLibrary::STATIC_GetOwnerComponent(class
 
 
 // Function:
-//		Offset -> 0x0304A3B0
+//		Offset -> 0x030553E0
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsVector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3342,7 +3342,7 @@ struct FVector UBTFunctionLibrary::STATIC_GetBlackboardValueAsVector(class UBTNo
 
 
 // Function:
-//		Offset -> 0x0304A270
+//		Offset -> 0x030552A0
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsString
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3369,7 +3369,7 @@ struct FString UBTFunctionLibrary::STATIC_GetBlackboardValueAsString(class UBTNo
 
 
 // Function:
-//		Offset -> 0x0304A160
+//		Offset -> 0x03055190
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsRotator
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3396,7 +3396,7 @@ struct FRotator UBTFunctionLibrary::STATIC_GetBlackboardValueAsRotator(class UBT
 
 
 // Function:
-//		Offset -> 0x0304A060
+//		Offset -> 0x03055090
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsObject
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3423,7 +3423,7 @@ class UObject* UBTFunctionLibrary::STATIC_GetBlackboardValueAsObject(class UBTNo
 
 
 // Function:
-//		Offset -> 0x03049F60
+//		Offset -> 0x03054F90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3450,7 +3450,7 @@ struct FName UBTFunctionLibrary::STATIC_GetBlackboardValueAsName(class UBTNode* 
 
 
 // Function:
-//		Offset -> 0x03049E60
+//		Offset -> 0x03054E90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsInt
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3477,7 +3477,7 @@ int UBTFunctionLibrary::STATIC_GetBlackboardValueAsInt(class UBTNode* NodeOwner,
 
 
 // Function:
-//		Offset -> 0x03049D60
+//		Offset -> 0x03054D90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsFloat
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3504,7 +3504,7 @@ float UBTFunctionLibrary::STATIC_GetBlackboardValueAsFloat(class UBTNode* NodeOw
 
 
 // Function:
-//		Offset -> 0x03049C60
+//		Offset -> 0x03054C90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsEnum
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3531,7 +3531,7 @@ unsigned char UBTFunctionLibrary::STATIC_GetBlackboardValueAsEnum(class UBTNode*
 
 
 // Function:
-//		Offset -> 0x03049B60
+//		Offset -> 0x03054B90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsClass
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3558,7 +3558,7 @@ class UClass* UBTFunctionLibrary::STATIC_GetBlackboardValueAsClass(class UBTNode
 
 
 // Function:
-//		Offset -> 0x03049A60
+//		Offset -> 0x03054A90
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsBool
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3585,7 +3585,7 @@ bool UBTFunctionLibrary::STATIC_GetBlackboardValueAsBool(class UBTNode* NodeOwne
 
 
 // Function:
-//		Offset -> 0x03049960
+//		Offset -> 0x03054990
 //		Name   -> Function AIModule.BTFunctionLibrary.GetBlackboardValueAsActor
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -3612,7 +3612,7 @@ class AActor* UBTFunctionLibrary::STATIC_GetBlackboardValueAsActor(class UBTNode
 
 
 // Function:
-//		Offset -> 0x030497C0
+//		Offset -> 0x030547F0
 //		Name   -> Function AIModule.BTFunctionLibrary.ClearBlackboardValueAsVector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3636,7 +3636,7 @@ void UBTFunctionLibrary::STATIC_ClearBlackboardValueAsVector(class UBTNode* Node
 
 
 // Function:
-//		Offset -> 0x030497C0
+//		Offset -> 0x030547F0
 //		Name   -> Function AIModule.BTFunctionLibrary.ClearBlackboardValue
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -3660,7 +3660,7 @@ void UBTFunctionLibrary::STATIC_ClearBlackboardValue(class UBTNode* NodeOwner, c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveTickAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3685,7 +3685,7 @@ void UBTService_BlueprintBase::ReceiveTickAI(class AAIController* OwnerControlle
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveTick
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3708,7 +3708,7 @@ void UBTService_BlueprintBase::ReceiveTick(class AActor* OwnerActor, float Delta
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveSearchStartAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3731,7 +3731,7 @@ void UBTService_BlueprintBase::ReceiveSearchStartAI(class AAIController* OwnerCo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveSearchStart
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3752,7 +3752,7 @@ void UBTService_BlueprintBase::ReceiveSearchStart(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveDeactivationAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3775,7 +3775,7 @@ void UBTService_BlueprintBase::ReceiveDeactivationAI(class AAIController* OwnerC
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveDeactivation
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3796,7 +3796,7 @@ void UBTService_BlueprintBase::ReceiveDeactivation(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveActivationAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3819,7 +3819,7 @@ void UBTService_BlueprintBase::ReceiveActivationAI(class AAIController* OwnerCon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTService_BlueprintBase.ReceiveActivation
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3840,7 +3840,7 @@ void UBTService_BlueprintBase::ReceiveActivation(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x0304A5C0
+//		Offset -> 0x030555F0
 //		Name   -> Function AIModule.BTService_BlueprintBase.IsServiceActive
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3863,7 +3863,7 @@ bool UBTService_BlueprintBase::IsServiceActive()
 
 
 // Function:
-//		Offset -> 0x0304B3A0
+//		Offset -> 0x030563D0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.SetFinishOnMessageWithId
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -3887,7 +3887,7 @@ void UBTTask_BlueprintBase::SetFinishOnMessageWithId(const struct FName& Message
 
 
 // Function:
-//		Offset -> 0x0304B320
+//		Offset -> 0x03056350
 //		Name   -> Function AIModule.BTTask_BlueprintBase.SetFinishOnMessage
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -3909,7 +3909,7 @@ void UBTTask_BlueprintBase::SetFinishOnMessage(const struct FName& MessageName)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveTickAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3934,7 +3934,7 @@ void UBTTask_BlueprintBase::ReceiveTickAI(class AAIController* OwnerController, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveTick
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3957,7 +3957,7 @@ void UBTTask_BlueprintBase::ReceiveTick(class AActor* OwnerActor, float DeltaSec
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveExecuteAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -3980,7 +3980,7 @@ void UBTTask_BlueprintBase::ReceiveExecuteAI(class AAIController* OwnerControlle
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveExecute
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -4001,7 +4001,7 @@ void UBTTask_BlueprintBase::ReceiveExecute(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveAbortAI
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -4024,7 +4024,7 @@ void UBTTask_BlueprintBase::ReceiveAbortAI(class AAIController* OwnerController,
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.ReceiveAbort
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -4045,7 +4045,7 @@ void UBTTask_BlueprintBase::ReceiveAbort(class AActor* OwnerActor)
 
 
 // Function:
-//		Offset -> 0x0304A620
+//		Offset -> 0x03055650
 //		Name   -> Function AIModule.BTTask_BlueprintBase.IsTaskExecuting
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4068,7 +4068,7 @@ bool UBTTask_BlueprintBase::IsTaskExecuting()
 
 
 // Function:
-//		Offset -> 0x0304A5F0
+//		Offset -> 0x03055620
 //		Name   -> Function AIModule.BTTask_BlueprintBase.IsTaskAborting
 //		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4091,7 +4091,7 @@ bool UBTTask_BlueprintBase::IsTaskAborting()
 
 
 // Function:
-//		Offset -> 0x030498D0
+//		Offset -> 0x03054900
 //		Name   -> Function AIModule.BTTask_BlueprintBase.FinishExecute
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 // Parameters:
@@ -4113,7 +4113,7 @@ void UBTTask_BlueprintBase::FinishExecute(bool bSuccess)
 
 
 // Function:
-//		Offset -> 0x030498B0
+//		Offset -> 0x030548E0
 //		Name   -> Function AIModule.BTTask_BlueprintBase.FinishAbort
 //		Flags  -> (Final, Native, Protected, BlueprintCallable)
 void UBTTask_BlueprintBase::FinishAbort()
@@ -4132,7 +4132,7 @@ void UBTTask_BlueprintBase::FinishAbort()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.EnvQueryContext_BlueprintBase.ProvideSingleLocation
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintEvent, Const)
 // Parameters:
@@ -4159,7 +4159,7 @@ void UEnvQueryContext_BlueprintBase::ProvideSingleLocation(class UObject* Querie
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.EnvQueryContext_BlueprintBase.ProvideSingleActor
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent, Const)
 // Parameters:
@@ -4186,7 +4186,7 @@ void UEnvQueryContext_BlueprintBase::ProvideSingleActor(class UObject* QuerierOb
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.EnvQueryContext_BlueprintBase.ProvideLocationsSet
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent, Const)
 // Parameters:
@@ -4213,7 +4213,7 @@ void UEnvQueryContext_BlueprintBase::ProvideLocationsSet(class UObject* QuerierO
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.EnvQueryContext_BlueprintBase.ProvideActorsSet
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent, Const)
 // Parameters:
@@ -4240,7 +4240,7 @@ void UEnvQueryContext_BlueprintBase::ProvideActorsSet(class UObject* QuerierObje
 
 
 // Function:
-//		Offset -> 0x0304E930
+//		Offset -> 0x03059960
 //		Name   -> Function AIModule.EnvQueryGenerator_BlueprintBase.GetQuerier
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4263,7 +4263,7 @@ class UObject* UEnvQueryGenerator_BlueprintBase::GetQuerier()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.EnvQueryGenerator_BlueprintBase.DoItemGeneration
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent, Const)
 // Parameters:
@@ -4284,7 +4284,7 @@ void UEnvQueryGenerator_BlueprintBase::DoItemGeneration(TArray<struct FVector> C
 
 
 // Function:
-//		Offset -> 0x0304E8A0
+//		Offset -> 0x030598D0
 //		Name   -> Function AIModule.EnvQueryGenerator_BlueprintBase.AddGeneratedVector
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, Const)
 // Parameters:
@@ -4306,7 +4306,7 @@ void UEnvQueryGenerator_BlueprintBase::AddGeneratedVector(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x0304E820
+//		Offset -> 0x03059850
 //		Name   -> Function AIModule.EnvQueryGenerator_BlueprintBase.AddGeneratedActor
 //		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 // Parameters:
@@ -4328,7 +4328,7 @@ void UEnvQueryGenerator_BlueprintBase::AddGeneratedActor(class AActor* Generated
 
 
 // Function:
-//		Offset -> 0x03052480
+//		Offset -> 0x0305D4B0
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.SetNamedParam
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4352,7 +4352,7 @@ void UEnvQueryInstanceBlueprintWrapper::SetNamedParam(const struct FName& ParamN
 
 
 // Function:
-//		Offset -> 0x03052280
+//		Offset -> 0x0305D2B0
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.GetResultsAsLocations
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4375,7 +4375,7 @@ TArray<struct FVector> UEnvQueryInstanceBlueprintWrapper::GetResultsAsLocations(
 
 
 // Function:
-//		Offset -> 0x03052200
+//		Offset -> 0x0305D230
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.GetResultsAsActors
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4398,7 +4398,7 @@ TArray<class AActor*> UEnvQueryInstanceBlueprintWrapper::GetResultsAsActors()
 
 
 // Function:
-//		Offset -> 0x03052140
+//		Offset -> 0x0305D170
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.GetQueryResultsAsLocations
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -4425,7 +4425,7 @@ bool UEnvQueryInstanceBlueprintWrapper::GetQueryResultsAsLocations(TArray<struct
 
 
 // Function:
-//		Offset -> 0x03052080
+//		Offset -> 0x0305D0B0
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.GetQueryResultsAsActors
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -4452,7 +4452,7 @@ bool UEnvQueryInstanceBlueprintWrapper::GetQueryResultsAsActors(TArray<class AAc
 
 
 // Function:
-//		Offset -> 0x03051FF0
+//		Offset -> 0x0305D020
 //		Name   -> Function AIModule.EnvQueryInstanceBlueprintWrapper.GetItemScore
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4477,7 +4477,7 @@ float UEnvQueryInstanceBlueprintWrapper::GetItemScore(int ItemIndex)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction AIModule.EnvQueryInstanceBlueprintWrapper.EQSQueryDoneSignature__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -4500,7 +4500,7 @@ void UEnvQueryInstanceBlueprintWrapper::EQSQueryDoneSignature__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x03052300
+//		Offset -> 0x0305D330
 //		Name   -> Function AIModule.EnvQueryManager.RunEQSQuery
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4533,7 +4533,7 @@ class UEnvQueryInstanceBlueprintWrapper* UEnvQueryManager::STATIC_RunEQSQuery(cl
 
 
 // Function:
-//		Offset -> 0x03055C50
+//		Offset -> 0x03060C00
 //		Name   -> Function AIModule.NavLinkProxy.SetSmartLinkEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4555,7 +4555,7 @@ void ANavLinkProxy::SetSmartLinkEnabled(bool bEnabled)
 
 
 // Function:
-//		Offset -> 0x03055970
+//		Offset -> 0x030609A0
 //		Name   -> Function AIModule.NavLinkProxy.ResumePathFollowing
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4577,7 +4577,7 @@ void ANavLinkProxy::ResumePathFollowing(class AActor* Agent)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.NavLinkProxy.ReceiveSmartLinkReached
 //		Flags  -> (Event, Public, HasOutParms, HasDefaults, BlueprintEvent)
 // Parameters:
@@ -4600,7 +4600,7 @@ void ANavLinkProxy::ReceiveSmartLinkReached(class AActor* Agent, const struct FV
 
 
 // Function:
-//		Offset -> 0x03055330
+//		Offset -> 0x03060360
 //		Name   -> Function AIModule.NavLinkProxy.IsSmartLinkEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4623,7 +4623,7 @@ bool ANavLinkProxy::IsSmartLinkEnabled()
 
 
 // Function:
-//		Offset -> 0x03055300
+//		Offset -> 0x03060330
 //		Name   -> Function AIModule.NavLinkProxy.HasMovingAgents
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4646,7 +4646,7 @@ bool ANavLinkProxy::HasMovingAgents()
 
 
 // Function:
-//		Offset -> 0x030559F0
+//		Offset -> 0x03060A20
 //		Name   -> Function AIModule.NavLocalGridManager.SetLocalNavigationGridDensity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4673,7 +4673,7 @@ bool UNavLocalGridManager::STATIC_SetLocalNavigationGridDensity(class UObject* W
 
 
 // Function:
-//		Offset -> 0x03055880
+//		Offset -> 0x030608B0
 //		Name   -> Function AIModule.NavLocalGridManager.RemoveLocalNavigationGrid
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4699,7 +4699,7 @@ void UNavLocalGridManager::STATIC_RemoveLocalNavigationGrid(class UObject* World
 
 
 // Function:
-//		Offset -> 0x030550A0
+//		Offset -> 0x030600D0
 //		Name   -> Function AIModule.NavLocalGridManager.FindLocalNavigationGridPath
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4732,7 +4732,7 @@ bool UNavLocalGridManager::STATIC_FindLocalNavigationGridPath(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x03054E10
+//		Offset -> 0x0305FE40
 //		Name   -> Function AIModule.NavLocalGridManager.AddLocalNavigationGridForPoints
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -4765,7 +4765,7 @@ int UNavLocalGridManager::STATIC_AddLocalNavigationGridForPoints(class UObject* 
 
 
 // Function:
-//		Offset -> 0x03054C60
+//		Offset -> 0x0305FC90
 //		Name   -> Function AIModule.NavLocalGridManager.AddLocalNavigationGridForPoint
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4798,7 +4798,7 @@ int UNavLocalGridManager::STATIC_AddLocalNavigationGridForPoint(class UObject* W
 
 
 // Function:
-//		Offset -> 0x03054A60
+//		Offset -> 0x0305FA90
 //		Name   -> Function AIModule.NavLocalGridManager.AddLocalNavigationGridForCapsule
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4835,7 +4835,7 @@ int UNavLocalGridManager::STATIC_AddLocalNavigationGridForCapsule(class UObject*
 
 
 // Function:
-//		Offset -> 0x03054840
+//		Offset -> 0x0305F870
 //		Name   -> Function AIModule.NavLocalGridManager.AddLocalNavigationGridForBox
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -4872,7 +4872,7 @@ int UNavLocalGridManager::STATIC_AddLocalNavigationGridForBox(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x03055230
+//		Offset -> 0x03060260
 //		Name   -> Function AIModule.PawnAction.GetActionPriority
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -4895,7 +4895,7 @@ TEnumAsByte<AIModule_EAIRequestPriority> UPawnAction::GetActionPriority()
 
 
 // Function:
-//		Offset -> 0x0244BB30
+//		Offset -> 0x024570B0
 //		Name   -> Function AIModule.PawnAction.Finish
 //		Flags  -> (Native, Protected, BlueprintCallable)
 // Parameters:
@@ -4917,7 +4917,7 @@ void UPawnAction::Finish(TEnumAsByte<AIModule_EPawnActionResult> WithResult)
 
 
 // Function:
-//		Offset -> 0x03054FE0
+//		Offset -> 0x03060010
 //		Name   -> Function AIModule.PawnAction.CreateActionInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4944,7 +4944,7 @@ class UPawnAction* UPawnAction::STATIC_CreateActionInstance(class UObject* World
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.PawnAction_BlueprintBase.ActionTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -4967,7 +4967,7 @@ void UPawnAction_BlueprintBase::ActionTick(class APawn* ControlledPawn, float De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.PawnAction_BlueprintBase.ActionStart
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -4988,7 +4988,7 @@ void UPawnAction_BlueprintBase::ActionStart(class APawn* ControlledPawn)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.PawnAction_BlueprintBase.ActionResume
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -5009,7 +5009,7 @@ void UPawnAction_BlueprintBase::ActionResume(class APawn* ControlledPawn)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.PawnAction_BlueprintBase.ActionPause
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -5030,7 +5030,7 @@ void UPawnAction_BlueprintBase::ActionPause(class APawn* ControlledPawn)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function AIModule.PawnAction_BlueprintBase.ActionFinished
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -5053,7 +5053,7 @@ void UPawnAction_BlueprintBase::ActionFinished(class APawn* ControlledPawn, TEnu
 
 
 // Function:
-//		Offset -> 0x03055570
+//		Offset -> 0x030605A0
 //		Name   -> Function AIModule.PawnActionsComponent.K2_PushAction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5082,7 +5082,7 @@ bool UPawnActionsComponent::K2_PushAction(class UPawnAction* NewAction, TEnumAsB
 
 
 // Function:
-//		Offset -> 0x03055480
+//		Offset -> 0x030604B0
 //		Name   -> Function AIModule.PawnActionsComponent.K2_PerformAction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5111,7 +5111,7 @@ bool UPawnActionsComponent::STATIC_K2_PerformAction(class APawn* Pawn, class UPa
 
 
 // Function:
-//		Offset -> 0x030553F0
+//		Offset -> 0x03060420
 //		Name   -> Function AIModule.PawnActionsComponent.K2_ForceAbortAction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5136,7 +5136,7 @@ TEnumAsByte<AIModule_EPawnActionAbortState> UPawnActionsComponent::K2_ForceAbort
 
 
 // Function:
-//		Offset -> 0x03055360
+//		Offset -> 0x03060390
 //		Name   -> Function AIModule.PawnActionsComponent.K2_AbortAction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5161,7 +5161,7 @@ TEnumAsByte<AIModule_EPawnActionAbortState> UPawnActionsComponent::K2_AbortActio
 
 
 // Function:
-//		Offset -> 0x03055BC0
+//		Offset -> 0x03060B70
 //		Name   -> Function AIModule.PawnSensingComponent.SetSensingUpdatesEnabled
 //		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5183,7 +5183,7 @@ void UPawnSensingComponent::SetSensingUpdatesEnabled(bool bEnabled)
 
 
 // Function:
-//		Offset -> 0x03055B40
+//		Offset -> 0x03060AF0
 //		Name   -> Function AIModule.PawnSensingComponent.SetSensingInterval
 //		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5205,7 +5205,7 @@ void UPawnSensingComponent::SetSensingInterval(float NewSensingInterval)
 
 
 // Function:
-//		Offset -> 0x03055AC0
+//		Offset -> 0x0111C410
 //		Name   -> Function AIModule.PawnSensingComponent.SetPeripheralVisionAngle
 //		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 // Parameters:
@@ -5227,7 +5227,7 @@ void UPawnSensingComponent::SetPeripheralVisionAngle(float NewPeripheralVisionAn
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction AIModule.PawnSensingComponent.SeePawnDelegate__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -5248,7 +5248,7 @@ void UPawnSensingComponent::SeePawnDelegate__DelegateSignature(class APawn* Pawn
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction AIModule.PawnSensingComponent.HearNoiseDelegate__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms, HasDefaults)
 // Parameters:
@@ -5273,7 +5273,7 @@ void UPawnSensingComponent::HearNoiseDelegate__DelegateSignature(class APawn* In
 
 
 // Function:
-//		Offset -> 0x030552E0
+//		Offset -> 0x03060310
 //		Name   -> Function AIModule.PawnSensingComponent.GetPeripheralVisionCosine
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -5296,7 +5296,7 @@ float UPawnSensingComponent::GetPeripheralVisionCosine()
 
 
 // Function:
-//		Offset -> 0x030552C0
+//		Offset -> 0x030602F0
 //		Name   -> Function AIModule.PawnSensingComponent.GetPeripheralVisionAngle
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

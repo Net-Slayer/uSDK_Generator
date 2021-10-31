@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerAvatar.BP_PlayerAvatar_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_PlayerAvatar_C::Update(const struct FPlayFabPlayer& Player)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerAvatar.BP_PlayerAvatar_C.PreConstruct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_PlayerAvatar_C::PreConstruct(bool IsDesignTime)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerAvatar.BP_PlayerAvatar_C.OnPlayerInformationReceived
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void UBP_PlayerAvatar_C::OnPlayerInformationReceived(const struct FPlayFabPlayer
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerAvatar.BP_PlayerAvatar_C.ExecuteUbergraph_BP_PlayerAvatar
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

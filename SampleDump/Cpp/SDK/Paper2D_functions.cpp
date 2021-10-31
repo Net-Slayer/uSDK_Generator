@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00A1C910
+//		Offset -> 0x00A20C00
 //		Name   -> Function Paper2D.PaperFlipbook.IsValidKeyFrameIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -44,7 +44,7 @@ bool UPaperFlipbook::IsValidKeyFrameIndex(int Index)
 
 
 // Function:
-//		Offset -> 0x00A1C850
+//		Offset -> 0x00A20B40
 //		Name   -> Function Paper2D.PaperFlipbook.GetTotalDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -67,7 +67,7 @@ float UPaperFlipbook::GetTotalDuration()
 
 
 // Function:
-//		Offset -> 0x00A1C040
+//		Offset -> 0x00A20330
 //		Name   -> Function Paper2D.PaperFlipbook.GetSpriteAtTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -94,7 +94,7 @@ class UPaperSprite* UPaperFlipbook::GetSpriteAtTime(float Time, bool bClampToEnd
 
 
 // Function:
-//		Offset -> 0x00A1BFB0
+//		Offset -> 0x00A202A0
 //		Name   -> Function Paper2D.PaperFlipbook.GetSpriteAtFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -119,7 +119,7 @@ class UPaperSprite* UPaperFlipbook::GetSpriteAtFrame(int FrameIndex)
 
 
 // Function:
-//		Offset -> 0x00A1BF00
+//		Offset -> 0x00A201F0
 //		Name   -> Function Paper2D.PaperFlipbook.GetNumKeyFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -142,7 +142,7 @@ int UPaperFlipbook::GetNumKeyFrames()
 
 
 // Function:
-//		Offset -> 0x00A1BED0
+//		Offset -> 0x00A201C0
 //		Name   -> Function Paper2D.PaperFlipbook.GetNumFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -165,7 +165,7 @@ int UPaperFlipbook::GetNumFrames()
 
 
 // Function:
-//		Offset -> 0x00A1BC20
+//		Offset -> 0x00A1FF10
 //		Name   -> Function Paper2D.PaperFlipbook.GetKeyFrameIndexAtTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -192,7 +192,7 @@ int UPaperFlipbook::GetKeyFrameIndexAtTime(float Time, bool bClampToEnds)
 
 
 // Function:
-//		Offset -> 0x00A1DB40
+//		Offset -> 0x00A21E30
 //		Name   -> Function Paper2D.PaperFlipbookComponent.Stop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperFlipbookComponent::Stop()
@@ -211,7 +211,7 @@ void UPaperFlipbookComponent::Stop()
 
 
 // Function:
-//		Offset -> 0x00A1D750
+//		Offset -> 0x00A21A40
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetSpriteColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -233,7 +233,7 @@ void UPaperFlipbookComponent::SetSpriteColor(const struct FLinearColor& NewColor
 
 
 // Function:
-//		Offset -> 0x00A1D540
+//		Offset -> 0x00A21830
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetPlayRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -255,7 +255,7 @@ void UPaperFlipbookComponent::SetPlayRate(float NewRate)
 
 
 // Function:
-//		Offset -> 0x00A1D690
+//		Offset -> 0x00A21980
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetPlaybackPositionInFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -279,7 +279,7 @@ void UPaperFlipbookComponent::SetPlaybackPositionInFrames(int NewFramePosition, 
 
 
 // Function:
-//		Offset -> 0x00A1D5C0
+//		Offset -> 0x00A218B0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetPlaybackPosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -303,7 +303,7 @@ void UPaperFlipbookComponent::SetPlaybackPosition(float NewPosition, bool bFireE
 
 
 // Function:
-//		Offset -> 0x00A1D4C0
+//		Offset -> 0x00A217B0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetNewTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -325,7 +325,7 @@ void UPaperFlipbookComponent::SetNewTime(float NewTime)
 
 
 // Function:
-//		Offset -> 0x00A1D430
+//		Offset -> 0x00A21720
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -347,7 +347,7 @@ void UPaperFlipbookComponent::SetLooping(bool bNewLooping)
 
 
 // Function:
-//		Offset -> 0x00A1D0A0
+//		Offset -> 0x00A21390
 //		Name   -> Function Paper2D.PaperFlipbookComponent.SetFlipbook
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -372,7 +372,7 @@ bool UPaperFlipbookComponent::SetFlipbook(class UPaperFlipbook* NewFlipbook)
 
 
 // Function:
-//		Offset -> 0x00A1CFB0
+//		Offset -> 0x00A212A0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.ReverseFromEnd
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperFlipbookComponent::ReverseFromEnd()
@@ -391,7 +391,7 @@ void UPaperFlipbookComponent::ReverseFromEnd()
 
 
 // Function:
-//		Offset -> 0x00A1CF90
+//		Offset -> 0x00A21280
 //		Name   -> Function Paper2D.PaperFlipbookComponent.Reverse
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperFlipbookComponent::Reverse()
@@ -410,7 +410,7 @@ void UPaperFlipbookComponent::Reverse()
 
 
 // Function:
-//		Offset -> 0x00A1CDF0
+//		Offset -> 0x00A210E0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.PlayFromStart
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperFlipbookComponent::PlayFromStart()
@@ -429,7 +429,7 @@ void UPaperFlipbookComponent::PlayFromStart()
 
 
 // Function:
-//		Offset -> 0x00A1CDD0
+//		Offset -> 0x00A210C0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.Play
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperFlipbookComponent::Play()
@@ -448,7 +448,7 @@ void UPaperFlipbookComponent::Play()
 
 
 // Function:
-//		Offset -> 0x00A1CD20
+//		Offset -> 0x00A21010
 //		Name   -> Function Paper2D.PaperFlipbookComponent.OnRep_SourceFlipbook
 //		Flags  -> (Final, Native, Protected)
 // Parameters:
@@ -470,7 +470,7 @@ void UPaperFlipbookComponent::OnRep_SourceFlipbook(class UPaperFlipbook* OldFlip
 
 
 // Function:
-//		Offset -> 0x00A1C8E0
+//		Offset -> 0x00A20BD0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.IsReversing
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -493,7 +493,7 @@ bool UPaperFlipbookComponent::IsReversing()
 
 
 // Function:
-//		Offset -> 0x00A1C8B0
+//		Offset -> 0x00A20BA0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.IsPlaying
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -516,7 +516,7 @@ bool UPaperFlipbookComponent::IsPlaying()
 
 
 // Function:
-//		Offset -> 0x00A1C880
+//		Offset -> 0x00A20B70
 //		Name   -> Function Paper2D.PaperFlipbookComponent.IsLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -539,7 +539,7 @@ bool UPaperFlipbookComponent::IsLooping()
 
 
 // Function:
-//		Offset -> 0x00A1BF20
+//		Offset -> 0x00A20210
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetPlayRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -562,7 +562,7 @@ float UPaperFlipbookComponent::GetPlayRate()
 
 
 // Function:
-//		Offset -> 0x00A1BF80
+//		Offset -> 0x00A20270
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetPlaybackPositionInFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -585,7 +585,7 @@ int UPaperFlipbookComponent::GetPlaybackPositionInFrames()
 
 
 // Function:
-//		Offset -> 0x00A1BF50
+//		Offset -> 0x00A20240
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetPlaybackPosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -608,7 +608,7 @@ float UPaperFlipbookComponent::GetPlaybackPosition()
 
 
 // Function:
-//		Offset -> 0x00A1BA60
+//		Offset -> 0x00A1FD50
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetFlipbookLengthInFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -631,7 +631,7 @@ int UPaperFlipbookComponent::GetFlipbookLengthInFrames()
 
 
 // Function:
-//		Offset -> 0x00A1BA30
+//		Offset -> 0x00A1FD20
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetFlipbookLength
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -654,7 +654,7 @@ float UPaperFlipbookComponent::GetFlipbookLength()
 
 
 // Function:
-//		Offset -> 0x00A1BA00
+//		Offset -> 0x00A1FCF0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetFlipbookFramerate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -677,7 +677,7 @@ float UPaperFlipbookComponent::GetFlipbookFramerate()
 
 
 // Function:
-//		Offset -> 0x00A1B9D0
+//		Offset -> 0x00A1FCC0
 //		Name   -> Function Paper2D.PaperFlipbookComponent.GetFlipbook
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -700,7 +700,7 @@ class UPaperFlipbook* UPaperFlipbookComponent::GetFlipbook()
 
 
 // Function:
-//		Offset -> 0x00A1DC70
+//		Offset -> 0x00A21F60
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.UpdateInstanceTransform
 //		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -733,7 +733,7 @@ bool UPaperGroupedSpriteComponent::UpdateInstanceTransform(int InstanceIndex, co
 
 
 // Function:
-//		Offset -> 0x00A1DB60
+//		Offset -> 0x00A21E50
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.UpdateInstanceColor
 //		Flags  -> (Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -762,7 +762,7 @@ bool UPaperGroupedSpriteComponent::UpdateInstanceColor(int InstanceIndex, const 
 
 
 // Function:
-//		Offset -> 0x00A1DAB0
+//		Offset -> 0x00A21DA0
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.SortInstancesAlongAxis
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -784,7 +784,7 @@ void UPaperGroupedSpriteComponent::SortInstancesAlongAxis(const struct FVector& 
 
 
 // Function:
-//		Offset -> 0x00A1CE30
+//		Offset -> 0x00A21120
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.RemoveInstance
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -809,7 +809,7 @@ bool UPaperGroupedSpriteComponent::RemoveInstance(int InstanceIndex)
 
 
 // Function:
-//		Offset -> 0x00A1BAC0
+//		Offset -> 0x00A1FDB0
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.GetInstanceTransform
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -840,7 +840,7 @@ bool UPaperGroupedSpriteComponent::GetInstanceTransform(int InstanceIndex, struc
 
 
 // Function:
-//		Offset -> 0x00A1BA90
+//		Offset -> 0x00A1FD80
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.GetInstanceCount
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -863,7 +863,7 @@ int UPaperGroupedSpriteComponent::GetInstanceCount()
 
 
 // Function:
-//		Offset -> 0x00A1B800
+//		Offset -> 0x00A1FAF0
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.ClearInstances
 //		Flags  -> (Native, Public, BlueprintCallable)
 void UPaperGroupedSpriteComponent::ClearInstances()
@@ -882,7 +882,7 @@ void UPaperGroupedSpriteComponent::ClearInstances()
 
 
 // Function:
-//		Offset -> 0x00A1B3F0
+//		Offset -> 0x00A1F6E0
 //		Name   -> Function Paper2D.PaperGroupedSpriteComponent.AddInstance
 //		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -913,7 +913,7 @@ int UPaperGroupedSpriteComponent::AddInstance(const struct FTransform& Transform
 
 
 // Function:
-//		Offset -> 0x00A1C9B0
+//		Offset -> 0x00A20CA0
 //		Name   -> Function Paper2D.PaperSpriteBlueprintLibrary.MakeBrushFromSprite
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -942,7 +942,7 @@ struct FSlateBrush UPaperSpriteBlueprintLibrary::STATIC_MakeBrushFromSprite(clas
 
 
 // Function:
-//		Offset -> 0x00A1D7D0
+//		Offset -> 0x00A21AC0
 //		Name   -> Function Paper2D.PaperSpriteComponent.SetSpriteColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -964,7 +964,7 @@ void UPaperSpriteComponent::SetSpriteColor(const struct FLinearColor& NewColor)
 
 
 // Function:
-//		Offset -> 0x00A1D0A0
+//		Offset -> 0x00A21390
 //		Name   -> Function Paper2D.PaperSpriteComponent.SetSprite
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -989,7 +989,7 @@ bool UPaperSpriteComponent::SetSprite(class UPaperSprite* NewSprite)
 
 
 // Function:
-//		Offset -> 0x00A1B9D0
+//		Offset -> 0x00A1FCC0
 //		Name   -> Function Paper2D.PaperSpriteComponent.GetSprite
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1012,7 +1012,7 @@ class UPaperSprite* UPaperSpriteComponent::GetSprite()
 
 
 // Function:
-//		Offset -> 0x00A1D850
+//		Offset -> 0x00A21B40
 //		Name   -> Function Paper2D.PaperTerrainComponent.SetTerrainColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1034,7 +1034,7 @@ void UPaperTerrainComponent::SetTerrainColor(const struct FLinearColor& NewColor
 
 
 // Function:
-//		Offset -> 0x00A1DA30
+//		Offset -> 0x00A21D20
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetTileMapColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1056,7 +1056,7 @@ void UPaperTileMapComponent::SetTileMapColor(const struct FLinearColor& NewColor
 
 
 // Function:
-//		Offset -> 0x00A1D0A0
+//		Offset -> 0x00A21390
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetTileMap
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -1081,7 +1081,7 @@ bool UPaperTileMapComponent::SetTileMap(class UPaperTileMap* NewTileMap)
 
 
 // Function:
-//		Offset -> 0x00A1D8D0
+//		Offset -> 0x00A21BC0
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetTile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1109,7 +1109,7 @@ void UPaperTileMapComponent::SetTile(int X, int Y, int Layer, const struct FPape
 
 
 // Function:
-//		Offset -> 0x00A1D360
+//		Offset -> 0x00A21650
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetLayerColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -1133,7 +1133,7 @@ void UPaperTileMapComponent::SetLayerColor(const struct FLinearColor& NewColor, 
 
 
 // Function:
-//		Offset -> 0x00A1D140
+//		Offset -> 0x00A21430
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetLayerCollision
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1167,7 +1167,7 @@ void UPaperTileMapComponent::SetLayerCollision(int Layer, bool bHasCollision, bo
 
 
 // Function:
-//		Offset -> 0x00A1CFD0
+//		Offset -> 0x00A212C0
 //		Name   -> Function Paper2D.PaperTileMapComponent.SetDefaultCollisionThickness
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1191,7 +1191,7 @@ void UPaperTileMapComponent::SetDefaultCollisionThickness(float Thickness, bool 
 
 
 // Function:
-//		Offset -> 0x00A1CED0
+//		Offset -> 0x00A211C0
 //		Name   -> Function Paper2D.PaperTileMapComponent.ResizeMap
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1215,7 +1215,7 @@ void UPaperTileMapComponent::ResizeMap(int NewWidthInTiles, int NewHeightInTiles
 
 
 // Function:
-//		Offset -> 0x00A1CE10
+//		Offset -> 0x00A21100
 //		Name   -> Function Paper2D.PaperTileMapComponent.RebuildCollision
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperTileMapComponent::RebuildCollision()
@@ -1234,7 +1234,7 @@ void UPaperTileMapComponent::RebuildCollision()
 
 
 // Function:
-//		Offset -> 0x00A1CDA0
+//		Offset -> 0x00A21090
 //		Name   -> Function Paper2D.PaperTileMapComponent.OwnsTileMap
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1257,7 +1257,7 @@ bool UPaperTileMapComponent::OwnsTileMap()
 
 
 // Function:
-//		Offset -> 0x00A1CD00
+//		Offset -> 0x00A20FF0
 //		Name   -> Function Paper2D.PaperTileMapComponent.MakeTileMapEditable
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPaperTileMapComponent::MakeTileMapEditable()
@@ -1276,7 +1276,7 @@ void UPaperTileMapComponent::MakeTileMapEditable()
 
 
 // Function:
-//		Offset -> 0x00A1C520
+//		Offset -> 0x00A20810
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetTilePolygon
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1308,7 +1308,7 @@ void UPaperTileMapComponent::GetTilePolygon(int TileX, int TileY, TArray<struct 
 
 
 // Function:
-//		Offset -> 0x00A1C4E0
+//		Offset -> 0x00A207D0
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetTileMapColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1331,7 +1331,7 @@ struct FLinearColor UPaperTileMapComponent::GetTileMapColor()
 
 
 // Function:
-//		Offset -> 0x00A1C380
+//		Offset -> 0x00A20670
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetTileCornerPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1362,7 +1362,7 @@ struct FVector UPaperTileMapComponent::GetTileCornerPosition(int TileX, int Tile
 
 
 // Function:
-//		Offset -> 0x00A1C220
+//		Offset -> 0x00A20510
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetTileCenterPosition
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1393,7 +1393,7 @@ struct FVector UPaperTileMapComponent::GetTileCenterPosition(int TileX, int Tile
 
 
 // Function:
-//		Offset -> 0x00A1C110
+//		Offset -> 0x00A20400
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetTile
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1422,7 +1422,7 @@ struct FPaperTileInfo UPaperTileMapComponent::GetTile(int X, int Y, int Layer)
 
 
 // Function:
-//		Offset -> 0x00A1BD90
+//		Offset -> 0x00A20080
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetMapSize
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1452,7 +1452,7 @@ void UPaperTileMapComponent::GetMapSize(int* MapWidth, int* MapHeight, int* NumL
 
 
 // Function:
-//		Offset -> 0x00A1BCF0
+//		Offset -> 0x00A1FFE0
 //		Name   -> Function Paper2D.PaperTileMapComponent.GetLayerColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1477,7 +1477,7 @@ struct FLinearColor UPaperTileMapComponent::GetLayerColor(int Layer)
 
 
 // Function:
-//		Offset -> 0x00A1B820
+//		Offset -> 0x00A1FB10
 //		Name   -> Function Paper2D.PaperTileMapComponent.CreateNewTileMap
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1509,7 +1509,7 @@ void UPaperTileMapComponent::CreateNewTileMap(int MapWidth, int MapHeight, int T
 
 
 // Function:
-//		Offset -> 0x00A1B5B0
+//		Offset -> 0x00A1F8A0
 //		Name   -> Function Paper2D.PaperTileMapComponent.AddNewLayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1532,7 +1532,7 @@ class UPaperTileLayer* UPaperTileMapComponent::AddNewLayer()
 
 
 // Function:
-//		Offset -> 0x00A1CB50
+//		Offset -> 0x00A20E40
 //		Name   -> Function Paper2D.TileMapBlueprintLibrary.MakeTile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1565,7 +1565,7 @@ struct FPaperTileInfo UTileMapBlueprintLibrary::STATIC_MakeTile(int TileIndex, c
 
 
 // Function:
-//		Offset -> 0x00A1C7B0
+//		Offset -> 0x00A20AA0
 //		Name   -> Function Paper2D.TileMapBlueprintLibrary.GetTileUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1590,7 +1590,7 @@ struct FName UTileMapBlueprintLibrary::STATIC_GetTileUserData(const struct FPape
 
 
 // Function:
-//		Offset -> 0x00A1C6E0
+//		Offset -> 0x00A209D0
 //		Name   -> Function Paper2D.TileMapBlueprintLibrary.GetTileTransform
 //		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1615,7 +1615,7 @@ struct FTransform UTileMapBlueprintLibrary::STATIC_GetTileTransform(const struct
 
 
 // Function:
-//		Offset -> 0x00A1B5E0
+//		Offset -> 0x00A1F8D0
 //		Name   -> Function Paper2D.TileMapBlueprintLibrary.BreakTile
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:

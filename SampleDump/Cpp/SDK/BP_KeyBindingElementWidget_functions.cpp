@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.EndEditBinding
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_KeyBindingElementWidget_C::EndEditBinding()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.GetActionNameText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -60,7 +60,7 @@ struct FText UBP_KeyBindingElementWidget_C::GetActionNameText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.GetCustomBinding
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -85,7 +85,7 @@ void UBP_KeyBindingElementWidget_C::GetCustomBinding(bool bIsPrimary, struct FKe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.SetCustomBinding
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -108,7 +108,7 @@ void UBP_KeyBindingElementWidget_C::SetCustomBinding(const struct FKey& Key, boo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.GetKeyText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -135,7 +135,7 @@ void UBP_KeyBindingElementWidget_C::GetKeyText(const struct FKey& Key, bool bIsE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.GetSecondaryKeyText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -157,7 +157,7 @@ struct FText UBP_KeyBindingElementWidget_C::GetSecondaryKeyText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.GetPrimaryKeyText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -179,7 +179,7 @@ struct FText UBP_KeyBindingElementWidget_C::GetPrimaryKeyText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.AddCustomBinding
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -200,7 +200,7 @@ void UBP_KeyBindingElementWidget_C::AddCustomBinding(const struct FKey& Key)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.StartEditBinding
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -221,7 +221,7 @@ void UBP_KeyBindingElementWidget_C::StartEditBinding(bool bIsPrimary)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_KeyBindingElementWidget_C::Construct()
@@ -239,7 +239,7 @@ void UBP_KeyBindingElementWidget_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.BndEvt__Button_4_K2Node_ComponentBoundEvent_442_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_KeyBindingElementWidget_C::BndEvt__Button_4_K2Node_ComponentBoundEvent_442_OnButtonClickedEvent__DelegateSignature()
@@ -257,7 +257,7 @@ void UBP_KeyBindingElementWidget_C::BndEvt__Button_4_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.BndEvt__Button_5_K2Node_ComponentBoundEvent_460_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_KeyBindingElementWidget_C::BndEvt__Button_5_K2Node_ComponentBoundEvent_460_OnButtonClickedEvent__DelegateSignature()
@@ -275,7 +275,7 @@ void UBP_KeyBindingElementWidget_C::BndEvt__Button_5_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_KeyBindingElementWidget.BP_KeyBindingElementWidget_C.ExecuteUbergraph_BP_KeyBindingElementWidget
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

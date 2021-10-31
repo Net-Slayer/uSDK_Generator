@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseCustomizationSpot.BP_BaseCustomizationSpot_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_BaseCustomizationSpot_C::ReceiveBeginPlay()
@@ -37,7 +37,7 @@ void ABP_BaseCustomizationSpot_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseCustomizationSpot.BP_BaseCustomizationSpot_C.ExecuteUbergraph_BP_BaseCustomizationSpot
 //		Flags  -> (Final)
 // Parameters:

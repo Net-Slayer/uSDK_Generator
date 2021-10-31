@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00618FB0
+//		Offset -> 0x0061CCF0
 //		Name   -> Function modio.CallbackProxy_AddMetadataKVP.AddMetadataKVP
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -48,7 +48,7 @@ class UCallbackProxy_AddMetadataKVP* UCallbackProxy_AddMetadataKVP::STATIC_AddMe
 
 
 // Function:
-//		Offset -> 0x006192F0
+//		Offset -> 0x0061D030
 //		Name   -> Function modio.CallbackProxy_AddMod.AddMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -75,7 +75,7 @@ class UCallbackProxy_AddMod* UCallbackProxy_AddMod::STATIC_AddMod(class UObject*
 
 
 // Function:
-//		Offset -> 0x00619960
+//		Offset -> 0x0061D6A0
 //		Name   -> Function modio.CallbackProxy_AddModDependencies.AddModDependencies
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -104,7 +104,7 @@ class UCallbackProxy_AddModDependencies* UCallbackProxy_AddModDependencies::STAT
 
 
 // Function:
-//		Offset -> 0x00619C40
+//		Offset -> 0x0061D980
 //		Name   -> Function modio.CallbackProxy_AddModImages.AddModImages
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -133,7 +133,7 @@ class UCallbackProxy_AddModImages* UCallbackProxy_AddModImages::STATIC_AddModIma
 
 
 // Function:
-//		Offset -> 0x00619F40
+//		Offset -> 0x0061DC80
 //		Name   -> Function modio.CallbackProxy_AddModLogo.AddModLogo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -162,7 +162,7 @@ class UCallbackProxy_AddModLogo* UCallbackProxy_AddModLogo::STATIC_AddModLogo(cl
 
 
 // Function:
-//		Offset -> 0x0061A220
+//		Offset -> 0x0061DF60
 //		Name   -> Function modio.CallbackProxy_AddModRating.AddModRating
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -191,7 +191,7 @@ class UCallbackProxy_AddModRating* UCallbackProxy_AddModRating::STATIC_AddModRat
 
 
 // Function:
-//		Offset -> 0x0061A4C0
+//		Offset -> 0x0061E200
 //		Name   -> Function modio.CallbackProxy_AddModSketchfabLinks.AddModSketchfabLinks
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -220,7 +220,7 @@ class UCallbackProxy_AddModSketchfabLinks* UCallbackProxy_AddModSketchfabLinks::
 
 
 // Function:
-//		Offset -> 0x0061A7C0
+//		Offset -> 0x0061E500
 //		Name   -> Function modio.CallbackProxy_AddModTags.AddModTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -249,7 +249,7 @@ class UCallbackProxy_AddModTags* UCallbackProxy_AddModTags::STATIC_AddModTags(cl
 
 
 // Function:
-//		Offset -> 0x0061AAC0
+//		Offset -> 0x0061E800
 //		Name   -> Function modio.CallbackProxy_AddModYoutubeLinks.AddModYoutubeLinks
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -278,7 +278,7 @@ class UCallbackProxy_AddModYoutubeLinks* UCallbackProxy_AddModYoutubeLinks::STAT
 
 
 // Function:
-//		Offset -> 0x0061ADC0
+//		Offset -> 0x0061EB00
 //		Name   -> Function modio.CallbackProxy_DeleteMetadataKVP.DeleteMetadataKVP
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -307,7 +307,7 @@ class UCallbackProxy_DeleteMetadataKVP* UCallbackProxy_DeleteMetadataKVP::STATIC
 
 
 // Function:
-//		Offset -> 0x0061B100
+//		Offset -> 0x0061EE40
 //		Name   -> Function modio.CallbackProxy_DeleteModDependencies.DeleteModDependencies
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -336,7 +336,7 @@ class UCallbackProxy_DeleteModDependencies* UCallbackProxy_DeleteModDependencies
 
 
 // Function:
-//		Offset -> 0x0061B3E0
+//		Offset -> 0x0061F120
 //		Name   -> Function modio.CallbackProxy_DeleteModImages.DeleteModImages
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -365,7 +365,7 @@ class UCallbackProxy_DeleteModImages* UCallbackProxy_DeleteModImages::STATIC_Del
 
 
 // Function:
-//		Offset -> 0x0061B6E0
+//		Offset -> 0x0061F420
 //		Name   -> Function modio.CallbackProxy_DeleteModSketchfabLinks.DeleteModSketchfabLinks
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -394,7 +394,7 @@ class UCallbackProxy_DeleteModSketchfabLinks* UCallbackProxy_DeleteModSketchfabL
 
 
 // Function:
-//		Offset -> 0x0061B9E0
+//		Offset -> 0x0061F720
 //		Name   -> Function modio.CallbackProxy_DeleteModTags.DeleteModTags
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -423,7 +423,7 @@ class UCallbackProxy_DeleteModTags* UCallbackProxy_DeleteModTags::STATIC_DeleteM
 
 
 // Function:
-//		Offset -> 0x0061BCE0
+//		Offset -> 0x0061FA20
 //		Name   -> Function modio.CallbackProxy_DeleteModYoutubeLinks.DeleteModYoutubeLinks
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -452,7 +452,7 @@ class UCallbackProxy_DeleteModYoutubeLinks* UCallbackProxy_DeleteModYoutubeLinks
 
 
 // Function:
-//		Offset -> 0x0061BFF0
+//		Offset -> 0x0061FD30
 //		Name   -> Function modio.CallbackProxy_DownloadModfilesById.DownloadModfilesById
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -479,7 +479,7 @@ class UCallbackProxy_DownloadModfilesById* UCallbackProxy_DownloadModfilesById::
 
 
 // Function:
-//		Offset -> 0x0061C290
+//		Offset -> 0x0061FFD0
 //		Name   -> Function modio.CallbackProxy_DownloadSubscribedModfiles.DownloadSubscribedModfiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -506,7 +506,7 @@ class UCallbackProxy_DownloadSubscribedModfiles* UCallbackProxy_DownloadSubscrib
 
 
 // Function:
-//		Offset -> 0x0061C500
+//		Offset -> 0x00620240
 //		Name   -> Function modio.CallbackProxy_EditMod.EditMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -535,7 +535,7 @@ class UCallbackProxy_EditMod* UCallbackProxy_EditMod::STATIC_EditMod(class UObje
 
 
 // Function:
-//		Offset -> 0x0061CA30
+//		Offset -> 0x00620770
 //		Name   -> Function modio.CallbackProxy_EmailExchange.EmailExchange
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -562,7 +562,7 @@ class UCallbackProxy_EmailExchange* UCallbackProxy_EmailExchange::STATIC_EmailEx
 
 
 // Function:
-//		Offset -> 0x0061CCC0
+//		Offset -> 0x00620A00
 //		Name   -> Function modio.CallbackProxy_EmailRequest.EmailRequest
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -589,7 +589,7 @@ class UCallbackProxy_EmailRequest* UCallbackProxy_EmailRequest::STATIC_EmailRequ
 
 
 // Function:
-//		Offset -> 0x0061CF50
+//		Offset -> 0x00620C90
 //		Name   -> Function modio.CallbackProxy_GalaxyAuth.GalaxyAuth
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -616,7 +616,7 @@ class UCallbackProxy_GalaxyAuth* UCallbackProxy_GalaxyAuth::STATIC_GalaxyAuth(cl
 
 
 // Function:
-//		Offset -> 0x0061D1E0
+//		Offset -> 0x00620F20
 //		Name   -> Function modio.CallbackProxy_GetAllMetadataKVP.GetAllMetadataKVP
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -643,7 +643,7 @@ class UCallbackProxy_GetAllMetadataKVP* UCallbackProxy_GetAllMetadataKVP::STATIC
 
 
 // Function:
-//		Offset -> 0x0061D450
+//		Offset -> 0x00621190
 //		Name   -> Function modio.CallbackProxy_GetAllModDependencies.GetAllModDependencies
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -670,7 +670,7 @@ class UCallbackProxy_GetAllModDependencies* UCallbackProxy_GetAllModDependencies
 
 
 // Function:
-//		Offset -> 0x0061D6C0
+//		Offset -> 0x00621400
 //		Name   -> Function modio.CallbackProxy_GetAllModfiles.GetAllModfiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -697,7 +697,7 @@ class UCallbackProxy_GetAllModfiles* UCallbackProxy_GetAllModfiles::STATIC_GetAl
 
 
 // Function:
-//		Offset -> 0x0061DA60
+//		Offset -> 0x006217A0
 //		Name   -> Function modio.CallbackProxy_GetAllMods.GetAllMods
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -730,7 +730,7 @@ class UCallbackProxy_GetAllMods* UCallbackProxy_GetAllMods::STATIC_GetAllMods(cl
 
 
 // Function:
-//		Offset -> 0x0061DF30
+//		Offset -> 0x00621C70
 //		Name   -> Function modio.CallbackProxy_GetAllModTags.GetAllModTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -757,7 +757,7 @@ class UCallbackProxy_GetAllModTags* UCallbackProxy_GetAllModTags::STATIC_GetAllM
 
 
 // Function:
-//		Offset -> 0x0061E1A0
+//		Offset -> 0x00621EE0
 //		Name   -> Function modio.CallbackProxy_GetAuthenticatedUser.GetAuthenticatedUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -782,7 +782,7 @@ class UCallbackProxy_GetAuthenticatedUser* UCallbackProxy_GetAuthenticatedUser::
 
 
 // Function:
-//		Offset -> 0x0061E3D0
+//		Offset -> 0x00622110
 //		Name   -> Function modio.CallbackProxy_GetGame.GetGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -809,7 +809,7 @@ class UCallbackProxy_GetGame* UCallbackProxy_GetGame::STATIC_GetGame(class UObje
 
 
 // Function:
-//		Offset -> 0x0061E640
+//		Offset -> 0x00622380
 //		Name   -> Function modio.CallbackProxy_GetMod.GetMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -836,7 +836,7 @@ class UCallbackProxy_GetMod* UCallbackProxy_GetMod::STATIC_GetMod(class UObject*
 
 
 // Function:
-//		Offset -> 0x0061E8B0
+//		Offset -> 0x006225F0
 //		Name   -> Function modio.CallbackProxy_GetUserEvents.GetUserEvents
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -865,7 +865,7 @@ class UCallbackProxy_GetUserEvents* UCallbackProxy_GetUserEvents::STATIC_GetUser
 
 
 // Function:
-//		Offset -> 0x0061EB50
+//		Offset -> 0x00622890
 //		Name   -> Function modio.CallbackProxy_GetUserModfiles.GetUserModfiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -894,7 +894,7 @@ class UCallbackProxy_GetUserModfiles* UCallbackProxy_GetUserModfiles::STATIC_Get
 
 
 // Function:
-//		Offset -> 0x0061EDF0
+//		Offset -> 0x00622B30
 //		Name   -> Function modio.CallbackProxy_GetUserMods.GetUserMods
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -927,7 +927,7 @@ class UCallbackProxy_GetUserMods* UCallbackProxy_GetUserMods::STATIC_GetUserMods
 
 
 // Function:
-//		Offset -> 0x0061F2C0
+//		Offset -> 0x00623000
 //		Name   -> Function modio.CallbackProxy_GetUserRatings.GetUserRatings
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -956,7 +956,7 @@ class UCallbackProxy_GetUserRatings* UCallbackProxy_GetUserRatings::STATIC_GetUs
 
 
 // Function:
-//		Offset -> 0x0061F560
+//		Offset -> 0x006232A0
 //		Name   -> Function modio.CallbackProxy_GetUserSubscriptions.GetUserSubscriptions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -989,7 +989,7 @@ class UCallbackProxy_GetUserSubscriptions* UCallbackProxy_GetUserSubscriptions::
 
 
 // Function:
-//		Offset -> 0x0061FA30
+//		Offset -> 0x00623770
 //		Name   -> Function modio.CallbackProxy_OculusAuth.OculusAuth
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1026,7 +1026,7 @@ class UCallbackProxy_OculusAuth* UCallbackProxy_OculusAuth::STATIC_OculusAuth(cl
 
 
 // Function:
-//		Offset -> 0x0061FE60
+//		Offset -> 0x00623BA0
 //		Name   -> Function modio.CallbackProxy_SetModDownloadListener.SetModDownloadListener
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1051,7 +1051,7 @@ class UCallbackProxy_SetModDownloadListener* UCallbackProxy_SetModDownloadListen
 
 
 // Function:
-//		Offset -> 0x00620090
+//		Offset -> 0x00623DD0
 //		Name   -> Function modio.CallbackProxy_SetModEventListener.SetModEventListener
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1076,7 +1076,7 @@ class UCallbackProxy_SetModEventListener* UCallbackProxy_SetModEventListener::ST
 
 
 // Function:
-//		Offset -> 0x006202C0
+//		Offset -> 0x00624000
 //		Name   -> Function modio.CallbackProxy_SetModfileUploadListener.SetModfileUploadListener
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1101,7 +1101,7 @@ class UCallbackProxy_SetModfileUploadListener* UCallbackProxy_SetModfileUploadLi
 
 
 // Function:
-//		Offset -> 0x006204F0
+//		Offset -> 0x00624230
 //		Name   -> Function modio.CallbackProxy_SteamAuth.SteamAuth
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1128,7 +1128,7 @@ class UCallbackProxy_SteamAuth* UCallbackProxy_SteamAuth::STATIC_SteamAuth(class
 
 
 // Function:
-//		Offset -> 0x00620780
+//		Offset -> 0x006244C0
 //		Name   -> Function modio.CallbackProxy_SubmitReport.SubmitReport
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1163,7 +1163,7 @@ class UCallbackProxy_SubmitReport* UCallbackProxy_SubmitReport::STATIC_SubmitRep
 
 
 // Function:
-//		Offset -> 0x00620B20
+//		Offset -> 0x00624860
 //		Name   -> Function modio.CallbackProxy_SubscribeToMod.SubscribeToMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1190,7 +1190,7 @@ class UCallbackProxy_SubscribeToMod* UCallbackProxy_SubscribeToMod::STATIC_Subsc
 
 
 // Function:
-//		Offset -> 0x00620D90
+//		Offset -> 0x00624AD0
 //		Name   -> Function modio.CallbackProxy_UninstallUnavailableMods.UninstallUnavailableMods
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1215,7 +1215,7 @@ class UCallbackProxy_UninstallUnavailableMods* UCallbackProxy_UninstallUnavailab
 
 
 // Function:
-//		Offset -> 0x00620FC0
+//		Offset -> 0x00624D00
 //		Name   -> Function modio.CallbackProxy_UnsubscribeFromMod.UnsubscribeFromMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1242,7 +1242,7 @@ class UCallbackProxy_UnsubscribeFromMod* UCallbackProxy_UnsubscribeFromMod::STAT
 
 
 // Function:
-//		Offset -> 0x00623A60
+//		Offset -> 0x006277A0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioUninstallMod
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1270,7 +1270,7 @@ void UModioFunctionLibrary::STATIC_ModioUninstallMod(class UObject* WorldContext
 
 
 // Function:
-//		Offset -> 0x006239B0
+//		Offset -> 0x006276F0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioSetUserEventsPollInterval
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1294,7 +1294,7 @@ void UModioFunctionLibrary::STATIC_ModioSetUserEventsPollInterval(class UObject*
 
 
 // Function:
-//		Offset -> 0x00623900
+//		Offset -> 0x00627640
 //		Name   -> Function modio.ModioFunctionLibrary.ModioSetModEventsPollInterval
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1318,7 +1318,7 @@ void UModioFunctionLibrary::STATIC_ModioSetModEventsPollInterval(class UObject* 
 
 
 // Function:
-//		Offset -> 0x00623890
+//		Offset -> 0x006275D0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioResumeDownloads
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1340,7 +1340,7 @@ void UModioFunctionLibrary::STATIC_ModioResumeDownloads(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x00623820
+//		Offset -> 0x00627560
 //		Name   -> Function modio.ModioFunctionLibrary.ModioProcess
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1362,7 +1362,7 @@ void UModioFunctionLibrary::STATIC_ModioProcess(class UObject* WorldContextObjec
 
 
 // Function:
-//		Offset -> 0x00623770
+//		Offset -> 0x006274B0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioPrioritizeModDownload
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1386,7 +1386,7 @@ void UModioFunctionLibrary::STATIC_ModioPrioritizeModDownload(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x00623700
+//		Offset -> 0x00627440
 //		Name   -> Function modio.ModioFunctionLibrary.ModioPollEvents
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1408,7 +1408,7 @@ void UModioFunctionLibrary::STATIC_ModioPollEvents(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x00623690
+//		Offset -> 0x006273D0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioPauseDownloads
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1430,7 +1430,7 @@ void UModioFunctionLibrary::STATIC_ModioPauseDownloads(class UObject* WorldConte
 
 
 // Function:
-//		Offset -> 0x00623620
+//		Offset -> 0x00627360
 //		Name   -> Function modio.ModioFunctionLibrary.ModioLogout
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1452,7 +1452,7 @@ void UModioFunctionLibrary::STATIC_ModioLogout(class UObject* WorldContextObject
 
 
 // Function:
-//		Offset -> 0x00623560
+//		Offset -> 0x006272A0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioIsLoggedIn
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1478,7 +1478,7 @@ void UModioFunctionLibrary::STATIC_ModioIsLoggedIn(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x00623460
+//		Offset -> 0x006271A0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioIsCurrentUserSubscribed
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1506,7 +1506,7 @@ void UModioFunctionLibrary::STATIC_ModioIsCurrentUserSubscribed(class UObject* W
 
 
 // Function:
-//		Offset -> 0x006233F0
+//		Offset -> 0x00627130
 //		Name   -> Function modio.ModioFunctionLibrary.ModioInstallDownloadedMods
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1528,7 +1528,7 @@ void UModioFunctionLibrary::STATIC_ModioInstallDownloadedMods(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x006231E0
+//		Offset -> 0x00626F20
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetModState
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1556,7 +1556,7 @@ void UModioFunctionLibrary::STATIC_ModioGetModState(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x006232E0
+//		Offset -> 0x00627020
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetModfileUploadQueue
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1582,7 +1582,7 @@ void UModioFunctionLibrary::STATIC_ModioGetModfileUploadQueue(class UObject* Wor
 
 
 // Function:
-//		Offset -> 0x006230D0
+//		Offset -> 0x00626E10
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetModDownloadQueue
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1608,7 +1608,7 @@ void UModioFunctionLibrary::STATIC_ModioGetModDownloadQueue(class UObject* World
 
 
 // Function:
-//		Offset -> 0x00622F30
+//		Offset -> 0x00626C70
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetInstalledMod
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1639,7 +1639,7 @@ void UModioFunctionLibrary::STATIC_ModioGetInstalledMod(class UObject* WorldCont
 
 
 // Function:
-//		Offset -> 0x00622E50
+//		Offset -> 0x00626B90
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetCurrentUserSubscriptions
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1665,7 +1665,7 @@ void UModioFunctionLibrary::STATIC_ModioGetCurrentUserSubscriptions(class UObjec
 
 
 // Function:
-//		Offset -> 0x00622D50
+//		Offset -> 0x00626A90
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetCurrentUserModRating
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1693,7 +1693,7 @@ void UModioFunctionLibrary::STATIC_ModioGetCurrentUserModRating(class UObject* W
 
 
 // Function:
-//		Offset -> 0x00622C40
+//		Offset -> 0x00626980
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetAllInstalledMods
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1719,7 +1719,7 @@ void UModioFunctionLibrary::STATIC_ModioGetAllInstalledMods(class UObject* World
 
 
 // Function:
-//		Offset -> 0x00622B60
+//		Offset -> 0x006268A0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioGetAllDownloadedMods
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1745,7 +1745,7 @@ void UModioFunctionLibrary::STATIC_ModioGetAllDownloadedMods(class UObject* Worl
 
 
 // Function:
-//		Offset -> 0x00622AB0
+//		Offset -> 0x006267F0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioDownloadMod
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1769,7 +1769,7 @@ void UModioFunctionLibrary::STATIC_ModioDownloadMod(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x00622910
+//		Offset -> 0x00626650
 //		Name   -> Function modio.ModioFunctionLibrary.ModioCurrentUser
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -1795,7 +1795,7 @@ void UModioFunctionLibrary::STATIC_ModioCurrentUser(class UObject* WorldContextO
 
 
 // Function:
-//		Offset -> 0x00622860
+//		Offset -> 0x006265A0
 //		Name   -> Function modio.ModioFunctionLibrary.ModioCancelModDownload
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1819,7 +1819,7 @@ void UModioFunctionLibrary::STATIC_ModioCancelModDownload(class UObject* WorldCo
 
 
 // Function:
-//		Offset -> 0x006225D0
+//		Offset -> 0x00626310
 //		Name   -> Function modio.ModioFunctionLibrary.ModioAddModfile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1845,7 +1845,7 @@ void UModioFunctionLibrary::STATIC_ModioAddModfile(class UObject* WorldContextOb
 
 
 // Function:
-//		Offset -> 0x00622500
+//		Offset -> 0x00626240
 //		Name   -> Function modio.ModioFunctionLibrary.AuthenticateViaToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationItemEntry.BP_CustomizationItemEntry_C.Initialize
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationItemEntry_C::Initialize()
@@ -37,7 +37,7 @@ void UBP_CustomizationItemEntry_C::Initialize()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationItemEntry.BP_CustomizationItemEntry_C.OnClick__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -58,7 +58,7 @@ void UBP_CustomizationItemEntry_C::OnClick__DelegateSignature(int ID)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationItemEntry.BP_CustomizationItemEntry_C.OnHover__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

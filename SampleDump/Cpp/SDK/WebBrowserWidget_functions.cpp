@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction WebBrowserWidget.WebBrowser.OnUrlChanged__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 // Parameters:
@@ -40,7 +40,7 @@ void UWebBrowser::OnUrlChanged__DelegateSignature(const struct FText& Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction WebBrowserWidget.WebBrowser.OnBeforePopup__DelegateSignature
 //		Flags  -> (MulticastDelegate, Public, Delegate)
 // Parameters:
@@ -63,7 +63,7 @@ void UWebBrowser::OnBeforePopup__DelegateSignature(const struct FString& URL, co
 
 
 // Function:
-//		Offset -> 0x0062C610
+//		Offset -> 0x00630370
 //		Name   -> Function WebBrowserWidget.WebBrowser.LoadURL
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -85,7 +85,7 @@ void UWebBrowser::LoadURL(const struct FString& NewURL)
 
 
 // Function:
-//		Offset -> 0x0062C480
+//		Offset -> 0x006301E0
 //		Name   -> Function WebBrowserWidget.WebBrowser.LoadString
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -109,7 +109,7 @@ void UWebBrowser::LoadString(const struct FString& Contents, const struct FStrin
 
 
 // Function:
-//		Offset -> 0x0062C400
+//		Offset -> 0x00630160
 //		Name   -> Function WebBrowserWidget.WebBrowser.GetUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -132,7 +132,7 @@ struct FString UWebBrowser::GetUrl()
 
 
 // Function:
-//		Offset -> 0x0062C360
+//		Offset -> 0x006300C0
 //		Name   -> Function WebBrowserWidget.WebBrowser.GetTitleText
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -155,7 +155,7 @@ struct FText UWebBrowser::GetTitleText()
 
 
 // Function:
-//		Offset -> 0x0062C2C0
+//		Offset -> 0x00630020
 //		Name   -> Function WebBrowserWidget.WebBrowser.ExecuteJavascript
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:

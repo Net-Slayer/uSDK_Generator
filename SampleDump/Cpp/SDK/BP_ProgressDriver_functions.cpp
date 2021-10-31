@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProgressDriver.BP_ProgressDriver_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -43,7 +43,7 @@ bool ABP_ProgressDriver_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProgressDriver.BP_ProgressDriver_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_ProgressDriver_C::ReceiveBeginPlay()
@@ -61,7 +61,7 @@ void ABP_ProgressDriver_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProgressDriver.BP_ProgressDriver_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -82,7 +82,7 @@ void ABP_ProgressDriver_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProgressDriver.BP_ProgressDriver_C.OnValueToggled
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void ABP_ProgressDriver_C::OnValueToggled()
@@ -100,7 +100,7 @@ void ABP_ProgressDriver_C::OnValueToggled()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ProgressDriver.BP_ProgressDriver_C.ExecuteUbergraph_BP_ProgressDriver
 //		Flags  -> (Final)
 // Parameters:

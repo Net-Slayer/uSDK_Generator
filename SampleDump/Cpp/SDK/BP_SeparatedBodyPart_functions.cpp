@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SeparatedBodyPart.BP_SeparatedBodyPart_C.UserConstructionScript
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_SeparatedBodyPart_C::UserConstructionScript()
@@ -37,7 +37,7 @@ void ABP_SeparatedBodyPart_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SeparatedBodyPart.BP_SeparatedBodyPart_C.OnCosmeticHit
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void ABP_SeparatedBodyPart_C::OnCosmeticHit(Mordhau_EMordhauDamageType DamageTyp
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SeparatedBodyPart.BP_SeparatedBodyPart_C.BndEvt__Thudder_K2Node_ComponentBoundEvent_1_ComponentThudSignature__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void ABP_SeparatedBodyPart_C::BndEvt__Thudder_K2Node_ComponentBoundEvent_1_ComponentThudSignature__DelegateSignature()
@@ -82,7 +82,7 @@ void ABP_SeparatedBodyPart_C::BndEvt__Thudder_K2Node_ComponentBoundEvent_1_Compo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SeparatedBodyPart.BP_SeparatedBodyPart_C.InitializeDismemberment
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -111,7 +111,7 @@ void ABP_SeparatedBodyPart_C::InitializeDismemberment(class AMordhauCharacter* S
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SeparatedBodyPart.BP_SeparatedBodyPart_C.ExecuteUbergraph_BP_SeparatedBodyPart
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

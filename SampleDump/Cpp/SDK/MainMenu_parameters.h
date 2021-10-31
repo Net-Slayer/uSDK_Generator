@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -18,6 +18,11 @@ namespace CG
 //---------------------------------------------------------------------------
 // Parameters
 //---------------------------------------------------------------------------
+
+// Function MainMenu.MainMenu_C.ShowHalloween
+struct AMainMenu_C_ShowHalloween_Params
+{
+};
 
 // Function MainMenu.MainMenu_C.SetNewsVisibility
 struct AMainMenu_C_SetNewsVisibility_Params

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,16 +20,17 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_LadderMover.BP_LadderMover_C
-// 0x0020 (FullSize[0x0C60] - InheritedSize[0x0C40])
+// 0x0028 (FullSize[0x0B98] - InheritedSize[0x0B70])
 class ABP_LadderMover_C : public AMordhau1DVehicle
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0C40(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
-	class ABP_Ladder_C*                                Ladder;                                                    // 0x0C48(0x0008) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash)
-	bool                                               RequestedJump;                                             // 0x0C50(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
-	bool                                               ReplicatedLadderJump;                                      // 0x0C51(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor)
-	unsigned char                                      UnknownData_8NQU[0x6];                                     // 0x0C52(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-	class AMordhauCharacter*                           LastDriver;                                                // 0x0C58(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                            // 0x0B70(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
+	class UBP_VehicleLadderMover_C*                    BP_VehicleLadderMover;                                     // 0x0B78(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class ABP_Ladder_C*                                Ladder;                                                    // 0x0B80(0x0008) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash)
+	bool                                               RequestedJump;                                             // 0x0B88(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
+	bool                                               ReplicatedLadderJump;                                      // 0x0B89(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor)
+	unsigned char                                      UnknownData_S4UT[0x6];                                     // 0x0B8A(0x0006) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	class AMordhauCharacter*                           LastDriver;                                                // 0x0B90(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 
 	static UClass* StaticClass()
@@ -42,8 +43,6 @@ public:
 
 	void OnRep_ReplicatedLadderJump();
 	void PerformJumpoff();
-	float OverrideAttackAngle(class UAttackMotion* Motion);
-	struct FTransform GetExitTransform();
 	void OnRep_Ladder();
 	void InpActEvt_Cycle_Camera_K2Node_InputActionEvent_41(const struct FKey& Key);
 	void InpActEvt_Cycle_Camera_K2Node_InputActionEvent_40(const struct FKey& Key);
@@ -86,16 +85,12 @@ public:
 	void InpActEvt_Fire_K2Node_InputActionEvent_3(const struct FKey& Key);
 	void InpActEvt_Fire_K2Node_InputActionEvent_2(const struct FKey& Key);
 	void InpActEvt_Ranged_Cancel_K2Node_InputActionEvent_1(const struct FKey& Key);
-	void OnStoppedDriving(class AMordhauCharacter* Character);
-	void UpdateFPCameraFor(class AMordhauCharacter* Character, float DeltaSeconds, bool bRotationOnly);
-	void UpdateAnimationFor(class AMordhauCharacter* Character, class UMordhauAnimInstance* AnimInst, float DeltaTime);
 	void InpAxisEvt_Look_Up_K2Node_InputAxisEvent_23(float AxisValue);
 	void InpAxisEvt_Turn_Right_K2Node_InputAxisEvent_10(float AxisValue);
 	void OnStepChanged();
 	void KnockOffDriver(class AMordhauCharacter* Character);
 	void ReceiveDestroyed();
 	void RequestJumpOff();
-	void OnDriverChanged();
 	void ExecuteUbergraph_BP_LadderMover(int EntryPoint);
 };
 

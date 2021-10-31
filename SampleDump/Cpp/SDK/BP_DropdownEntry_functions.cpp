@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_DropdownEntry_C::Construct()
@@ -37,7 +37,7 @@ void UBP_DropdownEntry_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.BndEvt__dropdownEntry_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_DropdownEntry_C::BndEvt__dropdownEntry_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
@@ -55,7 +55,7 @@ void UBP_DropdownEntry_C::BndEvt__dropdownEntry_K2Node_ComponentBoundEvent_5_OnB
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.BndEvt__ComboBoxText_90_K2Node_ComponentBoundEvent_115_OnSelectionChangedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -78,7 +78,7 @@ void UBP_DropdownEntry_C::BndEvt__ComboBoxText_90_K2Node_ComponentBoundEvent_115
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.ExecuteUbergraph_BP_DropdownEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -99,7 +99,7 @@ void UBP_DropdownEntry_C::ExecuteUbergraph_BP_DropdownEntry(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.OnHovered__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_DropdownEntry_C::OnHovered__DelegateSignature()
@@ -117,7 +117,7 @@ void UBP_DropdownEntry_C::OnHovered__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_DropdownEntry.BP_DropdownEntry_C.OnSelectionChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D21690
+//		Offset -> 0x00D2AFB0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureVector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -46,7 +46,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureVector(const struct FString& Key, 
 
 
 // Function:
-//		Offset -> 0x00D21980
+//		Offset -> 0x00D2B2A0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -73,7 +73,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureTransform(const struct FString& Ke
 
 
 // Function:
-//		Offset -> 0x00D22110
+//		Offset -> 0x00D2BA30
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureString
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -100,7 +100,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureString(const struct FString& Key, 
 
 
 // Function:
-//		Offset -> 0x00D22030
+//		Offset -> 0x00D2B950
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureSaveGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -127,7 +127,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureSaveGame(const struct FString& Key
 
 
 // Function:
-//		Offset -> 0x00D21690
+//		Offset -> 0x00D2AFB0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureRotator
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -154,7 +154,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureRotator(const struct FString& Key,
 
 
 // Function:
-//		Offset -> 0x00D21E70
+//		Offset -> 0x00D2B790
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureInt64
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -181,7 +181,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureInt64(const struct FString& Key, i
 
 
 // Function:
-//		Offset -> 0x00D21F50
+//		Offset -> 0x00D2B870
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureInt
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -208,7 +208,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureInt(const struct FString& Key, int
 
 
 // Function:
-//		Offset -> 0x00D21D80
+//		Offset -> 0x00D2B6A0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureFloat
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -235,7 +235,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureFloat(const struct FString& Key, f
 
 
 // Function:
-//		Offset -> 0x00D21CA0
+//		Offset -> 0x00D2B5C0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureByte
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -262,7 +262,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureByte(const struct FString& Key, un
 
 
 // Function:
-//		Offset -> 0x00D21BC0
+//		Offset -> 0x00D2B4E0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureBool
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -289,7 +289,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureBool(const struct FString& Key, bo
 
 
 // Function:
-//		Offset -> 0x00D21AC0
+//		Offset -> 0x00D2B3E0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.PutSecureArray
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -316,7 +316,7 @@ bool UMagicLeapSecureStorage::STATIC_PutSecureArray(const struct FString& Key, T
 
 
 // Function:
-//		Offset -> 0x00D21690
+//		Offset -> 0x00D2AFB0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureVector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -345,7 +345,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureVector(const struct FString& Key, 
 
 
 // Function:
-//		Offset -> 0x00D21980
+//		Offset -> 0x00D2B2A0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureTransform
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -374,7 +374,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureTransform(const struct FString& Ke
 
 
 // Function:
-//		Offset -> 0x00D21870
+//		Offset -> 0x00D2B190
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureString
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -403,7 +403,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureString(const struct FString& Key, 
 
 
 // Function:
-//		Offset -> 0x00D21780
+//		Offset -> 0x00D2B0A0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureSaveGame
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -432,7 +432,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureSaveGame(const struct FString& Key
 
 
 // Function:
-//		Offset -> 0x00D21690
+//		Offset -> 0x00D2AFB0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureRotator
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -461,7 +461,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureRotator(const struct FString& Key,
 
 
 // Function:
-//		Offset -> 0x00D214B0
+//		Offset -> 0x00D2ADD0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureInt64
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -490,7 +490,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureInt64(const struct FString& Key, i
 
 
 // Function:
-//		Offset -> 0x00D215A0
+//		Offset -> 0x00D2AEC0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureInt
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -519,7 +519,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureInt(const struct FString& Key, int
 
 
 // Function:
-//		Offset -> 0x00D213C0
+//		Offset -> 0x00D2ACE0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureFloat
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -548,7 +548,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureFloat(const struct FString& Key, f
 
 
 // Function:
-//		Offset -> 0x00D212D0
+//		Offset -> 0x00D2ABF0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureByte
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -577,7 +577,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureByte(const struct FString& Key, un
 
 
 // Function:
-//		Offset -> 0x00D212D0
+//		Offset -> 0x00D2ABF0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureBool
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -606,7 +606,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureBool(const struct FString& Key, bo
 
 
 // Function:
-//		Offset -> 0x00D211D0
+//		Offset -> 0x00D2AAF0
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.GetSecureArray
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -635,7 +635,7 @@ bool UMagicLeapSecureStorage::STATIC_GetSecureArray(const struct FString& Key, T
 
 
 // Function:
-//		Offset -> 0x00D21130
+//		Offset -> 0x00D2AA50
 //		Name   -> Function MagicLeapSecureStorage.MagicLeapSecureStorage.DeleteSecureData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

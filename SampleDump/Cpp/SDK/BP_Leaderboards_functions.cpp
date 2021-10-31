@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Leaderboards.BP_Leaderboards_C.Update
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_Leaderboards_C::Update()
@@ -37,7 +37,7 @@ void UBP_Leaderboards_C::Update()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Leaderboards.BP_Leaderboards_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -60,7 +60,7 @@ void UBP_Leaderboards_C::Tick(const struct FGeometry& MyGeometry, float InDeltaT
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Leaderboards.BP_Leaderboards_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_Leaderboards_C::Construct()
@@ -78,7 +78,7 @@ void UBP_Leaderboards_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Leaderboards.BP_Leaderboards_C.OnGetLeaderboardComplete
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -105,7 +105,7 @@ void UBP_Leaderboards_C::OnGetLeaderboardComplete(bool bWasSuccessful, const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Leaderboards.BP_Leaderboards_C.ExecuteUbergraph_BP_Leaderboards
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D33750
+//		Offset -> 0x00D3D0C0
 //		Name   -> Function ImgMedia.ImgMediaSource.SetSequencePath
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UImgMediaSource::SetSequencePath(const struct FString& Path)
 
 
 // Function:
-//		Offset -> 0x00D33660
+//		Offset -> 0x00D3CFD0
 //		Name   -> Function ImgMedia.ImgMediaSource.GetSequencePath
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -64,7 +64,7 @@ struct FString UImgMediaSource::GetSequencePath()
 
 
 // Function:
-//		Offset -> 0x00D33590
+//		Offset -> 0x00D3CF00
 //		Name   -> Function ImgMedia.ImgMediaSource.GetProxies
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HoveredSetting.BP_HoveredSetting_C.SetPerformanceImpact
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -44,7 +44,7 @@ void UBP_HoveredSetting_C::SetPerformanceImpact(int Amount, class UTextBlock* Wi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HoveredSetting.BP_HoveredSetting_C.SetHoveredSetting
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -77,7 +77,7 @@ void UBP_HoveredSetting_C::SetHoveredSetting(const struct FText& Title, const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HoveredSetting.BP_HoveredSetting_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_HoveredSetting_C::Construct()
@@ -95,7 +95,7 @@ void UBP_HoveredSetting_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_HoveredSetting.BP_HoveredSetting_C.ExecuteUbergraph_BP_HoveredSetting
 //		Flags  -> (Final)
 // Parameters:

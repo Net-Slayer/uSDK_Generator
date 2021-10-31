@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerStatsMenu.BP_PlayerStatsMenu_C.RefreshStats
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_PlayerStatsMenu_C::RefreshStats()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerStatsMenu.BP_PlayerStatsMenu_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_PlayerStatsMenu_C::OnShown()
@@ -56,7 +56,7 @@ void UBP_PlayerStatsMenu_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PlayerStatsMenu.BP_PlayerStatsMenu_C.ExecuteUbergraph_BP_PlayerStatsMenu
 //		Flags  -> (Final)
 // Parameters:

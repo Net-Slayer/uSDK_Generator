@@ -1,7 +1,7 @@
 ﻿#pragma once
 #pragma warning(disable: 4267)
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 #include <vector>
 #include <locale>
@@ -134,7 +134,7 @@ public:
 	int Flags;
 	int32_t ClusterIndex;
 	int32_t SerialNumber;
-	unsigned char pad_1QEDT8F05Q[0x04];
+	unsigned char pad_UUBW41NB7S[0x04];
 	enum class ObjectFlags : int32_t
 	{
 		None = 0,
@@ -852,7 +852,7 @@ struct FStructBaseChain
 {
 	class FStructBaseChain** StructBaseChainArray;
 	int32_t NumStructBasesInChainMinusOne;
-	unsigned char pad_AGFT5L5I3Y[0x04];
+	unsigned char pad_5FCV407VH2[0x04];
 };
 
 template<typename Key, typename Value>

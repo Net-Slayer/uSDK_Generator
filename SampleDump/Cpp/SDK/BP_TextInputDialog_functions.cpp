@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.SetEnteredText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void UBP_TextInputDialog_C::SetEnteredText(const struct FText& EnteredText)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.GetEnteredText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void UBP_TextInputDialog_C::GetEnteredText(struct FText* Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.SetTitleText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -84,7 +84,7 @@ void UBP_TextInputDialog_C::SetTitleText(const struct FText& Title)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.SetRightButtonText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -105,7 +105,7 @@ void UBP_TextInputDialog_C::SetRightButtonText(const struct FText& Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.SetLeftButtonText
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -126,7 +126,7 @@ void UBP_TextInputDialog_C::SetLeftButtonText(const struct FText& Text)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.GetHintText
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -148,7 +148,7 @@ struct FText UBP_TextInputDialog_C::GetHintText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__PasswordTextbox_K2Node_ComponentBoundEvent_23_OnEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -171,7 +171,7 @@ void UBP_TextInputDialog_C::BndEvt__PasswordTextbox_K2Node_ComponentBoundEvent_2
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEvent_183_LeftButtonClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TextInputDialog_C::BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEvent_183_LeftButtonClicked__DelegateSignature()
@@ -189,7 +189,7 @@ void UBP_TextInputDialog_C::BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEvent_187_RightButtonClicked__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_TextInputDialog_C::BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEvent_187_RightButtonClicked__DelegateSignature()
@@ -207,7 +207,7 @@ void UBP_TextInputDialog_C::BndEvt__BP_TwoButtonDialog_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.Show
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_TextInputDialog_C::Show()
@@ -225,7 +225,7 @@ void UBP_TextInputDialog_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.Hide
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void UBP_TextInputDialog_C::Hide()
@@ -243,7 +243,7 @@ void UBP_TextInputDialog_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__PasswordTextBox_K2Node_ComponentBoundEvent_7_OnEditableTextBoxCommittedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -266,7 +266,7 @@ void UBP_TextInputDialog_C::BndEvt__PasswordTextBox_K2Node_ComponentBoundEvent_7
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__NormalTextBox_K2Node_ComponentBoundEvent_19_OnEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -287,7 +287,7 @@ void UBP_TextInputDialog_C::BndEvt__NormalTextBox_K2Node_ComponentBoundEvent_19_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.BndEvt__PasswordTextBox_K2Node_ComponentBoundEvent_20_OnEditableTextBoxChangedEvent__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -308,7 +308,7 @@ void UBP_TextInputDialog_C::BndEvt__PasswordTextBox_K2Node_ComponentBoundEvent_2
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.ExecuteUbergraph_BP_TextInputDialog
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -329,7 +329,7 @@ void UBP_TextInputDialog_C::ExecuteUbergraph_BP_TextInputDialog(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.TextChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -350,7 +350,7 @@ void UBP_TextInputDialog_C::TextChanged__DelegateSignature(const struct FText& T
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.TextCommitted__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -373,7 +373,7 @@ void UBP_TextInputDialog_C::TextCommitted__DelegateSignature(const struct FText&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.RightButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_TextInputDialog_C::RightButtonClicked__DelegateSignature()
@@ -391,7 +391,7 @@ void UBP_TextInputDialog_C::RightButtonClicked__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_TextInputDialog.BP_TextInputDialog_C.LeftButtonClicked__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_TextInputDialog_C::LeftButtonClicked__DelegateSignature()

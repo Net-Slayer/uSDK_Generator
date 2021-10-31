@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.CanHeldInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -43,7 +43,7 @@ bool ABP_PaviseShield_C::CanHeldInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.HandleTakeDamage
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -64,7 +64,7 @@ void ABP_PaviseShield_C::HandleTakeDamage(float Damage)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.CanInteract
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -88,7 +88,7 @@ bool ABP_PaviseShield_C::CanInteract(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.OnRequestFire
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -112,7 +112,7 @@ bool ABP_PaviseShield_C::OnRequestFire(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.ShouldShine
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -134,7 +134,7 @@ bool ABP_PaviseShield_C::ShouldShine()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.ValidatePlantSpot
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -170,7 +170,7 @@ void ABP_PaviseShield_C::ValidatePlantSpot(const struct FVector& PlantLocation, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.FireProjectile
 //		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -197,7 +197,7 @@ void ABP_PaviseShield_C::FireProjectile(const struct FVector& Origin, const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.OnLoadedChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_PaviseShield_C::OnLoadedChanged()
@@ -215,7 +215,7 @@ void ABP_PaviseShield_C::OnLoadedChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -236,7 +236,7 @@ void ABP_PaviseShield_C::OnInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -263,7 +263,7 @@ void ABP_PaviseShield_C::ReceiveAnyDamage(float Damage, class UDamageType* Damag
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.BndEvt__MovementBlocker_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
 //		Flags  -> (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -294,7 +294,7 @@ void ABP_PaviseShield_C::BndEvt__MovementBlocker_K2Node_ComponentBoundEvent_1_Co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.PlanterDestroyed
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -315,7 +315,7 @@ void ABP_PaviseShield_C::PlanterDestroyed(class AAdvancedCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.PlanterDied
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -336,7 +336,7 @@ void ABP_PaviseShield_C::PlanterDied(class AAdvancedCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.OnAmmoChanged
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_PaviseShield_C::OnAmmoChanged()
@@ -354,7 +354,7 @@ void ABP_PaviseShield_C::OnAmmoChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.OnHeldInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -375,7 +375,7 @@ void ABP_PaviseShield_C::OnHeldInteractionStart(class AMordhauCharacter* Charact
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.UpdateEquipmentState
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 void ABP_PaviseShield_C::UpdateEquipmentState()
@@ -393,7 +393,7 @@ void ABP_PaviseShield_C::UpdateEquipmentState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_PaviseShield.BP_PaviseShield_C.ExecuteUbergraph_BP_PaviseShield
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

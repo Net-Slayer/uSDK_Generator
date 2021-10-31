@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.HandleFastOpen
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -48,7 +48,7 @@ void ABP_Door_C::HandleFastOpen(class AMordhauCharacter* Char, bool WantsRagdoll
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.IsClosed
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -71,7 +71,7 @@ void ABP_Door_C::IsClosed(bool* Result)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.ConvertStartingStateToDoorState
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -96,7 +96,7 @@ void ABP_Door_C::ConvertStartingStateToDoorState(unsigned char InStartingState, 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.GetDoorToActorAngle
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -121,7 +121,7 @@ void ABP_Door_C::GetDoorToActorAngle(class AActor* Actor, float* AngleDegrees)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.GetDoorForwardVector
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -144,7 +144,7 @@ void ABP_Door_C::GetDoorForwardVector(struct FVector* Out)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.OnRep_DoorState
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -163,7 +163,7 @@ void ABP_Door_C::OnRep_DoorState()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.UserConstructionScript
 //		Flags  -> (Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -182,7 +182,7 @@ void ABP_Door_C::UserConstructionScript()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_Door_C::ReceiveBeginPlay()
@@ -200,7 +200,7 @@ void ABP_Door_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -221,7 +221,7 @@ void ABP_Door_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.OnInteractionStart
 //		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -242,7 +242,7 @@ void ABP_Door_C::OnInteractionStart(class AMordhauCharacter* Character)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.ReceiveAnyDamage
 //		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 // Parameters:
@@ -269,7 +269,7 @@ void ABP_Door_C::ReceiveAnyDamage(float Damage, class UDamageType* DamageType, c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Door.BP_Door_C.ExecuteUbergraph_BP_Door
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

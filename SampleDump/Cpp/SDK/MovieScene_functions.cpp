@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02299D70
+//		Offset -> 0x022A3660
 //		Name   -> Function MovieScene.MovieSceneSection.SetRowIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UMovieSceneSection::SetRowIndex(int NewRowIndex)
 
 
 // Function:
-//		Offset -> 0x02299CE0
+//		Offset -> 0x022A35D0
 //		Name   -> Function MovieScene.MovieSceneSection.SetPreRollFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -63,7 +63,7 @@ void UMovieSceneSection::SetPreRollFrames(int InPreRollFrames)
 
 
 // Function:
-//		Offset -> 0x02299C50
+//		Offset -> 0x022A3540
 //		Name   -> Function MovieScene.MovieSceneSection.SetPostRollFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -85,7 +85,7 @@ void UMovieSceneSection::SetPostRollFrames(int InPostRollFrames)
 
 
 // Function:
-//		Offset -> 0x02299BD0
+//		Offset -> 0x022A34C0
 //		Name   -> Function MovieScene.MovieSceneSection.SetOverlapPriority
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -107,7 +107,7 @@ void UMovieSceneSection::SetOverlapPriority(int NewPriority)
 
 
 // Function:
-//		Offset -> 0x02299B40
+//		Offset -> 0x022A3430
 //		Name   -> Function MovieScene.MovieSceneSection.SetIsLocked
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -129,7 +129,7 @@ void UMovieSceneSection::SetIsLocked(bool bInIsLocked)
 
 
 // Function:
-//		Offset -> 0x02299AB0
+//		Offset -> 0x022A33A0
 //		Name   -> Function MovieScene.MovieSceneSection.SetIsActive
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -151,7 +151,7 @@ void UMovieSceneSection::SetIsActive(bool bInIsActive)
 
 
 // Function:
-//		Offset -> 0x02299A30
+//		Offset -> 0x022A3320
 //		Name   -> Function MovieScene.MovieSceneSection.SetCompletionMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -173,7 +173,7 @@ void UMovieSceneSection::SetCompletionMode(MovieScene_EMovieSceneCompletionMode 
 
 
 // Function:
-//		Offset -> 0x022999B0
+//		Offset -> 0x022A32A0
 //		Name   -> Function MovieScene.MovieSceneSection.SetBlendType
 //		Flags  -> (RequiredAPI, Native, Public, BlueprintCallable)
 // Parameters:
@@ -195,7 +195,7 @@ void UMovieSceneSection::SetBlendType(MovieScene_EMovieSceneBlendType InBlendTyp
 
 
 // Function:
-//		Offset -> 0x02299980
+//		Offset -> 0x022A3270
 //		Name   -> Function MovieScene.MovieSceneSection.IsLocked
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -218,7 +218,7 @@ bool UMovieSceneSection::IsLocked()
 
 
 // Function:
-//		Offset -> 0x02299950
+//		Offset -> 0x022A3240
 //		Name   -> Function MovieScene.MovieSceneSection.IsActive
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -241,7 +241,7 @@ bool UMovieSceneSection::IsActive()
 
 
 // Function:
-//		Offset -> 0x02299930
+//		Offset -> 0x022A3220
 //		Name   -> Function MovieScene.MovieSceneSection.GetRowIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -264,7 +264,7 @@ int UMovieSceneSection::GetRowIndex()
 
 
 // Function:
-//		Offset -> 0x02299910
+//		Offset -> 0x022A3200
 //		Name   -> Function MovieScene.MovieSceneSection.GetPreRollFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -287,7 +287,7 @@ int UMovieSceneSection::GetPreRollFrames()
 
 
 // Function:
-//		Offset -> 0x022998F0
+//		Offset -> 0x022A31E0
 //		Name   -> Function MovieScene.MovieSceneSection.GetPostRollFrames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -310,7 +310,7 @@ int UMovieSceneSection::GetPostRollFrames()
 
 
 // Function:
-//		Offset -> 0x022998D0
+//		Offset -> 0x022A31C0
 //		Name   -> Function MovieScene.MovieSceneSection.GetOverlapPriority
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -333,7 +333,7 @@ int UMovieSceneSection::GetOverlapPriority()
 
 
 // Function:
-//		Offset -> 0x022998B0
+//		Offset -> 0x022A31A0
 //		Name   -> Function MovieScene.MovieSceneSection.GetCompletionMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -356,7 +356,7 @@ MovieScene_EMovieSceneCompletionMode UMovieSceneSection::GetCompletionMode()
 
 
 // Function:
-//		Offset -> 0x02299880
+//		Offset -> 0x022A3170
 //		Name   -> Function MovieScene.MovieSceneSection.GetBlendType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -379,7 +379,7 @@ struct FOptionalMovieSceneBlendType UMovieSceneSection::GetBlendType()
 
 
 // Function:
-//		Offset -> 0x022997A0
+//		Offset -> 0x022A3090
 //		Name   -> Function MovieScene.MovieSceneSequence.FindBindingsByTag
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -404,7 +404,7 @@ TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequence::FindBindingsByTag
 
 
 // Function:
-//		Offset -> 0x022996F0
+//		Offset -> 0x022A2FE0
 //		Name   -> Function MovieScene.MovieSceneSequence.FindBindingByTag
 //		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -429,7 +429,7 @@ struct FMovieSceneObjectBindingID UMovieSceneSequence::FindBindingByTag(const st
 
 
 // Function:
-//		Offset -> 0x0229DED0
+//		Offset -> 0x022A77C0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.StopAtCurrentTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::StopAtCurrentTime()
@@ -448,7 +448,7 @@ void UMovieSceneSequencePlayer::StopAtCurrentTime()
 
 
 // Function:
-//		Offset -> 0x0229DEB0
+//		Offset -> 0x022A77A0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.Stop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::Stop()
@@ -467,7 +467,7 @@ void UMovieSceneSequencePlayer::Stop()
 
 
 // Function:
-//		Offset -> 0x0229DDF0
+//		Offset -> 0x022A76E0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetTimeRange
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -491,7 +491,7 @@ void UMovieSceneSequencePlayer::SetTimeRange(float StartTime, float Duration)
 
 
 // Function:
-//		Offset -> 0x0229DB30
+//		Offset -> 0x022A7420
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetPlayRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -513,7 +513,7 @@ void UMovieSceneSequencePlayer::SetPlayRate(float PlayRate)
 
 
 // Function:
-//		Offset -> 0x0229DCB0
+//		Offset -> 0x022A75A0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetPlaybackRange
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -537,7 +537,7 @@ void UMovieSceneSequencePlayer::SetPlaybackRange(float NewStartTime, float NewEn
 
 
 // Function:
-//		Offset -> 0x0229DBB0
+//		Offset -> 0x022A74A0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetPlaybackPosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -559,7 +559,7 @@ void UMovieSceneSequencePlayer::SetPlaybackPosition(float NewPlaybackPosition)
 
 
 // Function:
-//		Offset -> 0x0229DAA0
+//		Offset -> 0x022A7390
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetFrameRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -581,7 +581,7 @@ void UMovieSceneSequencePlayer::SetFrameRate(const struct FFrameRate& FrameRate)
 
 
 // Function:
-//		Offset -> 0x0229D9E0
+//		Offset -> 0x022A72D0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetFrameRange
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -605,7 +605,7 @@ void UMovieSceneSequencePlayer::SetFrameRange(int StartFrame, int Duration)
 
 
 // Function:
-//		Offset -> 0x0229D950
+//		Offset -> 0x022A7240
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.SetDisableCameraCuts
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -627,7 +627,7 @@ void UMovieSceneSequencePlayer::SetDisableCameraCuts(bool bInDisableCameraCuts)
 
 
 // Function:
-//		Offset -> 0x0229D2F0
+//		Offset -> 0x022A6BE0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.ScrubToSeconds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -649,7 +649,7 @@ void UMovieSceneSequencePlayer::ScrubToSeconds(float TimeInSeconds)
 
 
 // Function:
-//		Offset -> 0x0229D8A0
+//		Offset -> 0x022A7190
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.ScrubToMarkedFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -674,7 +674,7 @@ bool UMovieSceneSequencePlayer::ScrubToMarkedFrame(const struct FString& InLabel
 
 
 // Function:
-//		Offset -> 0x0229D810
+//		Offset -> 0x022A7100
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.ScrubToFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -696,7 +696,7 @@ void UMovieSceneSequencePlayer::ScrubToFrame(const struct FFrameTime& NewPositio
 
 
 // Function:
-//		Offset -> 0x0229D7F0
+//		Offset -> 0x022A70E0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.Scrub
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::Scrub()
@@ -715,7 +715,7 @@ void UMovieSceneSequencePlayer::Scrub()
 
 
 // Function:
-//		Offset -> 0x0229D760
+//		Offset -> 0x022A7050
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.RPC_OnStopEvent
 //		Flags  -> (Final, Net, NetReliable, Native, Event, NetMulticast, Private)
 // Parameters:
@@ -737,7 +737,7 @@ void UMovieSceneSequencePlayer::RPC_OnStopEvent(const struct FFrameTime& Stopped
 
 
 // Function:
-//		Offset -> 0x0229D690
+//		Offset -> 0x022A6F80
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.RPC_ExplicitServerUpdateEvent
 //		Flags  -> (Final, Net, NetReliable, Native, Event, NetMulticast, Private)
 // Parameters:
@@ -761,7 +761,7 @@ void UMovieSceneSequencePlayer::RPC_ExplicitServerUpdateEvent(MovieScene_EUpdate
 
 
 // Function:
-//		Offset -> 0x0229D610
+//		Offset -> 0x022A6F00
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.PlayToSeconds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -783,7 +783,7 @@ void UMovieSceneSequencePlayer::PlayToSeconds(float TimeInSeconds)
 
 
 // Function:
-//		Offset -> 0x0229D560
+//		Offset -> 0x022A6E50
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.PlayToMarkedFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -808,7 +808,7 @@ bool UMovieSceneSequencePlayer::PlayToMarkedFrame(const struct FString& InLabel)
 
 
 // Function:
-//		Offset -> 0x0229D4D0
+//		Offset -> 0x022A6DC0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.PlayToFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -830,7 +830,7 @@ void UMovieSceneSequencePlayer::PlayToFrame(const struct FFrameTime& NewPosition
 
 
 // Function:
-//		Offset -> 0x0229D4B0
+//		Offset -> 0x022A6DA0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.PlayReverse
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::PlayReverse()
@@ -849,7 +849,7 @@ void UMovieSceneSequencePlayer::PlayReverse()
 
 
 // Function:
-//		Offset -> 0x0229D430
+//		Offset -> 0x022A6D20
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.PlayLooping
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -871,7 +871,7 @@ void UMovieSceneSequencePlayer::PlayLooping(int NumLoops)
 
 
 // Function:
-//		Offset -> 0x0229D410
+//		Offset -> 0x022A6D00
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.Play
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::Play()
@@ -890,7 +890,7 @@ void UMovieSceneSequencePlayer::Play()
 
 
 // Function:
-//		Offset -> 0x0229D3F0
+//		Offset -> 0x022A6CE0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.Pause
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::Pause()
@@ -909,7 +909,7 @@ void UMovieSceneSequencePlayer::Pause()
 
 
 // Function:
-//		Offset -> 0x0229D370
+//		Offset -> 0x022A6C60
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.JumpToSeconds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -931,7 +931,7 @@ void UMovieSceneSequencePlayer::JumpToSeconds(float TimeInSeconds)
 
 
 // Function:
-//		Offset -> 0x0229D2F0
+//		Offset -> 0x022A6BE0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.JumpToPosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -953,7 +953,7 @@ void UMovieSceneSequencePlayer::JumpToPosition(float NewPlaybackPosition)
 
 
 // Function:
-//		Offset -> 0x0229D240
+//		Offset -> 0x022A6B30
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.JumpToMarkedFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -978,7 +978,7 @@ bool UMovieSceneSequencePlayer::JumpToMarkedFrame(const struct FString& InLabel)
 
 
 // Function:
-//		Offset -> 0x0229D1B0
+//		Offset -> 0x022A6AA0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.JumpToFrame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1000,7 +1000,7 @@ void UMovieSceneSequencePlayer::JumpToFrame(const struct FFrameTime& NewPosition
 
 
 // Function:
-//		Offset -> 0x0229D180
+//		Offset -> 0x022A6A70
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.IsReversed
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1023,7 +1023,7 @@ bool UMovieSceneSequencePlayer::IsReversed()
 
 
 // Function:
-//		Offset -> 0x0229D150
+//		Offset -> 0x022A6A40
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.IsPlaying
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1046,7 +1046,7 @@ bool UMovieSceneSequencePlayer::IsPlaying()
 
 
 // Function:
-//		Offset -> 0x0229D120
+//		Offset -> 0x022A6A10
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.IsPaused
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1069,7 +1069,7 @@ bool UMovieSceneSequencePlayer::IsPaused()
 
 
 // Function:
-//		Offset -> 0x0229D100
+//		Offset -> 0x022A69F0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GoToEndAndStop
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::GoToEndAndStop()
@@ -1088,7 +1088,7 @@ void UMovieSceneSequencePlayer::GoToEndAndStop()
 
 
 // Function:
-//		Offset -> 0x0229D0B0
+//		Offset -> 0x022A69A0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetStartTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1111,7 +1111,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetStartTime()
 
 
 // Function:
-//		Offset -> 0x0229CE30
+//		Offset -> 0x022A6720
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetPlayRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1134,7 +1134,7 @@ float UMovieSceneSequencePlayer::GetPlayRate()
 
 
 // Function:
-//		Offset -> 0x0229CFF0
+//		Offset -> 0x022A68E0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetPlaybackStart
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1157,7 +1157,7 @@ float UMovieSceneSequencePlayer::GetPlaybackStart()
 
 
 // Function:
-//		Offset -> 0x0229CEF0
+//		Offset -> 0x022A67E0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetPlaybackPosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1180,7 +1180,7 @@ float UMovieSceneSequencePlayer::GetPlaybackPosition()
 
 
 // Function:
-//		Offset -> 0x0229CE60
+//		Offset -> 0x022A6750
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetPlaybackEnd
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1203,7 +1203,7 @@ float UMovieSceneSequencePlayer::GetPlaybackEnd()
 
 
 // Function:
-//		Offset -> 0x0229CD50
+//		Offset -> 0x022A6640
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetObjectBindings
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1228,7 +1228,7 @@ TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequencePlayer::GetObjectBi
 
 
 // Function:
-//		Offset -> 0x0229CD20
+//		Offset -> 0x022A6610
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetLength
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1251,7 +1251,7 @@ float UMovieSceneSequencePlayer::GetLength()
 
 
 // Function:
-//		Offset -> 0x0229CD00
+//		Offset -> 0x022A65F0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetFrameRate
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1274,7 +1274,7 @@ struct FFrameRate UMovieSceneSequencePlayer::GetFrameRate()
 
 
 // Function:
-//		Offset -> 0x0229CCD0
+//		Offset -> 0x022A65C0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetFrameDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1297,7 +1297,7 @@ int UMovieSceneSequencePlayer::GetFrameDuration()
 
 
 // Function:
-//		Offset -> 0x0229CC70
+//		Offset -> 0x022A6560
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetEndTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1320,7 +1320,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetEndTime()
 
 
 // Function:
-//		Offset -> 0x0229CC30
+//		Offset -> 0x022A6520
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1343,7 +1343,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetDuration()
 
 
 // Function:
-//		Offset -> 0x0229CC00
+//		Offset -> 0x022A64F0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetDisableCameraCuts
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1366,7 +1366,7 @@ bool UMovieSceneSequencePlayer::GetDisableCameraCuts()
 
 
 // Function:
-//		Offset -> 0x0229CBC0
+//		Offset -> 0x022A64B0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetCurrentTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1389,7 +1389,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetCurrentTime()
 
 
 // Function:
-//		Offset -> 0x0229CAC0
+//		Offset -> 0x022A63B0
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.GetBoundObjects
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1414,7 +1414,7 @@ TArray<class UObject*> UMovieSceneSequencePlayer::GetBoundObjects(const struct F
 
 
 // Function:
-//		Offset -> 0x0229CAA0
+//		Offset -> 0x022A6390
 //		Name   -> Function MovieScene.MovieSceneSequencePlayer.ChangePlaybackDirection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UMovieSceneSequencePlayer::ChangePlaybackDirection()
@@ -1433,7 +1433,7 @@ void UMovieSceneSequencePlayer::ChangePlaybackDirection()
 
 
 // Function:
-//		Offset -> 0x0229DD70
+//		Offset -> 0x022A7660
 //		Name   -> Function MovieScene.MovieSceneSubSection.SetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1455,7 +1455,7 @@ void UMovieSceneSubSection::SetSequence(class UMovieSceneSequence* Sequence)
 
 
 // Function:
-//		Offset -> 0x0229D080
+//		Offset -> 0x022A6970
 //		Name   -> Function MovieScene.MovieSceneSubSection.GetSequence
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -1478,7 +1478,7 @@ class UMovieSceneSequence* UMovieSceneSubSection::GetSequence()
 
 
 // Function:
-//		Offset -> 0x02295220
+//		Offset -> 0x0229EB10
 //		Name   -> Function MovieScene.MovieSceneCustomClockSource.OnTick
 //		Flags  -> (Native, Public)
 // Parameters:
@@ -1502,7 +1502,7 @@ void UMovieSceneCustomClockSource::OnTick(float DeltaSeconds, float InPlayRate)
 
 
 // Function:
-//		Offset -> 0x02295170
+//		Offset -> 0x0229EA60
 //		Name   -> Function MovieScene.MovieSceneCustomClockSource.OnStopPlaying
 //		Flags  -> (Native, Public, HasOutParms)
 // Parameters:
@@ -1524,7 +1524,7 @@ void UMovieSceneCustomClockSource::OnStopPlaying(const struct FQualifiedFrameTim
 
 
 // Function:
-//		Offset -> 0x022950C0
+//		Offset -> 0x0229E9B0
 //		Name   -> Function MovieScene.MovieSceneCustomClockSource.OnStartPlaying
 //		Flags  -> (Native, Public, HasOutParms)
 // Parameters:
@@ -1546,7 +1546,7 @@ void UMovieSceneCustomClockSource::OnStartPlaying(const struct FQualifiedFrameTi
 
 
 // Function:
-//		Offset -> 0x02294FC0
+//		Offset -> 0x0229E8B0
 //		Name   -> Function MovieScene.MovieSceneCustomClockSource.OnRequestCurrentTime
 //		Flags  -> (Native, Public, HasOutParms)
 // Parameters:
@@ -1573,7 +1573,7 @@ struct FFrameTime UMovieSceneCustomClockSource::OnRequestCurrentTime(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieScene.MovieSceneEasingFunction.OnEvaluate
 //		Flags  -> (Event, Protected, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:

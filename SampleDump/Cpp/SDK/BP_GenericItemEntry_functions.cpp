@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.MarkSeen
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_GenericItemEntry_C::MarkSeen()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.GetWasSeen
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -61,7 +61,7 @@ void UBP_GenericItemEntry_C::GetWasSeen(bool* WasSeen)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.InitializeFromEquipmentSkin
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -80,7 +80,7 @@ void UBP_GenericItemEntry_C::InitializeFromEquipmentSkin()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.GetItemToUnlock
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -103,7 +103,7 @@ void UBP_GenericItemEntry_C::GetItemToUnlock(int* ItemNeeded)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.InitializeFromItem
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -122,7 +122,7 @@ void UBP_GenericItemEntry_C::InitializeFromItem()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.InitializeFromWearable
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -141,7 +141,7 @@ void UBP_GenericItemEntry_C::InitializeFromWearable()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.InitializeFromNothing
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_GenericItemEntry_C::InitializeFromNothing()
@@ -159,7 +159,7 @@ void UBP_GenericItemEntry_C::InitializeFromNothing()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.InitializeFromEquipment
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -178,7 +178,7 @@ void UBP_GenericItemEntry_C::InitializeFromEquipment()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.GetRemoveIconBoxVisibility
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -200,7 +200,7 @@ UMG_ESlateVisibility UBP_GenericItemEntry_C::GetRemoveIconBoxVisibility()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.Get_CostText_ToolTipText_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -222,7 +222,7 @@ struct FText UBP_GenericItemEntry_C::Get_CostText_ToolTipText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.Get_CostText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -244,7 +244,7 @@ struct FSlateColor UBP_GenericItemEntry_C::Get_CostText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.Get_NameText_ColorAndOpacity_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -266,7 +266,7 @@ struct FSlateColor UBP_GenericItemEntry_C::Get_NameText_ColorAndOpacity_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericItemEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonHoverEvent__DelegateSignature()
@@ -284,7 +284,7 @@ void UBP_GenericItemEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.Initialize
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_GenericItemEntry_C::Initialize()
@@ -302,7 +302,7 @@ void UBP_GenericItemEntry_C::Initialize()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.BndEvt__Button_512_K2Node_ComponentBoundEvent_147_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericItemEntry_C::BndEvt__Button_512_K2Node_ComponentBoundEvent_147_OnButtonClickedEvent__DelegateSignature()
@@ -320,7 +320,7 @@ void UBP_GenericItemEntry_C::BndEvt__Button_512_K2Node_ComponentBoundEvent_147_O
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.RequestUnlock
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericItemEntry_C::RequestUnlock()
@@ -338,7 +338,7 @@ void UBP_GenericItemEntry_C::RequestUnlock()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.PurchaseConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericItemEntry_C::PurchaseConfirm()
@@ -356,7 +356,7 @@ void UBP_GenericItemEntry_C::PurchaseConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.PurchaseCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_GenericItemEntry_C::PurchaseCancel()
@@ -374,7 +374,7 @@ void UBP_GenericItemEntry_C::PurchaseCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.ItemsUnlocked
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -397,7 +397,7 @@ void UBP_GenericItemEntry_C::ItemsUnlocked(bool bWasSuccessful, TArray<struct FI
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_GenericItemEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
@@ -415,7 +415,7 @@ void UBP_GenericItemEntry_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_5_OnBut
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_GenericItemEntry.BP_GenericItemEntry_C.ExecuteUbergraph_BP_GenericItemEntry
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00E66410
+//		Offset -> 0x00E70780
 //		Name   -> Function Synthesis.ModularSynthLibrary.AddModularSynthPresetToBankAsset
 //		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -45,7 +45,7 @@ void UModularSynthLibrary::STATIC_AddModularSynthPresetToBankAsset(class UModula
 
 
 // Function:
-//		Offset -> 0x00E689D0
+//		Offset -> 0x00E72D40
 //		Name   -> Function Synthesis.ModularSynthComponent.SetSynthPreset
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -67,7 +67,7 @@ void UModularSynthComponent::SetSynthPreset(const struct FModularSynthPreset& Sy
 
 
 // Function:
-//		Offset -> 0x00E68950
+//		Offset -> 0x00E72CC0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -89,7 +89,7 @@ void UModularSynthComponent::SetSustainGain(float SustainGain)
 
 
 // Function:
-//		Offset -> 0x00E688D0
+//		Offset -> 0x00E72C40
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayWetlevel
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -111,7 +111,7 @@ void UModularSynthComponent::SetStereoDelayWetlevel(float DelayWetlevel)
 
 
 // Function:
-//		Offset -> 0x00E68850
+//		Offset -> 0x00E72BC0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -133,7 +133,7 @@ void UModularSynthComponent::SetStereoDelayTime(float DelayTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E687D0
+//		Offset -> 0x00E72B40
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayRatio
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -155,7 +155,7 @@ void UModularSynthComponent::SetStereoDelayRatio(float DelayRatio)
 
 
 // Function:
-//		Offset -> 0x00E68750
+//		Offset -> 0x00E72AC0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -177,7 +177,7 @@ void UModularSynthComponent::SetStereoDelayMode(Synthesis_ESynthStereoDelayMode 
 
 
 // Function:
-//		Offset -> 0x00E686C0
+//		Offset -> 0x00E72A30
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayIsEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -199,7 +199,7 @@ void UModularSynthComponent::SetStereoDelayIsEnabled(bool StereoDelayEnabled)
 
 
 // Function:
-//		Offset -> 0x00E68640
+//		Offset -> 0x00E729B0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetStereoDelayFeedback
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -221,7 +221,7 @@ void UModularSynthComponent::SetStereoDelayFeedback(float DelayFeedback)
 
 
 // Function:
-//		Offset -> 0x00E685C0
+//		Offset -> 0x00E72930
 //		Name   -> Function Synthesis.ModularSynthComponent.SetSpread
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -243,7 +243,7 @@ void UModularSynthComponent::SetSpread(float Spread)
 
 
 // Function:
-//		Offset -> 0x00E68540
+//		Offset -> 0x00E728B0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetReleaseTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -265,7 +265,7 @@ void UModularSynthComponent::SetReleaseTime(float ReleaseTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E684C0
+//		Offset -> 0x00E72830
 //		Name   -> Function Synthesis.ModularSynthComponent.SetPortamento
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -287,7 +287,7 @@ void UModularSynthComponent::SetPortamento(float Portamento)
 
 
 // Function:
-//		Offset -> 0x00E68440
+//		Offset -> 0x00E727B0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetPitchBend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -309,7 +309,7 @@ void UModularSynthComponent::SetPitchBend(float PitchBend)
 
 
 // Function:
-//		Offset -> 0x00E683C0
+//		Offset -> 0x00E72730
 //		Name   -> Function Synthesis.ModularSynthComponent.SetPan
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -331,7 +331,7 @@ void UModularSynthComponent::SetPan(float Pan)
 
 
 // Function:
-//		Offset -> 0x00E68300
+//		Offset -> 0x00E72670
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -355,7 +355,7 @@ void UModularSynthComponent::SetOscType(int OscIndex, Synthesis_ESynth1OscType O
 
 
 // Function:
-//		Offset -> 0x00E68270
+//		Offset -> 0x00E725E0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscSync
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -377,7 +377,7 @@ void UModularSynthComponent::SetOscSync(bool bIsSynced)
 
 
 // Function:
-//		Offset -> 0x00E681A0
+//		Offset -> 0x00E72510
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscSemitones
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -401,7 +401,7 @@ void UModularSynthComponent::SetOscSemitones(int OscIndex, float Semitones)
 
 
 // Function:
-//		Offset -> 0x00E680D0
+//		Offset -> 0x00E72440
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscPulsewidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -425,7 +425,7 @@ void UModularSynthComponent::SetOscPulsewidth(int OscIndex, float Pulsewidth)
 
 
 // Function:
-//		Offset -> 0x00E68000
+//		Offset -> 0x00E72370
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscOctave
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -449,7 +449,7 @@ void UModularSynthComponent::SetOscOctave(int OscIndex, float Octave)
 
 
 // Function:
-//		Offset -> 0x00E67F30
+//		Offset -> 0x00E722A0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscGainMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -473,7 +473,7 @@ void UModularSynthComponent::SetOscGainMod(int OscIndex, float OscGainMod)
 
 
 // Function:
-//		Offset -> 0x00E67E60
+//		Offset -> 0x00E721D0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -497,7 +497,7 @@ void UModularSynthComponent::SetOscGain(int OscIndex, float OscGain)
 
 
 // Function:
-//		Offset -> 0x00E67D90
+//		Offset -> 0x00E72100
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscFrequencyMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -521,7 +521,7 @@ void UModularSynthComponent::SetOscFrequencyMod(int OscIndex, float OscFreqMod)
 
 
 // Function:
-//		Offset -> 0x00E67CC0
+//		Offset -> 0x00E72030
 //		Name   -> Function Synthesis.ModularSynthComponent.SetOscCents
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -545,7 +545,7 @@ void UModularSynthComponent::SetOscCents(int OscIndex, float Cents)
 
 
 // Function:
-//		Offset -> 0x00E67C40
+//		Offset -> 0x00E71FB0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -567,7 +567,7 @@ void UModularSynthComponent::SetModEnvSustainGain(float SustainGain)
 
 
 // Function:
-//		Offset -> 0x00E67BC0
+//		Offset -> 0x00E71F30
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvReleaseTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -589,7 +589,7 @@ void UModularSynthComponent::SetModEnvReleaseTime(float Release)
 
 
 // Function:
-//		Offset -> 0x00E67B40
+//		Offset -> 0x00E71EB0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvPatch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -611,7 +611,7 @@ void UModularSynthComponent::SetModEnvPatch(Synthesis_ESynthModEnvPatch InPatchT
 
 
 // Function:
-//		Offset -> 0x00E67AB0
+//		Offset -> 0x00E71E20
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -633,7 +633,7 @@ void UModularSynthComponent::SetModEnvInvert(bool bInvert)
 
 
 // Function:
-//		Offset -> 0x00E67A30
+//		Offset -> 0x00E71DA0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -655,7 +655,7 @@ void UModularSynthComponent::SetModEnvDepth(float Depth)
 
 
 // Function:
-//		Offset -> 0x00E679B0
+//		Offset -> 0x00E71D20
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -677,7 +677,7 @@ void UModularSynthComponent::SetModEnvDecayTime(float DecayTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E67930
+//		Offset -> 0x00E71CA0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvBiasPatch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -699,7 +699,7 @@ void UModularSynthComponent::SetModEnvBiasPatch(Synthesis_ESynthModEnvBiasPatch 
 
 
 // Function:
-//		Offset -> 0x00E678A0
+//		Offset -> 0x00E71C10
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvBiasInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -721,7 +721,7 @@ void UModularSynthComponent::SetModEnvBiasInvert(bool bInvert)
 
 
 // Function:
-//		Offset -> 0x00E67820
+//		Offset -> 0x00E71B90
 //		Name   -> Function Synthesis.ModularSynthComponent.SetModEnvAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -743,7 +743,7 @@ void UModularSynthComponent::SetModEnvAttackTime(float AttackTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E67760
+//		Offset -> 0x00E71AD0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -767,7 +767,7 @@ void UModularSynthComponent::SetLFOType(int LFOIndex, Synthesis_ESynthLFOType LF
 
 
 // Function:
-//		Offset -> 0x00E676A0
+//		Offset -> 0x00E71A10
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOPatch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -791,7 +791,7 @@ void UModularSynthComponent::SetLFOPatch(int LFOIndex, Synthesis_ESynthLFOPatchT
 
 
 // Function:
-//		Offset -> 0x00E675E0
+//		Offset -> 0x00E71950
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -815,7 +815,7 @@ void UModularSynthComponent::SetLFOMode(int LFOIndex, Synthesis_ESynthLFOMode LF
 
 
 // Function:
-//		Offset -> 0x00E67510
+//		Offset -> 0x00E71880
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOGainMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -839,7 +839,7 @@ void UModularSynthComponent::SetLFOGainMod(int LFOIndex, float GainMod)
 
 
 // Function:
-//		Offset -> 0x00E67440
+//		Offset -> 0x00E717B0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -863,7 +863,7 @@ void UModularSynthComponent::SetLFOGain(int LFOIndex, float Gain)
 
 
 // Function:
-//		Offset -> 0x00E67370
+//		Offset -> 0x00E716E0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOFrequencyMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -887,7 +887,7 @@ void UModularSynthComponent::SetLFOFrequencyMod(int LFOIndex, float FrequencyMod
 
 
 // Function:
-//		Offset -> 0x00E672A0
+//		Offset -> 0x00E71610
 //		Name   -> Function Synthesis.ModularSynthComponent.SetLFOFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -911,7 +911,7 @@ void UModularSynthComponent::SetLFOFrequency(int LFOIndex, float FrequencyHz)
 
 
 // Function:
-//		Offset -> 0x00E67220
+//		Offset -> 0x00E71590
 //		Name   -> Function Synthesis.ModularSynthComponent.SetGainDb
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -933,7 +933,7 @@ void UModularSynthComponent::SetGainDb(float GainDb)
 
 
 // Function:
-//		Offset -> 0x00E671A0
+//		Offset -> 0x00E71510
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -955,7 +955,7 @@ void UModularSynthComponent::SetFilterType(Synthesis_ESynthFilterType FilterType
 
 
 // Function:
-//		Offset -> 0x00E67120
+//		Offset -> 0x00E71490
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterQMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -977,7 +977,7 @@ void UModularSynthComponent::SetFilterQMod(float FilterQ)
 
 
 // Function:
-//		Offset -> 0x00E670A0
+//		Offset -> 0x00E71410
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterQ
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -999,7 +999,7 @@ void UModularSynthComponent::SetFilterQ(float FilterQ)
 
 
 // Function:
-//		Offset -> 0x00E67020
+//		Offset -> 0x00E71390
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterFrequencyMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1021,7 +1021,7 @@ void UModularSynthComponent::SetFilterFrequencyMod(float FilterFrequencyHz)
 
 
 // Function:
-//		Offset -> 0x00E66FA0
+//		Offset -> 0x00E71310
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1043,7 +1043,7 @@ void UModularSynthComponent::SetFilterFrequency(float FilterFrequencyHz)
 
 
 // Function:
-//		Offset -> 0x00E66F20
+//		Offset -> 0x00E71290
 //		Name   -> Function Synthesis.ModularSynthComponent.SetFilterAlgorithm
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1065,7 +1065,7 @@ void UModularSynthComponent::SetFilterAlgorithm(Synthesis_ESynthFilterAlgorithm 
 
 
 // Function:
-//		Offset -> 0x00E66E90
+//		Offset -> 0x00E71200
 //		Name   -> Function Synthesis.ModularSynthComponent.SetEnableUnison
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1087,7 +1087,7 @@ void UModularSynthComponent::SetEnableUnison(bool EnableUnison)
 
 
 // Function:
-//		Offset -> 0x00E66E00
+//		Offset -> 0x00E71170
 //		Name   -> Function Synthesis.ModularSynthComponent.SetEnableRetrigger
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1109,7 +1109,7 @@ void UModularSynthComponent::SetEnableRetrigger(bool RetriggerEnabled)
 
 
 // Function:
-//		Offset -> 0x00E66D70
+//		Offset -> 0x00E710E0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetEnablePolyphony
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1131,7 +1131,7 @@ void UModularSynthComponent::SetEnablePolyphony(bool bEnablePolyphony)
 
 
 // Function:
-//		Offset -> 0x00E66CA0
+//		Offset -> 0x00E71010
 //		Name   -> Function Synthesis.ModularSynthComponent.SetEnablePatch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1158,7 +1158,7 @@ bool UModularSynthComponent::SetEnablePatch(const struct FPatchId& PatchId, bool
 
 
 // Function:
-//		Offset -> 0x00E66C10
+//		Offset -> 0x00E70F80
 //		Name   -> Function Synthesis.ModularSynthComponent.SetEnableLegato
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1180,7 +1180,7 @@ void UModularSynthComponent::SetEnableLegato(bool LegatoEnabled)
 
 
 // Function:
-//		Offset -> 0x00E66B90
+//		Offset -> 0x00E70F00
 //		Name   -> Function Synthesis.ModularSynthComponent.SetDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1202,7 +1202,7 @@ void UModularSynthComponent::SetDecayTime(float DecayTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E66B10
+//		Offset -> 0x00E70E80
 //		Name   -> Function Synthesis.ModularSynthComponent.SetChorusFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1224,7 +1224,7 @@ void UModularSynthComponent::SetChorusFrequency(float Frequency)
 
 
 // Function:
-//		Offset -> 0x00E66A90
+//		Offset -> 0x00E70E00
 //		Name   -> Function Synthesis.ModularSynthComponent.SetChorusFeedback
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1246,7 +1246,7 @@ void UModularSynthComponent::SetChorusFeedback(float Feedback)
 
 
 // Function:
-//		Offset -> 0x00E66A00
+//		Offset -> 0x00E70D70
 //		Name   -> Function Synthesis.ModularSynthComponent.SetChorusEnabled
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1268,7 +1268,7 @@ void UModularSynthComponent::SetChorusEnabled(bool EnableChorus)
 
 
 // Function:
-//		Offset -> 0x00E66980
+//		Offset -> 0x00E70CF0
 //		Name   -> Function Synthesis.ModularSynthComponent.SetChorusDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1290,7 +1290,7 @@ void UModularSynthComponent::SetChorusDepth(float Depth)
 
 
 // Function:
-//		Offset -> 0x00E66900
+//		Offset -> 0x00E70C70
 //		Name   -> Function Synthesis.ModularSynthComponent.SetAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1312,7 +1312,7 @@ void UModularSynthComponent::SetAttackTime(float AttackTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E667F0
+//		Offset -> 0x00E70B60
 //		Name   -> Function Synthesis.ModularSynthComponent.NoteOn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1338,7 +1338,7 @@ void UModularSynthComponent::NoteOn(float Note, int Velocity, float Duration)
 
 
 // Function:
-//		Offset -> 0x00E666E0
+//		Offset -> 0x00E70A50
 //		Name   -> Function Synthesis.ModularSynthComponent.NoteOff
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1364,7 +1364,7 @@ void UModularSynthComponent::NoteOff(float Note, bool bAllNotesOff, bool bKillAl
 
 
 // Function:
-//		Offset -> 0x00E66590
+//		Offset -> 0x00E70900
 //		Name   -> Function Synthesis.ModularSynthComponent.CreatePatch
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1393,7 +1393,7 @@ struct FPatchId UModularSynthComponent::CreatePatch(Synthesis_ESynth1PatchSource
 
 
 // Function:
-//		Offset -> 0x00E6D530
+//		Offset -> 0x00E778A0
 //		Name   -> Function Synthesis.SourceEffectBitCrusherPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1415,7 +1415,7 @@ void USourceEffectBitCrusherPreset::SetSettings(const struct FSourceEffectBitCru
 
 
 // Function:
-//		Offset -> 0x00E6D5E0
+//		Offset -> 0x00E77950
 //		Name   -> Function Synthesis.SourceEffectChorusPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1437,7 +1437,7 @@ void USourceEffectChorusPreset::SetSettings(const struct FSourceEffectChorusSett
 
 
 // Function:
-//		Offset -> 0x00E6D690
+//		Offset -> 0x00E77A00
 //		Name   -> Function Synthesis.SourceEffectDynamicsProcessorPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1459,7 +1459,7 @@ void USourceEffectDynamicsProcessorPreset::SetSettings(const struct FSourceEffec
 
 
 // Function:
-//		Offset -> 0x00E6DEB0
+//		Offset -> 0x00E78220
 //		Name   -> Function Synthesis.SourceEffectEnvelopeFollowerPreset.UnregisterEnvelopeFollowerListener
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1481,7 +1481,7 @@ void USourceEffectEnvelopeFollowerPreset::UnregisterEnvelopeFollowerListener(cla
 
 
 // Function:
-//		Offset -> 0x00E6D7F0
+//		Offset -> 0x00E77B60
 //		Name   -> Function Synthesis.SourceEffectEnvelopeFollowerPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1503,7 +1503,7 @@ void USourceEffectEnvelopeFollowerPreset::SetSettings(const struct FSourceEffect
 
 
 // Function:
-//		Offset -> 0x00E6D430
+//		Offset -> 0x00E777A0
 //		Name   -> Function Synthesis.SourceEffectEnvelopeFollowerPreset.RegisterEnvelopeFollowerListener
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1525,7 +1525,7 @@ void USourceEffectEnvelopeFollowerPreset::RegisterEnvelopeFollowerListener(class
 
 
 // Function:
-//		Offset -> 0x00E6D740
+//		Offset -> 0x00E77AB0
 //		Name   -> Function Synthesis.SourceEffectEQPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1547,7 +1547,7 @@ void USourceEffectEQPreset::SetSettings(const struct FSourceEffectEQSettings& In
 
 
 // Function:
-//		Offset -> 0x00E6D8A0
+//		Offset -> 0x00E77C10
 //		Name   -> Function Synthesis.SourceEffectFilterPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1569,7 +1569,7 @@ void USourceEffectFilterPreset::SetSettings(const struct FSourceEffectFilterSett
 
 
 // Function:
-//		Offset -> 0x00E6D950
+//		Offset -> 0x00E77CC0
 //		Name   -> Function Synthesis.SourceEffectFoldbackDistortionPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1591,7 +1591,7 @@ void USourceEffectFoldbackDistortionPreset::SetSettings(const struct FSourceEffe
 
 
 // Function:
-//		Offset -> 0x00E6DA00
+//		Offset -> 0x00E77D70
 //		Name   -> Function Synthesis.SourceEffectMidSideSpreaderPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1613,7 +1613,7 @@ void USourceEffectMidSideSpreaderPreset::SetSettings(const struct FSourceEffectM
 
 
 // Function:
-//		Offset -> 0x00E6DAB0
+//		Offset -> 0x00E77E20
 //		Name   -> Function Synthesis.SourceEffectPannerPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1635,7 +1635,7 @@ void USourceEffectPannerPreset::SetSettings(const struct FSourceEffectPannerSett
 
 
 // Function:
-//		Offset -> 0x00E6DB60
+//		Offset -> 0x00E77ED0
 //		Name   -> Function Synthesis.SourceEffectPhaserPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1657,7 +1657,7 @@ void USourceEffectPhaserPreset::SetSettings(const struct FSourceEffectPhaserSett
 
 
 // Function:
-//		Offset -> 0x00E6DC20
+//		Offset -> 0x00E77F90
 //		Name   -> Function Synthesis.SourceEffectRingModulationPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1679,7 +1679,7 @@ void USourceEffectRingModulationPreset::SetSettings(const struct FSourceEffectRi
 
 
 // Function:
-//		Offset -> 0x00E6DCC0
+//		Offset -> 0x00E78030
 //		Name   -> Function Synthesis.SourceEffectSimpleDelayPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1701,7 +1701,7 @@ void USourceEffectSimpleDelayPreset::SetSettings(const struct FSourceEffectSimpl
 
 
 // Function:
-//		Offset -> 0x00E6DD70
+//		Offset -> 0x00E780E0
 //		Name   -> Function Synthesis.SourceEffectStereoDelayPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1723,7 +1723,7 @@ void USourceEffectStereoDelayPreset::SetSettings(const struct FSourceEffectStere
 
 
 // Function:
-//		Offset -> 0x00E6DAB0
+//		Offset -> 0x00E77E20
 //		Name   -> Function Synthesis.SourceEffectWaveShaperPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1745,7 +1745,7 @@ void USourceEffectWaveShaperPreset::SetSettings(const struct FSourceEffectWaveSh
 
 
 // Function:
-//		Offset -> 0x00E6DE10
+//		Offset -> 0x00E78180
 //		Name   -> Function Synthesis.SubmixEffectConvolutionReverbPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1767,7 +1767,7 @@ void USubmixEffectConvolutionReverbPreset::SetSettings(const struct FSubmixEffec
 
 
 // Function:
-//		Offset -> 0x00E6D4B0
+//		Offset -> 0x00E77820
 //		Name   -> Function Synthesis.SubmixEffectConvolutionReverbPreset.SetImpulseResponse
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1789,7 +1789,7 @@ void USubmixEffectConvolutionReverbPreset::SetImpulseResponse(class UAudioImpuls
 
 
 // Function:
-//		Offset -> 0x00E73690
+//		Offset -> 0x00E7DA00
 //		Name   -> Function Synthesis.SubmixEffectDelayPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1811,7 +1811,7 @@ void USubmixEffectDelayPreset::SetSettings(const struct FSubmixEffectDelaySettin
 
 
 // Function:
-//		Offset -> 0x00E72BD0
+//		Offset -> 0x00E7CF40
 //		Name   -> Function Synthesis.SubmixEffectDelayPreset.SetInterpolationTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1833,7 +1833,7 @@ void USubmixEffectDelayPreset::SetInterpolationTime(float Time)
 
 
 // Function:
-//		Offset -> 0x00E71DA0
+//		Offset -> 0x00E7C110
 //		Name   -> Function Synthesis.SubmixEffectDelayPreset.SetDelay
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1855,7 +1855,7 @@ void USubmixEffectDelayPreset::SetDelay(float Length)
 
 
 // Function:
-//		Offset -> 0x00E70F50
+//		Offset -> 0x00E7B2C0
 //		Name   -> Function Synthesis.SubmixEffectDelayPreset.GetMaxDelayInMilliseconds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1878,7 +1878,7 @@ float USubmixEffectDelayPreset::GetMaxDelayInMilliseconds()
 
 
 // Function:
-//		Offset -> 0x00E73750
+//		Offset -> 0x00E7DAC0
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -1900,7 +1900,7 @@ void USubmixEffectFilterPreset::SetSettings(const struct FSubmixEffectFilterSett
 
 
 // Function:
-//		Offset -> 0x00E724C0
+//		Offset -> 0x00E7C830
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1922,7 +1922,7 @@ void USubmixEffectFilterPreset::SetFilterType(Synthesis_ESubmixFilterType InType
 
 
 // Function:
-//		Offset -> 0x00E72440
+//		Offset -> 0x00E7C7B0
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterQMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1944,7 +1944,7 @@ void USubmixEffectFilterPreset::SetFilterQMod(float InQ)
 
 
 // Function:
-//		Offset -> 0x00E723C0
+//		Offset -> 0x00E7C730
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterQ
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1966,7 +1966,7 @@ void USubmixEffectFilterPreset::SetFilterQ(float InQ)
 
 
 // Function:
-//		Offset -> 0x00E71F20
+//		Offset -> 0x00E7C290
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequencyMod
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1988,7 +1988,7 @@ void USubmixEffectFilterPreset::SetFilterCutoffFrequencyMod(float InFrequency)
 
 
 // Function:
-//		Offset -> 0x00E71EA0
+//		Offset -> 0x00E7C210
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2010,7 +2010,7 @@ void USubmixEffectFilterPreset::SetFilterCutoffFrequency(float InFrequency)
 
 
 // Function:
-//		Offset -> 0x00E71E20
+//		Offset -> 0x00E7C190
 //		Name   -> Function Synthesis.SubmixEffectFilterPreset.SetFilterAlgorithm
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2032,7 +2032,7 @@ void USubmixEffectFilterPreset::SetFilterAlgorithm(Synthesis_ESubmixFilterAlgori
 
 
 // Function:
-//		Offset -> 0x00E73800
+//		Offset -> 0x00E7DB70
 //		Name   -> Function Synthesis.SubmixEffectFlexiverbPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2054,7 +2054,7 @@ void USubmixEffectFlexiverbPreset::SetSettings(const struct FSubmixEffectFlexive
 
 
 // Function:
-//		Offset -> 0x00E73C10
+//		Offset -> 0x00E7DF80
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.SetTap
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2078,7 +2078,7 @@ void USubmixEffectTapDelayPreset::SetTap(int TapId, const struct FTapDelayInfo& 
 
 
 // Function:
-//		Offset -> 0x00E738C0
+//		Offset -> 0x00E7DC30
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.SetSettings
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2100,7 +2100,7 @@ void USubmixEffectTapDelayPreset::SetSettings(const struct FSubmixEffectTapDelay
 
 
 // Function:
-//		Offset -> 0x00E72C50
+//		Offset -> 0x00E7CFC0
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.SetInterpolationTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2122,7 +2122,7 @@ void USubmixEffectTapDelayPreset::SetInterpolationTime(float Time)
 
 
 // Function:
-//		Offset -> 0x00E715F0
+//		Offset -> 0x00E7B960
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.RemoveTap
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2144,7 +2144,7 @@ void USubmixEffectTapDelayPreset::RemoveTap(int TapId)
 
 
 // Function:
-//		Offset -> 0x00E71110
+//		Offset -> 0x00E7B480
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.GetTapIds
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2168,7 +2168,7 @@ void USubmixEffectTapDelayPreset::GetTapIds(TArray<int>* TapIds)
 
 
 // Function:
-//		Offset -> 0x00E71030
+//		Offset -> 0x00E7B3A0
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.GetTap
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2194,7 +2194,7 @@ void USubmixEffectTapDelayPreset::GetTap(int TapId, struct FTapDelayInfo* TapInf
 
 
 // Function:
-//		Offset -> 0x00E70F70
+//		Offset -> 0x00E7B2E0
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.GetMaxDelayInMilliseconds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2217,7 +2217,7 @@ float USubmixEffectTapDelayPreset::GetMaxDelayInMilliseconds()
 
 
 // Function:
-//		Offset -> 0x00E70D20
+//		Offset -> 0x00E7B090
 //		Name   -> Function Synthesis.SubmixEffectTapDelayPreset.AddTap
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -2241,7 +2241,7 @@ void USubmixEffectTapDelayPreset::AddTap(int* TapId)
 
 
 // Function:
-//		Offset -> 0x00E73CF0
+//		Offset -> 0x00E7E060
 //		Name   -> Function Synthesis.Synth2DSlider.SetValue
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2263,7 +2263,7 @@ void USynth2DSlider::SetValue(const struct FVector2D& InValue)
 
 
 // Function:
-//		Offset -> 0x00E73A80
+//		Offset -> 0x00E7DDF0
 //		Name   -> Function Synthesis.Synth2DSlider.SetStepSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2285,7 +2285,7 @@ void USynth2DSlider::SetStepSize(float InValue)
 
 
 // Function:
-//		Offset -> 0x00E73980
+//		Offset -> 0x00E7DCF0
 //		Name   -> Function Synthesis.Synth2DSlider.SetSliderHandleColor
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2307,7 +2307,7 @@ void USynth2DSlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 
 
 // Function:
-//		Offset -> 0x00E72CD0
+//		Offset -> 0x00E7D040
 //		Name   -> Function Synthesis.Synth2DSlider.SetLocked
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2329,7 +2329,7 @@ void USynth2DSlider::SetLocked(bool InValue)
 
 
 // Function:
-//		Offset -> 0x00E72B40
+//		Offset -> 0x00E7CEB0
 //		Name   -> Function Synthesis.Synth2DSlider.SetIndentHandle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2351,7 +2351,7 @@ void USynth2DSlider::SetIndentHandle(bool InValue)
 
 
 // Function:
-//		Offset -> 0x00E711C0
+//		Offset -> 0x00E7B530
 //		Name   -> Function Synthesis.Synth2DSlider.GetValue
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2374,7 +2374,7 @@ struct FVector2D USynth2DSlider::GetValue()
 
 
 // Function:
-//		Offset -> 0x00E73B00
+//		Offset -> 0x00E7DE70
 //		Name   -> Function Synthesis.GranularSynth.SetSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2396,7 +2396,7 @@ void UGranularSynth::SetSustainGain(float SustainGain)
 
 
 // Function:
-//		Offset -> 0x00E73A00
+//		Offset -> 0x00E7DD70
 //		Name   -> Function Synthesis.GranularSynth.SetSoundWave
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2418,7 +2418,7 @@ void UGranularSynth::SetSoundWave(class USoundWave* InSoundWave)
 
 
 // Function:
-//		Offset -> 0x00E73600
+//		Offset -> 0x00E7D970
 //		Name   -> Function Synthesis.GranularSynth.SetScrubMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2440,7 +2440,7 @@ void UGranularSynth::SetScrubMode(bool bScrubMode)
 
 
 // Function:
-//		Offset -> 0x00E73580
+//		Offset -> 0x00E7D8F0
 //		Name   -> Function Synthesis.GranularSynth.SetReleaseTimeMsec
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2462,7 +2462,7 @@ void UGranularSynth::SetReleaseTimeMsec(float ReleaseTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E72EE0
+//		Offset -> 0x00E7D250
 //		Name   -> Function Synthesis.GranularSynth.SetPlayheadTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2488,7 +2488,7 @@ void UGranularSynth::SetPlayheadTime(float InPositionSec, float LerpTimeSec, Syn
 
 
 // Function:
-//		Offset -> 0x00E72E60
+//		Offset -> 0x00E7D1D0
 //		Name   -> Function Synthesis.GranularSynth.SetPlaybackSpeed
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2510,7 +2510,7 @@ void UGranularSynth::SetPlaybackSpeed(float InPlayheadRate)
 
 
 // Function:
-//		Offset -> 0x00E72A00
+//		Offset -> 0x00E7CD70
 //		Name   -> Function Synthesis.GranularSynth.SetGrainVolume
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2534,7 +2534,7 @@ void UGranularSynth::SetGrainVolume(float BaseVolume, const struct FVector2D& Vo
 
 
 // Function:
-//		Offset -> 0x00E72AC0
+//		Offset -> 0x00E7CE30
 //		Name   -> Function Synthesis.GranularSynth.SetGrainsPerSecond
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2556,7 +2556,7 @@ void UGranularSynth::SetGrainsPerSecond(float InGrainsPerSecond)
 
 
 // Function:
-//		Offset -> 0x00E72980
+//		Offset -> 0x00E7CCF0
 //		Name   -> Function Synthesis.GranularSynth.SetGrainProbability
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2578,7 +2578,7 @@ void UGranularSynth::SetGrainProbability(float InGrainProbability)
 
 
 // Function:
-//		Offset -> 0x00E728C0
+//		Offset -> 0x00E7CC30
 //		Name   -> Function Synthesis.GranularSynth.SetGrainPitch
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2602,7 +2602,7 @@ void UGranularSynth::SetGrainPitch(float BasePitch, const struct FVector2D& Pitc
 
 
 // Function:
-//		Offset -> 0x00E72800
+//		Offset -> 0x00E7CB70
 //		Name   -> Function Synthesis.GranularSynth.SetGrainPan
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2626,7 +2626,7 @@ void UGranularSynth::SetGrainPan(float BasePan, const struct FVector2D& PanRange
 
 
 // Function:
-//		Offset -> 0x00E72780
+//		Offset -> 0x00E7CAF0
 //		Name   -> Function Synthesis.GranularSynth.SetGrainEnvelopeType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2648,7 +2648,7 @@ void UGranularSynth::SetGrainEnvelopeType(Synthesis_EGranularSynthEnvelopeType E
 
 
 // Function:
-//		Offset -> 0x00E726C0
+//		Offset -> 0x00E7CA30
 //		Name   -> Function Synthesis.GranularSynth.SetGrainDuration
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -2672,7 +2672,7 @@ void UGranularSynth::SetGrainDuration(float BaseDurationMsec, const struct FVect
 
 
 // Function:
-//		Offset -> 0x00E71A90
+//		Offset -> 0x00E7BE00
 //		Name   -> Function Synthesis.GranularSynth.SetDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2694,7 +2694,7 @@ void UGranularSynth::SetDecayTime(float DecayTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E71A90
+//		Offset -> 0x00E7BE00
 //		Name   -> Function Synthesis.GranularSynth.SetAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2716,7 +2716,7 @@ void UGranularSynth::SetAttackTime(float AttackTimeMsec)
 
 
 // Function:
-//		Offset -> 0x00E71380
+//		Offset -> 0x00E7B6F0
 //		Name   -> Function Synthesis.GranularSynth.NoteOn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2742,7 +2742,7 @@ void UGranularSynth::NoteOn(float Note, int Velocity, float Duration)
 
 
 // Function:
-//		Offset -> 0x00E71230
+//		Offset -> 0x00E7B5A0
 //		Name   -> Function Synthesis.GranularSynth.NoteOff
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2766,7 +2766,7 @@ void UGranularSynth::NoteOff(float Note, bool bKill)
 
 
 // Function:
-//		Offset -> 0x00E71200
+//		Offset -> 0x00E7B570
 //		Name   -> Function Synthesis.GranularSynth.IsLoaded
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2789,7 +2789,7 @@ bool UGranularSynth::IsLoaded()
 
 
 // Function:
-//		Offset -> 0x00E71000
+//		Offset -> 0x00E7B370
 //		Name   -> Function Synthesis.GranularSynth.GetSampleDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2812,7 +2812,7 @@ float UGranularSynth::GetSampleDuration()
 
 
 // Function:
-//		Offset -> 0x00E70DB0
+//		Offset -> 0x00E7B120
 //		Name   -> Function Synthesis.GranularSynth.GetCurrentPlayheadTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -2835,7 +2835,7 @@ float UGranularSynth::GetCurrentPlayheadTime()
 
 
 // Function:
-//		Offset -> 0x00E73D70
+//		Offset -> 0x00E7E0E0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetWaveTablePosition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2857,7 +2857,7 @@ void USynthComponentMonoWaveTable::SetWaveTablePosition(float InPosition)
 
 
 // Function:
-//		Offset -> 0x00E73B80
+//		Offset -> 0x00E7DEF0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetSustainPedalState
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2879,7 +2879,7 @@ void USynthComponentMonoWaveTable::SetSustainPedalState(bool InSustainPedalState
 
 
 // Function:
-//		Offset -> 0x00E730E0
+//		Offset -> 0x00E7D450
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2901,7 +2901,7 @@ void USynthComponentMonoWaveTable::SetPosLfoType(Synthesis_ESynthLFOType InLfoTy
 
 
 // Function:
-//		Offset -> 0x00E73060
+//		Offset -> 0x00E7D3D0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2923,7 +2923,7 @@ void USynthComponentMonoWaveTable::SetPosLfoFrequency(float InLfoFrequency)
 
 
 // Function:
-//		Offset -> 0x00E72FE0
+//		Offset -> 0x00E7D350
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2945,7 +2945,7 @@ void USynthComponentMonoWaveTable::SetPosLfoDepth(float InLfoDepth)
 
 
 // Function:
-//		Offset -> 0x00E73500
+//		Offset -> 0x00E7D870
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2967,7 +2967,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeSustainGain(float InSustai
 
 
 // Function:
-//		Offset -> 0x00E73480
+//		Offset -> 0x00E7D7F0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeReleaseTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2989,7 +2989,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeReleaseTime(float InReleas
 
 
 // Function:
-//		Offset -> 0x00E733F0
+//		Offset -> 0x00E7D760
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3011,7 +3011,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeInvert(bool bInInvert)
 
 
 // Function:
-//		Offset -> 0x00E73370
+//		Offset -> 0x00E7D6E0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3033,7 +3033,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E732F0
+//		Offset -> 0x00E7D660
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3055,7 +3055,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeDecayTime(float InDecayTim
 
 
 // Function:
-//		Offset -> 0x00E73260
+//		Offset -> 0x00E7D5D0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3077,7 +3077,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasInvert(bool bInBiasInv
 
 
 // Function:
-//		Offset -> 0x00E731E0
+//		Offset -> 0x00E7D550
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3099,7 +3099,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E73160
+//		Offset -> 0x00E7D4D0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3121,7 +3121,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeAttackTime(float InAttackT
 
 
 // Function:
-//		Offset -> 0x00E72DE0
+//		Offset -> 0x00E7D150
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterResonance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3143,7 +3143,7 @@ void USynthComponentMonoWaveTable::SetLowPassFilterResonance(float InNewQ)
 
 
 // Function:
-//		Offset -> 0x00E72D60
+//		Offset -> 0x00E7D0D0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3165,7 +3165,7 @@ void USynthComponentMonoWaveTable::SetLowPassFilterFrequency(float InNewFrequenc
 
 
 // Function:
-//		Offset -> 0x00E72640
+//		Offset -> 0x00E7C9B0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyWithMidiNote
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3187,7 +3187,7 @@ void USynthComponentMonoWaveTable::SetFrequencyWithMidiNote(float InMidiNote)
 
 
 // Function:
-//		Offset -> 0x00E725C0
+//		Offset -> 0x00E7C930
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyPitchBend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3209,7 +3209,7 @@ void USynthComponentMonoWaveTable::SetFrequencyPitchBend(float FrequencyOffsetCe
 
 
 // Function:
-//		Offset -> 0x00E72540
+//		Offset -> 0x00E7C8B0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFrequency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3231,7 +3231,7 @@ void USynthComponentMonoWaveTable::SetFrequency(float FrequencyHz)
 
 
 // Function:
-//		Offset -> 0x00E722C0
+//		Offset -> 0x00E7C630
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3253,7 +3253,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeSustainGain(float InSustainG
 
 
 // Function:
-//		Offset -> 0x00E72240
+//		Offset -> 0x00E7C5B0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeReleaseTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3275,7 +3275,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeReleaseTime(float InReleaseT
 
 
 // Function:
-//		Offset -> 0x00E72340
+//		Offset -> 0x00E7C6B0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopenDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3297,7 +3297,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopenDecayTime(float InDecayTime
 
 
 // Function:
-//		Offset -> 0x00E721B0
+//		Offset -> 0x00E7C520
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3319,7 +3319,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeInvert(bool bInInvert)
 
 
 // Function:
-//		Offset -> 0x00E72130
+//		Offset -> 0x00E7C4A0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3341,7 +3341,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E720A0
+//		Offset -> 0x00E7C410
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3363,7 +3363,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasInvert(bool bInBiasInver
 
 
 // Function:
-//		Offset -> 0x00E72020
+//		Offset -> 0x00E7C390
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3385,7 +3385,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E71FA0
+//		Offset -> 0x00E7C310
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3407,7 +3407,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeAttackTime(float InAttackTim
 
 
 // Function:
-//		Offset -> 0x00E71CA0
+//		Offset -> 0x00E7C010
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetCurveValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3436,7 +3436,7 @@ bool USynthComponentMonoWaveTable::SetCurveValue(int TableIndex, int KeyframeInd
 
 
 // Function:
-//		Offset -> 0x00E71BD0
+//		Offset -> 0x00E7BF40
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetCurveTangent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3463,7 +3463,7 @@ bool USynthComponentMonoWaveTable::SetCurveTangent(int TableIndex, float InNewTa
 
 
 // Function:
-//		Offset -> 0x00E71B10
+//		Offset -> 0x00E7BE80
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetCurveInterpolationType
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3490,7 +3490,7 @@ bool USynthComponentMonoWaveTable::SetCurveInterpolationType(Synthesis_ECurveInt
 
 
 // Function:
-//		Offset -> 0x00E71A10
+//		Offset -> 0x00E7BD80
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeSustainGain
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3512,7 +3512,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeSustainGain(float InSustainGain
 
 
 // Function:
-//		Offset -> 0x00E71990
+//		Offset -> 0x00E7BD00
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeReleaseTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3534,7 +3534,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeReleaseTime(float InReleaseTime
 
 
 // Function:
-//		Offset -> 0x00E71900
+//		Offset -> 0x00E7BC70
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3556,7 +3556,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeInvert(bool bInInvert)
 
 
 // Function:
-//		Offset -> 0x00E71880
+//		Offset -> 0x00E7BBF0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3578,7 +3578,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E71800
+//		Offset -> 0x00E7BB70
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDecayTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3600,7 +3600,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeDecayTime(float InDecayTimeMsec
 
 
 // Function:
-//		Offset -> 0x00E71770
+//		Offset -> 0x00E7BAE0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasInvert
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3622,7 +3622,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasInvert(bool bInBiasInvert)
 
 
 // Function:
-//		Offset -> 0x00E716F0
+//		Offset -> 0x00E7BA60
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasDepth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3644,7 +3644,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasDepth(float InDepth)
 
 
 // Function:
-//		Offset -> 0x00E71670
+//		Offset -> 0x00E7B9E0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeAttackTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3666,7 +3666,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeAttackTime(float InAttackTimeMs
 
 
 // Function:
-//		Offset -> 0x00E71570
+//		Offset -> 0x00E7B8E0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.RefreshWaveTable
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3688,7 +3688,7 @@ void USynthComponentMonoWaveTable::RefreshWaveTable(int Index)
 
 
 // Function:
-//		Offset -> 0x00E71550
+//		Offset -> 0x00E7B8C0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.RefreshAllWaveTables
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void USynthComponentMonoWaveTable::RefreshAllWaveTables()
@@ -3707,7 +3707,7 @@ void USynthComponentMonoWaveTable::RefreshAllWaveTables()
 
 
 // Function:
-//		Offset -> 0x00E71490
+//		Offset -> 0x00E7B800
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.NoteOn
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3731,7 +3731,7 @@ void USynthComponentMonoWaveTable::NoteOn(float InMidiNote, float InVelocity)
 
 
 // Function:
-//		Offset -> 0x00E71300
+//		Offset -> 0x00E7B670
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.NoteOff
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3753,7 +3753,7 @@ void USynthComponentMonoWaveTable::NoteOff(float InMidiNote)
 
 
 // Function:
-//		Offset -> 0x00E70FD0
+//		Offset -> 0x00E7B340
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.GetNumTableEntries
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3776,7 +3776,7 @@ int USynthComponentMonoWaveTable::GetNumTableEntries()
 
 
 // Function:
-//		Offset -> 0x00E70F90
+//		Offset -> 0x00E7B300
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.GetMaxTableIndex
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3799,7 +3799,7 @@ int USynthComponentMonoWaveTable::GetMaxTableIndex()
 
 
 // Function:
-//		Offset -> 0x00E70E70
+//		Offset -> 0x00E7B1E0
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.GetKeyFrameValuesForTable
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3824,7 +3824,7 @@ TArray<float> USynthComponentMonoWaveTable::GetKeyFrameValuesForTable(float Tabl
 
 
 // Function:
-//		Offset -> 0x00E70DE0
+//		Offset -> 0x00E7B150
 //		Name   -> Function Synthesis.SynthComponentMonoWaveTable.GetCurveTangent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3849,7 +3849,7 @@ float USynthComponentMonoWaveTable::GetCurveTangent(int TableIndex)
 
 
 // Function:
-//		Offset -> 0x00E74E70
+//		Offset -> 0x00E7F1E0
 //		Name   -> Function Synthesis.SynthSamplePlayer.SetSoundWave
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3871,7 +3871,7 @@ void USynthSamplePlayer::SetSoundWave(class USoundWave* InSoundWave)
 
 
 // Function:
-//		Offset -> 0x00E74DF0
+//		Offset -> 0x00E7F160
 //		Name   -> Function Synthesis.SynthSamplePlayer.SetScrubTimeWidth
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3893,7 +3893,7 @@ void USynthSamplePlayer::SetScrubTimeWidth(float InScrubTimeWidthSec)
 
 
 // Function:
-//		Offset -> 0x00E74D60
+//		Offset -> 0x00E7F0D0
 //		Name   -> Function Synthesis.SynthSamplePlayer.SetScrubMode
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3915,7 +3915,7 @@ void USynthSamplePlayer::SetScrubMode(bool bScrubMode)
 
 
 // Function:
-//		Offset -> 0x00E74CA0
+//		Offset -> 0x00E7F010
 //		Name   -> Function Synthesis.SynthSamplePlayer.SetPitch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3939,7 +3939,7 @@ void USynthSamplePlayer::SetPitch(float InPitch, float TimeSec)
 
 
 // Function:
-//		Offset -> 0x00E74B00
+//		Offset -> 0x00E7EE70
 //		Name   -> Function Synthesis.SynthSamplePlayer.SeekToTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3965,7 +3965,7 @@ void USynthSamplePlayer::SeekToTime(float TimeSec, Synthesis_ESamplePlayerSeekTy
 
 
 // Function:
-//		Offset -> 0x00E74AD0
+//		Offset -> 0x00E7EE40
 //		Name   -> Function Synthesis.SynthSamplePlayer.IsLoaded
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -3988,7 +3988,7 @@ bool USynthSamplePlayer::IsLoaded()
 
 
 // Function:
-//		Offset -> 0x00E74A70
+//		Offset -> 0x00E7EDE0
 //		Name   -> Function Synthesis.SynthSamplePlayer.GetSampleDuration
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4011,7 +4011,7 @@ float USynthSamplePlayer::GetSampleDuration()
 
 
 // Function:
-//		Offset -> 0x00E74A40
+//		Offset -> 0x00E7EDB0
 //		Name   -> Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4034,7 +4034,7 @@ float USynthSamplePlayer::GetCurrentPlaybackProgressTime()
 
 
 // Function:
-//		Offset -> 0x00E74A10
+//		Offset -> 0x00E7ED80
 //		Name   -> Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressPercent
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -4057,7 +4057,7 @@ float USynthSamplePlayer::GetCurrentPlaybackProgressPercent()
 
 
 // Function:
-//		Offset -> 0x00E74F70
+//		Offset -> 0x00E7F2E0
 //		Name   -> Function Synthesis.SynthKnob.SetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4079,7 +4079,7 @@ void USynthKnob::SetValue(float InValue)
 
 
 // Function:
-//		Offset -> 0x00E74EF0
+//		Offset -> 0x00E7F260
 //		Name   -> Function Synthesis.SynthKnob.SetStepSize
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4101,7 +4101,7 @@ void USynthKnob::SetStepSize(float InValue)
 
 
 // Function:
-//		Offset -> 0x00E74C10
+//		Offset -> 0x00E7EF80
 //		Name   -> Function Synthesis.SynthKnob.SetLocked
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4123,7 +4123,7 @@ void USynthKnob::SetLocked(bool InValue)
 
 
 // Function:
-//		Offset -> 0x00E74AA0
+//		Offset -> 0x00E7EE10
 //		Name   -> Function Synthesis.SynthKnob.GetValue
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

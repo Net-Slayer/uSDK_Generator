@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.GetText_2
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_EquipmentInfoDisplay_C::GetText_2()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_EquipmentInfoDisplay_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.GetText_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_EquipmentInfoDisplay_C::GetText_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_EquipmentInfoDisplay_C::Construct()
@@ -103,7 +103,7 @@ void UBP_EquipmentInfoDisplay_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.OnRestockedAmmo
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -126,7 +126,7 @@ void UBP_EquipmentInfoDisplay_C::OnRestockedAmmo(class AMordhauEquipment* Equipm
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.On AddAmmoAnim Finish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_EquipmentInfoDisplay_C::On_AddAmmoAnim_Finish()
@@ -144,7 +144,7 @@ void UBP_EquipmentInfoDisplay_C::On_AddAmmoAnim_Finish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_EquipmentInfoDisplay.BP_EquipmentInfoDisplay_C.ExecuteUbergraph_BP_EquipmentInfoDisplay
 //		Flags  -> (Final)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00D24040
+//		Offset -> 0x00D2D9B0
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingComponent.SetUseWeightedNormals
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UMagicLeapHandMeshingComponent::SetUseWeightedNormals(bool bInUseWeightedNo
 
 
 // Function:
-//		Offset -> 0x00D23F30
+//		Offset -> 0x00D2D8A0
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingComponent.DisconnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -66,7 +66,7 @@ bool UMagicLeapHandMeshingComponent::DisconnectMRMesh(class UMRMeshComponent* In
 
 
 // Function:
-//		Offset -> 0x00D23DC0
+//		Offset -> 0x00D2D730
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingComponent.ConnectMRMesh
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -91,7 +91,7 @@ bool UMagicLeapHandMeshingComponent::ConnectMRMesh(class UMRMeshComponent* InMRM
 
 
 // Function:
-//		Offset -> 0x00D23FC0
+//		Offset -> 0x00D2D930
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingFunctionLibrary.DisconnectMRMesh
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -116,7 +116,7 @@ bool UMagicLeapHandMeshingFunctionLibrary::STATIC_DisconnectMRMesh(class UMRMesh
 
 
 // Function:
-//		Offset -> 0x00D23F00
+//		Offset -> 0x00D2D870
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingFunctionLibrary.DestroyClient
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -139,7 +139,7 @@ bool UMagicLeapHandMeshingFunctionLibrary::STATIC_DestroyClient()
 
 
 // Function:
-//		Offset -> 0x00D23ED0
+//		Offset -> 0x00D2D840
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingFunctionLibrary.CreateClient
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -162,7 +162,7 @@ bool UMagicLeapHandMeshingFunctionLibrary::STATIC_CreateClient()
 
 
 // Function:
-//		Offset -> 0x00D23E50
+//		Offset -> 0x00D2D7C0
 //		Name   -> Function MagicLeapHandMeshing.MagicLeapHandMeshingFunctionLibrary.ConnectMRMesh
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

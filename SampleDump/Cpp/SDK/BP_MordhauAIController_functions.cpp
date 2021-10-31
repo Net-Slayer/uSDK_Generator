@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.GetTeamFilterClass
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void ABP_MordhauAIController_C::GetTeamFilterClass(class UClass** FilterClass)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.ReceivePossess
 //		Flags  -> (Event, Protected, BlueprintEvent)
 // Parameters:
@@ -63,7 +63,7 @@ void ABP_MordhauAIController_C::ReceivePossess(class APawn* PossessedPawn)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.OnAfterUnPossess
 //		Flags  -> (Event, Public, BlueprintEvent)
 void ABP_MordhauAIController_C::OnAfterUnPossess()
@@ -81,7 +81,7 @@ void ABP_MordhauAIController_C::OnAfterUnPossess()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauAIController_C::ReceiveBeginPlay()
@@ -99,7 +99,7 @@ void ABP_MordhauAIController_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.OnStartedPerceivingCharacter
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -122,7 +122,7 @@ void ABP_MordhauAIController_C::OnStartedPerceivingCharacter(class AAdvancedChar
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.OnStoppedPerceivingCharacter
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -145,7 +145,7 @@ void ABP_MordhauAIController_C::OnStoppedPerceivingCharacter(class AAdvancedChar
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauAIController.BP_MordhauAIController_C.ExecuteUbergraph_BP_MordhauAIController
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

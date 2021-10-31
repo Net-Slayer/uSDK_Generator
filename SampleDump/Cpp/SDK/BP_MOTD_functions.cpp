@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.OnKeyDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -45,7 +45,7 @@ struct FEventReply UBP_MOTD_C::OnKeyDown(const struct FGeometry& MyGeometry, con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.Get_TextBlock_1_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -67,7 +67,7 @@ struct FText UBP_MOTD_C::Get_TextBlock_1_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.Hide
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MOTD_C::Hide()
@@ -85,7 +85,7 @@ void UBP_MOTD_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.Show
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MOTD_C::Show()
@@ -103,7 +103,7 @@ void UBP_MOTD_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.OnHideAnimFinish
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_MOTD_C::OnHideAnimFinish()
@@ -121,7 +121,7 @@ void UBP_MOTD_C::OnHideAnimFinish()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_MOTD_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
@@ -139,7 +139,7 @@ void UBP_MOTD_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonPresse
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MOTD.BP_MOTD_C.ExecuteUbergraph_BP_MOTD
 //		Flags  -> (Final)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -68,7 +68,7 @@ struct FTimedDataInputEvaluationData
 // 0x0018
 struct FTimedDataChannelSampleTime
 {
-	unsigned char                                      UnknownData_QQPX[0x18];                                    // 0x0000(0x0018) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_AG2O[0x18];                                    // 0x0000(0x0018) MISSED OFFSET (PADDING)
 
 };
 

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -35,7 +35,7 @@ public:
 	struct FText                                       Text;                                                      // 0x0270(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FText                                       Subtext;                                                   // 0x0288(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               ShowingAnnouncement;                                       // 0x02A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)
-	unsigned char                                      UnknownData_RMGE[0x7];                                     // 0x02A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+	unsigned char                                      UnknownData_IGJE[0x7];                                     // 0x02A1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 	struct FText                                       ReceivedAnnouncementText;                                  // 0x02A8(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FText                                       ReceivedAnnouncementSubtext;                               // 0x02C0(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               ShowingOutOfBounds;                                        // 0x02D8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor)

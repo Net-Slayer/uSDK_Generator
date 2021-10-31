@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SmokeBombProjectile.BP_SmokeBombProjectile_C.OnProjectileHit
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -50,7 +50,7 @@ void ABP_SmokeBombProjectile_C::OnProjectileHit(const struct FVector& HitLocatio
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_SmokeBombProjectile.BP_SmokeBombProjectile_C.ExecuteUbergraph_BP_SmokeBombProjectile
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.Get_VehicleNameText_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_StatusBar_C::Get_VehicleNameText_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_StatusBar_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.Get_VehicleHealthBar_Percent_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ float UBP_StatusBar_C::Get_VehicleHealthBar_Percent_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.createDynamicMaterial
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -116,7 +116,7 @@ void UBP_StatusBar_C::createDynamicMaterial(class UMaterialInterface* Parent_Mat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.SetObservedCharacter
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -137,7 +137,7 @@ void UBP_StatusBar_C::SetObservedCharacter(class AMordhauCharacter* NewObserved)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getDelayedStaminaPercentage
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -159,7 +159,7 @@ float UBP_StatusBar_C::getDelayedStaminaPercentage()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getDelayedHealthPercentage
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -181,7 +181,7 @@ float UBP_StatusBar_C::getDelayedHealthPercentage()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getStaminaPercetageText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -203,7 +203,7 @@ struct FText UBP_StatusBar_C::getStaminaPercetageText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getHealthPercentageText
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -225,7 +225,7 @@ struct FText UBP_StatusBar_C::getHealthPercentageText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getStaminaPercetage
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -247,7 +247,7 @@ float UBP_StatusBar_C::getStaminaPercetage()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.getHealthPercentage
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -269,7 +269,7 @@ float UBP_StatusBar_C::getHealthPercentage()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_StatusBar_C::Construct()
@@ -287,7 +287,7 @@ void UBP_StatusBar_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -310,7 +310,7 @@ void UBP_StatusBar_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_StatusBar.BP_StatusBar_C.ExecuteUbergraph_BP_StatusBar
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

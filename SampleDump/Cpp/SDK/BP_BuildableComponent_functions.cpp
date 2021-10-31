@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BuildableComponent.BP_BuildableComponent_C.Notify Actor Death
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -38,7 +38,7 @@ void UBP_BuildableComponent_C::Notify_Actor_Death()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BuildableComponent.BP_BuildableComponent_C.ReceiveBeginPlay
 //		Flags  -> (Event, Public, BlueprintEvent)
 void UBP_BuildableComponent_C::ReceiveBeginPlay()
@@ -56,7 +56,7 @@ void UBP_BuildableComponent_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BuildableComponent.BP_BuildableComponent_C.ReceiveEndPlay
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -77,7 +77,7 @@ void UBP_BuildableComponent_C::ReceiveEndPlay(TEnumAsByte<Engine_EEndPlayReason>
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BuildableComponent.BP_BuildableComponent_C.OnParentCharacterDied
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -98,7 +98,7 @@ void UBP_BuildableComponent_C::OnParentCharacterDied(class AAdvancedCharacter* C
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BuildableComponent.BP_BuildableComponent_C.ExecuteUbergraph_BP_BuildableComponent
 //		Flags  -> (Final)
 // Parameters:

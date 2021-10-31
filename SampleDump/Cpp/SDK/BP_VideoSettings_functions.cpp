@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.GetVisibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_VideoSettings_C::GetVisibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyReflex
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -60,7 +60,7 @@ void UBP_VideoSettings_C::ApplyReflex()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateReflexDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -79,7 +79,7 @@ void UBP_VideoSettings_C::UpdateReflexDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.Get_ReflexDropdown_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -101,7 +101,7 @@ UMG_ESlateVisibility UBP_VideoSettings_C::Get_ReflexDropdown_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateCharacterClothDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -120,7 +120,7 @@ void UBP_VideoSettings_C::UpdateCharacterClothDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyCharacterCloth
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -139,7 +139,7 @@ void UBP_VideoSettings_C::ApplyCharacterCloth()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyLensFlares
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -158,7 +158,7 @@ void UBP_VideoSettings_C::ApplyLensFlares()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateLensFlaresCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -177,7 +177,7 @@ void UBP_VideoSettings_C::UpdateLensFlaresCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyAmbientOcclusion
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -196,7 +196,7 @@ void UBP_VideoSettings_C::ApplyAmbientOcclusion()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateAmbientOcclusionCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -215,7 +215,7 @@ void UBP_VideoSettings_C::UpdateAmbientOcclusionCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyMotionBlur
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -234,9 +234,9 @@ void UBP_VideoSettings_C::ApplyMotionBlur()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateMotionBlurSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateMotionBlurSlider()
 {
@@ -253,7 +253,7 @@ void UBP_VideoSettings_C::UpdateMotionBlurSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyBloom
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -272,9 +272,9 @@ void UBP_VideoSettings_C::ApplyBloom()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateBloomSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateBloomSlider()
 {
@@ -291,7 +291,7 @@ void UBP_VideoSettings_C::UpdateBloomSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplySSR
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -310,7 +310,7 @@ void UBP_VideoSettings_C::ApplySSR()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateSSRDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -329,7 +329,7 @@ void UBP_VideoSettings_C::UpdateSSRDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyGamma
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -348,9 +348,9 @@ void UBP_VideoSettings_C::ApplyGamma()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateGammaSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateGammaSlider()
 {
@@ -367,7 +367,7 @@ void UBP_VideoSettings_C::UpdateGammaSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyFoliageDensity
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -386,7 +386,7 @@ void UBP_VideoSettings_C::ApplyFoliageDensity()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateFoliageDensityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -405,7 +405,7 @@ void UBP_VideoSettings_C::UpdateFoliageDensityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyPPQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -424,7 +424,7 @@ void UBP_VideoSettings_C::ApplyPPQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdatePPQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -443,7 +443,7 @@ void UBP_VideoSettings_C::UpdatePPQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyViewDistance
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -462,7 +462,7 @@ void UBP_VideoSettings_C::ApplyViewDistance()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateViewDistanceDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -481,7 +481,7 @@ void UBP_VideoSettings_C::UpdateViewDistanceDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyEffectsQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -500,7 +500,7 @@ void UBP_VideoSettings_C::ApplyEffectsQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateEffectsQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -519,7 +519,7 @@ void UBP_VideoSettings_C::UpdateEffectsQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyShadowQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -538,7 +538,7 @@ void UBP_VideoSettings_C::ApplyShadowQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateShadowQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -557,7 +557,7 @@ void UBP_VideoSettings_C::UpdateShadowQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyTextureQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -576,7 +576,7 @@ void UBP_VideoSettings_C::ApplyTextureQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateTextureQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -595,7 +595,7 @@ void UBP_VideoSettings_C::UpdateTextureQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyAAQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -614,7 +614,7 @@ void UBP_VideoSettings_C::ApplyAAQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateAAQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -633,7 +633,7 @@ void UBP_VideoSettings_C::UpdateAAQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyAAMethod
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -652,7 +652,7 @@ void UBP_VideoSettings_C::ApplyAAMethod()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateAAMethodDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -671,7 +671,7 @@ void UBP_VideoSettings_C::UpdateAAMethodDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyResolutionScale
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -690,9 +690,9 @@ void UBP_VideoSettings_C::ApplyResolutionScale()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateResolutionScaleSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateResolutionScaleSlider()
 {
@@ -709,7 +709,7 @@ void UBP_VideoSettings_C::UpdateResolutionScaleSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyWindowMode
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -728,7 +728,7 @@ void UBP_VideoSettings_C::ApplyWindowMode()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateWindowModeDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -747,7 +747,7 @@ void UBP_VideoSettings_C::UpdateWindowModeDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyVsync
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -766,7 +766,7 @@ void UBP_VideoSettings_C::ApplyVsync()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateVsyncCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -785,7 +785,7 @@ void UBP_VideoSettings_C::UpdateVsyncCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyIndirectShadows
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -804,7 +804,7 @@ void UBP_VideoSettings_C::ApplyIndirectShadows()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyCameraDistance
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -823,7 +823,7 @@ void UBP_VideoSettings_C::ApplyCameraDistance()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyRagdollQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -842,7 +842,7 @@ void UBP_VideoSettings_C::ApplyRagdollQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyCharacterQuality
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -861,7 +861,7 @@ void UBP_VideoSettings_C::ApplyCharacterQuality()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyFramerate
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -880,7 +880,7 @@ void UBP_VideoSettings_C::ApplyFramerate()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyFov
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -899,7 +899,7 @@ void UBP_VideoSettings_C::ApplyFov()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ApplyResolution
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -918,7 +918,7 @@ void UBP_VideoSettings_C::ApplyResolution()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateResolutionDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -937,7 +937,7 @@ void UBP_VideoSettings_C::UpdateResolutionDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateIndirectShadowsCheckbox
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -956,9 +956,9 @@ void UBP_VideoSettings_C::UpdateIndirectShadowsCheckbox()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateCameraDistanceSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateCameraDistanceSlider()
 {
@@ -975,7 +975,7 @@ void UBP_VideoSettings_C::UpdateCameraDistanceSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateRagdollQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -994,7 +994,7 @@ void UBP_VideoSettings_C::UpdateRagdollQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateCharacterQualityDropdown
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -1013,9 +1013,9 @@ void UBP_VideoSettings_C::UpdateCharacterQualityDropdown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateFramerateSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateFramerateSlider()
 {
@@ -1032,9 +1032,9 @@ void UBP_VideoSettings_C::UpdateFramerateSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateFovSlider
-//		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
 void UBP_VideoSettings_C::UpdateFovSlider()
 {
@@ -1051,7 +1051,7 @@ void UBP_VideoSettings_C::UpdateFovSlider()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.Update Widgets
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_VideoSettings_C::Update_Widgets()
@@ -1069,7 +1069,7 @@ void UBP_VideoSettings_C::Update_Widgets()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.UpdateGammaText
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_VideoSettings_C::UpdateGammaText()
@@ -1087,7 +1087,7 @@ void UBP_VideoSettings_C::UpdateGammaText()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__GammaSlider_K2Node_ComponentBoundEvent_19_OnValueChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -1108,7 +1108,7 @@ void UBP_VideoSettings_C::BndEvt__GammaSlider_K2Node_ComponentBoundEvent_19_OnVa
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.OnShown
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_VideoSettings_C::OnShown()
@@ -1126,7 +1126,7 @@ void UBP_VideoSettings_C::OnShown()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnButtonClickedEvent__DelegateSignature()
@@ -1144,7 +1144,7 @@ void UBP_VideoSettings_C::BndEvt__applyButton_K2Node_ComponentBoundEvent_11_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__ResolutionDropdown_K2Node_ComponentBoundEvent_103_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__ResolutionDropdown_K2Node_ComponentBoundEvent_103_OnHovered__DelegateSignature()
@@ -1162,7 +1162,7 @@ void UBP_VideoSettings_C::BndEvt__ResolutionDropdown_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__ResolutionScaleSlider_K2Node_ComponentBoundEvent_145_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__ResolutionScaleSlider_K2Node_ComponentBoundEvent_145_OnHovered__DelegateSignature()
@@ -1180,7 +1180,7 @@ void UBP_VideoSettings_C::BndEvt__ResolutionScaleSlider_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__WindowModeDropdown_K2Node_ComponentBoundEvent_20_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__WindowModeDropdown_K2Node_ComponentBoundEvent_20_OnHovered__DelegateSignature()
@@ -1198,7 +1198,7 @@ void UBP_VideoSettings_C::BndEvt__WindowModeDropdown_K2Node_ComponentBoundEvent_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__FrameRateSlider_K2Node_ComponentBoundEvent_33_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__FrameRateSlider_K2Node_ComponentBoundEvent_33_OnHovered__DelegateSignature()
@@ -1216,7 +1216,7 @@ void UBP_VideoSettings_C::BndEvt__FrameRateSlider_K2Node_ComponentBoundEvent_33_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__VsyncCheckbox_K2Node_ComponentBoundEvent_52_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__VsyncCheckbox_K2Node_ComponentBoundEvent_52_OnHovered__DelegateSignature()
@@ -1234,7 +1234,7 @@ void UBP_VideoSettings_C::BndEvt__VsyncCheckbox_K2Node_ComponentBoundEvent_52_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__FovSlider_K2Node_ComponentBoundEvent_104_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__FovSlider_K2Node_ComponentBoundEvent_104_OnHovered__DelegateSignature()
@@ -1252,7 +1252,7 @@ void UBP_VideoSettings_C::BndEvt__FovSlider_K2Node_ComponentBoundEvent_104_OnHov
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__CameraDistanceSlider_K2Node_ComponentBoundEvent_108_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__CameraDistanceSlider_K2Node_ComponentBoundEvent_108_OnHovered__DelegateSignature()
@@ -1270,7 +1270,7 @@ void UBP_VideoSettings_C::BndEvt__CameraDistanceSlider_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__GammaSlider_K2Node_ComponentBoundEvent_127_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__GammaSlider_K2Node_ComponentBoundEvent_127_OnHovered__DelegateSignature()
@@ -1288,7 +1288,7 @@ void UBP_VideoSettings_C::BndEvt__GammaSlider_K2Node_ComponentBoundEvent_127_OnH
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__AAMethodDropdown_K2Node_ComponentBoundEvent_142_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__AAMethodDropdown_K2Node_ComponentBoundEvent_142_OnHovered__DelegateSignature()
@@ -1306,7 +1306,7 @@ void UBP_VideoSettings_C::BndEvt__AAMethodDropdown_K2Node_ComponentBoundEvent_14
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__TextureQualityDropdown_K2Node_ComponentBoundEvent_217_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__TextureQualityDropdown_K2Node_ComponentBoundEvent_217_OnHovered__DelegateSignature()
@@ -1324,7 +1324,7 @@ void UBP_VideoSettings_C::BndEvt__TextureQualityDropdown_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__EffectsQualityDropdown_K2Node_ComponentBoundEvent_240_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__EffectsQualityDropdown_K2Node_ComponentBoundEvent_240_OnHovered__DelegateSignature()
@@ -1342,7 +1342,7 @@ void UBP_VideoSettings_C::BndEvt__EffectsQualityDropdown_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__ShadowQualityDropdown_K2Node_ComponentBoundEvent_315_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__ShadowQualityDropdown_K2Node_ComponentBoundEvent_315_OnHovered__DelegateSignature()
@@ -1360,7 +1360,7 @@ void UBP_VideoSettings_C::BndEvt__ShadowQualityDropdown_K2Node_ComponentBoundEve
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__IndirectShadowsCheckbox_K2Node_ComponentBoundEvent_319_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__IndirectShadowsCheckbox_K2Node_ComponentBoundEvent_319_OnHovered__DelegateSignature()
@@ -1378,7 +1378,7 @@ void UBP_VideoSettings_C::BndEvt__IndirectShadowsCheckbox_K2Node_ComponentBoundE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__ViewDistanceDropdown_K2Node_ComponentBoundEvent_342_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__ViewDistanceDropdown_K2Node_ComponentBoundEvent_342_OnHovered__DelegateSignature()
@@ -1396,7 +1396,7 @@ void UBP_VideoSettings_C::BndEvt__ViewDistanceDropdown_K2Node_ComponentBoundEven
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__PPQualityDropdown_K2Node_ComponentBoundEvent_366_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__PPQualityDropdown_K2Node_ComponentBoundEvent_366_OnHovered__DelegateSignature()
@@ -1414,7 +1414,7 @@ void UBP_VideoSettings_C::BndEvt__PPQualityDropdown_K2Node_ComponentBoundEvent_3
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__FoliageDensityDropdown_K2Node_ComponentBoundEvent_391_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__FoliageDensityDropdown_K2Node_ComponentBoundEvent_391_OnHovered__DelegateSignature()
@@ -1432,7 +1432,7 @@ void UBP_VideoSettings_C::BndEvt__FoliageDensityDropdown_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__CharacterQualityDropdown_K2Node_ComponentBoundEvent_417_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__CharacterQualityDropdown_K2Node_ComponentBoundEvent_417_OnHovered__DelegateSignature()
@@ -1450,7 +1450,7 @@ void UBP_VideoSettings_C::BndEvt__CharacterQualityDropdown_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__RagdollQualityDropdown_K2Node_ComponentBoundEvent_444_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__RagdollQualityDropdown_K2Node_ComponentBoundEvent_444_OnHovered__DelegateSignature()
@@ -1468,7 +1468,7 @@ void UBP_VideoSettings_C::BndEvt__RagdollQualityDropdown_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__SSRDropdown_K2Node_ComponentBoundEvent_472_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__SSRDropdown_K2Node_ComponentBoundEvent_472_OnHovered__DelegateSignature()
@@ -1486,7 +1486,7 @@ void UBP_VideoSettings_C::BndEvt__SSRDropdown_K2Node_ComponentBoundEvent_472_OnH
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__BloomSlider_K2Node_ComponentBoundEvent_500_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__BloomSlider_K2Node_ComponentBoundEvent_500_OnHovered__DelegateSignature()
@@ -1504,7 +1504,7 @@ void UBP_VideoSettings_C::BndEvt__BloomSlider_K2Node_ComponentBoundEvent_500_OnH
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__MotionBlurSlider_K2Node_ComponentBoundEvent_527_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__MotionBlurSlider_K2Node_ComponentBoundEvent_527_OnHovered__DelegateSignature()
@@ -1522,7 +1522,7 @@ void UBP_VideoSettings_C::BndEvt__MotionBlurSlider_K2Node_ComponentBoundEvent_52
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__AmbientOcclusionCheckbox_K2Node_ComponentBoundEvent_556_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__AmbientOcclusionCheckbox_K2Node_ComponentBoundEvent_556_OnHovered__DelegateSignature()
@@ -1540,7 +1540,7 @@ void UBP_VideoSettings_C::BndEvt__AmbientOcclusionCheckbox_K2Node_ComponentBound
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__LensFlareCheckbox_K2Node_ComponentBoundEvent_97_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__LensFlareCheckbox_K2Node_ComponentBoundEvent_97_OnHovered__DelegateSignature()
@@ -1558,7 +1558,7 @@ void UBP_VideoSettings_C::BndEvt__LensFlareCheckbox_K2Node_ComponentBoundEvent_9
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnButtonClickedEvent__DelegateSignature()
@@ -1576,7 +1576,7 @@ void UBP_VideoSettings_C::BndEvt__resetButton_K2Node_ComponentBoundEvent_60_OnBu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__CharacterClothDropdown_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__CharacterClothDropdown_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature()
@@ -1594,7 +1594,7 @@ void UBP_VideoSettings_C::BndEvt__CharacterClothDropdown_K2Node_ComponentBoundEv
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.BndEvt__ReflexDropdown_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 void UBP_VideoSettings_C::BndEvt__ReflexDropdown_K2Node_ComponentBoundEvent_1_OnHovered__DelegateSignature()
@@ -1612,7 +1612,7 @@ void UBP_VideoSettings_C::BndEvt__ReflexDropdown_K2Node_ComponentBoundEvent_1_On
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ResetConfirm
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_VideoSettings_C::ResetConfirm()
@@ -1630,7 +1630,7 @@ void UBP_VideoSettings_C::ResetConfirm()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ResetCancel
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_VideoSettings_C::ResetCancel()
@@ -1648,7 +1648,7 @@ void UBP_VideoSettings_C::ResetCancel()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_VideoSettings.BP_VideoSettings_C.ExecuteUbergraph_BP_VideoSettings
 //		Flags  -> (Final)
 // Parameters:

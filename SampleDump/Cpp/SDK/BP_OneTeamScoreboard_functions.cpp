@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_t1Deaths_Text_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ UMG_ESlateVisibility UBP_OneTeamScoreboard_C::Get_t1Deaths_Text_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_t1Score_Text_Visibility_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ UMG_ESlateVisibility UBP_OneTeamScoreboard_C::Get_t1Score_Text_Visibility_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_TextBlock_7_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -85,7 +85,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_TextBlock_7_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_TextBlock_0_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -107,7 +107,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_TextBlock_0_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_TextBlock_4_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -129,7 +129,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_TextBlock_4_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_TextBlock_6_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -151,7 +151,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_TextBlock_6_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_timer_Text_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -173,7 +173,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_timer_Text_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Get_gameMode_Text_Text_1
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -195,7 +195,7 @@ struct FText UBP_OneTeamScoreboard_C::Get_gameMode_Text_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_OneTeamScoreboard_C::Construct()
@@ -213,7 +213,7 @@ void UBP_OneTeamScoreboard_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_OneTeamScoreboard_C::Show()
@@ -231,7 +231,7 @@ void UBP_OneTeamScoreboard_C::Show()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_OneTeamScoreboard_C::Hide()
@@ -249,7 +249,7 @@ void UBP_OneTeamScoreboard_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1
 //		Flags  -> (BlueprintEvent)
 void UBP_OneTeamScoreboard_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_1()
@@ -267,7 +267,7 @@ void UBP_OneTeamScoreboard_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_OneTeamScoreboard.BP_OneTeamScoreboard_C.ExecuteUbergraph_BP_OneTeamScoreboard
 //		Flags  -> (Final)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MovieSceneTracks.MovieSceneTransformOrigin.BP_GetTransformOrigin
 //		Flags  -> (Event, Protected, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 // Parameters:
@@ -41,7 +41,7 @@ struct FTransform UMovieSceneTransformOrigin::BP_GetTransformOrigin()
 
 
 // Function:
-//		Offset -> 0x0235B9C0
+//		Offset -> 0x023652C0
 //		Name   -> Function MovieSceneTracks.MovieScene3DConstraintSection.SetConstraintBindingID
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -63,7 +63,7 @@ void UMovieScene3DConstraintSection::SetConstraintBindingID(const struct FMovieS
 
 
 // Function:
-//		Offset -> 0x0235B940
+//		Offset -> 0x02365240
 //		Name   -> Function MovieSceneTracks.MovieScene3DConstraintSection.GetConstraintBindingID
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -86,7 +86,7 @@ struct FMovieSceneObjectBindingID UMovieScene3DConstraintSection::GetConstraintB
 
 
 // Function:
-//		Offset -> 0x0235BB00
+//		Offset -> 0x02365400
 //		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.SetStartOffset
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 // Parameters:
@@ -108,7 +108,7 @@ void UMovieSceneAudioSection::SetStartOffset(const struct FFrameNumber& InStartO
 
 
 // Function:
-//		Offset -> 0x0235BA80
+//		Offset -> 0x02365380
 //		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.SetSound
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -130,7 +130,7 @@ void UMovieSceneAudioSection::SetSound(class USoundBase* InSound)
 
 
 // Function:
-//		Offset -> 0x0235B9A0
+//		Offset -> 0x023652A0
 //		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.GetStartOffset
 //		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -153,7 +153,7 @@ struct FFrameNumber UMovieSceneAudioSection::GetStartOffset()
 
 
 // Function:
-//		Offset -> 0x0235B980
+//		Offset -> 0x02365280
 //		Name   -> Function MovieSceneTracks.MovieSceneAudioSection.GetSound
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -176,7 +176,7 @@ class USoundBase* UMovieSceneAudioSection::GetSound()
 
 
 // Function:
-//		Offset -> 0x0235B9C0
+//		Offset -> 0x023652C0
 //		Name   -> Function MovieSceneTracks.MovieSceneCameraCutSection.SetCameraBindingID
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -198,7 +198,7 @@ void UMovieSceneCameraCutSection::SetCameraBindingID(const struct FMovieSceneObj
 
 
 // Function:
-//		Offset -> 0x0235B940
+//		Offset -> 0x02365240
 //		Name   -> Function MovieSceneTracks.MovieSceneCameraCutSection.GetCameraBindingID
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -221,7 +221,7 @@ struct FMovieSceneObjectBindingID UMovieSceneCameraCutSection::GetCameraBindingI
 
 
 // Function:
-//		Offset -> 0x02362060
+//		Offset -> 0x0236B960
 //		Name   -> Function MovieSceneTracks.MovieSceneCinematicShotSection.SetShotDisplayName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -243,7 +243,7 @@ void UMovieSceneCinematicShotSection::SetShotDisplayName(const struct FString& I
 
 
 // Function:
-//		Offset -> 0x02361EB0
+//		Offset -> 0x0236B7B0
 //		Name   -> Function MovieSceneTracks.MovieSceneCinematicShotSection.GetShotDisplayName
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -266,7 +266,7 @@ struct FString UMovieSceneCinematicShotSection::GetShotDisplayName()
 
 
 // Function:
-//		Offset -> 0x02362160
+//		Offset -> 0x0236BA60
 //		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -288,7 +288,7 @@ void UMovieSceneLevelVisibilitySection::SetVisibility(MovieSceneTracks_ELevelVis
 
 
 // Function:
-//		Offset -> 0x02361FB0
+//		Offset -> 0x0236B8B0
 //		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetLevelNames
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -310,7 +310,7 @@ void UMovieSceneLevelVisibilitySection::SetLevelNames(TArray<struct FName> InLev
 
 
 // Function:
-//		Offset -> 0x02361F80
+//		Offset -> 0x0236B880
 //		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetVisibility
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -333,7 +333,7 @@ MovieSceneTracks_ELevelVisibility UMovieSceneLevelVisibilitySection::GetVisibili
 
 
 // Function:
-//		Offset -> 0x02361E80
+//		Offset -> 0x0236B780
 //		Name   -> Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetLevelNames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,26 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
+//		Name   -> Function MainMenu.MainMenu_C.ShowHalloween
+//		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+void AMainMenu_C::ShowHalloween()
+{
+	static UFunction* fn = UObject::FindObject<UFunction>("Function MainMenu.MainMenu_C.ShowHalloween");
+
+	AMainMenu_C_ShowHalloween_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+	fn->FunctionFlags = flags;
+
+}
+
+
+// Function:
+//		Offset -> 0x014F36A0
 //		Name   -> Function MainMenu.MainMenu_C.SetNewsVisibility
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +59,7 @@ void AMainMenu_C::SetNewsVisibility(bool Visible)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MainMenu.MainMenu_C.ReceiveTick
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -61,7 +80,7 @@ void AMainMenu_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MainMenu.MainMenu_C.OnPartyUpdated
 //		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -82,7 +101,7 @@ void AMainMenu_C::OnPartyUpdated(TArray<struct FPlayFabPlayer> PartyMembers)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MainMenu.MainMenu_C.AddTestCharacter
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void AMainMenu_C::AddTestCharacter()
@@ -100,7 +119,7 @@ void AMainMenu_C::AddTestCharacter()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function MainMenu.MainMenu_C.ExecuteUbergraph_MainMenu
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

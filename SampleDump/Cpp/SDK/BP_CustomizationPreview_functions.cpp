@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.UnhideMouse
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::UnhideMouse()
@@ -37,7 +37,7 @@ void UBP_CustomizationPreview_C::UnhideMouse()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.HideMouse
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::HideMouse()
@@ -55,7 +55,7 @@ void UBP_CustomizationPreview_C::HideMouse()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnKeyDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -81,7 +81,7 @@ struct FEventReply UBP_CustomizationPreview_C::OnKeyDown(const struct FGeometry&
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseButtonUp
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -107,7 +107,7 @@ struct FEventReply UBP_CustomizationPreview_C::OnMouseButtonUp(const struct FGeo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseButtonDown
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -133,7 +133,7 @@ struct FEventReply UBP_CustomizationPreview_C::OnMouseButtonDown(const struct FG
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.UnbindEvents
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::UnbindEvents()
@@ -151,7 +151,7 @@ void UBP_CustomizationPreview_C::UnbindEvents()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseWheel
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -177,7 +177,7 @@ struct FEventReply UBP_CustomizationPreview_C::OnMouseWheel(const struct FGeomet
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseMove
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -203,7 +203,7 @@ struct FEventReply UBP_CustomizationPreview_C::OnMouseMove(const struct FGeometr
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseLeave
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -224,7 +224,7 @@ void UBP_CustomizationPreview_C::OnMouseLeave(const struct FPointerEvent& MouseE
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseEnter
 //		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -247,7 +247,7 @@ void UBP_CustomizationPreview_C::OnMouseEnter(const struct FGeometry& MyGeometry
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.Tick
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -270,7 +270,7 @@ void UBP_CustomizationPreview_C::Tick(const struct FGeometry& MyGeometry, float 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.ExecuteUbergraph_BP_CustomizationPreview
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
@@ -291,7 +291,7 @@ void UBP_CustomizationPreview_C::ExecuteUbergraph_BP_CustomizationPreview(int En
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnKeyPressed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -312,7 +312,7 @@ void UBP_CustomizationPreview_C::OnKeyPressed__DelegateSignature(const struct FK
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMMBReleased__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnMMBReleased__DelegateSignature()
@@ -330,7 +330,7 @@ void UBP_CustomizationPreview_C::OnMMBReleased__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMMBPressed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnMMBPressed__DelegateSignature()
@@ -348,7 +348,7 @@ void UBP_CustomizationPreview_C::OnMMBPressed__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnRMBReleased__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnRMBReleased__DelegateSignature()
@@ -366,7 +366,7 @@ void UBP_CustomizationPreview_C::OnRMBReleased__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnRMBPressed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnRMBPressed__DelegateSignature()
@@ -384,7 +384,7 @@ void UBP_CustomizationPreview_C::OnRMBPressed__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnLMBReleased__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnLMBReleased__DelegateSignature()
@@ -402,7 +402,7 @@ void UBP_CustomizationPreview_C::OnLMBReleased__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnLMBPressed__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationPreview_C::OnLMBPressed__DelegateSignature()
@@ -420,7 +420,7 @@ void UBP_CustomizationPreview_C::OnLMBPressed__DelegateSignature()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseAxis__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -441,7 +441,7 @@ void UBP_CustomizationPreview_C::OnMouseAxis__DelegateSignature(const struct FVe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnMouseWheelScrolling__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -462,7 +462,7 @@ void UBP_CustomizationPreview_C::OnMouseWheelScrolling__DelegateSignature(float 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationPreview.BP_CustomizationPreview_C.OnDrag__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

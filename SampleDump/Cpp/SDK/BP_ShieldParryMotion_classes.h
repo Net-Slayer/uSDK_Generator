@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_ShieldParryMotion.BP_ShieldParryMotion_C
-// 0x0000 (FullSize[0x0570] - InheritedSize[0x0570])
+// 0x0000 (FullSize[0x0568] - InheritedSize[0x0568])
 class UBP_ShieldParryMotion_C : public UBP_ParryMotion_C
 {
 public:

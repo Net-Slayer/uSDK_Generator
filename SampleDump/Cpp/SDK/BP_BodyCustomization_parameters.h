@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -49,24 +49,6 @@ struct UBP_BodyCustomization_C_GetValues_Params
 	int                                                SkinnyCount;                                               // 0x001C(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	int                                                StrongCount;                                               // 0x0020(0x0004)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                               IsFemale;                                                  // 0x0024(0x0001)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor)
-};
-
-// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__FatSlider_K2Node_ComponentBoundEvent_427_OnValueChanged__DelegateSignature
-struct UBP_BodyCustomization_C_BndEvt__FatSlider_K2Node_ComponentBoundEvent_427_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__SkinnySlider_K2Node_ComponentBoundEvent_430_OnValueChanged__DelegateSignature
-struct UBP_BodyCustomization_C_BndEvt__SkinnySlider_K2Node_ComponentBoundEvent_430_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-
-// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__StrongSlider_K2Node_ComponentBoundEvent_434_OnValueChanged__DelegateSignature
-struct UBP_BodyCustomization_C_BndEvt__StrongSlider_K2Node_ComponentBoundEvent_434_OnValueChanged__DelegateSignature_Params
-{
-	int                                                Index;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_BodyCustomization.BP_BodyCustomization_C.RegisterPreviewEvents
@@ -124,6 +106,24 @@ struct UBP_BodyCustomization_C_SetActive_Params
 // Function BP_BodyCustomization.BP_BodyCustomization_C.OnProfileChanged
 struct UBP_BodyCustomization_C_OnProfileChanged_Params
 {
+};
+
+// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__BP_MordhauSlider_Fat_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature
+struct UBP_BodyCustomization_C_BndEvt__BP_MordhauSlider_Fat_K2Node_ComponentBoundEvent_0_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__BP_MordhauSlider_Skinny_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature
+struct UBP_BodyCustomization_C_BndEvt__BP_MordhauSlider_Skinny_K2Node_ComponentBoundEvent_1_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function BP_BodyCustomization.BP_BodyCustomization_C.BndEvt__BP_MordhauSlider_Strong_K2Node_ComponentBoundEvent_2_OnValueChanged__DelegateSignature
+struct UBP_BodyCustomization_C_BndEvt__BP_MordhauSlider_Strong_K2Node_ComponentBoundEvent_2_OnValueChanged__DelegateSignature_Params
+{
+	float                                              Value;                                                     // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 
 // Function BP_BodyCustomization.BP_BodyCustomization_C.ExecuteUbergraph_BP_BodyCustomization

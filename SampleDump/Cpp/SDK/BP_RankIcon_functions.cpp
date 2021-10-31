@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.GetRankIndexFromMMR
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -44,7 +44,7 @@ void UBP_RankIcon_C::GetRankIndexFromMMR(int MMR, int* Rank_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.Update Widget with Rank Index
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -67,7 +67,7 @@ void UBP_RankIcon_C::Update_Widget_with_Rank_Index(int Rank_Index_, const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.UpdateRankIndexFromMMR
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -92,7 +92,7 @@ void UBP_RankIcon_C::UpdateRankIndexFromMMR(int MMR, int* Rank_Index)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.GetRankDivisionColorFromIndex
 //		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -117,7 +117,7 @@ void UBP_RankIcon_C::GetRankDivisionColorFromIndex(int Rank_Index, struct FSlate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.Update Widget with MMR
 //		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -140,7 +140,7 @@ void UBP_RankIcon_C::Update_Widget_with_MMR(int Rank_MMR, const struct FVector2D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.Construct
 //		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 void UBP_RankIcon_C::Construct()
@@ -158,7 +158,7 @@ void UBP_RankIcon_C::Construct()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_RankIcon.BP_RankIcon_C.ExecuteUbergraph_BP_RankIcon
 //		Flags  -> (Final)
 // Parameters:

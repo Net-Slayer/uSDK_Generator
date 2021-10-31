@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Checkbox.BP_Checkbox_C.Get_TextBlock_Text_1
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -41,7 +41,7 @@ struct FText UBP_Checkbox_C::Get_TextBlock_Text_1()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Checkbox.BP_Checkbox_C.BndEvt__Checkbox_K2Node_ComponentBoundEvent_15_OnCheckBoxComponentStateChanged__DelegateSignature
 //		Flags  -> (BlueprintEvent)
 // Parameters:
@@ -62,7 +62,7 @@ void UBP_Checkbox_C::BndEvt__Checkbox_K2Node_ComponentBoundEvent_15_OnCheckBoxCo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Checkbox.BP_Checkbox_C.ExecuteUbergraph_BP_Checkbox
 //		Flags  -> (Final)
 // Parameters:
@@ -83,7 +83,7 @@ void UBP_Checkbox_C::ExecuteUbergraph_BP_Checkbox(int EntryPoint)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_Checkbox.BP_Checkbox_C.OnCheckStateChanged__DelegateSignature
 //		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:

@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmingSword_MerchantsBasketHilt.BP_ArmingSword_MerchantsBasketHilt_C.ReceiveBeginPlay
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 void UBP_ArmingSword_MerchantsBasketHilt_C::ReceiveBeginPlay()
@@ -37,7 +37,7 @@ void UBP_ArmingSword_MerchantsBasketHilt_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmingSword_MerchantsBasketHilt.BP_ArmingSword_MerchantsBasketHilt_C.ReceiveActorBeginOverlap
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -58,7 +58,7 @@ void UBP_ArmingSword_MerchantsBasketHilt_C::ReceiveActorBeginOverlap(class AActo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmingSword_MerchantsBasketHilt.BP_ArmingSword_MerchantsBasketHilt_C.ReceiveTick
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -79,7 +79,7 @@ void UBP_ArmingSword_MerchantsBasketHilt_C::ReceiveTick(float DeltaSeconds)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ArmingSword_MerchantsBasketHilt.BP_ArmingSword_MerchantsBasketHilt_C.ExecuteUbergraph_BP_ArmingSword_MerchantsBasketHilt
 //		Flags  -> (Final)
 // Parameters:

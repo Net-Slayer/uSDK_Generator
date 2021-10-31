@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseSpawnScreen.BP_BaseSpawnScreen_C.Hide
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_BaseSpawnScreen_C::Hide()
@@ -37,7 +37,7 @@ void UBP_BaseSpawnScreen_C::Hide()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_BaseSpawnScreen.BP_BaseSpawnScreen_C.Show
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_BaseSpawnScreen_C::Show()

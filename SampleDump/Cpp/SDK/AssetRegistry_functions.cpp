@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x02506C60
+//		Offset -> 0x02511FB0
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.ToSoftObjectPath
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -44,7 +44,7 @@ struct FSoftObjectPath UAssetRegistryHelpers::STATIC_ToSoftObjectPath(const stru
 
 
 // Function:
-//		Offset -> 0x02506920
+//		Offset -> 0x02511C70
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.SetFilterTagsAndValues
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -71,7 +71,7 @@ struct FARFilter UAssetRegistryHelpers::STATIC_SetFilterTagsAndValues(const stru
 
 
 // Function:
-//		Offset -> 0x02505D00
+//		Offset -> 0x02511050
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.IsValid
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -96,7 +96,7 @@ bool UAssetRegistryHelpers::STATIC_IsValid(const struct FAssetData& InAssetData)
 
 
 // Function:
-//		Offset -> 0x02505C10
+//		Offset -> 0x02510F60
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.IsUAsset
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -121,7 +121,7 @@ bool UAssetRegistryHelpers::STATIC_IsUAsset(const struct FAssetData& InAssetData
 
 
 // Function:
-//		Offset -> 0x02505B20
+//		Offset -> 0x02510E70
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.IsRedirector
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -146,7 +146,7 @@ bool UAssetRegistryHelpers::STATIC_IsRedirector(const struct FAssetData& InAsset
 
 
 // Function:
-//		Offset -> 0x02505A00
+//		Offset -> 0x02510D50
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.IsAssetLoaded
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -171,7 +171,7 @@ bool UAssetRegistryHelpers::STATIC_IsAssetLoaded(const struct FAssetData& InAsse
 
 
 // Function:
-//		Offset -> 0x02505770
+//		Offset -> 0x02510AC0
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetTagValue
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -202,7 +202,7 @@ bool UAssetRegistryHelpers::STATIC_GetTagValue(const struct FAssetData& InAssetD
 
 
 // Function:
-//		Offset -> 0x025054B0
+//		Offset -> 0x02510800
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetFullName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -227,7 +227,7 @@ struct FString UAssetRegistryHelpers::STATIC_GetFullName(const struct FAssetData
 
 
 // Function:
-//		Offset -> 0x02505370
+//		Offset -> 0x025106C0
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetExportTextName
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -252,7 +252,7 @@ struct FString UAssetRegistryHelpers::STATIC_GetExportTextName(const struct FAss
 
 
 // Function:
-//		Offset -> 0x02505280
+//		Offset -> 0x025105D0
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetClass
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -277,7 +277,7 @@ class UClass* UAssetRegistryHelpers::STATIC_GetClass(const struct FAssetData& In
 
 
 // Function:
-//		Offset -> 0x025049F0
+//		Offset -> 0x0250FD40
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetAssetRegistry
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 void UAssetRegistryHelpers::STATIC_GetAssetRegistry()
@@ -296,7 +296,7 @@ void UAssetRegistryHelpers::STATIC_GetAssetRegistry()
 
 
 // Function:
-//		Offset -> 0x025047D0
+//		Offset -> 0x0250FB20
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.GetAsset
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -321,7 +321,7 @@ class UObject* UAssetRegistryHelpers::STATIC_GetAsset(const struct FAssetData& I
 
 
 // Function:
-//		Offset -> 0x02504490
+//		Offset -> 0x0250F7E0
 //		Name   -> Function AssetRegistry.AssetRegistryHelpers.CreateAssetData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -348,7 +348,7 @@ struct FAssetData UAssetRegistryHelpers::STATIC_CreateAssetData(class UObject* I
 
 
 // Function:
-//		Offset -> 0x02506DB0
+//		Offset -> 0x02512100
 //		Name   -> Function AssetRegistry.AssetRegistry.UseFilterToExcludeAssets
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -374,7 +374,7 @@ void UAssetRegistry::UseFilterToExcludeAssets(TArray<struct FAssetData>* AssetDa
 
 
 // Function:
-//		Offset -> 0x02506890
+//		Offset -> 0x02511BE0
 //		Name   -> Function AssetRegistry.AssetRegistry.SearchAllAssets
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -396,7 +396,7 @@ void UAssetRegistry::SearchAllAssets(bool bSynchronousSearch)
 
 
 // Function:
-//		Offset -> 0x02506760
+//		Offset -> 0x02511AB0
 //		Name   -> Function AssetRegistry.AssetRegistry.ScanPathsSynchronous
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -420,7 +420,7 @@ void UAssetRegistry::ScanPathsSynchronous(TArray<struct FString> InPaths, bool b
 
 
 // Function:
-//		Offset -> 0x02506690
+//		Offset -> 0x025119E0
 //		Name   -> Function AssetRegistry.AssetRegistry.ScanPaths
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -442,7 +442,7 @@ void UAssetRegistry::ScanPaths(TArray<struct FString> InPaths)
 
 
 // Function:
-//		Offset -> 0x025065C0
+//		Offset -> 0x02511910
 //		Name   -> Function AssetRegistry.AssetRegistry.ScanModifiedAssetFiles
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -464,7 +464,7 @@ void UAssetRegistry::ScanModifiedAssetFiles(TArray<struct FString> InFilePaths)
 
 
 // Function:
-//		Offset -> 0x02506490
+//		Offset -> 0x025117E0
 //		Name   -> Function AssetRegistry.AssetRegistry.ScanFilesSynchronous
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -488,7 +488,7 @@ void UAssetRegistry::ScanFilesSynchronous(TArray<struct FString> InFilePaths, bo
 
 
 // Function:
-//		Offset -> 0x02506140
+//		Offset -> 0x02511490
 //		Name   -> Function AssetRegistry.AssetRegistry.RunAssetsThroughFilter
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -514,7 +514,7 @@ void UAssetRegistry::RunAssetsThroughFilter(TArray<struct FAssetData>* AssetData
 
 
 // Function:
-//		Offset -> 0x02506090
+//		Offset -> 0x025113E0
 //		Name   -> Function AssetRegistry.AssetRegistry.PrioritizeSearchPath
 //		Flags  -> (Native, Public, BlueprintCallable)
 // Parameters:
@@ -536,7 +536,7 @@ void UAssetRegistry::PrioritizeSearchPath(const struct FString& PathToPrioritize
 
 
 // Function:
-//		Offset -> 0x02505F40
+//		Offset -> 0x02511290
 //		Name   -> Function AssetRegistry.AssetRegistry.K2_GetReferencers
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -567,7 +567,7 @@ bool UAssetRegistry::K2_GetReferencers(const struct FName& PackageName, const st
 
 
 // Function:
-//		Offset -> 0x02505DF0
+//		Offset -> 0x02511140
 //		Name   -> Function AssetRegistry.AssetRegistry.K2_GetDependencies
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -598,7 +598,7 @@ bool UAssetRegistry::K2_GetDependencies(const struct FName& PackageName, const s
 
 
 // Function:
-//		Offset -> 0x02505AF0
+//		Offset -> 0x02510E40
 //		Name   -> Function AssetRegistry.AssetRegistry.IsLoadingAssets
 //		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -621,7 +621,7 @@ bool UAssetRegistry::IsLoadingAssets()
 
 
 // Function:
-//		Offset -> 0x02505930
+//		Offset -> 0x02510C80
 //		Name   -> Function AssetRegistry.AssetRegistry.HasAssets
 //		Flags  -> (Native, Public, BlueprintCallable, Const)
 // Parameters:
@@ -648,7 +648,7 @@ bool UAssetRegistry::HasAssets(const struct FName& PackagePath, bool bRecursive)
 
 
 // Function:
-//		Offset -> 0x025055F0
+//		Offset -> 0x02510940
 //		Name   -> Function AssetRegistry.AssetRegistry.GetSubPaths
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -676,7 +676,7 @@ void UAssetRegistry::GetSubPaths(const struct FString& InBasePath, TArray<struct
 
 
 // Function:
-//		Offset -> 0x025050A0
+//		Offset -> 0x025103F0
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAssetsByPath
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -709,7 +709,7 @@ bool UAssetRegistry::GetAssetsByPath(const struct FName& PackagePath, TArray<str
 
 
 // Function:
-//		Offset -> 0x02504F10
+//		Offset -> 0x02510260
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAssetsByPackageName
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -740,7 +740,7 @@ bool UAssetRegistry::GetAssetsByPackageName(const struct FName& PackageName, TAr
 
 
 // Function:
-//		Offset -> 0x02504D80
+//		Offset -> 0x025100D0
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAssetsByClass
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -771,7 +771,7 @@ bool UAssetRegistry::GetAssetsByClass(const struct FName& ClassName, TArray<stru
 
 
 // Function:
-//		Offset -> 0x02504A30
+//		Offset -> 0x0250FD80
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAssets
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -800,7 +800,7 @@ bool UAssetRegistry::GetAssets(const struct FARFilter& Filter, TArray<struct FAs
 
 
 // Function:
-//		Offset -> 0x025048C0
+//		Offset -> 0x0250FC10
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAssetByObjectPath
 //		Flags  -> (Native, Public, BlueprintCallable, Const)
 // Parameters:
@@ -827,7 +827,7 @@ struct FAssetData UAssetRegistry::GetAssetByObjectPath(const struct FName& Objec
 
 
 // Function:
-//		Offset -> 0x02504700
+//		Offset -> 0x0250FA50
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAllCachedPaths
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:
@@ -851,7 +851,7 @@ void UAssetRegistry::GetAllCachedPaths(TArray<struct FString>* OutPathList)
 
 
 // Function:
-//		Offset -> 0x025045B0
+//		Offset -> 0x0250F900
 //		Name   -> Function AssetRegistry.AssetRegistry.GetAllAssets
 //		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, Const)
 // Parameters:

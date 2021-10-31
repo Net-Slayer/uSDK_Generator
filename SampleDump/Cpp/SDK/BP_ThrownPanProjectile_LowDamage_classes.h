@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -20,7 +20,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_ThrownPanProjectile_LowDamage.BP_ThrownPanProjectile_LowDamage_C
-// 0x0000 (FullSize[0x07D0] - InheritedSize[0x07D0])
+// 0x0000 (FullSize[0x07E0] - InheritedSize[0x07E0])
 class ABP_ThrownPanProjectile_LowDamage_C : public ABP_ThrownSpinningProjectile_C
 {
 public:

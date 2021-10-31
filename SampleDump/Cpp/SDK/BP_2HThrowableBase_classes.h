@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class ABP_2HThrowableBase_C : public AMordhauEquipment
 {
 public:
-	unsigned char                                      UnknownData_EZIK[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
+	unsigned char                                      UnknownData_XTCF[0x8];                                     // 0x0CC8(0x0008) Fix Super Size
 
 
 	static UClass* StaticClass()

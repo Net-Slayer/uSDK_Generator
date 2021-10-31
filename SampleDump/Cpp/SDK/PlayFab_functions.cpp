@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x00921BF0
+//		Offset -> 0x00925E40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserTitleDisplayName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50,7 +50,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserTitleDisplayName(cons
 
 
 // Function:
-//		Offset -> 0x009219A0
+//		Offset -> 0x00925BF0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -81,7 +81,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserReadOnlyData(const st
 
 
 // Function:
-//		Offset -> 0x00921750
+//		Offset -> 0x009259A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -112,7 +112,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserPublisherReadOnlyData
 
 
 // Function:
-//		Offset -> 0x00921510
+//		Offset -> 0x00925760
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserPublisherInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -143,7 +143,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserPublisherInternalData
 
 
 // Function:
-//		Offset -> 0x009212C0
+//		Offset -> 0x00925510
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -174,7 +174,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserPublisherData(const s
 
 
 // Function:
-//		Offset -> 0x00921080
+//		Offset -> 0x009252D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -205,7 +205,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserInternalData(const st
 
 
 // Function:
-//		Offset -> 0x00920E30
+//		Offset -> 0x00925080
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -236,7 +236,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateUserData(const struct FAd
 
 
 // Function:
-//		Offset -> 0x00920B60
+//		Offset -> 0x00924DB0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -267,7 +267,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateTask(const struct FAdminU
 
 
 // Function:
-//		Offset -> 0x009208C0
+//		Offset -> 0x00924B10
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateStoreItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -298,7 +298,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateStoreItems(const struct F
 
 
 // Function:
-//		Offset -> 0x00920740
+//		Offset -> 0x00924990
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateSegment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -329,7 +329,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateSegment(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00920510
+//		Offset -> 0x00924760
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateRandomResultTables
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -360,7 +360,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateRandomResultTables(const 
 
 
 // Function:
-//		Offset -> 0x009202D0
+//		Offset -> 0x00924520
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdatePolicy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -391,7 +391,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdatePolicy(const struct FAdmi
 
 
 // Function:
-//		Offset -> 0x009200F0
+//		Offset -> 0x00924340
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdatePlayerStatisticDefinition
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -422,7 +422,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdatePlayerStatisticDefinition
 
 
 // Function:
-//		Offset -> 0x0091FEC0
+//		Offset -> 0x00924110
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdatePlayerSharedSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -453,7 +453,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdatePlayerSharedSecret(const 
 
 
 // Function:
-//		Offset -> 0x0091FBD0
+//		Offset -> 0x00923E20
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateOpenIdConnection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -484,7 +484,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateOpenIdConnection(const st
 
 
 // Function:
-//		Offset -> 0x0091F990
+//		Offset -> 0x00923BE0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateCloudScript
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -515,7 +515,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateCloudScript(const struct 
 
 
 // Function:
-//		Offset -> 0x0091F750
+//		Offset -> 0x009239A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateCatalogItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -546,7 +546,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateCatalogItems(const struct
 
 
 // Function:
-//		Offset -> 0x0091F580
+//		Offset -> 0x009237D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.UpdateBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -577,7 +577,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_UpdateBans(const struct FAdminU
 
 
 // Function:
-//		Offset -> 0x0091F340
+//		Offset -> 0x00923590
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -608,7 +608,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SubtractUserVirtualCurrency(con
 
 
 // Function:
-//		Offset -> 0x0091F0A0
+//		Offset -> 0x009232F0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetupPushNotification
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -639,7 +639,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetupPushNotification(const str
 
 
 // Function:
-//		Offset -> 0x0091EE80
+//		Offset -> 0x009230D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetTitleInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -670,7 +670,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetTitleInternalData(const stru
 
 
 // Function:
-//		Offset -> 0x0091EC60
+//		Offset -> 0x00922EB0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetTitleDataAndOverrides
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -701,7 +701,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetTitleDataAndOverrides(const 
 
 
 // Function:
-//		Offset -> 0x0091EA40
+//		Offset -> 0x00922C90
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetTitleData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -732,7 +732,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetTitleData(const struct FAdmi
 
 
 // Function:
-//		Offset -> 0x0091E7A0
+//		Offset -> 0x009229F0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetStoreItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -763,7 +763,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetStoreItems(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x0091E580
+//		Offset -> 0x009227D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -794,7 +794,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetPublisherData(const struct F
 
 
 // Function:
-//		Offset -> 0x0091E3F0
+//		Offset -> 0x00922640
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetPublishedRevision
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -825,7 +825,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetPublishedRevision(const stru
 
 
 // Function:
-//		Offset -> 0x0091E1D0
+//		Offset -> 0x00922420
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetPlayerSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -856,7 +856,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetPlayerSecret(const struct FA
 
 
 // Function:
-//		Offset -> 0x0091DF90
+//		Offset -> 0x009221E0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SetCatalogItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -887,7 +887,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SetCatalogItems(const struct FA
 
 
 // Function:
-//		Offset -> 0x0091DD60
+//		Offset -> 0x00921FB0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.SendAccountRecoveryEmail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -918,7 +918,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_SendAccountRecoveryEmail(const 
 
 
 // Function:
-//		Offset -> 0x0091DBD0
+//		Offset -> 0x00921E20
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RunTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -949,7 +949,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RunTask(const struct FAdminRunT
 
 
 // Function:
-//		Offset -> 0x0091DA00
+//		Offset -> 0x00921C50
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RevokeInventoryItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -980,7 +980,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RevokeInventoryItems(const stru
 
 
 // Function:
-//		Offset -> 0x0091D780
+//		Offset -> 0x009219D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RevokeInventoryItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1011,7 +1011,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RevokeInventoryItem(const struc
 
 
 // Function:
-//		Offset -> 0x0091D5B0
+//		Offset -> 0x00921800
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RevokeBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1042,7 +1042,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RevokeBans(const struct FAdminR
 
 
 // Function:
-//		Offset -> 0x0091D3E0
+//		Offset -> 0x00921630
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RevokeAllBansForUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1073,7 +1073,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RevokeAllBansForUser(const stru
 
 
 // Function:
-//		Offset -> 0x0091D150
+//		Offset -> 0x009213A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ResolvePurchaseDispute
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1104,7 +1104,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ResolvePurchaseDispute(const st
 
 
 // Function:
-//		Offset -> 0x0091CF70
+//		Offset -> 0x009211C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ResetUserStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1135,7 +1135,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ResetUserStatistics(const struc
 
 
 // Function:
-//		Offset -> 0x0091CD40
+//		Offset -> 0x00920F90
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ResetPassword
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1166,7 +1166,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ResetPassword(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x0091CB10
+//		Offset -> 0x00920D60
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ResetCharacterStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1197,7 +1197,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ResetCharacterStatistics(const 
 
 
 // Function:
-//		Offset -> 0x0091C940
+//		Offset -> 0x00920B90
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RemoveVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1228,7 +1228,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RemoveVirtualCurrencyTypes(cons
 
 
 // Function:
-//		Offset -> 0x0091C770
+//		Offset -> 0x009209C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RemoveServerBuild
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1259,7 +1259,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RemoveServerBuild(const struct 
 
 
 // Function:
-//		Offset -> 0x0091C540
+//		Offset -> 0x00920790
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RemovePlayerTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1290,7 +1290,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RemovePlayerTag(const struct FA
 
 
 // Function:
-//		Offset -> 0x0091C2C0
+//		Offset -> 0x00920510
 //		Name   -> Function PlayFab.PlayFabAdminAPI.RefundPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1321,7 +1321,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_RefundPurchase(const struct FAd
 
 
 // Function:
-//		Offset -> 0x0091BED0
+//		Offset -> 0x00920120
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ModifyServerBuild
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1352,7 +1352,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ModifyServerBuild(const struct 
 
 
 // Function:
-//		Offset -> 0x0091BCB0
+//		Offset -> 0x0091FF00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ModifyMatchmakerGameModes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1383,7 +1383,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ModifyMatchmakerGameModes(const
 
 
 // Function:
-//		Offset -> 0x0091BB50
+//		Offset -> 0x0091FDA0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ListVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1414,7 +1414,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ListVirtualCurrencyTypes(const 
 
 
 // Function:
-//		Offset -> 0x0091B9F0
+//		Offset -> 0x0091FC40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ListServerBuilds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1445,7 +1445,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ListServerBuilds(const struct F
 
 
 // Function:
-//		Offset -> 0x0091B890
+//		Offset -> 0x0091FAE0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ListOpenIdConnection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1476,7 +1476,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ListOpenIdConnection(const stru
 
 
 // Function:
-//		Offset -> 0x0091B6B0
+//		Offset -> 0x0091F900
 //		Name   -> Function PlayFab.PlayFabAdminAPI.IncrementPlayerStatisticVersion
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1507,7 +1507,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_IncrementPlayerStatisticVersion
 
 
 // Function:
-//		Offset -> 0x0091B470
+//		Offset -> 0x0091F6C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.IncrementLimitedEditionItemAvailability
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -1538,7 +1538,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_IncrementLimitedEditionItemAvai
 
 
 // Function:
-//		Offset -> 0x0091B230
+//		Offset -> 0x0091F480
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserTitleDisplayName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1564,7 +1564,7 @@ void UPlayFabAdminAPI::HelperUpdateUserTitleDisplayName(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x0091AFF0
+//		Offset -> 0x0091F240
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1590,7 +1590,7 @@ void UPlayFabAdminAPI::HelperUpdateUserReadOnlyData(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0091ADB0
+//		Offset -> 0x0091F000
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1616,7 +1616,7 @@ void UPlayFabAdminAPI::HelperUpdateUserPublisherReadOnlyData(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x0091AB70
+//		Offset -> 0x0091EDC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserPublisherInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1642,7 +1642,7 @@ void UPlayFabAdminAPI::HelperUpdateUserPublisherInternalData(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x0091A930
+//		Offset -> 0x0091EB80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1668,7 +1668,7 @@ void UPlayFabAdminAPI::HelperUpdateUserPublisherData(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0091A6F0
+//		Offset -> 0x0091E940
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1694,7 +1694,7 @@ void UPlayFabAdminAPI::HelperUpdateUserInternalData(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0091A4B0
+//		Offset -> 0x0091E700
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1720,7 +1720,7 @@ void UPlayFabAdminAPI::HelperUpdateUserData(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0091A270
+//		Offset -> 0x0091E4C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1746,7 +1746,7 @@ void UPlayFabAdminAPI::HelperUpdateTask(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x0091A030
+//		Offset -> 0x0091E280
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateStoreItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1772,7 +1772,7 @@ void UPlayFabAdminAPI::HelperUpdateStoreItems(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00919DF0
+//		Offset -> 0x0091E040
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateSegment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1798,7 +1798,7 @@ void UPlayFabAdminAPI::HelperUpdateSegment(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00919BB0
+//		Offset -> 0x0091DE00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateRandomResultTables
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1824,7 +1824,7 @@ void UPlayFabAdminAPI::HelperUpdateRandomResultTables(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00919970
+//		Offset -> 0x0091DBC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdatePolicy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1850,7 +1850,7 @@ void UPlayFabAdminAPI::HelperUpdatePolicy(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00919730
+//		Offset -> 0x0091D980
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdatePlayerStatisticDefinition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1876,7 +1876,7 @@ void UPlayFabAdminAPI::HelperUpdatePlayerStatisticDefinition(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009194F0
+//		Offset -> 0x0091D740
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdatePlayerSharedSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1902,7 +1902,7 @@ void UPlayFabAdminAPI::HelperUpdatePlayerSharedSecret(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009192B0
+//		Offset -> 0x0091D500
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateOpenIdConnection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1928,7 +1928,7 @@ void UPlayFabAdminAPI::HelperUpdateOpenIdConnection(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00919070
+//		Offset -> 0x0091D2C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateCloudScript
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1954,7 +1954,7 @@ void UPlayFabAdminAPI::HelperUpdateCloudScript(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00918E30
+//		Offset -> 0x0091D080
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateCatalogItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -1980,7 +1980,7 @@ void UPlayFabAdminAPI::HelperUpdateCatalogItems(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00918BF0
+//		Offset -> 0x0091CE40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperUpdateBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2006,7 +2006,7 @@ void UPlayFabAdminAPI::HelperUpdateBans(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x009189B0
+//		Offset -> 0x0091CC00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2032,7 +2032,7 @@ void UPlayFabAdminAPI::HelperSubtractUserVirtualCurrency(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00918770
+//		Offset -> 0x0091C9C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetupPushNotification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2058,7 +2058,7 @@ void UPlayFabAdminAPI::HelperSetupPushNotification(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x00918530
+//		Offset -> 0x0091C780
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetTitleInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2084,7 +2084,7 @@ void UPlayFabAdminAPI::HelperSetTitleInternalData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009182F0
+//		Offset -> 0x0091C540
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetTitleDataAndOverrides
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2110,7 +2110,7 @@ void UPlayFabAdminAPI::HelperSetTitleDataAndOverrides(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009180B0
+//		Offset -> 0x0091C300
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetTitleData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2136,7 +2136,7 @@ void UPlayFabAdminAPI::HelperSetTitleData(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00917E70
+//		Offset -> 0x0091C0C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetStoreItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2162,7 +2162,7 @@ void UPlayFabAdminAPI::HelperSetStoreItems(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00917C30
+//		Offset -> 0x0091BE80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2188,7 +2188,7 @@ void UPlayFabAdminAPI::HelperSetPublisherData(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009179F0
+//		Offset -> 0x0091BC40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetPublishedRevision
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2214,7 +2214,7 @@ void UPlayFabAdminAPI::HelperSetPublishedRevision(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009177B0
+//		Offset -> 0x0091BA00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetPlayerSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2240,7 +2240,7 @@ void UPlayFabAdminAPI::HelperSetPlayerSecret(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00917570
+//		Offset -> 0x0091B7C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSetCatalogItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2266,7 +2266,7 @@ void UPlayFabAdminAPI::HelperSetCatalogItems(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00917330
+//		Offset -> 0x0091B580
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperSendAccountRecoveryEmail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2292,7 +2292,7 @@ void UPlayFabAdminAPI::HelperSendAccountRecoveryEmail(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009170F0
+//		Offset -> 0x0091B340
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRunTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2318,7 +2318,7 @@ void UPlayFabAdminAPI::HelperRunTask(const struct FPlayFabBaseModel& response, c
 
 
 // Function:
-//		Offset -> 0x00916EB0
+//		Offset -> 0x0091B100
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRevokeInventoryItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2344,7 +2344,7 @@ void UPlayFabAdminAPI::HelperRevokeInventoryItems(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00916C70
+//		Offset -> 0x0091AEC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRevokeInventoryItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2370,7 +2370,7 @@ void UPlayFabAdminAPI::HelperRevokeInventoryItem(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00916A30
+//		Offset -> 0x0091AC80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRevokeBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2396,7 +2396,7 @@ void UPlayFabAdminAPI::HelperRevokeBans(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x009167F0
+//		Offset -> 0x0091AA40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRevokeAllBansForUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2422,7 +2422,7 @@ void UPlayFabAdminAPI::HelperRevokeAllBansForUser(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009165B0
+//		Offset -> 0x0091A800
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperResolvePurchaseDispute
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2448,7 +2448,7 @@ void UPlayFabAdminAPI::HelperResolvePurchaseDispute(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00916370
+//		Offset -> 0x0091A5C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperResetUserStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2474,7 +2474,7 @@ void UPlayFabAdminAPI::HelperResetUserStatistics(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00916130
+//		Offset -> 0x0091A380
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperResetPassword
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2500,7 +2500,7 @@ void UPlayFabAdminAPI::HelperResetPassword(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00915EF0
+//		Offset -> 0x0091A140
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperResetCharacterStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2526,7 +2526,7 @@ void UPlayFabAdminAPI::HelperResetCharacterStatistics(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00915CB0
+//		Offset -> 0x00919F00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRemoveVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2552,7 +2552,7 @@ void UPlayFabAdminAPI::HelperRemoveVirtualCurrencyTypes(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x00915A70
+//		Offset -> 0x00919CC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRemoveServerBuild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2578,7 +2578,7 @@ void UPlayFabAdminAPI::HelperRemoveServerBuild(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00915830
+//		Offset -> 0x00919A80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRemovePlayerTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2604,7 +2604,7 @@ void UPlayFabAdminAPI::HelperRemovePlayerTag(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009155F0
+//		Offset -> 0x00919840
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperRefundPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2630,7 +2630,7 @@ void UPlayFabAdminAPI::HelperRefundPurchase(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009153B0
+//		Offset -> 0x00919600
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperModifyServerBuild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2656,7 +2656,7 @@ void UPlayFabAdminAPI::HelperModifyServerBuild(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00915170
+//		Offset -> 0x009193C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperModifyMatchmakerGameModes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2682,7 +2682,7 @@ void UPlayFabAdminAPI::HelperModifyMatchmakerGameModes(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x00914F30
+//		Offset -> 0x00919180
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperListVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2708,7 +2708,7 @@ void UPlayFabAdminAPI::HelperListVirtualCurrencyTypes(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00914CF0
+//		Offset -> 0x00918F40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperListServerBuilds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2734,7 +2734,7 @@ void UPlayFabAdminAPI::HelperListServerBuilds(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00914AB0
+//		Offset -> 0x00918D00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperListOpenIdConnection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2760,7 +2760,7 @@ void UPlayFabAdminAPI::HelperListOpenIdConnection(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00914870
+//		Offset -> 0x00918AC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperIncrementPlayerStatisticVersion
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2786,7 +2786,7 @@ void UPlayFabAdminAPI::HelperIncrementPlayerStatisticVersion(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x00914630
+//		Offset -> 0x00918880
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperIncrementLimitedEditionItemAvailability
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2812,7 +2812,7 @@ void UPlayFabAdminAPI::HelperIncrementLimitedEditionItemAvailability(const struc
 
 
 // Function:
-//		Offset -> 0x009143F0
+//		Offset -> 0x00918640
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGrantItemsToUsers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2838,7 +2838,7 @@ void UPlayFabAdminAPI::HelperGrantItemsToUsers(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009141B0
+//		Offset -> 0x00918400
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2864,7 +2864,7 @@ void UPlayFabAdminAPI::HelperGetUserReadOnlyData(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00913F70
+//		Offset -> 0x009181C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2890,7 +2890,7 @@ void UPlayFabAdminAPI::HelperGetUserPublisherReadOnlyData(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00913D30
+//		Offset -> 0x00917F80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserPublisherInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2916,7 +2916,7 @@ void UPlayFabAdminAPI::HelperGetUserPublisherInternalData(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00913AF0
+//		Offset -> 0x00917D40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2942,7 +2942,7 @@ void UPlayFabAdminAPI::HelperGetUserPublisherData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009138B0
+//		Offset -> 0x00917B00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserInventory
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2968,7 +2968,7 @@ void UPlayFabAdminAPI::HelperGetUserInventory(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00913670
+//		Offset -> 0x009178C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -2994,7 +2994,7 @@ void UPlayFabAdminAPI::HelperGetUserInternalData(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00913430
+//		Offset -> 0x00917680
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3020,7 +3020,7 @@ void UPlayFabAdminAPI::HelperGetUserData(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x009131F0
+//		Offset -> 0x00917440
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3046,7 +3046,7 @@ void UPlayFabAdminAPI::HelperGetUserBans(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x00912FB0
+//		Offset -> 0x00917200
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetUserAccountInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3072,7 +3072,7 @@ void UPlayFabAdminAPI::HelperGetUserAccountInfo(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00912D70
+//		Offset -> 0x00916FC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetTitleInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3098,7 +3098,7 @@ void UPlayFabAdminAPI::HelperGetTitleInternalData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00912B30
+//		Offset -> 0x00916D80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetTitleData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3124,7 +3124,7 @@ void UPlayFabAdminAPI::HelperGetTitleData(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x009128F0
+//		Offset -> 0x00916B40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetTasks
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3150,7 +3150,7 @@ void UPlayFabAdminAPI::HelperGetTasks(const struct FPlayFabBaseModel& response, 
 
 
 // Function:
-//		Offset -> 0x009126B0
+//		Offset -> 0x00916900
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetTaskInstances
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3176,7 +3176,7 @@ void UPlayFabAdminAPI::HelperGetTaskInstances(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00912470
+//		Offset -> 0x009166C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetStoreItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3202,7 +3202,7 @@ void UPlayFabAdminAPI::HelperGetStoreItems(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00912230
+//		Offset -> 0x00916480
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetServerBuildUploadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3228,7 +3228,7 @@ void UPlayFabAdminAPI::HelperGetServerBuildUploadUrl(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00911FF0
+//		Offset -> 0x00916240
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetServerBuildInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3254,7 +3254,7 @@ void UPlayFabAdminAPI::HelperGetServerBuildInfo(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00911DB0
+//		Offset -> 0x00916000
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3280,7 +3280,7 @@ void UPlayFabAdminAPI::HelperGetSegments(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x00911B70
+//		Offset -> 0x00915DC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetRandomResultTables
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3306,7 +3306,7 @@ void UPlayFabAdminAPI::HelperGetRandomResultTables(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x00911930
+//		Offset -> 0x00915B80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3332,7 +3332,7 @@ void UPlayFabAdminAPI::HelperGetPublisherData(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009116F0
+//		Offset -> 0x00915940
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPolicy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3358,7 +3358,7 @@ void UPlayFabAdminAPI::HelperGetPolicy(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x00911270
+//		Offset -> 0x009154C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3384,7 +3384,7 @@ void UPlayFabAdminAPI::HelperGetPlayerTags(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00911030
+//		Offset -> 0x00915280
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3410,7 +3410,7 @@ void UPlayFabAdminAPI::HelperGetPlayerStatisticVersions(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x00910DF0
+//		Offset -> 0x00915040
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerStatisticDefinitions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3436,7 +3436,7 @@ void UPlayFabAdminAPI::HelperGetPlayerStatisticDefinitions(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009114B0
+//		Offset -> 0x00915700
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayersInSegment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3462,7 +3462,7 @@ void UPlayFabAdminAPI::HelperGetPlayersInSegment(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00910BB0
+//		Offset -> 0x00914E00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerSharedSecrets
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3488,7 +3488,7 @@ void UPlayFabAdminAPI::HelperGetPlayerSharedSecrets(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00910970
+//		Offset -> 0x00914BC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3514,7 +3514,7 @@ void UPlayFabAdminAPI::HelperGetPlayerSegments(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00910730
+//		Offset -> 0x00914980
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerProfile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3540,7 +3540,7 @@ void UPlayFabAdminAPI::HelperGetPlayerProfile(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009104F0
+//		Offset -> 0x00914740
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayerIdFromAuthToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3566,7 +3566,7 @@ void UPlayFabAdminAPI::HelperGetPlayerIdFromAuthToken(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009102B0
+//		Offset -> 0x00914500
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetPlayedTitleList
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3592,7 +3592,7 @@ void UPlayFabAdminAPI::HelperGetPlayedTitleList(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00910070
+//		Offset -> 0x009142C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetMatchmakerGameModes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3618,7 +3618,7 @@ void UPlayFabAdminAPI::HelperGetMatchmakerGameModes(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090FE30
+//		Offset -> 0x00914080
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetMatchmakerGameInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3644,7 +3644,7 @@ void UPlayFabAdminAPI::HelperGetMatchmakerGameInfo(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0090FBF0
+//		Offset -> 0x00913E40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetDataReport
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3670,7 +3670,7 @@ void UPlayFabAdminAPI::HelperGetDataReport(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0090F9B0
+//		Offset -> 0x00913C00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetContentUploadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3696,7 +3696,7 @@ void UPlayFabAdminAPI::HelperGetContentUploadUrl(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x0090F770
+//		Offset -> 0x009139C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetContentList
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3722,7 +3722,7 @@ void UPlayFabAdminAPI::HelperGetContentList(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0090F530
+//		Offset -> 0x00913780
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetCloudScriptVersions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3748,7 +3748,7 @@ void UPlayFabAdminAPI::HelperGetCloudScriptVersions(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090F2F0
+//		Offset -> 0x00913540
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetCloudScriptTaskInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3774,7 +3774,7 @@ void UPlayFabAdminAPI::HelperGetCloudScriptTaskInstance(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x0090F0B0
+//		Offset -> 0x00913300
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetCloudScriptRevision
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3800,7 +3800,7 @@ void UPlayFabAdminAPI::HelperGetCloudScriptRevision(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090EE70
+//		Offset -> 0x009130C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetCatalogItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3826,7 +3826,7 @@ void UPlayFabAdminAPI::HelperGetCatalogItems(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0090EC30
+//		Offset -> 0x00912E80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetAllSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3852,7 +3852,7 @@ void UPlayFabAdminAPI::HelperGetAllSegments(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0090E9F0
+//		Offset -> 0x00912C40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperGetActionsOnPlayersInSegmentTaskInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3878,7 +3878,7 @@ void UPlayFabAdminAPI::HelperGetActionsOnPlayersInSegmentTaskInstance(const stru
 
 
 // Function:
-//		Offset -> 0x0090E7B0
+//		Offset -> 0x00912A00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperExportMasterPlayerData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3904,7 +3904,7 @@ void UPlayFabAdminAPI::HelperExportMasterPlayerData(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090E570
+//		Offset -> 0x009127C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteTitleDataOverride
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3930,7 +3930,7 @@ void UPlayFabAdminAPI::HelperDeleteTitleDataOverride(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0090E330
+//		Offset -> 0x00912580
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteTitle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3956,7 +3956,7 @@ void UPlayFabAdminAPI::HelperDeleteTitle(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0090E0F0
+//		Offset -> 0x00912340
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -3982,7 +3982,7 @@ void UPlayFabAdminAPI::HelperDeleteTask(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x0090DEB0
+//		Offset -> 0x00912100
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteStore
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4008,7 +4008,7 @@ void UPlayFabAdminAPI::HelperDeleteStore(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0090DC70
+//		Offset -> 0x00911EC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteSegment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4034,7 +4034,7 @@ void UPlayFabAdminAPI::HelperDeleteSegment(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0090DA30
+//		Offset -> 0x00911C80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeletePlayerSharedSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4060,7 +4060,7 @@ void UPlayFabAdminAPI::HelperDeletePlayerSharedSecret(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x0090D7F0
+//		Offset -> 0x00911A40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeletePlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4086,7 +4086,7 @@ void UPlayFabAdminAPI::HelperDeletePlayer(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0090D5B0
+//		Offset -> 0x00911800
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteOpenIdConnection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4112,7 +4112,7 @@ void UPlayFabAdminAPI::HelperDeleteOpenIdConnection(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090D370
+//		Offset -> 0x009115C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteMasterPlayerAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4138,7 +4138,7 @@ void UPlayFabAdminAPI::HelperDeleteMasterPlayerAccount(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x0090D130
+//		Offset -> 0x00911380
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperDeleteContent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4164,7 +4164,7 @@ void UPlayFabAdminAPI::HelperDeleteContent(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0090CEF0
+//		Offset -> 0x00911140
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreateSegment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4190,7 +4190,7 @@ void UPlayFabAdminAPI::HelperCreateSegment(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0090CCB0
+//		Offset -> 0x00910F00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreatePlayerStatisticDefinition
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4216,7 +4216,7 @@ void UPlayFabAdminAPI::HelperCreatePlayerStatisticDefinition(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x0090CA70
+//		Offset -> 0x00910CC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreatePlayerSharedSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4242,7 +4242,7 @@ void UPlayFabAdminAPI::HelperCreatePlayerSharedSecret(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x0090C830
+//		Offset -> 0x00910A80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreateOpenIdConnection
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4268,7 +4268,7 @@ void UPlayFabAdminAPI::HelperCreateOpenIdConnection(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090C5F0
+//		Offset -> 0x00910840
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreateInsightsScheduledScalingTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4294,7 +4294,7 @@ void UPlayFabAdminAPI::HelperCreateInsightsScheduledScalingTask(const struct FPl
 
 
 // Function:
-//		Offset -> 0x0090C3B0
+//		Offset -> 0x00910600
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreateCloudScriptTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4320,7 +4320,7 @@ void UPlayFabAdminAPI::HelperCreateCloudScriptTask(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0090C170
+//		Offset -> 0x009103C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCreateActionsOnPlayersInSegmentTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4346,7 +4346,7 @@ void UPlayFabAdminAPI::HelperCreateActionsOnPlayersInSegmentTask(const struct FP
 
 
 // Function:
-//		Offset -> 0x0090BF30
+//		Offset -> 0x00910180
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperCheckLimitedEditionItemAvailability
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4372,7 +4372,7 @@ void UPlayFabAdminAPI::HelperCheckLimitedEditionItemAvailability(const struct FP
 
 
 // Function:
-//		Offset -> 0x0090BCF0
+//		Offset -> 0x0090FF40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperBanUsers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4398,7 +4398,7 @@ void UPlayFabAdminAPI::HelperBanUsers(const struct FPlayFabBaseModel& response, 
 
 
 // Function:
-//		Offset -> 0x0090BAB0
+//		Offset -> 0x0090FD00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4424,7 +4424,7 @@ void UPlayFabAdminAPI::HelperAddVirtualCurrencyTypes(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0090B870
+//		Offset -> 0x0090FAC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4450,7 +4450,7 @@ void UPlayFabAdminAPI::HelperAddUserVirtualCurrency(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0090B630
+//		Offset -> 0x0090F880
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddServerBuild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4476,7 +4476,7 @@ void UPlayFabAdminAPI::HelperAddServerBuild(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0090B3F0
+//		Offset -> 0x0090F640
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddPlayerTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4502,7 +4502,7 @@ void UPlayFabAdminAPI::HelperAddPlayerTag(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0090B1B0
+//		Offset -> 0x0090F400
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddNews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4528,7 +4528,7 @@ void UPlayFabAdminAPI::HelperAddNews(const struct FPlayFabBaseModel& response, c
 
 
 // Function:
-//		Offset -> 0x0090AF70
+//		Offset -> 0x0090F1C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAddLocalizedNews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4554,7 +4554,7 @@ void UPlayFabAdminAPI::HelperAddLocalizedNews(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x0090AD30
+//		Offset -> 0x0090EF80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.HelperAbortTaskInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -4580,7 +4580,7 @@ void UPlayFabAdminAPI::HelperAbortTaskInstance(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0090AB00
+//		Offset -> 0x0090ED50
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GrantItemsToUsers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4611,7 +4611,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GrantItemsToUsers(const struct 
 
 
 // Function:
-//		Offset -> 0x0090A8D0
+//		Offset -> 0x0090EB20
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4642,7 +4642,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserReadOnlyData(const struc
 
 
 // Function:
-//		Offset -> 0x0090A6A0
+//		Offset -> 0x0090E8F0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4673,7 +4673,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserPublisherReadOnlyData(co
 
 
 // Function:
-//		Offset -> 0x0090A470
+//		Offset -> 0x0090E6C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserPublisherInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4704,7 +4704,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserPublisherInternalData(co
 
 
 // Function:
-//		Offset -> 0x0090A240
+//		Offset -> 0x0090E490
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4735,7 +4735,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserPublisherData(const stru
 
 
 // Function:
-//		Offset -> 0x0090A060
+//		Offset -> 0x0090E2B0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserInventory
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4766,7 +4766,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserInventory(const struct F
 
 
 // Function:
-//		Offset -> 0x00909E30
+//		Offset -> 0x0090E080
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4797,7 +4797,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserInternalData(const struc
 
 
 // Function:
-//		Offset -> 0x00909C00
+//		Offset -> 0x0090DE50
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4828,7 +4828,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserData(const struct FAdmin
 
 
 // Function:
-//		Offset -> 0x00909A30
+//		Offset -> 0x0090DC80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4859,7 +4859,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserBans(const struct FAdmin
 
 
 // Function:
-//		Offset -> 0x00909740
+//		Offset -> 0x0090D990
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetUserAccountInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4890,7 +4890,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetUserAccountInfo(const struct
 
 
 // Function:
-//		Offset -> 0x00909520
+//		Offset -> 0x0090D770
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetTitleInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4921,7 +4921,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetTitleInternalData(const stru
 
 
 // Function:
-//		Offset -> 0x00909300
+//		Offset -> 0x0090D550
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetTitleData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4952,7 +4952,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetTitleData(const struct FAdmi
 
 
 // Function:
-//		Offset -> 0x00909180
+//		Offset -> 0x0090D3D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetTasks
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -4983,7 +4983,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetTasks(const struct FAdminGet
 
 
 // Function:
-//		Offset -> 0x00908F40
+//		Offset -> 0x0090D190
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetTaskInstances
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5014,7 +5014,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetTaskInstances(const struct F
 
 
 // Function:
-//		Offset -> 0x00908D20
+//		Offset -> 0x0090CF70
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetStoreItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5045,7 +5045,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetStoreItems(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00908B50
+//		Offset -> 0x0090CDA0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetServerBuildUploadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5076,7 +5076,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetServerBuildUploadUrl(const s
 
 
 // Function:
-//		Offset -> 0x00908980
+//		Offset -> 0x0090CBD0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetServerBuildInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5107,7 +5107,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetServerBuildInfo(const struct
 
 
 // Function:
-//		Offset -> 0x009087B0
+//		Offset -> 0x0090CA00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5138,7 +5138,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetSegments(const struct FAdmin
 
 
 // Function:
-//		Offset -> 0x009085E0
+//		Offset -> 0x0090C830
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetRandomResultTables
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5169,7 +5169,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetRandomResultTables(const str
 
 
 // Function:
-//		Offset -> 0x00908410
+//		Offset -> 0x0090C660
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5200,7 +5200,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPublisherData(const struct F
 
 
 // Function:
-//		Offset -> 0x00908240
+//		Offset -> 0x0090C490
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPolicy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5231,7 +5231,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPolicy(const struct FAdminGe
 
 
 // Function:
-//		Offset -> 0x00907DD0
+//		Offset -> 0x0090C020
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5262,7 +5262,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerTags(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00907BF0
+//		Offset -> 0x0090BE40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5293,7 +5293,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerStatisticVersions(cons
 
 
 // Function:
-//		Offset -> 0x00907A90
+//		Offset -> 0x0090BCE0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerStatisticDefinitions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5324,7 +5324,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerStatisticDefinitions(c
 
 
 // Function:
-//		Offset -> 0x00908000
+//		Offset -> 0x0090C250
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayersInSegment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5355,7 +5355,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayersInSegment(const struc
 
 
 // Function:
-//		Offset -> 0x00907930
+//		Offset -> 0x0090BB80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerSharedSecrets
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5386,7 +5386,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerSharedSecrets(const st
 
 
 // Function:
-//		Offset -> 0x00907750
+//		Offset -> 0x0090B9A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5417,7 +5417,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerSegments(const struct 
 
 
 // Function:
-//		Offset -> 0x00907560
+//		Offset -> 0x0090B7B0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerProfile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5448,7 +5448,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerProfile(const struct F
 
 
 // Function:
-//		Offset -> 0x00907380
+//		Offset -> 0x0090B5D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayerIdFromAuthToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5479,7 +5479,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayerIdFromAuthToken(const 
 
 
 // Function:
-//		Offset -> 0x009071B0
+//		Offset -> 0x0090B400
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetPlayedTitleList
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5510,7 +5510,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetPlayedTitleList(const struct
 
 
 // Function:
-//		Offset -> 0x00906FE0
+//		Offset -> 0x0090B230
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetMatchmakerGameModes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5541,7 +5541,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetMatchmakerGameModes(const st
 
 
 // Function:
-//		Offset -> 0x00906E10
+//		Offset -> 0x0090B060
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetMatchmakerGameInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5572,7 +5572,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetMatchmakerGameInfo(const str
 
 
 // Function:
-//		Offset -> 0x00906C20
+//		Offset -> 0x0090AE70
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetDataReport
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5603,7 +5603,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetDataReport(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00906A00
+//		Offset -> 0x0090AC50
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetContentUploadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5634,7 +5634,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetContentUploadUrl(const struc
 
 
 // Function:
-//		Offset -> 0x00906830
+//		Offset -> 0x0090AA80
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetContentList
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5665,7 +5665,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetContentList(const struct FAd
 
 
 // Function:
-//		Offset -> 0x009066D0
+//		Offset -> 0x0090A920
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetCloudScriptVersions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5696,7 +5696,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetCloudScriptVersions(const st
 
 
 // Function:
-//		Offset -> 0x00906500
+//		Offset -> 0x0090A750
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetCloudScriptTaskInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5727,7 +5727,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetCloudScriptTaskInstance(cons
 
 
 // Function:
-//		Offset -> 0x00906380
+//		Offset -> 0x0090A5D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetCloudScriptRevision
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5758,7 +5758,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetCloudScriptRevision(const st
 
 
 // Function:
-//		Offset -> 0x009061B0
+//		Offset -> 0x0090A400
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetCatalogItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5789,7 +5789,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetCatalogItems(const struct FA
 
 
 // Function:
-//		Offset -> 0x00906050
+//		Offset -> 0x0090A2A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetAllSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5820,7 +5820,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetAllSegments(const struct FAd
 
 
 // Function:
-//		Offset -> 0x00905E80
+//		Offset -> 0x0090A0D0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.GetActionsOnPlayersInSegmentTaskInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5851,7 +5851,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_GetActionsOnPlayersInSegmentTas
 
 
 // Function:
-//		Offset -> 0x00905CB0
+//		Offset -> 0x00909F00
 //		Name   -> Function PlayFab.PlayFabAdminAPI.ExportMasterPlayerData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5882,7 +5882,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_ExportMasterPlayerData(const st
 
 
 // Function:
-//		Offset -> 0x00905AE0
+//		Offset -> 0x00909D30
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteTitleDataOverride
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5913,7 +5913,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteTitleDataOverride(const s
 
 
 // Function:
-//		Offset -> 0x00905980
+//		Offset -> 0x00909BD0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteTitle
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5944,7 +5944,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteTitle(const struct FAdmin
 
 
 // Function:
-//		Offset -> 0x00905800
+//		Offset -> 0x00909A50
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -5975,7 +5975,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteTask(const struct FAdminD
 
 
 // Function:
-//		Offset -> 0x009055D0
+//		Offset -> 0x00909820
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteStore
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6006,7 +6006,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteStore(const struct FAdmin
 
 
 // Function:
-//		Offset -> 0x00905400
+//		Offset -> 0x00909650
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteSegment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6037,7 +6037,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteSegment(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00905230
+//		Offset -> 0x00909480
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeletePlayerSharedSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6068,7 +6068,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeletePlayerSharedSecret(const 
 
 
 // Function:
-//		Offset -> 0x00905060
+//		Offset -> 0x009092B0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeletePlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6099,7 +6099,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeletePlayer(const struct FAdmi
 
 
 // Function:
-//		Offset -> 0x00904E90
+//		Offset -> 0x009090E0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteOpenIdConnection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6130,7 +6130,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteOpenIdConnection(const st
 
 
 // Function:
-//		Offset -> 0x00904C70
+//		Offset -> 0x00908EC0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteMasterPlayerAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6161,7 +6161,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteMasterPlayerAccount(const
 
 
 // Function:
-//		Offset -> 0x00904AA0
+//		Offset -> 0x00908CF0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.DeleteContent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -6192,7 +6192,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_DeleteContent(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserTitleDisplayName__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6215,7 +6215,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserTitleDisplayName__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6238,7 +6238,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserReadOnlyData__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserPublisherReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6261,7 +6261,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserPublisherReadOnlyData__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserPublisherInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6284,7 +6284,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserPublisherInternalData__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6307,7 +6307,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserPublisherData__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6330,7 +6330,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserInternalData__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6353,7 +6353,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateUserData__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6376,7 +6376,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateTask__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateStoreItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6399,7 +6399,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateStoreItems__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateSegment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6422,7 +6422,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateSegment__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateRandomResultTables__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6445,7 +6445,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateRandomResultTables__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdatePolicy__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6468,7 +6468,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdatePolicy__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdatePlayerStatisticDefinition__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6491,7 +6491,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdatePlayerStatisticDefinition__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdatePlayerSharedSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6514,7 +6514,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdatePlayerSharedSecret__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateOpenIdConnection__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6537,7 +6537,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateOpenIdConnection__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateCloudScript__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6560,7 +6560,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateCloudScript__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateCatalogItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6583,7 +6583,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateCatalogItems__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessUpdateBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6606,7 +6606,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessUpdateBans__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6629,7 +6629,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetupPushNotification__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6652,7 +6652,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetupPushNotification__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetTitleInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6675,7 +6675,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetTitleInternalData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetTitleDataAndOverrides__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6698,7 +6698,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetTitleDataAndOverrides__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetTitleData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6721,7 +6721,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetTitleData__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetStoreItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6744,7 +6744,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetStoreItems__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6767,7 +6767,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetPublisherData__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetPublishedRevision__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6790,7 +6790,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetPublishedRevision__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetPlayerSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6813,7 +6813,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetPlayerSecret__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSetCatalogItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6836,7 +6836,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSetCatalogItems__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessSendAccountRecoveryEmail__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6859,7 +6859,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessSendAccountRecoveryEmail__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRunTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6882,7 +6882,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRunTask__DelegateSignature(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRevokeInventoryItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6905,7 +6905,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRevokeInventoryItems__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRevokeInventoryItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6928,7 +6928,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRevokeInventoryItem__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRevokeBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6951,7 +6951,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRevokeBans__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRevokeAllBansForUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6974,7 +6974,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRevokeAllBansForUser__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessResolvePurchaseDispute__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -6997,7 +6997,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessResolvePurchaseDispute__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessResetUserStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7020,7 +7020,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessResetUserStatistics__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessResetPassword__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7043,7 +7043,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessResetPassword__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessResetCharacterStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7066,7 +7066,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessResetCharacterStatistics__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRemoveVirtualCurrencyTypes__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7089,7 +7089,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRemoveVirtualCurrencyTypes__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRemoveServerBuild__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7112,7 +7112,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRemoveServerBuild__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRemovePlayerTag__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7135,7 +7135,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRemovePlayerTag__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessRefundPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7158,7 +7158,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessRefundPurchase__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessModifyServerBuild__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7181,7 +7181,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessModifyServerBuild__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessModifyMatchmakerGameModes__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7204,7 +7204,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessModifyMatchmakerGameModes__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessListVirtualCurrencyTypes__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7227,7 +7227,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessListVirtualCurrencyTypes__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessListServerBuilds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7250,7 +7250,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessListServerBuilds__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessListOpenIdConnection__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7273,7 +7273,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessListOpenIdConnection__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessIncrementPlayerStatisticVersion__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7296,7 +7296,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessIncrementPlayerStatisticVersion__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessIncrementLimitedEditionItemAvailability__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7319,7 +7319,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessIncrementLimitedEditionItemAvailability_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGrantItemsToUsers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7342,7 +7342,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGrantItemsToUsers__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7365,7 +7365,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserReadOnlyData__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7388,7 +7388,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserPublisherInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7411,7 +7411,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserPublisherInternalData__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7434,7 +7434,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserPublisherData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserInventory__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7457,7 +7457,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserInventory__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7480,7 +7480,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserInternalData__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7503,7 +7503,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserData__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7526,7 +7526,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserBans__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetUserAccountInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7549,7 +7549,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetUserAccountInfo__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetTitleInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7572,7 +7572,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetTitleInternalData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetTitleData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7595,7 +7595,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetTitleData__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetTasks__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7618,7 +7618,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetTasks__DelegateSignature(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetTaskInstances__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7641,7 +7641,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetTaskInstances__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetStoreItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7664,7 +7664,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetStoreItems__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetServerBuildUploadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7687,7 +7687,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetServerBuildUploadUrl__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetServerBuildInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7710,7 +7710,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetServerBuildInfo__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7733,7 +7733,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetSegments__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetRandomResultTables__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7756,7 +7756,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetRandomResultTables__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7779,7 +7779,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPublisherData__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPolicy__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7802,7 +7802,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPolicy__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7825,7 +7825,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerTags__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerStatisticVersions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7848,7 +7848,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerStatisticVersions__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerStatisticDefinitions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7871,7 +7871,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerStatisticDefinitions__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayersInSegment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7894,7 +7894,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayersInSegment__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerSharedSecrets__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7917,7 +7917,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerSharedSecrets__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7940,7 +7940,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerSegments__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerProfile__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7963,7 +7963,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerProfile__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayerIdFromAuthToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -7986,7 +7986,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayerIdFromAuthToken__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetPlayedTitleList__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8009,7 +8009,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetPlayedTitleList__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetMatchmakerGameModes__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8032,7 +8032,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetMatchmakerGameModes__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetMatchmakerGameInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8055,7 +8055,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetMatchmakerGameInfo__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetDataReport__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8078,7 +8078,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetDataReport__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetContentUploadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8101,7 +8101,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetContentUploadUrl__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetContentList__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8124,7 +8124,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetContentList__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetCloudScriptVersions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8147,7 +8147,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetCloudScriptVersions__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetCloudScriptTaskInstance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8170,7 +8170,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetCloudScriptTaskInstance__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetCloudScriptRevision__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8193,7 +8193,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetCloudScriptRevision__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetCatalogItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8216,7 +8216,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetCatalogItems__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetAllSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8239,7 +8239,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetAllSegments__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessGetActionsOnPlayersInSegmentTaskInstance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8262,7 +8262,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessGetActionsOnPlayersInSegmentTaskInstance
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessExportMasterPlayerData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8285,7 +8285,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessExportMasterPlayerData__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteTitleDataOverride__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8308,7 +8308,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteTitleDataOverride__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteTitle__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8331,7 +8331,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteTitle__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8354,7 +8354,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteTask__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteStore__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8377,7 +8377,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteStore__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteSegment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8400,7 +8400,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteSegment__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeletePlayerSharedSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8423,7 +8423,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeletePlayerSharedSecret__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeletePlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8446,7 +8446,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeletePlayer__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteOpenIdConnection__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8469,7 +8469,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteOpenIdConnection__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteMasterPlayerAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8492,7 +8492,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteMasterPlayerAccount__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessDeleteContent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8515,7 +8515,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessDeleteContent__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreateSegment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8538,7 +8538,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreateSegment__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreatePlayerStatisticDefinition__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8561,7 +8561,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreatePlayerStatisticDefinition__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreatePlayerSharedSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8584,7 +8584,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreatePlayerSharedSecret__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreateOpenIdConnection__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8607,7 +8607,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreateOpenIdConnection__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreateInsightsScheduledScalingTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8630,7 +8630,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreateInsightsScheduledScalingTask__Dele
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreateCloudScriptTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8653,7 +8653,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreateCloudScriptTask__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCreateActionsOnPlayersInSegmentTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8676,7 +8676,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCreateActionsOnPlayersInSegmentTask__Del
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessCheckLimitedEditionItemAvailability__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8699,7 +8699,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessCheckLimitedEditionItemAvailability__Del
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessBanUsers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8722,7 +8722,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessBanUsers__DelegateSignature(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddVirtualCurrencyTypes__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8745,7 +8745,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddVirtualCurrencyTypes__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8768,7 +8768,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddUserVirtualCurrency__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddServerBuild__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8791,7 +8791,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddServerBuild__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddPlayerTag__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8814,7 +8814,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddPlayerTag__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddNews__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8837,7 +8837,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddNews__DelegateSignature(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAddLocalizedNews__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8860,7 +8860,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAddLocalizedNews__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnSuccessAbortTaskInstance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8883,7 +8883,7 @@ void UPlayFabAdminAPI::DelegateOnSuccessAbortTaskInstance__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAdminAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -8906,7 +8906,7 @@ void UPlayFabAdminAPI::DelegateOnFailurePlayFabError__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x00904920
+//		Offset -> 0x00908B70
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreateSegment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -8937,7 +8937,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreateSegment(const struct FAdm
 
 
 // Function:
-//		Offset -> 0x00904730
+//		Offset -> 0x00908980
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreatePlayerStatisticDefinition
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -8968,7 +8968,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreatePlayerStatisticDefinition
 
 
 // Function:
-//		Offset -> 0x00904560
+//		Offset -> 0x009087B0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreatePlayerSharedSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -8999,7 +8999,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreatePlayerSharedSecret(const 
 
 
 // Function:
-//		Offset -> 0x00904250
+//		Offset -> 0x009084A0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreateOpenIdConnection
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9030,7 +9030,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreateOpenIdConnection(const st
 
 
 // Function:
-//		Offset -> 0x00903FA0
+//		Offset -> 0x009081F0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreateInsightsScheduledScalingTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9061,7 +9061,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreateInsightsScheduledScalingT
 
 
 // Function:
-//		Offset -> 0x00903CF0
+//		Offset -> 0x00907F40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreateCloudScriptTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9092,7 +9092,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreateCloudScriptTask(const str
 
 
 // Function:
-//		Offset -> 0x00903A40
+//		Offset -> 0x00907C90
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CreateActionsOnPlayersInSegmentTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9123,7 +9123,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CreateActionsOnPlayersInSegment
 
 
 // Function:
-//		Offset -> 0x00903820
+//		Offset -> 0x00907A70
 //		Name   -> Function PlayFab.PlayFabAdminAPI.CheckLimitedEditionItemAvailability
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9154,7 +9154,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_CheckLimitedEditionItemAvailabi
 
 
 // Function:
-//		Offset -> 0x00903640
+//		Offset -> 0x00907890
 //		Name   -> Function PlayFab.PlayFabAdminAPI.BanUsers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9185,7 +9185,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_BanUsers(const struct FAdminBan
 
 
 // Function:
-//		Offset -> 0x00903470
+//		Offset -> 0x009076C0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddVirtualCurrencyTypes
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9216,7 +9216,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddVirtualCurrencyTypes(const s
 
 
 // Function:
-//		Offset -> 0x00903230
+//		Offset -> 0x00907480
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9247,7 +9247,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddUserVirtualCurrency(const st
 
 
 // Function:
-//		Offset -> 0x00902EB0
+//		Offset -> 0x00907100
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddServerBuild
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9278,7 +9278,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddServerBuild(const struct FAd
 
 
 // Function:
-//		Offset -> 0x00902C80
+//		Offset -> 0x00906ED0
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddPlayerTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9309,7 +9309,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddPlayerTag(const struct FAdmi
 
 
 // Function:
-//		Offset -> 0x009029F0
+//		Offset -> 0x00906C40
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddNews
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9340,7 +9340,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddNews(const struct FAdminAddN
 
 
 // Function:
-//		Offset -> 0x00902700
+//		Offset -> 0x00906950
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AddLocalizedNews
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9371,7 +9371,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AddLocalizedNews(const struct F
 
 
 // Function:
-//		Offset -> 0x00902520
+//		Offset -> 0x00906770
 //		Name   -> Function PlayFab.PlayFabAdminAPI.AbortTaskInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9402,7 +9402,7 @@ class UPlayFabAdminAPI* UPlayFabAdminAPI::STATIC_AbortTaskInstance(const struct 
 
 
 // Function:
-//		Offset -> 0x00926540
+//		Offset -> 0x0092A790
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateUserTitleDisplayNameResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9427,7 +9427,7 @@ struct FAdminUpdateUserTitleDisplayNameResult UPlayFabAdminModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009264B0
+//		Offset -> 0x0092A700
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9452,7 +9452,7 @@ struct FAdminUpdateUserDataResult UPlayFabAdminModelDecoder::STATIC_decodeUpdate
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateStoreItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9477,7 +9477,7 @@ struct FAdminUpdateStoreItemsResult UPlayFabAdminModelDecoder::STATIC_decodeUpda
 
 
 // Function:
-//		Offset -> 0x00923BF0
+//		Offset -> 0x00927E40
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateSegmentResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9502,7 +9502,7 @@ struct FAdminUpdateSegmentResponse UPlayFabAdminModelDecoder::STATIC_decodeUpdat
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateRandomResultTablesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9527,7 +9527,7 @@ struct FAdminUpdateRandomResultTablesResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00926390
+//		Offset -> 0x0092A5E0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdatePolicyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9552,7 +9552,7 @@ struct FAdminUpdatePolicyResponse UPlayFabAdminModelDecoder::STATIC_decodeUpdate
 
 
 // Function:
-//		Offset -> 0x00923B60
+//		Offset -> 0x00927DB0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdatePlayerStatisticDefinitionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9577,7 +9577,7 @@ struct FAdminUpdatePlayerStatisticDefinitionResult UPlayFabAdminModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdatePlayerSharedSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9602,7 +9602,7 @@ struct FAdminUpdatePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00926300
+//		Offset -> 0x0092A550
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateCloudScriptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9627,7 +9627,7 @@ struct FAdminUpdateCloudScriptResult UPlayFabAdminModelDecoder::STATIC_decodeUpd
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateCatalogItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9652,7 +9652,7 @@ struct FAdminUpdateCatalogItemsResult UPlayFabAdminModelDecoder::STATIC_decodeUp
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeUpdateBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9677,7 +9677,7 @@ struct FAdminUpdateBansResult UPlayFabAdminModelDecoder::STATIC_decodeUpdateBans
 
 
 // Function:
-//		Offset -> 0x00926230
+//		Offset -> 0x0092A480
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetupPushNotificationResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9702,7 +9702,7 @@ struct FAdminSetupPushNotificationResult UPlayFabAdminModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetTitleDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9727,7 +9727,7 @@ struct FAdminSetTitleDataResult UPlayFabAdminModelDecoder::STATIC_decodeSetTitle
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetTitleDataAndOverridesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9752,7 +9752,7 @@ struct FAdminSetTitleDataAndOverridesResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetPublisherDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9777,7 +9777,7 @@ struct FAdminSetPublisherDataResult UPlayFabAdminModelDecoder::STATIC_decodeSetP
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetPublishedRevisionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9802,7 +9802,7 @@ struct FAdminSetPublishedRevisionResult UPlayFabAdminModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSetPlayerSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9827,7 +9827,7 @@ struct FAdminSetPlayerSecretResult UPlayFabAdminModelDecoder::STATIC_decodeSetPl
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeSendAccountRecoveryEmailResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9852,7 +9852,7 @@ struct FAdminSendAccountRecoveryEmailResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00926160
+//		Offset -> 0x0092A3B0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRunTaskResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9877,7 +9877,7 @@ struct FAdminRunTaskResult UPlayFabAdminModelDecoder::STATIC_decodeRunTaskResult
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRevokeInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9902,7 +9902,7 @@ struct FAdminRevokeInventoryResult UPlayFabAdminModelDecoder::STATIC_decodeRevok
 
 
 // Function:
-//		Offset -> 0x00926090
+//		Offset -> 0x0092A2E0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRevokeInventoryItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9927,7 +9927,7 @@ struct FAdminRevokeInventoryItemsResult UPlayFabAdminModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRevokeBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9952,7 +9952,7 @@ struct FAdminRevokeBansResult UPlayFabAdminModelDecoder::STATIC_decodeRevokeBans
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRevokeAllBansForUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -9977,7 +9977,7 @@ struct FAdminRevokeAllBansForUserResult UPlayFabAdminModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x00925FC0
+//		Offset -> 0x0092A210
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeResolvePurchaseDisputeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10002,7 +10002,7 @@ struct FAdminResolvePurchaseDisputeResponse UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeResetUserStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10027,7 +10027,7 @@ struct FAdminResetUserStatisticsResult UPlayFabAdminModelDecoder::STATIC_decodeR
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeResetPasswordResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10052,7 +10052,7 @@ struct FAdminResetPasswordResult UPlayFabAdminModelDecoder::STATIC_decodeResetPa
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeResetCharacterStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10077,7 +10077,7 @@ struct FAdminResetCharacterStatisticsResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRemoveServerBuildResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10102,7 +10102,7 @@ struct FAdminRemoveServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeRem
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRemovePlayerTagResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10127,7 +10127,7 @@ struct FAdminRemovePlayerTagResult UPlayFabAdminModelDecoder::STATIC_decodeRemov
 
 
 // Function:
-//		Offset -> 0x00925FC0
+//		Offset -> 0x0092A210
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeRefundPurchaseResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10152,7 +10152,7 @@ struct FAdminRefundPurchaseResponse UPlayFabAdminModelDecoder::STATIC_decodeRefu
 
 
 // Function:
-//		Offset -> 0x00925E90
+//		Offset -> 0x0092A0E0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeModifyUserVirtualCurrencyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10177,7 +10177,7 @@ struct FAdminModifyUserVirtualCurrencyResult UPlayFabAdminModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x00923810
+//		Offset -> 0x00927A60
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeModifyServerBuildResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10202,7 +10202,7 @@ struct FAdminModifyServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeMod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeModifyMatchmakerGameModesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10227,7 +10227,7 @@ struct FAdminModifyMatchmakerGameModesResult UPlayFabAdminModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x00925E00
+//		Offset -> 0x0092A050
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeLookupUserAccountInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10252,7 +10252,7 @@ struct FAdminLookupUserAccountInfoResult UPlayFabAdminModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00925D30
+//		Offset -> 0x00929F80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeListVirtualCurrencyTypesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10277,7 +10277,7 @@ struct FAdminListVirtualCurrencyTypesResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00925C60
+//		Offset -> 0x00929EB0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeListOpenIdConnectionResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10302,7 +10302,7 @@ struct FAdminListOpenIdConnectionResponse UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00925B90
+//		Offset -> 0x00929DE0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeListBuildsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10327,7 +10327,7 @@ struct FAdminListBuildsResult UPlayFabAdminModelDecoder::STATIC_decodeListBuilds
 
 
 // Function:
-//		Offset -> 0x00925B00
+//		Offset -> 0x00929D50
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeIncrementPlayerStatisticVersionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10352,7 +10352,7 @@ struct FAdminIncrementPlayerStatisticVersionResult UPlayFabAdminModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeIncrementLimitedEditionItemAvailabilityResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10377,7 +10377,7 @@ struct FAdminIncrementLimitedEditionItemAvailabilityResult UPlayFabAdminModelDec
 
 
 // Function:
-//		Offset -> 0x00925A30
+//		Offset -> 0x00929C80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGrantItemsToUsersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10402,7 +10402,7 @@ struct FAdminGrantItemsToUsersResult UPlayFabAdminModelDecoder::STATIC_decodeGra
 
 
 // Function:
-//		Offset -> 0x00925900
+//		Offset -> 0x00929B50
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetUserInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10427,7 +10427,7 @@ struct FAdminGetUserInventoryResult UPlayFabAdminModelDecoder::STATIC_decodeGetU
 
 
 // Function:
-//		Offset -> 0x00925820
+//		Offset -> 0x00929A70
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10452,7 +10452,7 @@ struct FAdminGetUserDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetUserDa
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetUserBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10477,7 +10477,7 @@ struct FAdminGetUserBansResult UPlayFabAdminModelDecoder::STATIC_decodeGetUserBa
 
 
 // Function:
-//		Offset -> 0x009251C0
+//		Offset -> 0x00929410
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetTitleDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10502,7 +10502,7 @@ struct FAdminGetTitleDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetTitle
 
 
 // Function:
-//		Offset -> 0x00925750
+//		Offset -> 0x009299A0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetTasksResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10527,7 +10527,7 @@ struct FAdminGetTasksResult UPlayFabAdminModelDecoder::STATIC_decodeGetTasksResu
 
 
 // Function:
-//		Offset -> 0x00925680
+//		Offset -> 0x009298D0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetTaskInstancesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10552,7 +10552,7 @@ struct FAdminGetTaskInstancesResult UPlayFabAdminModelDecoder::STATIC_decodeGetT
 
 
 // Function:
-//		Offset -> 0x00925500
+//		Offset -> 0x00929750
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetStoreItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10577,7 +10577,7 @@ struct FAdminGetStoreItemsResult UPlayFabAdminModelDecoder::STATIC_decodeGetStor
 
 
 // Function:
-//		Offset -> 0x009245E0
+//		Offset -> 0x00928830
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetServerBuildUploadURLResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10602,7 +10602,7 @@ struct FAdminGetServerBuildUploadURLResult UPlayFabAdminModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x00925400
+//		Offset -> 0x00929650
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetServerBuildInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10627,7 +10627,7 @@ struct FAdminGetServerBuildInfoResult UPlayFabAdminModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x009252E0
+//		Offset -> 0x00929530
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetSegmentsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10652,7 +10652,7 @@ struct FAdminGetSegmentsResponse UPlayFabAdminModelDecoder::STATIC_decodeGetSegm
 
 
 // Function:
-//		Offset -> 0x00925250
+//		Offset -> 0x009294A0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetRandomResultTablesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10677,7 +10677,7 @@ struct FAdminGetRandomResultTablesResult UPlayFabAdminModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009251C0
+//		Offset -> 0x00929410
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPublisherDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10702,7 +10702,7 @@ struct FAdminGetPublisherDataResult UPlayFabAdminModelDecoder::STATIC_decodeGetP
 
 
 // Function:
-//		Offset -> 0x00925090
+//		Offset -> 0x009292E0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPolicyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10727,7 +10727,7 @@ struct FAdminGetPolicyResponse UPlayFabAdminModelDecoder::STATIC_decodeGetPolicy
 
 
 // Function:
-//		Offset -> 0x00924E40
+//		Offset -> 0x00929090
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerTagsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10752,7 +10752,7 @@ struct FAdminGetPlayerTagsResult UPlayFabAdminModelDecoder::STATIC_decodeGetPlay
 
 
 // Function:
-//		Offset -> 0x00924D70
+//		Offset -> 0x00928FC0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerStatisticVersionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10777,7 +10777,7 @@ struct FAdminGetPlayerStatisticVersionsResult UPlayFabAdminModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x00924CA0
+//		Offset -> 0x00928EF0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerStatisticDefinitionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10802,7 +10802,7 @@ struct FAdminGetPlayerStatisticDefinitionsResult UPlayFabAdminModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x00924F60
+//		Offset -> 0x009291B0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayersInSegmentResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10827,7 +10827,7 @@ struct FAdminGetPlayersInSegmentResult UPlayFabAdminModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00924BD0
+//		Offset -> 0x00928E20
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerSharedSecretsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10852,7 +10852,7 @@ struct FAdminGetPlayerSharedSecretsResult UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00924140
+//		Offset -> 0x00928390
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerSegmentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10877,7 +10877,7 @@ struct FAdminGetPlayerSegmentsResult UPlayFabAdminModelDecoder::STATIC_decodeGet
 
 
 // Function:
-//		Offset -> 0x00924B40
+//		Offset -> 0x00928D90
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerProfileResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10902,7 +10902,7 @@ struct FAdminGetPlayerProfileResult UPlayFabAdminModelDecoder::STATIC_decodeGetP
 
 
 // Function:
-//		Offset -> 0x00924A70
+//		Offset -> 0x00928CC0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayerIdFromAuthTokenResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10927,7 +10927,7 @@ struct FAdminGetPlayerIdFromAuthTokenResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009249A0
+//		Offset -> 0x00928BF0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetPlayedTitleListResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10952,7 +10952,7 @@ struct FAdminGetPlayedTitleListResult UPlayFabAdminModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x009248D0
+//		Offset -> 0x00928B20
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetMatchmakerGameModesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -10977,7 +10977,7 @@ struct FAdminGetMatchmakerGameModesResult UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00924780
+//		Offset -> 0x009289D0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetMatchmakerGameInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11002,7 +11002,7 @@ struct FAdminGetMatchmakerGameInfoResult UPlayFabAdminModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009246B0
+//		Offset -> 0x00928900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetDataReportResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11027,7 +11027,7 @@ struct FAdminGetDataReportResult UPlayFabAdminModelDecoder::STATIC_decodeGetData
 
 
 // Function:
-//		Offset -> 0x009245E0
+//		Offset -> 0x00928830
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetContentUploadUrlResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11052,7 +11052,7 @@ struct FAdminGetContentUploadUrlResult UPlayFabAdminModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x009244F0
+//		Offset -> 0x00928740
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetContentListResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11077,7 +11077,7 @@ struct FAdminGetContentListResult UPlayFabAdminModelDecoder::STATIC_decodeGetCon
 
 
 // Function:
-//		Offset -> 0x00924420
+//		Offset -> 0x00928670
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetCloudScriptVersionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11102,7 +11102,7 @@ struct FAdminGetCloudScriptVersionsResult UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009240A0
+//		Offset -> 0x009282F0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetCloudScriptTaskInstanceResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11127,7 +11127,7 @@ struct FAdminGetCloudScriptTaskInstanceResult UPlayFabAdminModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009242E0
+//		Offset -> 0x00928530
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetCloudScriptRevisionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11152,7 +11152,7 @@ struct FAdminGetCloudScriptRevisionResult UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00924210
+//		Offset -> 0x00928460
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetCatalogItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11177,7 +11177,7 @@ struct FAdminGetCatalogItemsResult UPlayFabAdminModelDecoder::STATIC_decodeGetCa
 
 
 // Function:
-//		Offset -> 0x00924140
+//		Offset -> 0x00928390
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetAllSegmentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11202,7 +11202,7 @@ struct FAdminGetAllSegmentsResult UPlayFabAdminModelDecoder::STATIC_decodeGetAll
 
 
 // Function:
-//		Offset -> 0x009240A0
+//		Offset -> 0x009282F0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeGetActionsOnPlayersInSegmentTaskInstanceResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11227,7 +11227,7 @@ struct FAdminGetActionsOnPlayersInSegmentTaskInstanceResult UPlayFabAdminModelDe
 
 
 // Function:
-//		Offset -> 0x00923FD0
+//		Offset -> 0x00928220
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeExportMasterPlayerDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11252,7 +11252,7 @@ struct FAdminExportMasterPlayerDataResult UPlayFabAdminModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11277,7 +11277,7 @@ struct FAdminEmptyResponse UPlayFabAdminModelDecoder::STATIC_decodeEmptyResponse
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeleteTitleResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11302,7 +11302,7 @@ struct FAdminDeleteTitleResult UPlayFabAdminModelDecoder::STATIC_decodeDeleteTit
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeleteTitleDataOverrideResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11327,7 +11327,7 @@ struct FAdminDeleteTitleDataOverrideResult UPlayFabAdminModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeleteStoreResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11352,7 +11352,7 @@ struct FAdminDeleteStoreResult UPlayFabAdminModelDecoder::STATIC_decodeDeleteSto
 
 
 // Function:
-//		Offset -> 0x00923F00
+//		Offset -> 0x00928150
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeleteSegmentsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11377,7 +11377,7 @@ struct FAdminDeleteSegmentsResponse UPlayFabAdminModelDecoder::STATIC_decodeDele
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeletePlayerSharedSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11402,7 +11402,7 @@ struct FAdminDeletePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeletePlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11427,7 +11427,7 @@ struct FAdminDeletePlayerResult UPlayFabAdminModelDecoder::STATIC_decodeDeletePl
 
 
 // Function:
-//		Offset -> 0x00923DE0
+//		Offset -> 0x00928030
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeDeleteMasterPlayerAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11452,7 +11452,7 @@ struct FAdminDeleteMasterPlayerAccountResult UPlayFabAdminModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x00923D10
+//		Offset -> 0x00927F60
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeCreateTaskResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11477,7 +11477,7 @@ struct FAdminCreateTaskResult UPlayFabAdminModelDecoder::STATIC_decodeCreateTask
 
 
 // Function:
-//		Offset -> 0x00923BF0
+//		Offset -> 0x00927E40
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeCreateSegmentResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11502,7 +11502,7 @@ struct FAdminCreateSegmentResponse UPlayFabAdminModelDecoder::STATIC_decodeCreat
 
 
 // Function:
-//		Offset -> 0x00923B60
+//		Offset -> 0x00927DB0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeCreatePlayerStatisticDefinitionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11527,7 +11527,7 @@ struct FAdminCreatePlayerStatisticDefinitionResult UPlayFabAdminModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x00923A90
+//		Offset -> 0x00927CE0
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeCreatePlayerSharedSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11552,7 +11552,7 @@ struct FAdminCreatePlayerSharedSecretResult UPlayFabAdminModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00923A00
+//		Offset -> 0x00927C50
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeCheckLimitedEditionItemAvailabilityResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11577,7 +11577,7 @@ struct FAdminCheckLimitedEditionItemAvailabilityResult UPlayFabAdminModelDecoder
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeBlankResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11602,7 +11602,7 @@ struct FAdminBlankResult UPlayFabAdminModelDecoder::STATIC_decodeBlankResultResp
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeBanUsersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11627,7 +11627,7 @@ struct FAdminBanUsersResult UPlayFabAdminModelDecoder::STATIC_decodeBanUsersResu
 
 
 // Function:
-//		Offset -> 0x00923810
+//		Offset -> 0x00927A60
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeAddServerBuildResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11652,7 +11652,7 @@ struct FAdminAddServerBuildResult UPlayFabAdminModelDecoder::STATIC_decodeAddSer
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeAddPlayerTagResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11677,7 +11677,7 @@ struct FAdminAddPlayerTagResult UPlayFabAdminModelDecoder::STATIC_decodeAddPlaye
 
 
 // Function:
-//		Offset -> 0x00923740
+//		Offset -> 0x00927990
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeAddNewsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11702,7 +11702,7 @@ struct FAdminAddNewsResult UPlayFabAdminModelDecoder::STATIC_decodeAddNewsResult
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabAdminModelDecoder.decodeAddLocalizedNewsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11727,7 +11727,7 @@ struct FAdminAddLocalizedNewsResult UPlayFabAdminModelDecoder::STATIC_decodeAddL
 
 
 // Function:
-//		Offset -> 0x009643D0
+//		Offset -> 0x00968620
 //		Name   -> Function PlayFab.PlayFabAuthenticationAPI.ValidateEntityToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11758,7 +11758,7 @@ class UPlayFabAuthenticationAPI* UPlayFabAuthenticationAPI::STATIC_ValidateEntit
 
 
 // Function:
-//		Offset -> 0x00957310
+//		Offset -> 0x0095B560
 //		Name   -> Function PlayFab.PlayFabAuthenticationAPI.HelperValidateEntityToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11784,7 +11784,7 @@ void UPlayFabAuthenticationAPI::HelperValidateEntityToken(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00945310
+//		Offset -> 0x00949560
 //		Name   -> Function PlayFab.PlayFabAuthenticationAPI.HelperGetEntityToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -11810,7 +11810,7 @@ void UPlayFabAuthenticationAPI::HelperGetEntityToken(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0093BB60
+//		Offset -> 0x0093FDB0
 //		Name   -> Function PlayFab.PlayFabAuthenticationAPI.GetEntityToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11841,7 +11841,7 @@ class UPlayFabAuthenticationAPI* UPlayFabAuthenticationAPI::STATIC_GetEntityToke
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAuthenticationAPI.DelegateOnSuccessValidateEntityToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -11864,7 +11864,7 @@ void UPlayFabAuthenticationAPI::DelegateOnSuccessValidateEntityToken__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAuthenticationAPI.DelegateOnSuccessGetEntityToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -11887,7 +11887,7 @@ void UPlayFabAuthenticationAPI::DelegateOnSuccessGetEntityToken__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabAuthenticationAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -11910,7 +11910,7 @@ void UPlayFabAuthenticationAPI::DelegateOnFailurePlayFabError__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x00965650
+//		Offset -> 0x009698A0
 //		Name   -> Function PlayFab.PlayFabAuthenticationModelDecoder.decodeValidateEntityTokenResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11935,7 +11935,7 @@ struct FAuthenticationValidateEntityTokenResponse UPlayFabAuthenticationModelDec
 
 
 // Function:
-//		Offset -> 0x00965520
+//		Offset -> 0x00969770
 //		Name   -> Function PlayFab.PlayFabAuthenticationModelDecoder.decodeGetEntityTokenResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11960,7 +11960,7 @@ struct FAuthenticationGetEntityTokenResponse UPlayFabAuthenticationModelDecoder:
 
 
 // Function:
-//		Offset -> 0x009652E0
+//		Offset -> 0x00969530
 //		Name   -> Function PlayFab.PlayFabClientAPI.WriteTitleEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -11991,7 +11991,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_WriteTitleEvent(const struct 
 
 
 // Function:
-//		Offset -> 0x009650A0
+//		Offset -> 0x009692F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.WritePlayerEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12022,7 +12022,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_WritePlayerEvent(const struct
 
 
 // Function:
-//		Offset -> 0x00964E00
+//		Offset -> 0x00969050
 //		Name   -> Function PlayFab.PlayFabClientAPI.WriteCharacterEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12053,7 +12053,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_WriteCharacterEvent(const str
 
 
 // Function:
-//		Offset -> 0x00964B60
+//		Offset -> 0x00968DB0
 //		Name   -> Function PlayFab.PlayFabClientAPI.ValidateWindowsStoreReceipt
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12084,7 +12084,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ValidateWindowsStoreReceipt(c
 
 
 // Function:
-//		Offset -> 0x009648C0
+//		Offset -> 0x00968B10
 //		Name   -> Function PlayFab.PlayFabClientAPI.ValidateIOSReceipt
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12115,7 +12115,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ValidateIOSReceipt(const stru
 
 
 // Function:
-//		Offset -> 0x009645B0
+//		Offset -> 0x00968800
 //		Name   -> Function PlayFab.PlayFabClientAPI.ValidateGooglePlayPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12146,7 +12146,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ValidateGooglePlayPurchase(co
 
 
 // Function:
-//		Offset -> 0x009640C0
+//		Offset -> 0x00968310
 //		Name   -> Function PlayFab.PlayFabClientAPI.ValidateAmazonIAPReceipt
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12177,7 +12177,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ValidateAmazonIAPReceipt(cons
 
 
 // Function:
-//		Offset -> 0x00963EE0
+//		Offset -> 0x00968130
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateUserTitleDisplayName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12208,7 +12208,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateUserTitleDisplayName(co
 
 
 // Function:
-//		Offset -> 0x00963CF0
+//		Offset -> 0x00967F40
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12239,7 +12239,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateUserPublisherData(const
 
 
 // Function:
-//		Offset -> 0x00963B00
+//		Offset -> 0x00967D50
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12270,7 +12270,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateUserData(const struct F
 
 
 // Function:
-//		Offset -> 0x009638B0
+//		Offset -> 0x00967B00
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateSharedGroupData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12301,7 +12301,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateSharedGroupData(const s
 
 
 // Function:
-//		Offset -> 0x009636D0
+//		Offset -> 0x00967920
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdatePlayerStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12332,7 +12332,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdatePlayerStatistics(const 
 
 
 // Function:
-//		Offset -> 0x009634E0
+//		Offset -> 0x00967730
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateCharacterStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12363,7 +12363,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateCharacterStatistics(con
 
 
 // Function:
-//		Offset -> 0x009632A0
+//		Offset -> 0x009674F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateCharacterData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12394,7 +12394,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateCharacterData(const str
 
 
 // Function:
-//		Offset -> 0x009630D0
+//		Offset -> 0x00967320
 //		Name   -> Function PlayFab.PlayFabClientAPI.UpdateAvatarUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12425,7 +12425,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UpdateAvatarUrl(const struct 
 
 
 // Function:
-//		Offset -> 0x00962E40
+//		Offset -> 0x00967090
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlockContainerItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12456,7 +12456,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlockContainerItem(const str
 
 
 // Function:
-//		Offset -> 0x00962B50
+//		Offset -> 0x00966DA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlockContainerInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12487,7 +12487,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlockContainerInstance(const
 
 
 // Function:
-//		Offset -> 0x009629D0
+//		Offset -> 0x00966C20
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkXboxAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12518,7 +12518,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkXboxAccount(const struc
 
 
 // Function:
-//		Offset -> 0x009627F0
+//		Offset -> 0x00966A40
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkTwitch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12549,7 +12549,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkTwitch(const struct FCl
 
 
 // Function:
-//		Offset -> 0x00962670
+//		Offset -> 0x009668C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkSteamAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12580,7 +12580,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkSteamAccount(const stru
 
 
 // Function:
-//		Offset -> 0x009624F0
+//		Offset -> 0x00966740
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkPSNAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12611,7 +12611,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkPSNAccount(const struct
 
 
 // Function:
-//		Offset -> 0x00962310
+//		Offset -> 0x00966560
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkOpenIdConnect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12642,7 +12642,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkOpenIdConnect(const str
 
 
 // Function:
-//		Offset -> 0x00962130
+//		Offset -> 0x00966380
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12673,7 +12673,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkNintendoSwitchDeviceId(
 
 
 // Function:
-//		Offset -> 0x00961FB0
+//		Offset -> 0x00966200
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkNintendoServiceAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12704,7 +12704,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkNintendoServiceAccount(
 
 
 // Function:
-//		Offset -> 0x00961E30
+//		Offset -> 0x00966080
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkKongregate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12735,7 +12735,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkKongregate(const struct
 
 
 // Function:
-//		Offset -> 0x00961C50
+//		Offset -> 0x00965EA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkIOSDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12766,7 +12766,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkIOSDeviceID(const struc
 
 
 // Function:
-//		Offset -> 0x00961AD0
+//		Offset -> 0x00965D20
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkGoogleAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12797,7 +12797,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkGoogleAccount(const str
 
 
 // Function:
-//		Offset -> 0x00961950
+//		Offset -> 0x00965BA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkGameCenterAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12828,7 +12828,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkGameCenterAccount(const
 
 
 // Function:
-//		Offset -> 0x00961770
+//		Offset -> 0x009659C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkFacebookInstantGamesId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12859,7 +12859,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkFacebookInstantGamesId(
 
 
 // Function:
-//		Offset -> 0x009615F0
+//		Offset -> 0x00965840
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkFacebookAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12890,7 +12890,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkFacebookAccount(const s
 
 
 // Function:
-//		Offset -> 0x00961410
+//		Offset -> 0x00965660
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkCustomID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12921,7 +12921,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkCustomID(const struct F
 
 
 // Function:
-//		Offset -> 0x00961290
+//		Offset -> 0x009654E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkApple
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12952,7 +12952,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkApple(const struct FCli
 
 
 // Function:
-//		Offset -> 0x009610B0
+//		Offset -> 0x00965300
 //		Name   -> Function PlayFab.PlayFabClientAPI.UnlinkAndroidDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -12983,7 +12983,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_UnlinkAndroidDeviceID(const s
 
 
 // Function:
-//		Offset -> 0x00960EC0
+//		Offset -> 0x00965110
 //		Name   -> Function PlayFab.PlayFabClientAPI.SubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13014,7 +13014,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_SubtractUserVirtualCurrency(c
 
 
 // Function:
-//		Offset -> 0x00960C30
+//		Offset -> 0x00964E80
 //		Name   -> Function PlayFab.PlayFabClientAPI.StartPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13045,7 +13045,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_StartPurchase(const struct FC
 
 
 // Function:
-//		Offset -> 0x009608C0
+//		Offset -> 0x00964B10
 //		Name   -> Function PlayFab.PlayFabClientAPI.StartGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13076,7 +13076,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_StartGame(const struct FClien
 
 
 // Function:
-//		Offset -> 0x009606A0
+//		Offset -> 0x009648F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.SetPlayerSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13107,7 +13107,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_SetPlayerSecret(const struct 
 
 
 // Function:
-//		Offset -> 0x00960480
+//		Offset -> 0x009646D0
 //		Name   -> Function PlayFab.PlayFabClientAPI.SetFriendTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13138,7 +13138,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_SetFriendTags(const struct FC
 
 
 // Function:
-//		Offset -> 0x00960250
+//		Offset -> 0x009644A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.SendAccountRecoveryEmail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13169,7 +13169,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_SendAccountRecoveryEmail(cons
 
 
 // Function:
-//		Offset -> 0x00960020
+//		Offset -> 0x00964270
 //		Name   -> Function PlayFab.PlayFabClientAPI.RewardAdActivity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13200,7 +13200,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RewardAdActivity(const struct
 
 
 // Function:
-//		Offset -> 0x0095FDF0
+//		Offset -> 0x00964040
 //		Name   -> Function PlayFab.PlayFabClientAPI.RestoreIOSPurchases
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13231,7 +13231,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RestoreIOSPurchases(const str
 
 
 // Function:
-//		Offset -> 0x0095FBC0
+//		Offset -> 0x00963E10
 //		Name   -> Function PlayFab.PlayFabClientAPI.ReportPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13262,7 +13262,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ReportPlayer(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0095FA40
+//		Offset -> 0x00963C90
 //		Name   -> Function PlayFab.PlayFabClientAPI.ReportDeviceInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13293,7 +13293,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ReportDeviceInfo(const struct
 
 
 // Function:
-//		Offset -> 0x0095F800
+//		Offset -> 0x00963A50
 //		Name   -> Function PlayFab.PlayFabClientAPI.ReportAdActivity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13324,7 +13324,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ReportAdActivity(const struct
 
 
 // Function:
-//		Offset -> 0x0095F5E0
+//		Offset -> 0x00963830
 //		Name   -> Function PlayFab.PlayFabClientAPI.RemoveSharedGroupMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13355,7 +13355,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RemoveSharedGroupMembers(cons
 
 
 // Function:
-//		Offset -> 0x0095F460
+//		Offset -> 0x009636B0
 //		Name   -> Function PlayFab.PlayFabClientAPI.RemoveGenericID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13386,7 +13386,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RemoveGenericID(const struct 
 
 
 // Function:
-//		Offset -> 0x0095F290
+//		Offset -> 0x009634E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.RemoveFriend
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13417,7 +13417,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RemoveFriend(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0095F110
+//		Offset -> 0x00963360
 //		Name   -> Function PlayFab.PlayFabClientAPI.RemoveContactEmail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13448,7 +13448,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RemoveContactEmail(const stru
 
 
 // Function:
-//		Offset -> 0x0095ED20
+//		Offset -> 0x00962F70
 //		Name   -> Function PlayFab.PlayFabClientAPI.RegisterPlayFabUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13479,7 +13479,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RegisterPlayFabUser(const str
 
 
 // Function:
-//		Offset -> 0x0095EAF0
+//		Offset -> 0x00962D40
 //		Name   -> Function PlayFab.PlayFabClientAPI.RegisterForIOSPushNotification
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13510,7 +13510,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RegisterForIOSPushNotificatio
 
 
 // Function:
-//		Offset -> 0x0095E8C0
+//		Offset -> 0x00962B10
 //		Name   -> Function PlayFab.PlayFabClientAPI.RefreshPSNAuthToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13541,7 +13541,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RefreshPSNAuthToken(const str
 
 
 // Function:
-//		Offset -> 0x0095E630
+//		Offset -> 0x00962880
 //		Name   -> Function PlayFab.PlayFabClientAPI.RedeemCoupon
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13572,7 +13572,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_RedeemCoupon(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0095E2B0
+//		Offset -> 0x00962500
 //		Name   -> Function PlayFab.PlayFabClientAPI.PurchaseItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13603,7 +13603,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_PurchaseItem(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0095DFC0
+//		Offset -> 0x00962210
 //		Name   -> Function PlayFab.PlayFabClientAPI.PayForPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13634,7 +13634,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_PayForPurchase(const struct F
 
 
 // Function:
-//		Offset -> 0x0095DD40
+//		Offset -> 0x00961F90
 //		Name   -> Function PlayFab.PlayFabClientAPI.OpenTrade
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13665,7 +13665,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_OpenTrade(const struct FClien
 
 
 // Function:
-//		Offset -> 0x0095D9B0
+//		Offset -> 0x00961C00
 //		Name   -> Function PlayFab.PlayFabClientAPI.Matchmake
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13696,7 +13696,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_Matchmake(const struct FClien
 
 
 // Function:
-//		Offset -> 0x0095D700
+//		Offset -> 0x00961950
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithXbox
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13727,7 +13727,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithXbox(const struct FC
 
 
 // Function:
-//		Offset -> 0x0095D450
+//		Offset -> 0x009616A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithTwitch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13758,7 +13758,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithTwitch(const struct 
 
 
 // Function:
-//		Offset -> 0x0095D1A0
+//		Offset -> 0x009613F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithSteam
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13789,7 +13789,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithSteam(const struct F
 
 
 // Function:
-//		Offset -> 0x0095CC30
+//		Offset -> 0x00960E80
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithPSN
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13820,7 +13820,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithPSN(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0095CF60
+//		Offset -> 0x009611B0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithPlayFab
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13851,7 +13851,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithPlayFab(const struct
 
 
 // Function:
-//		Offset -> 0x0095C920
+//		Offset -> 0x00960B70
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithOpenIdConnect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13882,7 +13882,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithOpenIdConnect(const 
 
 
 // Function:
-//		Offset -> 0x0095C670
+//		Offset -> 0x009608C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13913,7 +13913,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithNintendoSwitchDevice
 
 
 // Function:
-//		Offset -> 0x0095C3C0
+//		Offset -> 0x00960610
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithNintendoServiceAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13944,7 +13944,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithNintendoServiceAccou
 
 
 // Function:
-//		Offset -> 0x0095C0B0
+//		Offset -> 0x00960300
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithKongregate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -13975,7 +13975,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithKongregate(const str
 
 
 // Function:
-//		Offset -> 0x0095BD30
+//		Offset -> 0x0095FF80
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithIOSDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14006,7 +14006,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithIOSDeviceID(const st
 
 
 // Function:
-//		Offset -> 0x0095BA80
+//		Offset -> 0x0095FCD0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithGoogleAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14037,7 +14037,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithGoogleAccount(const 
 
 
 // Function:
-//		Offset -> 0x0095B630
+//		Offset -> 0x0095F880
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithGameCenter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14068,7 +14068,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithGameCenter(const str
 
 
 // Function:
-//		Offset -> 0x0095B380
+//		Offset -> 0x0095F5D0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithFacebookInstantGamesId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14099,7 +14099,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithFacebookInstantGames
 
 
 // Function:
-//		Offset -> 0x0095B0D0
+//		Offset -> 0x0095F320
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithFacebook
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14130,7 +14130,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithFacebook(const struc
 
 
 // Function:
-//		Offset -> 0x0095AE90
+//		Offset -> 0x0095F0E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithEmailAddress
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14161,7 +14161,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithEmailAddress(const s
 
 
 // Function:
-//		Offset -> 0x0095ABE0
+//		Offset -> 0x0095EE30
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithCustomID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14192,7 +14192,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithCustomID(const struc
 
 
 // Function:
-//		Offset -> 0x0095A930
+//		Offset -> 0x0095EB80
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithApple
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14223,7 +14223,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithApple(const struct F
 
 
 // Function:
-//		Offset -> 0x0095A5B0
+//		Offset -> 0x0095E800
 //		Name   -> Function PlayFab.PlayFabClientAPI.LoginWithAndroidDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14254,7 +14254,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LoginWithAndroidDeviceID(cons
 
 
 // Function:
-//		Offset -> 0x0095A3C0
+//		Offset -> 0x0095E610
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkXboxAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14285,7 +14285,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkXboxAccount(const struct 
 
 
 // Function:
-//		Offset -> 0x0095A1D0
+//		Offset -> 0x0095E420
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkTwitch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14316,7 +14316,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkTwitch(const struct FClie
 
 
 // Function:
-//		Offset -> 0x00959FE0
+//		Offset -> 0x0095E230
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkSteamAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14347,7 +14347,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkSteamAccount(const struct
 
 
 // Function:
-//		Offset -> 0x00959DA0
+//		Offset -> 0x0095DFF0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkPSNAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14378,7 +14378,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkPSNAccount(const struct F
 
 
 // Function:
-//		Offset -> 0x00959B60
+//		Offset -> 0x0095DDB0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkOpenIdConnect
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14409,7 +14409,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkOpenIdConnect(const struc
 
 
 // Function:
-//		Offset -> 0x00959970
+//		Offset -> 0x0095DBC0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14440,7 +14440,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkNintendoSwitchDeviceId(co
 
 
 // Function:
-//		Offset -> 0x00959780
+//		Offset -> 0x0095D9D0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkNintendoServiceAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14471,7 +14471,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkNintendoServiceAccount(co
 
 
 // Function:
-//		Offset -> 0x00959540
+//		Offset -> 0x0095D790
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkKongregate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14502,7 +14502,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkKongregate(const struct F
 
 
 // Function:
-//		Offset -> 0x009592A0
+//		Offset -> 0x0095D4F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkIOSDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14533,7 +14533,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkIOSDeviceID(const struct 
 
 
 // Function:
-//		Offset -> 0x009590B0
+//		Offset -> 0x0095D300
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkGoogleAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14564,7 +14564,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkGoogleAccount(const struc
 
 
 // Function:
-//		Offset -> 0x00958D30
+//		Offset -> 0x0095CF80
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkGameCenterAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14595,7 +14595,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkGameCenterAccount(const s
 
 
 // Function:
-//		Offset -> 0x00958B40
+//		Offset -> 0x0095CD90
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkFacebookInstantGamesId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14626,7 +14626,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkFacebookInstantGamesId(co
 
 
 // Function:
-//		Offset -> 0x00958950
+//		Offset -> 0x0095CBA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkFacebookAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14657,7 +14657,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkFacebookAccount(const str
 
 
 // Function:
-//		Offset -> 0x00958760
+//		Offset -> 0x0095C9B0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkCustomID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14688,7 +14688,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkCustomID(const struct FCl
 
 
 // Function:
-//		Offset -> 0x00958570
+//		Offset -> 0x0095C7C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkApple
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14719,7 +14719,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkApple(const struct FClien
 
 
 // Function:
-//		Offset -> 0x009582D0
+//		Offset -> 0x0095C520
 //		Name   -> Function PlayFab.PlayFabClientAPI.LinkAndroidDeviceID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -14750,7 +14750,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_LinkAndroidDeviceID(const str
 
 
 // Function:
-//		Offset -> 0x00958090
+//		Offset -> 0x0095C2E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperWriteTitleEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14776,7 +14776,7 @@ void UPlayFabClientAPI::HelperWriteTitleEvent(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00957E50
+//		Offset -> 0x0095C0A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperWritePlayerEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14802,7 +14802,7 @@ void UPlayFabClientAPI::HelperWritePlayerEvent(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00957C10
+//		Offset -> 0x0095BE60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperWriteCharacterEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14828,7 +14828,7 @@ void UPlayFabClientAPI::HelperWriteCharacterEvent(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009579D0
+//		Offset -> 0x0095BC20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperValidateWindowsStoreReceipt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14854,7 +14854,7 @@ void UPlayFabClientAPI::HelperValidateWindowsStoreReceipt(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00957790
+//		Offset -> 0x0095B9E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperValidateIOSReceipt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14880,7 +14880,7 @@ void UPlayFabClientAPI::HelperValidateIOSReceipt(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00957550
+//		Offset -> 0x0095B7A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperValidateGooglePlayPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14906,7 +14906,7 @@ void UPlayFabClientAPI::HelperValidateGooglePlayPurchase(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x009570D0
+//		Offset -> 0x0095B320
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperValidateAmazonIAPReceipt
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14932,7 +14932,7 @@ void UPlayFabClientAPI::HelperValidateAmazonIAPReceipt(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x00956E90
+//		Offset -> 0x0095B0E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateUserTitleDisplayName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14958,7 +14958,7 @@ void UPlayFabClientAPI::HelperUpdateUserTitleDisplayName(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00956C50
+//		Offset -> 0x0095AEA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -14984,7 +14984,7 @@ void UPlayFabClientAPI::HelperUpdateUserPublisherData(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00956A10
+//		Offset -> 0x0095AC60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15010,7 +15010,7 @@ void UPlayFabClientAPI::HelperUpdateUserData(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009567D0
+//		Offset -> 0x0095AA20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateSharedGroupData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15036,7 +15036,7 @@ void UPlayFabClientAPI::HelperUpdateSharedGroupData(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00956590
+//		Offset -> 0x0095A7E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdatePlayerStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15062,7 +15062,7 @@ void UPlayFabClientAPI::HelperUpdatePlayerStatistics(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00956350
+//		Offset -> 0x0095A5A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateCharacterStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15088,7 +15088,7 @@ void UPlayFabClientAPI::HelperUpdateCharacterStatistics(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x00956110
+//		Offset -> 0x0095A360
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateCharacterData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15114,7 +15114,7 @@ void UPlayFabClientAPI::HelperUpdateCharacterData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00955ED0
+//		Offset -> 0x0095A120
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUpdateAvatarUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15140,7 +15140,7 @@ void UPlayFabClientAPI::HelperUpdateAvatarUrl(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00955C90
+//		Offset -> 0x00959EE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlockContainerItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15166,7 +15166,7 @@ void UPlayFabClientAPI::HelperUnlockContainerItem(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00955A50
+//		Offset -> 0x00959CA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlockContainerInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15192,7 +15192,7 @@ void UPlayFabClientAPI::HelperUnlockContainerInstance(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00955810
+//		Offset -> 0x00959A60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkXboxAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15218,7 +15218,7 @@ void UPlayFabClientAPI::HelperUnlinkXboxAccount(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009555D0
+//		Offset -> 0x00959820
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkTwitch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15244,7 +15244,7 @@ void UPlayFabClientAPI::HelperUnlinkTwitch(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00955390
+//		Offset -> 0x009595E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkSteamAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15270,7 +15270,7 @@ void UPlayFabClientAPI::HelperUnlinkSteamAccount(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00955150
+//		Offset -> 0x009593A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkPSNAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15296,7 +15296,7 @@ void UPlayFabClientAPI::HelperUnlinkPSNAccount(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00954F10
+//		Offset -> 0x00959160
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkOpenIdConnect
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15322,7 +15322,7 @@ void UPlayFabClientAPI::HelperUnlinkOpenIdConnect(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00954CD0
+//		Offset -> 0x00958F20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15348,7 +15348,7 @@ void UPlayFabClientAPI::HelperUnlinkNintendoSwitchDeviceId(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00954A90
+//		Offset -> 0x00958CE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkNintendoServiceAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15374,7 +15374,7 @@ void UPlayFabClientAPI::HelperUnlinkNintendoServiceAccount(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00954850
+//		Offset -> 0x00958AA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkKongregate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15400,7 +15400,7 @@ void UPlayFabClientAPI::HelperUnlinkKongregate(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00954610
+//		Offset -> 0x00958860
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkIOSDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15426,7 +15426,7 @@ void UPlayFabClientAPI::HelperUnlinkIOSDeviceID(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009543D0
+//		Offset -> 0x00958620
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkGoogleAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15452,7 +15452,7 @@ void UPlayFabClientAPI::HelperUnlinkGoogleAccount(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00954190
+//		Offset -> 0x009583E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkGameCenterAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15478,7 +15478,7 @@ void UPlayFabClientAPI::HelperUnlinkGameCenterAccount(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00953F50
+//		Offset -> 0x009581A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkFacebookInstantGamesId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15504,7 +15504,7 @@ void UPlayFabClientAPI::HelperUnlinkFacebookInstantGamesId(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00953D10
+//		Offset -> 0x00957F60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkFacebookAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15530,7 +15530,7 @@ void UPlayFabClientAPI::HelperUnlinkFacebookAccount(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00953AD0
+//		Offset -> 0x00957D20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkCustomID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15556,7 +15556,7 @@ void UPlayFabClientAPI::HelperUnlinkCustomID(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00953890
+//		Offset -> 0x00957AE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkApple
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15582,7 +15582,7 @@ void UPlayFabClientAPI::HelperUnlinkApple(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00953650
+//		Offset -> 0x009578A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperUnlinkAndroidDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15608,7 +15608,7 @@ void UPlayFabClientAPI::HelperUnlinkAndroidDeviceID(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00953410
+//		Offset -> 0x00957660
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperSubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15634,7 +15634,7 @@ void UPlayFabClientAPI::HelperSubtractUserVirtualCurrency(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009531D0
+//		Offset -> 0x00957420
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperStartPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15660,7 +15660,7 @@ void UPlayFabClientAPI::HelperStartPurchase(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x00952F90
+//		Offset -> 0x009571E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperStartGame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15686,7 +15686,7 @@ void UPlayFabClientAPI::HelperStartGame(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x00952D50
+//		Offset -> 0x00956FA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperSetPlayerSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15712,7 +15712,7 @@ void UPlayFabClientAPI::HelperSetPlayerSecret(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00952B10
+//		Offset -> 0x00956D60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperSetFriendTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15738,7 +15738,7 @@ void UPlayFabClientAPI::HelperSetFriendTags(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009528D0
+//		Offset -> 0x00956B20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperSendAccountRecoveryEmail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15764,7 +15764,7 @@ void UPlayFabClientAPI::HelperSendAccountRecoveryEmail(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x00952690
+//		Offset -> 0x009568E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRewardAdActivity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15790,7 +15790,7 @@ void UPlayFabClientAPI::HelperRewardAdActivity(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00952450
+//		Offset -> 0x009566A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRestoreIOSPurchases
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15816,7 +15816,7 @@ void UPlayFabClientAPI::HelperRestoreIOSPurchases(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00952210
+//		Offset -> 0x00956460
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperReportPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15842,7 +15842,7 @@ void UPlayFabClientAPI::HelperReportPlayer(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00951FD0
+//		Offset -> 0x00956220
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperReportDeviceInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15868,7 +15868,7 @@ void UPlayFabClientAPI::HelperReportDeviceInfo(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00951D90
+//		Offset -> 0x00955FE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperReportAdActivity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15894,7 +15894,7 @@ void UPlayFabClientAPI::HelperReportAdActivity(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00951B50
+//		Offset -> 0x00955DA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRemoveSharedGroupMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15920,7 +15920,7 @@ void UPlayFabClientAPI::HelperRemoveSharedGroupMembers(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x00951910
+//		Offset -> 0x00955B60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRemoveGenericID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15946,7 +15946,7 @@ void UPlayFabClientAPI::HelperRemoveGenericID(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009516D0
+//		Offset -> 0x00955920
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRemoveFriend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15972,7 +15972,7 @@ void UPlayFabClientAPI::HelperRemoveFriend(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00951490
+//		Offset -> 0x009556E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRemoveContactEmail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -15998,7 +15998,7 @@ void UPlayFabClientAPI::HelperRemoveContactEmail(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00951250
+//		Offset -> 0x009554A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRegisterPlayFabUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16024,7 +16024,7 @@ void UPlayFabClientAPI::HelperRegisterPlayFabUser(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00951010
+//		Offset -> 0x00955260
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRegisterForIOSPushNotification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16050,7 +16050,7 @@ void UPlayFabClientAPI::HelperRegisterForIOSPushNotification(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x00950DD0
+//		Offset -> 0x00955020
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRefreshPSNAuthToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16076,7 +16076,7 @@ void UPlayFabClientAPI::HelperRefreshPSNAuthToken(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00950B90
+//		Offset -> 0x00954DE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperRedeemCoupon
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16102,7 +16102,7 @@ void UPlayFabClientAPI::HelperRedeemCoupon(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00950950
+//		Offset -> 0x00954BA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperPurchaseItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16128,7 +16128,7 @@ void UPlayFabClientAPI::HelperPurchaseItem(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00950710
+//		Offset -> 0x00954960
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperPayForPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16154,7 +16154,7 @@ void UPlayFabClientAPI::HelperPayForPurchase(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009504D0
+//		Offset -> 0x00954720
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperOpenTrade
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16180,7 +16180,7 @@ void UPlayFabClientAPI::HelperOpenTrade(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x00950290
+//		Offset -> 0x009544E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperMatchmake
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16206,7 +16206,7 @@ void UPlayFabClientAPI::HelperMatchmake(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x00950050
+//		Offset -> 0x009542A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithXbox
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16232,7 +16232,7 @@ void UPlayFabClientAPI::HelperLoginWithXbox(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0094FE10
+//		Offset -> 0x00954060
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithTwitch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16258,7 +16258,7 @@ void UPlayFabClientAPI::HelperLoginWithTwitch(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x0094FBD0
+//		Offset -> 0x00953E20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithSteam
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16284,7 +16284,7 @@ void UPlayFabClientAPI::HelperLoginWithSteam(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0094F750
+//		Offset -> 0x009539A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithPSN
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16310,7 +16310,7 @@ void UPlayFabClientAPI::HelperLoginWithPSN(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0094F990
+//		Offset -> 0x00953BE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithPlayFab
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16336,7 +16336,7 @@ void UPlayFabClientAPI::HelperLoginWithPlayFab(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0094F510
+//		Offset -> 0x00953760
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithOpenIdConnect
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16362,7 +16362,7 @@ void UPlayFabClientAPI::HelperLoginWithOpenIdConnect(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0094F2D0
+//		Offset -> 0x00953520
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16388,7 +16388,7 @@ void UPlayFabClientAPI::HelperLoginWithNintendoSwitchDeviceId(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x0094F090
+//		Offset -> 0x009532E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithNintendoServiceAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16414,7 +16414,7 @@ void UPlayFabClientAPI::HelperLoginWithNintendoServiceAccount(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x0094EE50
+//		Offset -> 0x009530A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithKongregate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16440,7 +16440,7 @@ void UPlayFabClientAPI::HelperLoginWithKongregate(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x0094EC10
+//		Offset -> 0x00952E60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithIOSDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16466,7 +16466,7 @@ void UPlayFabClientAPI::HelperLoginWithIOSDeviceID(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0094E9D0
+//		Offset -> 0x00952C20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithGoogleAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16492,7 +16492,7 @@ void UPlayFabClientAPI::HelperLoginWithGoogleAccount(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0094E790
+//		Offset -> 0x009529E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithGameCenter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16518,7 +16518,7 @@ void UPlayFabClientAPI::HelperLoginWithGameCenter(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x0094E550
+//		Offset -> 0x009527A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithFacebookInstantGamesId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16544,7 +16544,7 @@ void UPlayFabClientAPI::HelperLoginWithFacebookInstantGamesId(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x0094E310
+//		Offset -> 0x00952560
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithFacebook
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16570,7 +16570,7 @@ void UPlayFabClientAPI::HelperLoginWithFacebook(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094E0D0
+//		Offset -> 0x00952320
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithEmailAddress
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16596,7 +16596,7 @@ void UPlayFabClientAPI::HelperLoginWithEmailAddress(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0094DE90
+//		Offset -> 0x009520E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithCustomID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16622,7 +16622,7 @@ void UPlayFabClientAPI::HelperLoginWithCustomID(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094DC50
+//		Offset -> 0x00951EA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithApple
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16648,7 +16648,7 @@ void UPlayFabClientAPI::HelperLoginWithApple(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0094DA10
+//		Offset -> 0x00951C60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLoginWithAndroidDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16674,7 +16674,7 @@ void UPlayFabClientAPI::HelperLoginWithAndroidDeviceID(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x0094D7D0
+//		Offset -> 0x00951A20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkXboxAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16700,7 +16700,7 @@ void UPlayFabClientAPI::HelperLinkXboxAccount(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x0094D590
+//		Offset -> 0x009517E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkTwitch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16726,7 +16726,7 @@ void UPlayFabClientAPI::HelperLinkTwitch(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0094D350
+//		Offset -> 0x009515A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkSteamAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16752,7 +16752,7 @@ void UPlayFabClientAPI::HelperLinkSteamAccount(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0094D110
+//		Offset -> 0x00951360
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkPSNAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16778,7 +16778,7 @@ void UPlayFabClientAPI::HelperLinkPSNAccount(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0094CED0
+//		Offset -> 0x00951120
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkOpenIdConnect
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16804,7 +16804,7 @@ void UPlayFabClientAPI::HelperLinkOpenIdConnect(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094CC90
+//		Offset -> 0x00950EE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkNintendoSwitchDeviceId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16830,7 +16830,7 @@ void UPlayFabClientAPI::HelperLinkNintendoSwitchDeviceId(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x0094CA50
+//		Offset -> 0x00950CA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkNintendoServiceAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16856,7 +16856,7 @@ void UPlayFabClientAPI::HelperLinkNintendoServiceAccount(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x0094C810
+//		Offset -> 0x00950A60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkKongregate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16882,7 +16882,7 @@ void UPlayFabClientAPI::HelperLinkKongregate(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0094C5D0
+//		Offset -> 0x00950820
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkIOSDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16908,7 +16908,7 @@ void UPlayFabClientAPI::HelperLinkIOSDeviceID(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x0094C390
+//		Offset -> 0x009505E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkGoogleAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16934,7 +16934,7 @@ void UPlayFabClientAPI::HelperLinkGoogleAccount(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094C150
+//		Offset -> 0x009503A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkGameCenterAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16960,7 +16960,7 @@ void UPlayFabClientAPI::HelperLinkGameCenterAccount(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0094BF10
+//		Offset -> 0x00950160
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkFacebookInstantGamesId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -16986,7 +16986,7 @@ void UPlayFabClientAPI::HelperLinkFacebookInstantGamesId(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x0094BCD0
+//		Offset -> 0x0094FF20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkFacebookAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17012,7 +17012,7 @@ void UPlayFabClientAPI::HelperLinkFacebookAccount(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x0094BA90
+//		Offset -> 0x0094FCE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkCustomID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17038,7 +17038,7 @@ void UPlayFabClientAPI::HelperLinkCustomID(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0094B850
+//		Offset -> 0x0094FAA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkApple
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17064,7 +17064,7 @@ void UPlayFabClientAPI::HelperLinkApple(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x0094B610
+//		Offset -> 0x0094F860
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperLinkAndroidDeviceID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17090,7 +17090,7 @@ void UPlayFabClientAPI::HelperLinkAndroidDeviceID(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x0094B3D0
+//		Offset -> 0x0094F620
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGrantCharacterToUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17116,7 +17116,7 @@ void UPlayFabClientAPI::HelperGrantCharacterToUser(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0094B190
+//		Offset -> 0x0094F3E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetUserReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17142,7 +17142,7 @@ void UPlayFabClientAPI::HelperGetUserReadOnlyData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x0094AF50
+//		Offset -> 0x0094F1A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17168,7 +17168,7 @@ void UPlayFabClientAPI::HelperGetUserPublisherReadOnlyData(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x0094AD10
+//		Offset -> 0x0094EF60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17194,7 +17194,7 @@ void UPlayFabClientAPI::HelperGetUserPublisherData(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0094AAD0
+//		Offset -> 0x0094ED20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetUserInventory
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17220,7 +17220,7 @@ void UPlayFabClientAPI::HelperGetUserInventory(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0094A890
+//		Offset -> 0x0094EAE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17246,7 +17246,7 @@ void UPlayFabClientAPI::HelperGetUserData(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0094A650
+//		Offset -> 0x0094E8A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetTradeStatus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17272,7 +17272,7 @@ void UPlayFabClientAPI::HelperGetTradeStatus(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0094A410
+//		Offset -> 0x0094E660
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetTitlePublicKey
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17298,7 +17298,7 @@ void UPlayFabClientAPI::HelperGetTitlePublicKey(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094A1D0
+//		Offset -> 0x0094E420
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetTitleNews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17324,7 +17324,7 @@ void UPlayFabClientAPI::HelperGetTitleNews(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00949F90
+//		Offset -> 0x0094E1E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetTitleData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17350,7 +17350,7 @@ void UPlayFabClientAPI::HelperGetTitleData(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00949D50
+//		Offset -> 0x0094DFA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17376,7 +17376,7 @@ void UPlayFabClientAPI::HelperGetTime(const struct FPlayFabBaseModel& response, 
 
 
 // Function:
-//		Offset -> 0x00949B10
+//		Offset -> 0x0094DD60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetStoreItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17402,7 +17402,7 @@ void UPlayFabClientAPI::HelperGetStoreItems(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009498D0
+//		Offset -> 0x0094DB20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetSharedGroupData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17428,7 +17428,7 @@ void UPlayFabClientAPI::HelperGetSharedGroupData(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x00949690
+//		Offset -> 0x0094D8E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17454,7 +17454,7 @@ void UPlayFabClientAPI::HelperGetPurchase(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00949450
+//		Offset -> 0x0094D6A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17480,7 +17480,7 @@ void UPlayFabClientAPI::HelperGetPublisherData(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00948250
+//		Offset -> 0x0094C4A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromXboxLiveIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17506,7 +17506,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromXboxLiveIDs(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00948010
+//		Offset -> 0x0094C260
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromTwitchIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17532,7 +17532,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromTwitchIDs(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00947DD0
+//		Offset -> 0x0094C020
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromSteamIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17558,7 +17558,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromSteamIDs(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x00947B90
+//		Offset -> 0x0094BDE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromPSNAccountIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17584,7 +17584,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromPSNAccountIDs(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x00947950
+//		Offset -> 0x0094BBA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromNintendoSwitchDeviceIds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17610,7 +17610,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromNintendoSwitchDeviceIds(const str
 
 
 // Function:
-//		Offset -> 0x00947710
+//		Offset -> 0x0094B960
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromKongregateIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17636,7 +17636,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromKongregateIDs(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009474D0
+//		Offset -> 0x0094B720
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromGoogleIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17662,7 +17662,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromGoogleIDs(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00947290
+//		Offset -> 0x0094B4E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromGenericIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17688,7 +17688,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromGenericIDs(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00947050
+//		Offset -> 0x0094B2A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromGameCenterIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17714,7 +17714,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromGameCenterIDs(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x00946E10
+//		Offset -> 0x0094B060
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromFacebookInstantGamesIds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17740,7 +17740,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromFacebookInstantGamesIds(const str
 
 
 // Function:
-//		Offset -> 0x00946BD0
+//		Offset -> 0x0094AE20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayFabIDsFromFacebookIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17766,7 +17766,7 @@ void UPlayFabClientAPI::HelperGetPlayFabIDsFromFacebookIDs(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00949210
+//		Offset -> 0x0094D460
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerTrades
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17792,7 +17792,7 @@ void UPlayFabClientAPI::HelperGetPlayerTrades(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00948FD0
+//		Offset -> 0x0094D220
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17818,7 +17818,7 @@ void UPlayFabClientAPI::HelperGetPlayerTags(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x00948B50
+//		Offset -> 0x0094CDA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17844,7 +17844,7 @@ void UPlayFabClientAPI::HelperGetPlayerStatisticVersions(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00948D90
+//		Offset -> 0x0094CFE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17870,7 +17870,7 @@ void UPlayFabClientAPI::HelperGetPlayerStatistics(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00948910
+//		Offset -> 0x0094CB60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17896,7 +17896,7 @@ void UPlayFabClientAPI::HelperGetPlayerSegments(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009486D0
+//		Offset -> 0x0094C920
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerProfile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17922,7 +17922,7 @@ void UPlayFabClientAPI::HelperGetPlayerProfile(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00948490
+//		Offset -> 0x0094C6E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPlayerCombinedInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17948,7 +17948,7 @@ void UPlayFabClientAPI::HelperGetPlayerCombinedInfo(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00946990
+//		Offset -> 0x0094ABE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPhotonAuthenticationToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -17974,7 +17974,7 @@ void UPlayFabClientAPI::HelperGetPhotonAuthenticationToken(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00946750
+//		Offset -> 0x0094A9A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetPaymentToken
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18000,7 +18000,7 @@ void UPlayFabClientAPI::HelperGetPaymentToken(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00946510
+//		Offset -> 0x0094A760
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetLeaderboardForUserCharacters
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18026,7 +18026,7 @@ void UPlayFabClientAPI::HelperGetLeaderboardForUserCharacters(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009462D0
+//		Offset -> 0x0094A520
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetLeaderboardAroundPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18052,7 +18052,7 @@ void UPlayFabClientAPI::HelperGetLeaderboardAroundPlayer(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x00946090
+//		Offset -> 0x0094A2E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetLeaderboardAroundCharacter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18078,7 +18078,7 @@ void UPlayFabClientAPI::HelperGetLeaderboardAroundCharacter(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x00945E50
+//		Offset -> 0x0094A0A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18104,7 +18104,7 @@ void UPlayFabClientAPI::HelperGetLeaderboard(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00945C10
+//		Offset -> 0x00949E60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetGameServerRegions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18130,7 +18130,7 @@ void UPlayFabClientAPI::HelperGetGameServerRegions(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009459D0
+//		Offset -> 0x00949C20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetFriendsList
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18156,7 +18156,7 @@ void UPlayFabClientAPI::HelperGetFriendsList(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00945790
+//		Offset -> 0x009499E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetFriendLeaderboardAroundPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18182,7 +18182,7 @@ void UPlayFabClientAPI::HelperGetFriendLeaderboardAroundPlayer(const struct FPla
 
 
 // Function:
-//		Offset -> 0x00945550
+//		Offset -> 0x009497A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetFriendLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18208,7 +18208,7 @@ void UPlayFabClientAPI::HelperGetFriendLeaderboard(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009450D0
+//		Offset -> 0x00949320
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCurrentGames
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18234,7 +18234,7 @@ void UPlayFabClientAPI::HelperGetCurrentGames(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00944E90
+//		Offset -> 0x009490E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetContentDownloadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18260,7 +18260,7 @@ void UPlayFabClientAPI::HelperGetContentDownloadUrl(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00944C50
+//		Offset -> 0x00948EA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCharacterStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18286,7 +18286,7 @@ void UPlayFabClientAPI::HelperGetCharacterStatistics(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00944A10
+//		Offset -> 0x00948C60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCharacterReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18312,7 +18312,7 @@ void UPlayFabClientAPI::HelperGetCharacterReadOnlyData(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009447D0
+//		Offset -> 0x00948A20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCharacterLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18338,7 +18338,7 @@ void UPlayFabClientAPI::HelperGetCharacterLeaderboard(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00944590
+//		Offset -> 0x009487E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCharacterInventory
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18364,7 +18364,7 @@ void UPlayFabClientAPI::HelperGetCharacterInventory(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00944350
+//		Offset -> 0x009485A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCharacterData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18390,7 +18390,7 @@ void UPlayFabClientAPI::HelperGetCharacterData(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00944110
+//		Offset -> 0x00948360
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetCatalogItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18416,7 +18416,7 @@ void UPlayFabClientAPI::HelperGetCatalogItems(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00943ED0
+//		Offset -> 0x00948120
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetAllUsersCharacters
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18442,7 +18442,7 @@ void UPlayFabClientAPI::HelperGetAllUsersCharacters(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00943C90
+//		Offset -> 0x00947EE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetAdPlacements
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18468,7 +18468,7 @@ void UPlayFabClientAPI::HelperGetAdPlacements(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00943A50
+//		Offset -> 0x00947CA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperGetAccountInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18494,7 +18494,7 @@ void UPlayFabClientAPI::HelperGetAccountInfo(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00943810
+//		Offset -> 0x00947A60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperExecuteCloudScript
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18520,7 +18520,7 @@ void UPlayFabClientAPI::HelperExecuteCloudScript(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009435D0
+//		Offset -> 0x00947820
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperCreateSharedGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18546,7 +18546,7 @@ void UPlayFabClientAPI::HelperCreateSharedGroup(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00943390
+//		Offset -> 0x009475E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConsumeXboxEntitlements
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18572,7 +18572,7 @@ void UPlayFabClientAPI::HelperConsumeXboxEntitlements(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00943150
+//		Offset -> 0x009473A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConsumePSNEntitlements
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18598,7 +18598,7 @@ void UPlayFabClientAPI::HelperConsumePSNEntitlements(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00942F10
+//		Offset -> 0x00947160
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConsumePS5Entitlements
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18624,7 +18624,7 @@ void UPlayFabClientAPI::HelperConsumePS5Entitlements(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00942CD0
+//		Offset -> 0x00946F20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConsumeMicrosoftStoreEntitlements
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18650,7 +18650,7 @@ void UPlayFabClientAPI::HelperConsumeMicrosoftStoreEntitlements(const struct FPl
 
 
 // Function:
-//		Offset -> 0x00942A90
+//		Offset -> 0x00946CE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConsumeItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18676,7 +18676,7 @@ void UPlayFabClientAPI::HelperConsumeItem(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00942850
+//		Offset -> 0x00946AA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperConfirmPurchase
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18702,7 +18702,7 @@ void UPlayFabClientAPI::HelperConfirmPurchase(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x00942610
+//		Offset -> 0x00946860
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperCancelTrade
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18728,7 +18728,7 @@ void UPlayFabClientAPI::HelperCancelTrade(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x009423D0
+//		Offset -> 0x00946620
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAttributeInstall
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18754,7 +18754,7 @@ void UPlayFabClientAPI::HelperAttributeInstall(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00942190
+//		Offset -> 0x009463E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAndroidDevicePushNotificationRegistration
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18780,7 +18780,7 @@ void UPlayFabClientAPI::HelperAndroidDevicePushNotificationRegistration(const st
 
 
 // Function:
-//		Offset -> 0x00941D10
+//		Offset -> 0x00945F60
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18806,7 +18806,7 @@ void UPlayFabClientAPI::HelperAddUserVirtualCurrency(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00941F50
+//		Offset -> 0x009461A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddUsernamePassword
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18832,7 +18832,7 @@ void UPlayFabClientAPI::HelperAddUsernamePassword(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x00941AD0
+//		Offset -> 0x00945D20
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddSharedGroupMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18858,7 +18858,7 @@ void UPlayFabClientAPI::HelperAddSharedGroupMembers(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00941890
+//		Offset -> 0x00945AE0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddOrUpdateContactEmail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18884,7 +18884,7 @@ void UPlayFabClientAPI::HelperAddOrUpdateContactEmail(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00941650
+//		Offset -> 0x009458A0
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddGenericID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18910,7 +18910,7 @@ void UPlayFabClientAPI::HelperAddGenericID(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00941410
+//		Offset -> 0x00945660
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAddFriend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18936,7 +18936,7 @@ void UPlayFabClientAPI::HelperAddFriend(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x009411D0
+//		Offset -> 0x00945420
 //		Name   -> Function PlayFab.PlayFabClientAPI.HelperAcceptTrade
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -18962,7 +18962,7 @@ void UPlayFabClientAPI::HelperAcceptTrade(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00940F40
+//		Offset -> 0x00945190
 //		Name   -> Function PlayFab.PlayFabClientAPI.GrantCharacterToUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -18993,7 +18993,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GrantCharacterToUser(const st
 
 
 // Function:
-//		Offset -> 0x00940D10
+//		Offset -> 0x00944F60
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetUserReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19024,7 +19024,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetUserReadOnlyData(const str
 
 
 // Function:
-//		Offset -> 0x00940AE0
+//		Offset -> 0x00944D30
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19055,7 +19055,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetUserPublisherReadOnlyData(
 
 
 // Function:
-//		Offset -> 0x009408B0
+//		Offset -> 0x00944B00
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19086,7 +19086,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetUserPublisherData(const st
 
 
 // Function:
-//		Offset -> 0x00940730
+//		Offset -> 0x00944980
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetUserInventory
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19117,7 +19117,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetUserInventory(const struct
 
 
 // Function:
-//		Offset -> 0x00940500
+//		Offset -> 0x00944750
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19148,7 +19148,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetUserData(const struct FCli
 
 
 // Function:
-//		Offset -> 0x009402E0
+//		Offset -> 0x00944530
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetTradeStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19179,7 +19179,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetTradeStatus(const struct F
 
 
 // Function:
-//		Offset -> 0x00940110
+//		Offset -> 0x00944360
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetTitlePublicKey
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19210,7 +19210,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetTitlePublicKey(const struc
 
 
 // Function:
-//		Offset -> 0x0093FF90
+//		Offset -> 0x009441E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetTitleNews
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19241,7 +19241,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetTitleNews(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0093FD70
+//		Offset -> 0x00943FC0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetTitleData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19272,7 +19272,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetTitleData(const struct FCl
 
 
 // Function:
-//		Offset -> 0x0093FC10
+//		Offset -> 0x00943E60
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetTime
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19303,7 +19303,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetTime(const struct FClientG
 
 
 // Function:
-//		Offset -> 0x0093F9F0
+//		Offset -> 0x00943C40
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetStoreItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19334,7 +19334,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetStoreItems(const struct FC
 
 
 // Function:
-//		Offset -> 0x0093F7C0
+//		Offset -> 0x00943A10
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetSharedGroupData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19365,7 +19365,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetSharedGroupData(const stru
 
 
 // Function:
-//		Offset -> 0x0093F5F0
+//		Offset -> 0x00943840
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19396,7 +19396,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPurchase(const struct FCli
 
 
 // Function:
-//		Offset -> 0x0093F420
+//		Offset -> 0x00943670
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19427,7 +19427,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPublisherData(const struct
 
 
 // Function:
-//		Offset -> 0x0093E500
+//		Offset -> 0x00942750
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromXboxLiveIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19458,7 +19458,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromXboxLiveIDs(
 
 
 // Function:
-//		Offset -> 0x0093E330
+//		Offset -> 0x00942580
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromTwitchIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19489,7 +19489,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromTwitchIDs(co
 
 
 // Function:
-//		Offset -> 0x0093E160
+//		Offset -> 0x009423B0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromSteamIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19520,7 +19520,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromSteamIDs(con
 
 
 // Function:
-//		Offset -> 0x0093DF80
+//		Offset -> 0x009421D0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromPSNAccountIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19551,7 +19551,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromPSNAccountID
 
 
 // Function:
-//		Offset -> 0x0093DDB0
+//		Offset -> 0x00942000
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromNintendoSwitchDeviceIds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19582,7 +19582,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromNintendoSwit
 
 
 // Function:
-//		Offset -> 0x0093DBE0
+//		Offset -> 0x00941E30
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromKongregateIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19613,7 +19613,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromKongregateID
 
 
 // Function:
-//		Offset -> 0x0093DA10
+//		Offset -> 0x00941C60
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromGoogleIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19644,7 +19644,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromGoogleIDs(co
 
 
 // Function:
-//		Offset -> 0x0093D840
+//		Offset -> 0x00941A90
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromGenericIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19675,7 +19675,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromGenericIDs(c
 
 
 // Function:
-//		Offset -> 0x0093D670
+//		Offset -> 0x009418C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromGameCenterIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19706,7 +19706,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromGameCenterID
 
 
 // Function:
-//		Offset -> 0x0093D4A0
+//		Offset -> 0x009416F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromFacebookInstantGamesIds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19737,7 +19737,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromFacebookInst
 
 
 // Function:
-//		Offset -> 0x0093D2D0
+//		Offset -> 0x00941520
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayFabIDsFromFacebookIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19768,7 +19768,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayFabIDsFromFacebookIDs(
 
 
 // Function:
-//		Offset -> 0x0093F2A0
+//		Offset -> 0x009434F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerTrades
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19799,7 +19799,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerTrades(const struct 
 
 
 // Function:
-//		Offset -> 0x0093F070
+//		Offset -> 0x009432C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19830,7 +19830,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerTags(const struct FC
 
 
 // Function:
-//		Offset -> 0x0093EC60
+//		Offset -> 0x00942EB0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19861,7 +19861,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerStatisticVersions(co
 
 
 // Function:
-//		Offset -> 0x0093EE40
+//		Offset -> 0x00943090
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19892,7 +19892,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerStatistics(const str
 
 
 // Function:
-//		Offset -> 0x0093EB00
+//		Offset -> 0x00942D50
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19923,7 +19923,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerSegments(const struc
 
 
 // Function:
-//		Offset -> 0x0093E910
+//		Offset -> 0x00942B60
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerProfile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19954,7 +19954,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerProfile(const struct
 
 
 // Function:
-//		Offset -> 0x0093E720
+//		Offset -> 0x00942970
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPlayerCombinedInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -19985,7 +19985,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPlayerCombinedInfo(const s
 
 
 // Function:
-//		Offset -> 0x0093D100
+//		Offset -> 0x00941350
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPhotonAuthenticationToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20016,7 +20016,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPhotonAuthenticationToken(
 
 
 // Function:
-//		Offset -> 0x0093CF30
+//		Offset -> 0x00941180
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetPaymentToken
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20047,7 +20047,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetPaymentToken(const struct 
 
 
 // Function:
-//		Offset -> 0x0093CD50
+//		Offset -> 0x00940FA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetLeaderboardForUserCharacters
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20078,7 +20078,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetLeaderboardForUserCharacte
 
 
 // Function:
-//		Offset -> 0x0093CAE0
+//		Offset -> 0x00940D30
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetLeaderboardAroundPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20109,7 +20109,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetLeaderboardAroundPlayer(co
 
 
 // Function:
-//		Offset -> 0x0093C850
+//		Offset -> 0x00940AA0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetLeaderboardAroundCharacter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20140,7 +20140,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetLeaderboardAroundCharacter
 
 
 // Function:
-//		Offset -> 0x0093C640
+//		Offset -> 0x00940890
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20171,7 +20171,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetLeaderboard(const struct F
 
 
 // Function:
-//		Offset -> 0x0093C470
+//		Offset -> 0x009406C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetGameServerRegions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20202,7 +20202,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetGameServerRegions(const st
 
 
 // Function:
-//		Offset -> 0x0093C270
+//		Offset -> 0x009404C0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetFriendsList
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20233,7 +20233,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetFriendsList(const struct F
 
 
 // Function:
-//		Offset -> 0x0093BF80
+//		Offset -> 0x009401D0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetFriendLeaderboardAroundPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20264,7 +20264,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetFriendLeaderboardAroundPla
 
 
 // Function:
-//		Offset -> 0x0093BCF0
+//		Offset -> 0x0093FF40
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetFriendLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20295,7 +20295,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetFriendLeaderboard(const st
 
 
 // Function:
-//		Offset -> 0x0093B8C0
+//		Offset -> 0x0093FB10
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCurrentGames
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20326,7 +20326,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCurrentGames(const struct 
 
 
 // Function:
-//		Offset -> 0x0093B690
+//		Offset -> 0x0093F8E0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetContentDownloadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20357,7 +20357,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetContentDownloadUrl(const s
 
 
 // Function:
-//		Offset -> 0x0093B4C0
+//		Offset -> 0x0093F710
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCharacterStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20388,7 +20388,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCharacterStatistics(const 
 
 
 // Function:
-//		Offset -> 0x0093B230
+//		Offset -> 0x0093F480
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCharacterReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20419,7 +20419,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCharacterReadOnlyData(cons
 
 
 // Function:
-//		Offset -> 0x0093B000
+//		Offset -> 0x0093F250
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCharacterLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20450,7 +20450,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCharacterLeaderboard(const
 
 
 // Function:
-//		Offset -> 0x0093ADD0
+//		Offset -> 0x0093F020
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCharacterInventory
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20481,7 +20481,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCharacterInventory(const s
 
 
 // Function:
-//		Offset -> 0x0093AB40
+//		Offset -> 0x0093ED90
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCharacterData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20512,7 +20512,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCharacterData(const struct
 
 
 // Function:
-//		Offset -> 0x0093A970
+//		Offset -> 0x0093EBC0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetCatalogItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20543,7 +20543,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetCatalogItems(const struct 
 
 
 // Function:
-//		Offset -> 0x0093A7A0
+//		Offset -> 0x0093E9F0
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetAllUsersCharacters
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20574,7 +20574,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetAllUsersCharacters(const s
 
 
 // Function:
-//		Offset -> 0x0093A5C0
+//		Offset -> 0x0093E810
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetAdPlacements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20605,7 +20605,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetAdPlacements(const struct 
 
 
 // Function:
-//		Offset -> 0x0093A2D0
+//		Offset -> 0x0093E520
 //		Name   -> Function PlayFab.PlayFabClientAPI.GetAccountInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20636,7 +20636,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_GetAccountInfo(const struct F
 
 
 // Function:
-//		Offset -> 0x0093A0C0
+//		Offset -> 0x0093E310
 //		Name   -> Function PlayFab.PlayFabClientAPI.ExecuteCloudScript
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -20667,7 +20667,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ExecuteCloudScript(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessWriteTitleEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20690,7 +20690,7 @@ void UPlayFabClientAPI::DelegateOnSuccessWriteTitleEvent__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessWritePlayerEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20713,7 +20713,7 @@ void UPlayFabClientAPI::DelegateOnSuccessWritePlayerEvent__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessWriteCharacterEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20736,7 +20736,7 @@ void UPlayFabClientAPI::DelegateOnSuccessWriteCharacterEvent__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessValidateWindowsStoreReceipt__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20759,7 +20759,7 @@ void UPlayFabClientAPI::DelegateOnSuccessValidateWindowsStoreReceipt__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessValidateIOSReceipt__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20782,7 +20782,7 @@ void UPlayFabClientAPI::DelegateOnSuccessValidateIOSReceipt__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessValidateGooglePlayPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20805,7 +20805,7 @@ void UPlayFabClientAPI::DelegateOnSuccessValidateGooglePlayPurchase__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessValidateAmazonIAPReceipt__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20828,7 +20828,7 @@ void UPlayFabClientAPI::DelegateOnSuccessValidateAmazonIAPReceipt__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateUserTitleDisplayName__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20851,7 +20851,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateUserTitleDisplayName__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20874,7 +20874,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateUserPublisherData__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20897,7 +20897,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateUserData__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateSharedGroupData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20920,7 +20920,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateSharedGroupData__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdatePlayerStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20943,7 +20943,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdatePlayerStatistics__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateCharacterStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20966,7 +20966,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateCharacterStatistics__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateCharacterData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -20989,7 +20989,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateCharacterData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUpdateAvatarUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21012,7 +21012,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUpdateAvatarUrl__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlockContainerItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21035,7 +21035,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlockContainerItem__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlockContainerInstance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21058,7 +21058,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlockContainerInstance__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkXboxAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21081,7 +21081,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkXboxAccount__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkTwitch__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21104,7 +21104,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkTwitch__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkSteamAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21127,7 +21127,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkSteamAccount__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkPSNAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21150,7 +21150,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkPSNAccount__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkOpenIdConnect__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21173,7 +21173,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkOpenIdConnect__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkNintendoSwitchDeviceId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21196,7 +21196,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkNintendoSwitchDeviceId__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkNintendoServiceAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21219,7 +21219,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkNintendoServiceAccount__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkKongregate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21242,7 +21242,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkKongregate__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkIOSDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21265,7 +21265,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkIOSDeviceID__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkGoogleAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21288,7 +21288,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkGoogleAccount__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkGameCenterAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21311,7 +21311,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkGameCenterAccount__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkFacebookInstantGamesId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21334,7 +21334,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkFacebookInstantGamesId__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkFacebookAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21357,7 +21357,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkFacebookAccount__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkCustomID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21380,7 +21380,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkCustomID__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkApple__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21403,7 +21403,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkApple__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessUnlinkAndroidDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21426,7 +21426,7 @@ void UPlayFabClientAPI::DelegateOnSuccessUnlinkAndroidDeviceID__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21449,7 +21449,7 @@ void UPlayFabClientAPI::DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessStartPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21472,7 +21472,7 @@ void UPlayFabClientAPI::DelegateOnSuccessStartPurchase__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessStartGame__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21495,7 +21495,7 @@ void UPlayFabClientAPI::DelegateOnSuccessStartGame__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessSetPlayerSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21518,7 +21518,7 @@ void UPlayFabClientAPI::DelegateOnSuccessSetPlayerSecret__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessSetFriendTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21541,7 +21541,7 @@ void UPlayFabClientAPI::DelegateOnSuccessSetFriendTags__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessSendAccountRecoveryEmail__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21564,7 +21564,7 @@ void UPlayFabClientAPI::DelegateOnSuccessSendAccountRecoveryEmail__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRewardAdActivity__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21587,7 +21587,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRewardAdActivity__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRestoreIOSPurchases__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21610,7 +21610,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRestoreIOSPurchases__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessReportPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21633,7 +21633,7 @@ void UPlayFabClientAPI::DelegateOnSuccessReportPlayer__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessReportDeviceInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21656,7 +21656,7 @@ void UPlayFabClientAPI::DelegateOnSuccessReportDeviceInfo__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessReportAdActivity__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21679,7 +21679,7 @@ void UPlayFabClientAPI::DelegateOnSuccessReportAdActivity__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRemoveSharedGroupMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21702,7 +21702,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRemoveSharedGroupMembers__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRemoveGenericID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21725,7 +21725,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRemoveGenericID__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRemoveFriend__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21748,7 +21748,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRemoveFriend__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRemoveContactEmail__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21771,7 +21771,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRemoveContactEmail__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRegisterPlayFabUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21794,7 +21794,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRegisterPlayFabUser__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRegisterForIOSPushNotification__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21817,7 +21817,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRegisterForIOSPushNotification__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRefreshPSNAuthToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21840,7 +21840,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRefreshPSNAuthToken__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessRedeemCoupon__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21863,7 +21863,7 @@ void UPlayFabClientAPI::DelegateOnSuccessRedeemCoupon__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessPurchaseItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21886,7 +21886,7 @@ void UPlayFabClientAPI::DelegateOnSuccessPurchaseItem__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessPayForPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21909,7 +21909,7 @@ void UPlayFabClientAPI::DelegateOnSuccessPayForPurchase__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessOpenTrade__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21932,7 +21932,7 @@ void UPlayFabClientAPI::DelegateOnSuccessOpenTrade__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessMatchmake__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21955,7 +21955,7 @@ void UPlayFabClientAPI::DelegateOnSuccessMatchmake__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithXbox__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -21978,7 +21978,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithXbox__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithTwitch__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22001,7 +22001,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithTwitch__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithSteam__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22024,7 +22024,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithSteam__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithPSN__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22047,7 +22047,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithPSN__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithPlayFab__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22070,7 +22070,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithPlayFab__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithOpenIdConnect__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22093,7 +22093,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithOpenIdConnect__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithNintendoSwitchDeviceId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22116,7 +22116,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithNintendoSwitchDeviceId__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithNintendoServiceAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22139,7 +22139,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithNintendoServiceAccount__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithKongregate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22162,7 +22162,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithKongregate__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithIOSDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22185,7 +22185,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithIOSDeviceID__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithGoogleAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22208,7 +22208,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithGoogleAccount__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithGameCenter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22231,7 +22231,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithGameCenter__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithFacebookInstantGamesId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22254,7 +22254,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithFacebookInstantGamesId__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithFacebook__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22277,7 +22277,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithFacebook__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithEmailAddress__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22300,7 +22300,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithEmailAddress__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithCustomID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22323,7 +22323,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithCustomID__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithApple__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22346,7 +22346,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithApple__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLoginWithAndroidDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22369,7 +22369,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLoginWithAndroidDeviceID__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkXboxAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22392,7 +22392,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkXboxAccount__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkTwitch__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22415,7 +22415,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkTwitch__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkSteamAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22438,7 +22438,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkSteamAccount__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkPSNAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22461,7 +22461,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkPSNAccount__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkOpenIdConnect__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22484,7 +22484,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkOpenIdConnect__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkNintendoSwitchDeviceId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22507,7 +22507,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkNintendoSwitchDeviceId__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkNintendoServiceAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22530,7 +22530,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkNintendoServiceAccount__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkKongregate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22553,7 +22553,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkKongregate__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkIOSDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22576,7 +22576,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkIOSDeviceID__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkGoogleAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22599,7 +22599,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkGoogleAccount__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkGameCenterAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22622,7 +22622,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkGameCenterAccount__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkFacebookInstantGamesId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22645,7 +22645,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkFacebookInstantGamesId__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkFacebookAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22668,7 +22668,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkFacebookAccount__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkCustomID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22691,7 +22691,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkCustomID__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkApple__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22714,7 +22714,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkApple__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessLinkAndroidDeviceID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22737,7 +22737,7 @@ void UPlayFabClientAPI::DelegateOnSuccessLinkAndroidDeviceID__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGrantCharacterToUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22760,7 +22760,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGrantCharacterToUser__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetUserReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22783,7 +22783,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetUserReadOnlyData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22806,7 +22806,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22829,7 +22829,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetUserPublisherData__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetUserInventory__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22852,7 +22852,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetUserInventory__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22875,7 +22875,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetUserData__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetTradeStatus__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22898,7 +22898,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetTradeStatus__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetTitlePublicKey__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22921,7 +22921,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetTitlePublicKey__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetTitleNews__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22944,7 +22944,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetTitleNews__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetTitleData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22967,7 +22967,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetTitleData__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetTime__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -22990,7 +22990,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetTime__DelegateSignature(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetStoreItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23013,7 +23013,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetStoreItems__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetSharedGroupData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23036,7 +23036,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetSharedGroupData__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23059,7 +23059,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPurchase__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23082,7 +23082,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPublisherData__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromXboxLiveIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23105,7 +23105,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromXboxLiveIDs__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromTwitchIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23128,7 +23128,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromTwitchIDs__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromSteamIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23151,7 +23151,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromSteamIDs__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromPSNAccountIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23174,7 +23174,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromPSNAccountIDs__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromNintendoSwitchDeviceIds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23197,7 +23197,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromNintendoSwitchDeviceId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromKongregateIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23220,7 +23220,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromKongregateIDs__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromGoogleIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23243,7 +23243,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromGoogleIDs__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromGenericIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23266,7 +23266,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromGenericIDs__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromGameCenterIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23289,7 +23289,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromGameCenterIDs__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromFacebookInstantGamesIds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23312,7 +23312,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromFacebookInstantGamesId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayFabIDsFromFacebookIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23335,7 +23335,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayFabIDsFromFacebookIDs__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerTrades__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23358,7 +23358,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerTrades__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23381,7 +23381,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerTags__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerStatisticVersions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23404,7 +23404,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerStatisticVersions__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23427,7 +23427,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerStatistics__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23450,7 +23450,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerSegments__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerProfile__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23473,7 +23473,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerProfile__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPlayerCombinedInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23496,7 +23496,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPlayerCombinedInfo__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPhotonAuthenticationToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23519,7 +23519,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPhotonAuthenticationToken__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetPaymentToken__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23542,7 +23542,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetPaymentToken__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetLeaderboardForUserCharacters__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23565,7 +23565,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetLeaderboardForUserCharacters__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetLeaderboardAroundPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23588,7 +23588,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetLeaderboardAroundPlayer__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetLeaderboardAroundCharacter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23611,7 +23611,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetLeaderboardAroundCharacter__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23634,7 +23634,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetLeaderboard__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetGameServerRegions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23657,7 +23657,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetGameServerRegions__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetFriendsList__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23680,7 +23680,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetFriendsList__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetFriendLeaderboardAroundPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23703,7 +23703,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetFriendLeaderboardAroundPlayer__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetFriendLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23726,7 +23726,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetFriendLeaderboard__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCurrentGames__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23749,7 +23749,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCurrentGames__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetContentDownloadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23772,7 +23772,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetContentDownloadUrl__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCharacterStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23795,7 +23795,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCharacterStatistics__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCharacterReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23818,7 +23818,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCharacterReadOnlyData__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCharacterLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23841,7 +23841,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCharacterLeaderboard__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCharacterInventory__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23864,7 +23864,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCharacterInventory__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCharacterData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23887,7 +23887,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCharacterData__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetCatalogItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23910,7 +23910,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetCatalogItems__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetAllUsersCharacters__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23933,7 +23933,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetAllUsersCharacters__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetAdPlacements__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23956,7 +23956,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetAdPlacements__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessGetAccountInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -23979,7 +23979,7 @@ void UPlayFabClientAPI::DelegateOnSuccessGetAccountInfo__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessExecuteCloudScript__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24002,7 +24002,7 @@ void UPlayFabClientAPI::DelegateOnSuccessExecuteCloudScript__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessCreateSharedGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24025,7 +24025,7 @@ void UPlayFabClientAPI::DelegateOnSuccessCreateSharedGroup__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConsumeXboxEntitlements__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24048,7 +24048,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConsumeXboxEntitlements__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConsumePSNEntitlements__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24071,7 +24071,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConsumePSNEntitlements__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConsumePS5Entitlements__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24094,7 +24094,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConsumePS5Entitlements__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConsumeMicrosoftStoreEntitlements__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24117,7 +24117,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConsumeMicrosoftStoreEntitlements__Dele
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConsumeItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24140,7 +24140,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConsumeItem__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessConfirmPurchase__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24163,7 +24163,7 @@ void UPlayFabClientAPI::DelegateOnSuccessConfirmPurchase__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessCancelTrade__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24186,7 +24186,7 @@ void UPlayFabClientAPI::DelegateOnSuccessCancelTrade__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAttributeInstall__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24209,7 +24209,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAttributeInstall__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAndroidDevicePushNotificationRegistration__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24232,7 +24232,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAndroidDevicePushNotificationRegistrati
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24255,7 +24255,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddUserVirtualCurrency__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddUsernamePassword__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24278,7 +24278,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddUsernamePassword__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddSharedGroupMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24301,7 +24301,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddSharedGroupMembers__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddOrUpdateContactEmail__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24324,7 +24324,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddOrUpdateContactEmail__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddGenericID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24347,7 +24347,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddGenericID__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAddFriend__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24370,7 +24370,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAddFriend__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnSuccessAcceptTrade__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24393,7 +24393,7 @@ void UPlayFabClientAPI::DelegateOnSuccessAcceptTrade__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabClientAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -24416,7 +24416,7 @@ void UPlayFabClientAPI::DelegateOnFailurePlayFabError__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x00939EF0
+//		Offset -> 0x0093E140
 //		Name   -> Function PlayFab.PlayFabClientAPI.CreateSharedGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24447,7 +24447,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_CreateSharedGroup(const struc
 
 
 // Function:
-//		Offset -> 0x00939CC0
+//		Offset -> 0x0093DF10
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConsumeXboxEntitlements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24478,7 +24478,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConsumeXboxEntitlements(const
 
 
 // Function:
-//		Offset -> 0x00939AD0
+//		Offset -> 0x0093DD20
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConsumePSNEntitlements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24509,7 +24509,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConsumePSNEntitlements(const 
 
 
 // Function:
-//		Offset -> 0x009398E0
+//		Offset -> 0x0093DB30
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConsumePS5Entitlements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24540,7 +24540,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConsumePS5Entitlements(const 
 
 
 // Function:
-//		Offset -> 0x009396F0
+//		Offset -> 0x0093D940
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConsumeMicrosoftStoreEntitlements
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24571,7 +24571,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConsumeMicrosoftStoreEntitlem
 
 
 // Function:
-//		Offset -> 0x009394B0
+//		Offset -> 0x0093D700
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConsumeItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24602,7 +24602,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConsumeItem(const struct FCli
 
 
 // Function:
-//		Offset -> 0x009392D0
+//		Offset -> 0x0093D520
 //		Name   -> Function PlayFab.PlayFabClientAPI.ConfirmPurchase
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24633,7 +24633,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_ConfirmPurchase(const struct 
 
 
 // Function:
-//		Offset -> 0x00939100
+//		Offset -> 0x0093D350
 //		Name   -> Function PlayFab.PlayFabClientAPI.CancelTrade
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24664,7 +24664,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_CancelTrade(const struct FCli
 
 
 // Function:
-//		Offset -> 0x00938EE0
+//		Offset -> 0x0093D130
 //		Name   -> Function PlayFab.PlayFabClientAPI.AttributeInstall
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24695,7 +24695,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AttributeInstall(const struct
 
 
 // Function:
-//		Offset -> 0x00938CB0
+//		Offset -> 0x0093CF00
 //		Name   -> Function PlayFab.PlayFabClientAPI.AndroidDevicePushNotificationRegistration
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24726,7 +24726,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AndroidDevicePushNotification
 
 
 // Function:
-//		Offset -> 0x00938830
+//		Offset -> 0x0093CA80
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24757,7 +24757,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddUserVirtualCurrency(const 
 
 
 // Function:
-//		Offset -> 0x00938A20
+//		Offset -> 0x0093CC70
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddUsernamePassword
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24788,7 +24788,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddUsernamePassword(const str
 
 
 // Function:
-//		Offset -> 0x00938610
+//		Offset -> 0x0093C860
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddSharedGroupMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24819,7 +24819,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddSharedGroupMembers(const s
 
 
 // Function:
-//		Offset -> 0x00938430
+//		Offset -> 0x0093C680
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddOrUpdateContactEmail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24850,7 +24850,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddOrUpdateContactEmail(const
 
 
 // Function:
-//		Offset -> 0x009382B0
+//		Offset -> 0x0093C500
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddGenericID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24881,7 +24881,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddGenericID(const struct FCl
 
 
 // Function:
-//		Offset -> 0x00937FC0
+//		Offset -> 0x0093C210
 //		Name   -> Function PlayFab.PlayFabClientAPI.AddFriend
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24912,7 +24912,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AddFriend(const struct FClien
 
 
 // Function:
-//		Offset -> 0x00937D40
+//		Offset -> 0x0093BF90
 //		Name   -> Function PlayFab.PlayFabClientAPI.AcceptTrade
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24943,7 +24943,7 @@ class UPlayFabClientAPI* UPlayFabClientAPI::STATIC_AcceptTrade(const struct FCli
 
 
 // Function:
-//		Offset -> 0x0096AAB0
+//		Offset -> 0x0096ED00
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeWriteEventResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24968,7 +24968,7 @@ struct FClientWriteEventResponse UPlayFabClientModelDecoder::STATIC_decodeWriteE
 
 
 // Function:
-//		Offset -> 0x0096A2B0
+//		Offset -> 0x0096E500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeValidateWindowsReceiptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -24993,7 +24993,7 @@ struct FClientValidateWindowsReceiptResult UPlayFabClientModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x0096A2B0
+//		Offset -> 0x0096E500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeValidateIOSReceiptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25018,7 +25018,7 @@ struct FClientValidateIOSReceiptResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x0096A2B0
+//		Offset -> 0x0096E500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeValidateGooglePlayPurchaseResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25043,7 +25043,7 @@ struct FClientValidateGooglePlayPurchaseResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x0096A2B0
+//		Offset -> 0x0096E500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeValidateAmazonReceiptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25068,7 +25068,7 @@ struct FClientValidateAmazonReceiptResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x0096A9E0
+//		Offset -> 0x0096EC30
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdateUserTitleDisplayNameResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25093,7 +25093,7 @@ struct FClientUpdateUserTitleDisplayNameResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x0096A950
+//		Offset -> 0x0096EBA0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdateUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25118,7 +25118,7 @@ struct FClientUpdateUserDataResult UPlayFabClientModelDecoder::STATIC_decodeUpda
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdateSharedGroupDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25143,7 +25143,7 @@ struct FClientUpdateSharedGroupDataResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdatePlayerStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25168,7 +25168,7 @@ struct FClientUpdatePlayerStatisticsResult UPlayFabClientModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdateCharacterStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25193,7 +25193,7 @@ struct FClientUpdateCharacterStatisticsResult UPlayFabClientModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x0096A950
+//		Offset -> 0x0096EBA0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUpdateCharacterDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25218,7 +25218,7 @@ struct FClientUpdateCharacterDataResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x0096A7E0
+//		Offset -> 0x0096EA30
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlockContainerItemResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25243,7 +25243,7 @@ struct FClientUnlockContainerItemResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkXboxAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25268,7 +25268,7 @@ struct FClientUnlinkXboxAccountResult UPlayFabClientModelDecoder::STATIC_decodeU
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkTwitchAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25293,7 +25293,7 @@ struct FClientUnlinkTwitchAccountResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkSteamAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25318,7 +25318,7 @@ struct FClientUnlinkSteamAccountResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkPSNAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25343,7 +25343,7 @@ struct FClientUnlinkPSNAccountResult UPlayFabClientModelDecoder::STATIC_decodeUn
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkNintendoSwitchDeviceIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25368,7 +25368,7 @@ struct FClientUnlinkNintendoSwitchDeviceIdResult UPlayFabClientModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkKongregateAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25393,7 +25393,7 @@ struct FClientUnlinkKongregateAccountResult UPlayFabClientModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkIOSDeviceIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25418,7 +25418,7 @@ struct FClientUnlinkIOSDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeU
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkGoogleAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25443,7 +25443,7 @@ struct FClientUnlinkGoogleAccountResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkGameCenterAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25468,7 +25468,7 @@ struct FClientUnlinkGameCenterAccountResult UPlayFabClientModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkFacebookInstantGamesIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25493,7 +25493,7 @@ struct FClientUnlinkFacebookInstantGamesIdResult UPlayFabClientModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkFacebookAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25518,7 +25518,7 @@ struct FClientUnlinkFacebookAccountResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkCustomIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25543,7 +25543,7 @@ struct FClientUnlinkCustomIDResult UPlayFabClientModelDecoder::STATIC_decodeUnli
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeUnlinkAndroidDeviceIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25568,7 +25568,7 @@ struct FClientUnlinkAndroidDeviceIDResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x0096A670
+//		Offset -> 0x0096E8C0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeStartPurchaseResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25593,7 +25593,7 @@ struct FClientStartPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeStart
 
 
 // Function:
-//		Offset -> 0x0096A550
+//		Offset -> 0x0096E7A0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeStartGameResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25618,7 +25618,7 @@ struct FClientStartGameResult UPlayFabClientModelDecoder::STATIC_decodeStartGame
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeSetPlayerSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25643,7 +25643,7 @@ struct FClientSetPlayerSecretResult UPlayFabClientModelDecoder::STATIC_decodeSet
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeSetFriendTagsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25668,7 +25668,7 @@ struct FClientSetFriendTagsResult UPlayFabClientModelDecoder::STATIC_decodeSetFr
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeSendAccountRecoveryEmailResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25693,7 +25693,7 @@ struct FClientSendAccountRecoveryEmailResult UPlayFabClientModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x0096A380
+//		Offset -> 0x0096E5D0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRewardAdActivityResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25718,7 +25718,7 @@ struct FClientRewardAdActivityResult UPlayFabClientModelDecoder::STATIC_decodeRe
 
 
 // Function:
-//		Offset -> 0x0096A2B0
+//		Offset -> 0x0096E500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRestoreIOSPurchasesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25743,7 +25743,7 @@ struct FClientRestoreIOSPurchasesResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x0096A220
+//		Offset -> 0x0096E470
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeReportPlayerClientResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25768,7 +25768,7 @@ struct FClientReportPlayerClientResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeReportAdActivityResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25793,7 +25793,7 @@ struct FClientReportAdActivityResult UPlayFabClientModelDecoder::STATIC_decodeRe
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRemoveSharedGroupMembersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25818,7 +25818,7 @@ struct FClientRemoveSharedGroupMembersResult UPlayFabClientModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRemoveGenericIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25843,7 +25843,7 @@ struct FClientRemoveGenericIDResult UPlayFabClientModelDecoder::STATIC_decodeRem
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRemoveFriendResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25868,7 +25868,7 @@ struct FClientRemoveFriendResult UPlayFabClientModelDecoder::STATIC_decodeRemove
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRemoveContactEmailResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25893,7 +25893,7 @@ struct FClientRemoveContactEmailResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x0096A0A0
+//		Offset -> 0x0096E2F0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRegisterPlayFabUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25918,7 +25918,7 @@ struct FClientRegisterPlayFabUserResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRegisterForIOSPushNotificationResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25943,7 +25943,7 @@ struct FClientRegisterForIOSPushNotificationResult UPlayFabClientModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x00969FD0
+//		Offset -> 0x0096E220
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeRedeemCouponResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25968,7 +25968,7 @@ struct FClientRedeemCouponResult UPlayFabClientModelDecoder::STATIC_decodeRedeem
 
 
 // Function:
-//		Offset -> 0x00967930
+//		Offset -> 0x0096BB80
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodePurchaseItemResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -25993,7 +25993,7 @@ struct FClientPurchaseItemResult UPlayFabClientModelDecoder::STATIC_decodePurcha
 
 
 // Function:
-//		Offset -> 0x00969EE0
+//		Offset -> 0x0096E130
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodePayForPurchaseResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26018,7 +26018,7 @@ struct FClientPayForPurchaseResult UPlayFabClientModelDecoder::STATIC_decodePayF
 
 
 // Function:
-//		Offset -> 0x009674F0
+//		Offset -> 0x0096B740
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeOpenTradeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26043,7 +26043,7 @@ struct FClientOpenTradeResponse UPlayFabClientModelDecoder::STATIC_decodeOpenTra
 
 
 // Function:
-//		Offset -> 0x00969DB0
+//		Offset -> 0x0096E000
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeModifyUserVirtualCurrencyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26068,7 +26068,7 @@ struct FClientModifyUserVirtualCurrencyResult UPlayFabClientModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x00969CB0
+//		Offset -> 0x0096DF00
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeMatchmakeResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26093,7 +26093,7 @@ struct FClientMatchmakeResult UPlayFabClientModelDecoder::STATIC_decodeMatchmake
 
 
 // Function:
-//		Offset -> 0x00969B10
+//		Offset -> 0x0096DD60
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLoginResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26118,7 +26118,7 @@ struct FClientLoginResult UPlayFabClientModelDecoder::STATIC_decodeLoginResultRe
 
 
 // Function:
-//		Offset -> 0x00969A40
+//		Offset -> 0x0096DC90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeListUsersCharactersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26143,7 +26143,7 @@ struct FClientListUsersCharactersResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkXboxAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26168,7 +26168,7 @@ struct FClientLinkXboxAccountResult UPlayFabClientModelDecoder::STATIC_decodeLin
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkTwitchAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26193,7 +26193,7 @@ struct FClientLinkTwitchAccountResult UPlayFabClientModelDecoder::STATIC_decodeL
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkSteamAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26218,7 +26218,7 @@ struct FClientLinkSteamAccountResult UPlayFabClientModelDecoder::STATIC_decodeLi
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkPSNAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26243,7 +26243,7 @@ struct FClientLinkPSNAccountResult UPlayFabClientModelDecoder::STATIC_decodeLink
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkNintendoSwitchDeviceIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26268,7 +26268,7 @@ struct FClientLinkNintendoSwitchDeviceIdResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkKongregateAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26293,7 +26293,7 @@ struct FClientLinkKongregateAccountResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkIOSDeviceIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26318,7 +26318,7 @@ struct FClientLinkIOSDeviceIDResult UPlayFabClientModelDecoder::STATIC_decodeLin
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkGoogleAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26343,7 +26343,7 @@ struct FClientLinkGoogleAccountResult UPlayFabClientModelDecoder::STATIC_decodeL
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkGameCenterAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26368,7 +26368,7 @@ struct FClientLinkGameCenterAccountResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkFacebookInstantGamesIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26393,7 +26393,7 @@ struct FClientLinkFacebookInstantGamesIdResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkFacebookAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26418,7 +26418,7 @@ struct FClientLinkFacebookAccountResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkCustomIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26443,7 +26443,7 @@ struct FClientLinkCustomIDResult UPlayFabClientModelDecoder::STATIC_decodeLinkCu
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeLinkAndroidDeviceIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26468,7 +26468,7 @@ struct FClientLinkAndroidDeviceIDResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00969910
+//		Offset -> 0x0096DB60
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGrantCharacterToUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26493,7 +26493,7 @@ struct FClientGrantCharacterToUserResult UPlayFabClientModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00969820
+//		Offset -> 0x0096DA70
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetUserInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26518,7 +26518,7 @@ struct FClientGetUserInventoryResult UPlayFabClientModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00969780
+//		Offset -> 0x0096D9D0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26543,7 +26543,7 @@ struct FClientGetUserDataResult UPlayFabClientModelDecoder::STATIC_decodeGetUser
 
 
 // Function:
-//		Offset -> 0x009674F0
+//		Offset -> 0x0096B740
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetTradeStatusResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26568,7 +26568,7 @@ struct FClientGetTradeStatusResponse UPlayFabClientModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x009696B0
+//		Offset -> 0x0096D900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetTitlePublicKeyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26593,7 +26593,7 @@ struct FClientGetTitlePublicKeyResult UPlayFabClientModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x009695E0
+//		Offset -> 0x0096D830
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetTitleNewsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26618,7 +26618,7 @@ struct FClientGetTitleNewsResult UPlayFabClientModelDecoder::STATIC_decodeGetTit
 
 
 // Function:
-//		Offset -> 0x00969030
+//		Offset -> 0x0096D280
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetTitleDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26643,7 +26643,7 @@ struct FClientGetTitleDataResult UPlayFabClientModelDecoder::STATIC_decodeGetTit
 
 
 // Function:
-//		Offset -> 0x00969510
+//		Offset -> 0x0096D760
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetTimeResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26668,7 +26668,7 @@ struct FClientGetTimeResult UPlayFabClientModelDecoder::STATIC_decodeGetTimeResu
 
 
 // Function:
-//		Offset -> 0x00969390
+//		Offset -> 0x0096D5E0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetStoreItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26693,7 +26693,7 @@ struct FClientGetStoreItemsResult UPlayFabClientModelDecoder::STATIC_decodeGetSt
 
 
 // Function:
-//		Offset -> 0x009692B0
+//		Offset -> 0x0096D500
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetSharedGroupDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26718,7 +26718,7 @@ struct FClientGetSharedGroupDataResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009690C0
+//		Offset -> 0x0096D310
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPurchaseResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26743,7 +26743,7 @@ struct FClientGetPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeGetPurc
 
 
 // Function:
-//		Offset -> 0x00969030
+//		Offset -> 0x0096D280
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPublisherDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26768,7 +26768,7 @@ struct FClientGetPublisherDataResult UPlayFabClientModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromXboxLiveIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26793,7 +26793,7 @@ struct FClientGetPlayFabIDsFromXboxLiveIDsResult UPlayFabClientModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromTwitchIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26818,7 +26818,7 @@ struct FClientGetPlayFabIDsFromTwitchIDsResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromSteamIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26843,7 +26843,7 @@ struct FClientGetPlayFabIDsFromSteamIDsResult UPlayFabClientModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromPSNAccountIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26868,7 +26868,7 @@ struct FClientGetPlayFabIDsFromPSNAccountIDsResult UPlayFabClientModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromNintendoSwitchDeviceIdsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26893,7 +26893,7 @@ struct FClientGetPlayFabIDsFromNintendoSwitchDeviceIdsResult UPlayFabClientModel
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromKongregateIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26918,7 +26918,7 @@ struct FClientGetPlayFabIDsFromKongregateIDsResult UPlayFabClientModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromGoogleIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26943,7 +26943,7 @@ struct FClientGetPlayFabIDsFromGoogleIDsResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromGenericIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26968,7 +26968,7 @@ struct FClientGetPlayFabIDsFromGenericIDsResult UPlayFabClientModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromGameCenterIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -26993,7 +26993,7 @@ struct FClientGetPlayFabIDsFromGameCenterIDsResult UPlayFabClientModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromFacebookInstantGamesIdsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27018,7 +27018,7 @@ struct FClientGetPlayFabIDsFromFacebookInstantGamesIdsResult UPlayFabClientModel
 
 
 // Function:
-//		Offset -> 0x00968940
+//		Offset -> 0x0096CB90
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayFabIDsFromFacebookIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27043,7 +27043,7 @@ struct FClientGetPlayFabIDsFromFacebookIDsResult UPlayFabClientModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x00968F10
+//		Offset -> 0x0096D160
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerTradesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27068,7 +27068,7 @@ struct FClientGetPlayerTradesResponse UPlayFabClientModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00968DF0
+//		Offset -> 0x0096D040
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerTagsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27093,7 +27093,7 @@ struct FClientGetPlayerTagsResult UPlayFabClientModelDecoder::STATIC_decodeGetPl
 
 
 // Function:
-//		Offset -> 0x00968C50
+//		Offset -> 0x0096CEA0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerStatisticVersionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27118,7 +27118,7 @@ struct FClientGetPlayerStatisticVersionsResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x00968D20
+//		Offset -> 0x0096CF70
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27143,7 +27143,7 @@ struct FClientGetPlayerStatisticsResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00968B80
+//		Offset -> 0x0096CDD0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerSegmentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27168,7 +27168,7 @@ struct FClientGetPlayerSegmentsResult UPlayFabClientModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00968AF0
+//		Offset -> 0x0096CD40
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerProfileResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27193,7 +27193,7 @@ struct FClientGetPlayerProfileResult UPlayFabClientModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00968A10
+//		Offset -> 0x0096CC60
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPlayerCombinedInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27218,7 +27218,7 @@ struct FClientGetPlayerCombinedInfoResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x00968870
+//		Offset -> 0x0096CAC0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPhotonAuthenticationTokenResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27243,7 +27243,7 @@ struct FClientGetPhotonAuthenticationTokenResult UPlayFabClientModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x00968750
+//		Offset -> 0x0096C9A0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetPaymentTokenResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27268,7 +27268,7 @@ struct FClientGetPaymentTokenResult UPlayFabClientModelDecoder::STATIC_decodeGet
 
 
 // Function:
-//		Offset -> 0x00968550
+//		Offset -> 0x0096C7A0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetLeaderboardResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27293,7 +27293,7 @@ struct FClientGetLeaderboardResult UPlayFabClientModelDecoder::STATIC_decodeGetL
 
 
 // Function:
-//		Offset -> 0x00968320
+//		Offset -> 0x0096C570
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetLeaderboardForUsersCharactersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27318,7 +27318,7 @@ struct FClientGetLeaderboardForUsersCharactersResult UPlayFabClientModelDecoder:
 
 
 // Function:
-//		Offset -> 0x00968550
+//		Offset -> 0x0096C7A0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetLeaderboardAroundPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27343,7 +27343,7 @@ struct FClientGetLeaderboardAroundPlayerResult UPlayFabClientModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x00968320
+//		Offset -> 0x0096C570
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetLeaderboardAroundCharacterResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27368,7 +27368,7 @@ struct FClientGetLeaderboardAroundCharacterResult UPlayFabClientModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x00968680
+//		Offset -> 0x0096C8D0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetFriendsListResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27393,7 +27393,7 @@ struct FClientGetFriendsListResult UPlayFabClientModelDecoder::STATIC_decodeGetF
 
 
 // Function:
-//		Offset -> 0x00968550
+//		Offset -> 0x0096C7A0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetFriendLeaderboardAroundPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27418,7 +27418,7 @@ struct FClientGetFriendLeaderboardAroundPlayerResult UPlayFabClientModelDecoder:
 
 
 // Function:
-//		Offset -> 0x00968480
+//		Offset -> 0x0096C6D0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetContentDownloadUrlResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27443,7 +27443,7 @@ struct FClientGetContentDownloadUrlResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009683F0
+//		Offset -> 0x0096C640
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetCharacterStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27468,7 +27468,7 @@ struct FClientGetCharacterStatisticsResult UPlayFabClientModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00968320
+//		Offset -> 0x0096C570
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetCharacterLeaderboardResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27493,7 +27493,7 @@ struct FClientGetCharacterLeaderboardResult UPlayFabClientModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009681F0
+//		Offset -> 0x0096C440
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetCharacterInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27518,7 +27518,7 @@ struct FClientGetCharacterInventoryResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x00968100
+//		Offset -> 0x0096C350
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetCharacterDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27543,7 +27543,7 @@ struct FClientGetCharacterDataResult UPlayFabClientModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00968030
+//		Offset -> 0x0096C280
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetCatalogItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27568,7 +27568,7 @@ struct FClientGetCatalogItemsResult UPlayFabClientModelDecoder::STATIC_decodeGet
 
 
 // Function:
-//		Offset -> 0x00967F60
+//		Offset -> 0x0096C1B0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetAdPlacementsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27593,7 +27593,7 @@ struct FClientGetAdPlacementsResult UPlayFabClientModelDecoder::STATIC_decodeGet
 
 
 // Function:
-//		Offset -> 0x00967ED0
+//		Offset -> 0x0096C120
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGetAccountInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27618,7 +27618,7 @@ struct FClientGetAccountInfoResult UPlayFabClientModelDecoder::STATIC_decodeGetA
 
 
 // Function:
-//		Offset -> 0x00967E00
+//		Offset -> 0x0096C050
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeGameServerRegionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27643,7 +27643,7 @@ struct FClientGameServerRegionsResult UPlayFabClientModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00967C90
+//		Offset -> 0x0096BEE0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeExecuteCloudScriptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27668,7 +27668,7 @@ struct FClientExecuteCloudScriptResult UPlayFabClientModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeEmptyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27693,7 +27693,7 @@ struct FClientEmptyResult UPlayFabClientModelDecoder::STATIC_decodeEmptyResultRe
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27718,7 +27718,7 @@ struct FClientEmptyResponse UPlayFabClientModelDecoder::STATIC_decodeEmptyRespon
 
 
 // Function:
-//		Offset -> 0x00967BA0
+//		Offset -> 0x0096BDF0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeCurrentGamesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27743,7 +27743,7 @@ struct FClientCurrentGamesResult UPlayFabClientModelDecoder::STATIC_decodeCurren
 
 
 // Function:
-//		Offset -> 0x00967AD0
+//		Offset -> 0x0096BD20
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeCreateSharedGroupResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27768,7 +27768,7 @@ struct FClientCreateSharedGroupResult UPlayFabClientModelDecoder::STATIC_decodeC
 
 
 // Function:
-//		Offset -> 0x00967930
+//		Offset -> 0x0096BB80
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConsumeXboxEntitlementsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27793,7 +27793,7 @@ struct FClientConsumeXboxEntitlementsResult UPlayFabClientModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x00967A00
+//		Offset -> 0x0096BC50
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConsumePSNEntitlementsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27818,7 +27818,7 @@ struct FClientConsumePSNEntitlementsResult UPlayFabClientModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00967930
+//		Offset -> 0x0096BB80
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConsumePS5EntitlementsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27843,7 +27843,7 @@ struct FClientConsumePS5EntitlementsResult UPlayFabClientModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00967930
+//		Offset -> 0x0096BB80
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConsumeMicrosoftStoreEntitlementsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27868,7 +27868,7 @@ struct FClientConsumeMicrosoftStoreEntitlementsResponse UPlayFabClientModelDecod
 
 
 // Function:
-//		Offset -> 0x00967850
+//		Offset -> 0x0096BAA0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConsumeItemResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27893,7 +27893,7 @@ struct FClientConsumeItemResult UPlayFabClientModelDecoder::STATIC_decodeConsume
 
 
 // Function:
-//		Offset -> 0x009676E0
+//		Offset -> 0x0096B930
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeConfirmPurchaseResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27918,7 +27918,7 @@ struct FClientConfirmPurchaseResult UPlayFabClientModelDecoder::STATIC_decodeCon
 
 
 // Function:
-//		Offset -> 0x009674F0
+//		Offset -> 0x0096B740
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeCancelTradeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27943,7 +27943,7 @@ struct FClientCancelTradeResponse UPlayFabClientModelDecoder::STATIC_decodeCance
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAttributeInstallResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27968,7 +27968,7 @@ struct FClientAttributeInstallResult UPlayFabClientModelDecoder::STATIC_decodeAt
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAndroidDevicePushNotificationRegistrationResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -27993,7 +27993,7 @@ struct FClientAndroidDevicePushNotificationRegistrationResult UPlayFabClientMode
 
 
 // Function:
-//		Offset -> 0x00967610
+//		Offset -> 0x0096B860
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAddUsernamePasswordResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28018,7 +28018,7 @@ struct FClientAddUsernamePasswordResult UPlayFabClientModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAddSharedGroupMembersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28043,7 +28043,7 @@ struct FClientAddSharedGroupMembersResult UPlayFabClientModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAddOrUpdateContactEmailResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28068,7 +28068,7 @@ struct FClientAddOrUpdateContactEmailResult UPlayFabClientModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAddGenericIDResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28093,7 +28093,7 @@ struct FClientAddGenericIDResult UPlayFabClientModelDecoder::STATIC_decodeAddGen
 
 
 // Function:
-//		Offset -> 0x00967580
+//		Offset -> 0x0096B7D0
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAddFriendResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28118,7 +28118,7 @@ struct FClientAddFriendResult UPlayFabClientModelDecoder::STATIC_decodeAddFriend
 
 
 // Function:
-//		Offset -> 0x009674F0
+//		Offset -> 0x0096B740
 //		Name   -> Function PlayFab.PlayFabClientModelDecoder.decodeAcceptTradeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28143,7 +28143,7 @@ struct FClientAcceptTradeResponse UPlayFabClientModelDecoder::STATIC_decodeAccep
 
 
 // Function:
-//		Offset -> 0x0097F5D0
+//		Offset -> 0x00983820
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.UnregisterFunction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28174,7 +28174,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_UnregisterFunction(
 
 
 // Function:
-//		Offset -> 0x0097F340
+//		Offset -> 0x00983590
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.RegisterQueuedFunction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28205,7 +28205,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_RegisterQueuedFunct
 
 
 // Function:
-//		Offset -> 0x0097F110
+//		Offset -> 0x00983360
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.RegisterHttpFunction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28236,7 +28236,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_RegisterHttpFunctio
 
 
 // Function:
-//		Offset -> 0x0097EF70
+//		Offset -> 0x009831C0
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.PostFunctionResultForScheduledTask
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28267,7 +28267,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_PostFunctionResultF
 
 
 // Function:
-//		Offset -> 0x0097EDD0
+//		Offset -> 0x00983020
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.PostFunctionResultForPlayerTriggeredAction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28298,7 +28298,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_PostFunctionResultF
 
 
 // Function:
-//		Offset -> 0x0097EC40
+//		Offset -> 0x00982E90
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.PostFunctionResultForFunctionExecution
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28329,7 +28329,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_PostFunctionResultF
 
 
 // Function:
-//		Offset -> 0x0097EAB0
+//		Offset -> 0x00982D00
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.PostFunctionResultForEntityTriggeredAction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28360,7 +28360,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_PostFunctionResultF
 
 
 // Function:
-//		Offset -> 0x0097E930
+//		Offset -> 0x00982B80
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.ListQueuedFunctions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28391,7 +28391,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_ListQueuedFunctions
 
 
 // Function:
-//		Offset -> 0x0097E7B0
+//		Offset -> 0x00982A00
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.ListHttpFunctions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28422,7 +28422,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_ListHttpFunctions(c
 
 
 // Function:
-//		Offset -> 0x0097E630
+//		Offset -> 0x00982880
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.ListFunctions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28453,7 +28453,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_ListFunctions(const
 
 
 // Function:
-//		Offset -> 0x0097E3F0
+//		Offset -> 0x00982640
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperUnregisterFunction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28479,7 +28479,7 @@ void UPlayFabCloudScriptAPI::HelperUnregisterFunction(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x0097E1B0
+//		Offset -> 0x00982400
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperRegisterQueuedFunction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28505,7 +28505,7 @@ void UPlayFabCloudScriptAPI::HelperRegisterQueuedFunction(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x0097DF70
+//		Offset -> 0x009821C0
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperRegisterHttpFunction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28531,7 +28531,7 @@ void UPlayFabCloudScriptAPI::HelperRegisterHttpFunction(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x0097DD30
+//		Offset -> 0x00981F80
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperPostFunctionResultForScheduledTask
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28557,7 +28557,7 @@ void UPlayFabCloudScriptAPI::HelperPostFunctionResultForScheduledTask(const stru
 
 
 // Function:
-//		Offset -> 0x0097DAF0
+//		Offset -> 0x00981D40
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperPostFunctionResultForPlayerTriggeredAction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28583,7 +28583,7 @@ void UPlayFabCloudScriptAPI::HelperPostFunctionResultForPlayerTriggeredAction(co
 
 
 // Function:
-//		Offset -> 0x0097D8B0
+//		Offset -> 0x00981B00
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperPostFunctionResultForFunctionExecution
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28609,7 +28609,7 @@ void UPlayFabCloudScriptAPI::HelperPostFunctionResultForFunctionExecution(const 
 
 
 // Function:
-//		Offset -> 0x0097D670
+//		Offset -> 0x009818C0
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperPostFunctionResultForEntityTriggeredAction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28635,7 +28635,7 @@ void UPlayFabCloudScriptAPI::HelperPostFunctionResultForEntityTriggeredAction(co
 
 
 // Function:
-//		Offset -> 0x0097D430
+//		Offset -> 0x00981680
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperListQueuedFunctions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28661,7 +28661,7 @@ void UPlayFabCloudScriptAPI::HelperListQueuedFunctions(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x0097D1F0
+//		Offset -> 0x00981440
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperListHttpFunctions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28687,7 +28687,7 @@ void UPlayFabCloudScriptAPI::HelperListHttpFunctions(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0097CFB0
+//		Offset -> 0x00981200
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperListFunctions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28713,7 +28713,7 @@ void UPlayFabCloudScriptAPI::HelperListFunctions(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x0097CD70
+//		Offset -> 0x00980FC0
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperExecuteFunction
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28739,7 +28739,7 @@ void UPlayFabCloudScriptAPI::HelperExecuteFunction(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0097CB30
+//		Offset -> 0x00980D80
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.HelperExecuteEntityCloudScript
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -28765,7 +28765,7 @@ void UPlayFabCloudScriptAPI::HelperExecuteEntityCloudScript(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x0097C930
+//		Offset -> 0x00980B80
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.ExecuteFunction
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28796,7 +28796,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_ExecuteFunction(con
 
 
 // Function:
-//		Offset -> 0x0097C720
+//		Offset -> 0x00980970
 //		Name   -> Function PlayFab.PlayFabCloudScriptAPI.ExecuteEntityCloudScript
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -28827,7 +28827,7 @@ class UPlayFabCloudScriptAPI* UPlayFabCloudScriptAPI::STATIC_ExecuteEntityCloudS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessUnregisterFunction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28850,7 +28850,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessUnregisterFunction__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessRegisterQueuedFunction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28873,7 +28873,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessRegisterQueuedFunction__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessRegisterHttpFunction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28896,7 +28896,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessRegisterHttpFunction__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessPostFunctionResultForScheduledTask__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28919,7 +28919,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessPostFunctionResultForScheduledTask
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessPostFunctionResultForPlayerTriggeredAction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28942,7 +28942,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessPostFunctionResultForPlayerTrigger
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessPostFunctionResultForFunctionExecution__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28965,7 +28965,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessPostFunctionResultForFunctionExecu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessPostFunctionResultForEntityTriggeredAction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -28988,7 +28988,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessPostFunctionResultForEntityTrigger
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessListQueuedFunctions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29011,7 +29011,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessListQueuedFunctions__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessListHttpFunctions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29034,7 +29034,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessListHttpFunctions__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessListFunctions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29057,7 +29057,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessListFunctions__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessExecuteFunction__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29080,7 +29080,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessExecuteFunction__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnSuccessExecuteEntityCloudScript__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29103,7 +29103,7 @@ void UPlayFabCloudScriptAPI::DelegateOnSuccessExecuteEntityCloudScript__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabCloudScriptAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29126,7 +29126,7 @@ void UPlayFabCloudScriptAPI::DelegateOnFailurePlayFabError__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x0097F8B0
+//		Offset -> 0x00983B00
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeListQueuedFunctionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29151,7 +29151,7 @@ struct FCloudScriptListQueuedFunctionsResult UPlayFabCloudScriptModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x0097F8B0
+//		Offset -> 0x00983B00
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeListHttpFunctionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29176,7 +29176,7 @@ struct FCloudScriptListHttpFunctionsResult UPlayFabCloudScriptModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x0097F8B0
+//		Offset -> 0x00983B00
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeListFunctionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29201,7 +29201,7 @@ struct FCloudScriptListFunctionsResult UPlayFabCloudScriptModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x0097F7B0
+//		Offset -> 0x00983A00
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeExecuteFunctionResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29226,7 +29226,7 @@ struct FCloudScriptExecuteFunctionResult UPlayFabCloudScriptModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x00967C90
+//		Offset -> 0x0096BEE0
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeExecuteCloudScriptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29251,7 +29251,7 @@ struct FCloudScriptExecuteCloudScriptResult UPlayFabCloudScriptModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabCloudScriptModelDecoder.decodeEmptyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29276,7 +29276,7 @@ struct FCloudScriptEmptyResult UPlayFabCloudScriptModelDecoder::STATIC_decodeEmp
 
 
 // Function:
-//		Offset -> 0x00983F60
+//		Offset -> 0x009881B0
 //		Name   -> Function PlayFab.PlayFabDataAPI.SetObjects
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29307,7 +29307,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_SetObjects(const struct FDataSetO
 
 
 // Function:
-//		Offset -> 0x00983D60
+//		Offset -> 0x00987FB0
 //		Name   -> Function PlayFab.PlayFabDataAPI.InitiateFileUploads
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29338,7 +29338,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_InitiateFileUploads(const struct 
 
 
 // Function:
-//		Offset -> 0x00983B20
+//		Offset -> 0x00987D70
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperSetObjects
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29364,7 +29364,7 @@ void UPlayFabDataAPI::HelperSetObjects(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x009838E0
+//		Offset -> 0x00987B30
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperInitiateFileUploads
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29390,7 +29390,7 @@ void UPlayFabDataAPI::HelperInitiateFileUploads(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009836A0
+//		Offset -> 0x009878F0
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperGetObjects
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29416,7 +29416,7 @@ void UPlayFabDataAPI::HelperGetObjects(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x00983460
+//		Offset -> 0x009876B0
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperGetFiles
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29442,7 +29442,7 @@ void UPlayFabDataAPI::HelperGetFiles(const struct FPlayFabBaseModel& response, c
 
 
 // Function:
-//		Offset -> 0x00983220
+//		Offset -> 0x00987470
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperFinalizeFileUploads
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29468,7 +29468,7 @@ void UPlayFabDataAPI::HelperFinalizeFileUploads(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x00982FE0
+//		Offset -> 0x00987230
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperDeleteFiles
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29494,7 +29494,7 @@ void UPlayFabDataAPI::HelperDeleteFiles(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x00982DA0
+//		Offset -> 0x00986FF0
 //		Name   -> Function PlayFab.PlayFabDataAPI.HelperAbortFileUploads
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -29520,7 +29520,7 @@ void UPlayFabDataAPI::HelperAbortFileUploads(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x00982C10
+//		Offset -> 0x00986E60
 //		Name   -> Function PlayFab.PlayFabDataAPI.GetObjects
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29551,7 +29551,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_GetObjects(const struct FDataGetO
 
 
 // Function:
-//		Offset -> 0x00982A80
+//		Offset -> 0x00986CD0
 //		Name   -> Function PlayFab.PlayFabDataAPI.GetFiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29582,7 +29582,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_GetFiles(const struct FDataGetFil
 
 
 // Function:
-//		Offset -> 0x00982880
+//		Offset -> 0x00986AD0
 //		Name   -> Function PlayFab.PlayFabDataAPI.FinalizeFileUploads
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29613,7 +29613,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_FinalizeFileUploads(const struct 
 
 
 // Function:
-//		Offset -> 0x00982680
+//		Offset -> 0x009868D0
 //		Name   -> Function PlayFab.PlayFabDataAPI.DeleteFiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29644,7 +29644,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_DeleteFiles(const struct FDataDel
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessSetObjects__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29667,7 +29667,7 @@ void UPlayFabDataAPI::DelegateOnSuccessSetObjects__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessInitiateFileUploads__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29690,7 +29690,7 @@ void UPlayFabDataAPI::DelegateOnSuccessInitiateFileUploads__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessGetObjects__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29713,7 +29713,7 @@ void UPlayFabDataAPI::DelegateOnSuccessGetObjects__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessGetFiles__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29736,7 +29736,7 @@ void UPlayFabDataAPI::DelegateOnSuccessGetFiles__DelegateSignature(const struct 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessFinalizeFileUploads__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29759,7 +29759,7 @@ void UPlayFabDataAPI::DelegateOnSuccessFinalizeFileUploads__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessDeleteFiles__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29782,7 +29782,7 @@ void UPlayFabDataAPI::DelegateOnSuccessDeleteFiles__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnSuccessAbortFileUploads__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29805,7 +29805,7 @@ void UPlayFabDataAPI::DelegateOnSuccessAbortFileUploads__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabDataAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -29828,7 +29828,7 @@ void UPlayFabDataAPI::DelegateOnFailurePlayFabError__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x00982480
+//		Offset -> 0x009866D0
 //		Name   -> Function PlayFab.PlayFabDataAPI.AbortFileUploads
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29859,7 +29859,7 @@ class UPlayFabDataAPI* UPlayFabDataAPI::STATIC_AbortFileUploads(const struct FDa
 
 
 // Function:
-//		Offset -> 0x00984400
+//		Offset -> 0x00988650
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeSetObjectsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29884,7 +29884,7 @@ struct FDataSetObjectsResponse UPlayFabDataModelDecoder::STATIC_decodeSetObjects
 
 
 // Function:
-//		Offset -> 0x00984320
+//		Offset -> 0x00988570
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeInitiateFileUploadsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29909,7 +29909,7 @@ struct FDataInitiateFileUploadsResponse UPlayFabDataModelDecoder::STATIC_decodeI
 
 
 // Function:
-//		Offset -> 0x00984290
+//		Offset -> 0x009884E0
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeGetObjectsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29934,7 +29934,7 @@ struct FDataGetObjectsResponse UPlayFabDataModelDecoder::STATIC_decodeGetObjects
 
 
 // Function:
-//		Offset -> 0x00984200
+//		Offset -> 0x00988450
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeGetFilesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29959,7 +29959,7 @@ struct FDataGetFilesResponse UPlayFabDataModelDecoder::STATIC_decodeGetFilesResp
 
 
 // Function:
-//		Offset -> 0x00984200
+//		Offset -> 0x00988450
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeFinalizeFileUploadsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -29984,7 +29984,7 @@ struct FDataFinalizeFileUploadsResponse UPlayFabDataModelDecoder::STATIC_decodeF
 
 
 // Function:
-//		Offset -> 0x00984160
+//		Offset -> 0x009883B0
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeDeleteFilesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30009,7 +30009,7 @@ struct FDataDeleteFilesResponse UPlayFabDataModelDecoder::STATIC_decodeDeleteFil
 
 
 // Function:
-//		Offset -> 0x00984160
+//		Offset -> 0x009883B0
 //		Name   -> Function PlayFab.PlayFabDataModelDecoder.decodeAbortFileUploadsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30034,7 +30034,7 @@ struct FDataAbortFileUploadsResponse UPlayFabDataModelDecoder::STATIC_decodeAbor
 
 
 // Function:
-//		Offset -> 0x0098A680
+//		Offset -> 0x0098E8D0
 //		Name   -> Function PlayFab.PlayFabEventsAPI.WriteTelemetryEvents
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30065,7 +30065,7 @@ class UPlayFabEventsAPI* UPlayFabEventsAPI::STATIC_WriteTelemetryEvents(const st
 
 
 // Function:
-//		Offset -> 0x0098A4A0
+//		Offset -> 0x0098E6F0
 //		Name   -> Function PlayFab.PlayFabEventsAPI.WriteEvents
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30096,7 +30096,7 @@ class UPlayFabEventsAPI* UPlayFabEventsAPI::STATIC_WriteEvents(const struct FEve
 
 
 // Function:
-//		Offset -> 0x009896F0
+//		Offset -> 0x0098D940
 //		Name   -> Function PlayFab.PlayFabEventsAPI.HelperWriteTelemetryEvents
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30122,7 +30122,7 @@ void UPlayFabEventsAPI::HelperWriteTelemetryEvents(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009894B0
+//		Offset -> 0x0098D700
 //		Name   -> Function PlayFab.PlayFabEventsAPI.HelperWriteEvents
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30148,7 +30148,7 @@ void UPlayFabEventsAPI::HelperWriteEvents(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabEventsAPI.DelegateOnSuccessWriteTelemetryEvents__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30171,7 +30171,7 @@ void UPlayFabEventsAPI::DelegateOnSuccessWriteTelemetryEvents__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabEventsAPI.DelegateOnSuccessWriteEvents__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30194,7 +30194,7 @@ void UPlayFabEventsAPI::DelegateOnSuccessWriteEvents__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabEventsAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30217,7 +30217,7 @@ void UPlayFabEventsAPI::DelegateOnFailurePlayFabError__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x0098AD90
+//		Offset -> 0x0098EFE0
 //		Name   -> Function PlayFab.PlayFabEventsModelDecoder.decodeWriteEventsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30242,7 +30242,7 @@ struct FEventsWriteEventsResponse UPlayFabEventsModelDecoder::STATIC_decodeWrite
 
 
 // Function:
-//		Offset -> 0x00989F80
+//		Offset -> 0x0098E1D0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.UpdateExperiment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30273,7 +30273,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_UpdateExper
 
 
 // Function:
-//		Offset -> 0x00989CF0
+//		Offset -> 0x0098DF40
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.UpdateExclusionGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30304,7 +30304,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_UpdateExclu
 
 
 // Function:
-//		Offset -> 0x00989B10
+//		Offset -> 0x0098DD60
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.StopExperiment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30335,7 +30335,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_StopExperim
 
 
 // Function:
-//		Offset -> 0x00989930
+//		Offset -> 0x0098DB80
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.StartExperiment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30366,7 +30366,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_StartExperi
 
 
 // Function:
-//		Offset -> 0x00989270
+//		Offset -> 0x0098D4C0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperUpdateExperiment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30392,7 +30392,7 @@ void UPlayFabExperimentationAPI::HelperUpdateExperiment(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x00989030
+//		Offset -> 0x0098D280
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperUpdateExclusionGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30418,7 +30418,7 @@ void UPlayFabExperimentationAPI::HelperUpdateExclusionGroup(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x00988DF0
+//		Offset -> 0x0098D040
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperStopExperiment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30444,7 +30444,7 @@ void UPlayFabExperimentationAPI::HelperStopExperiment(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00988BB0
+//		Offset -> 0x0098CE00
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperStartExperiment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30470,7 +30470,7 @@ void UPlayFabExperimentationAPI::HelperStartExperiment(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x00988970
+//		Offset -> 0x0098CBC0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperGetTreatmentAssignment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30496,7 +30496,7 @@ void UPlayFabExperimentationAPI::HelperGetTreatmentAssignment(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x00988730
+//		Offset -> 0x0098C980
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperGetLatestScorecard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30522,7 +30522,7 @@ void UPlayFabExperimentationAPI::HelperGetLatestScorecard(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009884F0
+//		Offset -> 0x0098C740
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperGetExperiments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30548,7 +30548,7 @@ void UPlayFabExperimentationAPI::HelperGetExperiments(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x00988070
+//		Offset -> 0x0098C2C0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperGetExclusionGroupTraffic
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30574,7 +30574,7 @@ void UPlayFabExperimentationAPI::HelperGetExclusionGroupTraffic(const struct FPl
 
 
 // Function:
-//		Offset -> 0x009882B0
+//		Offset -> 0x0098C500
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperGetExclusionGroups
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30600,7 +30600,7 @@ void UPlayFabExperimentationAPI::HelperGetExclusionGroups(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00987E30
+//		Offset -> 0x0098C080
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperDeleteExperiment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30626,7 +30626,7 @@ void UPlayFabExperimentationAPI::HelperDeleteExperiment(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x0090D7F0
+//		Offset -> 0x00911A40
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperDeleteExclusionGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30652,7 +30652,7 @@ void UPlayFabExperimentationAPI::HelperDeleteExclusionGroup(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x00987BF0
+//		Offset -> 0x0098BE40
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperCreateExperiment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30678,7 +30678,7 @@ void UPlayFabExperimentationAPI::HelperCreateExperiment(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009879B0
+//		Offset -> 0x0098BC00
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.HelperCreateExclusionGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -30704,7 +30704,7 @@ void UPlayFabExperimentationAPI::HelperCreateExclusionGroup(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x00987820
+//		Offset -> 0x0098BA70
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.GetTreatmentAssignment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30735,7 +30735,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_GetTreatmen
 
 
 // Function:
-//		Offset -> 0x00987640
+//		Offset -> 0x0098B890
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.GetLatestScorecard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30766,7 +30766,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_GetLatestSc
 
 
 // Function:
-//		Offset -> 0x009874C0
+//		Offset -> 0x0098B710
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.GetExperiments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30797,7 +30797,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_GetExperime
 
 
 // Function:
-//		Offset -> 0x00987160
+//		Offset -> 0x0098B3B0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.GetExclusionGroupTraffic
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30828,7 +30828,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_GetExclusio
 
 
 // Function:
-//		Offset -> 0x00987340
+//		Offset -> 0x0098B590
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.GetExclusionGroups
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30859,7 +30859,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_GetExclusio
 
 
 // Function:
-//		Offset -> 0x00986F80
+//		Offset -> 0x0098B1D0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.DeleteExperiment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30890,7 +30890,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_DeleteExper
 
 
 // Function:
-//		Offset -> 0x00986DA0
+//		Offset -> 0x0098AFF0
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.DeleteExclusionGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -30921,7 +30921,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_DeleteExclu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessUpdateExperiment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30944,7 +30944,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessUpdateExperiment__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessUpdateExclusionGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30967,7 +30967,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessUpdateExclusionGroup__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessStopExperiment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -30990,7 +30990,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessStopExperiment__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessStartExperiment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31013,7 +31013,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessStartExperiment__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessGetTreatmentAssignment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31036,7 +31036,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessGetTreatmentAssignment__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessGetLatestScorecard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31059,7 +31059,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessGetLatestScorecard__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessGetExperiments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31082,7 +31082,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessGetExperiments__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessGetExclusionGroupTraffic__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31105,7 +31105,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessGetExclusionGroupTraffic__Dele
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessGetExclusionGroups__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31128,7 +31128,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessGetExclusionGroups__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessDeleteExperiment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31151,7 +31151,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessDeleteExperiment__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessDeleteExclusionGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31174,7 +31174,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessDeleteExclusionGroup__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessCreateExperiment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31197,7 +31197,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessCreateExperiment__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnSuccessCreateExclusionGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31220,7 +31220,7 @@ void UPlayFabExperimentationAPI::DelegateOnSuccessCreateExclusionGroup__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabExperimentationAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -31243,7 +31243,7 @@ void UPlayFabExperimentationAPI::DelegateOnFailurePlayFabError__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x009868F0
+//		Offset -> 0x0098AB40
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.CreateExperiment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31274,7 +31274,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_CreateExper
 
 
 // Function:
-//		Offset -> 0x009866C0
+//		Offset -> 0x0098A910
 //		Name   -> Function PlayFab.PlayFabExperimentationAPI.CreateExclusionGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31305,7 +31305,7 @@ class UPlayFabExperimentationAPI* UPlayFabExperimentationAPI::STATIC_CreateExclu
 
 
 // Function:
-//		Offset -> 0x0098AD00
+//		Offset -> 0x0098EF50
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeGetTreatmentAssignmentResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31330,7 +31330,7 @@ struct FExperimentationGetTreatmentAssignmentResult UPlayFabExperimentationModel
 
 
 // Function:
-//		Offset -> 0x0098AC70
+//		Offset -> 0x0098EEC0
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeGetLatestScorecardResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31355,7 +31355,7 @@ struct FExperimentationGetLatestScorecardResult UPlayFabExperimentationModelDeco
 
 
 // Function:
-//		Offset -> 0x0098ABA0
+//		Offset -> 0x0098EDF0
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeGetExperimentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31380,7 +31380,7 @@ struct FExperimentationGetExperimentsResult UPlayFabExperimentationModelDecoder:
 
 
 // Function:
-//		Offset -> 0x0098AA00
+//		Offset -> 0x0098EC50
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeGetExclusionGroupTrafficResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31405,7 +31405,7 @@ struct FExperimentationGetExclusionGroupTrafficResult UPlayFabExperimentationMod
 
 
 // Function:
-//		Offset -> 0x0098AAD0
+//		Offset -> 0x0098ED20
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeGetExclusionGroupsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31430,7 +31430,7 @@ struct FExperimentationGetExclusionGroupsResult UPlayFabExperimentationModelDeco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31455,7 +31455,7 @@ struct FExperimentationEmptyResponse UPlayFabExperimentationModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x0098A930
+//		Offset -> 0x0098EB80
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeCreateExperimentResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31480,7 +31480,7 @@ struct FExperimentationCreateExperimentResult UPlayFabExperimentationModelDecode
 
 
 // Function:
-//		Offset -> 0x0098A860
+//		Offset -> 0x0098EAB0
 //		Name   -> Function PlayFab.PlayFabExperimentationModelDecoder.decodeCreateExclusionGroupResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31505,7 +31505,7 @@ struct FExperimentationCreateExclusionGroupResult UPlayFabExperimentationModelDe
 
 
 // Function:
-//		Offset -> 0x00992230
+//		Offset -> 0x00996480
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.UpdateRole
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31536,7 +31536,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_UpdateRole(const struct FGrou
 
 
 // Function:
-//		Offset -> 0x00991F80
+//		Offset -> 0x009961D0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.UpdateGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31567,7 +31567,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_UpdateGroup(const struct FGro
 
 
 // Function:
-//		Offset -> 0x00991DF0
+//		Offset -> 0x00996040
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.UnblockEntity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31598,7 +31598,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_UnblockEntity(const struct FG
 
 
 // Function:
-//		Offset -> 0x00991BB0
+//		Offset -> 0x00995E00
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.RemoveMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31629,7 +31629,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_RemoveMembers(const struct FG
 
 
 // Function:
-//		Offset -> 0x00991A20
+//		Offset -> 0x00995C70
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.RemoveGroupInvitation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31660,7 +31660,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_RemoveGroupInvitation(const s
 
 
 // Function:
-//		Offset -> 0x00991890
+//		Offset -> 0x00995AE0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.RemoveGroupApplication
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31691,7 +31691,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_RemoveGroupApplication(const 
 
 
 // Function:
-//		Offset -> 0x00991700
+//		Offset -> 0x00995950
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListMembershipOpportunities
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31722,7 +31722,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListMembershipOpportunities(c
 
 
 // Function:
-//		Offset -> 0x00991570
+//		Offset -> 0x009957C0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListMembership
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31753,7 +31753,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListMembership(const struct F
 
 
 // Function:
-//		Offset -> 0x009913E0
+//		Offset -> 0x00995630
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListGroupMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31784,7 +31784,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListGroupMembers(const struct
 
 
 // Function:
-//		Offset -> 0x00991250
+//		Offset -> 0x009954A0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListGroupInvitations
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31815,7 +31815,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListGroupInvitations(const st
 
 
 // Function:
-//		Offset -> 0x009910C0
+//		Offset -> 0x00995310
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListGroupBlocks
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31846,7 +31846,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListGroupBlocks(const struct 
 
 
 // Function:
-//		Offset -> 0x00990F30
+//		Offset -> 0x00995180
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ListGroupApplications
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31877,7 +31877,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ListGroupApplications(const s
 
 
 // Function:
-//		Offset -> 0x00990D30
+//		Offset -> 0x00994F80
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.IsMember
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31908,7 +31908,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_IsMember(const struct FGroups
 
 
 // Function:
-//		Offset -> 0x00990B30
+//		Offset -> 0x00994D80
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.InviteToGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -31939,7 +31939,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_InviteToGroup(const struct FG
 
 
 // Function:
-//		Offset -> 0x009908F0
+//		Offset -> 0x00994B40
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperUpdateRole
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -31965,7 +31965,7 @@ void UPlayFabGroupsAPI::HelperUpdateRole(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x009906B0
+//		Offset -> 0x00994900
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperUpdateGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -31991,7 +31991,7 @@ void UPlayFabGroupsAPI::HelperUpdateGroup(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00990470
+//		Offset -> 0x009946C0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperUnblockEntity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32017,7 +32017,7 @@ void UPlayFabGroupsAPI::HelperUnblockEntity(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x00990230
+//		Offset -> 0x00994480
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperRemoveMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32043,7 +32043,7 @@ void UPlayFabGroupsAPI::HelperRemoveMembers(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0098FFF0
+//		Offset -> 0x00994240
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperRemoveGroupInvitation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32069,7 +32069,7 @@ void UPlayFabGroupsAPI::HelperRemoveGroupInvitation(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0098FDB0
+//		Offset -> 0x00994000
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperRemoveGroupApplication
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32095,7 +32095,7 @@ void UPlayFabGroupsAPI::HelperRemoveGroupApplication(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0098FB70
+//		Offset -> 0x00993DC0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListMembershipOpportunities
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32121,7 +32121,7 @@ void UPlayFabGroupsAPI::HelperListMembershipOpportunities(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x0098F930
+//		Offset -> 0x00993B80
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListMembership
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32147,7 +32147,7 @@ void UPlayFabGroupsAPI::HelperListMembership(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x0098F6F0
+//		Offset -> 0x00993940
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListGroupMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32173,7 +32173,7 @@ void UPlayFabGroupsAPI::HelperListGroupMembers(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0098F4B0
+//		Offset -> 0x00993700
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListGroupInvitations
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32199,7 +32199,7 @@ void UPlayFabGroupsAPI::HelperListGroupInvitations(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0098F270
+//		Offset -> 0x009934C0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListGroupBlocks
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32225,7 +32225,7 @@ void UPlayFabGroupsAPI::HelperListGroupBlocks(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x0098F030
+//		Offset -> 0x00993280
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperListGroupApplications
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32251,7 +32251,7 @@ void UPlayFabGroupsAPI::HelperListGroupApplications(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0098EDF0
+//		Offset -> 0x00993040
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperIsMember
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32277,7 +32277,7 @@ void UPlayFabGroupsAPI::HelperIsMember(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x0098EBB0
+//		Offset -> 0x00992E00
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperInviteToGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32303,7 +32303,7 @@ void UPlayFabGroupsAPI::HelperInviteToGroup(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0098E970
+//		Offset -> 0x00992BC0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperGetGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32329,7 +32329,7 @@ void UPlayFabGroupsAPI::HelperGetGroup(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x0098E730
+//		Offset -> 0x00992980
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperDeleteRole
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32355,7 +32355,7 @@ void UPlayFabGroupsAPI::HelperDeleteRole(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0098E4F0
+//		Offset -> 0x00992740
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperDeleteGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32381,7 +32381,7 @@ void UPlayFabGroupsAPI::HelperDeleteGroup(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0098E2B0
+//		Offset -> 0x00992500
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperCreateRole
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32407,7 +32407,7 @@ void UPlayFabGroupsAPI::HelperCreateRole(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0098E070
+//		Offset -> 0x009922C0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperCreateGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32433,7 +32433,7 @@ void UPlayFabGroupsAPI::HelperCreateGroup(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0098DE30
+//		Offset -> 0x00992080
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperChangeMemberRole
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32459,7 +32459,7 @@ void UPlayFabGroupsAPI::HelperChangeMemberRole(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0098DBF0
+//		Offset -> 0x00991E40
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperBlockEntity
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32485,7 +32485,7 @@ void UPlayFabGroupsAPI::HelperBlockEntity(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x0098D9B0
+//		Offset -> 0x00991C00
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperApplyToGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32511,7 +32511,7 @@ void UPlayFabGroupsAPI::HelperApplyToGroup(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x0098D770
+//		Offset -> 0x009919C0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperAddMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32537,7 +32537,7 @@ void UPlayFabGroupsAPI::HelperAddMembers(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0098D530
+//		Offset -> 0x00991780
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperAcceptGroupInvitation
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32563,7 +32563,7 @@ void UPlayFabGroupsAPI::HelperAcceptGroupInvitation(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0098D2F0
+//		Offset -> 0x00991540
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.HelperAcceptGroupApplication
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -32589,7 +32589,7 @@ void UPlayFabGroupsAPI::HelperAcceptGroupApplication(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x0098D100
+//		Offset -> 0x00991350
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.GetGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -32620,7 +32620,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_GetGroup(const struct FGroups
 
 
 // Function:
-//		Offset -> 0x0098CF10
+//		Offset -> 0x00991160
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.DeleteRole
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -32651,7 +32651,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_DeleteRole(const struct FGrou
 
 
 // Function:
-//		Offset -> 0x0098CD80
+//		Offset -> 0x00990FD0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.DeleteGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -32682,7 +32682,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_DeleteGroup(const struct FGro
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessUpdateRole__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32705,7 +32705,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessUpdateRole__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessUpdateGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32728,7 +32728,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessUpdateGroup__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessUnblockEntity__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32751,7 +32751,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessUnblockEntity__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessRemoveMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32774,7 +32774,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessRemoveMembers__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessRemoveGroupInvitation__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32797,7 +32797,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessRemoveGroupInvitation__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessRemoveGroupApplication__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32820,7 +32820,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessRemoveGroupApplication__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListMembershipOpportunities__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32843,7 +32843,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListMembershipOpportunities__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListMembership__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32866,7 +32866,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListMembership__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListGroupMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32889,7 +32889,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListGroupMembers__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListGroupInvitations__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32912,7 +32912,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListGroupInvitations__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListGroupBlocks__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32935,7 +32935,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListGroupBlocks__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessListGroupApplications__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32958,7 +32958,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessListGroupApplications__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessIsMember__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -32981,7 +32981,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessIsMember__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessInviteToGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33004,7 +33004,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessInviteToGroup__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessGetGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33027,7 +33027,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessGetGroup__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessDeleteRole__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33050,7 +33050,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessDeleteRole__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessDeleteGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33073,7 +33073,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessDeleteGroup__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessCreateRole__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33096,7 +33096,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessCreateRole__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessCreateGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33119,7 +33119,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessCreateGroup__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessChangeMemberRole__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33142,7 +33142,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessChangeMemberRole__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessBlockEntity__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33165,7 +33165,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessBlockEntity__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessApplyToGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33188,7 +33188,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessApplyToGroup__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessAddMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33211,7 +33211,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessAddMembers__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessAcceptGroupInvitation__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33234,7 +33234,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessAcceptGroupInvitation__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnSuccessAcceptGroupApplication__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33257,7 +33257,7 @@ void UPlayFabGroupsAPI::DelegateOnSuccessAcceptGroupApplication__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabGroupsAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -33280,7 +33280,7 @@ void UPlayFabGroupsAPI::DelegateOnFailurePlayFabError__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x0098CB40
+//		Offset -> 0x00990D90
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.CreateRole
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33311,7 +33311,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_CreateRole(const struct FGrou
 
 
 // Function:
-//		Offset -> 0x0098C950
+//		Offset -> 0x00990BA0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.CreateGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33342,7 +33342,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_CreateGroup(const struct FGro
 
 
 // Function:
-//		Offset -> 0x0098C6B0
+//		Offset -> 0x00990900
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ChangeMemberRole
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33373,7 +33373,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ChangeMemberRole(const struct
 
 
 // Function:
-//		Offset -> 0x0098C520
+//		Offset -> 0x00990770
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.BlockEntity
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33404,7 +33404,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_BlockEntity(const struct FGro
 
 
 // Function:
-//		Offset -> 0x0098C380
+//		Offset -> 0x009905D0
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.ApplyToGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33435,7 +33435,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_ApplyToGroup(const struct FGr
 
 
 // Function:
-//		Offset -> 0x0098C140
+//		Offset -> 0x00990390
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.AddMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33466,7 +33466,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_AddMembers(const struct FGrou
 
 
 // Function:
-//		Offset -> 0x0098BFB0
+//		Offset -> 0x00990200
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.AcceptGroupInvitation
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33497,7 +33497,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_AcceptGroupInvitation(const s
 
 
 // Function:
-//		Offset -> 0x0098BE20
+//		Offset -> 0x00990070
 //		Name   -> Function PlayFab.PlayFabGroupsAPI.AcceptGroupApplication
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33528,7 +33528,7 @@ class UPlayFabGroupsAPI* UPlayFabGroupsAPI::STATIC_AcceptGroupApplication(const 
 
 
 // Function:
-//		Offset -> 0x009955C0
+//		Offset -> 0x00999810
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeUpdateGroupRoleResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33553,7 +33553,7 @@ struct FGroupsUpdateGroupRoleResponse UPlayFabGroupsModelDecoder::STATIC_decodeU
 
 
 // Function:
-//		Offset -> 0x009955C0
+//		Offset -> 0x00999810
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeUpdateGroupResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33578,7 +33578,7 @@ struct FGroupsUpdateGroupResponse UPlayFabGroupsModelDecoder::STATIC_decodeUpdat
 
 
 // Function:
-//		Offset -> 0x009954F0
+//		Offset -> 0x00999740
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListMembershipResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33603,7 +33603,7 @@ struct FGroupsListMembershipResponse UPlayFabGroupsModelDecoder::STATIC_decodeLi
 
 
 // Function:
-//		Offset -> 0x009953D0
+//		Offset -> 0x00999620
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListMembershipOpportunitiesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33628,7 +33628,7 @@ struct FGroupsListMembershipOpportunitiesResponse UPlayFabGroupsModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x00995300
+//		Offset -> 0x00999550
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListGroupMembersResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33653,7 +33653,7 @@ struct FGroupsListGroupMembersResponse UPlayFabGroupsModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x00995230
+//		Offset -> 0x00999480
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListGroupInvitationsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33678,7 +33678,7 @@ struct FGroupsListGroupInvitationsResponse UPlayFabGroupsModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x00995160
+//		Offset -> 0x009993B0
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListGroupBlocksResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33703,7 +33703,7 @@ struct FGroupsListGroupBlocksResponse UPlayFabGroupsModelDecoder::STATIC_decodeL
 
 
 // Function:
-//		Offset -> 0x00995090
+//		Offset -> 0x009992E0
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeListGroupApplicationsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33728,7 +33728,7 @@ struct FGroupsListGroupApplicationsResponse UPlayFabGroupsModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x00995000
+//		Offset -> 0x00999250
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeIsMemberResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33753,7 +33753,7 @@ struct FGroupsIsMemberResponse UPlayFabGroupsModelDecoder::STATIC_decodeIsMember
 
 
 // Function:
-//		Offset -> 0x00994EC0
+//		Offset -> 0x00999110
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeInviteToGroupResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33778,7 +33778,7 @@ struct FGroupsInviteToGroupResponse UPlayFabGroupsModelDecoder::STATIC_decodeInv
 
 
 // Function:
-//		Offset -> 0x00994BC0
+//		Offset -> 0x00998E10
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeGetGroupResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33803,7 +33803,7 @@ struct FGroupsGetGroupResponse UPlayFabGroupsModelDecoder::STATIC_decodeGetGroup
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33828,7 +33828,7 @@ struct FGroupsEmptyResponse UPlayFabGroupsModelDecoder::STATIC_decodeEmptyRespon
 
 
 // Function:
-//		Offset -> 0x00994D90
+//		Offset -> 0x00998FE0
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeCreateGroupRoleResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33853,7 +33853,7 @@ struct FGroupsCreateGroupRoleResponse UPlayFabGroupsModelDecoder::STATIC_decodeC
 
 
 // Function:
-//		Offset -> 0x00994BC0
+//		Offset -> 0x00998E10
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeCreateGroupResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33878,7 +33878,7 @@ struct FGroupsCreateGroupResponse UPlayFabGroupsModelDecoder::STATIC_decodeCreat
 
 
 // Function:
-//		Offset -> 0x00994AD0
+//		Offset -> 0x00998D20
 //		Name   -> Function PlayFab.PlayFabGroupsModelDecoder.decodeApplyToGroupResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33903,7 +33903,7 @@ struct FGroupsApplyToGroupResponse UPlayFabGroupsModelDecoder::STATIC_decodeAppl
 
 
 // Function:
-//		Offset -> 0x0099A620
+//		Offset -> 0x0099E870
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.SetStorageRetention
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33934,7 +33934,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_SetStorageRetention(const
 
 
 // Function:
-//		Offset -> 0x0099A490
+//		Offset -> 0x0099E6E0
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.SetPerformance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -33965,7 +33965,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_SetPerformance(const stru
 
 
 // Function:
-//		Offset -> 0x00999810
+//		Offset -> 0x0099DA60
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperSetStorageRetention
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -33991,7 +33991,7 @@ void UPlayFabInsightsAPI::HelperSetStorageRetention(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009995D0
+//		Offset -> 0x0099D820
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperSetPerformance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34017,7 +34017,7 @@ void UPlayFabInsightsAPI::HelperSetPerformance(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00999390
+//		Offset -> 0x0099D5E0
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperGetPendingOperations
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34043,7 +34043,7 @@ void UPlayFabInsightsAPI::HelperGetPendingOperations(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x00999150
+//		Offset -> 0x0099D3A0
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperGetOperationStatus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34069,7 +34069,7 @@ void UPlayFabInsightsAPI::HelperGetOperationStatus(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x00998F10
+//		Offset -> 0x0099D160
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperGetLimits
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34095,7 +34095,7 @@ void UPlayFabInsightsAPI::HelperGetLimits(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00998CD0
+//		Offset -> 0x0099CF20
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.HelperGetDetails
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34121,7 +34121,7 @@ void UPlayFabInsightsAPI::HelperGetDetails(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009987B0
+//		Offset -> 0x0099CA00
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.GetPendingOperations
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34152,7 +34152,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_GetPendingOperations(cons
 
 
 // Function:
-//		Offset -> 0x009985D0
+//		Offset -> 0x0099C820
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.GetOperationStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34183,7 +34183,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_GetOperationStatus(const 
 
 
 // Function:
-//		Offset -> 0x00998110
+//		Offset -> 0x0099C360
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.GetLimits
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34214,7 +34214,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_GetLimits(const struct FI
 
 
 // Function:
-//		Offset -> 0x00997E60
+//		Offset -> 0x0099C0B0
 //		Name   -> Function PlayFab.PlayFabInsightsAPI.GetDetails
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34245,7 +34245,7 @@ class UPlayFabInsightsAPI* UPlayFabInsightsAPI::STATIC_GetDetails(const struct F
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessSetStorageRetention__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34268,7 +34268,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessSetStorageRetention__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessSetPerformance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34291,7 +34291,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessSetPerformance__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessGetPendingOperations__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34314,7 +34314,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessGetPendingOperations__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessGetOperationStatus__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34337,7 +34337,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessGetOperationStatus__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessGetLimits__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34360,7 +34360,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessGetLimits__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnSuccessGetDetails__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34383,7 +34383,7 @@ void UPlayFabInsightsAPI::DelegateOnSuccessGetDetails__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabInsightsAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -34406,7 +34406,7 @@ void UPlayFabInsightsAPI::DelegateOnFailurePlayFabError__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x0099ADF0
+//		Offset -> 0x0099F040
 //		Name   -> Function PlayFab.PlayFabInsightsModelDecoder.decodeInsightsOperationResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34431,7 +34431,7 @@ struct FInsightsInsightsOperationResponse UPlayFabInsightsModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x0099AD20
+//		Offset -> 0x0099EF70
 //		Name   -> Function PlayFab.PlayFabInsightsModelDecoder.decodeInsightsGetPendingOperationsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34456,7 +34456,7 @@ struct FInsightsInsightsGetPendingOperationsResponse UPlayFabInsightsModelDecode
 
 
 // Function:
-//		Offset -> 0x0099AC10
+//		Offset -> 0x0099EE60
 //		Name   -> Function PlayFab.PlayFabInsightsModelDecoder.decodeInsightsGetOperationStatusResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34481,7 +34481,7 @@ struct FInsightsInsightsGetOperationStatusResponse UPlayFabInsightsModelDecoder:
 
 
 // Function:
-//		Offset -> 0x0099AB20
+//		Offset -> 0x0099ED70
 //		Name   -> Function PlayFab.PlayFabInsightsModelDecoder.decodeInsightsGetLimitsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34506,7 +34506,7 @@ struct FInsightsInsightsGetLimitsResponse UPlayFabInsightsModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x0099A9E0
+//		Offset -> 0x0099EC30
 //		Name   -> Function PlayFab.PlayFabInsightsModelDecoder.decodeInsightsGetDetailsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -34531,7 +34531,7 @@ struct FInsightsInsightsGetDetailsResponse UPlayFabInsightsModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x0099A8E0
+//		Offset -> 0x0099EB30
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetStringField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34555,7 +34555,7 @@ void UPlayFabJsonObject::SetStringField(const struct FString& FieldName, const s
 
 
 // Function:
-//		Offset -> 0x0099A7B0
+//		Offset -> 0x0099EA00
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetStringArrayField
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -34579,7 +34579,7 @@ void UPlayFabJsonObject::SetStringArrayField(const struct FString& FieldName, TA
 
 
 // Function:
-//		Offset -> 0x0099A3B0
+//		Offset -> 0x0099E600
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetObjectField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34603,7 +34603,7 @@ void UPlayFabJsonObject::SetObjectField(const struct FString& FieldName, class U
 
 
 // Function:
-//		Offset -> 0x0099A2A0
+//		Offset -> 0x0099E4F0
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetObjectArrayField
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -34627,7 +34627,7 @@ void UPlayFabJsonObject::SetObjectArrayField(const struct FString& FieldName, TA
 
 
 // Function:
-//		Offset -> 0x0099A1B0
+//		Offset -> 0x0099E400
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetNumberField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34651,7 +34651,7 @@ void UPlayFabJsonObject::SetNumberField(const struct FString& FieldName, float N
 
 
 // Function:
-//		Offset -> 0x0099A0A0
+//		Offset -> 0x0099E2F0
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetNumberArrayField
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -34675,7 +34675,7 @@ void UPlayFabJsonObject::SetNumberArrayField(const struct FString& FieldName, TA
 
 
 // Function:
-//		Offset -> 0x0099A000
+//		Offset -> 0x0099E250
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetFieldNull
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34697,7 +34697,7 @@ void UPlayFabJsonObject::SetFieldNull(const struct FString& FieldName)
 
 
 // Function:
-//		Offset -> 0x00999F20
+//		Offset -> 0x0099E170
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34721,7 +34721,7 @@ void UPlayFabJsonObject::SetField(const struct FString& FieldName, class UPlayFa
 
 
 // Function:
-//		Offset -> 0x00999E30
+//		Offset -> 0x0099E080
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetBoolField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34745,7 +34745,7 @@ void UPlayFabJsonObject::SetBoolField(const struct FString& FieldName, bool InVa
 
 
 // Function:
-//		Offset -> 0x00999D20
+//		Offset -> 0x0099DF70
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetBoolArrayField
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -34769,7 +34769,7 @@ void UPlayFabJsonObject::SetBoolArrayField(const struct FString& FieldName, TArr
 
 
 // Function:
-//		Offset -> 0x00999C10
+//		Offset -> 0x0099DE60
 //		Name   -> Function PlayFab.PlayFabJsonObject.SetArrayField
 //		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 // Parameters:
@@ -34793,7 +34793,7 @@ void UPlayFabJsonObject::SetArrayField(const struct FString& FieldName, TArray<c
 
 
 // Function:
-//		Offset -> 0x00999BF0
+//		Offset -> 0x0099DE40
 //		Name   -> Function PlayFab.PlayFabJsonObject.Reset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 void UPlayFabJsonObject::Reset()
@@ -34812,7 +34812,7 @@ void UPlayFabJsonObject::Reset()
 
 
 // Function:
-//		Offset -> 0x00999B50
+//		Offset -> 0x0099DDA0
 //		Name   -> Function PlayFab.PlayFabJsonObject.RemoveField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34834,7 +34834,7 @@ void UPlayFabJsonObject::RemoveField(const struct FString& FieldName)
 
 
 // Function:
-//		Offset -> 0x00999A80
+//		Offset -> 0x0099DCD0
 //		Name   -> Function PlayFab.PlayFabJsonObject.MergeJsonObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34858,7 +34858,7 @@ void UPlayFabJsonObject::MergeJsonObject(class UPlayFabJsonObject* InJsonObject,
 
 
 // Function:
-//		Offset -> 0x00998C20
+//		Offset -> 0x0099CE70
 //		Name   -> Function PlayFab.PlayFabJsonObject.HasField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -34883,7 +34883,7 @@ bool UPlayFabJsonObject::HasField(const struct FString& FieldName)
 
 
 // Function:
-//		Offset -> 0x00998A80
+//		Offset -> 0x0099CCD0
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetStringField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -34908,7 +34908,7 @@ struct FString UPlayFabJsonObject::GetStringField(const struct FString& FieldNam
 
 
 // Function:
-//		Offset -> 0x00998990
+//		Offset -> 0x0099CBE0
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetStringArrayField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34933,7 +34933,7 @@ TArray<struct FString> UPlayFabJsonObject::GetStringArrayField(const struct FStr
 
 
 // Function:
-//		Offset -> 0x00998520
+//		Offset -> 0x0099C770
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetObjectField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -34958,7 +34958,7 @@ class UPlayFabJsonObject* UPlayFabJsonObject::GetObjectField(const struct FStrin
 
 
 // Function:
-//		Offset -> 0x00998430
+//		Offset -> 0x0099C680
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetObjectArrayField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -34983,7 +34983,7 @@ TArray<class UPlayFabJsonObject*> UPlayFabJsonObject::GetObjectArrayField(const 
 
 
 // Function:
-//		Offset -> 0x00998380
+//		Offset -> 0x0099C5D0
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetNumberField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35008,7 +35008,7 @@ float UPlayFabJsonObject::GetNumberField(const struct FString& FieldName)
 
 
 // Function:
-//		Offset -> 0x00998290
+//		Offset -> 0x0099C4E0
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetNumberArrayField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35033,7 +35033,7 @@ TArray<float> UPlayFabJsonObject::GetNumberArrayField(const struct FString& Fiel
 
 
 // Function:
-//		Offset -> 0x00998090
+//		Offset -> 0x0099C2E0
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetFieldNames
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35056,7 +35056,7 @@ TArray<struct FString> UPlayFabJsonObject::GetFieldNames()
 
 
 // Function:
-//		Offset -> 0x00997FE0
+//		Offset -> 0x0099C230
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35081,7 +35081,7 @@ class UPlayFabJsonValue* UPlayFabJsonObject::GetField(const struct FString& Fiel
 
 
 // Function:
-//		Offset -> 0x00997DB0
+//		Offset -> 0x0099C000
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetBoolField
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35106,7 +35106,7 @@ bool UPlayFabJsonObject::GetBoolField(const struct FString& FieldName)
 
 
 // Function:
-//		Offset -> 0x00997CC0
+//		Offset -> 0x0099BF10
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetBoolArrayField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35131,7 +35131,7 @@ TArray<bool> UPlayFabJsonObject::GetBoolArrayField(const struct FString& FieldNa
 
 
 // Function:
-//		Offset -> 0x00997BD0
+//		Offset -> 0x0099BE20
 //		Name   -> Function PlayFab.PlayFabJsonObject.GetArrayField
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35156,7 +35156,7 @@ TArray<class UPlayFabJsonValue*> UPlayFabJsonObject::GetArrayField(const struct 
 
 
 // Function:
-//		Offset -> 0x00997B50
+//		Offset -> 0x0099BDA0
 //		Name   -> Function PlayFab.PlayFabJsonObject.EncodeJson
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35179,7 +35179,7 @@ struct FString UPlayFabJsonObject::EncodeJson()
 
 
 // Function:
-//		Offset -> 0x00997AA0
+//		Offset -> 0x0099BCF0
 //		Name   -> Function PlayFab.PlayFabJsonObject.DecodeJson
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35204,7 +35204,7 @@ bool UPlayFabJsonObject::DecodeJson(const struct FString& JsonString)
 
 
 // Function:
-//		Offset -> 0x00997600
+//		Offset -> 0x0099B850
 //		Name   -> Function PlayFab.PlayFabJsonObject.ConstructJsonObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35229,7 +35229,7 @@ class UPlayFabJsonObject* UPlayFabJsonObject::STATIC_ConstructJsonObject(class U
 
 
 // Function:
-//		Offset -> 0x00999A50
+//		Offset -> 0x0099DCA0
 //		Name   -> Function PlayFab.PlayFabJsonValue.IsNull
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35252,7 +35252,7 @@ bool UPlayFabJsonValue::IsNull()
 
 
 // Function:
-//		Offset -> 0x00998BA0
+//		Offset -> 0x0099CDF0
 //		Name   -> Function PlayFab.PlayFabJsonValue.GetTypeString
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35275,7 +35275,7 @@ struct FString UPlayFabJsonValue::GetTypeString()
 
 
 // Function:
-//		Offset -> 0x00998B70
+//		Offset -> 0x0099CDC0
 //		Name   -> Function PlayFab.PlayFabJsonValue.GetType
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35298,7 +35298,7 @@ TEnumAsByte<PlayFab_EPFJson> UPlayFabJsonValue::GetType()
 
 
 // Function:
-//		Offset -> 0x009979C0
+//		Offset -> 0x0099BC10
 //		Name   -> Function PlayFab.PlayFabJsonValue.ConstructJsonValueString
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35325,7 +35325,7 @@ class UPlayFabJsonValue* UPlayFabJsonValue::STATIC_ConstructJsonValueString(clas
 
 
 // Function:
-//		Offset -> 0x00997900
+//		Offset -> 0x0099BB50
 //		Name   -> Function PlayFab.PlayFabJsonValue.ConstructJsonValueObject
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35352,7 +35352,7 @@ class UPlayFabJsonValue* UPlayFabJsonValue::STATIC_ConstructJsonValueObject(clas
 
 
 // Function:
-//		Offset -> 0x00997830
+//		Offset -> 0x0099BA80
 //		Name   -> Function PlayFab.PlayFabJsonValue.ConstructJsonValueNumber
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35379,7 +35379,7 @@ class UPlayFabJsonValue* UPlayFabJsonValue::STATIC_ConstructJsonValueNumber(clas
 
 
 // Function:
-//		Offset -> 0x00997770
+//		Offset -> 0x0099B9C0
 //		Name   -> Function PlayFab.PlayFabJsonValue.ConstructJsonValueBool
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35406,7 +35406,7 @@ class UPlayFabJsonValue* UPlayFabJsonValue::STATIC_ConstructJsonValueBool(class 
 
 
 // Function:
-//		Offset -> 0x00997680
+//		Offset -> 0x0099B8D0
 //		Name   -> Function PlayFab.PlayFabJsonValue.ConstructJsonValueArray
 //		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -35433,7 +35433,7 @@ class UPlayFabJsonValue* UPlayFabJsonValue::STATIC_ConstructJsonValueArray(class
 
 
 // Function:
-//		Offset -> 0x00997580
+//		Offset -> 0x0099B7D0
 //		Name   -> Function PlayFab.PlayFabJsonValue.AsString
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35456,7 +35456,7 @@ struct FString UPlayFabJsonValue::AsString()
 
 
 // Function:
-//		Offset -> 0x00997550
+//		Offset -> 0x0099B7A0
 //		Name   -> Function PlayFab.PlayFabJsonValue.AsObject
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35479,7 +35479,7 @@ class UPlayFabJsonObject* UPlayFabJsonValue::AsObject()
 
 
 // Function:
-//		Offset -> 0x00997520
+//		Offset -> 0x0099B770
 //		Name   -> Function PlayFab.PlayFabJsonValue.AsNumber
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35502,7 +35502,7 @@ float UPlayFabJsonValue::AsNumber()
 
 
 // Function:
-//		Offset -> 0x009974F0
+//		Offset -> 0x0099B740
 //		Name   -> Function PlayFab.PlayFabJsonValue.AsBool
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35525,7 +35525,7 @@ bool UPlayFabJsonValue::AsBool()
 
 
 // Function:
-//		Offset -> 0x00997470
+//		Offset -> 0x0099B6C0
 //		Name   -> Function PlayFab.PlayFabJsonValue.AsArray
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -35548,7 +35548,7 @@ TArray<class UPlayFabJsonValue*> UPlayFabJsonValue::AsArray()
 
 
 // Function:
-//		Offset -> 0x009A7970
+//		Offset -> 0x009ABBC0
 //		Name   -> Function PlayFab.PlayFabLocalizationAPI.HelperGetLanguageList
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35574,7 +35574,7 @@ void UPlayFabLocalizationAPI::HelperGetLanguageList(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A2B80
+//		Offset -> 0x009A6DD0
 //		Name   -> Function PlayFab.PlayFabLocalizationAPI.GetLanguageList
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35605,7 +35605,7 @@ class UPlayFabLocalizationAPI* UPlayFabLocalizationAPI::STATIC_GetLanguageList(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabLocalizationAPI.DelegateOnSuccessGetLanguageList__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -35628,7 +35628,7 @@ void UPlayFabLocalizationAPI::DelegateOnSuccessGetLanguageList__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabLocalizationAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -35651,7 +35651,7 @@ void UPlayFabLocalizationAPI::DelegateOnFailurePlayFabError__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x009B0DC0
+//		Offset -> 0x009B5010
 //		Name   -> Function PlayFab.PlayFabLocalizationModelDecoder.decodeGetLanguageListResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35676,7 +35676,7 @@ struct FLocalizationGetLanguageListResponse UPlayFabLocalizationModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009B0AF0
+//		Offset -> 0x009B4D40
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.UserInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35707,7 +35707,7 @@ class UPlayFabMatchmakerAPI* UPlayFabMatchmakerAPI::STATIC_UserInfo(const struct
 
 
 // Function:
-//		Offset -> 0x009AFB40
+//		Offset -> 0x009B3D90
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.StartGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35738,7 +35738,7 @@ class UPlayFabMatchmakerAPI* UPlayFabMatchmakerAPI::STATIC_StartGame(const struc
 
 
 // Function:
-//		Offset -> 0x009AF180
+//		Offset -> 0x009B33D0
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.PlayerLeft
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35769,7 +35769,7 @@ class UPlayFabMatchmakerAPI* UPlayFabMatchmakerAPI::STATIC_PlayerLeft(const stru
 
 
 // Function:
-//		Offset -> 0x009AEF50
+//		Offset -> 0x009B31A0
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.PlayerJoined
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -35800,7 +35800,7 @@ class UPlayFabMatchmakerAPI* UPlayFabMatchmakerAPI::STATIC_PlayerJoined(const st
 
 
 // Function:
-//		Offset -> 0x009ACEF0
+//		Offset -> 0x009B1140
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.HelperUserInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35826,7 +35826,7 @@ void UPlayFabMatchmakerAPI::HelperUserInfo(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009ABF30
+//		Offset -> 0x009B0180
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.HelperStartGame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35852,7 +35852,7 @@ void UPlayFabMatchmakerAPI::HelperStartGame(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x0090D7F0
+//		Offset -> 0x00911A40
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.HelperPlayerLeft
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35878,7 +35878,7 @@ void UPlayFabMatchmakerAPI::HelperPlayerLeft(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009AB630
+//		Offset -> 0x009AF880
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.HelperPlayerJoined
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35904,7 +35904,7 @@ void UPlayFabMatchmakerAPI::HelperPlayerJoined(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009A4370
+//		Offset -> 0x009A85C0
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.HelperAuthUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -35930,7 +35930,7 @@ void UPlayFabMatchmakerAPI::HelperAuthUser(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnSuccessUserInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -35953,7 +35953,7 @@ void UPlayFabMatchmakerAPI::DelegateOnSuccessUserInfo__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnSuccessStartGame__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -35976,7 +35976,7 @@ void UPlayFabMatchmakerAPI::DelegateOnSuccessStartGame__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnSuccessPlayerLeft__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -35999,7 +35999,7 @@ void UPlayFabMatchmakerAPI::DelegateOnSuccessPlayerLeft__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnSuccessPlayerJoined__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -36022,7 +36022,7 @@ void UPlayFabMatchmakerAPI::DelegateOnSuccessPlayerJoined__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnSuccessAuthUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -36045,7 +36045,7 @@ void UPlayFabMatchmakerAPI::DelegateOnSuccessAuthUser__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMatchmakerAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -36068,7 +36068,7 @@ void UPlayFabMatchmakerAPI::DelegateOnFailurePlayFabError__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x0099EA80
+//		Offset -> 0x009A2CD0
 //		Name   -> Function PlayFab.PlayFabMatchmakerAPI.AuthUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36099,7 +36099,7 @@ class UPlayFabMatchmakerAPI* UPlayFabMatchmakerAPI::STATIC_AuthUser(const struct
 
 
 // Function:
-//		Offset -> 0x009B1040
+//		Offset -> 0x009B5290
 //		Name   -> Function PlayFab.PlayFabMatchmakerModelDecoder.decodeUserInfoResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36124,7 +36124,7 @@ struct FMatchmakerUserInfoResponse UPlayFabMatchmakerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009B0E90
+//		Offset -> 0x009B50E0
 //		Name   -> Function PlayFab.PlayFabMatchmakerModelDecoder.decodeStartGameResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36149,7 +36149,7 @@ struct FMatchmakerStartGameResponse UPlayFabMatchmakerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMatchmakerModelDecoder.decodePlayerLeftResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36174,7 +36174,7 @@ struct FMatchmakerPlayerLeftResponse UPlayFabMatchmakerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMatchmakerModelDecoder.decodePlayerJoinedResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36199,7 +36199,7 @@ struct FMatchmakerPlayerJoinedResponse UPlayFabMatchmakerModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009B0CE0
+//		Offset -> 0x009B4F30
 //		Name   -> Function PlayFab.PlayFabMatchmakerModelDecoder.decodeAuthUserResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36224,7 +36224,7 @@ struct FMatchmakerAuthUserResponse UPlayFabMatchmakerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009B0960
+//		Offset -> 0x009B4BB0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UploadCertificate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36255,7 +36255,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UploadCertificate(c
 
 
 // Function:
-//		Offset -> 0x009B0730
+//		Offset -> 0x009B4980
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UpdateBuildRegions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36286,7 +36286,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UpdateBuildRegions(
 
 
 // Function:
-//		Offset -> 0x009B0540
+//		Offset -> 0x009B4790
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UpdateBuildRegion
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36317,7 +36317,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UpdateBuildRegion(c
 
 
 // Function:
-//		Offset -> 0x009B0310
+//		Offset -> 0x009B4560
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UpdateBuildName
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36348,7 +36348,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UpdateBuildName(con
 
 
 // Function:
-//		Offset -> 0x009B0080
+//		Offset -> 0x009B42D0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UpdateBuildAlias
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36379,7 +36379,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UpdateBuildAlias(co
 
 
 // Function:
-//		Offset -> 0x009AFE50
+//		Offset -> 0x009B40A0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.UntagContainerImage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36410,7 +36410,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_UntagContainerImage
 
 
 // Function:
-//		Offset -> 0x009AF8B0
+//		Offset -> 0x009B3B00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ShutdownMultiplayerServer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36441,7 +36441,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ShutdownMultiplayer
 
 
 // Function:
-//		Offset -> 0x009AF730
+//		Offset -> 0x009B3980
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.RolloverContainerRegistryCredentials
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36472,7 +36472,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_RolloverContainerRe
 
 
 // Function:
-//		Offset -> 0x009AF3B0
+//		Offset -> 0x009B3600
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.RequestMultiplayerServer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36503,7 +36503,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_RequestMultiplayerS
 
 
 // Function:
-//		Offset -> 0x009AECB0
+//		Offset -> 0x009B2F00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListVirtualMachineSummaries
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36534,7 +36534,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListVirtualMachineS
 
 
 // Function:
-//		Offset -> 0x009AEB30
+//		Offset -> 0x009B2D80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListTitleMultiplayerServersQuotaChanges
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36565,7 +36565,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListTitleMultiplaye
 
 
 // Function:
-//		Offset -> 0x009AE940
+//		Offset -> 0x009B2B90
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListServerBackfillTicketsForPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36596,7 +36596,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListServerBackfillT
 
 
 // Function:
-//		Offset -> 0x009AE7B0
+//		Offset -> 0x009B2A00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListQosServersForTitle
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36627,7 +36627,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListQosServersForTi
 
 
 // Function:
-//		Offset -> 0x009AE630
+//		Offset -> 0x009B2880
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListPartyQosServers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36658,7 +36658,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListPartyQosServers
 
 
 // Function:
-//		Offset -> 0x009AE390
+//		Offset -> 0x009B25E0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListMultiplayerServers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36689,7 +36689,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListMultiplayerServ
 
 
 // Function:
-//		Offset -> 0x009AE1A0
+//		Offset -> 0x009B23F0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListMatchmakingTicketsForPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36720,7 +36720,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListMatchmakingTick
 
 
 // Function:
-//		Offset -> 0x009ADDD0
+//		Offset -> 0x009B2020
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListContainerImageTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36751,7 +36751,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListContainerImageT
 
 
 // Function:
-//		Offset -> 0x009ADFB0
+//		Offset -> 0x009B2200
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListContainerImages
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36782,7 +36782,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListContainerImages
 
 
 // Function:
-//		Offset -> 0x009ADBE0
+//		Offset -> 0x009B1E30
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListCertificateSummaries
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36813,7 +36813,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListCertificateSumm
 
 
 // Function:
-//		Offset -> 0x009AD9F0
+//		Offset -> 0x009B1C40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListBuildSummariesV2
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36844,7 +36844,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListBuildSummariesV
 
 
 // Function:
-//		Offset -> 0x009AD800
+//		Offset -> 0x009B1A50
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListBuildAliases
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36875,7 +36875,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListBuildAliases(co
 
 
 // Function:
-//		Offset -> 0x009AD610
+//		Offset -> 0x009B1860
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListAssetSummaries
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36906,7 +36906,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListAssetSummaries(
 
 
 // Function:
-//		Offset -> 0x009AD370
+//		Offset -> 0x009B15C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.ListArchivedMultiplayerServers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36937,7 +36937,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_ListArchivedMultipl
 
 
 // Function:
-//		Offset -> 0x009AD130
+//		Offset -> 0x009B1380
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.JoinMatchmakingTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -36968,7 +36968,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_JoinMatchmakingTick
 
 
 // Function:
-//		Offset -> 0x009ACCB0
+//		Offset -> 0x009B0F00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUploadCertificate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -36994,7 +36994,7 @@ void UPlayFabMultiplayerAPI::HelperUploadCertificate(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009ACA70
+//		Offset -> 0x009B0CC0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUpdateBuildRegions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37020,7 +37020,7 @@ void UPlayFabMultiplayerAPI::HelperUpdateBuildRegions(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009AC830
+//		Offset -> 0x009B0A80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUpdateBuildRegion
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37046,7 +37046,7 @@ void UPlayFabMultiplayerAPI::HelperUpdateBuildRegion(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009AC5F0
+//		Offset -> 0x009B0840
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUpdateBuildName
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37072,7 +37072,7 @@ void UPlayFabMultiplayerAPI::HelperUpdateBuildName(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009AC3B0
+//		Offset -> 0x009B0600
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUpdateBuildAlias
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37098,7 +37098,7 @@ void UPlayFabMultiplayerAPI::HelperUpdateBuildAlias(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009AC170
+//		Offset -> 0x009B03C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperUntagContainerImage
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37124,7 +37124,7 @@ void UPlayFabMultiplayerAPI::HelperUntagContainerImage(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009ABCF0
+//		Offset -> 0x009AFF40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperShutdownMultiplayerServer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37150,7 +37150,7 @@ void UPlayFabMultiplayerAPI::HelperShutdownMultiplayerServer(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009ABAB0
+//		Offset -> 0x009AFD00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperRolloverContainerRegistryCredentials
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37176,7 +37176,7 @@ void UPlayFabMultiplayerAPI::HelperRolloverContainerRegistryCredentials(const st
 
 
 // Function:
-//		Offset -> 0x009AB870
+//		Offset -> 0x009AFAC0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperRequestMultiplayerServer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37202,7 +37202,7 @@ void UPlayFabMultiplayerAPI::HelperRequestMultiplayerServer(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x009AB3F0
+//		Offset -> 0x009AF640
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListVirtualMachineSummaries
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37228,7 +37228,7 @@ void UPlayFabMultiplayerAPI::HelperListVirtualMachineSummaries(const struct FPla
 
 
 // Function:
-//		Offset -> 0x009AB1B0
+//		Offset -> 0x009AF400
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListTitleMultiplayerServersQuotaChanges
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37254,7 +37254,7 @@ void UPlayFabMultiplayerAPI::HelperListTitleMultiplayerServersQuotaChanges(const
 
 
 // Function:
-//		Offset -> 0x009AAF70
+//		Offset -> 0x009AF1C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListServerBackfillTicketsForPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37280,7 +37280,7 @@ void UPlayFabMultiplayerAPI::HelperListServerBackfillTicketsForPlayer(const stru
 
 
 // Function:
-//		Offset -> 0x009AAD30
+//		Offset -> 0x009AEF80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListQosServersForTitle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37306,7 +37306,7 @@ void UPlayFabMultiplayerAPI::HelperListQosServersForTitle(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009AAAF0
+//		Offset -> 0x009AED40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListPartyQosServers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37332,7 +37332,7 @@ void UPlayFabMultiplayerAPI::HelperListPartyQosServers(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009AA8B0
+//		Offset -> 0x009AEB00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListMultiplayerServers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37358,7 +37358,7 @@ void UPlayFabMultiplayerAPI::HelperListMultiplayerServers(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009AA670
+//		Offset -> 0x009AE8C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListMatchmakingTicketsForPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37384,7 +37384,7 @@ void UPlayFabMultiplayerAPI::HelperListMatchmakingTicketsForPlayer(const struct 
 
 
 // Function:
-//		Offset -> 0x009AA1F0
+//		Offset -> 0x009AE440
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListContainerImageTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37410,7 +37410,7 @@ void UPlayFabMultiplayerAPI::HelperListContainerImageTags(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009AA430
+//		Offset -> 0x009AE680
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListContainerImages
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37436,7 +37436,7 @@ void UPlayFabMultiplayerAPI::HelperListContainerImages(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009A9FB0
+//		Offset -> 0x009AE200
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListCertificateSummaries
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37462,7 +37462,7 @@ void UPlayFabMultiplayerAPI::HelperListCertificateSummaries(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x009A9D70
+//		Offset -> 0x009ADFC0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListBuildSummariesV2
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37488,7 +37488,7 @@ void UPlayFabMultiplayerAPI::HelperListBuildSummariesV2(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009A9B30
+//		Offset -> 0x009ADD80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListBuildAliases
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37514,7 +37514,7 @@ void UPlayFabMultiplayerAPI::HelperListBuildAliases(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A98F0
+//		Offset -> 0x009ADB40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListAssetSummaries
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37540,7 +37540,7 @@ void UPlayFabMultiplayerAPI::HelperListAssetSummaries(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009A96B0
+//		Offset -> 0x009AD900
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperListArchivedMultiplayerServers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37566,7 +37566,7 @@ void UPlayFabMultiplayerAPI::HelperListArchivedMultiplayerServers(const struct F
 
 
 // Function:
-//		Offset -> 0x009A9470
+//		Offset -> 0x009AD6C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperJoinMatchmakingTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37592,7 +37592,7 @@ void UPlayFabMultiplayerAPI::HelperJoinMatchmakingTicket(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x009A9230
+//		Offset -> 0x009AD480
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetTitleMultiplayerServersQuotas
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37618,7 +37618,7 @@ void UPlayFabMultiplayerAPI::HelperGetTitleMultiplayerServersQuotas(const struct
 
 
 // Function:
-//		Offset -> 0x009A8FF0
+//		Offset -> 0x009AD240
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetTitleMultiplayerServersQuotaChange
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37644,7 +37644,7 @@ void UPlayFabMultiplayerAPI::HelperGetTitleMultiplayerServersQuotaChange(const s
 
 
 // Function:
-//		Offset -> 0x009A8DB0
+//		Offset -> 0x009AD000
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetTitleEnabledForMultiplayerServersStatus
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37670,7 +37670,7 @@ void UPlayFabMultiplayerAPI::HelperGetTitleEnabledForMultiplayerServersStatus(co
 
 
 // Function:
-//		Offset -> 0x009A8B70
+//		Offset -> 0x009ACDC0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetServerBackfillTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37696,7 +37696,7 @@ void UPlayFabMultiplayerAPI::HelperGetServerBackfillTicket(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009A8930
+//		Offset -> 0x009ACB80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetRemoteLoginEndpoint
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37722,7 +37722,7 @@ void UPlayFabMultiplayerAPI::HelperGetRemoteLoginEndpoint(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009A86F0
+//		Offset -> 0x009AC940
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetQueueStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37748,7 +37748,7 @@ void UPlayFabMultiplayerAPI::HelperGetQueueStatistics(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009A84B0
+//		Offset -> 0x009AC700
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetMultiplayerSessionLogsBySessionId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37774,7 +37774,7 @@ void UPlayFabMultiplayerAPI::HelperGetMultiplayerSessionLogsBySessionId(const st
 
 
 // Function:
-//		Offset -> 0x009A8270
+//		Offset -> 0x009AC4C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetMultiplayerServerLogs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37800,7 +37800,7 @@ void UPlayFabMultiplayerAPI::HelperGetMultiplayerServerLogs(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x009A8030
+//		Offset -> 0x009AC280
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetMultiplayerServerDetails
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37826,7 +37826,7 @@ void UPlayFabMultiplayerAPI::HelperGetMultiplayerServerDetails(const struct FPla
 
 
 // Function:
-//		Offset -> 0x009A7DF0
+//		Offset -> 0x009AC040
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetMatchmakingTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37852,7 +37852,7 @@ void UPlayFabMultiplayerAPI::HelperGetMatchmakingTicket(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009A7BB0
+//		Offset -> 0x009ABE00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetMatch
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37878,7 +37878,7 @@ void UPlayFabMultiplayerAPI::HelperGetMatch(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009A7730
+//		Offset -> 0x009AB980
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetContainerRegistryCredentials
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37904,7 +37904,7 @@ void UPlayFabMultiplayerAPI::HelperGetContainerRegistryCredentials(const struct 
 
 
 // Function:
-//		Offset -> 0x009A74F0
+//		Offset -> 0x009AB740
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetBuildAlias
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37930,7 +37930,7 @@ void UPlayFabMultiplayerAPI::HelperGetBuildAlias(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009A72B0
+//		Offset -> 0x009AB500
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetBuild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37956,7 +37956,7 @@ void UPlayFabMultiplayerAPI::HelperGetBuild(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009A7070
+//		Offset -> 0x009AB2C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetAssetUploadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -37982,7 +37982,7 @@ void UPlayFabMultiplayerAPI::HelperGetAssetUploadUrl(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009A6E30
+//		Offset -> 0x009AB080
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperGetAssetDownloadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38008,7 +38008,7 @@ void UPlayFabMultiplayerAPI::HelperGetAssetDownloadUrl(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009A6BF0
+//		Offset -> 0x009AAE40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperEnableMultiplayerServersForTitle
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38034,7 +38034,7 @@ void UPlayFabMultiplayerAPI::HelperEnableMultiplayerServersForTitle(const struct
 
 
 // Function:
-//		Offset -> 0x009A69B0
+//		Offset -> 0x009AAC00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteRemoteUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38060,7 +38060,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteRemoteUser(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A6770
+//		Offset -> 0x009AA9C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteContainerImageRepository
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38086,7 +38086,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteContainerImageRepository(const struct F
 
 
 // Function:
-//		Offset -> 0x009A6530
+//		Offset -> 0x009AA780
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteCertificate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38112,7 +38112,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteCertificate(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009A62F0
+//		Offset -> 0x009AA540
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteBuildRegion
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38138,7 +38138,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteBuildRegion(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009A60B0
+//		Offset -> 0x009AA300
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteBuildAlias
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38164,7 +38164,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteBuildAlias(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A5E70
+//		Offset -> 0x009AA0C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteBuild
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38190,7 +38190,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteBuild(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x0094BCD0
+//		Offset -> 0x0094FF20
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperDeleteAsset
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38216,7 +38216,7 @@ void UPlayFabMultiplayerAPI::HelperDeleteAsset(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009A5C30
+//		Offset -> 0x009A9E80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateTitleMultiplayerServersQuotaChange
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38242,7 +38242,7 @@ void UPlayFabMultiplayerAPI::HelperCreateTitleMultiplayerServersQuotaChange(cons
 
 
 // Function:
-//		Offset -> 0x009A59F0
+//		Offset -> 0x009A9C40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateServerMatchmakingTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38268,7 +38268,7 @@ void UPlayFabMultiplayerAPI::HelperCreateServerMatchmakingTicket(const struct FP
 
 
 // Function:
-//		Offset -> 0x009A57B0
+//		Offset -> 0x009A9A00
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateServerBackfillTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38294,7 +38294,7 @@ void UPlayFabMultiplayerAPI::HelperCreateServerBackfillTicket(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009A5570
+//		Offset -> 0x009A97C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateRemoteUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38320,7 +38320,7 @@ void UPlayFabMultiplayerAPI::HelperCreateRemoteUser(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A5330
+//		Offset -> 0x009A9580
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateMatchmakingTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38346,7 +38346,7 @@ void UPlayFabMultiplayerAPI::HelperCreateMatchmakingTicket(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009A50F0
+//		Offset -> 0x009A9340
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateBuildWithProcessBasedServer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38372,7 +38372,7 @@ void UPlayFabMultiplayerAPI::HelperCreateBuildWithProcessBasedServer(const struc
 
 
 // Function:
-//		Offset -> 0x009A4EB0
+//		Offset -> 0x009A9100
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateBuildWithManagedContainer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38398,7 +38398,7 @@ void UPlayFabMultiplayerAPI::HelperCreateBuildWithManagedContainer(const struct 
 
 
 // Function:
-//		Offset -> 0x009A4C70
+//		Offset -> 0x009A8EC0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateBuildWithCustomContainer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38424,7 +38424,7 @@ void UPlayFabMultiplayerAPI::HelperCreateBuildWithCustomContainer(const struct F
 
 
 // Function:
-//		Offset -> 0x009A4A30
+//		Offset -> 0x009A8C80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCreateBuildAlias
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38450,7 +38450,7 @@ void UPlayFabMultiplayerAPI::HelperCreateBuildAlias(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009A47F0
+//		Offset -> 0x009A8A40
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCancelServerBackfillTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38476,7 +38476,7 @@ void UPlayFabMultiplayerAPI::HelperCancelServerBackfillTicket(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009A45B0
+//		Offset -> 0x009A8800
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCancelMatchmakingTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38502,7 +38502,7 @@ void UPlayFabMultiplayerAPI::HelperCancelMatchmakingTicket(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x00941890
+//		Offset -> 0x00945AE0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCancelAllServerBackfillTicketsForPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38528,7 +38528,7 @@ void UPlayFabMultiplayerAPI::HelperCancelAllServerBackfillTicketsForPlayer(const
 
 
 // Function:
-//		Offset -> 0x00941650
+//		Offset -> 0x009458A0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.HelperCancelAllMatchmakingTicketsForPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -38554,7 +38554,7 @@ void UPlayFabMultiplayerAPI::HelperCancelAllMatchmakingTicketsForPlayer(const st
 
 
 // Function:
-//		Offset -> 0x009A41F0
+//		Offset -> 0x009A8440
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetTitleMultiplayerServersQuotas
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38585,7 +38585,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetTitleMultiplayer
 
 
 // Function:
-//		Offset -> 0x009A4010
+//		Offset -> 0x009A8260
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetTitleMultiplayerServersQuotaChange
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38616,7 +38616,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetTitleMultiplayer
 
 
 // Function:
-//		Offset -> 0x009A3E90
+//		Offset -> 0x009A80E0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetTitleEnabledForMultiplayerServersStatus
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38647,7 +38647,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetTitleEnabledForM
 
 
 // Function:
-//		Offset -> 0x009A3C50
+//		Offset -> 0x009A7EA0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetServerBackfillTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38678,7 +38678,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetServerBackfillTi
 
 
 // Function:
-//		Offset -> 0x009A39C0
+//		Offset -> 0x009A7C10
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetRemoteLoginEndpoint
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38709,7 +38709,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetRemoteLoginEndpo
 
 
 // Function:
-//		Offset -> 0x009A37E0
+//		Offset -> 0x009A7A30
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetQueueStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38740,7 +38740,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetQueueStatistics(
 
 
 // Function:
-//		Offset -> 0x009A3600
+//		Offset -> 0x009A7850
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetMultiplayerSessionLogsBySessionId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38771,7 +38771,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetMultiplayerSessi
 
 
 // Function:
-//		Offset -> 0x009A3420
+//		Offset -> 0x009A7670
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetMultiplayerServerLogs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38802,7 +38802,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetMultiplayerServe
 
 
 // Function:
-//		Offset -> 0x009A3190
+//		Offset -> 0x009A73E0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetMultiplayerServerDetails
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38833,7 +38833,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetMultiplayerServe
 
 
 // Function:
-//		Offset -> 0x009A2F50
+//		Offset -> 0x009A71A0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetMatchmakingTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38864,7 +38864,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetMatchmakingTicke
 
 
 // Function:
-//		Offset -> 0x009A2D00
+//		Offset -> 0x009A6F50
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetMatch
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38895,7 +38895,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetMatch(const stru
 
 
 // Function:
-//		Offset -> 0x009A2A00
+//		Offset -> 0x009A6C50
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetContainerRegistryCredentials
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38926,7 +38926,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetContainerRegistr
 
 
 // Function:
-//		Offset -> 0x009A2820
+//		Offset -> 0x009A6A70
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetBuildAlias
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38957,7 +38957,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetBuildAlias(const
 
 
 // Function:
-//		Offset -> 0x009A2640
+//		Offset -> 0x009A6890
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetBuild
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -38988,7 +38988,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetBuild(const stru
 
 
 // Function:
-//		Offset -> 0x009A2460
+//		Offset -> 0x009A66B0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetAssetUploadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39019,7 +39019,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetAssetUploadUrl(c
 
 
 // Function:
-//		Offset -> 0x009A2280
+//		Offset -> 0x009A64D0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.GetAssetDownloadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39050,7 +39050,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_GetAssetDownloadUrl
 
 
 // Function:
-//		Offset -> 0x009A2100
+//		Offset -> 0x009A6350
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.EnableMultiplayerServersForTitle
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39081,7 +39081,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_EnableMultiplayerSe
 
 
 // Function:
-//		Offset -> 0x009A1E10
+//		Offset -> 0x009A6060
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteRemoteUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39112,7 +39112,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteRemoteUser(co
 
 
 // Function:
-//		Offset -> 0x009A1C30
+//		Offset -> 0x009A5E80
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteContainerImageRepository
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39143,7 +39143,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteContainerImag
 
 
 // Function:
-//		Offset -> 0x009A1A50
+//		Offset -> 0x009A5CA0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteCertificate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39174,7 +39174,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteCertificate(c
 
 
 // Function:
-//		Offset -> 0x009A1820
+//		Offset -> 0x009A5A70
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteBuildRegion
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39205,7 +39205,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteBuildRegion(c
 
 
 // Function:
-//		Offset -> 0x009A1640
+//		Offset -> 0x009A5890
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteBuildAlias
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39236,7 +39236,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteBuildAlias(co
 
 
 // Function:
-//		Offset -> 0x009A1460
+//		Offset -> 0x009A56B0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteBuild
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39267,7 +39267,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteBuild(const s
 
 
 // Function:
-//		Offset -> 0x009A1280
+//		Offset -> 0x009A54D0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.DeleteAsset
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39298,7 +39298,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_DeleteAsset(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUploadCertificate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39321,7 +39321,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUploadCertificate__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUpdateBuildRegions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39344,7 +39344,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUpdateBuildRegions__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUpdateBuildRegion__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39367,7 +39367,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUpdateBuildRegion__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUpdateBuildName__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39390,7 +39390,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUpdateBuildName__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUpdateBuildAlias__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39413,7 +39413,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUpdateBuildAlias__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessUntagContainerImage__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39436,7 +39436,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessUntagContainerImage__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessShutdownMultiplayerServer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39459,7 +39459,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessShutdownMultiplayerServer__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessRolloverContainerRegistryCredentials__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39482,7 +39482,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessRolloverContainerRegistryCredentia
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessRequestMultiplayerServer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39505,7 +39505,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessRequestMultiplayerServer__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListVirtualMachineSummaries__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39528,7 +39528,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListVirtualMachineSummaries__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListTitleMultiplayerServersQuotaChanges__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39551,7 +39551,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListTitleMultiplayerServersQuotaCh
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListServerBackfillTicketsForPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39574,7 +39574,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListServerBackfillTicketsForPlayer
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListQosServersForTitle__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39597,7 +39597,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListQosServersForTitle__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListPartyQosServers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39620,7 +39620,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListPartyQosServers__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListMultiplayerServers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39643,7 +39643,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListMultiplayerServers__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListMatchmakingTicketsForPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39666,7 +39666,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListMatchmakingTicketsForPlayer__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListContainerImageTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39689,7 +39689,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListContainerImageTags__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListContainerImages__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39712,7 +39712,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListContainerImages__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListCertificateSummaries__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39735,7 +39735,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListCertificateSummaries__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListBuildSummariesV2__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39758,7 +39758,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListBuildSummariesV2__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListBuildAliases__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39781,7 +39781,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListBuildAliases__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListAssetSummaries__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39804,7 +39804,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListAssetSummaries__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessListArchivedMultiplayerServers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39827,7 +39827,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessListArchivedMultiplayerServers__De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessJoinMatchmakingTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39850,7 +39850,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessJoinMatchmakingTicket__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetTitleMultiplayerServersQuotas__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39873,7 +39873,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetTitleMultiplayerServersQuotas__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetTitleMultiplayerServersQuotaChange__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39896,7 +39896,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetTitleMultiplayerServersQuotaCha
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetTitleEnabledForMultiplayerServersStatus__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39919,7 +39919,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetTitleEnabledForMultiplayerServe
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetServerBackfillTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39942,7 +39942,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetServerBackfillTicket__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetRemoteLoginEndpoint__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39965,7 +39965,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetRemoteLoginEndpoint__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetQueueStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -39988,7 +39988,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetQueueStatistics__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetMultiplayerSessionLogsBySessionId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40011,7 +40011,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetMultiplayerSessionLogsBySession
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetMultiplayerServerLogs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40034,7 +40034,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetMultiplayerServerLogs__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetMultiplayerServerDetails__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40057,7 +40057,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetMultiplayerServerDetails__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetMatchmakingTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40080,7 +40080,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetMatchmakingTicket__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetMatch__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40103,7 +40103,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetMatch__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetContainerRegistryCredentials__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40126,7 +40126,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetContainerRegistryCredentials__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetBuildAlias__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40149,7 +40149,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetBuildAlias__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetBuild__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40172,7 +40172,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetBuild__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetAssetUploadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40195,7 +40195,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetAssetUploadUrl__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessGetAssetDownloadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40218,7 +40218,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessGetAssetDownloadUrl__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessEnableMultiplayerServersForTitle__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40241,7 +40241,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessEnableMultiplayerServersForTitle__
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteRemoteUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40264,7 +40264,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteRemoteUser__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteContainerImageRepository__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40287,7 +40287,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteContainerImageRepository__De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteCertificate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40310,7 +40310,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteCertificate__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteBuildRegion__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40333,7 +40333,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteBuildRegion__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteBuildAlias__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40356,7 +40356,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteBuildAlias__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteBuild__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40379,7 +40379,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteBuild__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessDeleteAsset__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40402,7 +40402,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessDeleteAsset__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateTitleMultiplayerServersQuotaChange__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40425,7 +40425,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateTitleMultiplayerServersQuota
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateServerMatchmakingTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40448,7 +40448,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateServerMatchmakingTicket__Del
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateServerBackfillTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40471,7 +40471,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateServerBackfillTicket__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateRemoteUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40494,7 +40494,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateRemoteUser__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateMatchmakingTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40517,7 +40517,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateMatchmakingTicket__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateBuildWithProcessBasedServer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40540,7 +40540,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateBuildWithProcessBasedServer_
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateBuildWithManagedContainer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40563,7 +40563,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateBuildWithManagedContainer__D
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateBuildWithCustomContainer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40586,7 +40586,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateBuildWithCustomContainer__De
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCreateBuildAlias__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40609,7 +40609,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCreateBuildAlias__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCancelServerBackfillTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40632,7 +40632,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCancelServerBackfillTicket__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCancelMatchmakingTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40655,7 +40655,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCancelMatchmakingTicket__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCancelAllServerBackfillTicketsForPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40678,7 +40678,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCancelAllServerBackfillTicketsForP
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnSuccessCancelAllMatchmakingTicketsForPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40701,7 +40701,7 @@ void UPlayFabMultiplayerAPI::DelegateOnSuccessCancelAllMatchmakingTicketsForPlay
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabMultiplayerAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -40724,7 +40724,7 @@ void UPlayFabMultiplayerAPI::DelegateOnFailurePlayFabError__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x009A0F20
+//		Offset -> 0x009A5170
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateTitleMultiplayerServersQuotaChange
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40755,7 +40755,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateTitleMultipla
 
 
 // Function:
-//		Offset -> 0x009A0CE0
+//		Offset -> 0x009A4F30
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateServerMatchmakingTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40786,7 +40786,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateServerMatchma
 
 
 // Function:
-//		Offset -> 0x009A0A90
+//		Offset -> 0x009A4CE0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateServerBackfillTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40817,7 +40817,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateServerBackfil
 
 
 // Function:
-//		Offset -> 0x009A0730
+//		Offset -> 0x009A4980
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateRemoteUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40848,7 +40848,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateRemoteUser(co
 
 
 // Function:
-//		Offset -> 0x009A04E0
+//		Offset -> 0x009A4730
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateMatchmakingTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40879,7 +40879,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateMatchmakingTi
 
 
 // Function:
-//		Offset -> 0x0099FFB0
+//		Offset -> 0x009A4200
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateBuildWithProcessBasedServer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40910,7 +40910,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateBuildWithProc
 
 
 // Function:
-//		Offset -> 0x0099FB10
+//		Offset -> 0x009A3D60
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateBuildWithManagedContainer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40941,7 +40941,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateBuildWithMana
 
 
 // Function:
-//		Offset -> 0x0099F6C0
+//		Offset -> 0x009A3910
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateBuildWithCustomContainer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -40972,7 +40972,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateBuildWithCust
 
 
 // Function:
-//		Offset -> 0x0099F490
+//		Offset -> 0x009A36E0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CreateBuildAlias
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41003,7 +41003,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CreateBuildAlias(co
 
 
 // Function:
-//		Offset -> 0x0099F260
+//		Offset -> 0x009A34B0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CancelServerBackfillTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41034,7 +41034,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CancelServerBackfil
 
 
 // Function:
-//		Offset -> 0x0099F030
+//		Offset -> 0x009A3280
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CancelMatchmakingTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41065,7 +41065,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CancelMatchmakingTi
 
 
 // Function:
-//		Offset -> 0x0099EE40
+//		Offset -> 0x009A3090
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CancelAllServerBackfillTicketsForPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41096,7 +41096,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CancelAllServerBack
 
 
 // Function:
-//		Offset -> 0x0099EC50
+//		Offset -> 0x009A2EA0
 //		Name   -> Function PlayFab.PlayFabMultiplayerAPI.CancelAllMatchmakingTicketsForPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41127,7 +41127,7 @@ class UPlayFabMultiplayerAPI* UPlayFabMultiplayerAPI::STATIC_CancelAllMatchmakin
 
 
 // Function:
-//		Offset -> 0x009BA000
+//		Offset -> 0x009BE250
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeRolloverContainerRegistryCredentialsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41152,7 +41152,7 @@ struct FMultiplayerRolloverContainerRegistryCredentialsResponse UPlayFabMultipla
 
 
 // Function:
-//		Offset -> 0x009BA410
+//		Offset -> 0x009BE660
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeRequestMultiplayerServerResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41177,7 +41177,7 @@ struct FMultiplayerRequestMultiplayerServerResponse UPlayFabMultiplayerModelDeco
 
 
 // Function:
-//		Offset -> 0x009BB410
+//		Offset -> 0x009BF660
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListVirtualMachineSummariesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41202,7 +41202,7 @@ struct FMultiplayerListVirtualMachineSummariesResponse UPlayFabMultiplayerModelD
 
 
 // Function:
-//		Offset -> 0x009BB340
+//		Offset -> 0x009BF590
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListTitleMultiplayerServersQuotaChangesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41227,7 +41227,7 @@ struct FMultiplayerListTitleMultiplayerServersQuotaChangesResponse UPlayFabMulti
 
 
 // Function:
-//		Offset -> 0x009BB010
+//		Offset -> 0x009BF260
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListServerBackfillTicketsForPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41252,7 +41252,7 @@ struct FMultiplayerListServerBackfillTicketsForPlayerResult UPlayFabMultiplayerM
 
 
 // Function:
-//		Offset -> 0x009BB210
+//		Offset -> 0x009BF460
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListQosServersForTitleResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41277,7 +41277,7 @@ struct FMultiplayerListQosServersForTitleResponse UPlayFabMultiplayerModelDecode
 
 
 // Function:
-//		Offset -> 0x009BB210
+//		Offset -> 0x009BF460
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListPartyQosServersResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41302,7 +41302,7 @@ struct FMultiplayerListPartyQosServersResponse UPlayFabMultiplayerModelDecoder::
 
 
 // Function:
-//		Offset -> 0x009BB0E0
+//		Offset -> 0x009BF330
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListMultiplayerServersResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41327,7 +41327,7 @@ struct FMultiplayerListMultiplayerServersResponse UPlayFabMultiplayerModelDecode
 
 
 // Function:
-//		Offset -> 0x009BB010
+//		Offset -> 0x009BF260
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListMatchmakingTicketsForPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41352,7 +41352,7 @@ struct FMultiplayerListMatchmakingTicketsForPlayerResult UPlayFabMultiplayerMode
 
 
 // Function:
-//		Offset -> 0x009BAE10
+//		Offset -> 0x009BF060
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListContainerImageTagsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41377,7 +41377,7 @@ struct FMultiplayerListContainerImageTagsResponse UPlayFabMultiplayerModelDecode
 
 
 // Function:
-//		Offset -> 0x009BAEE0
+//		Offset -> 0x009BF130
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListContainerImagesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41402,7 +41402,7 @@ struct FMultiplayerListContainerImagesResponse UPlayFabMultiplayerModelDecoder::
 
 
 // Function:
-//		Offset -> 0x009BACE0
+//		Offset -> 0x009BEF30
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListCertificateSummariesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41427,7 +41427,7 @@ struct FMultiplayerListCertificateSummariesResponse UPlayFabMultiplayerModelDeco
 
 
 // Function:
-//		Offset -> 0x009BABB0
+//		Offset -> 0x009BEE00
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListBuildSummariesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41452,7 +41452,7 @@ struct FMultiplayerListBuildSummariesResponse UPlayFabMultiplayerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009BAA80
+//		Offset -> 0x009BECD0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListBuildAliasesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41477,7 +41477,7 @@ struct FMultiplayerListBuildAliasesResponse UPlayFabMultiplayerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009BA950
+//		Offset -> 0x009BEBA0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeListAssetSummariesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41502,7 +41502,7 @@ struct FMultiplayerListAssetSummariesResponse UPlayFabMultiplayerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeJoinMatchmakingTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41527,7 +41527,7 @@ struct FMultiplayerJoinMatchmakingTicketResult UPlayFabMultiplayerModelDecoder::
 
 
 // Function:
-//		Offset -> 0x009BA8C0
+//		Offset -> 0x009BEB10
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetTitleMultiplayerServersQuotasResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41552,7 +41552,7 @@ struct FMultiplayerGetTitleMultiplayerServersQuotasResponse UPlayFabMultiplayerM
 
 
 // Function:
-//		Offset -> 0x009BA830
+//		Offset -> 0x009BEA80
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetTitleMultiplayerServersQuotaChangeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41577,7 +41577,7 @@ struct FMultiplayerGetTitleMultiplayerServersQuotaChangeResponse UPlayFabMultipl
 
 
 // Function:
-//		Offset -> 0x009B9C80
+//		Offset -> 0x009BDED0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetTitleEnabledForMultiplayerServersStatusResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41602,7 +41602,7 @@ struct FMultiplayerGetTitleEnabledForMultiplayerServersStatusResponse UPlayFabMu
 
 
 // Function:
-//		Offset -> 0x009BA710
+//		Offset -> 0x009BE960
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetServerBackfillTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41627,7 +41627,7 @@ struct FMultiplayerGetServerBackfillTicketResult UPlayFabMultiplayerModelDecoder
 
 
 // Function:
-//		Offset -> 0x009BA630
+//		Offset -> 0x009BE880
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetRemoteLoginEndpointResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41652,7 +41652,7 @@ struct FMultiplayerGetRemoteLoginEndpointResponse UPlayFabMultiplayerModelDecode
 
 
 // Function:
-//		Offset -> 0x009BA590
+//		Offset -> 0x009BE7E0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetQueueStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41677,7 +41677,7 @@ struct FMultiplayerGetQueueStatisticsResult UPlayFabMultiplayerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009BA4C0
+//		Offset -> 0x009BE710
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetMultiplayerServerLogsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41702,7 +41702,7 @@ struct FMultiplayerGetMultiplayerServerLogsResponse UPlayFabMultiplayerModelDeco
 
 
 // Function:
-//		Offset -> 0x009BA410
+//		Offset -> 0x009BE660
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetMultiplayerServerDetailsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41727,7 +41727,7 @@ struct FMultiplayerGetMultiplayerServerDetailsResponse UPlayFabMultiplayerModelD
 
 
 // Function:
-//		Offset -> 0x009BA170
+//		Offset -> 0x009BE3C0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetMatchResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41752,7 +41752,7 @@ struct FMultiplayerGetMatchResult UPlayFabMultiplayerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009BA2E0
+//		Offset -> 0x009BE530
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetMatchmakingTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41777,7 +41777,7 @@ struct FMultiplayerGetMatchmakingTicketResult UPlayFabMultiplayerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009BA000
+//		Offset -> 0x009BE250
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetContainerRegistryCredentialsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41802,7 +41802,7 @@ struct FMultiplayerGetContainerRegistryCredentialsResponse UPlayFabMultiplayerMo
 
 
 // Function:
-//		Offset -> 0x009B9F50
+//		Offset -> 0x009BE1A0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetBuildResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41827,7 +41827,7 @@ struct FMultiplayerGetBuildResponse UPlayFabMultiplayerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009B9E30
+//		Offset -> 0x009BE080
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetAssetUploadUrlResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41852,7 +41852,7 @@ struct FMultiplayerGetAssetUploadUrlResponse UPlayFabMultiplayerModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009B9D10
+//		Offset -> 0x009BDF60
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeGetAssetDownloadUrlResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41877,7 +41877,7 @@ struct FMultiplayerGetAssetDownloadUrlResponse UPlayFabMultiplayerModelDecoder::
 
 
 // Function:
-//		Offset -> 0x009B9C80
+//		Offset -> 0x009BDED0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeEnableMultiplayerServersForTitleResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41902,7 +41902,7 @@ struct FMultiplayerEnableMultiplayerServersForTitleResponse UPlayFabMultiplayerM
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41927,7 +41927,7 @@ struct FMultiplayerEmptyResponse UPlayFabMultiplayerModelDecoder::STATIC_decodeE
 
 
 // Function:
-//		Offset -> 0x009B9BA0
+//		Offset -> 0x009BDDF0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateTitleMultiplayerServersQuotaChangeResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41952,7 +41952,7 @@ struct FMultiplayerCreateTitleMultiplayerServersQuotaChangeResponse UPlayFabMult
 
 
 // Function:
-//		Offset -> 0x009B9960
+//		Offset -> 0x009BDBB0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateServerBackfillTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -41977,7 +41977,7 @@ struct FMultiplayerCreateServerBackfillTicketResult UPlayFabMultiplayerModelDeco
 
 
 // Function:
-//		Offset -> 0x009B9A30
+//		Offset -> 0x009BDC80
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateRemoteUserResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42002,7 +42002,7 @@ struct FMultiplayerCreateRemoteUserResponse UPlayFabMultiplayerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009B9960
+//		Offset -> 0x009BDBB0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateMatchmakingTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42027,7 +42027,7 @@ struct FMultiplayerCreateMatchmakingTicketResult UPlayFabMultiplayerModelDecoder
 
 
 // Function:
-//		Offset -> 0x009B98B0
+//		Offset -> 0x009BDB00
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateBuildWithProcessBasedServerResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42052,7 +42052,7 @@ struct FMultiplayerCreateBuildWithProcessBasedServerResponse UPlayFabMultiplayer
 
 
 // Function:
-//		Offset -> 0x009B9800
+//		Offset -> 0x009BDA50
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateBuildWithManagedContainerResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42077,7 +42077,7 @@ struct FMultiplayerCreateBuildWithManagedContainerResponse UPlayFabMultiplayerMo
 
 
 // Function:
-//		Offset -> 0x009B9750
+//		Offset -> 0x009BD9A0
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCreateBuildWithCustomContainerResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42102,7 +42102,7 @@ struct FMultiplayerCreateBuildWithCustomContainerResponse UPlayFabMultiplayerMod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCancelServerBackfillTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42127,7 +42127,7 @@ struct FMultiplayerCancelServerBackfillTicketResult UPlayFabMultiplayerModelDeco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCancelMatchmakingTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42152,7 +42152,7 @@ struct FMultiplayerCancelMatchmakingTicketResult UPlayFabMultiplayerModelDecoder
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCancelAllServerBackfillTicketsForPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42177,7 +42177,7 @@ struct FMultiplayerCancelAllServerBackfillTicketsForPlayerResult UPlayFabMultipl
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeCancelAllMatchmakingTicketsForPlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42202,7 +42202,7 @@ struct FMultiplayerCancelAllMatchmakingTicketsForPlayerResult UPlayFabMultiplaye
 
 
 // Function:
-//		Offset -> 0x009B95E0
+//		Offset -> 0x009BD830
 //		Name   -> Function PlayFab.PlayFabMultiplayerModelDecoder.decodeBuildAliasDetailsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42227,7 +42227,7 @@ struct FMultiplayerBuildAliasDetailsResponse UPlayFabMultiplayerModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009E24B0
+//		Offset -> 0x009E6700
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.SetProfilePolicy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42258,7 +42258,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_SetProfilePolicy(const st
 
 
 // Function:
-//		Offset -> 0x009E22B0
+//		Offset -> 0x009E6500
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.SetProfileLanguage
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42289,7 +42289,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_SetProfileLanguage(const 
 
 
 // Function:
-//		Offset -> 0x009E1EB0
+//		Offset -> 0x009E6100
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.SetGlobalPolicy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42320,7 +42320,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_SetGlobalPolicy(const str
 
 
 // Function:
-//		Offset -> 0x009D9200
+//		Offset -> 0x009DD450
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperSetProfilePolicy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42346,7 +42346,7 @@ void UPlayFabProfilesAPI::HelperSetProfilePolicy(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009D8FC0
+//		Offset -> 0x009DD210
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperSetProfileLanguage
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42372,7 +42372,7 @@ void UPlayFabProfilesAPI::HelperSetProfileLanguage(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D8D80
+//		Offset -> 0x009DCFD0
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperSetGlobalPolicy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42398,7 +42398,7 @@ void UPlayFabProfilesAPI::HelperSetGlobalPolicy(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009D3140
+//		Offset -> 0x009D7390
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperGetTitlePlayersFromMasterPlayerAccountIds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42424,7 +42424,7 @@ void UPlayFabProfilesAPI::HelperGetTitlePlayersFromMasterPlayerAccountIds(const 
 
 
 // Function:
-//		Offset -> 0x009D1AC0
+//		Offset -> 0x009D5D10
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperGetProfiles
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42450,7 +42450,7 @@ void UPlayFabProfilesAPI::HelperGetProfiles(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009D1880
+//		Offset -> 0x009D5AD0
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperGetProfile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42476,7 +42476,7 @@ void UPlayFabProfilesAPI::HelperGetProfile(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009CEDC0
+//		Offset -> 0x009D3010
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.HelperGetGlobalPolicy
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -42502,7 +42502,7 @@ void UPlayFabProfilesAPI::HelperGetGlobalPolicy(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009C93B0
+//		Offset -> 0x009CD600
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.GetTitlePlayersFromMasterPlayerAccountIds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42533,7 +42533,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_GetTitlePlayersFromMaster
 
 
 // Function:
-//		Offset -> 0x009C8020
+//		Offset -> 0x009CC270
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.GetProfiles
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42564,7 +42564,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_GetProfiles(const struct 
 
 
 // Function:
-//		Offset -> 0x009C7E90
+//		Offset -> 0x009CC0E0
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.GetProfile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42595,7 +42595,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_GetProfile(const struct F
 
 
 // Function:
-//		Offset -> 0x009C57C0
+//		Offset -> 0x009C9A10
 //		Name   -> Function PlayFab.PlayFabProfilesAPI.GetGlobalPolicy
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42626,7 +42626,7 @@ class UPlayFabProfilesAPI* UPlayFabProfilesAPI::STATIC_GetGlobalPolicy(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessSetProfilePolicy__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42649,7 +42649,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessSetProfilePolicy__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessSetProfileLanguage__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42672,7 +42672,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessSetProfileLanguage__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessSetGlobalPolicy__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42695,7 +42695,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessSetGlobalPolicy__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessGetTitlePlayersFromMasterPlayerAccountIds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42718,7 +42718,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessGetTitlePlayersFromMasterPlayerAccoun
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessGetProfiles__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42741,7 +42741,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessGetProfiles__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessGetProfile__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42764,7 +42764,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessGetProfile__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnSuccessGetGlobalPolicy__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42787,7 +42787,7 @@ void UPlayFabProfilesAPI::DelegateOnSuccessGetGlobalPolicy__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabProfilesAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -42810,7 +42810,7 @@ void UPlayFabProfilesAPI::DelegateOnFailurePlayFabError__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x009E6CC0
+//		Offset -> 0x009EAF10
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeSetProfileLanguageResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42835,7 +42835,7 @@ struct FProfilesSetProfileLanguageResponse UPlayFabProfilesModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeSetGlobalPolicyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42860,7 +42860,7 @@ struct FProfilesSetGlobalPolicyResponse UPlayFabProfilesModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E6B10
+//		Offset -> 0x009EAD60
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeSetEntityProfilePolicyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42885,7 +42885,7 @@ struct FProfilesSetEntityProfilePolicyResponse UPlayFabProfilesModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009E6BE0
+//		Offset -> 0x009EAE30
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeGetTitlePlayersFromMasterPlayerAccountIdsResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42910,7 +42910,7 @@ struct FProfilesGetTitlePlayersFromMasterPlayerAccountIdsResponse UPlayFabProfil
 
 
 // Function:
-//		Offset -> 0x009E6B10
+//		Offset -> 0x009EAD60
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeGetGlobalPolicyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42935,7 +42935,7 @@ struct FProfilesGetGlobalPolicyResponse UPlayFabProfilesModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E6A40
+//		Offset -> 0x009EAC90
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeGetEntityProfilesResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42960,7 +42960,7 @@ struct FProfilesGetEntityProfilesResponse UPlayFabProfilesModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009E69B0
+//		Offset -> 0x009EAC00
 //		Name   -> Function PlayFab.PlayFabProfilesModelDecoder.decodeGetEntityProfileResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -42985,7 +42985,7 @@ struct FProfilesGetEntityProfileResponse UPlayFabProfilesModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009E6770
+//		Offset -> 0x009EA9C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.WriteTitleEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43016,7 +43016,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_WriteTitleEvent(const struct 
 
 
 // Function:
-//		Offset -> 0x009E64D0
+//		Offset -> 0x009EA720
 //		Name   -> Function PlayFab.PlayFabServerAPI.WritePlayerEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43047,7 +43047,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_WritePlayerEvent(const struct
 
 
 // Function:
-//		Offset -> 0x009E61C0
+//		Offset -> 0x009EA410
 //		Name   -> Function PlayFab.PlayFabServerAPI.WriteCharacterEvent
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43078,7 +43078,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_WriteCharacterEvent(const str
 
 
 // Function:
-//		Offset -> 0x009E5F70
+//		Offset -> 0x009EA1C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43109,7 +43109,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserReadOnlyData(const 
 
 
 // Function:
-//		Offset -> 0x009E5D20
+//		Offset -> 0x009E9F70
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43140,7 +43140,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserPublisherReadOnlyDa
 
 
 // Function:
-//		Offset -> 0x009E5AE0
+//		Offset -> 0x009E9D30
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserPublisherInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43171,7 +43171,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserPublisherInternalDa
 
 
 // Function:
-//		Offset -> 0x009E5890
+//		Offset -> 0x009E9AE0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43202,7 +43202,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserPublisherData(const
 
 
 // Function:
-//		Offset -> 0x009E5580
+//		Offset -> 0x009E97D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserInventoryItemCustomData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43233,7 +43233,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserInventoryItemCustom
 
 
 // Function:
-//		Offset -> 0x009E5340
+//		Offset -> 0x009E9590
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43264,7 +43264,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserInternalData(const 
 
 
 // Function:
-//		Offset -> 0x009E50F0
+//		Offset -> 0x009E9340
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43295,7 +43295,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateUserData(const struct F
 
 
 // Function:
-//		Offset -> 0x009E4EA0
+//		Offset -> 0x009E90F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateSharedGroupData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43326,7 +43326,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateSharedGroupData(const s
 
 
 // Function:
-//		Offset -> 0x009E4C60
+//		Offset -> 0x009E8EB0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdatePlayerStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43357,7 +43357,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdatePlayerStatistics(const 
 
 
 // Function:
-//		Offset -> 0x009E4A20
+//		Offset -> 0x009E8C70
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateCharacterStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43388,7 +43388,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateCharacterStatistics(con
 
 
 // Function:
-//		Offset -> 0x009E4770
+//		Offset -> 0x009E89C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateCharacterReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43419,7 +43419,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateCharacterReadOnlyData(c
 
 
 // Function:
-//		Offset -> 0x009E44C0
+//		Offset -> 0x009E8710
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateCharacterInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43450,7 +43450,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateCharacterInternalData(c
 
 
 // Function:
-//		Offset -> 0x009E4210
+//		Offset -> 0x009E8460
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateCharacterData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43481,7 +43481,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateCharacterData(const str
 
 
 // Function:
-//		Offset -> 0x009E4040
+//		Offset -> 0x009E8290
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43512,7 +43512,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateBans(const struct FServ
 
 
 // Function:
-//		Offset -> 0x009E3E20
+//		Offset -> 0x009E8070
 //		Name   -> Function PlayFab.PlayFabServerAPI.UpdateAvatarUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43543,7 +43543,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UpdateAvatarUrl(const struct 
 
 
 // Function:
-//		Offset -> 0x009E3B30
+//		Offset -> 0x009E7D80
 //		Name   -> Function PlayFab.PlayFabServerAPI.UnlockContainerItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43574,7 +43574,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UnlockContainerItem(const str
 
 
 // Function:
-//		Offset -> 0x009E37D0
+//		Offset -> 0x009E7A20
 //		Name   -> Function PlayFab.PlayFabServerAPI.UnlockContainerInstance
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43605,7 +43605,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UnlockContainerInstance(const
 
 
 // Function:
-//		Offset -> 0x009E35F0
+//		Offset -> 0x009E7840
 //		Name   -> Function PlayFab.PlayFabServerAPI.UnlinkXboxAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43636,7 +43636,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UnlinkXboxAccount(const struc
 
 
 // Function:
-//		Offset -> 0x009E33C0
+//		Offset -> 0x009E7610
 //		Name   -> Function PlayFab.PlayFabServerAPI.UnlinkServerCustomId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43667,7 +43667,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UnlinkServerCustomId(const st
 
 
 // Function:
-//		Offset -> 0x009E31E0
+//		Offset -> 0x009E7430
 //		Name   -> Function PlayFab.PlayFabServerAPI.UnlinkPSNAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43698,7 +43698,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_UnlinkPSNAccount(const struct
 
 
 // Function:
-//		Offset -> 0x009E2FA0
+//		Offset -> 0x009E71F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43729,7 +43729,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SubtractUserVirtualCurrency(c
 
 
 // Function:
-//		Offset -> 0x009E2D00
+//		Offset -> 0x009E6F50
 //		Name   -> Function PlayFab.PlayFabServerAPI.SubtractCharacterVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43760,7 +43760,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SubtractCharacterVirtualCurre
 
 
 // Function:
-//		Offset -> 0x009E2AE0
+//		Offset -> 0x009E6D30
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetTitleInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43791,7 +43791,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetTitleInternalData(const st
 
 
 // Function:
-//		Offset -> 0x009E28C0
+//		Offset -> 0x009E6B10
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetTitleData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43822,7 +43822,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetTitleData(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009E26A0
+//		Offset -> 0x009E68F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43853,7 +43853,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetPublisherData(const struct
 
 
 // Function:
-//		Offset -> 0x009E2090
+//		Offset -> 0x009E62E0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetPlayerSecret
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43884,7 +43884,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetPlayerSecret(const struct 
 
 
 // Function:
-//		Offset -> 0x009E1CD0
+//		Offset -> 0x009E5F20
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetGameServerInstanceTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43915,7 +43915,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetGameServerInstanceTags(con
 
 
 // Function:
-//		Offset -> 0x009E1AF0
+//		Offset -> 0x009E5D40
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetGameServerInstanceState
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43946,7 +43946,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetGameServerInstanceState(co
 
 
 // Function:
-//		Offset -> 0x009E18D0
+//		Offset -> 0x009E5B20
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetGameServerInstanceData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -43977,7 +43977,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetGameServerInstanceData(con
 
 
 // Function:
-//		Offset -> 0x009E1650
+//		Offset -> 0x009E58A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SetFriendTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44008,7 +44008,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SetFriendTags(const struct FS
 
 
 // Function:
-//		Offset -> 0x009E1420
+//		Offset -> 0x009E5670
 //		Name   -> Function PlayFab.PlayFabServerAPI.SendPushNotificationFromTemplate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44039,7 +44039,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SendPushNotificationFromTempl
 
 
 // Function:
-//		Offset -> 0x009E10A0
+//		Offset -> 0x009E52F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SendPushNotification
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44070,7 +44070,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SendPushNotification(const st
 
 
 // Function:
-//		Offset -> 0x009E0E70
+//		Offset -> 0x009E50C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.SendEmailFromTemplate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44101,7 +44101,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SendEmailFromTemplate(const s
 
 
 // Function:
-//		Offset -> 0x009E0BE0
+//		Offset -> 0x009E4E30
 //		Name   -> Function PlayFab.PlayFabServerAPI.SendCustomAccountRecoveryEmail
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44132,7 +44132,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SendCustomAccountRecoveryEmai
 
 
 // Function:
-//		Offset -> 0x009E08F0
+//		Offset -> 0x009E4B40
 //		Name   -> Function PlayFab.PlayFabServerAPI.SavePushNotificationTemplate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44163,7 +44163,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_SavePushNotificationTemplate(
 
 
 // Function:
-//		Offset -> 0x009E0720
+//		Offset -> 0x009E4970
 //		Name   -> Function PlayFab.PlayFabServerAPI.RevokeInventoryItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44194,7 +44194,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RevokeInventoryItems(const st
 
 
 // Function:
-//		Offset -> 0x009E04A0
+//		Offset -> 0x009E46F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.RevokeInventoryItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44225,7 +44225,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RevokeInventoryItem(const str
 
 
 // Function:
-//		Offset -> 0x009E02D0
+//		Offset -> 0x009E4520
 //		Name   -> Function PlayFab.PlayFabServerAPI.RevokeBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44256,7 +44256,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RevokeBans(const struct FServ
 
 
 // Function:
-//		Offset -> 0x009E0100
+//		Offset -> 0x009E4350
 //		Name   -> Function PlayFab.PlayFabServerAPI.RevokeAllBansForUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44287,7 +44287,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RevokeAllBansForUser(const st
 
 
 // Function:
-//		Offset -> 0x009DFE70
+//		Offset -> 0x009E40C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.ReportPlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44318,7 +44318,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_ReportPlayer(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009DFC50
+//		Offset -> 0x009E3EA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.RemoveSharedGroupMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44349,7 +44349,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RemoveSharedGroupMembers(cons
 
 
 // Function:
-//		Offset -> 0x009DFA20
+//		Offset -> 0x009E3C70
 //		Name   -> Function PlayFab.PlayFabServerAPI.RemovePlayerTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44380,7 +44380,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RemovePlayerTag(const struct 
 
 
 // Function:
-//		Offset -> 0x009DF840
+//		Offset -> 0x009E3A90
 //		Name   -> Function PlayFab.PlayFabServerAPI.RemoveGenericID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44411,7 +44411,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RemoveGenericID(const struct 
 
 
 // Function:
-//		Offset -> 0x009DF620
+//		Offset -> 0x009E3870
 //		Name   -> Function PlayFab.PlayFabServerAPI.RemoveFriend
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44442,7 +44442,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RemoveFriend(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009DF1E0
+//		Offset -> 0x009E3430
 //		Name   -> Function PlayFab.PlayFabServerAPI.RegisterGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44473,7 +44473,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RegisterGame(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009DF010
+//		Offset -> 0x009E3260
 //		Name   -> Function PlayFab.PlayFabServerAPI.RefreshGameServerInstanceHeartbeat
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44504,7 +44504,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RefreshGameServerInstanceHear
 
 
 // Function:
-//		Offset -> 0x009DEDE0
+//		Offset -> 0x009E3030
 //		Name   -> Function PlayFab.PlayFabServerAPI.RedeemMatchmakerTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44535,7 +44535,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RedeemMatchmakerTicket(const 
 
 
 // Function:
-//		Offset -> 0x009DEAF0
+//		Offset -> 0x009E2D40
 //		Name   -> Function PlayFab.PlayFabServerAPI.RedeemCoupon
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44566,7 +44566,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_RedeemCoupon(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009DE8C0
+//		Offset -> 0x009E2B10
 //		Name   -> Function PlayFab.PlayFabServerAPI.NotifyMatchmakerPlayerLeft
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44597,7 +44597,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_NotifyMatchmakerPlayerLeft(co
 
 
 // Function:
-//		Offset -> 0x009DE640
+//		Offset -> 0x009E2890
 //		Name   -> Function PlayFab.PlayFabServerAPI.MoveItemToUserFromCharacter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44628,7 +44628,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_MoveItemToUserFromCharacter(c
 
 
 // Function:
-//		Offset -> 0x009DE3C0
+//		Offset -> 0x009E2610
 //		Name   -> Function PlayFab.PlayFabServerAPI.MoveItemToCharacterFromUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44659,7 +44659,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_MoveItemToCharacterFromUser(c
 
 
 // Function:
-//		Offset -> 0x009DE0D0
+//		Offset -> 0x009E2320
 //		Name   -> Function PlayFab.PlayFabServerAPI.MoveItemToCharacterFromCharacter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44690,7 +44690,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_MoveItemToCharacterFromCharac
 
 
 // Function:
-//		Offset -> 0x009DDE90
+//		Offset -> 0x009E20E0
 //		Name   -> Function PlayFab.PlayFabServerAPI.ModifyItemUses
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44721,7 +44721,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_ModifyItemUses(const struct F
 
 
 // Function:
-//		Offset -> 0x009DDC40
+//		Offset -> 0x009E1E90
 //		Name   -> Function PlayFab.PlayFabServerAPI.LoginWithXboxId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44752,7 +44752,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LoginWithXboxId(const struct 
 
 
 // Function:
-//		Offset -> 0x009DDA40
+//		Offset -> 0x009E1C90
 //		Name   -> Function PlayFab.PlayFabServerAPI.LoginWithXbox
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44783,7 +44783,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LoginWithXbox(const struct FS
 
 
 // Function:
-//		Offset -> 0x009DD840
+//		Offset -> 0x009E1A90
 //		Name   -> Function PlayFab.PlayFabServerAPI.LoginWithSteamId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44814,7 +44814,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LoginWithSteamId(const struct
 
 
 // Function:
-//		Offset -> 0x009DD5F0
+//		Offset -> 0x009E1840
 //		Name   -> Function PlayFab.PlayFabServerAPI.LoginWithServerCustomId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44845,7 +44845,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LoginWithServerCustomId(const
 
 
 // Function:
-//		Offset -> 0x009DD3B0
+//		Offset -> 0x009E1600
 //		Name   -> Function PlayFab.PlayFabServerAPI.LinkXboxAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44876,7 +44876,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LinkXboxAccount(const struct 
 
 
 // Function:
-//		Offset -> 0x009DD170
+//		Offset -> 0x009E13C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.LinkServerCustomId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44907,7 +44907,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LinkServerCustomId(const stru
 
 
 // Function:
-//		Offset -> 0x009DCEC0
+//		Offset -> 0x009E1110
 //		Name   -> Function PlayFab.PlayFabServerAPI.LinkPSNAccount
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -44938,7 +44938,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_LinkPSNAccount(const struct F
 
 
 // Function:
-//		Offset -> 0x009DCC80
+//		Offset -> 0x009E0ED0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperWriteTitleEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -44964,7 +44964,7 @@ void UPlayFabServerAPI::HelperWriteTitleEvent(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009DCA40
+//		Offset -> 0x009E0C90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperWritePlayerEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -44990,7 +44990,7 @@ void UPlayFabServerAPI::HelperWritePlayerEvent(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009DC800
+//		Offset -> 0x009E0A50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperWriteCharacterEvent
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45016,7 +45016,7 @@ void UPlayFabServerAPI::HelperWriteCharacterEvent(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009DC5C0
+//		Offset -> 0x009E0810
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45042,7 +45042,7 @@ void UPlayFabServerAPI::HelperUpdateUserReadOnlyData(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009DC380
+//		Offset -> 0x009E05D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45068,7 +45068,7 @@ void UPlayFabServerAPI::HelperUpdateUserPublisherReadOnlyData(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009DC140
+//		Offset -> 0x009E0390
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserPublisherInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45094,7 +45094,7 @@ void UPlayFabServerAPI::HelperUpdateUserPublisherInternalData(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009DBF00
+//		Offset -> 0x009E0150
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45120,7 +45120,7 @@ void UPlayFabServerAPI::HelperUpdateUserPublisherData(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009DBCC0
+//		Offset -> 0x009DFF10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserInventoryItemCustomData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45146,7 +45146,7 @@ void UPlayFabServerAPI::HelperUpdateUserInventoryItemCustomData(const struct FPl
 
 
 // Function:
-//		Offset -> 0x009DBA80
+//		Offset -> 0x009DFCD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45172,7 +45172,7 @@ void UPlayFabServerAPI::HelperUpdateUserInternalData(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009DB840
+//		Offset -> 0x009DFA90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45198,7 +45198,7 @@ void UPlayFabServerAPI::HelperUpdateUserData(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009DB600
+//		Offset -> 0x009DF850
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateSharedGroupData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45224,7 +45224,7 @@ void UPlayFabServerAPI::HelperUpdateSharedGroupData(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009DB3C0
+//		Offset -> 0x009DF610
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdatePlayerStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45250,7 +45250,7 @@ void UPlayFabServerAPI::HelperUpdatePlayerStatistics(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009DB180
+//		Offset -> 0x009DF3D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateCharacterStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45276,7 +45276,7 @@ void UPlayFabServerAPI::HelperUpdateCharacterStatistics(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009DAF40
+//		Offset -> 0x009DF190
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateCharacterReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45302,7 +45302,7 @@ void UPlayFabServerAPI::HelperUpdateCharacterReadOnlyData(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009DAD00
+//		Offset -> 0x009DEF50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateCharacterInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45328,7 +45328,7 @@ void UPlayFabServerAPI::HelperUpdateCharacterInternalData(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009DAAC0
+//		Offset -> 0x009DED10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateCharacterData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45354,7 +45354,7 @@ void UPlayFabServerAPI::HelperUpdateCharacterData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009DA880
+//		Offset -> 0x009DEAD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45380,7 +45380,7 @@ void UPlayFabServerAPI::HelperUpdateBans(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x0094D110
+//		Offset -> 0x00951360
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUpdateAvatarUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45406,7 +45406,7 @@ void UPlayFabServerAPI::HelperUpdateAvatarUrl(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009DA640
+//		Offset -> 0x009DE890
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUnlockContainerItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45432,7 +45432,7 @@ void UPlayFabServerAPI::HelperUnlockContainerItem(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009DA400
+//		Offset -> 0x009DE650
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUnlockContainerInstance
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45458,7 +45458,7 @@ void UPlayFabServerAPI::HelperUnlockContainerInstance(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009DA1C0
+//		Offset -> 0x009DE410
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUnlinkXboxAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45484,7 +45484,7 @@ void UPlayFabServerAPI::HelperUnlinkXboxAccount(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x0094CC90
+//		Offset -> 0x00950EE0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUnlinkServerCustomId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45510,7 +45510,7 @@ void UPlayFabServerAPI::HelperUnlinkServerCustomId(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D9F80
+//		Offset -> 0x009DE1D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperUnlinkPSNAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45536,7 +45536,7 @@ void UPlayFabServerAPI::HelperUnlinkPSNAccount(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D9D40
+//		Offset -> 0x009DDF90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSubtractUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45562,7 +45562,7 @@ void UPlayFabServerAPI::HelperSubtractUserVirtualCurrency(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009D9B00
+//		Offset -> 0x009DDD50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSubtractCharacterVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45588,7 +45588,7 @@ void UPlayFabServerAPI::HelperSubtractCharacterVirtualCurrency(const struct FPla
 
 
 // Function:
-//		Offset -> 0x009D98C0
+//		Offset -> 0x009DDB10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetTitleInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45614,7 +45614,7 @@ void UPlayFabServerAPI::HelperSetTitleInternalData(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D9680
+//		Offset -> 0x009DD8D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetTitleData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45640,7 +45640,7 @@ void UPlayFabServerAPI::HelperSetTitleData(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D9440
+//		Offset -> 0x009DD690
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45666,7 +45666,7 @@ void UPlayFabServerAPI::HelperSetPublisherData(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x00953AD0
+//		Offset -> 0x00957D20
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetPlayerSecret
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45692,7 +45692,7 @@ void UPlayFabServerAPI::HelperSetPlayerSecret(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009D8B40
+//		Offset -> 0x009DCD90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetGameServerInstanceTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45718,7 +45718,7 @@ void UPlayFabServerAPI::HelperSetGameServerInstanceTags(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009D8900
+//		Offset -> 0x009DCB50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetGameServerInstanceState
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45744,7 +45744,7 @@ void UPlayFabServerAPI::HelperSetGameServerInstanceState(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x009D86C0
+//		Offset -> 0x009DC910
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetGameServerInstanceData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45770,7 +45770,7 @@ void UPlayFabServerAPI::HelperSetGameServerInstanceData(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009D8480
+//		Offset -> 0x009DC6D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSetFriendTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45796,7 +45796,7 @@ void UPlayFabServerAPI::HelperSetFriendTags(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009D8240
+//		Offset -> 0x009DC490
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSendPushNotificationFromTemplate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45822,7 +45822,7 @@ void UPlayFabServerAPI::HelperSendPushNotificationFromTemplate(const struct FPla
 
 
 // Function:
-//		Offset -> 0x0094C5D0
+//		Offset -> 0x00950820
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSendPushNotification
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45848,7 +45848,7 @@ void UPlayFabServerAPI::HelperSendPushNotification(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x0094C390
+//		Offset -> 0x009505E0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSendEmailFromTemplate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45874,7 +45874,7 @@ void UPlayFabServerAPI::HelperSendEmailFromTemplate(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x0094C150
+//		Offset -> 0x009503A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSendCustomAccountRecoveryEmail
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45900,7 +45900,7 @@ void UPlayFabServerAPI::HelperSendCustomAccountRecoveryEmail(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009D8000
+//		Offset -> 0x009DC250
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperSavePushNotificationTemplate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45926,7 +45926,7 @@ void UPlayFabServerAPI::HelperSavePushNotificationTemplate(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009D7DC0
+//		Offset -> 0x009DC010
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRevokeInventoryItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45952,7 +45952,7 @@ void UPlayFabServerAPI::HelperRevokeInventoryItems(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D7B80
+//		Offset -> 0x009DBDD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRevokeInventoryItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -45978,7 +45978,7 @@ void UPlayFabServerAPI::HelperRevokeInventoryItem(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009D7940
+//		Offset -> 0x009DBB90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRevokeBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46004,7 +46004,7 @@ void UPlayFabServerAPI::HelperRevokeBans(const struct FPlayFabBaseModel& respons
 
 
 // Function:
-//		Offset -> 0x009D7700
+//		Offset -> 0x009DB950
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRevokeAllBansForUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46030,7 +46030,7 @@ void UPlayFabServerAPI::HelperRevokeAllBansForUser(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D74C0
+//		Offset -> 0x009DB710
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperReportPlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46056,7 +46056,7 @@ void UPlayFabServerAPI::HelperReportPlayer(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D7280
+//		Offset -> 0x009DB4D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRemoveSharedGroupMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46082,7 +46082,7 @@ void UPlayFabServerAPI::HelperRemoveSharedGroupMembers(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009D7040
+//		Offset -> 0x009DB290
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRemovePlayerTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46108,7 +46108,7 @@ void UPlayFabServerAPI::HelperRemovePlayerTag(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009D6E00
+//		Offset -> 0x009DB050
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRemoveGenericID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46134,7 +46134,7 @@ void UPlayFabServerAPI::HelperRemoveGenericID(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009D6BC0
+//		Offset -> 0x009DAE10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRemoveFriend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46160,7 +46160,7 @@ void UPlayFabServerAPI::HelperRemoveFriend(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D6980
+//		Offset -> 0x009DABD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRegisterGame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46186,7 +46186,7 @@ void UPlayFabServerAPI::HelperRegisterGame(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D6740
+//		Offset -> 0x009DA990
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRefreshGameServerInstanceHeartbeat
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46212,7 +46212,7 @@ void UPlayFabServerAPI::HelperRefreshGameServerInstanceHeartbeat(const struct FP
 
 
 // Function:
-//		Offset -> 0x009D6500
+//		Offset -> 0x009DA750
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRedeemMatchmakerTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46238,7 +46238,7 @@ void UPlayFabServerAPI::HelperRedeemMatchmakerTicket(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009D62C0
+//		Offset -> 0x009DA510
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperRedeemCoupon
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46264,7 +46264,7 @@ void UPlayFabServerAPI::HelperRedeemCoupon(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D6080
+//		Offset -> 0x009DA2D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperNotifyMatchmakerPlayerLeft
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46290,7 +46290,7 @@ void UPlayFabServerAPI::HelperNotifyMatchmakerPlayerLeft(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x009D5E40
+//		Offset -> 0x009DA090
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperMoveItemToUserFromCharacter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46316,7 +46316,7 @@ void UPlayFabServerAPI::HelperMoveItemToUserFromCharacter(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x00952B10
+//		Offset -> 0x00956D60
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperMoveItemToCharacterFromUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46342,7 +46342,7 @@ void UPlayFabServerAPI::HelperMoveItemToCharacterFromUser(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009516D0
+//		Offset -> 0x00955920
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperMoveItemToCharacterFromCharacter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46368,7 +46368,7 @@ void UPlayFabServerAPI::HelperMoveItemToCharacterFromCharacter(const struct FPla
 
 
 // Function:
-//		Offset -> 0x009D5C00
+//		Offset -> 0x009D9E50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperModifyItemUses
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46394,7 +46394,7 @@ void UPlayFabServerAPI::HelperModifyItemUses(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009D59C0
+//		Offset -> 0x009D9C10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLoginWithXboxId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46420,7 +46420,7 @@ void UPlayFabServerAPI::HelperLoginWithXboxId(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009D5780
+//		Offset -> 0x009D99D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLoginWithXbox
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46446,7 +46446,7 @@ void UPlayFabServerAPI::HelperLoginWithXbox(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009D5540
+//		Offset -> 0x009D9790
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLoginWithSteamId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46472,7 +46472,7 @@ void UPlayFabServerAPI::HelperLoginWithSteamId(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D5300
+//		Offset -> 0x009D9550
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLoginWithServerCustomId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46498,7 +46498,7 @@ void UPlayFabServerAPI::HelperLoginWithServerCustomId(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x0094B610
+//		Offset -> 0x0094F860
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLinkXboxAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46524,7 +46524,7 @@ void UPlayFabServerAPI::HelperLinkXboxAccount(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009D50C0
+//		Offset -> 0x009D9310
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLinkServerCustomId
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46550,7 +46550,7 @@ void UPlayFabServerAPI::HelperLinkServerCustomId(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009D4E80
+//		Offset -> 0x009D90D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperLinkPSNAccount
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46576,7 +46576,7 @@ void UPlayFabServerAPI::HelperLinkPSNAccount(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009D4C40
+//		Offset -> 0x009D8E90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGrantItemsToUsers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46602,7 +46602,7 @@ void UPlayFabServerAPI::HelperGrantItemsToUsers(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009D4A00
+//		Offset -> 0x009D8C50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGrantItemsToUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46628,7 +46628,7 @@ void UPlayFabServerAPI::HelperGrantItemsToUser(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D47C0
+//		Offset -> 0x009D8A10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGrantItemsToCharacter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46654,7 +46654,7 @@ void UPlayFabServerAPI::HelperGrantItemsToCharacter(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009D4580
+//		Offset -> 0x009D87D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGrantCharacterToUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46680,7 +46680,7 @@ void UPlayFabServerAPI::HelperGrantCharacterToUser(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D4340
+//		Offset -> 0x009D8590
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46706,7 +46706,7 @@ void UPlayFabServerAPI::HelperGetUserReadOnlyData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009D4100
+//		Offset -> 0x009D8350
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46732,7 +46732,7 @@ void UPlayFabServerAPI::HelperGetUserPublisherReadOnlyData(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009D3EC0
+//		Offset -> 0x009D8110
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserPublisherInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46758,7 +46758,7 @@ void UPlayFabServerAPI::HelperGetUserPublisherInternalData(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009D3C80
+//		Offset -> 0x009D7ED0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46784,7 +46784,7 @@ void UPlayFabServerAPI::HelperGetUserPublisherData(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D3A40
+//		Offset -> 0x009D7C90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserInventory
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46810,7 +46810,7 @@ void UPlayFabServerAPI::HelperGetUserInventory(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D3800
+//		Offset -> 0x009D7A50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46836,7 +46836,7 @@ void UPlayFabServerAPI::HelperGetUserInternalData(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009D35C0
+//		Offset -> 0x009D7810
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46862,7 +46862,7 @@ void UPlayFabServerAPI::HelperGetUserData(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x00918BF0
+//		Offset -> 0x0091CE40
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserBans
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46888,7 +46888,7 @@ void UPlayFabServerAPI::HelperGetUserBans(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x009D3380
+//		Offset -> 0x009D75D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetUserAccountInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46914,7 +46914,7 @@ void UPlayFabServerAPI::HelperGetUserAccountInfo(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009D2F00
+//		Offset -> 0x009D7150
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetTitleNews
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46940,7 +46940,7 @@ void UPlayFabServerAPI::HelperGetTitleNews(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D2CC0
+//		Offset -> 0x009D6F10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetTitleInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46966,7 +46966,7 @@ void UPlayFabServerAPI::HelperGetTitleInternalData(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009D2A80
+//		Offset -> 0x009D6CD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetTitleData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -46992,7 +46992,7 @@ void UPlayFabServerAPI::HelperGetTitleData(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009D2840
+//		Offset -> 0x009D6A90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetTime
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47018,7 +47018,7 @@ void UPlayFabServerAPI::HelperGetTime(const struct FPlayFabBaseModel& response, 
 
 
 // Function:
-//		Offset -> 0x009D2600
+//		Offset -> 0x009D6850
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetStoreItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47044,7 +47044,7 @@ void UPlayFabServerAPI::HelperGetStoreItems(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009D23C0
+//		Offset -> 0x009D6610
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetSharedGroupData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47070,7 +47070,7 @@ void UPlayFabServerAPI::HelperGetSharedGroupData(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009D2180
+//		Offset -> 0x009D63D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetServerCustomIDsFromPlayFabIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47096,7 +47096,7 @@ void UPlayFabServerAPI::HelperGetServerCustomIDsFromPlayFabIDs(const struct FPla
 
 
 // Function:
-//		Offset -> 0x009D1F40
+//		Offset -> 0x009D6190
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetRandomResultTables
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47122,7 +47122,7 @@ void UPlayFabServerAPI::HelperGetRandomResultTables(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009D1D00
+//		Offset -> 0x009D5F50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPublisherData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47148,7 +47148,7 @@ void UPlayFabServerAPI::HelperGetPublisherData(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D0680
+//		Offset -> 0x009D48D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromXboxLiveIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47174,7 +47174,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromXboxLiveIDs(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009D0440
+//		Offset -> 0x009D4690
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromSteamIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47200,7 +47200,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromSteamIDs(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009D0200
+//		Offset -> 0x009D4450
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromPSNAccountIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47226,7 +47226,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromPSNAccountIDs(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009CFFC0
+//		Offset -> 0x009D4210
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromNintendoSwitchDeviceIds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47252,7 +47252,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromNintendoSwitchDeviceIds(const str
 
 
 // Function:
-//		Offset -> 0x009CFD80
+//		Offset -> 0x009D3FD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromGenericIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47278,7 +47278,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromGenericIDs(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009CFB40
+//		Offset -> 0x009D3D90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromFacebookInstantGamesIds
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47304,7 +47304,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromFacebookInstantGamesIds(const str
 
 
 // Function:
-//		Offset -> 0x009CF900
+//		Offset -> 0x009D3B50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayFabIDsFromFacebookIDs
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47330,7 +47330,7 @@ void UPlayFabServerAPI::HelperGetPlayFabIDsFromFacebookIDs(const struct FPlayFab
 
 
 // Function:
-//		Offset -> 0x009D1400
+//		Offset -> 0x009D5650
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerTags
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47356,7 +47356,7 @@ void UPlayFabServerAPI::HelperGetPlayerTags(const struct FPlayFabBaseModel& resp
 
 
 // Function:
-//		Offset -> 0x009D0F80
+//		Offset -> 0x009D51D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47382,7 +47382,7 @@ void UPlayFabServerAPI::HelperGetPlayerStatisticVersions(const struct FPlayFabBa
 
 
 // Function:
-//		Offset -> 0x009D11C0
+//		Offset -> 0x009D5410
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47408,7 +47408,7 @@ void UPlayFabServerAPI::HelperGetPlayerStatistics(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009D1640
+//		Offset -> 0x009D5890
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayersInSegment
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47434,7 +47434,7 @@ void UPlayFabServerAPI::HelperGetPlayersInSegment(const struct FPlayFabBaseModel
 
 
 // Function:
-//		Offset -> 0x009D0D40
+//		Offset -> 0x009D4F90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47460,7 +47460,7 @@ void UPlayFabServerAPI::HelperGetPlayerSegments(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009D0B00
+//		Offset -> 0x009D4D50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerProfile
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47486,7 +47486,7 @@ void UPlayFabServerAPI::HelperGetPlayerProfile(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009D08C0
+//		Offset -> 0x009D4B10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetPlayerCombinedInfo
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47512,7 +47512,7 @@ void UPlayFabServerAPI::HelperGetPlayerCombinedInfo(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009CF6C0
+//		Offset -> 0x009D3910
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetLeaderboardForUserCharacters
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47538,7 +47538,7 @@ void UPlayFabServerAPI::HelperGetLeaderboardForUserCharacters(const struct FPlay
 
 
 // Function:
-//		Offset -> 0x009CF480
+//		Offset -> 0x009D36D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetLeaderboardAroundUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47564,7 +47564,7 @@ void UPlayFabServerAPI::HelperGetLeaderboardAroundUser(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009CF240
+//		Offset -> 0x009D3490
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetLeaderboardAroundCharacter
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47590,7 +47590,7 @@ void UPlayFabServerAPI::HelperGetLeaderboardAroundCharacter(const struct FPlayFa
 
 
 // Function:
-//		Offset -> 0x009CF000
+//		Offset -> 0x009D3250
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47616,7 +47616,7 @@ void UPlayFabServerAPI::HelperGetLeaderboard(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009CEB80
+//		Offset -> 0x009D2DD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetFriendsList
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47642,7 +47642,7 @@ void UPlayFabServerAPI::HelperGetFriendsList(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009CE940
+//		Offset -> 0x009D2B90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetFriendLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47668,7 +47668,7 @@ void UPlayFabServerAPI::HelperGetFriendLeaderboard(const struct FPlayFabBaseMode
 
 
 // Function:
-//		Offset -> 0x009CE700
+//		Offset -> 0x009D2950
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetContentDownloadUrl
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47694,7 +47694,7 @@ void UPlayFabServerAPI::HelperGetContentDownloadUrl(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009CE4C0
+//		Offset -> 0x009D2710
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterStatistics
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47720,7 +47720,7 @@ void UPlayFabServerAPI::HelperGetCharacterStatistics(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009CE280
+//		Offset -> 0x009D24D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterReadOnlyData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47746,7 +47746,7 @@ void UPlayFabServerAPI::HelperGetCharacterReadOnlyData(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009CE040
+//		Offset -> 0x009D2290
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterLeaderboard
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47772,7 +47772,7 @@ void UPlayFabServerAPI::HelperGetCharacterLeaderboard(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009CDE00
+//		Offset -> 0x009D2050
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterInventory
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47798,7 +47798,7 @@ void UPlayFabServerAPI::HelperGetCharacterInventory(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009CDBC0
+//		Offset -> 0x009D1E10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterInternalData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47824,7 +47824,7 @@ void UPlayFabServerAPI::HelperGetCharacterInternalData(const struct FPlayFabBase
 
 
 // Function:
-//		Offset -> 0x009CD980
+//		Offset -> 0x009D1BD0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCharacterData
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47850,7 +47850,7 @@ void UPlayFabServerAPI::HelperGetCharacterData(const struct FPlayFabBaseModel& r
 
 
 // Function:
-//		Offset -> 0x009CD740
+//		Offset -> 0x009D1990
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetCatalogItems
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47876,7 +47876,7 @@ void UPlayFabServerAPI::HelperGetCatalogItems(const struct FPlayFabBaseModel& re
 
 
 // Function:
-//		Offset -> 0x009CD500
+//		Offset -> 0x009D1750
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetAllUsersCharacters
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47902,7 +47902,7 @@ void UPlayFabServerAPI::HelperGetAllUsersCharacters(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009CD2C0
+//		Offset -> 0x009D1510
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperGetAllSegments
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47928,7 +47928,7 @@ void UPlayFabServerAPI::HelperGetAllSegments(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009CD080
+//		Offset -> 0x009D12D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperExecuteCloudScript
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47954,7 +47954,7 @@ void UPlayFabServerAPI::HelperExecuteCloudScript(const struct FPlayFabBaseModel&
 
 
 // Function:
-//		Offset -> 0x009CCE40
+//		Offset -> 0x009D1090
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperEvaluateRandomResultTable
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -47980,7 +47980,7 @@ void UPlayFabServerAPI::HelperEvaluateRandomResultTable(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009CCC00
+//		Offset -> 0x009D0E50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperDeregisterGame
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48006,7 +48006,7 @@ void UPlayFabServerAPI::HelperDeregisterGame(const struct FPlayFabBaseModel& res
 
 
 // Function:
-//		Offset -> 0x009CC9C0
+//		Offset -> 0x009D0C10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperDeleteSharedGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48032,7 +48032,7 @@ void UPlayFabServerAPI::HelperDeleteSharedGroup(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009A47F0
+//		Offset -> 0x009A8A40
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperDeletePushNotificationTemplate
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48058,7 +48058,7 @@ void UPlayFabServerAPI::HelperDeletePushNotificationTemplate(const struct FPlayF
 
 
 // Function:
-//		Offset -> 0x009A45B0
+//		Offset -> 0x009A8800
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperDeletePlayer
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48084,7 +48084,7 @@ void UPlayFabServerAPI::HelperDeletePlayer(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009CC780
+//		Offset -> 0x009D09D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperDeleteCharacterFromUser
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48110,7 +48110,7 @@ void UPlayFabServerAPI::HelperDeleteCharacterFromUser(const struct FPlayFabBaseM
 
 
 // Function:
-//		Offset -> 0x009CC540
+//		Offset -> 0x009D0790
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperCreateSharedGroup
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48136,7 +48136,7 @@ void UPlayFabServerAPI::HelperCreateSharedGroup(const struct FPlayFabBaseModel& 
 
 
 // Function:
-//		Offset -> 0x009CC300
+//		Offset -> 0x009D0550
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperConsumeItem
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48162,7 +48162,7 @@ void UPlayFabServerAPI::HelperConsumeItem(const struct FPlayFabBaseModel& respon
 
 
 // Function:
-//		Offset -> 0x009CC0C0
+//		Offset -> 0x009D0310
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperBanUsers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48188,7 +48188,7 @@ void UPlayFabServerAPI::HelperBanUsers(const struct FPlayFabBaseModel& response,
 
 
 // Function:
-//		Offset -> 0x009CBE80
+//		Offset -> 0x009D00D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAwardSteamAchievement
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48214,7 +48214,7 @@ void UPlayFabServerAPI::HelperAwardSteamAchievement(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x009CBC40
+//		Offset -> 0x009CFE90
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAuthenticateSessionTicket
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48240,7 +48240,7 @@ void UPlayFabServerAPI::HelperAuthenticateSessionTicket(const struct FPlayFabBas
 
 
 // Function:
-//		Offset -> 0x009CBA00
+//		Offset -> 0x009CFC50
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddUserVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48266,7 +48266,7 @@ void UPlayFabServerAPI::HelperAddUserVirtualCurrency(const struct FPlayFabBaseMo
 
 
 // Function:
-//		Offset -> 0x009CB7C0
+//		Offset -> 0x009CFA10
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddSharedGroupMembers
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48292,7 +48292,7 @@ void UPlayFabServerAPI::HelperAddSharedGroupMembers(const struct FPlayFabBaseMod
 
 
 // Function:
-//		Offset -> 0x00951010
+//		Offset -> 0x00955260
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddPlayerTag
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48318,7 +48318,7 @@ void UPlayFabServerAPI::HelperAddPlayerTag(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x00941650
+//		Offset -> 0x009458A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddGenericID
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48344,7 +48344,7 @@ void UPlayFabServerAPI::HelperAddGenericID(const struct FPlayFabBaseModel& respo
 
 
 // Function:
-//		Offset -> 0x009CB580
+//		Offset -> 0x009CF7D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddFriend
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48370,7 +48370,7 @@ void UPlayFabServerAPI::HelperAddFriend(const struct FPlayFabBaseModel& response
 
 
 // Function:
-//		Offset -> 0x009CB340
+//		Offset -> 0x009CF590
 //		Name   -> Function PlayFab.PlayFabServerAPI.HelperAddCharacterVirtualCurrency
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -48396,7 +48396,7 @@ void UPlayFabServerAPI::HelperAddCharacterVirtualCurrency(const struct FPlayFabB
 
 
 // Function:
-//		Offset -> 0x009CB110
+//		Offset -> 0x009CF360
 //		Name   -> Function PlayFab.PlayFabServerAPI.GrantItemsToUsers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48427,7 +48427,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GrantItemsToUsers(const struc
 
 
 // Function:
-//		Offset -> 0x009CAE20
+//		Offset -> 0x009CF070
 //		Name   -> Function PlayFab.PlayFabServerAPI.GrantItemsToUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48458,7 +48458,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GrantItemsToUser(const struct
 
 
 // Function:
-//		Offset -> 0x009CAAC0
+//		Offset -> 0x009CED10
 //		Name   -> Function PlayFab.PlayFabServerAPI.GrantItemsToCharacter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48489,7 +48489,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GrantItemsToCharacter(const s
 
 
 // Function:
-//		Offset -> 0x009CA830
+//		Offset -> 0x009CEA80
 //		Name   -> Function PlayFab.PlayFabServerAPI.GrantCharacterToUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48520,7 +48520,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GrantCharacterToUser(const st
 
 
 // Function:
-//		Offset -> 0x009CA600
+//		Offset -> 0x009CE850
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48551,7 +48551,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserReadOnlyData(const str
 
 
 // Function:
-//		Offset -> 0x009CA3D0
+//		Offset -> 0x009CE620
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserPublisherReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48582,7 +48582,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserPublisherReadOnlyData(
 
 
 // Function:
-//		Offset -> 0x009CA1A0
+//		Offset -> 0x009CE3F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserPublisherInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48613,7 +48613,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserPublisherInternalData(
 
 
 // Function:
-//		Offset -> 0x009C9F70
+//		Offset -> 0x009CE1C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48644,7 +48644,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserPublisherData(const st
 
 
 // Function:
-//		Offset -> 0x009C9D90
+//		Offset -> 0x009CDFE0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserInventory
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48675,7 +48675,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserInventory(const struct
 
 
 // Function:
-//		Offset -> 0x009C9B60
+//		Offset -> 0x009CDDB0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48706,7 +48706,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserInternalData(const str
 
 
 // Function:
-//		Offset -> 0x009C9930
+//		Offset -> 0x009CDB80
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48737,7 +48737,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserData(const struct FSer
 
 
 // Function:
-//		Offset -> 0x009C9760
+//		Offset -> 0x009CD9B0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserBans
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48768,7 +48768,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserBans(const struct FSer
 
 
 // Function:
-//		Offset -> 0x009C9590
+//		Offset -> 0x009CD7E0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetUserAccountInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48799,7 +48799,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetUserAccountInfo(const stru
 
 
 // Function:
-//		Offset -> 0x009C9230
+//		Offset -> 0x009CD480
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetTitleNews
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48830,7 +48830,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetTitleNews(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009C9010
+//		Offset -> 0x009CD260
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetTitleInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48861,7 +48861,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetTitleInternalData(const st
 
 
 // Function:
-//		Offset -> 0x009C8DF0
+//		Offset -> 0x009CD040
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetTitleData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48892,7 +48892,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetTitleData(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009C8C90
+//		Offset -> 0x009CCEE0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetTime
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48923,7 +48923,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetTime(const struct FServerG
 
 
 // Function:
-//		Offset -> 0x009C8A00
+//		Offset -> 0x009CCC50
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetStoreItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48954,7 +48954,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetStoreItems(const struct FS
 
 
 // Function:
-//		Offset -> 0x009C87D0
+//		Offset -> 0x009CCA20
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetSharedGroupData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -48985,7 +48985,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetSharedGroupData(const stru
 
 
 // Function:
-//		Offset -> 0x009C8600
+//		Offset -> 0x009CC850
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetServerCustomIDsFromPlayFabIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49016,7 +49016,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetServerCustomIDsFromPlayFab
 
 
 // Function:
-//		Offset -> 0x009C83E0
+//		Offset -> 0x009CC630
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetRandomResultTables
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49047,7 +49047,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetRandomResultTables(const s
 
 
 // Function:
-//		Offset -> 0x009C8210
+//		Offset -> 0x009CC460
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPublisherData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49078,7 +49078,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPublisherData(const struct
 
 
 // Function:
-//		Offset -> 0x009C6DD0
+//		Offset -> 0x009CB020
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromXboxLiveIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49109,7 +49109,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromXboxLiveIDs(
 
 
 // Function:
-//		Offset -> 0x009C6C00
+//		Offset -> 0x009CAE50
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromSteamIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49140,7 +49140,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromSteamIDs(con
 
 
 // Function:
-//		Offset -> 0x009C6A20
+//		Offset -> 0x009CAC70
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromPSNAccountIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49171,7 +49171,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromPSNAccountID
 
 
 // Function:
-//		Offset -> 0x009C6850
+//		Offset -> 0x009CAAA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromNintendoSwitchDeviceIds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49202,7 +49202,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromNintendoSwit
 
 
 // Function:
-//		Offset -> 0x009C6680
+//		Offset -> 0x009CA8D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromGenericIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49233,7 +49233,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromGenericIDs(c
 
 
 // Function:
-//		Offset -> 0x009C64B0
+//		Offset -> 0x009CA700
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromFacebookInstantGamesIds
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49264,7 +49264,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromFacebookInst
 
 
 // Function:
-//		Offset -> 0x009C62E0
+//		Offset -> 0x009CA530
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayFabIDsFromFacebookIDs
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49295,7 +49295,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayFabIDsFromFacebookIDs(
 
 
 // Function:
-//		Offset -> 0x009C7A20
+//		Offset -> 0x009CBC70
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerTags
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49326,7 +49326,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerTags(const struct FS
 
 
 // Function:
-//		Offset -> 0x009C75B0
+//		Offset -> 0x009CB800
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerStatisticVersions
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49357,7 +49357,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerStatisticVersions(co
 
 
 // Function:
-//		Offset -> 0x009C7790
+//		Offset -> 0x009CB9E0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49388,7 +49388,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerStatistics(const str
 
 
 // Function:
-//		Offset -> 0x009C7C50
+//		Offset -> 0x009CBEA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayersInSegment
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49419,7 +49419,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayersInSegment(const str
 
 
 // Function:
-//		Offset -> 0x009C73D0
+//		Offset -> 0x009CB620
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49450,7 +49450,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerSegments(const struc
 
 
 // Function:
-//		Offset -> 0x009C71E0
+//		Offset -> 0x009CB430
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerProfile
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49481,7 +49481,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerProfile(const struct
 
 
 // Function:
-//		Offset -> 0x009C6FF0
+//		Offset -> 0x009CB240
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetPlayerCombinedInfo
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49512,7 +49512,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetPlayerCombinedInfo(const s
 
 
 // Function:
-//		Offset -> 0x009C60B0
+//		Offset -> 0x009CA300
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetLeaderboardForUserCharacters
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49543,7 +49543,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetLeaderboardForUserCharacte
 
 
 // Function:
-//		Offset -> 0x009C5E40
+//		Offset -> 0x009CA090
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetLeaderboardAroundUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49574,7 +49574,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetLeaderboardAroundUser(cons
 
 
 // Function:
-//		Offset -> 0x009C5B50
+//		Offset -> 0x009C9DA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetLeaderboardAroundCharacter
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49605,7 +49605,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetLeaderboardAroundCharacter
 
 
 // Function:
-//		Offset -> 0x009C5940
+//		Offset -> 0x009C9B90
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49636,7 +49636,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetLeaderboard(const struct F
 
 
 // Function:
-//		Offset -> 0x009C5570
+//		Offset -> 0x009C97C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetFriendsList
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49667,7 +49667,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetFriendsList(const struct F
 
 
 // Function:
-//		Offset -> 0x009C5280
+//		Offset -> 0x009C94D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetFriendLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49698,7 +49698,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetFriendLeaderboard(const st
 
 
 // Function:
-//		Offset -> 0x009C5050
+//		Offset -> 0x009C92A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetContentDownloadUrl
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49729,7 +49729,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetContentDownloadUrl(const s
 
 
 // Function:
-//		Offset -> 0x009C4E30
+//		Offset -> 0x009C9080
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterStatistics
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49760,7 +49760,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterStatistics(const 
 
 
 // Function:
-//		Offset -> 0x009C4BA0
+//		Offset -> 0x009C8DF0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterReadOnlyData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49791,7 +49791,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterReadOnlyData(cons
 
 
 // Function:
-//		Offset -> 0x009C4970
+//		Offset -> 0x009C8BC0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterLeaderboard
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49822,7 +49822,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterLeaderboard(const
 
 
 // Function:
-//		Offset -> 0x009C46E0
+//		Offset -> 0x009C8930
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterInventory
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49853,7 +49853,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterInventory(const s
 
 
 // Function:
-//		Offset -> 0x009C4450
+//		Offset -> 0x009C86A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterInternalData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49884,7 +49884,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterInternalData(cons
 
 
 // Function:
-//		Offset -> 0x009C41C0
+//		Offset -> 0x009C8410
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCharacterData
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49915,7 +49915,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCharacterData(const struct
 
 
 // Function:
-//		Offset -> 0x009C3FF0
+//		Offset -> 0x009C8240
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetCatalogItems
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49946,7 +49946,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetCatalogItems(const struct 
 
 
 // Function:
-//		Offset -> 0x009C3E20
+//		Offset -> 0x009C8070
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetAllUsersCharacters
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -49977,7 +49977,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetAllUsersCharacters(const s
 
 
 // Function:
-//		Offset -> 0x009C3CC0
+//		Offset -> 0x009C7F10
 //		Name   -> Function PlayFab.PlayFabServerAPI.GetAllSegments
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50008,7 +50008,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_GetAllSegments(const struct F
 
 
 // Function:
-//		Offset -> 0x009C3A50
+//		Offset -> 0x009C7CA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.ExecuteCloudScript
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50039,7 +50039,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_ExecuteCloudScript(const stru
 
 
 // Function:
-//		Offset -> 0x009C3830
+//		Offset -> 0x009C7A80
 //		Name   -> Function PlayFab.PlayFabServerAPI.EvaluateRandomResultTable
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50070,7 +50070,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_EvaluateRandomResultTable(con
 
 
 // Function:
-//		Offset -> 0x009C3650
+//		Offset -> 0x009C78A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.DeregisterGame
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50101,7 +50101,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_DeregisterGame(const struct F
 
 
 // Function:
-//		Offset -> 0x009C3480
+//		Offset -> 0x009C76D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.DeleteSharedGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50132,7 +50132,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_DeleteSharedGroup(const struc
 
 
 // Function:
-//		Offset -> 0x009C32B0
+//		Offset -> 0x009C7500
 //		Name   -> Function PlayFab.PlayFabServerAPI.DeletePushNotificationTemplate
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50163,7 +50163,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_DeletePushNotificationTemplat
 
 
 // Function:
-//		Offset -> 0x009C30E0
+//		Offset -> 0x009C7330
 //		Name   -> Function PlayFab.PlayFabServerAPI.DeletePlayer
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50194,7 +50194,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_DeletePlayer(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009C2EA0
+//		Offset -> 0x009C70F0
 //		Name   -> Function PlayFab.PlayFabServerAPI.DeleteCharacterFromUser
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -50225,7 +50225,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_DeleteCharacterFromUser(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessWriteTitleEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50248,7 +50248,7 @@ void UPlayFabServerAPI::DelegateOnSuccessWriteTitleEvent__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessWritePlayerEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50271,7 +50271,7 @@ void UPlayFabServerAPI::DelegateOnSuccessWritePlayerEvent__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessWriteCharacterEvent__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50294,7 +50294,7 @@ void UPlayFabServerAPI::DelegateOnSuccessWriteCharacterEvent__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50317,7 +50317,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserReadOnlyData__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserPublisherReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50340,7 +50340,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserPublisherReadOnlyData__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserPublisherInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50363,7 +50363,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserPublisherInternalData__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50386,7 +50386,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserPublisherData__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserInventoryItemCustomData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50409,7 +50409,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserInventoryItemCustomData__Dele
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50432,7 +50432,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserInternalData__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50455,7 +50455,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateUserData__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateSharedGroupData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50478,7 +50478,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateSharedGroupData__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdatePlayerStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50501,7 +50501,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdatePlayerStatistics__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateCharacterStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50524,7 +50524,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateCharacterStatistics__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateCharacterReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50547,7 +50547,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateCharacterReadOnlyData__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateCharacterInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50570,7 +50570,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateCharacterInternalData__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateCharacterData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50593,7 +50593,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateCharacterData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50616,7 +50616,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateBans__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUpdateAvatarUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50639,7 +50639,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUpdateAvatarUrl__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUnlockContainerItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50662,7 +50662,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUnlockContainerItem__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUnlockContainerInstance__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50685,7 +50685,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUnlockContainerInstance__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUnlinkXboxAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50708,7 +50708,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUnlinkXboxAccount__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUnlinkServerCustomId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50731,7 +50731,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUnlinkServerCustomId__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessUnlinkPSNAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50754,7 +50754,7 @@ void UPlayFabServerAPI::DelegateOnSuccessUnlinkPSNAccount__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50777,7 +50777,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSubtractUserVirtualCurrency__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSubtractCharacterVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50800,7 +50800,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSubtractCharacterVirtualCurrency__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetTitleInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50823,7 +50823,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetTitleInternalData__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetTitleData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50846,7 +50846,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetTitleData__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50869,7 +50869,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetPublisherData__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetPlayerSecret__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50892,7 +50892,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetPlayerSecret__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetGameServerInstanceTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50915,7 +50915,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetGameServerInstanceTags__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetGameServerInstanceState__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50938,7 +50938,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetGameServerInstanceState__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetGameServerInstanceData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50961,7 +50961,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetGameServerInstanceData__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSetFriendTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -50984,7 +50984,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSetFriendTags__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSendPushNotificationFromTemplate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51007,7 +51007,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSendPushNotificationFromTemplate__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSendPushNotification__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51030,7 +51030,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSendPushNotification__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSendEmailFromTemplate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51053,7 +51053,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSendEmailFromTemplate__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSendCustomAccountRecoveryEmail__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51076,7 +51076,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSendCustomAccountRecoveryEmail__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessSavePushNotificationTemplate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51099,7 +51099,7 @@ void UPlayFabServerAPI::DelegateOnSuccessSavePushNotificationTemplate__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRevokeInventoryItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51122,7 +51122,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRevokeInventoryItems__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRevokeInventoryItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51145,7 +51145,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRevokeInventoryItem__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRevokeBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51168,7 +51168,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRevokeBans__DelegateSignature(const str
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRevokeAllBansForUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51191,7 +51191,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRevokeAllBansForUser__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessReportPlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51214,7 +51214,7 @@ void UPlayFabServerAPI::DelegateOnSuccessReportPlayer__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRemoveSharedGroupMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51237,7 +51237,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRemoveSharedGroupMembers__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRemovePlayerTag__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51260,7 +51260,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRemovePlayerTag__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRemoveGenericID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51283,7 +51283,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRemoveGenericID__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRemoveFriend__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51306,7 +51306,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRemoveFriend__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRegisterGame__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51329,7 +51329,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRegisterGame__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRefreshGameServerInstanceHeartbeat__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51352,7 +51352,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRefreshGameServerInstanceHeartbeat__Del
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRedeemMatchmakerTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51375,7 +51375,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRedeemMatchmakerTicket__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessRedeemCoupon__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51398,7 +51398,7 @@ void UPlayFabServerAPI::DelegateOnSuccessRedeemCoupon__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessNotifyMatchmakerPlayerLeft__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51421,7 +51421,7 @@ void UPlayFabServerAPI::DelegateOnSuccessNotifyMatchmakerPlayerLeft__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessMoveItemToUserFromCharacter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51444,7 +51444,7 @@ void UPlayFabServerAPI::DelegateOnSuccessMoveItemToUserFromCharacter__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessMoveItemToCharacterFromUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51467,7 +51467,7 @@ void UPlayFabServerAPI::DelegateOnSuccessMoveItemToCharacterFromUser__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessMoveItemToCharacterFromCharacter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51490,7 +51490,7 @@ void UPlayFabServerAPI::DelegateOnSuccessMoveItemToCharacterFromCharacter__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessModifyItemUses__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51513,7 +51513,7 @@ void UPlayFabServerAPI::DelegateOnSuccessModifyItemUses__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLoginWithXboxId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51536,7 +51536,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLoginWithXboxId__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLoginWithXbox__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51559,7 +51559,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLoginWithXbox__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLoginWithSteamId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51582,7 +51582,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLoginWithSteamId__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLoginWithServerCustomId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51605,7 +51605,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLoginWithServerCustomId__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLinkXboxAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51628,7 +51628,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLinkXboxAccount__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLinkServerCustomId__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51651,7 +51651,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLinkServerCustomId__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessLinkPSNAccount__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51674,7 +51674,7 @@ void UPlayFabServerAPI::DelegateOnSuccessLinkPSNAccount__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGrantItemsToUsers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51697,7 +51697,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGrantItemsToUsers__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGrantItemsToUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51720,7 +51720,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGrantItemsToUser__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGrantItemsToCharacter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51743,7 +51743,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGrantItemsToCharacter__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGrantCharacterToUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51766,7 +51766,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGrantCharacterToUser__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51789,7 +51789,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserReadOnlyData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51812,7 +51812,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserPublisherReadOnlyData__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserPublisherInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51835,7 +51835,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserPublisherInternalData__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51858,7 +51858,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserPublisherData__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserInventory__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51881,7 +51881,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserInventory__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51904,7 +51904,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserInternalData__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51927,7 +51927,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserData__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserBans__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51950,7 +51950,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserBans__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetUserAccountInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51973,7 +51973,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetUserAccountInfo__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetTitleNews__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -51996,7 +51996,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetTitleNews__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetTitleInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52019,7 +52019,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetTitleInternalData__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetTitleData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52042,7 +52042,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetTitleData__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetTime__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52065,7 +52065,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetTime__DelegateSignature(const struct
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetStoreItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52088,7 +52088,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetStoreItems__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetSharedGroupData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52111,7 +52111,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetSharedGroupData__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetServerCustomIDsFromPlayFabIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52134,7 +52134,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetServerCustomIDsFromPlayFabIDs__Deleg
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetRandomResultTables__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52157,7 +52157,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetRandomResultTables__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPublisherData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52180,7 +52180,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPublisherData__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromXboxLiveIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52203,7 +52203,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromXboxLiveIDs__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromSteamIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52226,7 +52226,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromSteamIDs__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromPSNAccountIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52249,7 +52249,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromPSNAccountIDs__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromNintendoSwitchDeviceIds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52272,7 +52272,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromNintendoSwitchDeviceId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromGenericIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52295,7 +52295,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromGenericIDs__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromFacebookInstantGamesIds__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52318,7 +52318,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromFacebookInstantGamesId
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayFabIDsFromFacebookIDs__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52341,7 +52341,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayFabIDsFromFacebookIDs__DelegateS
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerTags__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52364,7 +52364,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerTags__DelegateSignature(const 
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerStatisticVersions__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52387,7 +52387,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerStatisticVersions__DelegateSig
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52410,7 +52410,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerStatistics__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayersInSegment__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52433,7 +52433,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayersInSegment__DelegateSignature(
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52456,7 +52456,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerSegments__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerProfile__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52479,7 +52479,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerProfile__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetPlayerCombinedInfo__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52502,7 +52502,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetPlayerCombinedInfo__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetLeaderboardForUserCharacters__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52525,7 +52525,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetLeaderboardForUserCharacters__Delega
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetLeaderboardAroundUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52548,7 +52548,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetLeaderboardAroundUser__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetLeaderboardAroundCharacter__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52571,7 +52571,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetLeaderboardAroundCharacter__Delegate
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52594,7 +52594,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetLeaderboard__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetFriendsList__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52617,7 +52617,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetFriendsList__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetFriendLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52640,7 +52640,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetFriendLeaderboard__DelegateSignature
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetContentDownloadUrl__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52663,7 +52663,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetContentDownloadUrl__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterStatistics__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52686,7 +52686,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterStatistics__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterReadOnlyData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52709,7 +52709,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterReadOnlyData__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterLeaderboard__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52732,7 +52732,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterLeaderboard__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterInventory__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52755,7 +52755,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterInventory__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterInternalData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52778,7 +52778,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterInternalData__DelegateSigna
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCharacterData__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52801,7 +52801,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCharacterData__DelegateSignature(con
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetCatalogItems__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52824,7 +52824,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetCatalogItems__DelegateSignature(cons
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetAllUsersCharacters__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52847,7 +52847,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetAllUsersCharacters__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessGetAllSegments__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52870,7 +52870,7 @@ void UPlayFabServerAPI::DelegateOnSuccessGetAllSegments__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessExecuteCloudScript__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52893,7 +52893,7 @@ void UPlayFabServerAPI::DelegateOnSuccessExecuteCloudScript__DelegateSignature(c
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessEvaluateRandomResultTable__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52916,7 +52916,7 @@ void UPlayFabServerAPI::DelegateOnSuccessEvaluateRandomResultTable__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessDeregisterGame__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52939,7 +52939,7 @@ void UPlayFabServerAPI::DelegateOnSuccessDeregisterGame__DelegateSignature(const
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessDeleteSharedGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52962,7 +52962,7 @@ void UPlayFabServerAPI::DelegateOnSuccessDeleteSharedGroup__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessDeletePushNotificationTemplate__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -52985,7 +52985,7 @@ void UPlayFabServerAPI::DelegateOnSuccessDeletePushNotificationTemplate__Delegat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessDeletePlayer__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53008,7 +53008,7 @@ void UPlayFabServerAPI::DelegateOnSuccessDeletePlayer__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessDeleteCharacterFromUser__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53031,7 +53031,7 @@ void UPlayFabServerAPI::DelegateOnSuccessDeleteCharacterFromUser__DelegateSignat
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessCreateSharedGroup__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53054,7 +53054,7 @@ void UPlayFabServerAPI::DelegateOnSuccessCreateSharedGroup__DelegateSignature(co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessConsumeItem__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53077,7 +53077,7 @@ void UPlayFabServerAPI::DelegateOnSuccessConsumeItem__DelegateSignature(const st
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessBanUsers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53100,7 +53100,7 @@ void UPlayFabServerAPI::DelegateOnSuccessBanUsers__DelegateSignature(const struc
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAwardSteamAchievement__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53123,7 +53123,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAwardSteamAchievement__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAuthenticateSessionTicket__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53146,7 +53146,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAuthenticateSessionTicket__DelegateSign
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddUserVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53169,7 +53169,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddUserVirtualCurrency__DelegateSignatu
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddSharedGroupMembers__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53192,7 +53192,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddSharedGroupMembers__DelegateSignatur
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddPlayerTag__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53215,7 +53215,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddPlayerTag__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddGenericID__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53238,7 +53238,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddGenericID__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddFriend__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53261,7 +53261,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddFriend__DelegateSignature(const stru
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnSuccessAddCharacterVirtualCurrency__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53284,7 +53284,7 @@ void UPlayFabServerAPI::DelegateOnSuccessAddCharacterVirtualCurrency__DelegateSi
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> DelegateFunction PlayFab.PlayFabServerAPI.DelegateOnFailurePlayFabError__DelegateSignature
 //		Flags  -> (Public, Delegate)
 // Parameters:
@@ -53307,7 +53307,7 @@ void UPlayFabServerAPI::DelegateOnFailurePlayFabError__DelegateSignature(const s
 
 
 // Function:
-//		Offset -> 0x009C2CD0
+//		Offset -> 0x009C6F20
 //		Name   -> Function PlayFab.PlayFabServerAPI.CreateSharedGroup
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53338,7 +53338,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_CreateSharedGroup(const struc
 
 
 // Function:
-//		Offset -> 0x009C2A30
+//		Offset -> 0x009C6C80
 //		Name   -> Function PlayFab.PlayFabServerAPI.ConsumeItem
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53369,7 +53369,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_ConsumeItem(const struct FSer
 
 
 // Function:
-//		Offset -> 0x009C2850
+//		Offset -> 0x009C6AA0
 //		Name   -> Function PlayFab.PlayFabServerAPI.BanUsers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53400,7 +53400,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_BanUsers(const struct FServer
 
 
 // Function:
-//		Offset -> 0x009C2680
+//		Offset -> 0x009C68D0
 //		Name   -> Function PlayFab.PlayFabServerAPI.AwardSteamAchievement
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53431,7 +53431,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AwardSteamAchievement(const s
 
 
 // Function:
-//		Offset -> 0x009C24B0
+//		Offset -> 0x009C6700
 //		Name   -> Function PlayFab.PlayFabServerAPI.AuthenticateSessionTicket
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53462,7 +53462,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AuthenticateSessionTicket(con
 
 
 // Function:
-//		Offset -> 0x009C2270
+//		Offset -> 0x009C64C0
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddUserVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53493,7 +53493,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddUserVirtualCurrency(const 
 
 
 // Function:
-//		Offset -> 0x009C2050
+//		Offset -> 0x009C62A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddSharedGroupMembers
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53524,7 +53524,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddSharedGroupMembers(const s
 
 
 // Function:
-//		Offset -> 0x009C1E20
+//		Offset -> 0x009C6070
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddPlayerTag
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53555,7 +53555,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddPlayerTag(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009C1C40
+//		Offset -> 0x009C5E90
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddGenericID
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53586,7 +53586,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddGenericID(const struct FSe
 
 
 // Function:
-//		Offset -> 0x009C18F0
+//		Offset -> 0x009C5B40
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddFriend
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53617,7 +53617,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddFriend(const struct FServe
 
 
 // Function:
-//		Offset -> 0x009C1650
+//		Offset -> 0x009C58A0
 //		Name   -> Function PlayFab.PlayFabServerAPI.AddCharacterVirtualCurrency
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53648,7 +53648,7 @@ class UPlayFabServerAPI* UPlayFabServerAPI::STATIC_AddCharacterVirtualCurrency(c
 
 
 // Function:
-//		Offset -> 0x009E9E60
+//		Offset -> 0x009EE0B0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeWriteEventResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53673,7 +53673,7 @@ struct FServerWriteEventResponse UPlayFabServerModelDecoder::STATIC_decodeWriteE
 
 
 // Function:
-//		Offset -> 0x009264B0
+//		Offset -> 0x0092A700
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdateUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53698,7 +53698,7 @@ struct FServerUpdateUserDataResult UPlayFabServerModelDecoder::STATIC_decodeUpda
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdateSharedGroupDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53723,7 +53723,7 @@ struct FServerUpdateSharedGroupDataResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdatePlayerStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53748,7 +53748,7 @@ struct FServerUpdatePlayerStatisticsResult UPlayFabServerModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdateCharacterStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53773,7 +53773,7 @@ struct FServerUpdateCharacterStatisticsResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009264B0
+//		Offset -> 0x0092A700
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdateCharacterDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53798,7 +53798,7 @@ struct FServerUpdateCharacterDataResult UPlayFabServerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUpdateBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53823,7 +53823,7 @@ struct FServerUpdateBansResult UPlayFabServerModelDecoder::STATIC_decodeUpdateBa
 
 
 // Function:
-//		Offset -> 0x009E9CF0
+//		Offset -> 0x009EDF40
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUnlockContainerItemResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53848,7 +53848,7 @@ struct FServerUnlockContainerItemResult UPlayFabServerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUnlinkXboxAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53873,7 +53873,7 @@ struct FServerUnlinkXboxAccountResult UPlayFabServerModelDecoder::STATIC_decodeU
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUnlinkServerCustomIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53898,7 +53898,7 @@ struct FServerUnlinkServerCustomIdResult UPlayFabServerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeUnlinkPSNAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53923,7 +53923,7 @@ struct FServerUnlinkPSNAccountResult UPlayFabServerModelDecoder::STATIC_decodeUn
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetTitleDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53948,7 +53948,7 @@ struct FServerSetTitleDataResult UPlayFabServerModelDecoder::STATIC_decodeSetTit
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetPublisherDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53973,7 +53973,7 @@ struct FServerSetPublisherDataResult UPlayFabServerModelDecoder::STATIC_decodeSe
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetPlayerSecretResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -53998,7 +53998,7 @@ struct FServerSetPlayerSecretResult UPlayFabServerModelDecoder::STATIC_decodeSet
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetGameServerInstanceTagsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54023,7 +54023,7 @@ struct FServerSetGameServerInstanceTagsResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetGameServerInstanceStateResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54048,7 +54048,7 @@ struct FServerSetGameServerInstanceStateResult UPlayFabServerModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSetGameServerInstanceDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54073,7 +54073,7 @@ struct FServerSetGameServerInstanceDataResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009E9B50
+//		Offset -> 0x009EDDA0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeServerLoginResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54098,7 +54098,7 @@ struct FServerServerLoginResult UPlayFabServerModelDecoder::STATIC_decodeServerL
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSendPushNotificationResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54123,7 +54123,7 @@ struct FServerSendPushNotificationResult UPlayFabServerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSendEmailFromTemplateResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54148,7 +54148,7 @@ struct FServerSendEmailFromTemplateResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSendCustomAccountRecoveryEmailResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54173,7 +54173,7 @@ struct FServerSendCustomAccountRecoveryEmailResult UPlayFabServerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009E9A80
+//		Offset -> 0x009EDCD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeSavePushNotificationTemplateResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54198,7 +54198,7 @@ struct FServerSavePushNotificationTemplateResult UPlayFabServerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRevokeInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54223,7 +54223,7 @@ struct FServerRevokeInventoryResult UPlayFabServerModelDecoder::STATIC_decodeRev
 
 
 // Function:
-//		Offset -> 0x00926090
+//		Offset -> 0x0092A2E0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRevokeInventoryItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54248,7 +54248,7 @@ struct FServerRevokeInventoryItemsResult UPlayFabServerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRevokeBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54273,7 +54273,7 @@ struct FServerRevokeBansResult UPlayFabServerModelDecoder::STATIC_decodeRevokeBa
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRevokeAllBansForUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54298,7 +54298,7 @@ struct FServerRevokeAllBansForUserResult UPlayFabServerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x009E99F0
+//		Offset -> 0x009EDC40
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeReportPlayerServerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54323,7 +54323,7 @@ struct FServerReportPlayerServerResult UPlayFabServerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRemoveSharedGroupMembersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54348,7 +54348,7 @@ struct FServerRemoveSharedGroupMembersResult UPlayFabServerModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRemovePlayerTagResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54373,7 +54373,7 @@ struct FServerRemovePlayerTagResult UPlayFabServerModelDecoder::STATIC_decodeRem
 
 
 // Function:
-//		Offset -> 0x009E9920
+//		Offset -> 0x009EDB70
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRegisterGameResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54398,7 +54398,7 @@ struct FServerRegisterGameResponse UPlayFabServerModelDecoder::STATIC_decodeRegi
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRefreshGameServerInstanceHeartbeatResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54423,7 +54423,7 @@ struct FServerRefreshGameServerInstanceHeartbeatResult UPlayFabServerModelDecode
 
 
 // Function:
-//		Offset -> 0x009E9830
+//		Offset -> 0x009EDA80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRedeemMatchmakerTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54448,7 +54448,7 @@ struct FServerRedeemMatchmakerTicketResult UPlayFabServerModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009E9760
+//		Offset -> 0x009ED9B0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeRedeemCouponResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54473,7 +54473,7 @@ struct FServerRedeemCouponResult UPlayFabServerModelDecoder::STATIC_decodeRedeem
 
 
 // Function:
-//		Offset -> 0x009E96D0
+//		Offset -> 0x009ED920
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeNotifyMatchmakerPlayerLeftResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54498,7 +54498,7 @@ struct FServerNotifyMatchmakerPlayerLeftResult UPlayFabServerModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeMoveItemToUserFromCharacterResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54523,7 +54523,7 @@ struct FServerMoveItemToUserFromCharacterResult UPlayFabServerModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeMoveItemToCharacterFromUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54548,7 +54548,7 @@ struct FServerMoveItemToCharacterFromUserResult UPlayFabServerModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeMoveItemToCharacterFromCharacterResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54573,7 +54573,7 @@ struct FServerMoveItemToCharacterFromCharacterResult UPlayFabServerModelDecoder:
 
 
 // Function:
-//		Offset -> 0x00925E90
+//		Offset -> 0x0092A0E0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeModifyUserVirtualCurrencyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54598,7 +54598,7 @@ struct FServerModifyUserVirtualCurrencyResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009E82E0
+//		Offset -> 0x009EC530
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeModifyItemUsesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54623,7 +54623,7 @@ struct FServerModifyItemUsesResult UPlayFabServerModelDecoder::STATIC_decodeModi
 
 
 // Function:
-//		Offset -> 0x009E95F0
+//		Offset -> 0x009ED840
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeModifyCharacterVirtualCurrencyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54648,7 +54648,7 @@ struct FServerModifyCharacterVirtualCurrencyResult UPlayFabServerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009E9520
+//		Offset -> 0x009ED770
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeListUsersCharactersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54673,7 +54673,7 @@ struct FServerListUsersCharactersResult UPlayFabServerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeLinkXboxAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54698,7 +54698,7 @@ struct FServerLinkXboxAccountResult UPlayFabServerModelDecoder::STATIC_decodeLin
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeLinkServerCustomIdResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54723,7 +54723,7 @@ struct FServerLinkServerCustomIdResult UPlayFabServerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeLinkPSNAccountResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54748,7 +54748,7 @@ struct FServerLinkPSNAccountResult UPlayFabServerModelDecoder::STATIC_decodeLink
 
 
 // Function:
-//		Offset -> 0x00925A30
+//		Offset -> 0x00929C80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGrantItemsToUsersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54773,7 +54773,7 @@ struct FServerGrantItemsToUsersResult UPlayFabServerModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00925A30
+//		Offset -> 0x00929C80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGrantItemsToUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54798,7 +54798,7 @@ struct FServerGrantItemsToUserResult UPlayFabServerModelDecoder::STATIC_decodeGr
 
 
 // Function:
-//		Offset -> 0x00925A30
+//		Offset -> 0x00929C80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGrantItemsToCharacterResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54823,7 +54823,7 @@ struct FServerGrantItemsToCharacterResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E9450
+//		Offset -> 0x009ED6A0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGrantCharacterToUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54848,7 +54848,7 @@ struct FServerGrantCharacterToUserResult UPlayFabServerModelDecoder::STATIC_deco
 
 
 // Function:
-//		Offset -> 0x00925900
+//		Offset -> 0x00929B50
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetUserInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54873,7 +54873,7 @@ struct FServerGetUserInventoryResult UPlayFabServerModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00925820
+//		Offset -> 0x00929A70
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetUserDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54898,7 +54898,7 @@ struct FServerGetUserDataResult UPlayFabServerModelDecoder::STATIC_decodeGetUser
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetUserBansResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54923,7 +54923,7 @@ struct FServerGetUserBansResult UPlayFabServerModelDecoder::STATIC_decodeGetUser
 
 
 // Function:
-//		Offset -> 0x00925E00
+//		Offset -> 0x0092A050
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetUserAccountInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54948,7 +54948,7 @@ struct FServerGetUserAccountInfoResult UPlayFabServerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009E9380
+//		Offset -> 0x009ED5D0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetTitleNewsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54973,7 +54973,7 @@ struct FServerGetTitleNewsResult UPlayFabServerModelDecoder::STATIC_decodeGetTit
 
 
 // Function:
-//		Offset -> 0x009251C0
+//		Offset -> 0x00929410
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetTitleDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -54998,7 +54998,7 @@ struct FServerGetTitleDataResult UPlayFabServerModelDecoder::STATIC_decodeGetTit
 
 
 // Function:
-//		Offset -> 0x009E92B0
+//		Offset -> 0x009ED500
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetTimeResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55023,7 +55023,7 @@ struct FServerGetTimeResult UPlayFabServerModelDecoder::STATIC_decodeGetTimeResu
 
 
 // Function:
-//		Offset -> 0x009E9130
+//		Offset -> 0x009ED380
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetStoreItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55048,7 +55048,7 @@ struct FServerGetStoreItemsResult UPlayFabServerModelDecoder::STATIC_decodeGetSt
 
 
 // Function:
-//		Offset -> 0x009E9050
+//		Offset -> 0x009ED2A0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetSharedGroupDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55073,7 +55073,7 @@ struct FServerGetSharedGroupDataResult UPlayFabServerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetServerCustomIDsFromPlayFabIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55098,7 +55098,7 @@ struct FServerGetServerCustomIDsFromPlayFabIDsResult UPlayFabServerModelDecoder:
 
 
 // Function:
-//		Offset -> 0x00925250
+//		Offset -> 0x009294A0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetRandomResultTablesResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55123,7 +55123,7 @@ struct FServerGetRandomResultTablesResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009251C0
+//		Offset -> 0x00929410
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPublisherDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55148,7 +55148,7 @@ struct FServerGetPublisherDataResult UPlayFabServerModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromXboxLiveIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55173,7 +55173,7 @@ struct FServerGetPlayFabIDsFromXboxLiveIDsResult UPlayFabServerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromSteamIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55198,7 +55198,7 @@ struct FServerGetPlayFabIDsFromSteamIDsResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromPSNAccountIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55223,7 +55223,7 @@ struct FServerGetPlayFabIDsFromPSNAccountIDsResult UPlayFabServerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromNintendoSwitchDeviceIdsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55248,7 +55248,7 @@ struct FServerGetPlayFabIDsFromNintendoSwitchDeviceIdsResult UPlayFabServerModel
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromGenericIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55273,7 +55273,7 @@ struct FServerGetPlayFabIDsFromGenericIDsResult UPlayFabServerModelDecoder::STAT
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromFacebookInstantGamesIdsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55298,7 +55298,7 @@ struct FServerGetPlayFabIDsFromFacebookInstantGamesIdsResult UPlayFabServerModel
 
 
 // Function:
-//		Offset -> 0x009E8D80
+//		Offset -> 0x009ECFD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayFabIDsFromFacebookIDsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55323,7 +55323,7 @@ struct FServerGetPlayFabIDsFromFacebookIDsResult UPlayFabServerModelDecoder::STA
 
 
 // Function:
-//		Offset -> 0x00924E40
+//		Offset -> 0x00929090
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerTagsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55348,7 +55348,7 @@ struct FServerGetPlayerTagsResult UPlayFabServerModelDecoder::STATIC_decodeGetPl
 
 
 // Function:
-//		Offset -> 0x00924D70
+//		Offset -> 0x00928FC0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerStatisticVersionsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55373,7 +55373,7 @@ struct FServerGetPlayerStatisticVersionsResult UPlayFabServerModelDecoder::STATI
 
 
 // Function:
-//		Offset -> 0x009E8F30
+//		Offset -> 0x009ED180
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55398,7 +55398,7 @@ struct FServerGetPlayerStatisticsResult UPlayFabServerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00924F60
+//		Offset -> 0x009291B0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayersInSegmentResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55423,7 +55423,7 @@ struct FServerGetPlayersInSegmentResult UPlayFabServerModelDecoder::STATIC_decod
 
 
 // Function:
-//		Offset -> 0x00924140
+//		Offset -> 0x00928390
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerSegmentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55448,7 +55448,7 @@ struct FServerGetPlayerSegmentsResult UPlayFabServerModelDecoder::STATIC_decodeG
 
 
 // Function:
-//		Offset -> 0x00924B40
+//		Offset -> 0x00928D90
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerProfileResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55473,7 +55473,7 @@ struct FServerGetPlayerProfileResult UPlayFabServerModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x009E8E50
+//		Offset -> 0x009ED0A0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetPlayerCombinedInfoResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55498,7 +55498,7 @@ struct FServerGetPlayerCombinedInfoResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E8C50
+//		Offset -> 0x009ECEA0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetLeaderboardResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55523,7 +55523,7 @@ struct FServerGetLeaderboardResult UPlayFabServerModelDecoder::STATIC_decodeGetL
 
 
 // Function:
-//		Offset -> 0x009E8980
+//		Offset -> 0x009ECBD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetLeaderboardForUsersCharactersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55548,7 +55548,7 @@ struct FServerGetLeaderboardForUsersCharactersResult UPlayFabServerModelDecoder:
 
 
 // Function:
-//		Offset -> 0x009E8C50
+//		Offset -> 0x009ECEA0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetLeaderboardAroundUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55573,7 +55573,7 @@ struct FServerGetLeaderboardAroundUserResult UPlayFabServerModelDecoder::STATIC_
 
 
 // Function:
-//		Offset -> 0x009E8980
+//		Offset -> 0x009ECBD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetLeaderboardAroundCharacterResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55598,7 +55598,7 @@ struct FServerGetLeaderboardAroundCharacterResult UPlayFabServerModelDecoder::ST
 
 
 // Function:
-//		Offset -> 0x009E8B80
+//		Offset -> 0x009ECDD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetFriendsListResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55623,7 +55623,7 @@ struct FServerGetFriendsListResult UPlayFabServerModelDecoder::STATIC_decodeGetF
 
 
 // Function:
-//		Offset -> 0x009245E0
+//		Offset -> 0x00928830
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetContentDownloadUrlResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55648,7 +55648,7 @@ struct FServerGetContentDownloadUrlResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E8A50
+//		Offset -> 0x009ECCA0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetCharacterStatisticsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55673,7 +55673,7 @@ struct FServerGetCharacterStatisticsResult UPlayFabServerModelDecoder::STATIC_de
 
 
 // Function:
-//		Offset -> 0x009E8980
+//		Offset -> 0x009ECBD0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetCharacterLeaderboardResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55698,7 +55698,7 @@ struct FServerGetCharacterLeaderboardResult UPlayFabServerModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009E8800
+//		Offset -> 0x009ECA50
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetCharacterInventoryResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55723,7 +55723,7 @@ struct FServerGetCharacterInventoryResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E86D0
+//		Offset -> 0x009EC920
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetCharacterDataResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55748,7 +55748,7 @@ struct FServerGetCharacterDataResult UPlayFabServerModelDecoder::STATIC_decodeGe
 
 
 // Function:
-//		Offset -> 0x00924210
+//		Offset -> 0x00928460
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetCatalogItemsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55773,7 +55773,7 @@ struct FServerGetCatalogItemsResult UPlayFabServerModelDecoder::STATIC_decodeGet
 
 
 // Function:
-//		Offset -> 0x00924140
+//		Offset -> 0x00928390
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeGetAllSegmentsResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55798,7 +55798,7 @@ struct FServerGetAllSegmentsResult UPlayFabServerModelDecoder::STATIC_decodeGetA
 
 
 // Function:
-//		Offset -> 0x009E8560
+//		Offset -> 0x009EC7B0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeExecuteCloudScriptResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55823,7 +55823,7 @@ struct FServerExecuteCloudScriptResult UPlayFabServerModelDecoder::STATIC_decode
 
 
 // Function:
-//		Offset -> 0x009E8490
+//		Offset -> 0x009EC6E0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeEvaluateRandomResultTableResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55848,7 +55848,7 @@ struct FServerEvaluateRandomResultTableResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeEmptyResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55873,7 +55873,7 @@ struct FServerEmptyResult UPlayFabServerModelDecoder::STATIC_decodeEmptyResultRe
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeEmptyResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55898,7 +55898,7 @@ struct FServerEmptyResponse UPlayFabServerModelDecoder::STATIC_decodeEmptyRespon
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeDeregisterGameResponseResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55923,7 +55923,7 @@ struct FServerDeregisterGameResponse UPlayFabServerModelDecoder::STATIC_decodeDe
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeDeletePushNotificationTemplateResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55948,7 +55948,7 @@ struct FServerDeletePushNotificationTemplateResult UPlayFabServerModelDecoder::S
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeDeletePlayerResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55973,7 +55973,7 @@ struct FServerDeletePlayerResult UPlayFabServerModelDecoder::STATIC_decodeDelete
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeDeleteCharacterFromUserResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -55998,7 +55998,7 @@ struct FServerDeleteCharacterFromUserResult UPlayFabServerModelDecoder::STATIC_d
 
 
 // Function:
-//		Offset -> 0x009E83C0
+//		Offset -> 0x009EC610
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeCreateSharedGroupResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56023,7 +56023,7 @@ struct FServerCreateSharedGroupResult UPlayFabServerModelDecoder::STATIC_decodeC
 
 
 // Function:
-//		Offset -> 0x009E82E0
+//		Offset -> 0x009EC530
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeConsumeItemResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56048,7 +56048,7 @@ struct FServerConsumeItemResult UPlayFabServerModelDecoder::STATIC_decodeConsume
 
 
 // Function:
-//		Offset -> 0x00923930
+//		Offset -> 0x00927B80
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeBanUsersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56073,7 +56073,7 @@ struct FServerBanUsersResult UPlayFabServerModelDecoder::STATIC_decodeBanUsersRe
 
 
 // Function:
-//		Offset -> 0x009E8210
+//		Offset -> 0x009EC460
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeAwardSteamAchievementResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56098,7 +56098,7 @@ struct FServerAwardSteamAchievementResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009E8170
+//		Offset -> 0x009EC3C0
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeAuthenticateSessionTicketResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56123,7 +56123,7 @@ struct FServerAuthenticateSessionTicketResult UPlayFabServerModelDecoder::STATIC
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeAddSharedGroupMembersResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56148,7 +56148,7 @@ struct FServerAddSharedGroupMembersResult UPlayFabServerModelDecoder::STATIC_dec
 
 
 // Function:
-//		Offset -> 0x009236B0
+//		Offset -> 0x00927900
 //		Name   -> Function PlayFab.PlayFabServerModelDecoder.decodeAddPlayerTagResultResponse
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56173,7 +56173,7 @@ struct FServerAddPlayerTagResult UPlayFabServerModelDecoder::STATIC_decodeAddPla
 
 
 // Function:
-//		Offset -> 0x009F45A0
+//		Offset -> 0x009F87F0
 //		Name   -> Function PlayFab.PlayFabUtilities.setPlayFabSettings
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56205,7 +56205,7 @@ void UPlayFabUtilities::STATIC_setPlayFabSettings(const struct FString& GameTitl
 
 
 // Function:
-//		Offset -> 0x009F4450
+//		Offset -> 0x009F86A0
 //		Name   -> Function PlayFab.PlayFabUtilities.getPhotonAppId
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -56234,7 +56234,7 @@ struct FString UPlayFabUtilities::STATIC_getPhotonAppId(bool Realtime, bool Chat
 
 
 // Function:
-//		Offset -> 0x009F4390
+//		Offset -> 0x009F85E0
 //		Name   -> Function PlayFab.PlayFabUtilities.getErrorText
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:

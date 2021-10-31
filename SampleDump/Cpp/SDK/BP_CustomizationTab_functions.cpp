@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.CreateSimpleItemEntries
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -47,7 +47,7 @@ void UBP_CustomizationTab_C::CreateSimpleItemEntries(TArray<class UClass*>* Item
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.ClearCustomizationItemEntries
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -66,7 +66,7 @@ void UBP_CustomizationTab_C::ClearCustomizationItemEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.GetCustomizationPlatform
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -89,7 +89,7 @@ void UBP_CustomizationTab_C::GetCustomizationPlatform(class ABP_MordhauCustomiza
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.OnCharacterDollUpdated
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -110,7 +110,7 @@ void UBP_CustomizationTab_C::OnCharacterDollUpdated(class AMordhauCharacter* Cha
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.OnProfileChanged
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 void UBP_CustomizationTab_C::OnProfileChanged()
@@ -128,7 +128,7 @@ void UBP_CustomizationTab_C::OnProfileChanged()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.CompareItemEntries
 //		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -155,7 +155,7 @@ void UBP_CustomizationTab_C::CompareItemEntries(class UBP_CustomizationItemEntry
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.SortItemEntries
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -174,7 +174,7 @@ void UBP_CustomizationTab_C::SortItemEntries()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_CustomizationTab.BP_CustomizationTab_C.SetActive
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:

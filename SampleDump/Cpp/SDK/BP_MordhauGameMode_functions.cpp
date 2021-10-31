@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.UnpossessAndDestroyPawn
 //		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -42,7 +42,7 @@ void ABP_MordhauGameMode_C::UnpossessAndDestroyPawn(class AController* Controlle
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_MordhauGameMode_C::ReceiveBeginPlay()
@@ -60,7 +60,7 @@ void ABP_MordhauGameMode_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.OnKilled
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -93,7 +93,7 @@ void ABP_MordhauGameMode_C::OnKilled(class AController* Killer, class AControlle
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.AddBots
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -116,7 +116,7 @@ void ABP_MordhauGameMode_C::AddBots(int Amount, int Team)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.RemoveBots
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -139,7 +139,7 @@ void ABP_MordhauGameMode_C::RemoveBots(int Amount, int Team)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.OnMatchStateChanged
 //		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -162,7 +162,7 @@ void ABP_MordhauGameMode_C::OnMatchStateChanged(const struct FName& OldState, co
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.K2_OnLogout
 //		Flags  -> (Event, Public, BlueprintEvent)
 // Parameters:
@@ -183,7 +183,7 @@ void ABP_MordhauGameMode_C::K2_OnLogout(class AController* ExitingController)
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_MordhauGameMode.BP_MordhauGameMode_C.ExecuteUbergraph_BP_MordhauGameMode
 //		Flags  -> (Final, HasDefaults)
 // Parameters:

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// Name: Mordhau, Version: 4_25_hotfix
+// Name: Mordhau, Version: Patch23
 
 
 /*!!DEFINE!!*/
@@ -24,7 +24,7 @@ namespace CG
 class UAssetRegistryImpl : public UObject
 {
 public:
-	unsigned char                                      UnknownData_4267[0x750];                                   // 0x0028(0x0750) MISSED OFFSET (PADDING)
+	unsigned char                                      UnknownData_W4IL[0x750];                                   // 0x0028(0x0750) MISSED OFFSET (PADDING)
 
 
 	static UClass* StaticClass()

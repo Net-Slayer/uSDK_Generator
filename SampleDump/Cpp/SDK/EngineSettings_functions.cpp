@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x01CFAD00
+//		Offset -> 0x01D079B0
 //		Name   -> Function EngineSettings.GameMapsSettings.SetSkipAssigningGamepadToPlayer1
 //		Flags  -> (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -41,7 +41,7 @@ void UGameMapsSettings::SetSkipAssigningGamepadToPlayer1(bool bSkipFirstPlayer)
 
 
 // Function:
-//		Offset -> 0x01CFACD0
+//		Offset -> 0x01D07980
 //		Name   -> Function EngineSettings.GameMapsSettings.GetSkipAssigningGamepadToPlayer1
 //		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -64,7 +64,7 @@ bool UGameMapsSettings::GetSkipAssigningGamepadToPlayer1()
 
 
 // Function:
-//		Offset -> 0x01CFACA0
+//		Offset -> 0x01D07950
 //		Name   -> Function EngineSettings.GameMapsSettings.GetGameMapsSettings
 //		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:

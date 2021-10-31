@@ -1,4 +1,4 @@
-﻿// Name: Mordhau, Version: 4_25_hotfix
+﻿// Name: Mordhau, Version: Patch23
 
 #include "../pch.h"
 
@@ -19,7 +19,7 @@ namespace CG
 //---------------------------------------------------------------------------
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientModLoaderActor.BP_ClientModLoaderActor_C.OnLoaded_5B2C9B73462309AE96DE41AA892FC4AA
 //		Flags  -> (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -40,7 +40,7 @@ void ABP_ClientModLoaderActor_C::OnLoaded_5B2C9B73462309AE96DE41AA892FC4AA(class
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientModLoaderActor.BP_ClientModLoaderActor_C.ReceiveBeginPlay
 //		Flags  -> (Event, Protected, BlueprintEvent)
 void ABP_ClientModLoaderActor_C::ReceiveBeginPlay()
@@ -58,7 +58,7 @@ void ABP_ClientModLoaderActor_C::ReceiveBeginPlay()
 
 
 // Function:
-//		Offset -> 0x014E30D0
+//		Offset -> 0x014F36A0
 //		Name   -> Function BP_ClientModLoaderActor.BP_ClientModLoaderActor_C.ExecuteUbergraph_BP_ClientModLoaderActor
 //		Flags  -> (Final, HasDefaults)
 // Parameters:
