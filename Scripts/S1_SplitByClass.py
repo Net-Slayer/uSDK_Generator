@@ -1,6 +1,4 @@
 import os
-import re
-
 
 search_str = "// Class Mordhau."
 
