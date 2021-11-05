@@ -36,7 +36,9 @@ for line in Lines:
                                 r"class MORDHAU_API \2 : ", fixed)
             # 7. remove mem address from inline comments
             cleared = re.sub(r"\/\/ 0x.*?\(.*?\)", r"//", api_compat)
-            MinLines.append(cleared)
+            # replace unsigned char with byte
+            MinLines.append(cleared.replace("unsigned char", "uint8"))
+
 
 block = ''.join(MinLines)
 print(block)
