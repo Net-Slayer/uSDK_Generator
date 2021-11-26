@@ -75,6 +75,7 @@ for i, v in enumerate(Lines):
         spec, isConst = resolveSpecifiers(flags, name)
         ClassOut.append("UFUNCTION(" + ', '.join(spec) + ")\n")
         if isConst:
+            f
             ClassOut.append(v.replace(';', ' const;'))
         else:
             ClassOut.append(v)
