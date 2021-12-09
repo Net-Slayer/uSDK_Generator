@@ -9,6 +9,7 @@ FunctionLines = FunctionFile.readlines()
 
 def grabData(funcName, ClassFileName):
     m = re.search(r'[ ](\S*)\((.*)\);', funcName)
+    print(m)
     name = m.group(1)
     params = m.group(2)
     FunctionStr = "Function Mordhau." + ClassFileName + '.' + name
@@ -50,38 +51,40 @@ def resolveSpecifiers(x, fname):
     return specList, constFlag
 
 
-input_CPP = r"..\Output\SpecifiedClasses\MordhauCharacter.h"
+def ClassSpecFunction(Lines, ClassName, GameName):
 
-ClassDirectory = r"..\Output\FinalClasses\MordhauCharacter.h"
-print(ClassDirectory + " " + str(os.path.isdir(ClassDirectory)))
-# 1. load single class
-file1 = open(input_CPP, 'r')
-Lines = file1.readlines()
+    FunctionBeginIndex = [i for i, v in enumerate(
+        Lines) if '// Functions' in v]
 
-FunctionBeginIndex = [i for i, v in enumerate(Lines) if '// Functions' in v][0]
-print(FunctionBeginIndex)
-print(Lines[FunctionBeginIndex])
-GeneratedClassName = os.path.basename(input_CPP).replace(".h", ".generated.h")
-ClassOut = ["#pragma once\n", "#include \"CoreMinimal.h\"\n",
-            "#include \"Mordhau.h\"\n"]
-# append required includes (wip)
-# append final include (generated header)
-ClassOut.append("#include \"" + GeneratedClassName + "\"\n")
-
-print(ClassOut)
-for i, v in enumerate(Lines):
-    if i > FunctionBeginIndex and i < (len(Lines) - 1):
-        name, params, flags = grabData(v, "MordhauCharacter")
-        spec, isConst = resolveSpecifiers(flags, name)
-        ClassOut.append("UFUNCTION(" + ', '.join(spec) + ")\n")
-        if isConst:
-            f
-            ClassOut.append(v.replace(';', ' const;'))
-        else:
-            ClassOut.append(v)
+    if len(FunctionBeginIndex) == 0:
+        NoFunctions = True
+        FunctionBeginIndex = len(Lines)
     else:
-        ClassOut.append(v)
+        FunctionBeginIndex = FunctionBeginIndex[0]
 
-with open(ClassDirectory, 'w') as f:
-    for item in ClassOut:
-        f.write(item)  # + "\n")
+    print(FunctionBeginIndex)
+    GeneratedClassName = ClassName.replace(".h", ".generated.h")
+    ClassOut = ["#pragma once\n", "#include \"CoreMinimal.h\"\n",
+                "#include \"" + GameName + ".h\"\n"]
+    # append required includes (wip)
+    # append final include (generated header)
+    ClassOut.append("#include \"" + GeneratedClassName + "\"\n")
+    print(ClassOut)
+    BaseName = ClassName.replace(".h", "")
+    print("ClassName is: " + BaseName)
+
+    if NoFunctions:
+        return Lines
+    else:
+        for i, v in enumerate(Lines):
+            if i > FunctionBeginIndex and i < (len(Lines) - 1):
+                name, params, flags = grabData(v, BaseName)
+                spec, isConst = resolveSpecifiers(flags, name)
+                ClassOut.append("UFUNCTION(" + ', '.join(spec) + ")\n")
+                if isConst:
+                    ClassOut.append(v.replace(';', ' const;'))
+                else:
+                    ClassOut.append(v)
+            else:
+                ClassOut.append(v)
+        return ClassOut
