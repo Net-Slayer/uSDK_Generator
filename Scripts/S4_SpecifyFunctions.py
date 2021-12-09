@@ -2,12 +2,7 @@ import os
 import re
 
 
-FunctionData = r"..\SampleDump\CPP\SDK\Mordhau_functions.cpp"
-FunctionFile = open(FunctionData, 'r')
-FunctionLines = FunctionFile.readlines()
-
-
-def grabData(funcName, ClassFileName):
+def grabData(funcName, ClassFileName, FunctionLines):
     m = re.search(r'[ ](\S*)\((.*)\);', funcName)
     print(m)
     name = m.group(1)
@@ -51,7 +46,9 @@ def resolveSpecifiers(x, fname):
     return specList, constFlag
 
 
-def ClassSpecFunction(Lines, ClassName, GameName):
+def ClassSpecFunction(Lines, ClassName, GameName, FunctionData):
+    FunctionFile = open(FunctionData, 'r')
+    FunctionLines = FunctionFile.readlines()
 
     FunctionBeginIndex = [i for i, v in enumerate(
         Lines) if '// Functions' in v]
@@ -78,7 +75,7 @@ def ClassSpecFunction(Lines, ClassName, GameName):
     else:
         for i, v in enumerate(Lines):
             if i > FunctionBeginIndex and i < (len(Lines) - 1):
-                name, params, flags = grabData(v, BaseName)
+                name, params, flags = grabData(v, BaseName, FunctionLines)
                 spec, isConst = resolveSpecifiers(flags, name)
                 ClassOut.append("UFUNCTION(" + ', '.join(spec) + ")\n")
                 if isConst:
