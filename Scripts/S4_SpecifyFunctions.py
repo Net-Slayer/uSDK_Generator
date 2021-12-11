@@ -1,5 +1,6 @@
 import os
 import re
+from S3_SpecifyProperties import FindLine
 
 
 def grabData(funcName, ClassFileName, FunctionLines):
@@ -50,16 +51,8 @@ def ClassSpecFunction(Lines, ClassName, GameName, FunctionData):
     FunctionFile = open(FunctionData, 'r')
     FunctionLines = FunctionFile.readlines()
 
-    FunctionBeginIndex = [i for i, v in enumerate(
-        Lines) if '// Functions' in v]
+    FunctionBeginIndex = FindLine(Lines, '// Functions')
 
-    if len(FunctionBeginIndex) == 0:
-        NoFunctions = True
-        FunctionBeginIndex = len(Lines)
-    else:
-        FunctionBeginIndex = FunctionBeginIndex[0]
-
-    print(FunctionBeginIndex)
     GeneratedClassName = ClassName.replace(".h", ".generated.h")
     ClassOut = ["#pragma once\n", "#include \"CoreMinimal.h\"\n",
                 "#include \"" + GameName + ".h\"\n"]
@@ -70,7 +63,7 @@ def ClassSpecFunction(Lines, ClassName, GameName, FunctionData):
     BaseName = ClassName.replace(".h", "")
     print("ClassName is: " + BaseName)
 
-    if NoFunctions:
+    if FunctionBeginIndex == -1:
         return Lines
     else:
         for i, v in enumerate(Lines):

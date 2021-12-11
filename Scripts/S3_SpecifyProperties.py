@@ -2,6 +2,20 @@ import os
 import re
 
 
+def FindLine(listA, lineStr):
+    FoundIndex = -1
+    for i, v in enumerate(listA):
+        # print(str(i) + " : " + v)
+        if lineStr in v:
+            FoundIndex = i
+            break
+    if FoundIndex == -1:
+        print("Line '" + lineStr + "' not found")
+    else:
+        print("Found '" + lineStr + "' at line: " + str(FoundIndex))
+    return FoundIndex
+
+
 def isVariable(x):
     return re.match(r'(.*); \/\/ \((.*)\)$', x)
 
@@ -48,29 +62,17 @@ def resolveSpecifiers(x, Name):
 
 
 def ClassSpecProperty(fileName, Lines):
-    NoVariables = False
-    NoFunctions = False
     print(fileName + " has " + str(len(Lines)) + " lines")
+    # VariableBeginIndex = [i for i, v in enumerate(
+    #     Lines) if '// Variables' in v]
+    VariableBeginIndex = FindLine(Lines, '// Variables')
 
-    VariableBeginIndex = [i for i, v in enumerate(
-        Lines) if '// Variables' in v]
-    if len(VariableBeginIndex) == 0:
-        NoVariables = True
-        VariableBeginIndex = 0
-    else:
-        VariableBeginIndex = VariableBeginIndex[0]
-    print(VariableBeginIndex)
+    # FunctionBeginIndex = [i for i, v in enumerate(
+    #     Lines) if '// Functions' in v]
+    FunctionBeginIndex = FindLine(Lines, '// Functions')
 
-    FunctionBeginIndex = [i for i, v in enumerate(
-        Lines) if '// Functions' in v]
-    if len(FunctionBeginIndex) == 0:
-        NoFunctions = True
-        FunctionBeginIndex = len(Lines)
-    else:
-        FunctionBeginIndex = FunctionBeginIndex[0]
-    print(FunctionBeginIndex)
     ClassOut = []
-    if NoVariables:
+    if (VariableBeginIndex == -1) or (FunctionBeginIndex == -1):
         return Lines
     else:
         VarCount = 0

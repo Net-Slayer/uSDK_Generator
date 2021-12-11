@@ -15,8 +15,7 @@ def FormatClass(inputFile, API_Name):
     file1 = open(inputFile, 'r')
     Lines = file1.readlines()
     MinLines = []
-    text = file1.read()
-    print(str(text))
+
     API_Name = API_Name.upper() + "_API"
 
     # 2. Clear empty and "unknown data" lines
@@ -39,11 +38,13 @@ def FormatClass(inputFile, API_Name):
                 MinLines.append(cleared.replace("unsigned char", "uint8"))
 
     block = ''.join(MinLines)
-    print(block)
     # 8. Add Generatedbody()
     generated = re.sub(
         r"\{\npublic:", r"{\nGENERATED_BODY()\r\npublic:\n// Variables", block)
     # 9. Remove static init function block
     final = re.sub(
         r"static(.*).*?\n.*?\{([^\}]*)\}", "// Functions", generated)
+    final = final.splitlines(True)
+    print("Final length : " + str(len(final)))
+    print("Class Formatted: {FileName}".format(FileName=inputFile.name))
     return final

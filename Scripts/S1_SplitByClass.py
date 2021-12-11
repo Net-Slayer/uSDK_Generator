@@ -43,7 +43,6 @@ def SplitByClass(inputFile, searchStr, OutDir):
             ClassContents = Lines[(v - 1):(n2)]
             ClassFile = OutDir + "\\" + ClassFileName
             ClassFile = ClassFile.strip().replace("\\", "/")
-            print(ClassFile)
             SplitClassesCount += 1
             with open(ClassFile, 'w') as f:
                 for item in ClassContents:
