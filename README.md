@@ -16,18 +16,29 @@ I have built this to be configurable via a config.ini file
 
 
 ## Method:
+
 Stage 1 - Split Classes into separate files.
+
 Stage 2 - Format each file from stage 1 applying fixes, removing some junk and format it inline with UE4 Class structure
+
 Stage 3 - Interpret flags from GameName_classes.h to add UPROPERTY Specifiers
+
 Stage 4 - Interpret flags from GameName_functions.cpp to add UFUNCTION Specifiers
+
 ***
 _The above is the Minimal Viable Product stage, which is ready for use as one script
 Though If I have further time the following stages would also be implemented_
 ***
+
 Stage 5 - Format Core structs and enums from GameName_structs.h
+
 Stage 6 - Modify includes of classes generated from above stages to auto-include referenced class types.
+
 Stage 7 - Generate .cpp files for the above classes that contain functions
 
 ## Output:
 The result is a foundational set of classes that would go in your source folder for a uSDK project
 while this helps with assembling blueprints, you will have to get actual content from something like uModel or FModel.
+
+An example of the output from Mordhau can be found here:
+https://github.com/Net-Slayer/uSDK_Output_Mordhaug

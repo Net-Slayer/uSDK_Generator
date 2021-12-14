@@ -26,9 +26,9 @@ OutputSplitFiles = config.get(
 FinalOutputDir = config.get(
     "OutputFiles", "FinalOutput", raw=True).strip('"')
 
-print()
-# # {value for value in variable}plit all files
-# SplitByClass(ClassDataInput, ClassSearchStr, OutputSplitFiles)
+
+# split all files
+SplitByClass(ClassDataInput, ClassSearchStr, OutputSplitFiles)
 #
 FileCounter = 0
 # Parse for each resulting file
@@ -53,10 +53,11 @@ for entry in os.scandir(OutputSplitFiles):
             for item in Final:
                 f.write(item)
 
-print("Complete! Files Processed : " + str(FileCounter))
 
 # stage 5 - Structs and enums
 ProcessStructs(StructDataInput, GameApiName,
                FinalOutputDir + "\\" + GameApiName + ".h")
 
 # stage 5.1 beautify using ArtisticStyle via shell
+
+print("Complete! Files Processed : " + str(FileCounter))
