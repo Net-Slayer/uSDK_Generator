@@ -131,3 +131,4 @@ dmypy.json
 Output/
 test.py
 Scripts/Backups/
+SampleDump/
