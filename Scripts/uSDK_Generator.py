@@ -58,3 +58,5 @@ print("Complete! Files Processed : " + str(FileCounter))
 # stage 5 - Structs and enums
 ProcessStructs(StructDataInput, GameApiName,
                FinalOutputDir + "\\" + GameApiName + ".h")
+
+# stage 5.1 beautify using ArtisticStyle via shell
