@@ -26,7 +26,7 @@ def grabData(x):
         name = m.group(1)
         found = m.group(2)
     else:
-        name, found = ""
+        name = found = ""
     return name, found
     # 1. iterate over mordhauclasses.h to find unique combinations of flags
     # 2. assign uproperty specifiers for each unique cell
